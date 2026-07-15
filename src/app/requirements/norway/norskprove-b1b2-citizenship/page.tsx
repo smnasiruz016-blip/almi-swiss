@@ -79,7 +79,7 @@ export default function Page() {
             The Norwegian-language requirement for citizenship is <strong>Norskprøven B1–B2</strong>, a test set at CEFR{" "}
             <strong>B1–B2</strong> across Reading, Listening, Writing and Speaking. It sits under the{" "}
             <strong>HK-dir (the Directorate for Higher Education and Skills)</strong>; residency and citizenship itself are handled by{" "}
-            <strong>UDI</strong> (Styrelsen for International Rekruttering og Integration).
+            <strong>UDI</strong> (Utlendingsdirektoratet, the Norwegian Directorate of Immigration).
             Here&apos;s an honest read on what it covers, how it is passed, and how to prepare for it fairly.
           </p>
         </header>

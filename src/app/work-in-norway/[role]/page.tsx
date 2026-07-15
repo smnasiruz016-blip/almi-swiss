@@ -33,7 +33,7 @@ export default async function RoleHub({ params }: { params: Params }) {
         <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Norway as a {r.name}</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
           The Norwegian you need as a {r.name} depends on the setting and city. Pick where you're coming from and the
-          hub you're targeting — Copenhagen, Aarhus, Odense and other regions — or start practising Norwegian now.
+          hub you're targeting — Oslo, Bergen, Trondheim and other regions — or start practising Norwegian now.
         </p>
         <div className="mt-6">
           <Link href="/exams/norskprove-b1b2" className="text-sm font-semibold text-almi-coral hover:underline">Norskprøven B1–B2 (B1–B2) — citizenship language test →</Link>

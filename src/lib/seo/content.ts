@@ -63,7 +63,7 @@ const INDF = examBySlug("statsborgerproven")!; // citizenship knowledge test
 
 // A short roster of well-known Norwegian universities, named generically so the
 // copy never fabricates a specific programme claim.
-const DK_UNIS = "the University of Copenhagen, Aarhus University and other Norwegian universities";
+const NO_UNIS = "the University of Oslo, NTNU in Trondheim, the University of Bergen and other Norwegian universities";
 
 // Shared honest fragments -----------------------------------------------------
 const READINESS_LINE =
@@ -125,7 +125,7 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
   };
 
   const introVariants = [
-    `Planning to study ${sm.field} in Norway from ${country.name}? ${DK_UNIS} offer strong programmes across ${subject.name.toLowerCase()}. Many master's courses are taught in English — but for a Norwegian-taught programme, and for daily life, the step students most often underestimate is Norwegian itself.`,
+    `Planning to study ${sm.field} in Norway from ${country.name}? ${NO_UNIS} offer strong programmes across ${subject.name.toLowerCase()}. Many master's courses are taught in English — but for a Norwegian-taught programme, and for daily life, the step students most often underestimate is Norwegian itself.`,
     `${subject.name} is a popular reason students from ${country.name} look to Norway. Whichever university and town you aim for, one thing shapes how smoothly you settle in and follow a Norwegian-taught programme: your Norwegian.`,
     `If you're coming from ${country.name} to study ${sm.field} in Norway, the academic side is only half the picture — where a programme is taught in Norwegian, the language pathway is what turns an offer into a place you can fully live and learn in.`,
   ];
@@ -147,7 +147,7 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
         body: [
           `Norway offers a number of English-taught programmes, especially at master's level — those may not require Norwegian for admission. Norwegian-taught programmes typically ask for roughly B1–B2, which maps to ${NORSKPROVE_A2B1.name} or ${NORSKPROVE_B1B2.name}, and higher-level admission may go through Bergenstesten. Either way you'll need Norwegian for paperwork, part-time work and everyday life. Confirm the exact requirement with the specific university and programme.`,
           sm.regulated
-            ? `${subject.name} is often a regulated field: beyond admission, professional practice in Norway can require a set Norwegian level plus separate recognition of your qualifications (for example authorisation through the Norwegian Patient Safety Authority, Styrelsen for Patientsikkerhed, for healthcare roles). Treat the exam as one step and confirm recognition with the relevant Norwegian authority.`
+            ? `${subject.name} is often a regulated field: beyond admission, professional practice in Norway can require a set Norwegian level plus separate recognition of your qualifications (for example authorisation through the Norwegian Directorate of Health, Helsedirektoratet, for healthcare roles). Treat the exam as one step and confirm recognition with the relevant Norwegian authority.`
             : `For ${sm.field}, a solid B1–B2 lets you follow a Norwegian-taught programme, write assignments and integrate — aim a level above the minimum if you can.`,
         ],
       },

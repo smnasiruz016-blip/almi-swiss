@@ -34,7 +34,7 @@ export default async function SubjectHub({ params }: { params: Params }) {
         </nav>
         <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Study {s.name} in Norway</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
-          The University of Copenhagen, Aarhus University and the University of Southern Norway offer {s.name} programmes; most
+          The University of Oslo, NTNU in Trondheim and the University of Bergen offer {s.name} programmes; most
           Norwegian-taught courses ask for around B2. Pick your country of origin for the language pathway, or start
           practising the Norwegian exams now.
         </p>
