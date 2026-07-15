@@ -39,6 +39,12 @@ const ALLOWLIST = new Map([
   ["src/lib/nav/family.ts", "links to sibling AlmiWorld products by name"],
   // This gate documents the exact leaks it prevents.
   ["scripts/seo/fork-hygiene-gate.mjs", "documents the banned nouns"],
+  // Same reason, and it earned the entry the honest way: this gate FAILED that
+  // file's first build (2026-07-15) because its comments name almi-icelandic
+  // while explaining which forks shared the self-origin bug. It is a build
+  // script, not user-facing copy, and it must name the ancestors to explain the
+  // absence bug it exists to catch — Portugal missing from all five forks.
+  ["scripts/seo/countries-axis-gate.mjs", "documents the lineage bugs it prevents; build script, never rendered"],
   // REAL-WORLD REFERENCE DATA, not authored copy. Norway/Denmark/Iceland are
   // legitimate ORIGIN countries for a Swedish product (someone really can move
   // from Norway to Sweden), universities.json lists institutions worldwide as
