@@ -1,7 +1,7 @@
-// AlmiSwedish scoring engine — per-skill READINESS estimate. Norskprøven B1–B2,
-// the University of Norway entrance exam and the CEFR levels are pass/fail against
-// official criteria; we do NOT fabricate an official UDI /
-// Ministry result. We score each skill's objective items
+// AlmiSwedish scoring engine — per-skill READINESS estimate. Tisus, the SFI ladder
+// and the CEFR levels are pass/fail against official criteria, and
+// Medborgarskapsprovet has no published pass mark at all; we do NOT fabricate an
+// official result for any of them. We score each skill's objective items
 // deterministically to a percentage and map it to an honest readiness band, and
 // we label productive skills (Writing/Speaking) as AI estimates.
 

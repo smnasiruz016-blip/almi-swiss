@@ -1,187 +1,187 @@
 [
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Essay on free education",
+    "title": "Essay: individual or structural responsibility",
     "prompt": "Write an argumentative essay defending a clear thesis.",
     "payload": {
-      "stimulus": "Skriv et argumenterende essay der du tar stilling til påstanden: 'Høyere utdanning bør fortsatt være gratis og finansiert over skatten.' Legg fram en klar tese, underbygg den med minst to velbegrunnede argumenter, og trekk inn og imøtegå et motargument.",
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till påståendet: 'Ansvaret för omställningen till ett hållbart samhälle bör i första hand ligga på den enskilda konsumenten, inte på politiska beslutsfattare.' Formulera en tydlig tes, underbygg den med minst två självständigt utvecklade argument, och för fram och bemöt ett vägande motargument. Resonera om vad som rimligen kan krävas av en enskild person och vad som förutsätter kollektiva beslut.",
       "criteria": [
-        "Clear thesis and coherent argumentation",
-        "Nuanced treatment of a counterargument",
-        "Academic language with precise vocabulary",
-        "Correct grammar and appropriate text structure"
+        "States a clear, arguable thesis and sustains it throughout",
+        "Organises the argument coherently with explicit academic connectors",
+        "Supports claims with reasoned evidence and examples rather than assertion",
+        "Uses academic register: nominalisation, hedging, precise vocabulary"
       ],
-      "charBand": { "min": 200, "max": 450 }
+      "charBand": { "min": 400, "max": 900 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Debate summary: AI at work",
-    "prompt": "Summarise the two sides of a public debate objectively.",
+    "title": "Essay: densification of cities",
+    "prompt": "Write an argumentative essay taking a position on urban densification.",
     "payload": {
-      "stimulus": "Sammenfatt den pågående debatten om kunstig intelligens i arbeidslivet. Gjør nøytralt rede for både de optimistiske og de kritiske synspunktene, og avslutt med en kort, begrunnet vurdering av hvor den viktigste uenigheten ligger.",
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till frågan om huruvida förtätning bör vara den ledande principen i svensk stadsplanering. Väg fördelarna, såsom kortare avstånd och bärkraftig kollektivtrafik, mot invändningar om förlorade grönytor och trängsel. Gör tydligt på vilken nivå du menar att avvägningen ska göras, och vem som bär kostnaden för den.",
       "criteria": [
-        "Balanced and faithful rendering of both positions",
-        "Clear separation of summary and own evaluation",
-        "Coherence and logical progression",
-        "Varied and precise academic language"
+        "Formulates an explicit position and defends it consistently",
+        "Structures the text with a clear line of reasoning from premise to conclusion",
+        "Weighs competing evidence rather than presenting one side only",
+        "Maintains an academic register appropriate to a university essay"
       ],
-      "charBand": { "min": 200, "max": 450 }
+      "charBand": { "min": 400, "max": 900 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Essay on the oil transition",
-    "prompt": "Argue a position on the pace of Norway's petroleum transition.",
+    "title": "Essay: English as the language of research",
+    "prompt": "Write an argumentative essay on language choice in academia.",
     "payload": {
-      "stimulus": "Skriv et essay der du tar stilling til hvor raskt Norge bør trappe ned petroleumsvirksomheten. Argumenter for hvilke hensyn som bør veie tyngst når klimamål og hensynet til arbeidsplasser og statsfinanser står mot hverandre, og underbygg synspunktene dine med konkrete eksempler.",
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till påståendet: 'Att svensk forskning nästan uteslutande publiceras på engelska är ett pris värt att betala.' Utveckla minst två argument för din tes och bemöt en invändning. Beakta både forskarsamhällets behov av ett gemensamt språk och frågan om hur kunskapen ska nå en bredare allmänhet.",
       "criteria": [
-        "Independent position with a clear thread",
-        "Relevant and concrete examples",
-        "Weighing of opposing considerations",
-        "Correct language and academic register"
+        "Advances a clearly stated thesis with a defensible line of argument",
+        "Develops paragraphs logically with explicit signposting",
+        "Grounds claims in reasoning and illustration rather than assertion",
+        "Demonstrates command of formal academic Swedish"
       ],
-      "charBand": { "min": 200, "max": 450 }
+      "charBand": { "min": 400, "max": 900 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Essay on social media",
-    "prompt": "Discuss the role of social media in public debate.",
+    "title": "Essay: grading and selection",
+    "prompt": "Write an argumentative essay on the function of grades.",
     "payload": {
-      "stimulus": "Diskuter hvilken betydning sosiale medier har for den demokratiske samtalen. Vurder både muligheter og risikoer, og ta stilling til om og hvordan plattformene bør reguleres.",
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till frågan om betyg bör fylla både funktionen att stödja elevens lärande och funktionen att rangordna sökande till högre utbildning. Argumentera för en tydlig ståndpunkt, underbygg den, och behandla den invändning som ligger närmast till hands mot din slutsats.",
       "criteria": [
-        "Nuanced discussion of advantages and disadvantages",
-        "Well-founded position on regulation",
-        "Coherent structure with a clear conclusion",
-        "Precise word choice and correct grammar"
+        "Presents an unambiguous thesis and a coherent argumentative structure",
+        "Handles a counterargument with genuine engagement, not a straw man",
+        "Substantiates claims with reasoned support",
+        "Uses academic vocabulary, subordination and appropriate hedging"
       ],
-      "charBand": { "min": 200, "max": 450 }
+      "charBand": { "min": 400, "max": 900 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Summary of a research finding",
-    "prompt": "Summarise and comment on a research finding.",
-    "payload": {
-      "stimulus": "En undersøkelse viser at søvn spiller en sentral rolle for læring, og at en god natts søvn etter studier kan være mer gunstig enn ytterligere repetisjon uten søvn. Sammenfatt resultatet med egne ord, og reflekter over hvilke konsekvenser det kan ha for studenters eksamensforberedelse.",
-      "criteria": [
-        "Precise and independent summary",
-        "Relevant reflection on consequences",
-        "Logical connection between summary and evaluation",
-        "Correct and varied language"
-      ],
-      "charBand": { "min": 200, "max": 450 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Essay on centralisation",
-    "prompt": "Argue whether policy can counter regional imbalance.",
-    "payload": {
-      "stimulus": "Skriv et argumenterende essay om hvorvidt politiske tiltak kan motvirke den geografiske skjevheten der utdanning og arbeidsplasser samles i de største byene, mens distriktene tappes. Ta stilling, og forhold deg kritisk til hvor grensene for politisk styring går.",
-      "criteria": [
-        "Clear thesis and sustained argumentation",
-        "Critical engagement with the limits of governance",
-        "Coherent structure",
-        "Academic and correct language"
-      ],
-      "charBand": { "min": 200, "max": 450 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Essay on the welfare model",
-    "prompt": "Evaluate the strengths and weaknesses of the welfare model.",
-    "payload": {
-      "stimulus": "Vurder styrker og svakheter ved den nordiske velferdsmodellen. Trekk inn både argumentet om omfordeling og likhet og bekymringen for hvordan skattenivået påvirker motivasjonen til å arbeide, og kom fram til en begrunnet samlet vurdering.",
-      "criteria": [
-        "Balanced weighing of arguments",
-        "Independent, well-founded conclusion",
-        "Precise subject-specific vocabulary",
-        "Correct grammar and structure"
-      ],
-      "charBand": { "min": 200, "max": 450 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Letter to the editor",
-    "prompt": "Write a reasoned letter to the editor.",
+    "title": "Essay: preventive health care",
+    "prompt": "Write an argumentative essay on health care priorities.",
     "payload": {
-      "stimulus": "Skriv et leserinnlegg der du forholder deg til påstanden om at unge ikke lenger leser. Argumenter for et mer nyansert syn, og kom med et konkret forslag til hvordan man kan styrke den dype, konsentrerte lesingen i utdanningssystemet.",
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till påståendet: 'En större andel av hälso- och sjukvårdens resurser bör föras över från akut vård till förebyggande arbete.' Lägg fram en tydlig tes, utveckla minst två argument, och bemöt invändningen att förebyggande insatsers nytta är svår att belägga i det enskilda fallet.",
       "criteria": [
-        "Appropriate genre features of a letter to the editor",
-        "Clear standpoint and concrete proposal",
-        "Convincing argumentation",
-        "Correct and fluent language"
+        "Articulates a clear thesis and maintains focus on it",
+        "Organises the essay with a discernible introduction, development and conclusion",
+        "Uses evidence and reasoned illustration to support each claim",
+        "Sustains a formal academic register throughout"
       ],
-      "charBand": { "min": 200, "max": 450 }
+      "charBand": { "min": 400, "max": 900 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Essay: algorithms and editorial responsibility",
+    "prompt": "Write an argumentative essay on platform responsibility.",
+    "payload": {
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till frågan om plattformsföretag bör bära ett redaktionellt ansvar för det innehåll deras rekommendationssystem lyfter fram. Formulera en tes, underbygg den med minst två argument, och pröva invändningen att inget enskilt redaktionellt beslut fattas av en människa.",
+      "criteria": [
+        "Takes a clear and defensible position on the question posed",
+        "Builds the argument in a logically ordered sequence",
+        "Supports reasoning with relevant, non-fabricated illustration",
+        "Employs precise academic Swedish with appropriate qualification"
+      ],
+      "charBand": { "min": 400, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Essay: recognition of foreign qualifications",
+    "prompt": "Write an argumentative essay on the labour market and qualifications.",
+    "payload": {
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till påståendet: 'Att många nyanlända med hög utbildning arbetar under sin kompetensnivå beror i huvudsak på bristande språkkunskaper.' Utveckla en tes, underbygg den med minst två argument, och behandla åtminstone en alternativ förklaring till fenomenet.",
+      "criteria": [
+        "Formulates a thesis that genuinely answers the question asked",
+        "Develops a structured argument with clear transitions between stages",
+        "Weighs alternative explanations on their merits before rejecting them",
+        "Writes in an academic register suited to a university readership"
+      ],
+      "charBand": { "min": 400, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Essay: evidence and political choice",
+    "prompt": "Write an argumentative essay on evidence in policy-making.",
+    "payload": {
+      "stimulus": "Skriv en argumenterande essä där du tar ställning till påståendet: 'Politiska beslut bör i så hög grad som möjligt avgöras av forskningsläget.' Formulera en tydlig tes och underbygg den. Resonera i din framställning om var gränsen går mellan frågor som forskningen kan avgöra och frågor som förutsätter en värdering.",
+      "criteria": [
+        "Advances a clear thesis and distinguishes empirical from normative claims",
+        "Structures the essay so that each stage advances the argument",
+        "Supports the position with reasoned argument rather than assertion",
+        "Demonstrates control of abstract academic Swedish"
+      ],
+      "charBand": { "min": 400, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Defend a viewpoint: tuition",
+    "title": "Present a position: consumer responsibility",
     "prompt": "Present and defend an academic viewpoint.",
     "payload": {
-      "stimulus": "Legg fram og forsvar synet ditt på om høyere utdanning fortsatt bør være gratis. Presenter minst to argumenter, og vær forberedt på å imøtegå innvendinger.",
+      "stimulus": "Håll en kort muntlig presentation där du tar ställning till frågan om ansvaret för klimatomställningen i första hand vilar på den enskilda konsumenten eller på politiska beslutsfattare. Lägg fram minst två argument för din ståndpunkt, och var beredd att bemöta invändningar från övriga seminariedeltagare.",
       "criteria": [
-        "Clear and structured presentation",
-        "Well-founded arguments",
-        "Ability to defend the view against objections",
-        "Fluent and precise spoken language"
+        "Structures the presentation clearly with an audible line of argument",
+        "Supports the position with well-founded reasoning",
+        "Defends the view against objections without abandoning it unnecessarily",
+        "Speaks fluently in a precise academic register"
       ],
       "minSeconds": 120
     },
@@ -190,19 +190,19 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Present a position: AI",
-    "prompt": "Present and defend an academic viewpoint.",
+    "title": "Seminar discussion: densification",
+    "prompt": "Take part in an academic discussion.",
     "payload": {
-      "stimulus": "Legg fram vurderingen din av om kunstig intelligens samlet sett vil gagne eller skade det norske arbeidsmarkedet. Begrunn standpunktet ditt, og trekk inn mulige motargumenter.",
+      "stimulus": "Du deltar i ett seminarium om stadsplanering. Redogör för hur du ser på avvägningen mellan förtätning och bevarade grönytor i växande svenska städer. Motivera din hållning, och gör tydligt på vilken nivå — kvarteret, staden eller regionen — du menar att avvägningen bör bedömas.",
       "criteria": [
-        "Coherent and logical presentation",
-        "Nuanced inclusion of counterarguments",
-        "Appropriate academic vocabulary",
-        "Good pronunciation and fluent speech"
+        "Presents a coherent position with explicit reasoning",
+        "Distinguishes levels of analysis rather than conflating them",
+        "Responds to counter-positions constructively and precisely",
+        "Uses fluent, register-appropriate spoken Swedish"
       ],
       "minSeconds": 120
     },
@@ -211,19 +211,19 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Defend a viewpoint: climate",
+    "title": "Present a position: language of research",
     "prompt": "Present and defend an academic viewpoint.",
     "payload": {
-      "stimulus": "Argumenter muntlig for hvilke hensyn som bør veie tyngst i den grønne omstillingen når klimamål og sosial rettferdighet kommer i konflikt. Forsvar prioriteringen din.",
+      "stimulus": "Presentera din syn på om det är ett problem att svensk forskning nästan uteslutande publiceras på engelska. Utveckla minst två argument, och ta ställning till invändningen att ett gemensamt vetenskapligt språk gör forskningen mer tillgänglig snarare än mindre.",
       "criteria": [
-        "Clear prioritisation with justification",
-        "Convincing and coherent argumentation",
-        "Ability to add nuance under pressure",
-        "Fluent, correct spoken language"
+        "Delivers a clearly organised argument with a stated position",
+        "Grounds claims in reasoning rather than assertion",
+        "Engages seriously with the stated objection",
+        "Speaks with fluency, precision and academic vocabulary"
       ],
       "minSeconds": 120
     },
@@ -232,19 +232,19 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Discuss social media",
-    "prompt": "Present and defend an academic viewpoint.",
+    "title": "Seminar discussion: remote work",
+    "prompt": "Take part in an academic discussion.",
     "payload": {
-      "stimulus": "Legg fram synet ditt på om sosiale medier styrker eller svekker den demokratiske samtalen. Kom med et forslag til hvordan eventuelle problemer kan håndteres, og begrunn det.",
+      "stimulus": "Du deltar i ett seminarium om arbetslivets förändring. Argumentera för din uppfattning om huruvida distansarbete bör vara huvudregel för de yrkesgrupper där det är praktiskt möjligt. Väg in såväl mätbar produktivitet som det som är svårare att mäta, exempelvis hur nya medarbetare lär sig sitt arbete.",
       "criteria": [
-        "Clear standpoint and concrete proposal",
-        "Structured presentation",
-        "Relevant and precise word choice",
-        "Fluent speech with good coherence"
+        "Structures the contribution around an explicit position",
+        "Distinguishes what is measurable from what is not, and reasons about both",
+        "Responds to other participants' arguments substantively",
+        "Speaks fluently in an appropriate academic register"
       ],
       "minSeconds": 120
     },
@@ -253,19 +253,19 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Present a position: welfare",
+    "title": "Present a position: research ethics",
     "prompt": "Present and defend an academic viewpoint.",
     "payload": {
-      "stimulus": "Legg fram vurderingen din av framtiden til den nordiske velferdsmodellen. Ta stilling til om modellen er bærekraftig, og forsvar vurderingen din med argumenter.",
+      "stimulus": "Håll en kort presentation om hur kravet på informerat samtycke bör tillämpas i forskning där materialets framtida användning inte kan preciseras vid insamlingstillfället. Ta ställning till om breda samtycken är en godtagbar lösning, och motivera din slutsats.",
       "criteria": [
-        "Well-founded overall assessment",
-        "Coherent argumentation",
-        "Academic register and precise language",
-        "Good pronunciation and flow"
+        "Sets out a clear position on an abstract ethical question",
+        "Argues from stated principles to a defensible conclusion",
+        "Handles objections with nuance rather than dismissal",
+        "Uses precise academic Swedish in extended spoken discourse"
       ],
       "minSeconds": 120
     },
@@ -274,40 +274,40 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Discuss the right to roam",
-    "prompt": "Present and defend an academic viewpoint.",
-    "payload": {
-      "stimulus": "Legg fram tankene dine om hvordan allemannsretten bør forvaltes når stadig flere bruker naturen samtidig. Gi konkrete eksempler, og forsvar prioriteringene dine.",
-      "criteria": [
-        "Concrete and relevant examples",
-        "Clear structure and thread",
-        "Precise vocabulary",
-        "Fluent oral presentation"
-      ],
-      "minSeconds": 120
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Defend a viewpoint: research use",
+    "title": "Seminar discussion: rural depopulation",
+    "prompt": "Take part in an academic discussion.",
+    "payload": {
+      "stimulus": "Du deltar i ett seminarium om regional utveckling. Redogör för din syn på om avfolkningen av glesbygden bör betraktas som en oundviklig utveckling eller som en följd av politiska prioriteringar. Motivera din ståndpunkt och var beredd att pröva den mot invändningar.",
+      "criteria": [
+        "Advances a clear position with explicit supporting reasons",
+        "Reasons about causation rather than describing the phenomenon only",
+        "Engages with objections in a considered way",
+        "Speaks fluently and accurately in academic Swedish"
+      ],
+      "minSeconds": 120
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Present a position: publication metrics",
     "prompt": "Present and defend an academic viewpoint.",
     "payload": {
-      "stimulus": "Argumenter muntlig for hvorfor det er viktig å forholde seg kritisk til vitenskapelige resultater, selv når de er publisert i et fagfellevurdert tidsskrift. Forsvar synspunktet ditt med eksempler.",
+      "stimulus": "Presentera din uppfattning om huruvida antalet publikationer och citeringar bör användas som grund för att fördela forskningsanslag. Utveckla minst två argument, och bemöt invändningen att alternativet — kollegial bedömning utan mätbara mått — riskerar att bli godtyckligt.",
       "criteria": [
-        "Clear understanding of source criticism",
-        "Convincing argumentation with examples",
-        "Ability to elaborate on request",
-        "Fluent and correct academic speech"
+        "Presents a structured argument with a clearly stated conclusion",
+        "Supports each claim with reasoning rather than assertion",
+        "Addresses the stated objection on its merits",
+        "Speaks with precision, fluency and academic vocabulary"
       ],
       "minSeconds": 120
     },

@@ -12,23 +12,23 @@ const SITE_URL = "https://almiswedish.almiworld.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "AlmiSwedish — Norskprøven & Bergenstesten practice with honest AI feedback",
+    default: "AlmiSwedish | Practise Swedish Exams with Honest Readiness",
     template: "%s · AlmiSwedish",
   },
   description:
-    "Practise the Norwegian exams — Norskprøven A1–A2, A2–B1 and B1–B2, Bergenstesten, and the Statsborgerprøven and Samfunnskunnskapsprøven knowledge tests — with honest per-skill readiness estimates and AI feedback. $12/month with a 7-day free trial. Original material, never copied from official exam papers. Confirm residency and citizenship rules with UDI. Part of the AlmiWorld family.",
+    "Sweden's new 2026 citizenship rules add a civic test, with a language test to follow. Practise SFI, Tisus and the new Medborgarskapsprov with honest AI readiness bands. $12/month with a 7-day free trial. Original material, never copied from official exam papers. Not affiliated with UHR — confirm current requirements with UHR and Migrationsverket. Part of the AlmiWorld family.",
   applicationName: "AlmiSwedish",
   authors: [{ name: "AlmiWorld" }],
-  keywords: ["Norskprøven", "Norskprøven B1–B2", "Norwegian citizenship test", "Statsborgerprøven", "Samfunnskunnskapsprøven", "Bergenstesten", "learn Norwegian", "Norwegian exam practice", "permanent residence Norway", "AlmiSwedish", "AlmiWorld"],
+  keywords: ["SFI practice test online", "Swedish citizenship language test", "Tisus mock test", "Medborgarskapsprov Sweden preparation", "Svenska B1 B2 evaluation", "Medborgarskapsprovet", "SFI", "Tisus", "learn Swedish", "Swedish exam practice", "AlmiSwedish", "AlmiWorld"],
   openGraph: {
-    title: "AlmiSwedish — honest Norskprøven & Bergenstesten practice",
-    description: "Original Norwegian practice for the Norskprøven ladder, Bergenstesten and the Norwegian society knowledge tests — honest per-skill readiness estimates and AI feedback.",
+    title: "AlmiSwedish — honest SFI, Tisus & Medborgarskapsprov practice",
+    description: "Original Swedish practice for the SFI ladder, Tisus and Sweden's new Medborgarskapsprov civic test — honest per-skill readiness estimates and AI feedback.",
     url: SITE_URL,
     siteName: "AlmiSwedish",
     type: "website",
     locale: "en_US",
   },
-  twitter: { card: "summary_large_image", title: "AlmiSwedish — Norskprøven & Bergenstesten practice", description: "Honest Norwegian practice — per-skill readiness estimates, ranges not inflated numbers." },
+  twitter: { card: "summary_large_image", title: "AlmiSwedish — SFI, Tisus & Medborgarskapsprov practice", description: "Honest Swedish practice — per-skill readiness estimates, ranges not inflated numbers." },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
 };
 

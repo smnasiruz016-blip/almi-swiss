@@ -18,7 +18,7 @@ import type {
 } from "./types";
 
 /** A single authored item, matching the SwedishItem content fields (no DB id). */
-export interface NorwegianItemSeed {
+export interface SwedishItemSeed {
   track: SwedishTrack;
   exam: SwedishExam;
   skill: SwedishSkill;
@@ -32,31 +32,32 @@ export interface NorwegianItemSeed {
 }
 
 const BUNDLE_FILES = [
-  // Norskprøven ladder — reading / listening / productive (writing+speaking) per exam
-  "norskprove-a1a2-reading.json",
-  "norskprove-a1a2-listening.json",
-  "norskprove-a1a2-productive.json",
-  "norskprove-a1a2-productive-2.json",
-  "norskprove-a2b1-reading.json",
-  "norskprove-a2b1-listening.json",
-  "norskprove-a2b1-productive.json",
-  "norskprove-a2b1-productive-2.json",
-  "norskprove-b1b2-reading.json",
-  "norskprove-b1b2-listening.json",
-  "norskprove-b1b2-productive.json",
-  "norskprove-b1b2-productive-2.json",
-  "bergenstesten-reading.json",
-  "bergenstesten-listening.json",
-  "bergenstesten-productive.json",
-  "bergenstesten-productive-2.json",
-  // Society / citizenship knowledge tests — single KNOWLEDGE (MCQ) module each
-  "statsborgerproven.json",
-  "samfunnskunnskapsproven.json",
+  // Swedish language ladder — reading / listening / productive (writing+speaking) per exam
+  "sfi-ab-reading.json",
+  "sfi-ab-listening.json",
+  "sfi-ab-productive.json",
+  "sfi-ab-productive-2.json",
+  "sfi-cd-reading.json",
+  "sfi-cd-listening.json",
+  "sfi-cd-productive.json",
+  "sfi-cd-productive-2.json",
+  "svenska-b1b2-reading.json",
+  "svenska-b1b2-listening.json",
+  "svenska-b1b2-productive.json",
+  "svenska-b1b2-productive-2.json",
+  "tisus-reading.json",
+  "tisus-listening.json",
+  "tisus-productive.json",
+  "tisus-productive-2.json",
+  // Society knowledge test — a single KNOWLEDGE (MCQ) module. Exactly one: Sweden
+  // has one society test. There is no language bundle for the citizenship test
+  // because UHR has not published a spec for it (see lib/sv/registry.ts).
+  "medborgarskapsprov.json",
 ];
 
 const ITEMS_DIR = path.join(process.cwd(), "src", "data", "items");
 
-function loadBundle(file: string): NorwegianItemSeed[] {
+function loadBundle(file: string): SwedishItemSeed[] {
   try {
     const full = path.join(ITEMS_DIR, file);
     if (!fs.existsSync(full)) return [];
@@ -64,16 +65,16 @@ function loadBundle(file: string): NorwegianItemSeed[] {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
-    return parsed as NorwegianItemSeed[];
+    return parsed as SwedishItemSeed[];
   } catch {
     // Malformed / partially-written bundle — tolerate and skip.
     return [];
   }
 }
 
-let cache: NorwegianItemSeed[] | null = null;
+let cache: SwedishItemSeed[] | null = null;
 
-function allItems(): NorwegianItemSeed[] {
+function allItems(): SwedishItemSeed[] {
   if (cache) return cache;
   cache = BUNDLE_FILES.flatMap(loadBundle);
   return cache;
@@ -84,7 +85,7 @@ export function getItems(filter: {
   track?: SwedishTrack;
   exam?: SwedishExam;
   skill?: SwedishSkill;
-} = {}): NorwegianItemSeed[] {
+} = {}): SwedishItemSeed[] {
   return allItems().filter(
     (it) =>
       (filter.track === undefined || it.track === filter.track) &&
@@ -138,7 +139,7 @@ export function pickPractice(
   skill: SwedishSkill,
   n: number,
   seed?: number,
-): NorwegianItemSeed[] {
+): SwedishItemSeed[] {
   const pool = getItems({ exam, skill });
   const ordered =
     seed === undefined

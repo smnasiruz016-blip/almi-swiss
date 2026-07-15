@@ -1,17 +1,17 @@
 [
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
     "title": "Introduce yourself",
-    "prompt": "Write a short introduction about yourself in Norwegian.",
+    "prompt": "Write a short introduction about yourself in Swedish.",
     "payload": {
-      "stimulus": "Skriv en kort tekst om deg selv: navnet ditt, alderen din, og hvor du bor.",
+      "stimulus": "Skriv en kort text om dig själv: ditt namn, din ålder och var du bor.",
       "criteria": [
-        "States name, age, and place of living in Norwegian",
-        "Uses simple present-tense sentences (jeg heter, jeg er, jeg bor)",
+        "States name, age, and place of living in Swedish",
+        "Uses simple present-tense sentences (jag heter, jag är, jag bor)",
         "Spelling and word order are mostly correct"
       ],
       "charBand": { "min": 40, "max": 120 }
@@ -21,17 +21,17 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
     "title": "Shopping note",
-    "prompt": "Write a short shopping list note to your family.",
+    "prompt": "Write a short shopping note to your family.",
     "payload": {
-      "stimulus": "Skriv en kort melding til familien din med tre eller fire ting de skal kjøpe i butikken.",
+      "stimulus": "Skriv en kort lapp till din familj. Skriv tre eller fyra saker de ska köpa på ICA.",
       "criteria": [
-        "Lists three to four everyday food or household items in Norwegian",
-        "Uses correct nouns and simple connecting words (og)",
+        "Lists three to four everyday food or household items in Swedish",
+        "Uses correct nouns and simple linking words (och)",
         "Message is clear and easy to understand"
       ],
       "charBand": { "min": 40, "max": 120 }
@@ -41,98 +41,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Describe your family",
-    "prompt": "Write a few sentences about your family.",
-    "payload": {
-      "stimulus": "Skriv om familien din: hvem bor du sammen med, og hva heter de?",
-      "criteria": [
-        "Names at least two family members and their relationship (mor, far, bror, søster)",
-        "Uses possessive words correctly (min, mitt)",
-        "Sentences are complete and understandable"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Invite a friend for coffee",
-    "prompt": "Write a short message inviting a friend for coffee.",
-    "payload": {
-      "stimulus": "Skriv en kort melding til en venn. Inviter vennen på kaffe, og skriv når og hvor.",
-      "criteria": [
-        "Includes an invitation, a day or time, and a place",
-        "Uses a polite phrase (vil du, kan du)",
-        "Message reads naturally for a friend"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "My daily routine",
-    "prompt": "Write about what you do on a normal day.",
-    "payload": {
-      "stimulus": "Skriv om dagen din: hva gjør du om morgenen, om ettermiddagen og om kvelden?",
-      "criteria": [
-        "Describes at least three parts of the day in Norwegian",
-        "Uses time words (om morgenen, klokka, så)",
-        "Verbs are used correctly in the present tense"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "The weather today",
-    "prompt": "Write a few sentences about the weather today.",
-    "payload": {
-      "stimulus": "Skriv om været i dag, og skriv hva du har på deg.",
-      "criteria": [
-        "Describes the weather with at least two adjectives (kaldt, solrikt, regnfullt)",
-        "Mentions a piece of clothing suitable for the weather",
-        "Sentences are grammatically simple and clear"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Message to the teacher",
-    "prompt": "Write a short message to your teacher that you are sick today.",
+    "title": "Message to your teacher",
+    "prompt": "Write a short message to your SFI teacher.",
     "payload": {
-      "stimulus": "Skriv en kort melding til læreren din. Fortell at du er syk og ikke kommer på skolen i dag.",
+      "stimulus": "Du är sjuk i dag och kan inte komma till SFI. Skriv ett kort meddelande till din lärare Anna.",
       "criteria": [
-        "States clearly that the writer is sick and cannot come",
-        "Uses a greeting and a closing (Hei, Vennlig hilsen)",
-        "Message is polite and understandable"
+        "Greets the teacher and gives a reason for being absent",
+        "Uses present tense and simple sentences (jag är sjuk, jag kan inte komma)",
+        "Ends with a short closing (Hälsningar + name)"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -141,18 +61,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "My home",
-    "prompt": "Write a few sentences describing where you live.",
+    "difficulty": "FOUNDATION",
+    "title": "Your family",
+    "prompt": "Write a few sentences about your family in Swedish.",
     "payload": {
-      "stimulus": "Skriv om hjemmet ditt: bor du i et hus eller en leilighet, og hvilke rom har du?",
+      "stimulus": "Skriv om din familj. Hur många är ni? Vad heter de? Var bor de?",
       "criteria": [
-        "Says whether it is a house or apartment and lists some rooms",
-        "Uses there-is/there-are structures (det er)",
-        "Includes a few descriptive words (stort, lite, nytt)"
+        "Names at least two family members and their relationship",
+        "Uses possessive forms (min, mitt, mina) correctly most of the time",
+        "Sentences are short, clear, and in the present tense"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -161,14 +81,94 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Your day",
+    "prompt": "Describe an ordinary day in Swedish.",
+    "payload": {
+      "stimulus": "Beskriv en vanlig dag. Skriv vad du gör på morgonen, på dagen och på kvällen.",
+      "criteria": [
+        "Describes at least three activities across the day",
+        "Uses time expressions (på morgonen, klockan sju, på kvällen)",
+        "Verbs are in the present tense and mostly correct"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Booking a health centre visit",
+    "prompt": "Write a short message to the health centre.",
+    "payload": {
+      "stimulus": "Du har ont i ryggen. Skriv ett kort meddelande till vårdcentralen och be om en tid.",
+      "criteria": [
+        "States the health problem in simple Swedish",
+        "Asks for an appointment and mentions a day or time",
+        "Includes a greeting and the writer's name"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Where you live",
+    "prompt": "Write about your home in Swedish.",
+    "payload": {
+      "stimulus": "Skriv om ditt hem. Bor du i en lägenhet eller i ett hus? Hur många rum finns det? Vad tycker du om ditt hem?",
+      "criteria": [
+        "Describes the type of home and at least two rooms",
+        "Gives one simple opinion (jag tycker om, det är bra)",
+        "Uses correct indefinite and definite noun forms most of the time"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Invite a friend",
+    "prompt": "Write a short invitation in Swedish.",
+    "payload": {
+      "stimulus": "Bjud in en vän på fika hemma hos dig. Skriv vilken dag, vilken tid och var du bor.",
+      "criteria": [
+        "Includes day, time, and place clearly",
+        "Uses a polite invitation phrase (vill du komma, kan du komma)",
+        "Message is short, friendly, and easy to follow"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
     "title": "Present yourself",
-    "prompt": "Introduce yourself out loud in Norwegian.",
+    "prompt": "Introduce yourself out loud in Swedish.",
     "payload": {
-      "stimulus": "Fortell om deg selv: navnet ditt, alderen din, hvor du bor, og hvor du kommer fra.",
+      "stimulus": "Berätta om dig själv: ditt namn, din ålder, var du bor och varifrån du kommer.",
       "criteria": [
         "Gives name, age, and where they live and come from",
         "Speaks in clear, simple full sentences",
@@ -181,18 +181,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
     "title": "Talk about your family",
-    "prompt": "Talk about your family out loud.",
+    "prompt": "Talk about your family in Swedish.",
     "payload": {
-      "stimulus": "Fortell om familien din: hvem er de, og hva gjør de?",
+      "stimulus": "Berätta om din familj. Vem bor du med? Vad heter de? Hur gamla är de?",
       "criteria": [
-        "Names at least two family members and their relationships",
-        "Uses simple verbs to say what they do",
-        "Speech is understandable and connected"
+        "Mentions at least two people and their relationship to the speaker",
+        "Uses simple present-tense sentences",
+        "Speech is audible and mostly fluent"
       ],
       "minSeconds": 45
     },
@@ -201,18 +201,78 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Buying food",
+    "prompt": "Speak about shopping for food.",
+    "payload": {
+      "stimulus": "Berätta vad du köper i affären. Var handlar du? Vad kostar maten?",
+      "criteria": [
+        "Names at least three food items in Swedish",
+        "Mentions a shop and a price in kronor",
+        "Sentences are short and understandable"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "How you travel",
+    "prompt": "Talk about how you travel in Swedish.",
+    "payload": {
+      "stimulus": "Berätta hur du reser till SFI eller till jobbet. Åker du buss, tåg eller cykel? Hur lång tid tar det?",
+      "criteria": [
+        "Names one or two means of transport",
+        "Says how long the trip takes",
+        "Uses present tense and clear pronunciation"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "At the doctor",
+    "prompt": "Explain a health problem out loud.",
+    "payload": {
+      "stimulus": "Du är på vårdcentralen. Berätta för doktorn vad du har för problem och hur länge du har haft det.",
+      "criteria": [
+        "Names at least one symptom in Swedish (ont i, feber, hosta)",
+        "Says how long the problem has lasted",
+        "Speaks clearly enough to be understood"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Describe your home",
-    "prompt": "Describe where you live out loud.",
+    "title": "Your week",
+    "prompt": "Talk about your week in Swedish.",
     "payload": {
-      "stimulus": "Fortell om hjemmet ditt: bor du i en by eller på landet, og hvordan ser hjemmet ditt ut?",
+      "stimulus": "Berätta vad du gör i veckan. Vad gör du på vardagar och vad gör du på helgen?",
       "criteria": [
-        "Describes the type of home and a few rooms",
-        "Uses some descriptive adjectives",
-        "Speaks for the full time with few long pauses"
+        "Mentions activities on both weekdays and the weekend",
+        "Uses days of the week correctly",
+        "Speech is connected with simple linking words (och, men, sedan)"
       ],
       "minSeconds": 45
     },
@@ -221,78 +281,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Order at a café",
-    "prompt": "Role-play ordering food and drink at a café.",
+    "title": "Your home town",
+    "prompt": "Describe the place where you live.",
     "payload": {
-      "stimulus": "Du er på en kafé. Bestill noe å spise og drikke, og spør om prisen.",
+      "stimulus": "Berätta om staden eller platsen där du bor. Vad finns där? Vad tycker du om platsen?",
       "criteria": [
-        "Orders at least one food and one drink politely (jeg vil gjerne ha)",
-        "Asks about the price (hva koster det)",
-        "Uses polite words such as takk"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Your daily routine",
-    "prompt": "Talk about a normal day in your life.",
-    "payload": {
-      "stimulus": "Fortell om dagen din fra morgen til kveld. Hva gjør du, og når?",
-      "criteria": [
-        "Describes several activities across the day",
-        "Uses time expressions correctly (om morgenen, klokka)",
-        "Verbs are used in the correct present tense"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Ask for directions",
-    "prompt": "Ask for directions to a place in town.",
-    "payload": {
-      "stimulus": "Du er i en norsk by. Spør en person om veien til stasjonen eller butikken.",
-      "criteria": [
-        "Asks politely for directions (unnskyld, hvor er)",
-        "Names a clear destination",
-        "Understands and uses basic direction words (til høyre, til venstre, rett fram)"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Your free time",
-    "prompt": "Talk about what you like to do in your free time.",
-    "payload": {
-      "stimulus": "Fortell om fritiden din: hva liker du å gjøre i helgen?",
-      "criteria": [
-        "Names at least two free-time activities",
-        "Expresses likes (jeg liker å)",
-        "Speaks in connected, understandable sentences"
+        "Names at least two places or features (affär, park, buss, skola)",
+        "Gives one simple opinion about the place",
+        "Speaks in full, understandable sentences"
       ],
       "minSeconds": 45
     },

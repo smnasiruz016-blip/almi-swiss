@@ -1,7 +1,7 @@
 "use client";
 
 // Listening audio via the browser SpeechSynthesis API — free, no Blob storage.
-// Reads the transcript in is-IS (Norwegian). Where speech synthesis is unavailable,
+// Reads the transcript in sv-SE. Where speech synthesis is unavailable,
 // it gracefully falls back to showing the transcript.
 
 import { useEffect, useRef, useState } from "react";

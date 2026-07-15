@@ -1,5 +1,5 @@
 // SEO axis loader + cartesian helpers.
-// The programmatic matrix (~7.82M pages) is NOT stored row-by-row. We store the
+// The programmatic matrix (~7.99M pages) is NOT stored row-by-row. We store the
 // small real axes (imported from AlmiStudy / job-roles / almi-data) and compute
 // each page's identity from its slug, and each sitemap shard's URLs from an index
 // range via mixed-radix decomposition. Keeps Neon free of matrix rows (cost §8).
@@ -22,7 +22,7 @@ export interface SeoHub { slug: string; name: string; region: string; profile: s
 
 export const UNIVERSITIES = universitiesJson as SeoUniversity[];
 export const ROLES = rolesJson as SeoRole[];
-export const COUNTRIES = countriesJson as SeoCountry[]; // origins only (Norway excluded)
+export const COUNTRIES = countriesJson as SeoCountry[]; // origins only (Sweden excluded — it is the destination)
 export const SUBJECTS = subjectsJson as SeoSubject[];
 export const HUBS = hubsJson as SeoHub[];
 
@@ -44,8 +44,12 @@ export const N_COUNTRY = COUNTRIES.length;
 export const N_SUBJECT = SUBJECTS.length;
 export const N_HUB = HUBS.length;
 
-export const STUDY_TOTAL = N_SUBJECT * N_COUNTRY * N_UNI; // 12 × 196 × 3,197 = 7,519,344
-export const JOBS_TOTAL = N_ROLE * N_COUNTRY * N_HUB; //    512 × 196 × 5 = 501,760
+// Totals are computed from the axis lengths at runtime; the figures in these
+// comments are documentation only and MUST be re-derived when an axis changes.
+// (The Norwegian base carried "512 roles" here while roles.json held 518, and the  hygiene-allow
+// wrong number then propagated into planning docs. Check, don't copy.)
+export const STUDY_TOTAL = N_SUBJECT * N_COUNTRY * N_UNI; // 12 × 195 × 3,197 = 7,480,980
+export const JOBS_TOTAL = N_ROLE * N_COUNTRY * N_HUB; //    518 × 195 × 5   =   505,050
 
 // Deterministic string hash (FNV-1a) → non-negative int, for template-variant
 // selection so phrasing is stable per URL yet distributed across the matrix.
@@ -82,6 +86,6 @@ export function jobsComboAtIndex(i: number): { role: SeoRole; country: SeoCountr
 }
 
 export const studyPath = (subjectSlug: string, countrySlug: string, uniSlug: string) =>
-  `/study-in-norway/${subjectSlug}/from/${countrySlug}/${uniSlug}`;
+  `/study-in-sweden/${subjectSlug}/from/${countrySlug}/${uniSlug}`;
 export const jobsPath = (roleSlug: string, countrySlug: string, hubSlug: string) =>
-  `/work-in-norway/${roleSlug}/from/${countrySlug}/${hubSlug}`;
+  `/work-in-sweden/${roleSlug}/from/${countrySlug}/${hubSlug}`;

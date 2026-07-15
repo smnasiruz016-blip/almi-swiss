@@ -88,7 +88,7 @@ export default async function ExamPage({
             </div>
             <p className="mt-2 max-w-xl text-sm text-almi-text">
               All parts in exam order (~{exam.mockMinutes} min), then an honest overall estimate —
-              never an official UDI or Ministry result.
+              never an official UHR result.
             </p>
           </div>
           <span className="text-sm font-semibold text-almi-coral">Start full mock →</span>

@@ -1,10 +1,10 @@
-// Practice hub — "Choose a Test". Four goal-based tracks: Citizenship (Prøve i
-// Dansk 3 + Statsborgerprøven), Permanent residence (Norskprøven A2–B1 +
-// Samfunnskunnskapsprøven), Getting started (Norskprøven A1–A2) and University
-// (Bergenstesten). Each card routes to /practice/<slug>. Reading + Listening +
-// the knowledge MCQs are free to taste; Writing, Speaking and the timed mock are
-// Pro. Every readout is a practice estimate — never an official UDI or Ministry
-// result.
+// Practice hub — "Choose a Test". Four goal-based tracks, all read from TRACKS in
+// the registry: Citizenship (Medborgarskapsprovet), University (Tisus), Getting
+// started (SFI Courses A–B) and Building proficiency (SFI Courses C–D → Swedish
+// B1–B2). Each card routes to /practice/<slug>. Reading + Listening + the
+// Samhällskunskap MCQs are free to taste; Writing, Speaking and the timed mock are
+// Pro. Every readout is a per-skill practice readiness band — never an official
+// UHR or Migrationsverket result.
 
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
@@ -48,10 +48,10 @@ export default async function PracticePage() {
         </p>
         <h1 className="mt-1 text-3xl font-semibold text-almi-ink">Choose a test</h1>
         <p className="mt-2 max-w-2xl text-sm text-almi-text">
-          Start from your goal. Reading, Listening and the society knowledge questions are auto-marked
+          Start from your goal. Reading, Listening and the Samhällskunskap questions are auto-marked
           and free to practise. Writing and Speaking are graded with honest AI-style feedback against
-          the level&apos;s criteria. Every readout is a practice estimate — never an official UDI or
-          Ministry result.
+          the level&apos;s criteria. Every readout is a per-skill readiness band for practice — never an
+          official UHR or Migrationsverket result.
         </p>
       </header>
 
@@ -59,7 +59,8 @@ export default async function PracticePage() {
         <section key={t.track}>
           <h2 className="text-lg font-semibold text-almi-ink">{t.label}</h2>
           <p className="mt-1 text-sm text-almi-text-muted">
-            {t.goal} — commonly requires {t.requires}. Confirm the current rules with UDI.
+            {t.goal} — commonly requires {t.requires}.
+            {t.caveat ? ` ${t.caveat}` : " Confirm the current requirements with the body that runs the exam."}
           </p>
           <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {examsByTrack(t.track).map((exam) => (
@@ -71,8 +72,10 @@ export default async function PracticePage() {
 
       <p className="text-xs text-almi-text-muted">
         Every task here is written from scratch by AlmiSwedish. We never copy or reproduce official
-        test material. Estimates are for practice only — confirm the exam you need with the official
-        body (UDI for residency and citizenship).
+        test material, and we are not affiliated with UHR. Readiness bands are for practice only —
+        confirm the exam you need with the body that runs it: UHR for Medborgarskapsprovet,
+        Migrationsverket for citizenship applications, Stockholms universitet for Tisus and
+        Skolverket for SFI.
       </p>
     </div>
   );

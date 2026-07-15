@@ -1,251 +1,317 @@
 [
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Library opening hours",
+    "difficulty": "FOUNDATION",
+    "title": "Notice in the stairwell",
     "prompt": "Read the notice and choose the correct answer.",
     "payload": {
-      "passage": "Biblioteket på Tøyen har fått nye åpningstider. Fra mandag til fredag er det åpent fra klokka 09 til 20. På lørdag stenger biblioteket allerede klokka 15. På søndag er det stengt hele dagen. Husk lånekortet når du skal låne bøker.",
-      "question": "Når er biblioteket stengt?",
-      "options": ["På mandag", "På søndag", "På fredag om morgenen", "På torsdag om kvelden"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Letter from the barnehage",
-    "prompt": "Read the letter and choose the correct answer.",
-    "payload": {
-      "passage": "Hei Amina. Datteren din Sara begynner i barnehagen Løvetann den 1. august. Den første dagen må du møte klokka 09 sammen med henne. Ta gjerne med skiftetøy og en matpakke. Hvis Sara er syk, må du ringe til barnehagen før klokka 08.",
-      "question": "Hva må Amina gjøre hvis Sara blir syk?",
-      "options": ["Sende en e-post til kommunen", "Møte klokka 09 likevel", "Ringe til barnehagen før klokka 08", "Ta med skiftetøy"]
+      "passage": "Till alla boende i Björkgatan 14. Nästa vecka byter vi ut de gamla vattenledningarna i huset. Arbetet börjar på tisdag morgon och pågår till och med torsdag. Under de tre dagarna kommer vattnet att vara avstängt mellan klockan 08 och 16. Vi rekommenderar att ni fyller några flaskor med vatten redan på måndag kväll. Hissen fungerar som vanligt under hela arbetet.",
+      "question": "Vad ska de boende göra på måndag kväll?",
+      "options": [
+        "Stänga av vattnet själva",
+        "Ta trapporna i stället för hissen",
+        "Fylla flaskor med vatten",
+        "Flytta bilen från gården"
+      ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "title": "Letter about a work placement",
+    "prompt": "Read the letter and choose the correct answer.",
+    "payload": {
+      "passage": "Hej Farida! Vi har nu hittat en praktikplats åt dig på ett lager utanför Linköping. Praktiken börjar den 3 september och pågår i tolv veckor. Du ska arbeta måndag till fredag mellan klockan 07 och 15. Din handledare heter Mikael Sandberg och han möter dig vid receptionen första dagen. Kom ihåg att ta med legitimation, eftersom du måste få ett passerkort innan du kan gå in på lagret. Hälsningar, Arbetsförmedlingen",
+      "question": "Varför måste Farida ta med sig legitimation?",
+      "options": [
+        "För att hon ska få ett passerkort",
+        "För att hon ska skriva under ett anställningsavtal",
+        "För att handledaren inte känner igen henne",
+        "För att hon ska få lön första dagen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Information from the health centre",
+    "prompt": "Read the text and choose the correct answer.",
+    "payload": {
+      "passage": "Vårdcentralen i Rosengård har ändrat sina rutiner. Du behöver inte längre ringa tidigt på morgonen för att få en tid. I stället kan du beskriva dina besvär i ett formulär på 1177.se när som helst på dygnet. En sjuksköterska läser vad du har skrivit och hör av sig inom ett dygn. Om du blir akut sjuk på natten ska du inte använda formuläret utan ringa 1177 direkt.",
+      "question": "Vad ska du göra om du blir akut sjuk mitt i natten?",
+      "options": [
+        "Fylla i formuläret och vänta på svar",
+        "Vänta till nästa morgon och ringa vårdcentralen",
+        "Skicka ett brev till vårdcentralen",
+        "Ringa 1177"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Message from the preschool",
+    "prompt": "Read the message and choose the correct answer.",
+    "payload": {
+      "passage": "Hej alla föräldrar på avdelning Ekorren! På fredag går vi till skogen bakom förskolan och äter lunch där. Barnen behöver kläder som tål regn och lera, samt extra strumpor i väskan. Vi går klockan halv tio, så barn som kommer senare än så hinner tyvärr inte med. Den som inte vill följa med i skogen stannar kvar på förskolan med Lena. Hör av er om ert barn har en allergi som vi inte redan känner till.",
+      "question": "Vad händer med ett barn som kommer till förskolan klockan tio på fredag?",
+      "options": [
+        "Barnet får gå till skogen själv",
+        "Barnet stannar på förskolan med Lena",
+        "Barnet måste stanna hemma hela dagen",
+        "Barnet äter lunch tidigare än de andra"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Clause in a rental contract",
+    "prompt": "Read the extract and choose the correct answer.",
+    "payload": {
+      "passage": "Utdrag ur hyresavtalet för lägenhet 1102. Hyran ska betalas senast den sista vardagen i månaden före hyresmånaden. Hyresgästen ansvarar själv för att teckna en hemförsäkring. Om hyresgästen vill flytta gäller tre månaders uppsägningstid, räknat från månadsskiftet efter uppsägningen. Hyresgästen får inte hyra ut lägenheten i andra hand utan skriftligt tillstånd från hyresvärden.",
+      "question": "Vad krävs för att hyresgästen ska få hyra ut lägenheten i andra hand?",
+      "options": [
+        "Att hyran är betald i tid varje månad",
+        "Att hyresgästen har en hemförsäkring",
+        "Att hyresvärden ger ett skriftligt tillstånd",
+        "Att hyresgästen säger upp avtalet först"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
     "title": "Job advertisement",
     "prompt": "Read the advertisement and choose the correct answer.",
     "payload": {
-      "passage": "Kafé Bønna søker en ny medarbeider til kjøkkenet. Du må kunne lage kaffe og hjelpe til med å rydde. Arbeidet er på ettermiddagen fra klokka 14 til 20. Vi ønsker en person som snakker norsk og liker å møte nye mennesker. Send søknaden din til jobb@bonna.no.",
-      "question": "Når skal den nye medarbeideren jobbe?",
-      "options": ["Om morgenen", "På ettermiddagen og kvelden", "Bare på lørdag", "Hele natta"]
+      "passage": "Bageriet Vetekornet i Uppsala söker en bagare. Du kommer att baka bröd på morgonen och hjälpa till i butiken efter lunch. Arbetstiden är från klockan 05 till 13, och du arbetar varannan lördag. Vi kräver inte att du har en utbildning, men du måste ha arbetat i ett kök tidigare. Vi ser gärna att du talar svenska med kunderna. Skicka din ansökan senast den 20 maj.",
+      "question": "Vad krävs för att få jobbet?",
+      "options": [
+        "Att du har en bagarutbildning",
+        "Att du har erfarenhet av att arbeta i kök",
+        "Att du kan arbeta varje lördag",
+        "Att du bor i Uppsala"
+      ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Message from the fastlege",
-    "prompt": "Read the message and choose the correct answer.",
+    "title": "Letter from the tax agency",
+    "prompt": "Read the letter and choose the correct answer.",
     "payload": {
-      "passage": "Hei Petter. Du har bestilt time hos fastlegen tirsdag klokka 11.30. Kom gjerne ti minutter før, så du rekker å melde deg i luka. Hvis du ikke kan komme, må du gi beskjed senest dagen før. Ta med listen over medisinene dine.",
-      "question": "Når må Petter senest gi beskjed hvis han ikke kan komme?",
-      "options": ["Samme dag om morgenen", "Dagen før", "En time før", "Han trenger ikke gi beskjed"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "News snippet on recycling",
-    "prompt": "Read the news text and choose the correct answer.",
-    "payload": {
-      "passage": "Kommunen innfører nye regler for søppel fra neste måned. Beboerne må nå sortere avfallet i fire dunker: mat, plast, papir og restavfall. De grønne posene er bare til matavfall. Hvis noen sorterer feil, får de først en vennlig påminnelse i postkassa.",
-      "question": "Hva skjer første gang noen sorterer feil?",
-      "options": ["De får et gebyr", "De får en påminnelse i postkassa", "Dunken blir fjernet", "De må betale mer i husleie"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Housing cooperative notice",
-    "prompt": "Read the notice and choose the correct answer.",
-    "payload": {
-      "passage": "Til alle beboere i oppgang B. Fellesvaskeriet skal males i neste uke, og derfor er det stengt fra mandag til onsdag. I disse dagene kan dere bruke vaskemaskinene i oppgang A. Husk å bestille tid på skjermen ved inngangen. Vi beklager ulempen dette kan gi.",
-      "question": "Hva skal beboerne gjøre mens fellesvaskeriet er stengt?",
-      "options": ["Vaske for hånd", "Vente til torsdag", "Bruke vaskemaskinene i oppgang A", "Vaske hjemme i leiligheten"]
+      "passage": "Hej Yusuf! Du har anmält att du har flyttat till en ny adress i Göteborg. Vi har nu registrerat din nya adress i folkbokföringen. Ändringen betyder att myndigheter och företag skickar din post till den nya adressen. Om du har barn under 18 år som bor hos dig behöver du anmäla flytten även för dem. Du behöver inte göra något mer med detta brev. Hälsningar, Skatteverket",
+      "question": "Vad måste Yusuf göra om hans barn också har flyttat?",
+      "options": [
+        "Skicka tillbaka brevet till Skatteverket",
+        "Vänta tills barnen fyller 18 år",
+        "Anmäla flytten för barnen också",
+        "Kontakta sin gamla hyresvärd"
+      ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Bus timetable change",
-    "prompt": "Decide if the statement is true (Sant) or false (Usant).",
+    "title": "Union information at work",
+    "prompt": "Read the text and choose the correct answer.",
     "payload": {
-      "passage": "Buss 21 kjører ikke mellom klokka 23 og 05 i helga på grunn av veiarbeid. I stedet går det en nattbuss fra sentrum. Nattbussen kjører hvert kvarter. Du kan bruke det vanlige reisekortet ditt på nattbussen.",
-      "question": "Du kan bruke det vanlige reisekortet på nattbussen.",
-      "options": ["Sant", "Usant"]
+      "passage": "Till dig som är ny på företaget. Ungefär hälften av oss på lagret är medlemmar i ett fackförbund. Att vara medlem är frivilligt, och din chef får inte kräva att du går med eller att du lämnar förbundet. Medlemmarna betalar en avgift varje månad och kan få hjälp om det uppstår en konflikt på arbetsplatsen. Vårt skyddsombud Anna Bergqvist svarar gärna på frågor i lunchrummet på onsdagar.",
+      "question": "Vad säger texten om att gå med i ett fackförbund?",
+      "options": [
+        "Alla nyanställda måste bli medlemmar",
+        "Det är frivilligt och chefen får inte kräva det",
+        "Bara skyddsombudet får vara medlem",
+        "Man måste fråga chefen om lov först"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Email to a colleague",
-    "prompt": "Decide if the statement is true (Sant) or false (Usant).",
+    "title": "Invitation to a parents' meeting",
+    "prompt": "Read the invitation and choose the correct answer.",
     "payload": {
-      "passage": "Hei Lars. Jeg er hjemme i dag fordi barnet mitt er sykt. Kan du ta møtet med kunden klokka 13? Jeg har lagt alle papirene på pulten din. Ring meg hvis det er noe du lurer på. På forhånd takk. Hilsen Mette.",
-      "question": "Mette ber Lars om å holde et møte med kunden.",
-      "options": ["Sant", "Usant"]
+      "passage": "Välkommen till föräldramöte i klass 5B! Vi träffas i klassrummet på tisdag den 12 oktober klockan 18. Under mötet berättar vi om läsårets planering och om klassresan till Stockholm i maj. Vi vill också diskutera hur vi tillsammans kan minska mobbning i klassen. Om du behöver tolk, meddela mig senast en vecka innan, så bokar skolan en. Mötet tar ungefär en och en halv timme. Vänliga hälsningar, Elin Norberg, klasslärare",
+      "question": "Vad ska en förälder som behöver tolk göra?",
+      "options": [
+        "Ta med en egen tolk till mötet",
+        "Meddela läraren senast en vecka innan",
+        "Ringa skolan samma dag som mötet",
+        "Komma en halvtimme tidigare"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "STRETCH",
-    "title": "Supermarket offer",
-    "prompt": "Decide if the statement is true (Sant) or false (Usant).",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Local news article",
+    "prompt": "Read the article and choose the correct answer.",
     "payload": {
-      "passage": "Denne uka har vi et godt tilbud på ferske epler. En kilo koster bare 19 kroner. Tilbudet gjelder bare til og med søndag. Vi har også norske gulrøtter på tilbud, men bare så lenge lageret rekker. Kom tidlig, for det er ikke mange igjen.",
-      "question": "Tilbudet på epler gjelder hele neste uke.",
-      "options": ["Sant", "Usant"]
+      "passage": "Från och med i höst kör bussarna mellan centrum och sjukhuset var tionde minut i stället för var tjugonde. Kommunen har beslutat om ändringen efter att många resenärer klagat på att bussarna varit fulla på morgonen. Turerna på kvällen blir däremot färre, eftersom få personer reser efter klockan 21. Biljettpriset påverkas inte av förändringen. Kommunen ska följa upp hur resandet ser ut efter ett halvår.",
+      "question": "Varför kör bussarna oftare på dagen?",
+      "options": [
+        "För att biljetterna har blivit dyrare",
+        "För att sjukhuset har flyttat till centrum",
+        "För att resenärer klagat på fulla bussar på morgonen",
+        "För att fler personer reser efter klockan 21"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Match person to activity",
-    "prompt": "Match each person on the left to the correct activity on the right.",
+    "title": "Letter about parental benefit",
+    "prompt": "Read the letter and choose the correct answer.",
     "payload": {
-      "passage": "Familien planlegger helga. Jonas har lyst til å spille fotball i parken med vennene sine. Sofie må lese til norskprøven, fordi hun har eksamen på mandag. Bestemor vil gjerne passe barna, slik at foreldrene kan gå på kino.",
-      "instructions": "Koble hver person til den riktige aktiviteten.",
-      "left": ["Jonas", "Sofie", "Bestemor"],
-      "right": ["Leser til prøven", "Passer barna", "Spiller fotball"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "CORE",
-    "title": "Match sign to place",
-    "prompt": "Match each sign on the left to the place where you would see it on the right.",
-    "payload": {
-      "passage": "I byen ser man mange skilt. Noen steder er det forbudt å røyke, andre steder må man være stille, og noen steder er det ikke lov å parkere bilen.",
-      "instructions": "Koble hvert skilt til det riktige stedet.",
-      "left": ["Røyking forbudt", "Vennligst vær stille", "Parkering forbudt"],
-      "right": ["På lesesalen på biblioteket", "Foran innkjørselen til garasjen", "På sykehuset"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "STRETCH",
-    "title": "Match need to service",
-    "prompt": "Match each person's need on the left to the right service in the kommune.",
-    "payload": {
-      "passage": "På servicetorget i kommunen får man hjelp med mange ting. Noen skal søke om et nytt helsetrygdkort, andre skal fornye passet sitt, og noen trenger hjelp til å melde flytting når de har fått ny bolig.",
-      "instructions": "Koble hver persons behov til den riktige hjelpen.",
-      "left": ["Har mistet helsetrygdkortet", "Skal reise til utlandet", "Har flyttet til ny leilighet"],
-      "right": ["Fornyer passet", "Melder flytting", "Bestiller nytt helsetrygdkort"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "CORE",
-    "title": "Note to the landlord",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Hei, huseier. Det er et problem i leiligheten min. Kranen på kjøkkenet {{1}} hele tiden, og gulvet har blitt vått. Kan du sende en {{2}}, så det kan bli reparert? Med vennlig hilsen, Karim.",
-      "gaps": [
-        { "id": 1, "options": ["drypper", "spiser", "sover"] },
-        { "id": 2, "options": ["lærer", "rørlegger", "gjest"] }
+      "passage": "Hej Ingrid! Vi har tagit emot din ansökan om föräldrapenning. Innan vi kan fatta ett beslut behöver vi veta hur mycket du arbetade under det senaste året. Din arbetsgivare har redan skickat in de uppgifter som gäller våren, men uppgifterna för hösten saknas. Logga in på Mina sidor och komplettera din ansökan senast den 30 november. Om vi inte får uppgifterna i tid kan ärendet bli avslutat utan beslut. Hälsningar, Försäkringskassan",
+      "question": "Vilka uppgifter saknas i Ingrids ansökan?",
+      "options": [
+        "Uppgifter om hur mycket hon arbetade under hösten",
+        "Uppgifter om hennes nya adress",
+        "Uppgifter om barnets förskola",
+        "Uppgifter om hennes arbetsgivares organisationsnummer"
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "CLOZE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Notice at the recycling room",
+    "prompt": "Read the notice and choose the correct answer.",
+    "payload": {
+      "passage": "Information om vårt miljörum. Här kan du lämna papper, kartong, glas, metall och plast. Sortera i rätt kärl, annars måste föreningen betala en extra avgift som drabbar alla i huset. Gamla möbler, färg och elektronik får inte lämnas här utan ska köras till återvinningscentralen i Bäckby. Miljörummet är öppet dygnet runt med din nyckelbricka.",
+      "question": "Vad ska du göra med en gammal soffa?",
+      "options": [
+        "Ställa den i miljörummet på natten",
+        "Lägga den i kärlet för kartong",
+        "Köra den till återvinningscentralen i Bäckby",
+        "Lämna den utanför porten"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "At the pharmacy",
-    "prompt": "Choose the correct word for each gap.",
+    "title": "Reader's opinion in the newspaper",
+    "prompt": "Read the text and choose the correct answer.",
     "payload": {
-      "passage": "Jeg hadde vondt i halsen, så jeg gikk på {{1}} for å kjøpe litt medisin. Kvinnen bak disken sa at jeg måtte ta tablettene to {{2}} om dagen etter maten.",
-      "gaps": [
-        { "id": 1, "options": ["apoteket", "postkontoret", "stasjonen"] },
-        { "id": 2, "options": ["uker", "ganger", "måneder"] }
+      "passage": "Jag har bott i vårt område i nästan tjugo år och har sett hur mycket det har förändrats. Många tycker att den nya lekplatsen vid torget är onödig och att pengarna borde ha gått till fler parkeringsplatser. Själv tänker jag tvärtom. Sedan lekplatsen byggdes träffas barnfamiljer där varje eftermiddag, och grannar som aldrig pratade förut säger nu hej. Bilarna kan stå några hundra meter bort. Det viktiga är att människor möts.",
+      "question": "Vad tycker skribenten om lekplatsen?",
+      "options": [
+        "Att den är bra eftersom människor träffas där",
+        "Att den borde ha byggts längre bort från torget",
+        "Att pengarna borde ha gått till parkeringsplatser",
+        "Att den har gjort grannarna mindre intresserade av varandra"
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "Planning a course",
-    "prompt": "Choose the correct word for each gap.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Rules at the adult education centre",
+    "prompt": "Read the text and choose the correct answer.",
     "payload": {
-      "passage": "Jeg vil gjerne bli bedre i norsk, så jeg har {{1}} meg på et kurs på voksenopplæringen. Undervisningen er om kvelden, fordi jeg {{2}} på dagtid. Jeg gleder meg til å møte de andre kursdeltakerne.",
-      "gaps": [
-        { "id": 1, "options": ["meldt", "solgt", "glemt"] },
-        { "id": 2, "options": ["sover", "jobber", "reiser"] }
+      "passage": "Regler för dig som läser hos oss på vuxenutbildningen. Undervisningen börjar klockan 08.30 och du förväntas vara på plats när lektionen startar. Om du är sjuk anmäler du det i appen samma morgon. Har du varit borta mer än tre veckor i rad utan att höra av dig kan din plats gå till någon annan i kön. Mobiltelefoner ska ligga i väskan under lektionen. Läraren bestämmer när ni får använda dator.",
+      "question": "Vad kan hända om en elev är borta i över tre veckor utan att anmäla sig?",
+      "options": [
+        "Eleven får börja klockan 08.30 i stället",
+        "Eleven förlorar rätten att använda dator",
+        "Eleven kan förlora sin plats på kursen",
+        "Eleven måste betala en avgift"
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Email between colleagues",
+    "prompt": "Read the email and choose the correct answer.",
+    "payload": {
+      "passage": "Hej Samira! Jag har tittat på schemat för nästa månad och märkt ett problem. Du och jag är inbokade på samma kvällspass den 14 november, men då är butiken stängd på grund av inventeringen. Jag har redan skrivit till Patrik om det, men han är på semester till den 8 november. Kan du påminna honom när han är tillbaka? Jag är själv på en kurs den veckan och hinner nog inte. Tack på förhand! Hälsningar, Tobias",
+      "question": "Vad ber Tobias Samira om att göra?",
+      "options": [
+        "Att arbeta hans kvällspass den 14 november",
+        "Att påminna Patrik när han kommer tillbaka från semestern",
+        "Att ändra schemat själv",
+        "Att gå på kursen i hans ställe"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
   }
 ]

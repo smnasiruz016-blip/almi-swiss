@@ -2,7 +2,7 @@
 // + the learner's written answer to Sonnet and returns an HONEST practice
 // readiness band (CLEAR / BORDERLINE / BELOW) with constructive, level-aware
 // feedback against the exam's own criteria — never an official Directorate of
-// Education or HK-dir (the Directorate for Higher Education and Skills) result.
+// Education or UHR (the Swedish Council for Higher Education) result.
 //
 // Graceful degradation: if ANTHROPIC_API_KEY is not yet provisioned the route
 // returns { ok: true, available: false } (HTTP 200) so the client falls back to
@@ -108,14 +108,14 @@ export async function POST(req: Request): Promise<NextResponse> {
   }
 
   const exam = body.exam ? examBySlug(body.exam) : undefined;
-  const examName = exam?.name ?? "the Norwegian exam";
+  const examName = exam?.name ?? "the Swedish exam";
   const cefr = exam?.cefr ?? "the target";
   const isSpeaking = body.taskType === "SPEAKING_PROMPT";
   const criteria = (body.criteria ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);
 
   const system = [
-    `You are an experienced Norwegian-language examiner for ${examName} (CEFR ${cefr}).`,
-    `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official UDI or Ministry result, and you never claim otherwise.`,
+    `You are an experienced Swedish-language examiner for ${examName} (CEFR ${cefr}).`,
+    `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official UHR result, and you never claim otherwise.`,
     isSpeaking
       ? `This is a SPEAKING task; the learner has typed the answer they would say aloud, so judge content, structure, range and appropriacy, not pronunciation.`
       : `This is a WRITING task; judge task fulfilment, coherence, range and accuracy at the ${cefr} level.`,

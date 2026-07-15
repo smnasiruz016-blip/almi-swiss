@@ -89,7 +89,7 @@ export function PracticeRunner({
           </span>
         </div>
         <p className="text-xs text-almi-text-muted">
-          This is a practice estimate against the level&apos;s criteria, not an official UDI or Ministry result.
+          This is a practice estimate against the level&apos;s criteria, not an official UHR result.
         </p>
         <button
           type="button"

@@ -1,239 +1,306 @@
 [
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Cancel a doctor's appointment",
-    "prompt": "Write a short message in Norwegian based on the situation.",
+    "title": "Email to the employment service",
+    "prompt": "Write a short email in Swedish based on the situation.",
     "payload": {
-      "stimulus": "Du har en time hos legen i morgen, men du kan ikke komme. Skriv en kort melding til legekontoret. Forklar at du må avlyse, og spør om du kan få en ny time i neste uke.",
-      "criteria": ["Si tydelig at du avlyser timen din", "Be om en ny time og nevn når du kan", "Skriv en høflig innledning og avslutning"],
-      "charBand": { "min": 80, "max": 180 }
+      "stimulus": "Du har fått en kallelse till ett möte hos Arbetsförmedlingen på tisdag, men du har redan bokat en viktig tid som du inte kan flytta. Skriv ett mejl till din handläggare. Förklara situationen och be om ett nytt mötesdatum.",
+      "criteria": [
+        "Refer to the meeting you were called to and explain the conflict",
+        "Ask for a new date and say when you are available",
+        "Keep a formal tone suitable for an authority",
+        "Use full sentences with correct word order"
+      ],
+      "charBand": { "min": 80, "max": 250 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Invitation to a neighbours' meeting",
+    "prompt": "Write a short text in Swedish based on the situation.",
+    "payload": {
+      "stimulus": "Du vill bjuda in grannarna i ditt hus till en gemensam städdag på gården. Skriv en text som du sätter upp i trapphuset. Berätta när och var, vad ni ska göra, och varför det är bra att många kommer.",
+      "criteria": [
+        "Give time, place and what will happen",
+        "Say why it is worth taking part",
+        "Write in a friendly tone that suits a public notice",
+        "Organise the information so it is easy to scan"
+      ],
+      "charBand": { "min": 80, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Note to a neighbour about noise",
-    "prompt": "Write a short note in Norwegian based on the situation.",
+    "title": "Message about a delayed payment",
+    "prompt": "Write a short message in Swedish based on the situation.",
     "payload": {
-      "stimulus": "Naboen din spiller høy musikk sent om kvelden, og du får ikke sove. Skriv en vennlig melding til naboen. Fortell om problemet, og be pent om at det blir roligere etter klokka 22.",
-      "criteria": ["Beskriv problemet uten å være uhøflig", "Kom med et konkret ønske om tidspunkt", "Hold en rolig og vennlig tone"],
-      "charBand": { "min": 80, "max": 180 }
+      "stimulus": "Du har fått en faktura som du inte kan betala hela beloppet på i tid. Skriv ett meddelande till företaget. Förklara situationen, berätta vad du kan betala nu, och föreslå hur du vill betala resten.",
+      "criteria": [
+        "Explain the situation honestly and briefly",
+        "Make a concrete proposal with amounts or dates",
+        "Refer to the invoice so the company can find it",
+        "Keep a polite and responsible tone"
+      ],
+      "charBand": { "min": 80, "max": 250 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Ask the library for help",
-    "prompt": "Write a short email in Norwegian based on the situation.",
+    "title": "Reply to a friend's question",
+    "prompt": "Write a short reply in Swedish based on the situation.",
     "payload": {
-      "stimulus": "Du har lånt en bok på biblioteket, men du kan ikke levere den til rett tid, fordi du er bortreist. Skriv en e-post til biblioteket. Forklar situasjonen, og spør om du kan forlenge lånet.",
-      "criteria": ["Forklar hvorfor du ikke kan levere til rett tid", "Spør konkret om å forlenge lånet", "Skriv høflig og med korrekt tiltale"],
-      "charBand": { "min": 80, "max": 180 }
+      "stimulus": "En vän som just har flyttat till Sverige frågar dig hur man gör för att söka jobb här. Skriv ett svar. Berätta om två eller tre saker som han bör göra först, och förklara varför du tycker att just de sakerna är viktiga.",
+      "criteria": [
+        "Give two or three concrete pieces of advice",
+        "Explain why each one matters",
+        "Use a warm, informal tone suitable for a friend",
+        "Use connectors to link the advice together"
+      ],
+      "charBand": { "min": 80, "max": 250 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Message to your child's school",
-    "prompt": "Write a short message in Norwegian based on the situation.",
+    "title": "Opinion about working from home",
+    "prompt": "Write a short text in Swedish giving your opinion.",
     "payload": {
-      "stimulus": "Barnet ditt skal til tannlegen onsdag formiddag og kan ikke være på skolen. Skriv en kort melding til kontaktlæreren. Fortell hvorfor barnet er borte, og når det kommer tilbake.",
-      "criteria": ["Nevn navnet på barnet ditt og dagen", "Forklar årsaken til fraværet", "Skriv en kort og klar melding"],
-      "charBand": { "min": 80, "max": 180 }
+      "stimulus": "Många arbetsplatser låter i dag personalen arbeta hemifrån några dagar i veckan. Skriv en kort text där du berättar vad du tycker om det. Ge minst två skäl och nämn också en nackdel.",
+      "criteria": [
+        "State a clear opinion",
+        "Support it with at least two reasons",
+        "Mention at least one disadvantage",
+        "Use opinion phrases and linking words correctly"
+      ],
+      "charBand": { "min": 80, "max": 250 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Message about a lost item",
+    "prompt": "Write a short message in Swedish based on the situation.",
+    "payload": {
+      "stimulus": "Du har glömt en väska på bussen mellan centrum och ditt bostadsområde. Skriv ett meddelande till bussbolagets hittegodsavdelning. Beskriv väskan och vad som fanns i den, och berätta när och var du åkte.",
+      "criteria": [
+        "Describe the item so it can be identified",
+        "Give the time and route of your journey",
+        "Say how they can contact you",
+        "Keep it clear and factual"
+      ],
+      "charBand": { "min": 80, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Swap a work shift",
-    "prompt": "Write a short message in Norwegian based on the situation.",
+    "title": "Letter about a course",
+    "prompt": "Write a short letter in Swedish based on the situation.",
     "payload": {
-      "stimulus": "Du skal jobbe på lørdag, men du trenger å bytte vakt med en kollega. Skriv en melding til en kollega. Spør om han kan ta vakten din, og tilby å ta en av vaktene hans i stedet.",
-      "criteria": ["Spør tydelig om å bytte vakt", "Nevn den konkrete dagen", "Tilby noe tilbake"],
-      "charBand": { "min": 80, "max": 180 }
+      "stimulus": "Du vill söka en yrkesutbildning på vuxenutbildningen i din kommun. Skriv ett brev till studie- och yrkesvägledaren. Berätta vilken utbildning du är intresserad av, vad du har läst tidigare, och vilka frågor du har.",
+      "criteria": [
+        "Say which course you are interested in and why",
+        "Describe your relevant background",
+        "Ask at least two clear questions",
+        "Use a formal opening and closing"
+      ],
+      "charBand": { "min": 80, "max": 250 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Report a problem to the housing cooperative",
-    "prompt": "Write a short email in Norwegian based on the situation.",
-    "payload": {
-      "stimulus": "I oppgangen der du bor, har lyset i trappa sluttet å virke, og det er mørkt om kvelden. Skriv en e-post til borettslaget. Beskriv problemet, forklar hvorfor det er farlig, og be om at det blir ordnet snart.",
-      "criteria": ["Beskriv problemet tydelig og hvor det er", "Forklar hvorfor det bør ordnes raskt", "Bruk en høflig, men bestemt tone"],
-      "charBand": { "min": 80, "max": 180 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Apply for a volunteer position",
-    "prompt": "Write a short email in Norwegian based on the situation.",
-    "payload": {
-      "stimulus": "En lokal forening søker frivillige til å hjelpe til på et arrangement. Skriv en e-post der du melder deg. Fortell kort om deg selv, hvorfor du har lyst til å hjelpe, og når du har tid.",
-      "criteria": ["Presenter deg selv kort", "Forklar hvorfor du vil være frivillig", "Fortell når du kan hjelpe"],
-      "charBand": { "min": 80, "max": 180 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Shop at the pharmacy",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "title": "Explain a misunderstanding at work",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Du er på apoteket fordi du er forkjølet. Forklar hva som feiler deg, og spør om noe som kan hjelpe. Spør også hvordan du skal ta medisinen, og hva den koster.",
-      "criteria": ["Forklar symptomene dine i hele setninger", "Still relevante spørsmål til personalet", "Bruk høflige uttrykk (kan jeg spørre, kan du anbefale)"],
+      "stimulus": "Berätta om en gång då du missförstod något på jobbet, i skolan eller i kontakt med en myndighet. Vad hände? Hur märkte du att det var ett missförstånd? Hur löste ni det, och vad skulle du göra annorlunda i dag?",
+      "criteria": [
+        "Tell the story in a clear order using past tenses",
+        "Explain how the misunderstanding was resolved",
+        "Reflect on what you would do differently"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Book an appointment on the phone",
+    "prompt": "Speak in Swedish for at least one minute.",
+    "payload": {
+      "stimulus": "Du ringer till en tandläkarmottagning för att boka en tid. Presentera dig, förklara varför du vill komma, berätta vilka dagar och tider som passar dig, och fråga vad besöket kostar.",
+      "criteria": [
+        "Introduce yourself and state your reason for calling",
+        "Give your availability clearly",
+        "Ask at least one question and use polite phrases"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Talk about a Norwegian tradition",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "title": "Talk about a person who has helped you",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Fortell om en tradisjon eller en høytid i Norge som du kjenner, for eksempel 17. mai, jul eller bursdag. Fortell hva man gjør, og hva du selv synes om den.",
-      "criteria": ["Beskriv tradisjonen med konkrete detaljer", "Fortell hva man vanligvis gjør og spiser", "Si din egen mening om den"],
+      "stimulus": "Berätta om en person som har betytt mycket för dig sedan du kom till Sverige, till exempel en lärare, en granne eller en kollega. Vem är personen? Vad har hen gjort? Varför var det viktigt just för dig?",
+      "criteria": [
+        "Describe the person and what they did, using past tenses",
+        "Explain why it mattered to you",
+        "Speak in connected sentences with some detail"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Describe your family",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "title": "Discuss school and homework",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Fortell om familien din. Hvem er med i familien din, og hvor bor de? Fortell også litt om hva dere liker å gjøre sammen.",
-      "criteria": ["Presenter familiemedlemmene", "Bruk riktige familieord (mor, bror, svigermor)", "Gi minst ett konkret eksempel på noe dere gjør"],
+      "stimulus": "Vissa tycker att barn får för mycket läxor, andra tycker att läxor behövs. Vad tycker du? Ge minst två skäl för din åsikt, och berätta hur ni gör hemma hos dig eller hur ni gjorde i din familj när du var barn.",
+      "criteria": [
+        "State a clear opinion with at least two reasons",
+        "Relate the topic to your own experience",
+        "Use opinion phrases and subordinate clauses"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Handle a problem at the supermarket",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "title": "Compare two places you have lived",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Du har kjøpt en vare i dagligvarebutikken, men når du kommer hjem, ser du at den er for gammel. Forklar til en ansatt hva som har skjedd, og si hva du gjerne vil ha.",
-      "criteria": ["Forklar problemet rolig og tydelig", "Si hva du ønsker (ny vare eller pengene tilbake)", "Bruk en høflig, men bestemt tone"],
+      "stimulus": "Jämför två platser där du har bott, till exempel två städer eller två bostadsområden. Vad är likt och vad är olikt? Tänk på boende, arbete, väder och människor. Var trivdes du bäst och varför?",
+      "criteria": [
+        "Make clear comparisons across several areas",
+        "Use comparative forms such as större, bättre, mer",
+        "Give a personal conclusion with a reason"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Explain how you learn Norwegian",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "title": "Explain a decision to a colleague",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Fortell om hvordan du lærer norsk. Hva gjør du for å bli bedre, for eksempel på skolen, på jobb eller hjemme? Fortell også hva som er lett og vanskelig for deg.",
-      "criteria": ["Beskriv dine egne metoder", "Nevn hva som er lett og hva som er vanskelig", "Snakk i sammenhengende setninger"],
+      "stimulus": "Du har bestämt dig för att söka en ny utbildning eller ett nytt jobb. Berätta för en kollega om ditt beslut. Förklara varför du har bestämt dig, vad du hoppas på, och vad som känns svårt med förändringen.",
+      "criteria": [
+        "Explain the decision and the reasons behind it",
+        "Talk about the future using ska, kommer att or tänker",
+        "Mention a difficulty and how you plan to handle it"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Give advice to a newcomer",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "difficulty": "FOUNDATION",
+    "title": "Describe a photo of a family meal",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "En person har nettopp flyttet til Norge og kjenner ikke landet. Gi noen gode råd. Fortell hva man bør vite om hverdagen, transporten eller det å møte nye mennesker.",
-      "criteria": ["Gi minst tre konkrete råd", "Begrunn hvorfor rådene er nyttige", "Bruk rådgivende uttrykk (du bør, det er lurt å)"],
+      "stimulus": "Tänk dig ett foto där en familj äter middag tillsammans i ett kök. Beskriv vad du ser: personerna, maten, rummet och stämningen. Berätta sedan om hur en middag ser ut hemma hos dig.",
+      "criteria": [
+        "Describe what is in the picture with concrete vocabulary",
+        "Move from description to your own experience",
+        "Speak continuously without long pauses"
+      ],
       "minSeconds": 60
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
+    "track": "PROFICIENCY",
+    "exam": "SFI_CD",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Discuss public transport",
-    "prompt": "Speak in Norwegian for at least one minute.",
+    "difficulty": "CORE",
+    "title": "Talk about health and everyday habits",
+    "prompt": "Speak in Swedish for at least one minute.",
     "payload": {
-      "stimulus": "Fortell om hvordan du bruker kollektivtransport, for eksempel buss, tog eller trikk. Hva er bra, og hva kunne vært bedre? Si også hva du ville endret hvis du kunne.",
-      "criteria": ["Beskriv hvordan du bruker transporten", "Nevn både fordeler og problemer", "Formuler et forslag til forbedring"],
-      "minSeconds": 60
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "PERMANENT_RESIDENCE",
-    "exam": "NORSKPROVE_A2B1",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Tell about a memorable day",
-    "prompt": "Speak in Norwegian for at least one minute.",
-    "payload": {
-      "stimulus": "Fortell om en dag du husker godt. Det kan være en fin eller en vanskelig dag. Hva skjedde, hvem var du sammen med, og hvorfor husker du akkurat den dagen?",
-      "criteria": ["Fortell historien i fortid", "Sett hendelsene i rekkefølge", "Forklar hvorfor dagen var viktig for deg"],
+      "stimulus": "Berätta om vad du gör för att må bra i vardagen, till exempel mat, sömn, motion eller tid med andra. Vad fungerar bra för dig? Vad skulle du vilja ändra, och vad hindrar dig i dag?",
+      "criteria": [
+        "Describe your habits with concrete examples",
+        "Explain what you would like to change and why",
+        "Use expressions of frequency and modal verbs"
+      ],
       "minSeconds": 60
     },
     "answer": null,

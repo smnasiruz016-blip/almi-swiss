@@ -92,7 +92,7 @@ export default async function SkillRunnerPage({
 
       <p className="text-xs text-almi-text-muted">
         Original to AlmiSwedish. Every readout is a practice estimate, not an official Directorate
-        of Education or HK-dir (the Directorate for Higher Education and Skills) result.
+        UHR result.
       </p>
     </div>
   );

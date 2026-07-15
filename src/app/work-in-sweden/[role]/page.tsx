@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ROLE_BY_SLUG, ROLES, COUNTRIES, HUBS, jobsPath } from "@/lib/seo/axes";
+import { examBySlug } from "@/lib/sv/registry";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return ROLES.map((r) => ({ role: r.slug })); }

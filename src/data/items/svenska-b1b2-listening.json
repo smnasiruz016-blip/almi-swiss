@@ -1,246 +1,242 @@
 [
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Train announcement",
-    "prompt": "Listen to the announcement and choose the correct answer.",
+    "title": "Team meeting on deadlines",
+    "prompt": "Listen to the meeting extract and choose the correct answer.",
     "payload": {
-      "transcript": "Vi vil gjerne informere om at toget mot Oslo S er omtrent ti minutter forsinket. Årsaken er en feil på signalanlegget lenger fram på strekningen. Vi beklager de ulempene dette måtte skape. Passasjerer som skal videre med et annet tog fra Oslo S, bes henvende seg til personalet dersom de er usikre på den videre reisen.",
-      "question": "Hvorfor er toget forsinket?",
-      "options": ["På grunn av dårlig vær", "På grunn av en feil på signalanlegget", "Fordi det mangler personale", "Fordi det er for mange passasjerer"]
+      "transcript": "Då kör vi. Innan vi går in på siffrorna vill jag bara säga en sak om tidsplanen. Ni har hört mig säga att vi ska bli klara till den femtonde. Det står jag fast vid. Men jag vill inte att någon jobbar över för att hinna. Om det inte går ihop är det inte ni som har misslyckats, det är jag som har planerat fel, och då gör vi om planen. Hör av er tidigt i så fall. Det värsta som kan hända är att jag får veta det den fjortonde.",
+      "question": "Vad vill chefen framför allt att medarbetarna gör?",
+      "options": ["Jobbar över för att hinna till den femtonde", "Säger till i god tid om tidsplanen inte håller", "Skjuter upp deadlinen till den fjortonde", "Går igenom siffrorna innan tidsplanen"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Doctor's appointment",
-    "prompt": "Listen to the conversation and choose the correct answer.",
+    "title": "Radio segment on cycling in Malmö",
+    "prompt": "Listen to the radio segment and choose the correct answer.",
     "payload": {
-      "transcript": "God morgen, dette er legekontoret. Jeg ringer fordi du har bestilt time til torsdag klokka elleve. Dessverre har legen blitt syk, så vi må flytte timen din. Kan du i stedet komme mandag klokka ni? Passer ikke det, finner vi selvsagt en annen dag som passer bedre for deg.",
-      "question": "Hvorfor ringer legekontoret?",
-      "options": ["For å avlyse timen helt", "For å flytte timen fordi legen er syk", "For å minne om en regning", "For å bestille en ny prøve"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "LISTENING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Radio interview on food waste",
-    "prompt": "Listen to the interview and choose the correct answer.",
-    "payload": {
-      "transcript": "I studio har vi i dag en kokk som jobber med å redusere matsvinn. Hun forteller at norske husholdninger hvert år kaster store mengder god mat, ofte fordi folk ikke vet hvordan de skal bruke opp rester. Det beste rådet hennes er å planlegge ukas måltider før du drar i butikken, og å fryse ned mat før den blir for gammel.",
-      "question": "Hva er kokkens beste råd mot matsvinn?",
-      "options": ["Å kjøpe mer mat om gangen", "Å spise ute oftere", "Å planlegge måltidene før man handler", "Å unngå å fryse ned mat"]
+      "transcript": "Och så till trafiken. I Malmö byggs det nu ytterligare cykelbanor i de södra delarna av staden. Kommunen räknar med att arbetet pågår hela hösten. Under tiden leds cykeltrafiken om, och det kan bli trångt vid Södervärn på morgnarna. Vår reporter har pratat med boende i området, och bilden är blandad. Många är positiva till satsningen på lång sikt, men flera påpekar att omledningen är dåligt skyltad och att man lätt hamnar ute bland bilarna utan att förstå hur det gick till.",
+      "question": "Vilken kritik framförs av de boende?",
+      "options": ["Att cykelbanorna inte behövs", "Att arbetet tar för lång tid", "Att omledningen är dåligt skyltad", "Att det byggs för få cykelbanor i norra Malmö"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Colleagues discussing a new tool",
+    "prompt": "Listen to the dialogue and choose the correct answer.",
+    "payload": {
+      "transcript": "— Har du testat det nya systemet? — Ja. Ärligt talat är det ju snabbare, det ska det ha. — Men? — Nej, inget men. Fast jag märker att jag inte längre vet varför vi gör som vi gör. Förut satt jag och räknade själv och då förstod jag om något var konstigt. Nu kommer ett svar och jag har ingen känsla för om det är rimligt. — Så du vill tillbaka till det gamla? — Nej, absolut inte. Jag vill bara att vi pratar om vem som ska upptäcka felen nu.",
+      "question": "Vad är talarens huvudsakliga oro?",
+      "options": ["Att det nya systemet är för långsamt", "Att hon vill återgå till det gamla systemet", "Att kollegorna inte har fått utbildning", "Att ingen längre har överblick nog att upptäcka fel"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Message about a package",
+    "title": "Voicemail from a health centre",
     "prompt": "Listen to the voicemail and choose the correct answer.",
     "payload": {
-      "transcript": "Hei, dette er Post i Butikk på hjørnet. Vi har fått inn en pakke til deg, og den ligger klar til henting. Husk å ta med legitimasjon og hentekoden du har fått på SMS. Vi har åpent alle hverdager til klokka tjue og på lørdager til klokka atten. Pakken ligger hos oss i sju dager før den blir sendt i retur.",
-      "question": "Hva må du huske å ta med for å hente pakken?",
-      "options": ["Bare kontanter", "Legitimasjon og hentekode", "En underskrift fra naboen", "Den gamle kvitteringen"]
+      "transcript": "Hej, det här är Karin från vårdcentralen, jag söker Jonas Lindqvist. Det gäller provsvaren du lämnade i förra veckan. Det är ingenting akut, så du behöver inte bli orolig när du hör det här meddelandet. Men vi vill gärna gå igenom dem tillsammans i stället för att skicka dem i ett brev, för det är ett par värden som behöver förklaras. Ring gärna tillbaka på samma nummer före klockan tre, så bokar vi en tid. Hör jag inget av dig så ringer jag igen på fredag.",
+      "question": "Varför vill vårdcentralen prata med Jonas?",
+      "options": ["De vill förklara ett par värden i ett samtal i stället för i brev", "Provsvaren visar något akut", "De vill boka om ett tidigare besök", "De behöver ta nya prover på fredag"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Colleague asks a favour",
-    "prompt": "Listen to the workplace conversation and choose the correct answer.",
+    "title": "Panel discussion on housing",
+    "prompt": "Listen to the panel extract and choose the correct answer.",
     "payload": {
-      "transcript": "Du, jeg lurte på om du kunne ta vakta mi på fredag? Datteren min har fri fra skolen, og jeg har veldig lyst til å bruke dagen sammen med henne. Jeg skal gjerne ta en av vaktene dine til gjengjeld hvis du trenger det senere. Bare si ifra hvis det ikke passer, så finner jeg en annen løsning.",
-      "question": "Hva ber kollegaen om?",
-      "options": ["Å låne penger", "Å bytte kontor", "Å ta over en vakt på fredag", "Å bli kjørt hjem"]
+      "transcript": "— Vi är alltså överens om att det byggs för lite. — Nej, det är vi faktiskt inte. Det byggs ganska mycket, men det byggs fel. Ser man på siffrorna för de senaste åren så har det tillkommit gott om lägenheter i de dyrare segmenten, medan det som en person med en vanlig ingångslön har råd med knappt tillkommit alls. Så när vi säger bostadsbrist döljer vi vad vi menar. Det råder ingen brist på bostäder i allmänhet. Det råder brist på bostäder till ett pris som fungerar.",
+      "question": "Vad invänder den andra talaren mot?",
+      "options": ["Att det byggs för mycket totalt sett", "Att statistiken över nybyggda lägenheter är felaktig", "Att ingångslönerna är för låga i hela landet", "Att formuleringen bostadsbrist döljer att problemet gäller pris, inte antal"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Weather forecast",
-    "prompt": "Listen to the forecast and choose the correct answer.",
+    "title": "Union representative at a workplace",
+    "prompt": "Listen to the announcement and choose the correct answer.",
     "payload": {
-      "transcript": "Og så til været. I morgen starter dagen grått med litt regn i de vestlige delene av landet. Utover ettermiddagen trekker skyene bort, og sola kommer fram de fleste steder. Det blir opptil atten grader, men det kan blåse en frisk vind ute ved kysten. Til kvelden blir det kjøligere, så ta med deg en genser hvis du skal ut.",
-      "question": "Hvordan blir været om ettermiddagen?",
-      "options": ["Regnfullt hele dagen", "Sola kommer fram de fleste steder", "Det kommer snø ved kysten", "Det blir veldig varmt om kvelden"]
+      "transcript": "Hej allihop, jag tar två minuter innan ni går på lunch. Som ni vet är förhandlingen om det nya schemat i gång. Jag vill bara vara tydlig med en sak: ingenting är beslutat än, oavsett vad ni har hört i fikarummet. Nästa möte med arbetsgivaren är på tisdag, och efter det skickar jag ut ett kort referat till alla, även till er som inte är medlemmar. Har ni synpunkter vill jag ha dem före tisdag, inte efter. Efteråt är det för sent att ta med dem in i rummet.",
+      "question": "Vad är budskapet till dem som har synpunkter?",
+      "options": ["De ska lämna dem före tisdagens möte", "De ska lämna dem efter tisdagens möte", "Bara medlemmar får lämna synpunkter", "Synpunkter tas emot i fikarummet"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Interview about learning Norwegian",
+    "title": "Interview with a researcher",
     "prompt": "Listen to the interview and choose the correct answer.",
     "payload": {
-      "transcript": "Jeg flyttet til Norge for fem år siden, og i begynnelsen var det vanskelig å forstå folk på gata. Det som virkelig hjalp meg, var å bli med i et løpelag. Der måtte jeg snakke norsk hver uke, og litt etter litt turte jeg mer. I dag jobber jeg som barnehagelærer, og jeg snakker norsk hele dagen uten å tenke over det.",
-      "question": "Hva hjalp personen mest med å lære norsk?",
-      "options": ["Å se på norsk TV", "Å lese mange bøker", "Å være med i et løpelag", "Å ta privatundervisning"]
+      "transcript": "— Er studie visar alltså att fyradagarsvecka fungerar? — Nej, det är precis vad den inte visar, och det är därför jag är här. Vår studie följde fjorton arbetsplatser under ett år, och resultaten går åt olika håll. Där arbetet gick att avgränsa tydligt gick det bra. Där arbetet bestod av att finnas tillgänglig för andra flyttades bara belastningen till kollegorna. Att sammanfatta det som att det fungerar är att göra våra deltagare en otjänst. Frågan är inte om, utan var.",
+      "question": "Hur beskriver forskaren studiens resultat?",
+      "options": ["Fyradagarsveckan fungerar på alla fjorton arbetsplatser", "Fyradagarsveckan fungerade ingenstans", "Resultatet beror på hur avgränsat arbetet är", "Studien var för kort för att ge några resultat"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "School information meeting",
-    "prompt": "Decide whether the statement is true or false according to the recording.",
+    "title": "Announcement at a train station",
+    "prompt": "Listen to the announcement and choose the correct answer.",
     "payload": {
-      "transcript": "Velkommen til foreldremøtet. I kveld skal vi fortelle om det nye skoleåret og om turen klassen skal på til våren. Turen går til en leirskole ved kysten, der barna skal overnatte i tre dager. Det er viktig at dere husker å skrive under på tillatelsen, ellers kan dessverre ikke barnet deres bli med.",
-      "question": "Barna skal overnatte på leirskolen i tre dager.",
-      "options": ["Sant", "Usant"]
+      "transcript": "Vi ber om uppmärksamhet för ett meddelande. Tåget mot Stockholm Central, avgång 16.42, är cirka tjugo minuter försenat. Tåget avgår från spår fyra, alltså inte spår två som står på tavlan. Ni som ska byta i Södertälje hinner med anslutningen ändå, den väntar in oss. Ni som ska vidare mot Västerås behöver däremot vända er till personalen i informationen, eftersom den anslutningen inte kan invänta oss. Vi beklagar förseningen.",
+      "question": "Vilka resenärer behöver kontakta personalen?",
+      "options": ["De som ska byta i Södertälje", "Alla som står på spår två", "Alla resenärer på tåget", "De som ska vidare mot Västerås"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "CORE",
-    "title": "Gym membership",
-    "prompt": "Decide whether the statement is true or false according to the recording.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Two colleagues on a new hire",
+    "prompt": "Listen to the dialogue and choose the correct answer.",
     "payload": {
-      "transcript": "Hei, og takk for at du ringer treningssenteret. Jeg kan fortelle at vi akkurat nå har et tilbud til nye medlemmer. Du betaler ikke innmeldingsavgift dersom du melder deg inn før slutten av måneden. Selve medlemskapet koster tre hundre og førti kroner i måneden, og du kan når som helst si det opp med én måneds varsel.",
-      "question": "Man må betale innmeldingsavgift hvis man melder seg inn denne måneden.",
-      "options": ["Sant", "Usant"]
+      "transcript": "— Vad tyckte du om den sista kandidaten? — Han var trevlig. — Det där sa du på ett sätt som betyder något annat. — Jo. Han svarade jättebra på allt jag frågade. Men han ställde inte en enda fråga tillbaka. Inte en. Och tjänsten går ut på att ta reda på vad kunden egentligen behöver. — Så du menar att han inte klarar jobbet? — Jag menar att jag inte fick se det som jag behövde se. Det är inte samma sak. Jag skulle vilja ha ett samtal till.",
+      "question": "Vad är talarens ståndpunkt om kandidaten?",
+      "options": ["Kandidaten är olämplig och bör väljas bort", "Kandidaten svarade dåligt på frågorna", "Underlaget räcker inte än, så hon vill ha ytterligare ett samtal", "Kandidaten ställde för många frågor"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "STRETCH",
-    "title": "Podcast on sleep",
-    "prompt": "Decide whether the statement is true or false according to the recording.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Information at a parents' evening",
+    "prompt": "Listen to the extract and choose the correct answer.",
     "payload": {
-      "transcript": "I dagens episode snakker vi om søvn. En forsker forklarer at voksne i gjennomsnitt trenger mellom sju og åtte timer søvn hver natt for å fungere godt. Hun understreker at det ikke bare handler om hvor lenge du sover, men også om kvaliteten. Ser du på skjermen rett før du legger deg, kan det bli vanskeligere å sovne.",
-      "question": "Ifølge forskeren betyr kvaliteten på søvnen ingenting, bare antallet timer.",
-      "options": ["Sant", "Usant"]
+      "transcript": "Välkomna till föräldramötet. En sak jag vill ta upp direkt är mobiltelefonerna. Från och med i höst samlar vi in dem på morgonen och lämnar tillbaka dem när dagen är slut. Jag vet att en del av er tycker att det är onödigt hårt, och jag förstår att ni vill kunna nå era barn. Ni når dem via expeditionen, precis som förr i tiden. Det handlar inte om att vi tror illa om eleverna. Det handlar om att de själva har bett oss om hjälp att låta bli.",
+      "question": "Hur motiverar läraren mobilregeln?",
+      "options": ["Eleverna själva har bett om hjälp att låta bli telefonerna", "Skolan misstror eleverna", "Föräldrarna har krävt regeln", "Telefonerna stör personalen på expeditionen"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Neighbour's request",
-    "prompt": "Decide whether the statement is true or false according to the recording.",
+    "title": "Radio commentary on food waste",
+    "prompt": "Listen to the commentary and choose the correct answer.",
     "payload": {
-      "transcript": "Hei nabo, det er Mette i nummer tolv. Vi skal ha en liten fest på lørdag, og det kommer nok en del gjester utover kvelden. Jeg ville bare si ifra på forhånd, så dere ikke blir overrasket over litt musikk. Vi lover å skru ned ved midnatt, og dere er selvsagt hjertelig velkomne til å stikke innom hvis dere har lyst.",
-      "question": "Mette inviterer naboene til å stikke innom festen.",
-      "options": ["Sant", "Usant"]
+      "transcript": "Varje gång matsvinn diskuteras hamnar ansvaret hos konsumenten. Planera bättre, lukta på mjölken, handla inte hungrig. Allt det där stämmer, och allt det där är småpotatis. Det mesta försvinner långt innan maten når din kyl, i led som ingen av oss ser. Att lägga hela ansvaret på hushållet är bekvämt, för hushållet klagar inte tillbaka. Jag säger inte att du ska sluta planera dina inköp. Jag säger att om du gör allting rätt har du fortfarande bara rört vid den lilla delen.",
+      "question": "Vad är kommentatorns huvudpoäng?",
+      "options": ["Konsumenter behöver inte tänka på matsvinn alls", "Ansvaret läggs orimligt mycket på hushållen medan de största förlusterna sker tidigare i kedjan", "Att lukta på mjölken är det bästa rådet mot matsvinn", "Matsvinn är ett överdrivet problem"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "MATCHING",
-    "difficulty": "STRETCH",
-    "title": "Match speakers to opinions",
-    "prompt": "Match each speaker to the opinion they express.",
-    "payload": {
-      "transcript": "Tre kolleger snakker om hvordan de helst kommer seg på jobb. Jonas sier: Jeg tar alltid sykkelen, for da får jeg litt mosjon før dagen begynner. Priya sier: Jeg foretrekker bussen, fordi jeg kan slappe av og lese underveis. Og Tom sier: Jeg må kjøre bil, fordi jeg skal hente barna etterpå.",
-      "instructions": "Koble hver taler til meningen personen gir uttrykk for.",
-      "left": ["Jonas", "Priya", "Tom"],
-      "right": ["Foretrekker bussen for å kunne slappe av", "Må kjøre bil på grunn av barna", "Sykler for å få mosjon"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "LISTENING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Match departments to tasks",
-    "prompt": "Match each person to the department that can help them.",
+    "title": "Call to customer service",
+    "prompt": "Listen to the call and choose the correct answer.",
     "payload": {
-      "transcript": "Velkommen til kommunens sentralbord. Vi hjelper deg videre. Har du spørsmål om skatt og betaling, skal du snakke med økonomiavdelingen. Handler det om boligen din og husleie, hjelper boligkontoret deg. Og trenger du hjelp til å søke jobb, setter vi deg over til NAV.",
-      "instructions": "Koble hver innbygger til den riktige avdelingen.",
-      "left": ["En innbygger som har spørsmål om husleia si", "En innbygger som leter etter arbeid", "En innbygger som har et spørsmål om skatt"],
-      "right": ["NAV", "Økonomiavdelingen", "Boligkontoret"]
+      "transcript": "— Hej, jag ringer om fakturan jag fick i går. Den är på ett belopp jag inte känner igen. — Jag ska titta. Jaha, jag ser den. Där ligger ett startavgift med som egentligen skulle ha tagits bort när ni bytte abonnemang i mars. — Så jag ska inte betala den? — Du ska betala fakturan, men vi skickar en kreditering på mellanskillnaden inom några dagar. Betala hela beloppet så det inte går till påminnelse, så får du tillbaka det. Jag lägger en anteckning på ärendet nu.",
+      "question": "Vad ska kunden göra?",
+      "options": ["Låta bli att betala fakturan", "Betala bara mellanskillnaden", "Vänta på en ny faktura innan hon betalar", "Betala hela beloppet och få en kreditering senare"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Match hobbies to reasons",
-    "prompt": "Match each person to the reason they give for their hobby.",
+    "title": "Manager on workplace culture",
+    "prompt": "Listen to the extract and choose the correct answer.",
     "payload": {
-      "transcript": "Tre venner forteller om fritidsinteressene sine. Sofie sier: Jeg synger i et kor, fordi jeg får så mye energi av å være sammen med de andre. Karim sier: Jeg driver med hagearbeid, fordi jeg liker å være ute og se ting gro. Og Ida sier: Jeg maler bilder, fordi det hjelper meg å slappe av etter en travel dag.",
-      "instructions": "Koble hver person til grunnen til hobbyen.",
-      "left": ["Sofie", "Karim", "Ida"],
-      "right": ["Liker å være ute og se ting gro", "Slapper av etter en travel dag", "Får energi av fellesskapet"]
+      "transcript": "När jag kom hit från ett företag i Tyskland tog det mig ett halvår att förstå mötena. Jag trodde att mötet var där man bestämde. Jag argumenterade hårt, vann diskussionen och gick därifrån nöjd. Sedan hände ingenting. Det tog tid innan någon var vänlig nog att förklara att jag hade vunnit fel rum. Förankringen sker innan, i småprat, i korridoren. Mötet är där man bekräftar det som redan är förankrat. Jag tycker fortfarande att det är långsamt. Men jag har slutat kalla det otydligt.",
+      "question": "Vad har talaren lärt sig?",
+      "options": ["Att förankringen sker före mötet, som mest bekräftar beslutet", "Att svenska möten är platsen där besluten fattas", "Att man bör argumentera hårdare på mötena", "Att beslutsprocessen är otydlig och därför dålig"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "LISTENING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Match announcements to places",
-    "prompt": "Match each announcement to the place where you would hear it.",
+    "title": "Library workshop announcement",
+    "prompt": "Listen to the announcement and choose the correct answer.",
     "payload": {
-      "transcript": "Du hører tre korte beskjeder i løpet av en dag. Den første lyder: Kjære kunder, vi stenger om ti minutter, så ta med de siste varene til kassa nå. Den andre lyder: Neste stopp er Jernbanetorget, bytt her til T-bane og trikk. Og den tredje lyder: Legen er klar til å ta imot deg nå, gå inn på rom tre.",
-      "instructions": "Koble hver beskjed til stedet der du hører den.",
-      "left": ["Kjære kunder, vi stenger om ti minutter", "Neste stopp er Jernbanetorget", "Legen er klar til å ta imot deg nå"],
-      "right": ["På et tog", "På et venterom", "I en dagligvarebutikk"]
+      "transcript": "Hej och välkomna hit till stadsbiblioteket. Innan vi börjar vill jag säga något om upplägget. Det här är inte en föreläsning där jag pratar i två timmar. Ni kommer att få sitta vid datorerna och göra själva nästan hela tiden, och jag går runt. Har ni inte tagit med er en egen dator gör det ingenting, vi har tio att låna ut här inne. Däremot behöver ni ett lånekort för att logga in, så saknar ni det får ni ordna det i disken där ute först. Det tar två minuter.",
+      "question": "Vad behöver deltagarna ha med sig?",
+      "options": ["En egen dator", "Ett lånekort för att kunna logga in", "Ingenting alls", "Både dator och lånekort"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Podcast on winter darkness",
+    "prompt": "Listen to the podcast extract and choose the correct answer.",
+    "payload": {
+      "transcript": "Alla som flyttar hit får samma råd i november: gå ut i dagsljuset, köp en lampa, ta D-vitamin. Bra råd, allihop. Men det ingen säger är att det inte bara är ljuset som försvinner. Det är också att alla andra gör samma sak samtidigt, alltså går hem. Och sitter man ensam blir mörkret dubbelt. Min poäng är att en lampa löser hälften av problemet. Den andra halvan löser man genom att fråga någon om de vill ta en promenad, även om det känns fånigt i mörkret klockan tre.",
+      "question": "Vad menar talaren att de vanliga råden missar?",
+      "options": ["Att D-vitamin inte har någon effekt", "Att lampor är för dyra för många", "Att den sociala isoleringen är en lika viktig del av problemet", "Att man inte bör gå ut i dagsljus i november"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
   }
 ]

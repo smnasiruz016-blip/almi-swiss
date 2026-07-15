@@ -3,10 +3,10 @@ import Link from "next/link";
 import { ROLES } from "@/lib/seo/axes";
 
 export const metadata: Metadata = {
-  title: { absolute: "Work in Norway — the Norwegian you'll need, by role | AlmiSwedish" },
+  title: { absolute: "Work in Sweden — the Swedish you'll need, by role | AlmiSwedish" },
   description:
-    "Working in Norway: how much Norwegian each role needs, which CEFR level, and honest readiness practice. Confirm specifics with employers and regulators.",
-  alternates: { canonical: "/work-in-norway" },
+    "Working in Sweden: how much Swedish each role needs, which CEFR level, and honest readiness practice. Confirm specifics with employers and regulators.",
+  alternates: { canonical: "/work-in-sweden" },
 };
 
 export default function WorkHub() {
@@ -21,10 +21,12 @@ export default function WorkHub() {
   return (
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
-        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Norway</h1>
+        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Sweden</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
-          How much Norwegian you need depends on the role — client-facing and regulated jobs usually expect more,
-          while some technical roles run in English. Pick a role for the language pathway, or practise Norwegian now.
+          How much Swedish you need depends on the role — client-facing and regulated jobs usually
+          expect more, and healthcare roles licensed by Socialstyrelsen have their own language
+          requirements, while some technical roles run in English. Pick a role for the language
+          pathway, or practise Swedish now.
         </p>
         {industries.map((ind) => (
           <section key={ind} className="mt-8">
@@ -32,7 +34,7 @@ export default function WorkHub() {
             <ul className="mt-2 flex flex-wrap gap-2">
               {byIndustry.get(ind)!.map((r) => (
                 <li key={r.slug}>
-                  <Link href={`/work-in-norway/${r.slug}`} className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">
+                  <Link href={`/work-in-sweden/${r.slug}`} className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">
                     {r.name}
                   </Link>
                 </li>

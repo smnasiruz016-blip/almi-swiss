@@ -1,19 +1,18 @@
 [
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
     "title": "Note for the neighbour",
-    "prompt": "Write a short note in Norwegian to a neighbour.",
+    "prompt": "Write a short note in Swedish to a neighbour.",
     "payload": {
-      "stimulus": "You will be away this weekend. Write a short note (en lapp) in Norwegian to your neighbour Kari. Say that you travel on Friday, ask her to water your plants (vanne blomstene), and say you are back Sunday evening.",
+      "stimulus": "You will be away this weekend. Write a short note (en lapp) in Swedish to your neighbour Karin. Say that you travel on Friday, ask her to water your plants (vattna blommorna), and say that you are back on Sunday evening.",
       "criteria": [
-        "Uses a friendly greeting and closing (Hei Kari / Tusen takk)",
-        "States the days clearly (fredag, søndag kveld)",
-        "Makes one simple polite request using 'Kan du...?'",
-        "Uses correct present-tense verbs at A1-A2 level"
+        "Covers all three points: travel day, the request, and the return day",
+        "Uses a polite request form (kan du, snälla)",
+        "Short sentences in the present tense, with a greeting and a name"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -22,19 +21,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Library sign-up form",
-    "prompt": "Fill in a simple library form in Norwegian.",
+    "title": "Text message to a colleague",
+    "prompt": "Write a short text message in Swedish.",
     "payload": {
-      "stimulus": "You are signing up at the local library (biblioteket). Write the form answers in Norwegian: navn, adresse, telefonnummer, fødselsår, and one sentence about which books you like (Jeg liker...).",
+      "stimulus": "Your bus is late. Write a short SMS in Swedish to your colleague Erik. Say that the bus is late, that you arrive at nine, and say sorry.",
       "criteria": [
-        "Provides all requested personal details in Norwegian labels",
-        "Writes numbers and address in a readable Norwegian format",
-        "Ends with one full sentence about book preferences",
-        "Uses 'jeg liker' correctly"
+        "Explains the reason for being late in simple Swedish",
+        "Gives a clear arrival time",
+        "Includes an apology (förlåt / ursäkta)"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -43,61 +41,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Message: running late",
-    "prompt": "Write a short text message to a friend in Norwegian.",
-    "payload": {
-      "stimulus": "You planned to meet your friend Mikkel at the café at 15:00, but the bus is delayed. Send a short message (en melding) in Norwegian: apologise, say you will be about 20 minutes late, and suggest he orders a coffee.",
-      "criteria": [
-        "Apologises naturally (Beklager / Unnskyld)",
-        "Gives a clear new time or delay (cirka 20 minutter)",
-        "Makes a simple suggestion (Du kan gjerne bestille...)",
-        "Keeps a warm, informal tone with a friend"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Shopping list with a note",
-    "prompt": "Write a shopping list and a short note in Norwegian.",
-    "payload": {
-      "stimulus": "Your flatmate is going to the shop (butikken). Write a short Norwegian note: list four things you need (for example melk, brød, egg, smør) and ask them to buy fruit if it is cheap (hvis det er billig).",
-      "criteria": [
-        "Lists at least four everyday food items in Norwegian",
-        "Includes a short introductory line to the flatmate",
-        "Uses a simple conditional idea (hvis det er billig)",
-        "Spelling of common nouns is close to correct"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Postcard from a day trip",
-    "prompt": "Write a short postcard in Norwegian.",
+    "title": "Filling in a form",
+    "prompt": "Write short answers about yourself for a simple form.",
     "payload": {
-      "stimulus": "You spent a day in Bergen. Write a short postcard (et postkort) in Norwegian to your cousin: say where you are, what the weather is like, and one thing you did (for example, I saw the fish market / Jeg så fisketorget).",
+      "stimulus": "Du ska anmäla dig till en kurs. Skriv några korta meningar om dig själv: namn, adress, telefonnummer och vilken kurs du vill gå.",
       "criteria": [
-        "Opens with a postcard greeting (Kjære...)",
-        "Mentions the place and the weather (været)",
-        "Describes one past activity simply",
-        "Ends with a friendly sign-off (Klem / Hilsen)"
+        "Gives name, address, and a phone number",
+        "States which course the writer wants to take",
+        "Information is clear and correctly spelled"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -106,40 +61,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Email to the language school",
-    "prompt": "Write a short email in Norwegian to your school.",
-    "payload": {
-      "stimulus": "You cannot attend your Norwegian class on Thursday because you have a doctor's appointment (en time hos legen). Write a short, polite email in Norwegian to your teacher: explain why, and ask what homework (lekser) you should do.",
-      "criteria": [
-        "Uses a suitable email greeting (Hei / Kjære lærer)",
-        "Gives a clear, simple reason for the absence",
-        "Asks one polite question about homework",
-        "Closes politely (Vennlig hilsen + name)"
-      ],
-      "charBand": { "min": 40, "max": 120 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Describe your kitchen",
-    "prompt": "Write a few sentences describing your kitchen in Norwegian.",
+    "title": "Your favourite food",
+    "prompt": "Write about food you like in Swedish.",
     "payload": {
-      "stimulus": "Describe your kitchen (kjøkkenet ditt) in Norwegian. Write three to four short sentences: name a few things in it (kjøleskap, bord, stoler), say what you often cook, and say when you usually eat dinner.",
+      "stimulus": "Skriv om mat du tycker om. Vad äter du ofta? Vem lagar maten hemma hos dig?",
       "criteria": [
-        "Names at least three items found in a kitchen",
-        "Uses 'det er' to say what is in the room",
-        "Includes a habit with a time (Jeg spiser klokka...)",
-        "Sentences stay short and grammatically simple"
+        "Names at least two dishes or food items in Swedish",
+        "Says who cooks at home",
+        "Uses present tense and simple sentence structure"
       ],
       "charBand": { "min": 40, "max": 120 }
     },
@@ -148,19 +81,78 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "A message to the preschool",
+    "prompt": "Write a short message to your child's preschool.",
+    "payload": {
+      "stimulus": "Your daughter Sara cannot come to preschool tomorrow. Write a short message in Swedish. Say that she is ill, that she has a fever, and that she comes back on Monday.",
+      "criteria": [
+        "States that the child is ill and gives the symptom",
+        "Says when the child will return",
+        "Includes a greeting and the parent's name"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Your work or studies",
+    "prompt": "Write about your work or your studies in Swedish.",
+    "payload": {
+      "stimulus": "Skriv om ditt jobb eller dina studier. Vad gör du? När börjar och slutar du? Vad tycker du om det?",
+      "criteria": [
+        "Describes the job or the studies concretely",
+        "Gives at least one time (klockan åtta, på förmiddagen)",
+        "Includes one simple opinion in correct Swedish"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Asking about an appointment",
+    "prompt": "Write a short message asking to change an appointment.",
+    "payload": {
+      "stimulus": "You have an appointment at Försäkringskassan on Thursday, but you must work. Write a short message in Swedish. Ask for a new time and suggest Friday.",
+      "criteria": [
+        "Explains why the current time does not work",
+        "Asks clearly for a new appointment and suggests a day",
+        "Polite tone with a greeting and the writer's name"
+      ],
+      "charBand": { "min": 40, "max": 120 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Introduce yourself to a class",
-    "prompt": "Introduce yourself in Norwegian.",
+    "title": "Ask for the way",
+    "prompt": "Ask for directions out loud in Swedish.",
     "payload": {
-      "stimulus": "It is your first day in a Norwegian class. Introduce yourself: say your name, where you come from, where you live now, and one hobby (en fritidsinteresse).",
+      "stimulus": "Du står i centrum i Stockholm och vill hitta stationen. Fråga en person om vägen och tacka efteråt.",
       "criteria": [
-        "Says name and country clearly (Jeg heter... Jeg kommer fra...)",
-        "States current town or city of residence",
-        "Mentions one hobby with a simple verb",
-        "Speaks in short, complete Norwegian sentences"
+        "Uses a polite opening (ursäkta) and a clear question",
+        "Asks about a specific place",
+        "Ends the conversation politely (tack)"
       ],
       "minSeconds": 45
     },
@@ -169,19 +161,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Order at a bakery",
-    "prompt": "Order food at a Norwegian bakery.",
+    "title": "Order in a café",
+    "prompt": "Order food and drink out loud in Swedish.",
     "payload": {
-      "stimulus": "You are at a bakery (et bakeri). Order two things (for example a loaf of bread and two buns), ask the price, and say thank you when you pay.",
+      "stimulus": "Du är på ett kafé. Beställ något att dricka och något att äta. Fråga också vad det kostar.",
       "criteria": [
-        "Uses a polite ordering phrase (Jeg vil gjerne ha...)",
-        "Names two bakery items in Norwegian",
-        "Asks the price (Hva koster det?)",
-        "Closes the exchange politely (Takk / Ha det)"
+        "Orders at least one drink and one food item",
+        "Asks about the price in Swedish",
+        "Uses polite phrases (jag vill ha, tack)"
       ],
       "minSeconds": 45
     },
@@ -190,61 +181,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Describe your morning routine",
-    "prompt": "Describe your morning in Norwegian.",
-    "payload": {
-      "stimulus": "Describe your typical morning in Norwegian. Say when you get up, what you eat and drink for breakfast, and how you travel to work or school.",
-      "criteria": [
-        "Uses a time to say when you wake up (Jeg står opp klokka...)",
-        "Names breakfast food and drink",
-        "Describes the way to work or school (buss, sykkel, går)",
-        "Links steps with words like 'og' and 'så'"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Talk about your family",
-    "prompt": "Talk about your family in Norwegian.",
-    "payload": {
-      "stimulus": "Talk about your family (familien din). Say who is in it, one thing about each person (age, job, or where they live), and who you see most often.",
-      "criteria": [
-        "Names at least two family members with the right words",
-        "Gives one detail per person (alder, arbeid, eller by)",
-        "Uses 'har' correctly (Jeg har en søster...)",
-        "Speaks for the full time without long silences"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "Ask for directions",
-    "prompt": "Ask for directions in Norwegian.",
+    "title": "Talk about the weather",
+    "prompt": "Describe the weather out loud in Swedish.",
     "payload": {
-      "stimulus": "You are lost in town and want to find the train station (togstasjonen). Stop a friendly person: greet them, ask the way politely, and thank them.",
+      "stimulus": "Berätta hur vädret är i dag och hur vädret är på vintern där du bor.",
       "criteria": [
-        "Opens politely (Unnskyld, kan du hjelpe meg?)",
-        "Asks clearly for the destination (Hvor er togstasjonen?)",
-        "Uses one direction word (til høyre, til venstre, rett fram)",
-        "Thanks the person at the end"
+        "Describes today's weather with at least two words (kallt, regnar, blåser)",
+        "Compares with the winter weather",
+        "Speaks in clear, simple sentences"
       ],
       "minSeconds": 45
     },
@@ -253,40 +201,18 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "SPEAKING",
-    "taskType": "SPEAKING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Plan the weekend with a friend",
-    "prompt": "Suggest weekend plans in Norwegian.",
-    "payload": {
-      "stimulus": "A friend asks what you want to do this weekend. Suggest one activity (for example a walk in the park or a film), say which day and time, and ask if it suits them.",
-      "criteria": [
-        "Proposes an activity (Skal vi gå en tur / se en film?)",
-        "Names a day and a time",
-        "Asks whether it fits (Passer det for deg?)",
-        "Responds naturally as in a short conversation"
-      ],
-      "minSeconds": 45
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
-    "title": "At the doctor's reception",
-    "prompt": "Explain a simple problem at the doctor's.",
+    "title": "Call in sick to work",
+    "prompt": "Make a short sick call out loud.",
     "payload": {
-      "stimulus": "You are at the doctor's reception (hos legen). Greet the receptionist, say you have a cold and a headache (forkjølelse og hodepine), and ask for an appointment today.",
+      "stimulus": "Ring till din chef Johan. Säg vem du är, att du är sjuk i dag och när du kommer tillbaka.",
       "criteria": [
-        "Greets and gives your name",
-        "Describes two simple symptoms in Norwegian",
-        "Asks for an appointment (Kan jeg få en time i dag?)",
-        "Uses 'jeg har' correctly with body words"
+        "Introduces themselves at the start of the call",
+        "Says they are ill and mentions when they will return",
+        "Speech is polite and understandable"
       ],
       "minSeconds": 45
     },
@@ -295,19 +221,78 @@
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Your free time",
+    "prompt": "Talk about your free time in Swedish.",
+    "payload": {
+      "stimulus": "Berätta vad du gör på fritiden. Vad tycker du om att göra? Vem gör du det med?",
+      "criteria": [
+        "Names at least two free-time activities",
+        "Says who they do it with",
+        "Uses jag tycker om att + verb correctly at least once"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Ask a colleague a question",
+    "prompt": "Ask a work question out loud in Swedish.",
+    "payload": {
+      "stimulus": "Du är ny på jobbet. Fråga din kollega Fatima när rasten är, var du kan äta lunch och vem du ska prata med om schemat.",
+      "criteria": [
+        "Asks three clear questions in Swedish",
+        "Uses correct question words (när, var, vem)",
+        "Tone is polite and the speech is easy to follow"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Describe your first day at work",
-    "prompt": "Talk about starting a new job in Norwegian.",
+    "title": "Why you study Swedish",
+    "prompt": "Explain why you are learning Swedish.",
     "payload": {
-      "stimulus": "Talk about your first day at a new job (den nye jobben din). Say where you work, what time you start, one task you do, and one colleague you met.",
+      "stimulus": "Berätta varför du läser svenska. Vad vill du göra i framtiden? Hur ofta studerar du?",
       "criteria": [
-        "Says the workplace and start time",
-        "Describes one everyday work task simply",
-        "Mentions a colleague (en kollega) and something about them",
-        "Uses present tense verbs consistently"
+        "Gives at least one clear reason for studying Swedish",
+        "Mentions a future plan in simple language",
+        "Says how often they study, using a time expression"
+      ],
+      "minSeconds": 45
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Describe a photo of a family meal",
+    "prompt": "Describe a simple everyday scene out loud.",
+    "payload": {
+      "stimulus": "Titta på bilden i huvudet: en familj äter middag i ett kök. Beskriv vad du ser. Vilka personer finns där? Vad gör de? Vad står på bordet?",
+      "criteria": [
+        "Describes people and what they are doing",
+        "Names at least two objects in the room",
+        "Uses det finns / det är and present tense correctly"
       ],
       "minSeconds": 45
     },

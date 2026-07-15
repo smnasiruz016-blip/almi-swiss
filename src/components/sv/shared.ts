@@ -28,9 +28,9 @@ export interface SubmitResult {
   correct: boolean;
 }
 
-/** The BCP-47 voice tag for listening audio — Norwegian (all tracks). */
+/** The BCP-47 voice tag for listening audio — Swedish (all tracks). */
 export function ttsLang(): string {
-  return "is-IS";
+  return "sv-SE";
 }
 
 /** POST a graded/echoed attempt to the submit API. DB-optional, never throws. */

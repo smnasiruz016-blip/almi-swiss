@@ -31,7 +31,7 @@ function entry(path: string, priority = 0.5): MetadataRoute.Sitemap[number] {
 // makes every comparison fail and each shard emits an empty <urlset> (110 bytes).
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
   const shard = Number(await id);
-  // Shard 0 — core marketing + auth + Norwegian-exam hub/levels.
+  // Shard 0 — core marketing + auth + Swedish-exam hub/levels.
   if (shard === 0) {
     const core = ["", "/pricing", "/signup", "/login", "/exams", "/study-in-norway", "/work-in-norway", "/requirements/norway/norskprove-b1b2-citizenship"]
       .map((p) => entry(p, p === "" ? 1 : 0.7));

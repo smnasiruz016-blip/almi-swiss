@@ -1,239 +1,239 @@
 [
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Formal email to landlord",
-    "prompt": "Write a formal email based on the task.",
+    "title": "Email declining extra work",
+    "prompt": "Write a workplace email based on the task.",
     "payload": {
-      "stimulus": "Skriv en formell e-post til utleieren din. Varmen i leiligheten din har ikke virket på en uke. Forklar problemet, fortell hvordan det påvirker hverdagen din, og be høflig om at det blir ordnet raskt. Foreslå når en håndverker kan komme.",
-      "criteria": ["Clear and polite formal tone", "Problem and request are clearly explained", "Suitable opening and closing", "Correct sentence structure and word choice"],
-      "charBand": { "min": 120, "max": 250 }
+      "stimulus": "Din chef har frågat om du kan ta över ett extra projekt utöver dina vanliga uppgifter. Du hinner inte utan att något annat blir lidande. Skriv ett mejl till chefen där du tackar för förtroendet, förklarar varför du inte kan ta projektet som det ser ut nu, och föreslår ett alternativ (till exempel att något annat prioriteras bort eller att du tar en del av projektet).",
+      "criteria": ["Polite but clear refusal without over-apologising", "Reason is concrete and professional", "A constructive alternative is offered", "Appropriate workplace register and email structure"],
+      "charBand": { "min": 150, "max": 400 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Complaint about a product",
-    "prompt": "Write a formal complaint based on the task.",
+    "title": "Debate reply on remote work",
+    "prompt": "Write a reply to a debate article based on the task.",
     "payload": {
-      "stimulus": "Du har kjøpt et par sko på nett, men de gikk i stykker etter kort tid. Skriv en klage til butikken. Beskriv hva som er galt, når du kjøpte skoene, og hva du ønsker at butikken gjør (for eksempel bytte eller pengene tilbake).",
-      "criteria": ["The complaint is factual and polite", "All relevant information is included", "The request to the shop is clear", "Correct use of past tense and connectors"],
-      "charBand": { "min": 120, "max": 250 }
+      "stimulus": "En lokaltidning har publicerat en debattartikel med rubriken Distansarbete förstör arbetsgemenskapen. Skriv ett svar där du tar ställning. Ge minst två argument för din ståndpunkt, bemöt ett argument från artikeln, och avsluta med ett konkret förslag.",
+      "criteria": ["Position is stated clearly and early", "At least two developed arguments", "One opposing argument is addressed, not ignored", "Connectors and paragraphing create a coherent line of reasoning"],
+      "charBand": { "min": 150, "max": 400 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Opinion on public transport",
+    "title": "Written input before a performance review",
+    "prompt": "Write a preparation text based on the task.",
+    "payload": {
+      "stimulus": "Inför ditt medarbetarsamtal har din chef bett dig skicka ett kort underlag i förväg. Skriv en text där du beskriver vad som fungerat bra det senaste året, vad du vill utveckla, och vad du behöver från chefen för att komma dit. Var konkret och undvik allmänna fraser.",
+      "criteria": ["All three requested points are covered", "Self-assessment is specific rather than generic", "Requests to the manager are concrete and reasonable", "Register is professional but not stiff"],
+      "charBand": { "min": 150, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Letter to the housing association board",
+    "prompt": "Write a formal letter based on the task.",
+    "payload": {
+      "stimulus": "Cykelrummet i din bostadsrättsförening är fullt av cyklar som uppenbarligen inte används och som ingen gör anspråk på. Skriv ett brev till styrelsen. Beskriv problemet, förklara varför det påverkar de boende, och föreslå en lösning som är rimlig även för dem som faktiskt äger cyklarna.",
+      "criteria": ["Problem is described factually without hostility", "Impact on residents is explained", "The proposed solution is fair to all parties", "Formal letter conventions in Swedish"],
+      "charBand": { "min": 150, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Summary and comment on a meeting",
+    "prompt": "Write a summary email based on the task.",
+    "payload": {
+      "stimulus": "Du var med på ett möte där gruppen beslutade att skjuta upp en lansering tre veckor. Två kollegor var emot beslutet. Skriv ett mejl till hela gruppen där du sammanfattar vad som beslutades, återger invändningarna rättvist, och beskriver vad som gäller nu. Du ska sammanfatta, inte argumentera för din egen linje.",
+      "criteria": ["Decision and next steps are unambiguous", "Objections are represented fairly and neutrally", "Writer's own opinion is kept out of the summary", "Clear structure that a reader can skim"],
+      "charBand": { "min": 150, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Application letter for an internal position",
+    "prompt": "Write an application based on the task.",
+    "payload": {
+      "stimulus": "En tjänst har utlysts internt på din arbetsplats. Skriv ett personligt brev till den rekryterande chefen. Förklara varför du söker, vad du tar med dig från din nuvarande roll, och vad du behöver lära dig. Var ärlig om det sista, men skriv så att det stärker din ansökan.",
+      "criteria": ["Motivation is specific to this role, not generic", "Relevant experience is connected to the role's needs", "A knowledge gap is acknowledged constructively", "No exaggerated claims; tone is confident but honest"],
+      "charBand": { "min": 150, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 10
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Opinion text on screen time",
     "prompt": "Write an opinion text based on the task.",
     "payload": {
-      "stimulus": "En lokalavis spør leserne: Bør kollektivtrafikken være billigere? Skriv et innlegg der du gir din mening. Kom med minst to argumenter for synspunktet ditt, og nevn også et mulig motargument.",
-      "criteria": ["Clear viewpoint from the start", "At least two supported arguments", "A counter-argument is raised and answered", "Coherent paragraphs and connectors"],
-      "charBand": { "min": 150, "max": 250 }
+      "stimulus": "En tidning frågar sina läsare: Bör skolan begränsa elevernas mobilanvändning? Skriv ett inlägg där du tar ställning. Använd minst ett hypotetiskt resonemang (om ... så ...) och nämn en invändning mot din egen ståndpunkt som du själv tycker är stark.",
+      "criteria": ["Clear stance supported by reasoning, not just assertion", "Includes a genuine hypothetical argument", "The strongest counter-argument is engaged with honestly", "Varied connectors and controlled sentence structure"],
+      "charBand": { "min": 150, "max": 400 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
-    "title": "Email to a colleague",
-    "prompt": "Write an informal work email based on the task.",
+    "title": "Message about a sick day",
+    "prompt": "Write two short messages based on the task.",
     "payload": {
-      "stimulus": "Du blir forsinket til et møte på jobben på grunn av trafikk. Skriv en kort e-post til kollegaen din. Forklar situasjonen, si omtrent når du kommer, og be kollegaen om å starte møtet uten deg.",
-      "criteria": ["Suitably friendly but professional tone", "The reason for being late is clear", "Concrete message about time and next step", "Correct and easy-to-understand language"],
-      "charBand": { "min": 120, "max": 220 }
+      "stimulus": "Du blir sjuk på morgonen och kan inte arbeta i dag. Skriv två texter: först ett kort meddelande till din chef där du sjukanmäler dig, och sedan ett meddelande till en kollega som skulle ha haft möte med dig klockan 10. Anpassa tonen till respektive mottagare.",
+      "criteria": ["Both messages include the necessary practical information", "Clear difference in register between manager and colleague", "Neither message is longer than it needs to be", "Correct everyday Swedish idiom"],
+      "charBand": { "min": 150, "max": 400 }
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Application for a course",
-    "prompt": "Write a formal application based on the task.",
-    "payload": {
-      "stimulus": "Arbeidsplassen din tilbyr et kurs i førstehjelp, men det er få plasser. Skriv en kort søknad til lederen din. Forklar hvorfor du gjerne vil delta, og hvordan kurset kan være til nytte for deg og arbeidsplassen.",
-      "criteria": ["Formal and motivated tone", "Clear justification for taking part", "Benefits for both you and the workplace", "Correct structure and language"],
-      "charBand": { "min": 130, "max": 250 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Letter to a friend",
-    "prompt": "Write an informal letter based on the task.",
-    "payload": {
-      "stimulus": "En venn fra hjemlandet ditt vurderer å flytte til Norge. Skriv et brev der du forteller om hvordan det er å bo her. Nevn både noe du synes er bra, og noe som kan være vanskelig i starten. Gi et godt råd.",
-      "criteria": ["Personal and friendly tone", "Both advantages and challenges are described", "A concrete piece of advice is given", "Cohesion and variety in the language"],
-      "charBand": { "min": 130, "max": 250 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "STRETCH",
-    "title": "Opinion on screen time",
-    "prompt": "Write an opinion text based on the task.",
-    "payload": {
-      "stimulus": "Mange mener at barn bruker for mye tid foran skjermen. Skriv et innlegg til en foreldregruppe der du gir din mening om temaet. Forklar argumentene dine, og foreslå hva familier selv kan gjøre.",
-      "criteria": ["Clear viewpoint", "The arguments are logical and supported", "A concrete suggestion for families", "Good text structure and connectors"],
-      "charBand": { "min": 150, "max": 250 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "WRITING",
-    "taskType": "WRITING_PROMPT",
-    "difficulty": "CORE",
-    "title": "Note to the housing association",
-    "prompt": "Write a short formal note based on the task.",
-    "payload": {
-      "stimulus": "Det er ofte rot i sykkelboden i borettslaget ditt, og det er vanskelig å finne plass til sykkelen. Skriv en beskjed til styret. Beskriv problemet, og kom med et forslag til hvordan det kan bli bedre.",
-      "criteria": ["Factual and constructive tone", "The problem is clearly described", "A realistic suggestion is presented", "Correct and understandable language"],
-      "charBand": { "min": 120, "max": 220 }
-    },
-    "answer": null,
-    "maxPoints": 10
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Present your neighbourhood",
-    "prompt": "Speak on the given topic.",
+    "title": "Present a proposal at a meeting",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Fortell om området du bor i. Hva kan man gjøre der, og hva liker du best? Er det noe du gjerne skulle ha endret? Begrunn svarene dine.",
-      "criteria": ["Coherent and understandable delivery", "Concrete examples and reasons", "Suitable vocabulary about town and daily life", "Reasonably fluent speech"],
+      "stimulus": "Du ska föreslå en förändring på din arbetsplats, till exempel nya mötesrutiner eller ett annat sätt att fördela arbetsuppgifter. Presentera förslaget som om du talade på ett möte. Förklara problemet först, sedan ditt förslag, och avsluta med vad du behöver från gruppen.",
+      "criteria": ["Problem, proposal and request are clearly separated", "Reasoning is easy to follow without notes", "Register suits a professional meeting", "Speech is fluent enough not to lose the listener"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Argue a viewpoint on work-life balance",
-    "prompt": "Present and argue a viewpoint.",
+    "title": "Disagree with a colleague",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Noen mener at en firedagers arbeidsuke ville gjort folk mer fornøyde. Argumentér for eller mot dette synspunktet, og forklar grunnene dine. Nevn også hva en ulempe kunne være.",
-      "criteria": ["Clear viewpoint", "At least two arguments", "A drawback is considered", "Fluent and coherent speech"],
+      "stimulus": "En kollega har föreslagit att er grupp ska sluta med de veckovisa avstämningarna eftersom de tar tid. Du håller inte med. Tala som om du svarade honom direkt: erkänn det som är rimligt i hans förslag, förklara varför du ändå är av en annan åsikt, och föreslå en kompromiss.",
+      "criteria": ["Disagreement is expressed without being confrontational", "The other view is acknowledged before being answered", "A concrete compromise is proposed", "Use of hedging and softening expressions typical of Swedish workplaces"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Describe a tradition",
-    "prompt": "Speak on the given topic.",
+    "title": "Explain a decision to a customer",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Fortell om en tradisjon eller en høytid som betyr noe for deg. Hva går den ut på, hvem er du sammen med, og hvorfor er den viktig for deg?",
-      "criteria": ["Clear description with details", "Personal justification", "Varied vocabulary", "Reasonably fluent speech"],
+      "stimulus": "Ditt företag har beslutat att skjuta upp en leverans tre veckor. Du ska ringa kunden. Förklara vad som har hänt och varför, vad ni gör åt det, och vad kunden kan förvänta sig nu. Skyll inte på någon annan och lova inte något du inte vet håller.",
+      "criteria": ["Bad news is delivered plainly, early and without evasion", "Explanation avoids blaming colleagues or making unfounded promises", "Next steps are concrete", "Polite customer-facing register maintained throughout"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Discuss environment and daily life",
-    "prompt": "Present and argue a viewpoint.",
+    "title": "Argue for or against a car-free city centre",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Hva kan vanlige folk gjøre for å ta bedre vare på miljøet i hverdagen? Presentér ideene dine, og forklar hvilke av dem du selv synes er lettest å gjennomføre.",
-      "criteria": ["Several concrete suggestions", "Reasons and assessment", "Vocabulary about environment and daily life", "Coherent speech"],
+      "stimulus": "Ska stadskärnan i en medelstor svensk stad vara bilfri? Ta ställning och argumentera. Ge minst två skäl, nämn vem som drabbas negativt av din ståndpunkt, och förklara hur du skulle hantera det.",
+      "criteria": ["Clear position held consistently", "At least two developed reasons", "Acknowledges who bears the cost of the position", "Range of connectors; some abstract vocabulary"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Talk about learning Norwegian",
-    "prompt": "Speak on the given topic.",
+    "title": "Describe your working culture",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Fortell om hvordan du lærer norsk. Hva er lett, og hva er vanskelig for deg? Hva gjør du for å bli bedre, og hva er målet ditt?",
-      "criteria": ["Personal and concrete delivery", "Describes both easy and difficult aspects", "Mentions goals and strategies", "Reasonably fluent speech"],
+      "stimulus": "Beskriv arbetskulturen på en arbetsplats du känner till. Ta upp hur beslut fattas, hur man säger ifrån om man inte håller med, och vad som förvånade dig i början. Jämför gärna med en arbetsplats i ett annat land.",
+      "criteria": ["Description goes beyond surface facts into how things actually work", "Comparison is drawn with some nuance", "Personal experience supports the general points", "Sustained speech with few long breakdowns"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "title": "Argue about city versus countryside",
-    "prompt": "Present and argue a viewpoint.",
+    "title": "React to a hypothetical",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Er det best å bo i en storby eller på landet? Velg en side, og argumentér for valget ditt. Nevn minst to fordeler ved valget ditt og en ulempe man må være oppmerksom på.",
-      "criteria": ["Clear choice and viewpoint", "At least two advantages are named", "A drawback is considered", "Coherent and fluent speech"],
+      "stimulus": "Tänk dig att din arbetsgivare erbjöd fyradagarsvecka med bibehållen lön, men att allt arbete måste hinnas på fyra dagar. Vad skulle det innebära för just ditt arbete? Resonera om både fördelar och risker, och säg vad du skulle svara.",
+      "criteria": ["Hypothetical reasoning is sustained, not just described", "Both benefits and risks are weighed", "A conclusion is reached and justified", "Conditional constructions used accurately"],
       "minSeconds": 90
     },
     "answer": null,
     "maxPoints": 10
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
-    "title": "Describe a memorable trip",
-    "prompt": "Speak on the given topic.",
+    "title": "Ask for help without apologising",
+    "prompt": "Speak for at least 90 seconds on the task.",
     "payload": {
-      "stimulus": "Fortell om en reise eller en tur du husker godt. Hvor dro du, hvem var du sammen med, og hvorfor var den spesiell? Skulle du gjerne ha gjort det igjen?",
-      "criteria": ["Clear narrative in the past tense", "Details and reasons", "Varied vocabulary", "Reasonably fluent speech"],
+      "stimulus": "Du har fått en arbetsuppgift som du inte förstår helt, och du har redan försökt lösa den själv i två dagar. Tala som om du vände dig till en kollega. Förklara vad du har försökt, exakt var det tar stopp, och vad du behöver. Be inte om ursäkt mer än en gång.",
+      "criteria": ["The specific point of difficulty is isolated clearly", "Own prior effort is described without excessive apology", "The request is concrete enough to be actionable", "Natural, colloquial register with a colleague"],
       "minSeconds": 90
     },
     "answer": null,

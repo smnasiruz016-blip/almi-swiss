@@ -3,16 +3,21 @@ import Link from "next/link";
 import {
   LANGUAGE_EXAMS,
   KNOWLEDGE_EXAMS,
+  LANGUAGE_TEST_HEDGE,
+  SOCIETY_FORMAT_HEDGE,
+  ALL_EXAMS,
   type ExamMeta,
 } from "@/lib/sv/registry";
+
+// Exam names come from the registry so this page can never drift from the tree.
+const EXAM_NAMES = ALL_EXAMS.map((e) => e.name).join(", ");
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Norwegian exams — Norskprøven A1–A2–3, Bergenstesten & knowledge tests | AlmiSwedish",
+      "Swedish exams — SFI, Swedish B1–B2, Tisus & Medborgarskapsprovet | AlmiSwedish",
   },
-  description:
-    "The Norwegian exams for citizenship, permanent residence, getting started and university — Norskprøven A1–A2, A2–B1 and B1–B2, Bergenstesten, plus the Statsborgerprøven and Samfunnskunnskapsprøven knowledge tests. Honest per-skill readiness practice.",
+  description: `The Swedish exams for citizenship, university, getting started and building proficiency — ${EXAM_NAMES}. Honest per-skill readiness practice, never an official result.`,
   alternates: { canonical: "/exams" },
 };
 
@@ -38,40 +43,45 @@ function ExamList({ exams }: { exams: ExamMeta[] }) {
   );
 }
 
-export default function NorwegianExamsHub() {
+export default function SwedishExamsHub() {
   return (
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">
-          Norwegian exams — citizenship, residence, study &amp; getting started
+          Swedish exams — citizenship, university, study &amp; getting started
         </h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
-          The Norskprøven ladder (A1–A2 to B1–B2 and Bergenstesten), administered under HK-dir
-          (the Directorate for Higher Education and Skills), plus the two Norwegian society knowledge tests. Each language
-          exam tests Reading, Listening, Writing and Speaking. Pick a level for an honest readiness
-          estimate — never a fabricated official result.
+          The Swedish ladder — SFI Courses A–B and C–D, general Swedish B1–B2 and Tisus — plus
+          Medborgarskapsprovet, the society knowledge test that applicants for Swedish citizenship
+          aged 16–66 must take. Each language exam assesses Läsförståelse, Hörförståelse, Skriftlig
+          framställning and Muntlig framställning. Pick one for an honest readiness estimate — never a
+          fabricated official result.
         </p>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-almi-ink">Norskprøven ladder</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">The Swedish language ladder</h2>
           <p className="mt-1 text-sm text-almi-text-muted">
-            The core Norwegian-language exams. Norskprøven B1–B2 (B1–B2) is commonly required for Norwegian
-            citizenship; Norskprøven A2–B1 (A2–B1) for permanent residence; Norskprøven A1–A2 (A1–A2) to
-            get started; and Bergenstesten (≈C1) for admission to Norwegian-taught university programmes.
-            Confirm the current residency and citizenship rules with UDI.
+            The core Swedish-language exams. SFI Courses A–B (≈A1–A2) are the first steps in Svenska
+            för invandrare; SFI Courses C–D (≈A2–B1+) are the exit courses Skolverket places at
+            roughly B1/B1+; Swedish B1–B2 takes you to a comfortable working level; and Tisus (≈C1),
+            run by Stockholms universitet, is the established route into Swedish-taught degree
+            programmes. The SFI scale is not CEFR, so the levels above are approximate.
           </p>
           <ExamList exams={LANGUAGE_EXAMS} />
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-almi-ink">Norwegian society knowledge tests</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">Swedish society knowledge test</h2>
           <p className="mt-1 text-sm text-almi-text-muted">
-            Multiple-choice tests about Norwegian society, history and culture — not language
-            proficiency. The Statsborgerprøven is required for citizenship in addition to Prøve i
-            Dansk 3; the Samfunnskunnskapsprøven is used on the permanent-residence path. Our questions
-            are original practice, not the official question bank.
+            Medborgarskapsprovet is a multiple-choice test of knowledge about Swedish society
+            (Samhällskunskap) — not language proficiency. UHR (Universitets- och högskolerådet)
+            develops, administers and marks it; Migrationsverket assesses citizenship applications.
+            The first sitting, on 15 August 2026, is a pilot (utprövningsprov) and free of charge —
+            not a general launch. {SOCIETY_FORMAT_HEDGE} Our questions are original practice, not the
+            official question bank, and AlmiSwedish is not affiliated with UHR.
           </p>
           <ExamList exams={KNOWLEDGE_EXAMS} />
+          <p className="mt-4 text-sm text-almi-text-muted">{LANGUAGE_TEST_HEDGE}</p>
         </section>
       </div>
     </main>

@@ -1,4 +1,4 @@
-// Account page — plan + email status + target Norwegian exam.
+// Account page — plan + email status + target Swedish exam.
 
 import Link from "next/link";
 import { redirect } from "next/navigation";
@@ -142,7 +142,7 @@ export default async function AccountPage({
       <section className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6 shadow-sm">
         <h2 className="text-lg font-semibold text-almi-ink">Which exam are you preparing for?</h2>
         <p className="mt-1 text-sm text-almi-text-muted">
-          Pick Norskprøven B1–B2 (citizenship, B1–B2), Norskprøven A2–B1 (residence, A2–B1), Norskprøven A1–A2 (getting started), Bergenstesten (university), or a knowledge test. This sets the default for your practice and full mock. You can
+          Pick Medborgarskapsprovet (the citizenship society test), Tisus (university admission), or a level on the SFI/CEFR ladder. This sets the default for your practice and full mock. You can
           change it any time.
         </p>
         <form action={setExam} className="mt-4 flex flex-wrap items-center gap-3">
@@ -170,15 +170,15 @@ export default async function AccountPage({
           </button>
         </form>
         <p className="mt-2 text-xs text-almi-text-muted">
-          Not sure which exam you need? Confirm citizenship requirements with UDI, and
-          study-programme requirements with the specific Norwegian university.
+          Not sure which exam you need? Confirm citizenship requirements with Migrationsverket and UHR, and
+          study-programme requirements with the specific Swedish university.
         </p>
       </section>
 
       <ReviewCard initial={myReview} />
 
       <section className="rounded-2xl border border-almi-bg-peach bg-almi-bg p-6 text-center">
-        <p className="text-sm text-almi-text">Ready to practise Norwegian?</p>
+        <p className="text-sm text-almi-text">Ready to practise Swedish?</p>
         <Link
           href="/practice"
           className="mt-3 inline-flex min-h-[44px] items-center justify-center rounded-full bg-almi-coral px-6 py-3 text-sm font-semibold text-almi-ink hover:bg-almi-coral-deep"

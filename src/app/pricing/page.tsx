@@ -8,7 +8,7 @@ import { PricingCheckoutButton } from "./PricingCheckoutButton";
 export const metadata: Metadata = {
   title: "Pricing — 7-day free trial",
   description:
-    "AlmiSwedish Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice, and honest readiness estimates across the Norskprøven ladder, Bergenstesten and the Norwegian society knowledge tests.",
+    "AlmiSwedish Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice, and honest readiness estimates across the Norskprøven ladder, Bergenstesten and the Swedish society knowledge tests.",
 };
 
 const FEATURES = [

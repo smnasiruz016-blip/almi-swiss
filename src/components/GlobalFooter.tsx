@@ -10,8 +10,8 @@ type FooterColumn = { title: string; links: FooterLink[] };
 
 const FOOTER_COLUMNS: FooterColumn[] = [
   {
-    // This site's own pages — internal nav. Honest Norskprøven B1–B2, University of
-    // Norway & CEFR Norwegian practice; 25% of proceeds support the Shamool Foundation.
+    // This site's own pages — internal nav. Honest Medborgarskapsprovet, Tisus and
+    // SFI/CEFR Swedish practice; 25% of proceeds support the Shamool Foundation.
     title: "AlmiSwedish",
     links: [
       { label: "Practice", href: "/practice" },

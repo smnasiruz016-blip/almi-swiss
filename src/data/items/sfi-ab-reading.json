@@ -1,251 +1,242 @@
 [
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
-    "title": "Introducing Kari",
+    "title": "Meeting Fatima",
     "prompt": "Read the short text and choose the correct answer.",
     "payload": {
-      "passage": "Hei! Jeg heter Kari. Jeg bor i Bergen. Jeg er tjueåtte år gammel.",
-      "question": "Hvor bor Kari?",
-      "options": ["I Oslo", "I Bergen", "I Trondheim", "I Stavanger"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "FOUNDATION",
-    "title": "Ola's family",
-    "prompt": "Read the short text and choose the correct answer.",
-    "payload": {
-      "passage": "Ola har en kone og tre barn. Sønnen heter Jonas, og døtrene heter Nora og Emma.",
-      "question": "Hvor mange barn har Ola?",
-      "options": ["Ett", "To", "Tre", "Fire"]
+      "passage": "Hej! Jag heter Fatima. Jag bor i Malmö. Jag är trettiotvå år gammal och jag går på SFI.",
+      "question": "Var bor Fatima?",
+      "options": ["I Stockholm", "I Uppsala", "I Malmö", "I Göteborg"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
-    "title": "At the shop",
+    "title": "Erik's family",
     "prompt": "Read the short text and choose the correct answer.",
     "payload": {
-      "passage": "Jeg kjøper melk, brød og egg i butikken. Brødet koster tjue kroner.",
-      "question": "Hva koster brødet?",
-      "options": ["Ti kroner", "Femten kroner", "Tjue kroner", "Tretti kroner"]
+      "passage": "Erik har en fru och två barn. Sonen heter Johan och dottern heter Karin. De bor i ett hus i Linköping.",
+      "question": "Hur många barn har Erik?",
+      "options": ["Ett", "Två", "Tre", "Fyra"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "At the grocery store",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Anna handlar på ICA. Hon köper mjölk, bröd och ägg. Brödet kostar trettio kronor.",
+      "question": "Vad kostar brödet?",
+      "options": ["Tio kronor", "Tjugo kronor", "Tjugofem kronor", "Trettio kronor"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "The weather today",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "I dag är det kallt i Uppsala. Det snöar och vinden blåser. Sara tar på sig en varm jacka och en mössa.",
+      "question": "Hur är vädret i dag?",
+      "options": ["Det är kallt och det snöar", "Det är varmt och soligt", "Det regnar men det är varmt", "Det är dimma"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Bus to work",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Ahmed åker buss till jobbet varje dag. Bussen går klockan sju på morgonen. Resan tar tjugo minuter.",
+      "question": "När går bussen?",
+      "options": ["Klockan sex", "Klockan sju", "Klockan åtta", "Klockan nio"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "A note from school",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Hej! Din son Lars är sjuk i dag. Han har feber. Han kommer inte till skolan. Hälsningar, Karin.",
+      "question": "Varför kommer Lars inte till skolan?",
+      "options": ["Han är på semester", "Han jobbar", "Han sover", "Han är sjuk"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "At the health centre",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Sara har ont i halsen. Hon ringer vårdcentralen. Hon får en tid på torsdag klockan två.",
+      "question": "Vilken dag får Sara en tid?",
+      "options": ["På måndag", "På onsdag", "På torsdag", "På fredag"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Today's weather",
+    "difficulty": "FOUNDATION",
+    "title": "The new flat",
     "prompt": "Read the short text and choose the correct answer.",
     "payload": {
-      "passage": "I dag er det kaldt. Det regner, og vinden blåser. Jeg tar på meg en varm jakke.",
-      "question": "Hvordan er været i dag?",
-      "options": ["Varmt og solrikt", "Kaldt og regnfullt", "Varmt og tørt", "Solrikt hele dagen"]
+      "passage": "Johan bor i en lägenhet i Göteborg. Lägenheten har två rum, ett kök och ett badrum. Hyran är sex tusen kronor i månaden.",
+      "question": "Hur många rum har lägenheten?",
+      "options": ["Ett", "Två", "Tre", "Fyra"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Work at the restaurant",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Fatima jobbar på en restaurang i Stockholm. Hon jobbar måndag till fredag. På lördag och söndag är hon ledig.",
+      "question": "Vilka dagar är Fatima ledig?",
+      "options": ["Måndag och tisdag", "Onsdag och torsdag", "Fredag och lördag", "Lördag och söndag"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "A letter from the tax office",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Erik får ett brev från Skatteverket. I brevet står hans personnummer och hans adress. Han måste svara före den femtonde maj.",
+      "question": "Vem skickar brevet?",
+      "options": ["Skatteverket", "Arbetsförmedlingen", "Försäkringskassan", "Skolan"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Breakfast",
+    "prompt": "Read the short text and choose the correct answer.",
+    "payload": {
+      "passage": "Karin äter frukost klockan halv sju. Hon dricker kaffe och äter en smörgås. Sedan borstar hon tänderna och går till jobbet.",
+      "question": "Vad dricker Karin till frukost?",
+      "options": ["Te", "Juice", "Kaffe", "Vatten"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "GETTING_STARTED",
+    "exam": "SFI_AB",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Morning routine",
-    "prompt": "Read the short text and choose the correct answer.",
+    "title": "Sign in the laundry room",
+    "prompt": "Read the notice and choose the correct answer.",
     "payload": {
-      "passage": "Om morgenen står jeg opp klokka sju. Jeg spiser frokost og drikker te. Så tar jeg bussen til jobben.",
-      "question": "Hva drikker personen om morgenen?",
-      "options": ["Kaffe", "Te", "Juice", "Vann"]
+      "passage": "TVÄTTSTUGAN. Du kan tvätta mellan klockan sju och tjugoett. Städa maskinen efter din tvättid. Det är inte tillåtet att tvätta på söndagar.",
+      "question": "Vad får du inte göra?",
+      "options": ["Tvätta på lördag", "Tvätta på söndag", "Städa maskinen", "Tvätta klockan nio"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Nora's job",
-    "prompt": "Read the short text and choose the correct answer.",
+    "title": "A message about the class",
+    "prompt": "Read the message and choose the correct answer.",
     "payload": {
-      "passage": "Nora jobber på et sykehus. Hun er lege. Hun jobber ofte om kvelden.",
-      "question": "Hva er jobben til Nora?",
-      "options": ["Sykepleier", "Lege", "Lærer", "Kokk"]
+      "passage": "Hej Ahmed! Vår SFI-lektion på tisdag börjar klockan nio, inte klockan åtta. Vi träffas i sal 3. Ta med boken och en penna. Hälsningar, läraren Anna.",
+      "question": "Vad ska Ahmed ta med sig?",
+      "options": ["En dator och en bok", "En bok och en penna", "Bara en penna", "Mat och dryck"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "FOUNDATION",
-    "title": "Per reads",
-    "prompt": "Read the text. Is the statement true (Sant) or false (Usant)?",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Looking for a job",
+    "prompt": "Read the short text and choose the correct answer.",
     "payload": {
-      "passage": "Per liker å lese bøker. Han leser hver kveld før han legger seg.",
-      "question": "Per leser om morgenen.",
-      "options": ["Sant", "Usant"]
+      "passage": "Lars har inget jobb nu. Han går till Arbetsförmedlingen på onsdag. Där träffar han en handläggare. Han vill jobba som chaufför.",
+      "question": "Vad vill Lars jobba som?",
+      "options": ["Kock", "Lärare", "Chaufför", "Sjuksköterska"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
     "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
+    "exam": "SFI_AB",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "FOUNDATION",
-    "title": "The Hansen house",
-    "prompt": "Read the text. Is the statement true (Sant) or false (Usant)?",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Weekend plans",
+    "prompt": "Read the short text and choose the correct answer.",
     "payload": {
-      "passage": "Familien Hansen bor i et stort hus. Huset har en hage med mange blomster.",
-      "question": "Familien Hansen har en hage.",
-      "options": ["Sant", "Usant"]
+      "passage": "På lördag ska Anna och Erik gå till parken med barnen. På söndag ska de laga mat hemma och titta på en film. De ska inte handla i helgen.",
+      "question": "Vad ska de göra på söndag?",
+      "options": ["Gå till parken", "Handla i affären", "Laga mat och titta på film", "Jobba"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "CORE",
-    "title": "Jonas goes to school",
-    "prompt": "Read the text. Is the statement true (Sant) or false (Usant)?",
-    "payload": {
-      "passage": "Jonas tar bussen til skolen hver dag. Bussen kommer klokka åtte.",
-      "question": "Jonas sykler til skolen.",
-      "options": ["Sant", "Usant"]
-    },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "CORE",
-    "title": "Questions and answers",
-    "prompt": "Match each question with the correct answer.",
-    "payload": {
-      "passage": "To personer snakker sammen for første gang.",
-      "instructions": "Match spørsmålet med det riktige svaret.",
-      "left": ["Hva heter du?", "Hvor gammel er du?", "Hvor bor du?"],
-      "right": ["Jeg er tretti år.", "Jeg bor i Trondheim.", "Jeg heter Mette."]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "FOUNDATION",
-    "title": "Animal words",
-    "prompt": "Match the Norwegian word with its English meaning.",
-    "payload": {
-      "passage": "Les de norske ordene.",
-      "instructions": "Match det norske ordet med den engelske betydningen.",
-      "left": ["hund", "katt", "fugl"],
-      "right": ["cat", "bird", "dog"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "CORE",
-    "title": "Places and activities",
-    "prompt": "Match each place with what you do there.",
-    "payload": {
-      "passage": "Tenk på hva man gjør de forskjellige stedene.",
-      "instructions": "Match stedet med aktiviteten.",
-      "left": ["butikk", "skole", "restaurant"],
-      "right": ["Man spiser mat.", "Man kjøper mat.", "Man lærer."]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 2], [2, 0]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "FOUNDATION",
-    "title": "Name and home",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Jeg {{1}} Kari. Jeg {{2}} i Norge.",
-      "gaps": [
-        { "id": 1, "options": ["heter", "bor", "spiser"] },
-        { "id": 2, "options": ["heter", "bor", "drikker"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "CORE",
-    "title": "Meals of the day",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Om morgenen drikker jeg {{1}}. Om kvelden spiser jeg {{2}}.",
-      "gaps": [
-        { "id": 1, "options": ["kaffe", "sko", "bord"] },
-        { "id": 2, "options": ["middag", "sykkel", "lampe"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "GETTING_STARTED",
-    "exam": "NORSKPROVE_A1A2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "A cold day",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Det er {{1}} i dag, så jeg tar på meg en jakke. Jeg går en {{2}} i parken.",
-      "gaps": [
-        { "id": 1, "options": ["varmt", "kaldt", "stort"] },
-        { "id": 2, "options": ["tur", "bil", "bok"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 1 }, { "id": 2, "index": 0 }] },
-    "maxPoints": 2
   }
 ]

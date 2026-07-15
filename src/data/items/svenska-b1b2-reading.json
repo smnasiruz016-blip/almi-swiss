@@ -1,251 +1,242 @@
 [
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Library opening hours",
+    "title": "Internal memo on fika",
+    "prompt": "Read the workplace memo and choose the correct answer.",
+    "payload": {
+      "passage": "Hej alla på avdelningen! Från och med nästa månad flyttar vi den gemensamma fikan från klockan 14 till klockan 09.30. Anledningen är att flera medarbetare har påpekat att eftermiddagen ofta går åt till kundmöten, och att fikan därför ställts in gång på gång. Tanken med fikan är inte att vi ska hinna med fler punkter på dagordningen, utan att vi ska hinna prata med varandra om annat än arbetet. Ni behöver alltså inte förbereda något. Den som vill baka är förstås välkommen att göra det, men det är helt frivilligt. Vi ses i köket på plan tre.",
+      "question": "Varför flyttas fikan enligt meddelandet?",
+      "options": ["För att fler ska baka hemma", "För att eftermiddagens kundmöten gjort att fikan uteblivit", "För att avdelningen ska hinna med fler punkter på dagordningen", "För att köket på plan tre är upptaget på eftermiddagen"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Debate article on remote work",
+    "prompt": "Read the debate article and choose the correct answer.",
+    "payload": {
+      "passage": "Distansarbetet har kommit för att stanna, och det är i grunden något bra. Men jag blir bekymrad när arbetsgivare beskriver hemarbete som en förmån man kan förtjäna eller bli av med. En förmån delas ut av någon som står över dig. Ett arbetssätt förhandlar man fram tillsammans. Skillnaden är inte bara språklig. Så länge vi kallar det en förmån kommer den anställde att tacka i stället för att ställa krav på ergonomi, arbetstid och tillgänglighet. Jag menar inte att alla ska sitta hemma jämt. Jag menar att ordvalet avgör vem som bär ansvaret när det inte fungerar.",
+      "question": "Vad är skribentens huvudpoäng?",
+      "options": ["Att distansarbete borde avskaffas helt", "Att alla anställda bör arbeta hemifrån varje dag", "Att ordet förmån flyttar ansvaret och försvagar den anställdes ställning", "Att arbetsgivare bör betala för ergonomiska möbler i hemmet"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Notice about a performance review",
+    "prompt": "Read the message and choose the correct answer.",
+    "payload": {
+      "passage": "Hej Amina, nu är det dags för vårt medarbetarsamtal. Jag har bokat in oss på torsdag klockan 13 i det lilla mötesrummet. Inför samtalet vill jag att du funderar på tre saker: vad du trivts bäst med det senaste året, vad du vill utveckla, och vad du behöver från mig för att komma dit. Det här är inte ett förhör och det påverkar inte din anställning. Lönen tar vi i en separat runda till våren, så den behöver du inte oroa dig för nu. Hör av dig om torsdagen inte passar.",
+      "question": "Vad kommer INTE att tas upp på torsdagens samtal?",
+      "options": ["Vad Amina vill utveckla", "Vad Amina behöver från sin chef", "Vad Amina trivts med", "Aminas lön"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Column on the word lagom",
+    "prompt": "Read the column and choose the correct answer.",
+    "payload": {
+      "passage": "Varje gång ordet lagom översätts till engelska blir det fel. Man skriver just the right amount och tror att saken är avklarad. Men lagom handlar sällan om mängd. Det handlar om att inte ta plats på någon annans bekostnad. Därför kan lagom vara varmt och generöst i ett sammanhang och kyligt och kvävande i ett annat. En kollega som håller sig lagom framme ger utrymme åt andra. En chef som ger lagom med beröm ger i praktiken inget alls. Att lära sig ordet är enkelt. Att höra vilken av dess två sidor som är i bruk tar år.",
+      "question": "Vad menar skribenten om ordet lagom?",
+      "options": ["Att det alltid har en positiv innebörd", "Att det bäst översätts med ett mått på mängd", "Att dess innebörd växlar mellan generös och kvävande beroende på sammanhang", "Att svenskar borde sluta använda ordet"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Housing association information",
     "prompt": "Read the notice and choose the correct answer.",
     "payload": {
-      "passage": "Kjære lånere. Fra og med 1. september endrer biblioteket i Sandnes åpningstidene sine. Vi har nå betjent åpningstid hver ukedag fra klokka 10 til 18. På lørdager kan du komme innom mellom klokka 10 og 15. Utenom disse tidene kan du fortsatt bruke det selvbetjente biblioteket dersom du har lånekort og en firesifret kode. Husk at det ikke er ansatte til stede på søndager.",
-      "question": "Når kan du få hjelp av de ansatte på biblioteket?",
-      "options": ["Bare på søndager", "På ukedager mellom klokka 10 og 18", "Hele døgnet med lånekort", "Aldri på lørdager"]
+      "passage": "Till alla boende i föreningen. Under vecka 38 byter vi ut samtliga tvättmaskiner i tvättstugan. Tvättstugan kommer därför att vara helt stängd måndag till onsdag. Bokningar som redan ligger inne för de dagarna tas bort automatiskt, och ni behöver alltså inte avboka själva. Från och med torsdag är stugan öppen igen, men bokningstavlan vid entrén ersätts av ett digitalt system. Den som inte har smarttelefon kan även i fortsättningen boka på papperslistan som sitter kvar i tvättstugan. Frågor besvaras av styrelsen.",
+      "question": "Vad gäller för den som saknar smarttelefon?",
+      "options": ["Hen kan inte längre tvätta i föreningen", "Hen måste kontakta styrelsen inför varje tvätt", "Hen får bara tvätta måndag till onsdag", "Hen kan boka på en papperslista i tvättstugan"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Union newsletter on collective agreements",
+    "prompt": "Read the newsletter and choose the correct answer.",
+    "payload": {
+      "passage": "Många nyanställda frågar oss varför de ska gå med i facket när de ändå omfattas av kollektivavtalet på arbetsplatsen. Det är en rimlig fråga. Svaret är att avtalet inte uppstår av sig självt. Det förhandlas fram, och styrkan i förhandlingen hänger på hur många vi är. Man kan alltså åka med gratis en tid, och många gör det. Men om tillräckligt många åker gratis blir det till slut ingen buss. Vi säger inte detta för att skuldbelägga någon. Vi säger det för att den som förstår sambandet oftast fattar ett klokt beslut på egen hand.",
+      "question": "Vilken slutsats vill skribenten att läsaren ska dra?",
+      "options": ["Att kollektivavtal är onödiga på moderna arbetsplatser", "Att avtalets styrka beror på antalet medlemmar, vilket är ett skäl att gå med", "Att nyanställda inte omfattas av kollektivavtalet", "Att facket bör tvinga alla anställda till medlemskap"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Job advertisement",
-    "prompt": "Read the job ad and choose the correct answer.",
-    "payload": {
-      "passage": "Vi søker en blid og pålitelig medarbeider til dagligvarebutikken vår på Grünerløkka i Oslo. Du må kunne jobbe både i helgene og på hverdager, og det er viktig at du liker å hjelpe kundene. Erfaring fra butikk er en fordel, men det er ikke et krav, for vi lærer deg opp. Vi legger størst vekt på at du møter presis og har godt humør. Send søknaden din innen 20. mars.",
-      "question": "Hva legger arbeidsgiveren størst vekt på?",
-      "options": ["At du har lang erfaring", "At du bare kan jobbe i helgene", "At du er presis og har godt humør", "At du bor på Grünerløkka"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
-    "maxPoints": 1
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Opinion on cycling",
-    "prompt": "Read the opinion piece and choose the correct answer.",
-    "payload": {
-      "passage": "Mange nordmenn sykler til jobb, uansett om det regner eller snør. Noen mener at kommunen bør bruke enda mer penger på brede sykkelveier, slik at det blir tryggere å sykle om vinteren. Andre mener derimot at pengene heller bør gå til kollektivtrafikken, fordi ikke alle har mulighet til å sykle. Selv er jeg overbevist om at vi trenger begge deler dersom vi vil ha færre biler i sentrum.",
-      "question": "Hva mener skribenten selv?",
-      "options": ["At man bare bør satse på sykkelveier", "At biler er den beste løsningen", "At både sykkelveier og kollektivtrafikk trengs", "At kommunen ikke bør bruke penger på trafikk"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
-    "maxPoints": 1
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Letter from the municipality",
-    "prompt": "Read the official letter and choose the correct answer.",
-    "payload": {
-      "passage": "Kjære innbygger. Vi skriver til deg fordi du har søkt om nytt helsetrygdekort. Kortet er nå på vei med posten og bør være framme innen ti virkedager. Dersom kortet ikke har kommet etter to uker, ber vi deg kontakte oss på telefon eller møte opp på servicetorget. Det gamle kortet ditt er fortsatt gyldig helt til du får det nye.",
-      "question": "Hva skal innbyggeren gjøre hvis kortet ikke kommer innen to uker?",
-      "options": ["Vente en måned til", "Kontakte kommunen", "Søke om kortet på nytt på nett", "Kaste det gamle kortet"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Working from home",
-    "prompt": "Read the article and choose the correct answer.",
-    "payload": {
-      "passage": "Etter de siste årene har det blitt mer vanlig å jobbe hjemmefra noen dager i uka. En ny undersøkelse viser at mange ansatte føler seg mer effektive når de slipper den lange reisen til og fra jobb. Samtidig peker flere ledere på at det kan være vanskelig å holde et team samlet når kollegene sjelden møtes ansikt til ansikt. Løsningen blir derfor ofte en blanding, der man er på kontoret noen dager og hjemme andre.",
-      "question": "Hvilken ulempe ved hjemmekontor nevner lederne?",
-      "options": ["At de ansatte blir mindre effektive", "At reisen blir lengre", "At det er vanskelig å holde teamet samlet", "At de ansatte jobber for mye"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
-    "maxPoints": 1
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Recycling rules",
+    "title": "Recycling in the municipality",
     "prompt": "Read the information and choose the correct answer.",
     "payload": {
-      "passage": "I borettslaget vårt sorterer vi nå avfallet i flere dunker. Matrester skal i den grønne beholderen, mens papir og papp skal i den blå. Glass og metall har hver sin container nede ved parkeringsplassen. Vi ber alle beboere om å skylle emballasjen før den kastes, slik at vi unngår lukt og skadedyr. Er du i tvil om hvor noe hører hjemme, henger det en oversikt ved søppelskuret.",
-      "question": "Hvor skal papir og papp kastes?",
-      "options": ["I den grønne beholderen", "I den blå beholderen", "Ved parkeringsplassen sammen med glass", "I søppelskuret"]
+      "passage": "Från årsskiftet sorterar vi matavfall i hela kommunen. Alla hushåll får ett brunt kärl och en hållare med papperspåsar. Matavfallet blir biogas som driver stadsbussarna, och den näring som blir kvar går tillbaka till jordbruket. Det finns ingen extra avgift för det bruna kärlet. Däremot höjs avgiften för de hushåll som väljer att inte sortera, eftersom osorterat avfall är dyrare att ta hand om. Använd bara papperspåsarna. Plastpåsar förstör hela processen, även om de är märkta som nedbrytbara.",
+      "question": "Vad kostar det extra att sortera matavfall?",
+      "options": ["Ingenting extra; däremot höjs avgiften för dem som inte sorterar", "En fast avgift per brunt kärl", "En avgift per papperspåse", "Det är gratis för alla oavsett om man sorterar eller inte"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Letter to the editor on flat hierarchy",
+    "prompt": "Read the letter and choose the correct answer.",
+    "payload": {
+      "passage": "Jag har arbetat på ett teknikföretag i Göteborg i sex år och hört chefen säga att dörren alltid står öppen ungefär lika många gånger. Det är sant att jag får säga vad jag tycker. Men platt organisation betyder inte att makten är borta, bara att den är svårare att peka ut. Nykomlingen tror att den som talar mest har mest att säga till om. I själva verket fattas besluten långt innan mötet, i korridoren och över kaffekoppen, och den som inte känner igen den processen står utanför den. En platt hierarki är alltså inte enklare att navigera. Den är svårare, men vänligare.",
+      "question": "Vilken uppfattning ger skribenten uttryck för?",
+      "options": ["Att platta organisationer saknar makthierarkier", "Att den som talar mest på möten också bestämmer", "Att makten finns kvar men är otydlig, vilket gör organisationen svårnavigerad", "Att teknikföretag borde införa strikta hierarkier"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Adult education course description",
+    "prompt": "Read the course description and choose the correct answer.",
+    "payload": {
+      "passage": "Kursen Svenska i arbetslivet vänder sig till dig som redan klarar vardagssvenskan men känner dig osäker när tempot ökar på jobbet. Vi tränar på att avbryta artigt, att säga att man inte förstår utan att be om ursäkt fem gånger, och att skriva mejl som varken är för stela eller för familjära. Kursen är inte en grammatikkurs. Vi går bara igenom grammatik när den ställer till problem i praktiken. Undervisningen sker på kvällstid två gånger i veckan under tio veckor, och du behöver kunna delta på plats i Uppsala.",
+      "question": "Vad kännetecknar kursens syn på grammatik?",
+      "options": ["Grammatik behandlas bara när den orsakar problem i praktiken", "Grammatik gås igenom systematiskt varje lektion", "Kursen tar inte upp grammatik över huvud taget", "Grammatiken studeras hemma inför varje kvällslektion"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Feature on screen time",
+    "prompt": "Read the article and choose the correct answer.",
+    "payload": {
+      "passage": "Diskussionen om barns skärmtid fastnar nästan alltid i timmar och minuter. Föräldrar räknar, appar larmar, och alla känner sig lite skyldiga. Men en timme där ett barn bygger något tillsammans med en kompis på andra sidan landet liknar inte en timme där samma barn scrollar ensamt utan att minnas något efteråt. Att mäta tid är enkelt, och det är förmodligen därför vi gör det. Innehåll och sammanhang är svårare att mäta, men det är där skillnaden ligger. Så länge vi håller fast vid klockan lugnar vi oss själva utan att egentligen veta något.",
+      "question": "Vad är skribentens invändning mot skärmtidsdebatten?",
+      "options": ["Att barn borde få obegränsad skärmtid", "Att föräldrar inte bryr sig tillräckligt om skärmtid", "Att appar som mäter tid ger felaktiga siffror", "Att tidsmätning är lätt men missar innehåll och sammanhang"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Email about a consensus decision",
+    "prompt": "Read the email and choose the correct answer.",
+    "payload": {
+      "passage": "Hej gruppen. Tack för ett långt möte i går. Vi landade till slut i att skjuta upp lanseringen tre veckor. Jag vet att alla inte tyckte att det var den bästa lösningen, och det är helt i sin ordning. Poängen med förankringen är inte att var och en ska vara nöjd, utan att var och en ska kunna stå bakom beslutet utåt mot kund. Om någon känner att hen inte kan det, hör av dig till mig direkt i dag, inte om två veckor när arbetet redan är i gång. Annars kör vi enligt den nya tidsplanen.",
+      "question": "Vad förväntar sig avsändaren av gruppen?",
+      "options": ["Att alla ska tycka att beslutet är det bästa", "Att alla ska kunna stå bakom beslutet utåt, eller säga ifrån genast", "Att gruppen röstar om tidsplanen på nytt", "Att invändningar tas upp först när arbetet kommit i gång"]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "CORE",
-    "title": "Parental leave",
-    "prompt": "Decide whether the statement is true or false according to the text.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Review of a small-town theatre",
+    "prompt": "Read the review and choose the correct answer.",
     "payload": {
-      "passage": "I Norge har både mødre og fedre rett til foreldrepermisjon når de får barn. Reglene er laget slik at foreldrene kan dele en stor del av permisjonen mellom seg. Tanken bak ordningen er at begge foreldrene skal få mulighet til å være tett på barnet den første tiden. Mange arbeidsplasser oppfordrer i dag også fedre til å ta ut en lengre del av permisjonen.",
-      "question": "Ifølge teksten har bare mødre rett til foreldrepermisjon i Norge.",
-      "options": ["Sant", "Usant"]
+      "passage": "Uppsättningen i Norrköping har allt emot sig. Scenen är för liten, budgeten hörs i varje kuliss och halva ensemblen är amatörer som kommer direkt från jobbet. Ändå satt jag kvar när ljuset gick upp. Det beror inte på att bristerna gick att bortse från, utan på att de aldrig doldes. När en dörr fastnade skrattade skådespelaren med publiken och fortsatte. En stor scen hade räddat kvällen tekniskt och förstört den känslomässigt. Jag vill inte påstå att det var en perfekt föreställning. Jag påstår att perfektion hade varit fel mål.",
+      "question": "Hur förhåller sig recensenten till föreställningens brister?",
+      "options": ["Bristerna förstörde kvällen helt", "Bristerna märktes inte alls under föreställningen", "Bristerna fanns kvar men bidrog till upplevelsen eftersom de inte doldes", "Recensenten anser att en större scen hade gjort kvällen bättre"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Evening class",
-    "prompt": "Decide whether the statement is true or false according to the text.",
+    "title": "Health centre information on sick leave",
+    "prompt": "Read the information and choose the correct answer.",
     "payload": {
-      "passage": "Til høsten tilbyr voksenopplæringen et nytt kurs i norsk matlaging. Kurset går over åtte tirsdager, og du trenger ikke å ha erfaring med å lage mat fra før. Deltakerne må selv betale for råvarene, men selve undervisningen er gratis. Det er bare plass til tolv personer, så vi anbefaler at du melder deg på tidlig.",
-      "question": "Deltakerne må selv betale for råvarene.",
-      "options": ["Sant", "Usant"]
+      "passage": "Är du sjuk och behöver stanna hemma från jobbet? De första dagarna behöver du inget intyg från oss. Du sjukanmäler dig själv till din arbetsgivare samma dag som du blir sjuk. Först om du är borta längre än en vecka behöver du ett läkarintyg, och då bokar du en tid hos oss. Ring gärna först, för i många fall kan sköterskan bedöma besvären över telefon och du slipper resan hit. Kom inte hit utan att ha ringt om du har feber. Vi vill inte att andra patienter i väntrummet blir smittade.",
+      "question": "När behöver patienten ett läkarintyg?",
+      "options": ["Om sjukfrånvaron blir längre än en vecka", "Redan första sjukdagen", "Bara om hen har feber", "Aldrig, om arbetsgivaren är informerad"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Volunteering",
-    "prompt": "Decide whether the statement is true or false according to the text.",
+    "title": "Blog post on learning Swedish",
+    "prompt": "Read the blog post and choose the correct answer.",
     "payload": {
-      "passage": "Frivillig arbeid spiller en viktig rolle i det norske samfunnet. Rundt om i landet bruker tusenvis av mennesker fritiden sin på å hjelpe andre, for eksempel i idrettslag, på sykehjem eller i ulike foreninger. Selv om de ikke får lønn for det, forteller mange frivillige at de får mye igjen, blant annet nye vennskap og en følelse av å gjøre en forskjell.",
-      "question": "Ifølge teksten får de frivillige lønn for arbeidet sitt.",
-      "options": ["Sant", "Usant"]
+      "passage": "Efter fyra år i Malmö talar jag svenska hela dagarna, men jag blir fortfarande besvarad på engelska ungefär en gång i veckan. Länge tog jag det som ett underkännande. Numera tolkar jag det annorlunda. Den som byter till engelska vill nästan alltid vara vänlig och underlätta, och hen hör inte att bytet gör det motsatta. Jag har slutat bli sårad, men jag har inte slutat byta tillbaka. Ett vänligt jag övar gärna på svenska räcker nästan varje gång. Det som förändrades var alltså inte omgivningen, utan vad jag antog om den.",
+      "question": "Vad har förändrats för skribenten?",
+      "options": ["Folk byter inte längre till engelska", "Skribenten har slutat tala svenska i Malmö", "Skribentens tolkning av situationen, inte omgivningens beteende", "Skribenten svarar numera alltid på engelska"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
+    "track": "PROFICIENCY",
+    "exam": "SVENSKA_B1B2",
     "skill": "READING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Match people to courses",
-    "prompt": "Match each person to the most suitable course.",
+    "title": "Opinion piece on AI at work",
+    "prompt": "Read the opinion piece and choose the correct answer.",
     "payload": {
-      "passage": "Språksenteret tilbyr flere korte kurs til våren. «Norsk på jobben» er for deg som vil bli bedre til å snakke med kolleger og kunder. «Skriv en god søknad» hjelper deg som leter etter arbeid. «Forstå nyhetene» er for deg som vil kunne følge med i norske medier og aviser.",
-      "instructions": "Koble hver person til kurset som passer best.",
-      "left": ["Sara vil søke jobb og skrive en sterk søknad.", "Amir snakker norsk, men vil forstå nyhetene på TV bedre.", "Lena vil kunne snakke tryggere med kollegene sine."],
-      "right": ["Norsk på jobben", "Skriv en god søknad", "Forstå nyhetene"]
+      "passage": "På vår redaktion i Stockholm har vi använt AI-verktyg i drygt ett år. Farhågan var att texterna skulle bli sämre. Det blev de inte. Problemet visade sig ligga någon annanstans: vi producerar nu så mycket att ingen hinner läsa igenom allt ordentligt. Verktyget tog bort flaskhalsen i skrivandet, men flaskhalsen fanns aldrig i skrivandet. Den fanns i omdömet, och omdöme går inte att skala upp hur som helst. Om jag fick önska mig en funktion vore det inte en som skriver snabbare, utan en som säger nej oftare.",
+      "question": "Vilket problem beskriver skribenten?",
+      "options": ["Att produktionen ökade medan granskningen inte kunde hänga med", "Att AI-verktyget gjorde texterna sämre", "Att redaktionen slutade skriva egna texter", "Att verktyget var för långsamt för redaktionens tempo"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 2], [2, 0]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "CORE",
-    "title": "Match signs to places",
-    "prompt": "Match each sign to the place where you would see it.",
-    "payload": {
-      "passage": "Rundt om i byen møter du mange skilt med korte beskjeder. Noen handler om hvordan du skal oppføre deg, mens andre gir praktiske opplysninger. Det lønner seg å lese dem, slik at du unngår misforståelser.",
-      "instructions": "Koble hvert skilt til stedet der du typisk ser det.",
-      "left": ["Vennligst snakk stille av hensyn til de andre gjestene", "Husk å holde hunden i bånd", "Vask hendene før du går tilbake til arbeidet"],
-      "right": ["I en park", "På kjøkkenet på arbeidsplassen", "På lesesalen på biblioteket"]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "STRETCH",
-    "title": "Match questions to answers",
-    "prompt": "Match each question to the correct answer from the guide.",
-    "payload": {
-      "passage": "På nettsidene til kommunen finner du svar på mange praktiske spørsmål. Under ser du noen av spørsmålene innbyggerne oftest stiller, og svarene kommunen gir.",
-      "instructions": "Koble hvert spørsmål til det riktige svaret.",
-      "left": ["Når henter renovasjonsbilen søpla?", "Hvordan melder jeg flytting?", "Kan jeg få hjelp til å lese et brev fra det offentlige?"],
-      "right": ["Ja, kom innom servicetorget, så hjelper vi deg.", "Det gjør du enkelt på norge.no med BankID.", "Annenhver torsdag i partallsuker."]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 1], [2, 0]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "CORE",
-    "title": "Weather and clothing",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Været i Norge kan skifte fort, og derfor er det lurt å ha med en jakke, {{1}} sola skinner om morgenen. Om vinteren blir det ofte mørkt tidlig, så mange {{2}} å ha lys på sykkelen.",
-      "gaps": [
-        { "id": 1, "options": ["selv om", "fordi", "hvis ikke"] },
-        { "id": 2, "options": ["glemmer", "husker", "nekter"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "A new colleague",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Da jeg begynte i den nye jobben, var jeg litt nervøs, {{1}} kollegene tok godt imot meg. Etter et par uker følte jeg meg hjemme, og nå gleder jeg meg faktisk {{2}} å møte på jobb hver dag.",
-      "gaps": [
-        { "id": 1, "options": ["men", "derfor", "fordi"] },
-        { "id": 2, "options": ["på", "til", "av"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "CITIZENSHIP",
-    "exam": "NORSKPROVE_B1B2",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "Healthy habits",
-    "prompt": "Choose the correct word for each gap.",
-    "payload": {
-      "passage": "Helsedirektoratet anbefaler at voksne beveger seg minst en halvtime hver dag. Det trenger ikke å være hard trening; en tur i frisk luft {{1}} også. Hvis du gjør det til en vane, blir det lettere å holde ut, {{2}} du har det travelt.",
-      "gaps": [
-        { "id": 1, "options": ["teller", "koster", "mangler"] },
-        { "id": 2, "options": ["så", "selv om", "før"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
   }
 ]

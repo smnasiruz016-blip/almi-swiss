@@ -8,27 +8,27 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: {
-    absolute: "AlmiSwedish | Practise Norwegian Exams with Honest Readiness",
+    absolute: "AlmiSwedish | Practise Swedish Exams with Honest Readiness",
   },
   description:
-    "Stop guessing your Norwegian level for UDI or ministry requirements. Practise real Norskprøven A1–A2, A2–B1, B1–B2, Bergenstesten and the citizenship tests with honest AI readiness bands.",
+    "Sweden's new 2026 citizenship rules add a civic test, with a language test to follow. Practise SFI, Tisus and the new Medborgarskapsprov with honest AI readiness bands. Not affiliated with UHR.",
   openGraph: {
-    title: "AlmiSwedish — honest Norwegian exam practice",
+    title: "AlmiSwedish — honest SFI, Tisus & Medborgarskapsprov practice",
     description:
-      "Original practice for the Norskprøven ladder, Bergenstesten and the Norwegian society knowledge tests — a readiness estimate shown honestly, not an inflated score.",
+      "Original practice for the SFI ladder, academic Tisus and Sweden's new Medborgarskapsprov civic test — a readiness estimate shown honestly, not an inflated score.",
   },
 };
 
 const PROMISES = [
   {
-    title: "Every Norwegian goal",
+    title: "Every Swedish goal mapped",
     detail:
-      "Citizenship (Norskprøven B1–B2 + Statsborgerprøven), permanent residence (Norskprøven A2–B1 + Samfunnskunnskapsprøven), getting started (Norskprøven A1–A2) and university (Bergenstesten) — the language exams across Reading, Listening, Writing and Speaking, plus the society knowledge tests.",
+      "Citizenship (Medborgarskapsprovet — the civic test), university admission (Tisus), getting started (SFI Courses A–B) and building proficiency (SFI C–D → Swedish B1–B2) — the language exams across Reading, Listening, Writing and Speaking, plus the civic questions.",
   },
   {
     title: "Honest readiness, not a fake score",
     detail:
-      "Objective Reading and Listening are auto-marked to a clear readiness band. Writing and Speaking get AI feedback labelled an estimate. We never invent an official UDI or Ministry result.",
+      "Objective Reading, Listening and civic questions are auto-marked to a clear readiness band. Writing and Speaking get AI feedback labelled an estimate. We never invent an official UHR, Skolverket or university result — and for the civic test, where UHR has published no pass mark, we don’t show one.",
   },
   {
     title: "100% original material",
@@ -44,36 +44,40 @@ const PROMISES = [
 
 const PRICING_LINES = [
   "Full access to Writing & Speaking AI-evaluation modules across every track",
-  "Free, unlimited auto-marked Reading, Listening and knowledge-test practice",
-  "AI analysis modelled on the real task formats and criteria — always an estimate, never an official UDI result",
+  "Free, unlimited auto-marked Reading, Listening and Medborgarskapsprov civic-practice sets",
+  "AI analysis modelled on the real task formats and criteria — always an estimate, never an official UHR result",
   "Full timed mock for your chosen exam, with per-skill readiness and progress tracking",
   "Flat $12/month with one-click cancellation inside your account",
 ] as const;
 
 const FAQ = [
   {
-    q: "Which Norwegian exams does AlmiSwedish cover?",
-    a: "The Norskprøven ladder — Norskprøven A1–A2, A2–B1 (permanent residence) and B1–B2 (citizenship) — plus Bergenstesten (≈C1, university admission), all across Reading, Listening, Writing and Speaking. And the two Norwegian society knowledge tests: the Statsborgerprøven (citizenship) and the Samfunnskunnskapsprøven (permanent residence). The exams sit under the HK-dir (the Directorate for Higher Education and Skills). You pick your exam in your account, and your practice and full mock run for it.",
+    q: "Which Swedish exams does AlmiSwedish cover?",
+    a: "The SFI ladder — SFI Courses A–B (≈A1–A2) and C–D (≈A2–B1+) — plus general Swedish B1–B2 and Tisus (≈C1, university admission, run by Stockholms universitet), all across Reading, Listening, Writing and Speaking. And Medborgarskapsprovet, Sweden's new citizenship test of knowledge about Swedish society. You pick your exam in your account, and your practice and full mock run for it.",
   },
   {
-    q: "What do I need for Norwegian citizenship?",
-    a: "Norwegian citizenship commonly requires Norskprøven B1–B2 (B1–B2) and the Statsborgerprøven, alongside residency and other conditions. The rules change over time — so we don't state a fixed number of years or a fixed step. Always confirm the current requirement with UDI (Utlendingsdirektoratet) before you rely on it. We help you prepare fairly; we never claim to help anyone shortcut the process.",
+    q: "What do I need for Swedish citizenship?",
+    a: "Since 6 June 2026 the main rule is eight years' habitual residence, plus a self-sufficiency requirement, plus Medborgarskapsprovet for applicants aged 16–66. There are no transitional arrangements. Only the society component of the test exists so far; UHR's first sitting on 15 August 2026 is a pilot. Always confirm the current requirement with Migrationsverket and UHR before you rely on it. We help you prepare fairly; we never claim to help anyone shortcut the process.",
+  },
+  {
+    q: "Is there a Swedish language test for citizenship?",
+    a: "Not yet. A language component is planned, but UHR indicates it will not be ready before autumn 2028 at the earliest, and no CEFR level has been set. We don't sell practice for it, because there is nothing published to practise against. The SFI/CEFR ladder here builds the Swedish you'll need either way — but it is not the citizenship language test.",
+  },
+  {
+    q: "What score do I need to pass Medborgarskapsprovet?",
+    a: "UHR has not published a pass mark, so nobody can honestly tell you — anyone quoting a number is guessing. We don't show one either. We show what you got right and where your gaps are.",
   },
   {
     q: "Is my AlmiSwedish estimate my real exam result?",
-    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results.",
-  },
-  {
-    q: "How does the citizenship track work?",
-    a: "You practise the four skills — Reading, Listening, Writing and Speaking — at the Norskprøven B1–B2 level (B1–B2), and you can practise the Statsborgerprøven society questions too. Reading, Listening and the knowledge MCQs are auto-marked; Writing and Speaking get honest AI feedback. It's preparation, not the official test, and it points you to what to work on next.",
+    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results. AlmiSwedish is not affiliated with UHR, and UHR does not endorse unofficial practice tests, including ours.",
   },
   {
     q: "Is the practice copied from a real exam?",
-    a: "No. Every text, audio transcript, writing task, speaking prompt and knowledge question is original, written from scratch to mirror the real task types. We never copy or reproduce the official question banks or Ministry material.",
+    a: "No. Every text, audio transcript, writing task, speaking prompt and civic question is original, written from scratch to mirror the real task types. Our civic questions are written against the same 13 areas of Swedish society that UHR's own free study material, Sverige i fokus, covers — they are not UHR's question bank.",
   },
   {
     q: "How much does AlmiSwedish cost?",
-    a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and knowledge-test practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
+    a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and civic practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
   },
 ] as const;
 
@@ -100,7 +104,7 @@ function ReadinessMockup() {
     <div className="relative mx-auto w-full max-w-sm">
       <div className="rounded-3xl border border-almi-bg-peach bg-almi-paper p-6 shadow-xl">
         <div className="flex items-center justify-between">
-          <p className="text-xs font-bold uppercase tracking-wider text-almi-text-muted">Sample readiness · Norskprøven B1–B2 (B1–B2)</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-almi-text-muted">Sample readiness · Swedish B1–B2</p>
           <span className="rounded-full bg-almi-bg-peach px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-almi-ink">Sample</span>
         </div>
         <ul className="mt-4 space-y-3">
@@ -129,7 +133,7 @@ function ReadinessMockup() {
 
 const TRACK_ACCENT: Record<string, string> = {
   CITIZENSHIP: "text-almi-coral",
-  PERMANENT_RESIDENCE: "text-almi-teal",
+  PROFICIENCY: "text-almi-teal",
   GETTING_STARTED: "text-almi-accent-deep",
   UNIVERSITY: "text-almi-accent-deep",
 };
@@ -145,14 +149,15 @@ export default function Home() {
         <div aria-hidden className="pointer-events-none absolute -bottom-16 -left-16 z-0 h-80 w-80 rounded-full bg-almi-coral/10 blur-3xl" />
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwedish · Norwegian exam practice</p>
+            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwedish · Swedish exam &amp; civic practice</p>
             <h1 className="mt-4 text-balance text-4xl font-semibold leading-[1.08] text-almi-ink sm:text-5xl">
-              Practise Norwegian with <span className="text-almi-coral">honest readiness.</span>
+              Practise Swedish with <span className="text-almi-coral">honest readiness.</span>
             </h1>
             <p className="mt-5 text-lg text-almi-text">
-              Original practice for the Norskprøven ladder (A1–A2 to B1–B2), Bergenstesten and the Norwegian
-              society knowledge tests — with an honest readiness estimate against each exam's real
-              criteria, so you know exactly what to work on next.
+              Original practice for three pathways — the <strong>SFI</strong> (Svenska för invandrare) steps,
+              academic <strong>Tisus</strong> preparation, and Sweden&apos;s newly legislated{" "}
+              <strong>Medborgarskapsprov</strong> citizenship test — with an honest readiness estimate against
+              each exam&apos;s real criteria, so you know exactly where you stand.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
@@ -178,16 +183,20 @@ export default function Home() {
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center text-3xl font-semibold text-almi-ink">An honest estimate, not a fake score</h2>
           <p className="mt-5 text-base text-almi-text">
-            The real exams are set and marked by their official bodies — the Norskprøven exams and
-            the knowledge tests sit under the HK-dir (the Directorate for Higher Education and Skills) — so anyone
-            promising you a precise official result from practice is guessing. AlmiSwedish does the
-            honest thing instead: we estimate your readiness from your practice and show it plainly —
-            a per-skill band (Clear or Borderline) against each exam's real criteria.
+            The official tests are set and marked by their own bodies — the new citizenship test
+            (<strong>Medborgarskapsprovet</strong>) by the <strong>Swedish Council for Higher Education (UHR)</strong>;{" "}
+            <strong>SFI</strong> within the municipal adult-education system (<strong>Skolverket</strong>); and{" "}
+            <strong>Tisus</strong> by Stockholms universitet — so anyone promising a guaranteed official grade
+            from an online simulation is guessing. AlmiSwedish does the honest thing instead: we estimate your
+            readiness from your practice and map it into clear bands (Clear or Borderline) against each
+            exam&apos;s real criteria.
           </p>
           <p className="mt-4 text-base text-almi-text">
             One principle runs through it: <strong className="text-almi-ink">tell you the truth.</strong> Honest,
-            level-aware feedback, 100% original material, and a clear read on what to work on next — then
-            confirm the requirement you need with the relevant authority (UDI for residency and citizenship).
+            level-aware feedback, 100% original material, and an un-inflated read on what to work on next — then
+            confirm the requirement you actually need with the relevant authority (Migrationsverket and UHR for
+            citizenship). We are not affiliated with UHR, and UHR does not endorse unofficial practice tests —
+            including ours.
           </p>
         </div>
       </section>
@@ -196,22 +205,32 @@ export default function Home() {
       <section className="border-t border-almi-bg-peach bg-almi-bg-peach/40 px-6 py-16">
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center rounded-full bg-almi-coral/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-almi-coral-deep">
-            Citizenship route
+            New 2026 Swedish citizenship rules
           </span>
-          <h2 className="mt-4 text-3xl font-semibold text-almi-ink">Norskprøven B1–B2 + Statsborgerprøven — the citizenship path. Start here.</h2>
+          <h2 className="mt-4 text-3xl font-semibold text-almi-ink">Getting ready for SFI or the new Medborgarskapsprov? Start here.</h2>
           <p className="mt-4 text-base text-almi-text">
-            Norwegian citizenship commonly requires Norskprøven B1–B2 — the B1–B2 Norwegian-language exam — and
-            the Statsborgerprøven, a Norwegian society knowledge test. Practise the four language skills and
-            the society questions, and get an honest read on whether you're ready. There are also
-            residency and other conditions, and rules change, so always confirm the current requirement
-            with UDI. We help you prepare fairly — never to shortcut the process.
+            Sweden&apos;s citizenship rules changed on <strong>6 June 2026</strong> — eight years&apos; habitual
+            residence as the main rule, a self-sufficiency requirement, and a new{" "}
+            <strong>Medborgarskapsprov</strong> for applicants aged <strong>16–66</strong>. It arrives in stages:
+            the knowledge-of-society test starts with a <strong>pilot sitting on 15 August 2026</strong>, and a
+            Swedish language test follows later — UHR indicates <strong>not before autumn 2028</strong>, with no
+            level set yet.
+          </p>
+          <p className="mt-4 text-base text-almi-text">
+            Because the details are still rolling out, UHR has published <strong>no pass mark</strong> — so we
+            don&apos;t show one, and we don&apos;t invent a format or a level.{" "}
+            <Link href="/requirements/sweden/medborgarskapsprov" className="font-semibold text-almi-coral-deep hover:underline">
+              See exactly what is and isn&apos;t known
+            </Link>
+            , practise realistic civic questions, and get an honest read on your readiness. We help you prepare
+            fairly — never to shortcut the process.
           </p>
           <div className="mt-8">
             <Link
               href="/signup"
               className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep"
             >
-              Practise Norskprøven B1–B2 — free trial
+              Practise the Swedish tracks — free trial
             </Link>
           </div>
         </div>
@@ -317,7 +336,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-semibold text-almi-ink">Practise honestly. Walk in ready.</h2>
           <p className="mt-3 text-base text-almi-text">
-            Every Norwegian exam at your level, honest readiness estimates, 100% original material — for
+            Every Swedish exam at your level, honest readiness estimates, 100% original material — for
             $12/month with a 7-day free trial.
           </p>
           <div className="mt-8">

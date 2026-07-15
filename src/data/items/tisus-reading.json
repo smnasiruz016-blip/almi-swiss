@@ -1,20 +1,20 @@
 [
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Oil wealth and the future",
+    "title": "Sustainability and consumption",
     "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Den norske petroleumsformuen har i flere tiår finansiert et velferdsnivå som få andre land kan vise til, men nettopp denne rikdommen rommer et paradoks. Jo lengre inntektene fra olje og gass fortsetter å strømme inn, desto sterkere blir den politiske fristelsen til å utsette den omstillingen som alle er enige om må komme. Økonomer omtaler fenomenet som en form for avhengighet, der de kortsiktige gevinstene systematisk overskygger de langsiktige kostnadene ved å vente. Enkelte hevder at oljefondet i seg selv fungerer som en buffer som gjør omstillingen lettere, mens andre advarer om at den samme tryggheten kan svekke insentivet til å bygge opp nye næringer i tide. Uenigheten handler dermed mindre om målet enn om hvor mye velstanden i seg selv står i veien for å nå det.",
-      "question": "Hva er kjernen i paradokset teksten beskriver?",
+      "passage": "I den offentliga debatten om hållbarhet framställs den enskilda konsumenten ofta som den avgörande aktören, den vars val i butikshyllan sammantaget ska styra produktionen i en mer skonsam riktning. Föreställningen är tilltalande, inte minst därför att den ger var och en en känsla av handlingsutrymme. Problemet är att den vilar på ett antagande som sällan prövas: att de alternativ som över huvud taget står till buds är resultatet av en fri och välinformerad efterfrågan. I själva verket är utbudet redan format av infrastruktur, subventioner och regelverk som beslutats långt innan konsumenten når kassan. Den som saknar spårbunden kollektivtrafik kan knappast välja bort bilen, hur medveten hon än är. Att under sådana förhållanden lägga huvudansvaret på individen är därför inte bara analytiskt oprecist, utan riskerar dessutom att flytta uppmärksamheten från de beslut som faktiskt avgör vilka val som finns. Detta innebär emellertid inte att konsumtionsmönster saknar betydelse. Poängen är snarare att de bör förstås som en följd av politiska prioriteringar snarare än som deras ersättning. En debatt som förväxlar de två riskerar att bli moraliserande utan att bli verkningsfull.",
+      "question": "Vilken invändning riktar texten främst mot föreställningen om den ansvarige konsumenten?",
       "options": [
-        "At oljeinntektene er i ferd med å ta slutt raskere enn ventet",
-        "At selve rikdommen kan gjøre den nødvendige omstillingen vanskeligere å gjennomføre",
-        "At oljefondet er for lite til å finansiere velferden",
-        "At nye næringer allerede har erstattet petroleumssektoren"
+        "Att konsumenter i allmänhet saknar intresse för miljöfrågor",
+        "Att den förbiser att konsumentens valmöjligheter redan har begränsats av politiska beslut",
+        "Att konsumtionsmönster helt saknar betydelse för hållbarheten",
+        "Att den bygger på bristfällig statistik om utsläpp från hushållen"
       ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
@@ -22,41 +22,41 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Dialects and identity",
+    "title": "Urban densification",
     "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "I motsetning til de fleste europeiske land nyter dialektene i Norge en påfallende høy status, og det er fullt akseptert å bruke sin egen talemåte i alle sammenhenger, også i riksdekkende medier og fra Stortingets talerstol. Sosiolingvister forklarer dette blant annet med at Norge lenge manglet en dominerende hovedstadselite som kunne påtvinge resten av landet en enhetlig standarduttale. Der andre land utviklet en normert talenorm knyttet til prestisje, ble dialekten i Norge i stedet et tegn på tilhørighet og lokal forankring. Enkelte forskere peker likevel på at nyere flyttemønstre og et mer sentralisert arbeidsliv gradvis kan svekke de tydeligste særtrekkene, uten at det er gitt at mangfoldet forsvinner av den grunn.",
-      "question": "Hvorfor har dialektene ifølge teksten fått en så høy status i Norge?",
+      "passage": "Förtätning har under de senaste decennierna framstått som något av en självklarhet i svensk stadsplanering. Argumenten är välkända: den täta staden kortar avstånden, gör kollektivtrafiken bärkraftig och sparar mark. Mot detta har det invänts att förtätningen sker på bekostnad av just de grönytor som gör tätheten uthärdlig, och att vinsterna därmed delvis äts upp av sina egna konsekvenser. Diskussionen kompliceras av att båda sidor i regel åberopar samma övergripande mål, nämligen en långsiktigt hållbar stad. Vad de är oense om är snarare på vilken skala målet ska mätas. Sett till hela regionen kan en förtätad stadskärna framstå som klart fördelaktig; sett till det enskilda kvarteret kan samma projekt innebära en påtaglig försämring. Att debatten så sällan når en upplösning beror alltså mindre på oenighet om fakta än på att parterna implicit resonerar utifrån olika rumsliga ramar. Först när denna skillnad görs uttalad blir det möjligt att avgöra vad en avvägning faktiskt kostar och vem som bär kostnaden.",
+      "question": "Vad anger texten som huvudorsaken till att förtätningsdebatten sällan får en upplösning?",
       "options": [
-        "Fordi myndighetene tidlig innførte en offisiell talenorm",
-        "Fordi landet manglet en dominerende elite som kunne påtvinge en enhetlig standarduttale",
-        "Fordi dialektene alltid har vært like over hele landet",
-        "Fordi mediene forbød bruk av standardspråk"
+        "Att parterna bedömer samma mål utifrån olika rumsliga skalor",
+        "Att det saknas tillförlitliga uppgifter om befolkningstillväxten",
+        "Att den ena sidan avvisar hållbarhet som mål",
+        "Att kommunerna saknar juridiska verktyg för att pröva planerna"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "The right to roam",
-    "prompt": "Read the article and choose the best answer.",
+    "difficulty": "STRETCH",
+    "title": "Digitalisation of public administration",
+    "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Allemannsretten gir alle rett til å ferdes fritt i utmark, uavhengig av hvem som eier grunnen. Retten hviler på en gammel sedvane, men ble lovfestet i friluftsloven for å beskytte den mot press fra økende privatisering av strandsoner og fjellområder. Prinsippet forutsetter en gjensidighet: den som ferdes, skal vise hensyn, ikke forsøple og ikke være til unødig ulempe for grunneieren eller andre. Debatten i dag hander sjelden om selve retten, men om hvordan den skal forvaltes når stadig flere mennesker søker ut i naturen samtidig. Slitasje på sårbare områder og konflikter mellom ulike brukergrupper har gjort spørsmålet om regulering mer påtrengende enn før.",
-      "question": "Hva handler dagens debatt om allemannsretten først og fremst om?",
+      "passage": "När förvaltningen digitaliseras beskrivs förändringen gärna som en fråga om effektivitet: samma ärenden ska handläggas snabbare och till en lägre kostnad. En sådan beskrivning döljer emellertid att digitaliseringen sällan lämnar ärendet självt oförändrat. För att en process ska kunna automatiseras måste den först formaliseras, och formaliseringen tvingar fram avgöranden om vad som ska räknas som relevant. Bedömningar som tidigare vilade på en tjänstemans samlade omdöme översätts därmed till kriterier som kan uttryckas i förväg. Vinsten i förutsägbarhet är verklig, men den betalas med en förlust i lyhördhet för det enskilda fallet. Det som utges för att vara en teknisk reform visar sig alltså rymma ett normativt ställningstagande om hur mycket utrymme skönsmässigheten bör ha. Att detta ställningstagande sällan diskuteras öppet beror knappast på ovilja, utan snarare på att det är inbäddat i beslut som framstår som rent tekniska. Just därför förtjänar de en granskning av annat slag än den som brukar riktas mot budgetposter.",
+      "question": "Vad är textens huvudsakliga poäng om digitaliseringen av förvaltningen?",
       "options": [
-        "Om retten bør avskaffes helt",
-        "Om grunneierne skal få eneretten tilbake",
-        "Om hvordan retten skal forvaltes når stadig flere bruker naturen samtidig",
-        "Om hvorvidt sedvane kan lovfestes"
+        "Att den sällan leder till några verkliga kostnadsbesparingar",
+        "Att den bör skjutas upp tills tekniken har mognat ytterligare",
+        "Att den rymmer ett dolt normativt val om utrymmet för skönsmässig bedömning",
+        "Att tjänstemännens omdöme historiskt sett har varit alltför godtyckligt"
       ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
@@ -64,20 +64,20 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Trust as capital",
+    "title": "Grading and equivalence",
     "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "De nordiske samfunnene kjennetegnes av et usedvanlig høyt nivå av mellommenneskelig tillit, og forskere har lenge diskutert om denne tilliten er en årsak til eller en følge av velferdsstaten. Én posisjon hevder at omfattende fellesskapsordninger skaper tillit fordi de reduserer usikkerhet og gjør folk mindre avhengige av tilfeldig velvilje. En annen posisjon snur forklaringen om og peker på at det nettopp var en allerede eksisterende tillit som gjorde det mulig å bygge opp så kostbare ordninger uten at de kollapset under mistanke om misbruk. Sannsynligvis virker mekanismene begge veier og forsterker hverandre over tid, noe som gjør det metodisk krevende å isolere hva som kom først.",
-      "question": "Hva gjør det ifølge teksten vanskelig å avgjøre forholdet mellom tillit og velferdsstat?",
+      "passage": "Betygens dubbla funktion har länge utgjort ett olöst problem i svensk utbildningspolitik. Å ena sidan ska betyget ge återkoppling till eleven och därmed stödja lärandet; å andra sidan ska det fungera som ett urvalsinstrument vid antagningen till högre utbildning. Så länge dessa funktioner behandlas som förenliga framstår varje reform som en teknikalitet. Ser man dem däremot som delvis motstridiga blir bilden en annan. Ett betyg som ska stödja lärandet vinner på att sättas generöst nog för att uppmuntra fortsatta ansträngningar, medan ett betyg som ska rangordna sökande kräver att skillnader upprätthålls även när de är obekväma. Att kritiken mot betygsinflation ofta möts av hänvisningar till elevers motivation, och tvärtom, är därför inte ett tecken på att någondera sidan missförstått saken. Det tyder snarare på att parterna svarar på olika frågor. En reform som inte erkänner spänningen kommer med största sannolikhet att förskjuta problemet i stället för att lösa det.",
+      "question": "Vilken slutsats om betygsdebatten ligger närmast textens resonemang?",
       "options": [
-        "At tillit ikke kan måles i det hele tatt",
-        "At de to størrelsene sannsynligvis påvirker hverandre gjensidig over tid",
-        "At velferdsstaten er for ny til å studeres",
-        "At tilliten i Norden er lavere enn antatt"
+        "Att kritikerna av betygsinflation har missförstått forskningsläget",
+        "Att debattens låsning speglar en verklig spänning mellan betygets två funktioner",
+        "Att betyg bör avskaffas som urvalsinstrument vid antagning",
+        "Att elevers motivation saknar samband med hur betyg sätts"
       ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
@@ -85,20 +85,83 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Preventive public health",
+    "prompt": "Read the article and choose the best answer.",
+    "payload": {
+      "passage": "Förebyggande folkhälsoarbete lider av ett välkänt trovärdighetsproblem: dess framgångar består av händelser som aldrig inträffar. En vårdcentral som lyckas bra kan inte peka på några räddade patienter, eftersom de sjukdomsfall som uteblivit inte lämnar några spår. Den akuta vården har det omvända förhållandet; där är insatsen synlig, tacksamheten omedelbar och resultatet lätt att räkna. Denna asymmetri i synlighet påverkar hur resurser fördelas, i synnerhet under perioder av besparingar. Det är inte att prevention värderas lågt i princip. Tvärtom är den politiska uppslutningen kring den nästan enhällig så länge diskussionen förs på ett allmänt plan. Men när en konkret budget ska beslutas hamnar den insats vars nytta bara kan beskrivas statistiskt regelmässigt i underläge mot den vars nytta kan beskrivas i ett enskilt öde. Problemet är alltså inte bristande övertygelse utan att prevention är svår att göra synlig i just det ögonblick då den ska försvaras.",
+      "question": "Varför hamnar förebyggande arbete enligt texten ofta i underläge vid budgetbeslut?",
+      "options": [
+        "Därför att dess nytta saknar vetenskapligt stöd",
+        "Därför att politikerna i princip anser att prevention är oviktig",
+        "Därför att dess resultat bara kan beskrivas statistiskt och därför är svåra att göra synliga",
+        "Därför att akutvården alltid är billigare per patient"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Aquaculture dilemmas",
+    "title": "English in academic Swedish",
     "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Oppdrettsnæringen har vokst til å bli en av Norges viktigste eksportnæringer, men veksten har ikke skjedd uten kostnader. Lakselus, rømming og utslipp fra merdene setter både villaksbestandene og de lokale økosystemene under press, og næringen står dermed overfor et dilemma den ikke selv kan løse alene. Dersom myndighetene strammer inn miljøkravene for raskt, risikerer man å svekke en næring mange kystsamfunn er helt avhengige av. Dersom man venter for lenge, kan skadene bli irreversible og til slutt undergrave selve grunnlaget for produksjonen. Flere forskere argumenterer derfor for at bærekraft i denne sammenhengen ikke er en begrensning på næringen, men en forutsetning for at den skal ha en framtid overhodet.",
-      "question": "Hvorfor omtaler flere forskere bærekraft som en forutsetning for næringen?",
+      "passage": "Att engelskan har blivit vetenskapens gemensamma språk brukar beskrivas som en ren vinst, och på ett plan är det svårt att invända. Ett gemensamt språk sänker trösklarna för samarbete och gör resultat tillgängliga över gränserna. Vad som lättare förbises är vad som sker med det språk som därmed inte används. Ett fackområde vars begrepp aldrig formuleras på svenska utvecklar med tiden ingen svensk terminologi, och när kunskapen sedan ska föras vidare till en bredare allmänhet saknas de ord som skulle ha burit den. Konsekvensen visar sig alltså inte inom forskarsamhället, där engelskan fungerar utmärkt, utan i förbindelsen mellan detta samhälle och det omgivande. Vissa hävdar att parallellspråkighet löser problemet, men parallellspråkighet kräver ett aktivt arbete som sällan belönas i meriteringssystemet. Domänförlusten uppstår därför inte genom något beslut, utan genom en lång rad rationella val som var för sig framstår som oproblematiska.",
+      "question": "Vad är enligt texten den mest problematiska följden av engelskans ställning inom forskningen?",
       "options": [
-        "Fordi miljøkrav gjør laksen billigere å produsere",
-        "Fordi næringens eget grunnlag undergraves dersom skadene på økosystemene blir for store",
-        "Fordi kystsamfunnene ønsker mindre oppdrett",
-        "Fordi villaksen ikke har noen økonomisk verdi"
+        "Att internationella samarbeten blir svårare att genomföra",
+        "Att kvaliteten på forskningen försämras när den inte skrivs på modersmålet",
+        "Att svenska forskare gradvis förlorar sin engelska språkfärdighet",
+        "Att förbindelsen mellan forskarsamhället och allmänheten försvagas när svensk terminologi uteblir"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Recognition of foreign qualifications",
+    "prompt": "Read the passage and choose the best answer.",
+    "payload": {
+      "passage": "Att nyanlända med lång utbildning bakom sig arbetar långt under sin kompetensnivå brukar tillskrivas bristande språkkunskaper, och språket har givetvis betydelse. Men förklaringen är otillräcklig, vilket framgår av att underutnyttjandet består även bland dem vars svenska är fullt yrkesmässig. En rimligare läsning är att arbetsgivare i osäkerhet förlitar sig på signaler de kan tolka, och att en examen från ett okänt lärosäte helt enkelt inte utgör en sådan signal. Bedömningen blir då inte ett omdöme om personens kunskaper utan om institutionens läsbarhet. Detta förklarar varför formella valideringsinsatser kan ge effekt trots att de inte tillför den sökande någon ny kunskap: de gör en redan befintlig kompetens tolkbar. Samtidigt antyder det att åtgärder som enbart riktas mot individens språk eller kompletterande kurser förblir otillräckliga. Det som behöver åtgärdas ligger i mottagarens tolkningsapparat lika mycket som i den sökandes meritförteckning.",
+      "question": "Vilken förklaring till underutnyttjad kompetens framhåller texten som mest träffande?",
+      "options": [
+        "Att arbetsgivare saknar möjlighet att tolka meriter från okända lärosäten",
+        "Att de nyanländas språkkunskaper genomgående är otillräckliga",
+        "Att utbildningar utanför Sverige generellt håller lägre kvalitet",
+        "Att de sökande själva undviker att söka kvalificerade tjänster"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Research ethics and consent",
+    "prompt": "Read the passage and choose the best answer.",
+    "payload": {
+      "passage": "Det informerade samtycket är forskningsetikens mest etablerade princip, och just därför löper den risk att tillämpas mekaniskt. Föreställningen är att en deltagare som fått tillräcklig information och lämnat sitt medgivande därmed har skyddats. I många sammanhang håller detta. Svårigheterna uppstår i studier vars framtida användning av materialet inte kan preciseras vid insamlingstillfället, vilket numera gäller för stora delar av registerbaserad forskning. Ett samtycke som lämnas till ändamål som ännu inte formulerats är i strikt mening knappast informerat. Somliga menar att man bör lösa detta genom breda samtycken, andra genom återkommande förnyade förfrågningar. Båda vägarna har uppenbara nackdelar: den första urholkar principen inifrån, den andra gör forskningen praktiskt ogenomförbar. Att diskussionen fortsätter är därför inte ett tecken på tröghet, utan en följd av att en princip formulerad för avgränsade experiment ska bära en forskningspraktik som saknar tydliga gränser i tiden.",
+      "question": "Vad är enligt texten kärnan i problemet med informerat samtycke i registerbaserad forskning?",
+      "options": [
+        "Att deltagarna sällan bryr sig om hur uppgifterna används",
+        "Att en princip utformad för avgränsade studier ska tillämpas på forskning utan tidsgränser",
+        "Att forskarna medvetet undanhåller information om studiens syfte",
+        "Att breda samtycken redan har visat sig vara den bästa lösningen"
       ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
@@ -106,20 +169,41 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Digital public services",
-    "prompt": "Read the report summary and choose the best answer.",
+    "title": "Remote work and the office",
+    "prompt": "Read the article and choose the best answer.",
     "payload": {
-      "passage": "Digitaliseringen av offentlige tjenester har gjort mange oppgaver raskere og billigere, både for innbyggerne og for forvaltningen. Samtidig viser en ny utredning at effektiviseringen har en bakside som lett overses. Når skjemaer, søknader og kommunikasjon flyttes over på nett, forutsettes det at alle har både utstyret og de digitale ferdighetene som kreves. For eldre, for enkelte innvandrere og for mennesker med lav digital kompetanse kan overgangen i praksis bety at tjenester de har krav på, blir vanskeligere å nå. Utredningen anbefaler derfor at det digitale aldri gjøres til eneste kanal, men suppleres med alternativer, slik at effektiviseringen ikke skjer på bekostning av likeverdig tilgang.",
-      "question": "Hva advarer utredningen mot?",
+      "passage": "När distansarbetet på kort tid blev norm för stora yrkesgrupper drogs slutsatsen förhastat att kontoret hade spelat ut sin roll. Det som mättes under de första åren var emellertid produktiviteten i uppgifter som redan var definierade och fördelade, och i sådana uppgifter fungerar distansarbetet ofta utmärkt. Det som är svårare att mäta är hur nya uppgifter uppstår, hur en oerfaren medarbetare gradvis läser av vad som förväntas, och hur en halvfärdig idé prövas mot någon annans invändning innan den formulerats färdigt. Dessa processer lämnar sällan mätbara spår och de gör sig inte påminda förrän efter flera år. Att tidiga utvärderingar utföll positivt säger därför mindre än vad som ofta antas. Det innebär inte att kontoret är oumbärligt, men det innebär att den fråga som besvarades inte var den fråga som ställdes.",
+      "question": "Vilken invändning riktar texten mot de tidiga utvärderingarna av distansarbete?",
       "options": [
-        "At digitalisering gjør tjenestene dyrere",
-        "At det digitale gjøres til eneste kanal og dermed svekker likeverdig tilgang",
-        "At for få skjemaer er lagt ut på nett",
-        "At de eldre bruker for mye tid på nett"
+        "Att de omfattade alltför få deltagare för att vara tillförlitliga",
+        "Att de utfördes av arbetsgivare med intresse av ett visst resultat",
+        "Att de mätte redan definierade uppgifter och missade processer som syns först på lång sikt",
+        "Att de underskattade de tekniska problemen med arbete hemifrån"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "track": "UNIVERSITY",
+    "exam": "TISUS",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Rural depopulation",
+    "prompt": "Read the passage and choose the best answer.",
+    "payload": {
+      "passage": "Avfolkningen av glesbygden brukar skildras som en obeveklig process, driven av krafter som ligger bortom politisk räckvidd. Skildringen är bekväm eftersom den befriar från ansvar, men den tål inte närmare granskning. Att en ung människa flyttar till en större ort är förvisso ett individuellt beslut, men det fattas inom ramar som är allt annat än naturgivna: var utbildningsplatser förläggs, vilka orter som har vårdcentral kvar, hur ofta bussen går. Varje sådan ram är resultatet av ett beslut som hade kunnat utfalla annorlunda. Det som framstår som en spontan folkomflyttning är därmed i betydande utsträckning en summa av tidigare prioriteringar, om än sällan uttalade som en samlad politik för befolkningsfördelning. Att i efterhand beskriva utfallet som ödesbestämt är därför en beskrivning som gör de fattade besluten osynliga. Kritiken riktar sig inte mot att besluten fattades, utan mot att de inte redovisades för vad de var.",
+      "question": "Vad är författarens huvudsakliga invändning mot den vanliga skildringen av avfolkningen?",
+      "options": [
+        "Att den överdriver hur många som faktiskt flyttar från glesbygden",
+        "Att den framställer utfallet som ödesbestämt och därmed döljer de politiska beslut som format det",
+        "Att den bortser från att unga människor helst vill bo kvar",
+        "Att den bygger på föråldrad befolkningsstatistik"
       ]
     },
     "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
@@ -127,167 +211,107 @@
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "CORE",
-    "title": "Volunteering claim",
-    "prompt": "Decide whether the statement matches the passage.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Algorithms and editorial responsibility",
+    "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Den norske dugnadstradisjonen har lenge blitt framhevet som en bærebjelke i sivilsamfunnet, men en fersk kartlegging tegner et mer sammensatt bilde. Deltakelsen er fortsatt høy, men den endrer form. Der tidligere generasjoner ofte forpliktet seg til én forening over mange år, foretrekker yngre frivillige i økende grad korte, avgrensede oppdrag de kan gå inn og ut av. Forfatterne konkluderer med at organisasjonene må tilpasse seg denne fleksibiliteten dersom de vil beholde de unge, men understreker samtidig at lavere lojalitet til enkeltforeninger ikke er det samme som svekket samfunnsengasjement.",
-      "question": "Ifølge teksten betyr yngres lavere lojalitet til enkeltforeninger at samfunnsengasjementet er blitt svekket.",
-      "options": ["Sant", "Usant"]
+      "passage": "Plattformsföretagen har länge hävdat att de förmedlar innehåll utan att redigera det, och att ansvaret för vad som sprids därmed vilar hos användarna. Argumentet vilade en gång på en rimlig beskrivning av verksamheten. Sedan flödena ordnas av rekommendationssystem som rangordnar utifrån förväntad uppmärksamhet är beskrivningen svårare att försvara. Att välja vad som ska visas först är i praktiken en redaktionell handling, oavsett om valet fattas av en person eller av en modell tränad på tidigare beteende. Invändningen att ingen enskild människa fattar beslutet träffar inte saken, eftersom ansvaret för en verksamhet aldrig har förutsatt att varje enskilt led utförs för hand. Ett tryckeri ansvarar inte mindre för sin utgivning för att pressarna är automatiska. Vad frågan i grunden gäller är alltså inte om rangordningen sker maskinellt, utan om den som konstruerat och driver systemet ska svara för dess förutsägbara verkningar.",
+      "question": "Hur bemöter texten argumentet att ingen enskild människa fattar besluten om vad som visas?",
+      "options": [
+        "Genom att hävda att modellerna i själva verket styrs manuellt i efterhand",
+        "Genom att påpeka att ansvar för en verksamhet aldrig har krävt att varje led utförs för hand",
+        "Genom att visa att rekommendationssystemen sällan påverkar vad användarna ser",
+        "Genom att jämföra plattformarna med användare snarare än med utgivare"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "CORE",
-    "title": "Automation and work",
-    "prompt": "Decide whether the statement matches the passage.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Publication pressure in research",
+    "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Frykten for at maskiner skal gjøre menneskelig arbeidskraft overflødig, har fulgt hver eneste teknologiske omveltning siden den industrielle revolusjon. Historisk sett har ny teknologi likevel både fjernet og skapt arbeidsplasser, om enn sjelden i de samme bransjene eller for de samme menneskene. Den sentrale utfordringen er derfor ikke nødvendigvis mangel på arbeid som sådan, men omstillingen av arbeidsstyrken. Uten omfattende satsing på etter- og videreutdanning risikerer man at gevinstene tilfaller de få, mens kostnadene bæres av dem hvis kvalifikasjoner blir foreldet.",
-      "question": "Ifølge teksten har ny teknologi historisk sett utelukkende fjernet arbeidsplasser.",
-      "options": ["Sant", "Usant"]
+      "passage": "Att forskningens kvalitet ska bedömas är knappast kontroversiellt; frågan är vad bedömningen gör med det den bedömer. När antalet publikationer och citeringar blir det mått varpå tjänster och anslag fördelas, uppstår ett incitament att anpassa forskningen efter måttet snarare än efter frågan. Följden blir sällan medvetet fusk. Långt vanligare är en tyst förskjutning mot projekt som är säkra nog att bli publicerbara inom en anslagsperiod, det vill säga bort från de frågor vars svar är ovissa. Det är just dessa frågor som forskningen i princip ska ägna sig åt. En systemkritik av detta slag brukar avfärdas med att alternativet, kollegial bedömning utan mätbara mått, är godtyckligt och trögt. Invändningen har fog för sig. Men att ett mått är bättre än inget mått innebär inte att måttets bieffekter upphör att verka, och de verkar starkast där de är svårast att upptäcka.",
+      "question": "Vilken effekt av publiceringsmått framhåller texten som allvarligast?",
+      "options": [
+        "Att den leder till en tyst förskjutning bort från frågor med ovisst utfall",
+        "Att den gör medvetet forskningsfusk till ett utbrett fenomen",
+        "Att den gör kollegial bedömning helt omöjlig att genomföra",
+        "Att den gynnar äldre forskare på yngre forskares bekostnad"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
-    "taskType": "TRUE_FALSE",
-    "difficulty": "STRETCH",
-    "title": "Peer review claim",
-    "prompt": "Decide whether the statement matches the passage.",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "The library as public space",
+    "prompt": "Read the article and choose the best answer.",
     "payload": {
-      "passage": "Fagfellevurdering regnes ofte som vitenskapens fremste kvalitetsstempel, men systemet er langt fra feilfritt. Vurdererne arbeider som regel anonymt og ulønnet, og de har sjelden mulighet til å etterprøve rådata eller kontrollere at et resultat lar seg gjenta. Prosessen kan snarere luke ut åpenbare svakheter enn garantere at en konklusjon er sann. Derfor advarer metodeforskere mot å oppfatte publisering i et fagfellevurdert tidsskrift som en endelig blåstempling; det er i beste fall et første filter i en løpende kritisk prosess.",
-      "question": "Ifølge teksten garanterer fagfellevurdering at et resultat er sant og lar seg gjenta.",
-      "options": ["Sant", "Usant"]
+      "passage": "Folkbibliotekets uppdrag formulerades i en tid då tillgången till text var det knappa. I dag är texten allt annat än knapp, och slutsatsen dras ibland att institutionens berättigande därmed har försvagats. Besökssiffrorna talar dock ett annat språk, och förklaringen ligger sannolikt i att det som blivit knappt är något annat: en plats där man får uppehålla sig utan att köpa något och utan att förklara varför man är där. Att biblioteket erbjuder detta är ingen sidoeffekt av bokutlåningen utan en förutsättning som alltid funnits, men som först nu blivit synlig därför att så få andra platser fyller den. Att beskriva utvecklingen som att biblioteket har fått ett nytt uppdrag är därför missvisande. Uppdraget är detsamma; det är omgivningen som har förändrats så att en tidigare underordnad del av det har trätt i förgrunden.",
+      "question": "Vilken slutsats om biblioteket ligger närmast textens resonemang?",
+      "options": [
+        "Att biblioteket har fått ett helt nytt uppdrag i och med digitaliseringen",
+        "Att bibliotekets berättigande har försvagats när texten blivit lättillgänglig",
+        "Att uppdraget är oförändrat men att omvärlden lyft fram en tidigare underordnad del av det",
+        "Att besökssiffrorna ger en missvisande bild av bibliotekets betydelse"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Concepts and definitions",
-    "prompt": "Match each concept to its correct definition.",
+    "title": "Skills forecasting",
+    "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "I samfunnsvitenskapen brukes en rekke sentrale begreper som ofte blandes sammen i den offentlige debatten. En presis forståelse av dem er en forutsetning for å kunne følge den akademiske argumentasjonen, og forvekslinger fører lett til upresise slutninger.",
-      "instructions": "Koble hvert begrep til definisjonen som passer best.",
-      "left": ["Korrelasjon", "Kausalitet", "Representativitet"],
-      "right": [
-        "At et årsaksforhold faktisk forbinder to fenomener",
-        "At et utvalg speiler den populasjonen det skal beskrive",
-        "At to variabler opptrer sammen uten nødvendig årsakssammenheng"
+      "passage": "Prognoser över framtidens kompetensbehov åtnjuter ett förtroende som deras träffsäkerhet knappast motiverar. Metoden bygger med nödvändighet på att dagens branschstruktur skrivs fram, vilket fungerar så länge förändringen är gradvis och sviktar just när den inte är det. Att prognoserna ändå efterfrågas beror mindre på att beslutsfattare tror på dem bokstavligt än på att en dimensionering av utbildningsplatser måste kunna motiveras med något. Häri ligger en risk som sällan uppmärksammas: en prognos som används som argument tenderar att bli självuppfyllande, eftersom de platser som skapas i sin tur formar vilken arbetskraft som finns att tillgå. Prognosen mäter då delvis sin egen verkan. Det starkaste skälet att behandla sådana underlag med försiktighet är alltså inte att de är osäkra, vilket alla vet, utan att de påverkar det de utger sig för att beskriva.",
+      "question": "Vilket skäl att vara försiktig med kompetensprognoser framhåller texten som det starkaste?",
+      "options": [
+        "Att de bygger på metoder som saknar vetenskaplig förankring",
+        "Att de påverkar den utveckling de utger sig för att enbart beskriva",
+        "Att beslutsfattare tolkar dem alltför bokstavligt",
+        "Att de sällan uppdateras tillräckligt ofta för att vara aktuella"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 1]] },
-    "maxPoints": 3
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
   },
   {
     "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
+    "exam": "TISUS",
     "skill": "READING",
-    "taskType": "MATCHING",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
-    "title": "Rhetorical appeals",
-    "prompt": "Match each rhetorical appeal to its description.",
+    "title": "Evidence in policy",
+    "prompt": "Read the passage and choose the best answer.",
     "payload": {
-      "passage": "Klassisk retorikk skiller mellom tre grunnleggende appellformer en taler kan ta i bruk for å overbevise tilhørerne sine. En vellykket tale kombinerer dem gjerne, men det er analytisk nyttig å kunne holde dem fra hverandre.",
-      "instructions": "Koble hver appellform til den rette beskrivelsen.",
-      "left": ["Logos", "Etos", "Patos"],
-      "right": [
-        "Appell til mottakerens følelser og stemninger",
-        "Appell gjennom fornuft, argumenter og dokumentasjon",
-        "Appell gjennom talerens troverdighet og karakter"
+      "passage": "Kravet på evidensbaserad politik framförs numera med en emfas som gör det närmast omöjligt att invända, och invändningen som följer gäller heller inte kravet i sig. Den gäller vad som osynliggörs av formuleringen. Evidens kan avgöra om en åtgärd åstadkommer det den avser att åstadkomma, men den kan inte avgöra om detta är vad som borde eftersträvas. Mellan dessa två frågor löper en gräns som ingen mängd data kan överskrida. När gränsen suddas ut framställs politiska prioriteringar som slutsatser av forskningsläget, och en meningsmotståndare framstår därmed inte som oense utan som okunnig. Följden blir en debatt som formellt handlar om metod men i själva verket rör mål, förd med ett språk som saknar ord för det som står på spel. Att efterfråga bättre underlag är alltså befogat; att låta underlaget avgöra frågor det inte kan avgöra är något annat.",
+      "question": "Vad varnar texten framför allt för?",
+      "options": [
+        "Att forskningsresultat ofta är av alltför låg kvalitet för att styra politiken",
+        "Att politiker medvetet väljer bort den evidens som talar emot dem",
+        "Att värderingsfrågor framställs som slutsatser av forskningen, vilket omdefinierar oenighet till okunskap",
+        "Att evidensbaserad politik gör beslutsprocesserna onödigt långsamma"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 2], [2, 0]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "CORE",
-    "title": "Parts of a research article",
-    "prompt": "Match each part of a research article to its function.",
-    "payload": {
-      "passage": "En vitenskapelig artikkel følger som regel en fast oppbygning som gjør det mulig for leseren raskt å orientere seg og vurdere holdbarheten i undersøkelsen. Hver del har en klart avgrenset funksjon.",
-      "instructions": "Koble hver del til funksjonen sin.",
-      "left": ["Metode", "Diskusjon", "Sammendrag"],
-      "right": [
-        "En kort oppsummering av hele undersøkelsen",
-        "En redegjørelse for hvordan data er samlet inn og bearbeidet",
-        "En tolkning av resultatene og begrensningene ved dem"
-      ]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 2], [2, 0]] },
-    "maxPoints": 3
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "Education and democracy",
-    "prompt": "Choose the word that fits each gap.",
-    "payload": {
-      "passage": "Utdanning tillegges ofte en sentral rolle for {{1}} av demokratiet, ettersom opplyste borgere antas å være bedre i stand til å gjennomskue politiske argumenter. Kritikere påpeker likevel at formell skolegang ikke i seg selv {{2}} kritisk sans, dersom undervisningen utelukkende belønner pugging.",
-      "gaps": [
-        { "id": 1, "options": ["oppløsningen", "opprettholdelsen", "avskaffelsen"] },
-        { "id": 2, "options": ["garanterer", "hindrer", "overser"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 1 }, { "id": 2, "index": 0 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "Climate models",
-    "prompt": "Choose the word that fits each gap.",
-    "payload": {
-      "passage": "Klimamodeller bygger på et stort antall {{1}} som forskerne løpende justerer i takt med nye målinger. Selv om modellene aldri kan forutsi framtiden med fullstendig {{2}}, gir de likevel et robust grunnlag for å vurdere sannsynlige utviklingstrekk.",
-      "gaps": [
-        { "id": 1, "options": ["antakelser", "tilfeldigheter", "fordommer"] },
-        { "id": 2, "options": ["usikkerhet", "presisjon", "likegyldighet"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
-  },
-  {
-    "track": "UNIVERSITY",
-    "exam": "BERGENSTEST",
-    "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "CORE",
-    "title": "The welfare model",
-    "prompt": "Choose the word that fits each gap.",
-    "payload": {
-      "passage": "Den nordiske velferdsmodellen hviler på en høy grad av {{1}}, der borgerne gjennom skatten finansierer felles ytelser. Modellens tilhengere framhever at den demper {{2}} mellom samfunnsgrupper, mens kritikere frykter at det høye skattenivået svekker motivasjonen til å arbeide.",
-      "gaps": [
-        { "id": 1, "options": ["omfordeling", "privatisering", "isolasjon"] },
-        { "id": 2, "options": ["likheten", "ulikheten", "enigheten"] }
-      ]
-    },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }] },
-    "maxPoints": 2
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
   }
 ]
