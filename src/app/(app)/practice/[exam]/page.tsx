@@ -4,16 +4,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
-import { examBySlug, SKILL_LABELS } from "@/lib/sv/registry";
+import { examBySlug, SKILL_LABELS, TRACKS } from "@/lib/sv/registry";
 import { isFreeSkill } from "@/lib/sv/types";
 import type { SwedishSkill, SwedishTrack } from "@/lib/sv/types";
 
-const TRACK_LABEL: Record<SwedishTrack, string> = {
-  CITIZENSHIP: "Citizenship — Norskprøven B1–B2 + Statsborgerprøven",
-  PERMANENT_RESIDENCE: "Permanent residence — Norskprøven A2–B1 + Samfunnskunnskapsprøven",
-  GETTING_STARTED: "Getting started — Norskprøven A1–A2",
-  UNIVERSITY: "University admission — Bergenstesten",
-};
+// Derived from TRACKS so the tree and these labels can never drift apart.
+const TRACK_LABEL: Record<SwedishTrack, string> = Object.fromEntries(
+  TRACKS.map((t) => [t.track, `${t.label} — ${t.requires}`]),
+) as Record<SwedishTrack, string>;
 
 export default async function ExamPage({
   params,
@@ -67,7 +65,7 @@ export default async function ExamPage({
                     </span>
                   )}
                 </div>
-                <p className="mt-1 text-sm text-almi-text-muted">{label.da}</p>
+                <p className="mt-1 text-sm text-almi-text-muted">{label.sv}</p>
                 <p className="mt-3 text-sm font-semibold text-almi-coral">Practise →</p>
               </Link>
             );

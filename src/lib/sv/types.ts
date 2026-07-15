@@ -3,29 +3,34 @@
 // scoring engine, content pipeline, and UI don't depend on the generated client.
 
 // The "Choose a Test" tree is organised by the user's GOAL, not by the exam name.
-// Citizenship and permanent residence each pair a Norskprøven level with a
-// knowledge test (as the Norwegian rules actually require).
+// NOTE there is no PERMANENT_RESIDENCE track: Sweden does not currently impose a
+// language or knowledge test for permanent residence, and we do not invent one.
 export type SwedishTrack =
-  | "CITIZENSHIP" // → Norskprøven (oral B1) + Statsborgerprøven
-  | "PERMANENT_RESIDENCE" // → Norskprøven (lower) + Samfunnskunnskapsprøven
-  | "GETTING_STARTED" // → Norskprøven A1–A2
-  | "UNIVERSITY"; // → Test i norsk – høyere nivå (Bergenstesten)
+  | "CITIZENSHIP" // → Medborgarskapsprovet (society component only — see registry)
+  | "UNIVERSITY" // → Tisus (≈C1)
+  | "GETTING_STARTED" // → SFI Courses A–B
+  | "PROFICIENCY"; // → SFI Courses C–D → Swedish B1–B2
 
-// Norskprøven is a single language test (four skills) reported per skill at the
-// level demonstrated; we model three level bands as separate exams so the
-// "Choose a Test" tree and content can target a goal. Delivered under HK-dir.
+// The Swedish language ladder. SFI is municipal adult education (courses A–D over
+// three study paths) rather than a single national exam; we model the A–B and C–D
+// bands as separate exams so the tree and content can target a goal. Tisus is a
+// real single exam, run by Stockholms universitet.
+//
+// There is deliberately NO exam here for the citizenship LANGUAGE component: UHR
+// indicates autumn 2028 at the earliest and has set no level. Adding one would mean
+// inventing a spec. Don't.
 export type LanguageExam =
-  | "NORSKPROVE_A1A2"
-  | "NORSKPROVE_A2B1"
-  | "NORSKPROVE_B1B2"
-  | "BERGENSTEST";
-// Knowledge tests (Norwegian society / civic knowledge) — multiple-choice only,
-// a single KNOWLEDGE module rather than four language skills.
-export type KnowledgeExam = "STATSBORGERPROVEN" | "SAMFUNNSKUNNSKAP";
+  | "SFI_AB"
+  | "SFI_CD"
+  | "SVENSKA_B1B2"
+  | "TISUS";
+// Knowledge test (Swedish society) — multiple-choice only, a single KNOWLEDGE
+// module rather than four language skills. Exactly one: Sweden has one society test.
+export type KnowledgeExam = "MEDBORGARSKAPSPROV";
 export type SwedishExam = LanguageExam | KnowledgeExam;
 
-// The four language skills are shared by all Norskprøven bands; KNOWLEDGE is the
-// single objective module used by the two knowledge tests.
+// The four language skills are shared by all language exams; KNOWLEDGE is the
+// single objective module used by the society test.
 export type LanguageSkill = "READING" | "LISTENING" | "WRITING" | "SPEAKING";
 export type SwedishSkill = LanguageSkill | "KNOWLEDGE";
 

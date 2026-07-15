@@ -1,8 +1,25 @@
 // AlmiSwedish — the "Choose a Test" tree + exam metadata.
 // Four goal-based tracks → exams → skills. Drives navigation, content filtering,
 // and the honest readiness thresholds used by the scoring engine. All "pass"
-// figures are framed as READINESS estimates, never the official UDI / Ministry
-// result.
+// figures are framed as READINESS estimates, never an official UHR result.
+//
+// FACT BASE (verified 2026-07; re-check before editing any claim here):
+//   • Law in force 6 June 2026: habitual residence 5 → 8 years, a self-sufficiency
+//     requirement, and Medborgarskapsprovet mandatory for ages 16–66. No
+//     transitional arrangements — Migrationsverket assesses undecided cases under
+//     the new rules.
+//   • UHR develops/administers/marks the test. Migrationsverket assesses
+//     applications and instructs applicants to register.
+//   • SOCIETY component only. First sitting 15 Aug 2026 at Stockholmsmässan is an
+//     *utprövningsprov* (pilot), free of charge. Provisional format per UHR: ~60
+//     four-option MCQ, 90 minutes, Swedish, on paper, from UHR's "Sverige i fokus".
+//     PASS MARK NOT PUBLISHED.
+//   • LANGUAGE component: UHR indicates autumn 2028 at the earliest; no CEFR level
+//     set. We ship NO practice for it. Do not add one until UHR publishes a spec.
+//   • Tisus: Stockholms universitet, ≈C1, for Swedish-taught university admission.
+//   • SFI: courses A–D over 3 study paths. Skolverket maps A/B ≈ A1–A2, C/D ≈
+//     B1/B1+. The SFI scale is NOT CEFR — always say "approximately".
+//   • Swedex is excluded: it cannot be taken after 31 Dec 2026.
 
 import type {
   SwedishTrack,
@@ -17,94 +34,95 @@ export interface ExamMeta {
   exam: SwedishExam;
   track: SwedishTrack;
   slug: string; // URL slug
-  name: string; // display name (official Norwegian exam name)
-  cefr: string; // CEFR level label, or "Knowledge test" for the MCQ tests
+  name: string; // display name (official Swedish exam name)
+  cefr: string; // CEFR level label, or "Knowledge test" for the MCQ test
   blurb: string; // one-line description
   skills: SwedishSkill[];
   knowledge?: boolean; // true = society/citizenship MCQ test (single KNOWLEDGE module)
-  lead?: boolean; // citizenship-relevant (Norskprøven B1–B2) — the lead hook
+  lead?: boolean; // the citizenship hook — Medborgarskapsprovet
   mockMinutes: number; // full timed mock duration guidance
+  isNew?: boolean; // test is new/provisional — UI must show the hedge
 }
 
-// The exams are administered under the HK-dir (the Directorate for Higher Education and Skills);
-// residency and citizenship applications are handled by UDI. We never present a
-// practice score as an official result from either.
+// Medborgarskapsprovet is developed, administered and marked by UHR; citizenship
+// applications are assessed by Migrationsverket. We never present a practice score
+// as an official result from either. UHR explicitly disclaims responsibility for
+// unofficial practice tests online — so our not-official framing must stay loud.
 export const AUTHORITY = {
-  ministry: "HK-dir (the Directorate for Higher Education and Skills)",
-  agency: "UDI (Utlendingsdirektoratet)",
+  ministry: "UHR (Universitets- och högskolerådet, the Swedish Council for Higher Education)",
+  agency: "Migrationsverket (the Swedish Migration Agency)",
 } as const;
 
-// Citizenship / residency framing — hedged on purpose. The rules shift, so we
-// point people to UDI rather than stating fixed residency years or implying a
-// shortcut.
+// Citizenship framing — hedged on purpose, because the test is genuinely new and
+// still moving. Everything asserted below is published by UHR or Migrationsverket.
 export const CITIZENSHIP_HEDGE =
-  "Norwegian citizenship commonly requires Norskprøven B1–B2 and the Statsborgerprøven, alongside residency and other conditions. The rules change over time — confirm the current requirements with UDI before you plan.";
-export const RESIDENCE_HEDGE =
-  "Permanent residence commonly requires Norskprøven A2–B1 and the Samfunnskunnskapsprøven, alongside residency, employment and other conditions. Confirm the current rules with UDI.";
+  "Under rules in force since 6 June 2026, Swedish citizenship requires habitual residence of eight years (the main rule), self-sufficiency, and — for applicants aged 16–66 — Medborgarskapsprovet. Only the society component exists so far: UHR's first sitting, on 15 August 2026, is a pilot. A Swedish language test is planned, but UHR indicates it will not be ready before autumn 2028 and no level has been set. The rules are new and still changing — confirm the current requirements with UHR and Migrationsverket before you plan.";
 
-// Per-skill readiness thresholds (honest). The exams are pass/fail against
-// official criteria; we show a per-skill readiness band as an estimate, clearly
-// labelled — never an official UDI / Ministry result.
+// The single sentence that governs every claim about the society test's shape.
+export const SOCIETY_FORMAT_HEDGE =
+  "UHR describes the test provisionally as around 60 multiple-choice questions with four options, in about 90 minutes, in Swedish and on paper, drawn from its own study material Sverige i fokus. UHR has not published a pass mark, and the format may change before the test is established — confirm the current details with UHR.";
+
+// The language component. Stated plainly rather than implied, so nobody buys a
+// subscription expecting practice for a test that does not exist yet.
+export const LANGUAGE_TEST_HEDGE =
+  "The Swedish language component of the citizenship test does not exist yet. UHR indicates it cannot be ready before autumn 2028 at the earliest, and no CEFR level has been set for it. We do not offer practice for it, because there is nothing published to practise against. The general Swedish ladder below builds the language you will need either way — but it is not the citizenship language test, and we will not pretend otherwise.";
+
+// Per-skill readiness thresholds (honest). We show a per-skill readiness band as
+// an estimate, clearly labelled — never an official UHR result.
 export const READY_PCT = 70; // CLEAR — comfortably meeting the level's demands
 export const BORDERLINE_PCT = 55; // BORDERLINE — close, needs consolidation
 
 export const LANGUAGE_SKILLS: LanguageSkill[] = ["READING", "LISTENING", "WRITING", "SPEAKING"];
 
-export const SKILL_LABELS: Record<SwedishSkill, { da: string; en: string }> = {
-  READING: { da: "Leseforståelse", en: "Reading" },
-  LISTENING: { da: "Lytteforståelse", en: "Listening" },
-  WRITING: { da: "Skriftlig framstilling", en: "Writing" },
-  SPEAKING: { da: "Muntlig", en: "Speaking" },
-  KNOWLEDGE: { da: "Samfunnskunnskap", en: "Knowledge" },
+export const SKILL_LABELS: Record<SwedishSkill, { sv: string; en: string }> = {
+  READING: { sv: "Läsförståelse", en: "Reading" },
+  LISTENING: { sv: "Hörförståelse", en: "Listening" },
+  WRITING: { sv: "Skriftlig framställning", en: "Writing" },
+  SPEAKING: { sv: "Muntlig framställning", en: "Speaking" },
+  KNOWLEDGE: { sv: "Samhällskunskap", en: "Knowledge" },
 };
 
-// Track A — Norskprøven ladder. Norskprøven B1–B2 (citizenship, B1–B2) is the
-// lead hook: it is the language exam commonly required for Norwegian citizenship.
-// The Statsborgerprøven (Norwegian society knowledge) is required in addition to it.
+// Track A — the Swedish language ladder. SFI A–B → SFI C–D → general B1–B2 → Tisus.
+// Note what is NOT here: an exam for the citizenship language component. It has no
+// published spec (see LANGUAGE_TEST_HEDGE).
 export const LANGUAGE_EXAMS: ExamMeta[] = [
   {
-    exam: "NORSKPROVE_A1A2", track: "GETTING_STARTED", slug: "norskprove-a1a2", name: "Norskprøven A1–A2", cefr: "A1–A2",
-    blurb: "The first step on the Norskprøven ladder — everyday Norwegian for work and family life.",
+    exam: "SFI_AB", track: "GETTING_STARTED", slug: "sfi-ab", name: "SFI Courses A–B", cefr: "≈A1–A2",
+    blurb: "The first steps in Svenska för invandrare — everyday Swedish for work, family and daily life.",
     skills: ["READING", "LISTENING", "WRITING", "SPEAKING"], mockMinutes: 150,
   },
   {
-    exam: "NORSKPROVE_A2B1", track: "PERMANENT_RESIDENCE", slug: "norskprove-a2b1", name: "Norskprøven A2–B1", cefr: "A2–B1",
-    blurb: "The A2–B1 Norwegian exam commonly required for permanent residence — Reading, Listening, Written Presentation and Speaking.",
+    exam: "SFI_CD", track: "PROFICIENCY", slug: "sfi-cd", name: "SFI Courses C–D", cefr: "≈A2–B1+",
+    blurb: "The SFI exit courses — Skolverket places Course D at roughly B1/B1+, the level most people aim to finish on.",
     skills: ["READING", "LISTENING", "WRITING", "SPEAKING"], mockMinutes: 180,
   },
   {
-    exam: "NORSKPROVE_B1B2", track: "CITIZENSHIP", slug: "norskprove-b1b2", name: "Norskprøven B1–B2", cefr: "B1–B2",
-    blurb: "The B1–B2 Norwegian exam commonly required for Norwegian citizenship — Reading, Written Presentation and Speaking.",
-    skills: ["READING", "LISTENING", "WRITING", "SPEAKING"], lead: true, mockMinutes: 240,
+    exam: "SVENSKA_B1B2", track: "PROFICIENCY", slug: "svenska-b1b2", name: "Swedish B1–B2", cefr: "B1–B2",
+    blurb: "General Swedish beyond SFI — the level that makes work, study and daily life in Sweden genuinely comfortable.",
+    skills: ["READING", "LISTENING", "WRITING", "SPEAKING"], mockMinutes: 240,
   },
   {
-    exam: "BERGENSTEST", track: "UNIVERSITY", slug: "bergenstesten", name: "Bergenstesten", cefr: "Higher level",
-    blurb: "The higher-level Norwegian test for admission to Norwegian-taught university programmes.",
+    exam: "TISUS", track: "UNIVERSITY", slug: "tisus", name: "Tisus", cefr: "≈C1",
+    blurb: "Test i svenska för universitets- och högskolestudier — the established route into Swedish-taught degree programmes, run by Stockholms universitet.",
     skills: ["READING", "LISTENING", "WRITING", "SPEAKING"], mockMinutes: 300,
   },
 ];
 
-// Track B — Norwegian society / active-citizenship knowledge tests. Multiple-choice,
-// not language proficiency. Statsborgerprøven is required for citizenship in
-// addition to Norskprøven B1–B2; Samfunnskunnskapsprøven is the permanent-residence /
-// active-citizenship knowledge test.
+// Track B — the one Swedish society knowledge test. Multiple-choice, not language
+// proficiency. New in 2026 and still provisional: every surface that renders this
+// exam must also render SOCIETY_FORMAT_HEDGE.
 export const KNOWLEDGE_EXAMS: ExamMeta[] = [
   {
-    exam: "STATSBORGERPROVEN", track: "CITIZENSHIP", slug: "statsborgerproven", name: "Statsborgerprøven", cefr: "Knowledge test",
-    blurb: "The Norwegian citizenship knowledge test — society, history and culture, in multiple-choice form. Required for citizenship in addition to Norskprøven B1–B2.",
-    skills: ["KNOWLEDGE"], knowledge: true, mockMinutes: 30,
-  },
-  {
-    exam: "SAMFUNNSKUNNSKAP", track: "PERMANENT_RESIDENCE", slug: "samfunnskunnskapsproven", name: "Samfunnskunnskapsprøven", cefr: "Knowledge test",
-    blurb: "The active-citizenship knowledge test used on the permanent-residence path — everyday Norwegian society, in multiple-choice form.",
-    skills: ["KNOWLEDGE"], knowledge: true, mockMinutes: 30,
+    exam: "MEDBORGARSKAPSPROV", track: "CITIZENSHIP", slug: "medborgarskapsprov", name: "Medborgarskapsprovet", cefr: "Knowledge test",
+    blurb: "Sweden's new citizenship test — knowledge of Swedish society, in multiple-choice form, developed and marked by UHR. Mandatory for applicants aged 16–66. The first sitting, on 15 August 2026, is a pilot.",
+    skills: ["KNOWLEDGE"], knowledge: true, lead: true, isNew: true, mockMinutes: 90,
   },
 ];
 
 export const ALL_EXAMS: ExamMeta[] = [...LANGUAGE_EXAMS, ...KNOWLEDGE_EXAMS];
 
 // The goal-based "Choose a Test" tree. Each track is a reason someone studies
-// Norwegian; the exams under it are what that goal commonly requires.
+// Swedish; the exams under it are what that goal commonly requires.
 export interface TrackMeta {
   track: SwedishTrack;
   label: string; // short UI label
@@ -112,28 +130,31 @@ export interface TrackMeta {
   requires: string; // the exams commonly required, in plain words
   examSlugs: string[]; // ordered exam slugs for this track
   lead?: boolean;
+  caveat?: string; // shown wherever the track is surfaced
 }
 
 export const TRACKS: TrackMeta[] = [
   {
-    track: "CITIZENSHIP", label: "Norwegian citizenship", goal: "Working toward Norwegian citizenship",
-    requires: "Norskprøven B1–B2 (B1–B2) + Statsborgerprøven",
-    examSlugs: ["norskprove-b1b2", "statsborgerproven"], lead: true,
+    track: "CITIZENSHIP", label: "Swedish citizenship", goal: "Working toward Swedish citizenship",
+    requires: "Medborgarskapsprovet — the society component",
+    examSlugs: ["medborgarskapsprov"], lead: true,
+    caveat:
+      "The society component is the only part that exists; a language test is expected no earlier than autumn 2028. Citizenship also requires eight years' habitual residence (the main rule) and self-sufficiency — confirm with Migrationsverket.",
   },
   {
-    track: "PERMANENT_RESIDENCE", label: "Permanent residence", goal: "Working toward permanent residence",
-    requires: "Norskprøven A2–B1 (A2–B1) + Samfunnskunnskapsprøven",
-    examSlugs: ["norskprove-a2b1", "samfunnskunnskapsproven"],
+    track: "UNIVERSITY", label: "University admission", goal: "Applying to a Swedish-taught degree",
+    requires: "Tisus (≈C1)",
+    examSlugs: ["tisus"],
   },
   {
-    track: "GETTING_STARTED", label: "Getting started", goal: "Starting out in Norwegian",
-    requires: "Norskprøven A1–A2 (A1–A2)",
-    examSlugs: ["norskprove-a1a2"],
+    track: "GETTING_STARTED", label: "Getting started", goal: "Starting out in Swedish",
+    requires: "SFI Courses A–B (≈A1–A2)",
+    examSlugs: ["sfi-ab"],
   },
   {
-    track: "UNIVERSITY", label: "University admission", goal: "Applying to a Norwegian-taught degree",
-    requires: "Bergenstesten (≈C1)",
-    examSlugs: ["bergenstesten"],
+    track: "PROFICIENCY", label: "Building proficiency", goal: "Getting to a working level of Swedish",
+    requires: "SFI Courses C–D (≈A2–B1+) → Swedish B1–B2",
+    examSlugs: ["sfi-cd", "svenska-b1b2"],
   },
 ];
 
@@ -149,8 +170,8 @@ export function trackMeta(track: SwedishTrack): TrackMeta | undefined {
   return TRACKS.find((t) => t.track === track);
 }
 
-const LANGUAGE_EXAM_IDS: LanguageExam[] = ["NORSKPROVE_A1A2", "NORSKPROVE_A2B1", "NORSKPROVE_B1B2", "BERGENSTEST"];
-const KNOWLEDGE_EXAM_IDS: KnowledgeExam[] = ["STATSBORGERPROVEN", "SAMFUNNSKUNNSKAP"];
+const LANGUAGE_EXAM_IDS: LanguageExam[] = ["SFI_AB", "SFI_CD", "SVENSKA_B1B2", "TISUS"];
+const KNOWLEDGE_EXAM_IDS: KnowledgeExam[] = ["MEDBORGARSKAPSPROV"];
 
 export function isLanguageExam(exam: SwedishExam): exam is LanguageExam {
   return (LANGUAGE_EXAM_IDS as string[]).includes(exam);
@@ -160,7 +181,7 @@ export function isKnowledgeExam(exam: SwedishExam): exam is KnowledgeExam {
   return (KNOWLEDGE_EXAM_IDS as string[]).includes(exam);
 }
 
-/** The lead exam (Norskprøven B1–B2) — the citizenship hook. */
+/** The lead exam (Medborgarskapsprovet) — the citizenship hook. */
 export function leadExam(): ExamMeta {
-  return LANGUAGE_EXAMS.find((e) => e.lead) ?? LANGUAGE_EXAMS[2];
+  return ALL_EXAMS.find((e) => e.lead) ?? KNOWLEDGE_EXAMS[0];
 }

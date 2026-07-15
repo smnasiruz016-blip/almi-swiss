@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import type { SwedishExam } from "@prisma/client";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { ALL_EXAMS } from "@/lib/sv/registry";
+import { ALL_EXAMS, TRACKS } from "@/lib/sv/registry";
 import {
   getUserPlan,
   PLAN_DISPLAY_NAME,
@@ -152,34 +152,15 @@ export default async function AccountPage({
             className="min-h-[40px] rounded-md border border-almi-bg-peach bg-almi-bg px-3 py-2 text-sm text-almi-ink"
           >
             <option value="">Not set</option>
-            <optgroup label="Citizenship — Norskprøven B1–B2 + Statsborgerprøven">
-              {ALL_EXAMS.filter((e) => e.track === "CITIZENSHIP").map((e) => (
-                <option key={e.exam} value={e.exam}>
-                  {e.name} · {e.cefr}
-                </option>
-              ))}
-            </optgroup>
-            <optgroup label="Permanent residence — Norskprøven A2–B1 + Samfunnskunnskapsprøven">
-              {ALL_EXAMS.filter((e) => e.track === "PERMANENT_RESIDENCE").map((e) => (
-                <option key={e.exam} value={e.exam}>
-                  {e.name} · {e.cefr}
-                </option>
-              ))}
-            </optgroup>
-            <optgroup label="Getting started — Norskprøven A1–A2">
-              {ALL_EXAMS.filter((e) => e.track === "GETTING_STARTED").map((e) => (
-                <option key={e.exam} value={e.exam}>
-                  {e.name} · {e.cefr}
-                </option>
-              ))}
-            </optgroup>
-            <optgroup label="University admission — Bergenstesten">
-              {ALL_EXAMS.filter((e) => e.track === "UNIVERSITY").map((e) => (
-                <option key={e.exam} value={e.exam}>
-                  {e.name} · {e.cefr}
-                </option>
-              ))}
-            </optgroup>
+            {TRACKS.map((t) => (
+              <optgroup key={t.track} label={`${t.label} — ${t.requires}`}>
+                {ALL_EXAMS.filter((e) => e.track === t.track).map((e) => (
+                  <option key={e.exam} value={e.exam}>
+                    {e.name} · {e.cefr}
+                  </option>
+                ))}
+              </optgroup>
+            ))}
           </select>
           <button
             type="submit"

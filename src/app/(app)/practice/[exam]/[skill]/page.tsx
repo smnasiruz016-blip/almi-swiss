@@ -52,7 +52,7 @@ export default async function SkillRunnerPage({
           </Link>
         </p>
         <h1 className="mt-1 text-3xl font-semibold text-almi-ink">{label.en}</h1>
-        <p className="mt-1 text-sm text-almi-text-muted">{label.da}</p>
+        <p className="mt-1 text-sm text-almi-text-muted">{label.sv}</p>
       </header>
 
       {items.length === 0 ? (
