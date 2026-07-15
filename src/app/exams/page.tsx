@@ -4,12 +4,12 @@ import {
   LANGUAGE_EXAMS,
   KNOWLEDGE_EXAMS,
   type ExamMeta,
-} from "@/lib/no/registry";
+} from "@/lib/sv/registry";
 
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Norwegian exams — Norskprøven A1–A2–3, Bergenstesten & knowledge tests | AlmiNorwegian",
+      "Norwegian exams — Norskprøven A1–A2–3, Bergenstesten & knowledge tests | AlmiSwedish",
   },
   description:
     "The Norwegian exams for citizenship, permanent residence, getting started and university — Norskprøven A1–A2, A2–B1 and B1–B2, Bergenstesten, plus the Statsborgerprøven and Samfunnskunnskapsprøven knowledge tests. Honest per-skill readiness practice.",

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { TRACKS, examsByTrack } from "@/lib/no/registry";
+import { TRACKS, examsByTrack } from "@/lib/sv/registry";
 import { TestimonialsSection } from "@/components/reviews/TestimonialsSection";
 
 // Re-render hourly so newly approved testimonials appear without a redeploy.
@@ -8,12 +8,12 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: {
-    absolute: "AlmiNorwegian | Practise Norwegian Exams with Honest Readiness",
+    absolute: "AlmiSwedish | Practise Norwegian Exams with Honest Readiness",
   },
   description:
     "Stop guessing your Norwegian level for UDI or ministry requirements. Practise real Norskprøven A1–A2, A2–B1, B1–B2, Bergenstesten and the citizenship tests with honest AI readiness bands.",
   openGraph: {
-    title: "AlmiNorwegian — honest Norwegian exam practice",
+    title: "AlmiSwedish — honest Norwegian exam practice",
     description:
       "Original practice for the Norskprøven ladder, Bergenstesten and the Norwegian society knowledge tests — a readiness estimate shown honestly, not an inflated score.",
   },
@@ -52,7 +52,7 @@ const PRICING_LINES = [
 
 const FAQ = [
   {
-    q: "Which Norwegian exams does AlmiNorwegian cover?",
+    q: "Which Norwegian exams does AlmiSwedish cover?",
     a: "The Norskprøven ladder — Norskprøven A1–A2, A2–B1 (permanent residence) and B1–B2 (citizenship) — plus Bergenstesten (≈C1, university admission), all across Reading, Listening, Writing and Speaking. And the two Norwegian society knowledge tests: the Statsborgerprøven (citizenship) and the Samfunnskunnskapsprøven (permanent residence). The exams sit under the HK-dir (the Directorate for Higher Education and Skills). You pick your exam in your account, and your practice and full mock run for it.",
   },
   {
@@ -60,7 +60,7 @@ const FAQ = [
     a: "Norwegian citizenship commonly requires Norskprøven B1–B2 (B1–B2) and the Statsborgerprøven, alongside residency and other conditions. The rules change over time — so we don't state a fixed number of years or a fixed step. Always confirm the current requirement with UDI (Utlendingsdirektoratet) before you rely on it. We help you prepare fairly; we never claim to help anyone shortcut the process.",
   },
   {
-    q: "Is my AlmiNorwegian estimate my real exam result?",
+    q: "Is my AlmiSwedish estimate my real exam result?",
     a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results.",
   },
   {
@@ -72,7 +72,7 @@ const FAQ = [
     a: "No. Every text, audio transcript, writing task, speaking prompt and knowledge question is original, written from scratch to mirror the real task types. We never copy or reproduce the official question banks or Ministry material.",
   },
   {
-    q: "How much does AlmiNorwegian cost?",
+    q: "How much does AlmiSwedish cost?",
     a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and knowledge-test practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
   },
 ] as const;
@@ -145,7 +145,7 @@ export default function Home() {
         <div aria-hidden className="pointer-events-none absolute -bottom-16 -left-16 z-0 h-80 w-80 rounded-full bg-almi-coral/10 blur-3xl" />
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiNorwegian · Norwegian exam practice</p>
+            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwedish · Norwegian exam practice</p>
             <h1 className="mt-4 text-balance text-4xl font-semibold leading-[1.08] text-almi-ink sm:text-5xl">
               Practise Norwegian with <span className="text-almi-coral">honest readiness.</span>
             </h1>
@@ -180,7 +180,7 @@ export default function Home() {
           <p className="mt-5 text-base text-almi-text">
             The real exams are set and marked by their official bodies — the Norskprøven exams and
             the knowledge tests sit under the HK-dir (the Directorate for Higher Education and Skills) — so anyone
-            promising you a precise official result from practice is guessing. AlmiNorwegian does the
+            promising you a precise official result from practice is guessing. AlmiSwedish does the
             honest thing instead: we estimate your readiness from your practice and show it plainly —
             a per-skill band (Clear or Borderline) against each exam's real criteria.
           </p>
@@ -282,7 +282,7 @@ export default function Home() {
             ))}
           </ul>
           <p className="mx-auto mt-6 max-w-xl text-sm text-almi-text-muted">
-            25% of AlmiNorwegian proceeds fund the Shamool Foundation&apos;s social mission — free primary-school education and daily hot meals for underprivileged children in Lahore, Pakistan.
+            25% of AlmiSwedish proceeds fund the Shamool Foundation&apos;s social mission — free primary-school education and daily hot meals for underprivileged children in Lahore, Pakistan.
           </p>
           <div className="mt-8">
             <Link href="/signup" className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep">

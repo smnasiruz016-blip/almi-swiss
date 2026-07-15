@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ROLES } from "@/lib/seo/axes";
 
 export const metadata: Metadata = {
-  title: { absolute: "Work in Norway — the Norwegian you'll need, by role | AlmiNorwegian" },
+  title: { absolute: "Work in Norway — the Norwegian you'll need, by role | AlmiSwedish" },
   description:
     "Working in Norway: how much Norwegian each role needs, which CEFR level, and honest readiness practice. Confirm specifics with employers and regulators.",
   alternates: { canonical: "/work-in-norway" },

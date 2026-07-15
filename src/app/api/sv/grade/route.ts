@@ -14,8 +14,8 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
-import { examBySlug } from "@/lib/no/registry";
-import type { NorwegianSkill, NorwegianTaskType } from "@/lib/no/types";
+import { examBySlug } from "@/lib/sv/registry";
+import type { SwedishSkill, SwedishTaskType } from "@/lib/sv/types";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -23,8 +23,8 @@ export const maxDuration = 60;
 interface GradeBody {
   itemId?: string;
   exam?: string;
-  skill?: NorwegianSkill;
-  taskType?: NorwegianTaskType;
+  skill?: SwedishSkill;
+  taskType?: SwedishTaskType;
   title?: string;
   prompt?: string;
   criteria?: string[];
@@ -180,7 +180,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   // itemId simply skips the write (never 500s on an empty database).
   if (body.itemId) {
     try {
-      await prisma.norwegianAttempt.create({
+      await prisma.swedishAttempt.create({
         data: {
           userId: user.id,
           itemId: body.itemId,

@@ -1,11 +1,11 @@
-// AlmiNorwegian — shared type contracts for the four-track item bank.
+// AlmiSwedish — shared type contracts for the four-track item bank.
 // String-literal unions mirror the Prisma enums (kept in sync by hand) so the
 // scoring engine, content pipeline, and UI don't depend on the generated client.
 
 // The "Choose a Test" tree is organised by the user's GOAL, not by the exam name.
 // Citizenship and permanent residence each pair a Norskprøven level with a
 // knowledge test (as the Norwegian rules actually require).
-export type NorwegianTrack =
+export type SwedishTrack =
   | "CITIZENSHIP" // → Norskprøven (oral B1) + Statsborgerprøven
   | "PERMANENT_RESIDENCE" // → Norskprøven (lower) + Samfunnskunnskapsprøven
   | "GETTING_STARTED" // → Norskprøven A1–A2
@@ -22,14 +22,14 @@ export type LanguageExam =
 // Knowledge tests (Norwegian society / civic knowledge) — multiple-choice only,
 // a single KNOWLEDGE module rather than four language skills.
 export type KnowledgeExam = "STATSBORGERPROVEN" | "SAMFUNNSKUNNSKAP";
-export type NorwegianExam = LanguageExam | KnowledgeExam;
+export type SwedishExam = LanguageExam | KnowledgeExam;
 
 // The four language skills are shared by all Norskprøven bands; KNOWLEDGE is the
 // single objective module used by the two knowledge tests.
 export type LanguageSkill = "READING" | "LISTENING" | "WRITING" | "SPEAKING";
-export type NorwegianSkill = LanguageSkill | "KNOWLEDGE";
+export type SwedishSkill = LanguageSkill | "KNOWLEDGE";
 
-export type NorwegianTaskType =
+export type SwedishTaskType =
   | "MCQ_SINGLE"
   | "MATCHING"
   | "CLOZE"
@@ -38,9 +38,9 @@ export type NorwegianTaskType =
   | "WRITING_PROMPT"
   | "SPEAKING_PROMPT";
 
-export type NorwegianDifficulty = "FOUNDATION" | "CORE" | "STRETCH";
+export type SwedishDifficulty = "FOUNDATION" | "CORE" | "STRETCH";
 
-export const OBJECTIVE_TASK_TYPES: NorwegianTaskType[] = [
+export const OBJECTIVE_TASK_TYPES: SwedishTaskType[] = [
   "MCQ_SINGLE",
   "MATCHING",
   "CLOZE",
@@ -48,19 +48,19 @@ export const OBJECTIVE_TASK_TYPES: NorwegianTaskType[] = [
   "TRUE_FALSE",
 ];
 
-export const PRODUCTIVE_TASK_TYPES: NorwegianTaskType[] = [
+export const PRODUCTIVE_TASK_TYPES: SwedishTaskType[] = [
   "WRITING_PROMPT",
   "SPEAKING_PROMPT",
 ];
 
-export function isObjectiveTask(t: NorwegianTaskType): boolean {
+export function isObjectiveTask(t: SwedishTaskType): boolean {
   return OBJECTIVE_TASK_TYPES.includes(t);
 }
 
 /** A skill is "free to taste" (auto-graded) vs gated (AI-graded / mock).
  *  Free taste = Reading + Listening + Knowledge (all objective, auto-graded).
  *  Gated = Writing + Speaking (AI-graded) + the full mock. */
-export function isFreeSkill(skill: NorwegianSkill): boolean {
+export function isFreeSkill(skill: SwedishSkill): boolean {
   return skill === "READING" || skill === "LISTENING" || skill === "KNOWLEDGE";
 }
 

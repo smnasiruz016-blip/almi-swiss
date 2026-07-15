@@ -6,13 +6,13 @@ import Link from "next/link";
 // preparation, never as beating or getting around UDI. ISR.
 export const revalidate = 2592000;
 
-const SITE = "https://alminorwegian.almiworld.com";
+const SITE = "https://almiswedish.almiworld.com";
 const PATH = "/requirements/norway/norskprove-b1b2-citizenship";
 
 export const metadata: Metadata = {
   title: { absolute: "Norskprøven B1–B2 for Citizenship: Honest Readiness Check" },
   description:
-    "Stop risking residency or citizenship on inflated mock marks. Norskprøven B1–B2 passes on a combined average (speaking counts double) — test your real readiness with AlmiNorwegian.",
+    "Stop risking residency or citizenship on inflated mock marks. Norskprøven B1–B2 passes on a combined average (speaking counts double) — test your real readiness with AlmiSwedish.",
   alternates: { canonical: PATH },
   openGraph: {
     title: "Norskprøven B1–B2 for citizenship — an honest readiness check",
@@ -35,8 +35,8 @@ const FAQ = [
     a: "All four language skills at B1–B2: Reading (Læsning), Listening (Lytning), Writing (Skrivning) and Speaking (Tal). Preparing means getting comfortable with everyday Norwegian across each of them, rather than focusing on only one.",
   },
   {
-    q: "How does AlmiNorwegian help?",
-    a: "AlmiNorwegian is honest practice, not the official exam. You practise the four language skills (Reading, Listening, Writing, Speaking) at B1–B2 and get a per-skill readiness band (Clear or Borderline) against the real task criteria — an estimate to guide your prep, never an official UDI or Ministry result.",
+    q: "How does AlmiSwedish help?",
+    a: "AlmiSwedish is honest practice, not the official exam. You practise the four language skills (Reading, Listening, Writing, Speaking) at B1–B2 and get a per-skill readiness band (Clear or Borderline) against the real task criteria — an estimate to guide your prep, never an official UDI or Ministry result.",
   },
 ] as const;
 
@@ -120,7 +120,7 @@ export default function Page() {
           <h2 className="text-xl font-semibold text-almi-ink">How to prepare — honestly</h2>
           <p className="mt-3 text-base text-almi-text">
             Preparation has the same shape whichever your circumstances: get comfortable with the four language skills —
-            Reading (Læsning), Listening (Lytning), Writing (Skrivning) and Speaking (Tal) — at B1–B2. AlmiNorwegian lets you
+            Reading (Læsning), Listening (Lytning), Writing (Skrivning) and Speaking (Tal) — at B1–B2. AlmiSwedish lets you
             practise all of them and shows an honest per-skill readiness band (Clear or Borderline) against the real task
             criteria — an estimate to guide your prep, never an official UDI or HK-dir (the Directorate for Higher Education and Skills)
             result. We help you prepare fairly; we don&apos;t claim to shortcut the process.
@@ -141,7 +141,7 @@ export default function Page() {
         <section className="mt-10 rounded-2xl border border-almi-accent/40 bg-almi-accent/10 p-5">
           <p className="text-sm text-almi-ink">
             <strong>Always confirm your own requirement with UDI.</strong> Residency and citizenship rules
-            change, and only the official authorities can tell you which conditions apply to your situation. AlmiNorwegian
+            change, and only the official authorities can tell you which conditions apply to your situation. AlmiSwedish
             helps you prepare for the language test — it doesn&apos;t decide or replace the official process.
           </p>
         </section>

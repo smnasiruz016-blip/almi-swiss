@@ -4,9 +4,9 @@ import {
   jobsComboAtIndex, studyPath, jobsPath,
 } from "@/lib/seo/axes";
 import { TAUGHT_STUDY_TOTAL, taughtStudyComboAtIndex } from "@/lib/seo/taught-index";
-import { ALL_EXAMS } from "@/lib/no/registry";
+import { ALL_EXAMS } from "@/lib/sv/registry";
 
-const SITE = "https://alminorwegian.almiworld.com";
+const SITE = "https://almiswedish.almiworld.com";
 const PER = 50_000; // Google's max URLs per sitemap
 const LASTMOD = "2026-07-12";
 

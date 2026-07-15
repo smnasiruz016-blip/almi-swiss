@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const r = ROLE_BY_SLUG.get(role);
   if (!r) return { title: "Not found" };
   return {
-    title: { absolute: `Work in Norway as a ${r.name} — Norwegian you'll need | AlmiNorwegian` },
+    title: { absolute: `Work in Norway as a ${r.name} — Norwegian you'll need | AlmiSwedish` },
     description: `How much Norwegian a ${r.name} needs in Norway, which CEFR level, and honest readiness practice — by country of origin and city.`,
     alternates: { canonical: `/work-in-norway/${r.slug}` },
   };

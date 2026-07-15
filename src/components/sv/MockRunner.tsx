@@ -8,27 +8,27 @@
 
 import { useMemo, useState } from "react";
 import type {
-  NorwegianExam,
-  NorwegianSkill,
-} from "@/lib/no/types";
+  SwedishExam,
+  SwedishSkill,
+} from "@/lib/sv/types";
 import {
   aggregateReadout,
   skillReadout,
   readinessFromPct,
   type SkillReadout,
-} from "@/lib/no/grading";
-import { SKILL_LABELS } from "@/lib/no/registry";
+} from "@/lib/sv/grading";
+import { SKILL_LABELS } from "@/lib/sv/registry";
 import { ObjectiveTask } from "./ObjectiveTask";
 import { submitAttempt, type RunnerItem } from "./shared";
 
 export interface MockSection {
-  skill: NorwegianSkill;
+  skill: SwedishSkill;
   objective: boolean;
   items: RunnerItem[];
 }
 
 interface FlatStep {
-  skill: NorwegianSkill;
+  skill: SwedishSkill;
   objective: boolean;
   item: RunnerItem;
   index: number;
@@ -46,7 +46,7 @@ export function MockRunner({
   sections,
 }: {
   examName: string;
-  exam: NorwegianExam;
+  exam: SwedishExam;
   mockMinutes: number;
   sections: MockSection[];
 }) {
@@ -77,8 +77,8 @@ export function MockRunner({
 
   async function finish() {
     setGrading(true);
-    const perSkill: Partial<Record<NorwegianSkill, { points: number; max: number }>> = {};
-    const prodPct: Partial<Record<NorwegianSkill, number[]>> = {};
+    const perSkill: Partial<Record<SwedishSkill, { points: number; max: number }>> = {};
+    const prodPct: Partial<Record<SwedishSkill, number[]>> = {};
 
     for (const f of flat) {
       if (f.objective) {
@@ -240,7 +240,7 @@ function MockResult({
 }: {
   examName: string;
   readouts: SkillReadout[];
-  agg: { meanPct: number; overall: string; label: string; weakest: NorwegianSkill | null; allClear: boolean };
+  agg: { meanPct: number; overall: string; label: string; weakest: SwedishSkill | null; allClear: boolean };
 }) {
   return (
     <div className="space-y-5 rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">

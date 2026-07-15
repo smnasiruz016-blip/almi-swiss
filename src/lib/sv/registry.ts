@@ -1,26 +1,26 @@
-// AlmiNorwegian — the "Choose a Test" tree + exam metadata.
+// AlmiSwedish — the "Choose a Test" tree + exam metadata.
 // Four goal-based tracks → exams → skills. Drives navigation, content filtering,
 // and the honest readiness thresholds used by the scoring engine. All "pass"
 // figures are framed as READINESS estimates, never the official UDI / Ministry
 // result.
 
 import type {
-  NorwegianTrack,
-  NorwegianExam,
+  SwedishTrack,
+  SwedishExam,
   LanguageExam,
   KnowledgeExam,
-  NorwegianSkill,
+  SwedishSkill,
   LanguageSkill,
 } from "./types";
 
 export interface ExamMeta {
-  exam: NorwegianExam;
-  track: NorwegianTrack;
+  exam: SwedishExam;
+  track: SwedishTrack;
   slug: string; // URL slug
   name: string; // display name (official Norwegian exam name)
   cefr: string; // CEFR level label, or "Knowledge test" for the MCQ tests
   blurb: string; // one-line description
-  skills: NorwegianSkill[];
+  skills: SwedishSkill[];
   knowledge?: boolean; // true = society/citizenship MCQ test (single KNOWLEDGE module)
   lead?: boolean; // citizenship-relevant (Norskprøven B1–B2) — the lead hook
   mockMinutes: number; // full timed mock duration guidance
@@ -50,7 +50,7 @@ export const BORDERLINE_PCT = 55; // BORDERLINE — close, needs consolidation
 
 export const LANGUAGE_SKILLS: LanguageSkill[] = ["READING", "LISTENING", "WRITING", "SPEAKING"];
 
-export const SKILL_LABELS: Record<NorwegianSkill, { da: string; en: string }> = {
+export const SKILL_LABELS: Record<SwedishSkill, { da: string; en: string }> = {
   READING: { da: "Leseforståelse", en: "Reading" },
   LISTENING: { da: "Lytteforståelse", en: "Listening" },
   WRITING: { da: "Skriftlig framstilling", en: "Writing" },
@@ -106,7 +106,7 @@ export const ALL_EXAMS: ExamMeta[] = [...LANGUAGE_EXAMS, ...KNOWLEDGE_EXAMS];
 // The goal-based "Choose a Test" tree. Each track is a reason someone studies
 // Norwegian; the exams under it are what that goal commonly requires.
 export interface TrackMeta {
-  track: NorwegianTrack;
+  track: SwedishTrack;
   label: string; // short UI label
   goal: string; // what this path is for
   requires: string; // the exams commonly required, in plain words
@@ -141,22 +141,22 @@ export function examBySlug(slug: string): ExamMeta | undefined {
   return ALL_EXAMS.find((e) => e.slug === slug);
 }
 
-export function examsByTrack(track: NorwegianTrack): ExamMeta[] {
+export function examsByTrack(track: SwedishTrack): ExamMeta[] {
   return ALL_EXAMS.filter((e) => e.track === track);
 }
 
-export function trackMeta(track: NorwegianTrack): TrackMeta | undefined {
+export function trackMeta(track: SwedishTrack): TrackMeta | undefined {
   return TRACKS.find((t) => t.track === track);
 }
 
 const LANGUAGE_EXAM_IDS: LanguageExam[] = ["NORSKPROVE_A1A2", "NORSKPROVE_A2B1", "NORSKPROVE_B1B2", "BERGENSTEST"];
 const KNOWLEDGE_EXAM_IDS: KnowledgeExam[] = ["STATSBORGERPROVEN", "SAMFUNNSKUNNSKAP"];
 
-export function isLanguageExam(exam: NorwegianExam): exam is LanguageExam {
+export function isLanguageExam(exam: SwedishExam): exam is LanguageExam {
   return (LANGUAGE_EXAM_IDS as string[]).includes(exam);
 }
 
-export function isKnowledgeExam(exam: NorwegianExam): exam is KnowledgeExam {
+export function isKnowledgeExam(exam: SwedishExam): exam is KnowledgeExam {
   return (KNOWLEDGE_EXAM_IDS as string[]).includes(exam);
 }
 

@@ -1,18 +1,19 @@
-// AlmiGoethe data model. The shared engine foundation (auth, billing, AI cost
-// ledger) is forked from AlmiCELPIP. The practice layer is an ITEM-BANK: a single
-// GoetheItem ↔ GoetheAttempt pair carries every task type via a typed `payload`
-// Json, instead of one model per skill. Scoring is hybrid — deterministic for
-// objective modules (Lesen + Hören), AI trait-feedback for productive modules
-// (Schreiben + Sprechen) — and is reported as an honest practice POINTS estimate
-// per module (max points + 60% pass threshold), never a fabricated total.
+// AlmiSwedish data model. The shared engine foundation (auth, billing, AI cost
+// ledger) is common to the AlmiWorld language products. The practice layer is an
+// ITEM-BANK: a single SwedishItem ↔ SwedishAttempt pair carries every task type via
+// a typed `payload` Json, instead of one model per skill. Scoring is hybrid —
+// deterministic for objective modules (Läsförståelse + Hörförståelse + the society
+// MCQ), AI trait-feedback for productive modules (Skriftlig framställning + Muntlig)
+// — and is reported as an honest per-skill readiness band, never a fabricated
+// composite or an official result.
 //
-// The big structural fact vs CELPIP: CELPIP's GENERAL/LS version axis is replaced
-// by SIX CEFR LEVELS (A1–C2), and — unlike CELPIP where the version lived only on
-// the session — a Goethe item belongs to exactly ONE level (A1 Lesen content is
-// not B2 Lesen content), so `level` lives ON THE ITEM and is the primary filter.
-// All content is original German, never copied from the Goethe-Institut; results
-// are practice estimates — candidates confirm the real requirement with the
-// Goethe-Institut / their university / the relevant German authority.
+// Structural note: an item belongs to exactly ONE exam (SFI A–B reading content is
+// not Tisus reading content), so `exam` lives ON THE ITEM and is the primary filter,
+// alongside `track` for the goal funnel.
+//
+// All content is original Swedish, never copied from UHR, Stockholms universitet or
+// Skolverket material; results are practice estimates — candidates confirm the real
+// requirement with UHR / Migrationsverket / their university.
 
 generator client {
   provider = "prisma-client-js"
@@ -63,24 +64,24 @@ model User {
 
   // Comp Pro access — admin-granted, no Stripe. isProActive()/hasPaidAccess()
   // short-circuit true while compProUntil is in the future, bypassing BOTH the
-  // subscription check AND email verification. AlmiGoethe full Pro = AI feedback
-  // on Schreiben + Sprechen + the full per-level mock.
+  // subscription check AND email verification. AlmiSwedish full Pro = AI feedback
+  // on Skriftlig framställning + Muntlig + the full per-exam mock.
   compProUntil  DateTime?
   compGrantedAt DateTime?
   compGrantedBy String?
   compReason    String?
 
-  // Which Norwegian exam the user is preparing for (Norskprøven / Bergenstesten / knowledge tests).
+  // Which Swedish exam the user is preparing for (SFI ladder / Tisus / Medborgarskapsprovet).
   // Drives the default mock and which practice content is surfaced. Null = not chosen.
-  targetExam NorwegianExam?
+  targetExam SwedishExam?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   sessions            Session[]
   passwordResetTokens PasswordResetToken[]
-  daAttempts          NorwegianAttempt[]
-  daSessions          NorwegianSession[]
+  svAttempts          SwedishAttempt[]
+  svSessions          SwedishSession[]
   reviews             Review[]
 
   @@index([email])
@@ -164,49 +165,58 @@ model AICostLedger {
 }
 
 
-// ===================== Norwegian practice item-bank =====================
-// AlmiDanish covers FOUR goal tracks via ONE item-bank, all administered under
-// the HK-dir (the Directorate for Higher Education and Skills):
-//   • Norskprøven B1–B2 (the citizenship language exam) — B1–B2 across Reading,
-//     Listening, Writing, Speaking. It is the language exam commonly required
-//     for Norwegian citizenship, alongside the Statsborgerprøven. Scored per skill
-//     as an honest readiness estimate vs the level's real criteria — never an
-//     official UDI/Ministry result.
-//   • Norskprøven A1–A2 (A1–A2) and Norskprøven A2–B1 (A2–B1, permanent residence).
-//   • Bergenstesten — the advanced (≈C1) Norwegian exam for Norwegian-taught study.
-//   • Statsborgerprøven / Samfunnskunnskapsprøven — Norwegian society knowledge tests
-//     (multiple-choice), not language proficiency.
-// One NorwegianItem/NorwegianAttempt pair serves every task type via a typed
-// `payload` Json. All content is original; results are practice estimates —
-// confirm the real residency/citizenship requirement with UDI.
+// ===================== Swedish practice item-bank =====================
+// AlmiSwedish covers FOUR goal tracks via ONE item-bank:
+//   • Medborgarskapsprovet — Sweden's NEW citizenship test. Under the law in force
+//     6 June 2026, applicants aged 16–66 must show knowledge of Swedish society and
+//     Swedish. UHR (Universitets- och högskolerådet) develops, administers and marks
+//     it; Migrationsverket assesses applications and instructs applicants to register.
+//     Only the SOCIETY component exists: UHR's first sitting is 15 Aug 2026 and is an
+//     *utprövningsprov* (pilot), free of charge. UHR states the format provisionally
+//     as ~60 four-option multiple-choice questions in 90 minutes, in Swedish, on paper,
+//     drawn from its own study material "Sverige i fokus". THE PASS MARK IS NOT
+//     PUBLISHED — never state or imply one.
+//   • The SWEDISH LANGUAGE component of the citizenship test is NOT modelled here.
+//     UHR indicates it cannot be ready before autumn 2028 and no CEFR level has been
+//     set. We do not ship practice for a test with no published spec. Do not add a
+//     MEDBORGARSKAPSPROV language exam until UHR publishes one.
+//   • Tisus (Test i svenska för universitets- och högskolestudier) — the established
+//     ≈C1 proficiency test for Swedish-taught university admission, run by Stockholms
+//     universitet.
+//   • SFI (Svenska för invandrare) courses A–D and a general CEFR ladder. Skolverket
+//     maps SFI A/B ≈ A1–A2 and C/D ≈ A2–B1+; the SFI scale is NOT itself CEFR, so the
+//     mapping is stated as approximate.
+// Swedex is deliberately absent: it can no longer be taken after 31 Dec 2026.
+// One SwedishItem/SwedishAttempt pair serves every task type via a typed `payload`
+// Json. All content is original Swedish; results are per-skill readiness estimates —
+// never an official UHR result. Confirm current requirements with UHR/Migrationsverket.
 
-enum NorwegianTrack {
-  CITIZENSHIP // Norskprøven B1–B2 (B1–B2) + Statsborgerprøven
-  PERMANENT_RESIDENCE // Norskprøven A2–B1 (A2–B1) + Samfunnskunnskapsprøven
-  GETTING_STARTED // Norskprøven A1–A2 (A1–A2)
-  UNIVERSITY // Bergenstesten (≈C1)
+enum SwedishTrack {
+  CITIZENSHIP // Medborgarskapsprovet — society component (lead)
+  UNIVERSITY // Tisus (≈C1)
+  GETTING_STARTED // SFI courses A–B (≈A1–A2)
+  PROFICIENCY // SFI C–D + general Swedish CEFR ladder
 }
 
-// Exam axis. The Norskprøven language ladder (NORSKPROVE_A1A2–NORSKPROVE_B1B2 + Bergenstesten) plus the
-// two society knowledge tests (Statsborgerprøven / Samfunnskunnskapsprøven).
-enum NorwegianExam {
-  NORSKPROVE_A1A2 // Norskprøven A1–A2 — A1–A2
-  NORSKPROVE_A2B1 // Norskprøven A2–B1 — A2–B1 (permanent residence)
-  NORSKPROVE_B1B2 // Norskprøven B1–B2 — B1–B2 (citizenship, lead)
-  BERGENSTEST // Bergenstesten — ≈C1 (university)
-  STATSBORGERPROVEN // Norwegian citizenship knowledge test
-  SAMFUNNSKUNNSKAP // Active-citizenship / PR knowledge test
+// Exam axis. The Swedish language ladder (SFI A–B, SFI C–D, general B1–B2, Tisus)
+// plus the one society knowledge test (Medborgarskapsprovet).
+enum SwedishExam {
+  SFI_AB // SFI courses A–B — ≈A1–A2 (getting started)
+  SFI_CD // SFI courses C–D — ≈A2–B1+ (the common SFI exit)
+  SVENSKA_B1B2 // General Swedish — B1–B2 (CEFR ladder)
+  TISUS // Tisus — ≈C1 (university admission)
+  MEDBORGARSKAPSPROV // Citizenship society knowledge test (lead)
 }
 
-enum NorwegianSkill {
-  READING // Leseforståelse (objective)
-  LISTENING // Lytteforståelse (objective)
-  WRITING // Skriftlig framstilling (AI-graded)
+enum SwedishSkill {
+  READING // Läsförståelse (objective)
+  LISTENING // Hörförståelse (objective)
+  WRITING // Skriftlig framställning (AI-graded)
   SPEAKING // Muntlig (AI-graded)
-  KNOWLEDGE // Samfunnskunnskap — society knowledge MCQ (objective)
+  KNOWLEDGE // Samhällskunskap — society knowledge MCQ (objective)
 }
 
-enum NorwegianTaskType {
+enum SwedishTaskType {
   MCQ_SINGLE // objective single-answer multiple choice (Reading/Listening)
   MATCHING // objective matching
   CLOZE // objective gap-fill (option-per-gap)
@@ -216,42 +226,42 @@ enum NorwegianTaskType {
   SPEAKING_PROMPT // productive speaking (criteria)
 }
 
-enum NorwegianDifficulty {
+enum SwedishDifficulty {
   FOUNDATION
   CORE
   STRETCH
 }
 
-enum NorwegianAttemptStatus {
+enum SwedishAttemptStatus {
   PENDING
   SCORED // objective auto-graded
   EVALUATED // productive AI-graded
   FAILED
 }
 
-enum NorwegianSessionMode {
+enum SwedishSessionMode {
   PRACTICE
   MOCK
 }
 
-enum NorwegianSessionStatus {
+enum SwedishSessionStatus {
   IN_PROGRESS
   COMPLETED
   ABANDONED
 }
 
-model NorwegianItem {
+model SwedishItem {
   id         String          @id @default(cuid())
-  track      NorwegianTrack
-  exam       NorwegianExam
-  skill      NorwegianSkill
-  taskType   NorwegianTaskType
-  difficulty NorwegianDifficulty @default(CORE)
+  track      SwedishTrack
+  exam       SwedishExam
+  skill      SwedishSkill
+  taskType   SwedishTaskType
+  difficulty SwedishDifficulty @default(CORE)
   title      String
   // Instruction / stem shown to the candidate (NL).
   prompt     String
   // Task-specific structure: objective → { options, passage, transcript, answerKey };
-  // productive → { criteria[], charBand, stimulus }. Validated in src/lib/nl/types.
+  // productive → { criteria[], charBand, stimulus }. Validated in src/lib/sv/types.
   payload    Json
   // Objective answer key (null for productive/AI tasks).
   answer     Json?
@@ -260,18 +270,18 @@ model NorwegianItem {
   active     Boolean         @default(true)
   createdAt  DateTime        @default(now())
   updatedAt  DateTime        @updatedAt
-  attempts   NorwegianAttempt[]
+  attempts   SwedishAttempt[]
 
   @@index([track, exam, skill, active])
   @@index([exam, skill])
 }
 
-model NorwegianAttempt {
+model SwedishAttempt {
   id        String             @id @default(cuid())
   userId    String
   itemId    String
   sessionId String?
-  status    NorwegianAttemptStatus @default(PENDING)
+  status    SwedishAttemptStatus @default(PENDING)
   // User response: objective → selected answer(s); productive → { text } or { audioKey }.
   response  Json?
   // Objective scoring.
@@ -285,28 +295,28 @@ model NorwegianAttempt {
   submittedAt DateTime?
 
   user    User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  item    NorwegianItem     @relation(fields: [itemId], references: [id], onDelete: Cascade)
-  session NorwegianSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+  item    SwedishItem     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  session SwedishSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
 
   @@index([userId, createdAt])
   @@index([itemId])
   @@index([sessionId])
 }
 
-model NorwegianSession {
+model SwedishSession {
   id        String             @id @default(cuid())
   userId    String
-  track     NorwegianTrack
-  exam      NorwegianExam
-  mode      NorwegianSessionMode   @default(PRACTICE)
-  status    NorwegianSessionStatus @default(IN_PROGRESS)
+  track     SwedishTrack
+  exam      SwedishExam
+  mode      SwedishSessionMode   @default(PRACTICE)
+  status    SwedishSessionStatus @default(IN_PROGRESS)
   // Aggregate readout: { perSkill: {skill: {points,max,readiness}}, overall }.
   aggregate Json?
   createdAt   DateTime  @default(now())
   completedAt DateTime?
 
   user     User           @relation(fields: [userId], references: [id], onDelete: Cascade)
-  attempts NorwegianAttempt[]
+  attempts SwedishAttempt[]
 
   @@index([userId, createdAt])
 }

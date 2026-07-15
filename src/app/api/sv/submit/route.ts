@@ -7,21 +7,21 @@ import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
-import { gradeObjective } from "@/lib/no/grading";
-import { isObjectiveTask, isFreeSkill } from "@/lib/no/types";
+import { gradeObjective } from "@/lib/sv/grading";
+import { isObjectiveTask, isFreeSkill } from "@/lib/sv/types";
 import type {
   ObjectiveAnswer,
-  NorwegianSkill,
-  NorwegianTaskType,
-} from "@/lib/no/types";
+  SwedishSkill,
+  SwedishTaskType,
+} from "@/lib/sv/types";
 
 export const runtime = "nodejs";
 
 interface SubmitBody {
   itemId?: string;
   exam?: string;
-  skill?: NorwegianSkill;
-  taskType?: NorwegianTaskType;
+  skill?: SwedishSkill;
+  taskType?: SwedishTaskType;
   answer?: ObjectiveAnswer | null;
   maxPoints?: number;
   response?: unknown;
@@ -77,7 +77,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   // failure (missing item, empty database) is swallowed so grading still returns.
   if (itemId) {
     try {
-      await prisma.norwegianAttempt.create({
+      await prisma.swedishAttempt.create({
         data: {
           userId: user.id,
           itemId,

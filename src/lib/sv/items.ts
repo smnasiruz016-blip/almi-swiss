@@ -1,4 +1,4 @@
-// Bundled item loader for AlmiNorwegian practice.
+// Bundled item loader for AlmiSwedish practice.
 //
 // Items are authored as JSON bundles under src/data/items/*.json (one per
 // surface). The content pipeline may still be generating them, so the loader is
@@ -9,21 +9,21 @@
 import fs from "fs";
 import path from "path";
 import type {
-  NorwegianTrack,
-  NorwegianExam,
-  NorwegianSkill,
-  NorwegianTaskType,
-  NorwegianDifficulty,
+  SwedishTrack,
+  SwedishExam,
+  SwedishSkill,
+  SwedishTaskType,
+  SwedishDifficulty,
   ObjectiveAnswer,
 } from "./types";
 
-/** A single authored item, matching the NorwegianItem content fields (no DB id). */
+/** A single authored item, matching the SwedishItem content fields (no DB id). */
 export interface NorwegianItemSeed {
-  track: NorwegianTrack;
-  exam: NorwegianExam;
-  skill: NorwegianSkill;
-  taskType: NorwegianTaskType;
-  difficulty: NorwegianDifficulty;
+  track: SwedishTrack;
+  exam: SwedishExam;
+  skill: SwedishSkill;
+  taskType: SwedishTaskType;
+  difficulty: SwedishDifficulty;
   title: string;
   prompt: string;
   payload: unknown;
@@ -81,9 +81,9 @@ function allItems(): NorwegianItemSeed[] {
 
 /** Filtered item lookup by any combination of track / exam / skill. */
 export function getItems(filter: {
-  track?: NorwegianTrack;
-  exam?: NorwegianExam;
-  skill?: NorwegianSkill;
+  track?: SwedishTrack;
+  exam?: SwedishExam;
+  skill?: SwedishSkill;
 } = {}): NorwegianItemSeed[] {
   return allItems().filter(
     (it) =>
@@ -134,8 +134,8 @@ function stableShuffle<T>(arr: T[], seed: number): T[] {
  * stable reshuffle for variety. Never uses Math.random.
  */
 export function pickPractice(
-  exam: NorwegianExam,
-  skill: NorwegianSkill,
+  exam: SwedishExam,
+  skill: SwedishSkill,
   n: number,
   seed?: number,
 ): NorwegianItemSeed[] {

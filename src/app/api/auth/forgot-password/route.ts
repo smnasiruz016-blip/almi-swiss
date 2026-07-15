@@ -38,7 +38,7 @@ function getClientIp(req: Request): string {
 }
 
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL ?? "https://alminorwegian.almiworld.com";
+  return process.env.NEXT_PUBLIC_APP_URL ?? "https://almiswedish.almiworld.com";
 }
 
 export async function POST(req: Request) {

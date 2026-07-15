@@ -5,7 +5,7 @@
 // never an official UDI / Ministry result; citizenship NEVER a fixed year
 // count — always "confirm with UDI".
 
-import { ALL_EXAMS, examBySlug, type ExamMeta } from "@/lib/no/registry";
+import { ALL_EXAMS, examBySlug, type ExamMeta } from "@/lib/sv/registry";
 import {
   hash, pick, studyPath, jobsPath,
   UNIVERSITIES, COUNTRIES, HUBS,
@@ -18,7 +18,7 @@ import type { OriginBlock } from "@/lib/seo/origin-localization";
 // we quote it inline (e.g. `"…recognised back home"` not `"…back home?."`).
 const cleanConcern = (s: string) => s.replace(/\s*[.?;]+\s*$/, "").trim();
 
-const SITE = "https://alminorwegian.almiworld.com";
+const SITE = "https://almiswedish.almiworld.com";
 
 export interface SeoPage {
   h1: string;
@@ -67,11 +67,11 @@ const NO_UNIS = "the University of Oslo, NTNU in Trondheim, the University of Be
 
 // Shared honest fragments -----------------------------------------------------
 const READINESS_LINE =
-  "AlmiNorwegian gives you an honest readiness estimate — a per-skill band (Clear or Borderline) against each exam's real criteria — never an invented official UDI or Ministry result.";
+  "AlmiSwedish gives you an honest readiness estimate — a per-skill band (Clear or Borderline) against each exam's real criteria — never an invented official UDI or Ministry result.";
 const CITIZENSHIP_HEDGE =
   "Norwegian citizenship commonly requires Norskprøven B1–B2 (B1–B2) and the Statsborgerprøven (a Norwegian society knowledge test), alongside residency and other conditions. The exams sit under the HK-dir (the Directorate for Higher Education and Skills), and applications are handled by UDI. The rules change, so we don't state a fixed number of residency years or a fixed step — always confirm the current requirement with UDI. We help you prepare fairly; we never claim to help anyone shortcut or beat the process.";
 const MISSION_LINE =
-  "25% of AlmiNorwegian proceeds fund the Shamool Foundation's social mission.";
+  "25% of AlmiSwedish proceeds fund the Shamool Foundation's social mission.";
 const CTA_LINE =
   "Reading and Listening practice is free; AI feedback on Writing and Speaking and the full timed mock become available with a 7-day free trial ($12/month after, cancel anytime).";
 
@@ -155,7 +155,7 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
       {
         heading: `Practise for ${examLabel(level)} — honestly`,
         body: [
-          `AlmiNorwegian lets you practise the four skills — Reading (Leseforståelse), Listening (Lytteforståelse), Writing (Skriftlig framstilling) and Speaking (Muntlig) — at ${level.name} and the surrounding levels. ${READINESS_LINE}`,
+          `AlmiSwedish lets you practise the four skills — Reading (Leseforståelse), Listening (Lytteforståelse), Writing (Skriftlig framstilling) and Speaking (Muntlig) — at ${level.name} and the surrounding levels. ${READINESS_LINE}`,
           CTA_LINE,
         ],
       },
@@ -169,7 +169,7 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
       { q: `Will a Norwegian degree be recognised in ${country.name}?`, a: origin.localized
         ? `Recognition of a foreign degree in ${country.name} goes through ${origin.recognitionBody}. ${origin.equivalenceNote} Confirm the current process on the official site${origin.recognitionUrl ? ` (${origin.recognitionUrl})` : ""}.`
         : origin.equivalenceNote },
-      { q: `Which level should I aim for?`, a: `Most Norwegian-taught higher education sits around ${NORSKPROVE_A2B1.name} to ${NORSKPROVE_B1B2.name}, and higher-level programmes may use Bergenstesten. Regulated fields and professional practice may need more. AlmiNorwegian shows an honest per-skill readiness band, not an official score.` },
+      { q: `Which level should I aim for?`, a: `Most Norwegian-taught higher education sits around ${NORSKPROVE_A2B1.name} to ${NORSKPROVE_B1B2.name}, and higher-level programmes may use Bergenstesten. Regulated fields and professional practice may need more. AlmiSwedish shows an honest per-skill readiness band, not an official score.` },
       { q: `Is the readiness estimate my real result?`, a: `No. It's a practice estimate against the real criteria to guide your prep. Only the official assessment issues a real result.` },
     ],
     related: [
@@ -233,7 +233,7 @@ export function buildJobsPage(role: SeoRole, country: SeoCountry, hub: SeoHub, o
     ],
     faq: [
       { q: `Do I need Norwegian to work as a ${role.name} in Norway?`, a: `It depends on the role. Client-facing and regulated jobs usually expect B1–B2 or more; some technical roles in ${hub.name} run in English. You'll still need Norwegian for daily life and long-term stay. Confirm with the employer.` },
-      { q: `Which Norwegian level should I practise?`, a: `Norskprøven A2–B1 (A2–B1) is a common permanent-residence baseline and many jobs want B1–B2. AlmiNorwegian shows an honest readiness band, never an official result.` },
+      { q: `Which Norwegian level should I practise?`, a: `Norskprøven A2–B1 (A2–B1) is a common permanent-residence baseline and many jobs want B1–B2. AlmiSwedish shows an honest readiness band, never an official result.` },
     ],
     related: [
       { href: `/exams/${NORSKPROVE_B1B2.slug}`, label: `Norskprøven B1–B2 (B1–B2) — citizenship language exam` },
@@ -269,8 +269,8 @@ export function buildLevelPage(exam: ExamMeta): SeoPage {
     : `${exam.name} sits at CEFR ${exam.cefr}.`;
   const levelQ = `What is the ${exam.name}?`;
   const levelA = isKnowledge
-    ? `${exam.name} is a multiple-choice knowledge test about Norwegian society — not a language exam. AlmiNorwegian gives you honest practice, never an official result.`
-    : `${exam.name} maps to CEFR ${exam.cefr}. AlmiNorwegian shows an honest per-skill readiness band, not an official result.`;
+    ? `${exam.name} is a multiple-choice knowledge test about Norwegian society — not a language exam. AlmiSwedish gives you honest practice, never an official result.`
+    : `${exam.name} maps to CEFR ${exam.cefr}. AlmiSwedish shows an honest per-skill readiness band, not an official result.`;
 
   const skillsAssessed = isKnowledge
     ? " It is answered as multiple-choice questions; a strong result means you know the material well."
@@ -318,7 +318,7 @@ export function buildLevelPage(exam: ExamMeta): SeoPage {
       { q: levelQ, a: levelA },
       isLead
         ? { q: `Is Norskprøven B1–B2 what I need for Norwegian citizenship?`, a: `Norskprøven B1–B2 (B1–B2) is the language exam commonly required for naturalisation, together with the Statsborgerprøven. There are also residency and other conditions, and rules change — confirm the current requirement with UDI. We help you prepare fairly, never to shortcut the process.` }
-        : { q: `Is my AlmiNorwegian result official?`, a: `No — it's an honest practice estimate to guide your prep. Only the official assessment issues a real result.` },
+        : { q: `Is my AlmiSwedish result official?`, a: `No — it's an honest practice estimate to guide your prep. Only the official assessment issues a real result.` },
     ],
     related: [
       ...ALL_EXAMS.filter((e) => e.slug !== exam.slug).map((e) => ({ href: `/exams/${e.slug}`, label: examLabel(e) })),

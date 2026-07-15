@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SUBJECTS } from "@/lib/seo/axes";
 
 export const metadata: Metadata = {
-  title: { absolute: "Study in Norway — the Norwegian-language pathway by subject | AlmiNorwegian" },
+  title: { absolute: "Study in Norway — the Norwegian-language pathway by subject | AlmiSwedish" },
   description:
     "Studying in Norway often means meeting a Norwegian-language requirement. Explore the pathway by subject, with honest readiness practice — never a fabricated official result.",
   alternates: { canonical: "/study-in-norway" },

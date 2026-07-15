@@ -1,4 +1,4 @@
-// AlmiNorwegian scoring engine — per-skill READINESS estimate. Norskprøven B1–B2,
+// AlmiSwedish scoring engine — per-skill READINESS estimate. Norskprøven B1–B2,
 // the University of Norway entrance exam and the CEFR levels are pass/fail against
 // official criteria; we do NOT fabricate an official UDI /
 // Ministry result. We score each skill's objective items
@@ -6,7 +6,7 @@
 // we label productive skills (Writing/Speaking) as AI estimates.
 
 import { READY_PCT, BORDERLINE_PCT } from "./registry";
-import type { ObjectiveAnswer, NorwegianTaskType, NorwegianSkill } from "./types";
+import type { ObjectiveAnswer, SwedishTaskType, SwedishSkill } from "./types";
 import { isObjectiveTask } from "./types";
 
 export type Readiness = "CLEAR" | "BORDERLINE" | "BELOW";
@@ -59,7 +59,7 @@ export function readinessFromPct(pct: number): Readiness {
 }
 
 export interface SkillReadout {
-  skill: NorwegianSkill;
+  skill: SwedishSkill;
   points: number;
   maxPoints: number;
   pct: number;
@@ -68,7 +68,7 @@ export interface SkillReadout {
 }
 
 export function skillReadout(
-  skill: NorwegianSkill,
+  skill: SwedishSkill,
   points: number,
   maxPoints: number,
 ): SkillReadout {
@@ -96,14 +96,14 @@ export function aggregateReadout(readouts: SkillReadout[]): {
   meanPct: number;
   overall: Readiness;
   label: string;
-  weakest: NorwegianSkill | null;
+  weakest: SwedishSkill | null;
   allClear: boolean;
 } {
   const graded = readouts.filter((r) => r.maxPoints > 0);
   const meanPct = graded.length
     ? Math.round(graded.reduce((s, r) => s + r.pct, 0) / graded.length)
     : 0;
-  let weakest: NorwegianSkill | null = null;
+  let weakest: SwedishSkill | null = null;
   let low = Infinity;
   for (const r of graded) if (r.pct < low) { low = r.pct; weakest = r.skill; }
   return {
@@ -116,6 +116,6 @@ export function aggregateReadout(readouts: SkillReadout[]): {
 }
 
 /** True when this task type is auto-gradable (objective). */
-export function isObjectiveTaskType(t: NorwegianTaskType): boolean {
+export function isObjectiveTaskType(t: SwedishTaskType): boolean {
   return isObjectiveTask(t);
 }

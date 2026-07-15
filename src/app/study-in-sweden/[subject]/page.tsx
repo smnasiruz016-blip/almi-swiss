@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const s = SUBJECT_BY_SLUG.get(subject);
   if (!s) return { title: "Not found" };
   return {
-    title: { absolute: `Study ${s.name} in Norway — Norwegian-language pathway | AlmiNorwegian` },
+    title: { absolute: `Study ${s.name} in Norway — Norwegian-language pathway | AlmiSwedish` },
     description: `The Norwegian-language route for studying ${s.name} in Norway — typical CEFR level and honest readiness practice, by country of origin.`,
     alternates: { canonical: `/study-in-norway/${s.slug}` },
   };

@@ -4,11 +4,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
-import { examBySlug, SKILL_LABELS } from "@/lib/no/registry";
-import { isFreeSkill } from "@/lib/no/types";
-import type { NorwegianSkill, NorwegianTrack } from "@/lib/no/types";
+import { examBySlug, SKILL_LABELS } from "@/lib/sv/registry";
+import { isFreeSkill } from "@/lib/sv/types";
+import type { SwedishSkill, SwedishTrack } from "@/lib/sv/types";
 
-const TRACK_LABEL: Record<NorwegianTrack, string> = {
+const TRACK_LABEL: Record<SwedishTrack, string> = {
   CITIZENSHIP: "Citizenship — Norskprøven B1–B2 + Statsborgerprøven",
   PERMANENT_RESIDENCE: "Permanent residence — Norskprøven A2–B1 + Samfunnskunnskapsprøven",
   GETTING_STARTED: "Getting started — Norskprøven A1–A2",
@@ -46,7 +46,7 @@ export default async function ExamPage({
       <section>
         <h2 className="text-lg font-semibold text-almi-ink">Practise by skill</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          {exam.skills.map((skill: NorwegianSkill) => {
+          {exam.skills.map((skill: SwedishSkill) => {
             const free = isFreeSkill(skill);
             const label = SKILL_LABELS[skill];
             return (
@@ -98,7 +98,7 @@ export default async function ExamPage({
       </Link>
 
       <p className="text-xs text-almi-text-muted">
-        Original to AlmiNorwegian — never copied from official test material. Every readout is a
+        Original to AlmiSwedish — never copied from official test material. Every readout is a
         practice estimate.
       </p>
     </div>

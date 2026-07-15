@@ -1,14 +1,14 @@
 "use client";
 
 // Objective practice runner. Steps through auto-marked items (Reading/Listening),
-// submits each to /api/no/submit for deterministic grading, shows per-item
+// submits each to /api/sv/submit for deterministic grading, shows per-item
 // correctness, and closes with an honest per-skill readiness readout. All labels
 // are framed as a "practice estimate" — never an official Directorate result.
 
 import { useState } from "react";
-import type { NorwegianSkill } from "@/lib/no/types";
-import { skillReadout, readinessFromPct } from "@/lib/no/grading";
-import { SKILL_LABELS } from "@/lib/no/registry";
+import type { SwedishSkill } from "@/lib/sv/types";
+import { skillReadout, readinessFromPct } from "@/lib/sv/grading";
+import { SKILL_LABELS } from "@/lib/sv/registry";
 import { ObjectiveTask } from "./ObjectiveTask";
 import { submitAttempt, type RunnerItem, type SubmitResult } from "./shared";
 
@@ -24,7 +24,7 @@ export function PracticeRunner({
   items,
 }: {
   examName: string;
-  skill: NorwegianSkill;
+  skill: SwedishSkill;
   items: RunnerItem[];
 }) {
   const [step, setStep] = useState(0);
