@@ -219,7 +219,7 @@ export default function Home() {
           <p className="mt-4 text-base text-almi-text">
             Because the details are still rolling out, UHR has published <strong>no pass mark</strong> — so we
             don&apos;t show one, and we don&apos;t invent a format or a level.{" "}
-            <Link href="/requirements/sweden/medborgarskapsprov" className="font-semibold text-almi-coral-deep hover:underline">
+            <Link href="/swiss-naturalisation-language" className="font-semibold text-almi-coral-deep hover:underline">
               See exactly what is and isn&apos;t known
             </Link>
             , practise realistic civic questions, and get an honest read on your readiness. We help you prepare

@@ -33,7 +33,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
   const shard = Number(await id);
   // Shard 0 — core marketing + auth + Swedish-exam hub/levels.
   if (shard === 0) {
-    const core = ["", "/pricing", "/signup", "/login", "/exams", "/study-in-sweden", "/work-in-sweden", "/requirements/sweden/medborgarskapsprov"]
+    const core = ["", "/pricing", "/signup", "/login", "/exams", "/study-in-switzerland", "/work-in-switzerland", "/swiss-naturalisation-language"]
       .map((p) => entry(p, p === "" ? 1 : 0.7));
     const levels = ALL_EXAMS.map((e) => entry(`/exams/${e.slug}`, 0.8));
     return [...core, ...levels];

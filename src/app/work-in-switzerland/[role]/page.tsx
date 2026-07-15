@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title: { absolute: `Work in Sweden as a ${r.name} — Swedish you'll need | AlmiSwedish` },
     description: `How much Swedish a ${r.name} needs in Sweden, which CEFR level, and honest readiness practice — by country of origin and city.`,
-    alternates: { canonical: `/work-in-sweden/${r.slug}` },
+    alternates: { canonical: `/work-in-switzerland/${r.slug}` },
   };
 }
 
@@ -33,7 +33,7 @@ export default async function RoleHub({ params }: { params: Params }) {
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <nav aria-label="Breadcrumb" className="mb-6 text-xs text-almi-text-muted">
-          <Link href="/work-in-sweden" className="hover:text-almi-coral">Work in Sweden</Link> / {r.name}
+          <Link href="/work-in-switzerland" className="hover:text-almi-coral">Work in Sweden</Link> / {r.name}
         </nav>
         <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Sweden as a {r.name}</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">

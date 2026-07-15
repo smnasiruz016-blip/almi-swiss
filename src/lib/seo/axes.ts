@@ -91,6 +91,6 @@ export function jobsComboAtIndex(i: number): { role: SeoRole; country: SeoCountr
 }
 
 export const studyPath = (subjectSlug: string, countrySlug: string, uniSlug: string) =>
-  `/study-in-sweden/${subjectSlug}/from/${countrySlug}/${uniSlug}`;
+  `/study-in-switzerland/${subjectSlug}/from/${countrySlug}/${uniSlug}`;
 export const jobsPath = (roleSlug: string, countrySlug: string, hubSlug: string) =>
-  `/work-in-sweden/${roleSlug}/from/${countrySlug}/${hubSlug}`;
+  `/work-in-switzerland/${roleSlug}/from/${countrySlug}/${hubSlug}`;

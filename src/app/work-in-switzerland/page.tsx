@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: { absolute: "Work in Sweden — the Swedish you'll need, by role | AlmiSwedish" },
   description:
     "Working in Sweden: how much Swedish each role needs, which CEFR level, and honest readiness practice. Confirm specifics with employers and regulators.",
-  alternates: { canonical: "/work-in-sweden" },
+  alternates: { canonical: "/work-in-switzerland" },
 };
 
 export default function WorkHub() {
@@ -34,7 +34,7 @@ export default function WorkHub() {
             <ul className="mt-2 flex flex-wrap gap-2">
               {byIndustry.get(ind)!.map((r) => (
                 <li key={r.slug}>
-                  <Link href={`/work-in-sweden/${r.slug}`} className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">
+                  <Link href={`/work-in-switzerland/${r.slug}`} className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">
                     {r.name}
                   </Link>
                 </li>

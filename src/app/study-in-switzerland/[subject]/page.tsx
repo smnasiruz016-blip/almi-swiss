@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   return {
     title: { absolute: `Study ${s.name} in Sweden — Swedish-language pathway | AlmiSwedish` },
     description: `The Swedish-language route for studying ${s.name} in Sweden — typical CEFR level and honest readiness practice, by country of origin.`,
-    alternates: { canonical: `/study-in-sweden/${s.slug}` },
+    alternates: { canonical: `/study-in-switzerland/${s.slug}` },
   };
 }
 
@@ -32,7 +32,7 @@ export default async function SubjectHub({ params }: { params: Params }) {
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <nav aria-label="Breadcrumb" className="mb-6 text-xs text-almi-text-muted">
-          <Link href="/study-in-sweden" className="hover:text-almi-coral">Study in Sweden</Link> / {s.name}
+          <Link href="/study-in-switzerland" className="hover:text-almi-coral">Study in Sweden</Link> / {s.name}
         </nav>
         <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Study {s.name} in Sweden</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">

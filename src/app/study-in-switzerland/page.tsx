@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: { absolute: "Study in Sweden — the Swedish-language pathway by subject | AlmiSwedish" },
   description:
     "Studying in Sweden in Swedish means meeting a Swedish-language requirement — usually Tisus (≈C1). Explore the pathway by subject, with honest readiness practice — never a fabricated official result.",
-  alternates: { canonical: "/study-in-sweden" },
+  alternates: { canonical: "/study-in-switzerland" },
 };
 
 export default function StudyHub() {
@@ -25,7 +25,7 @@ export default function StudyHub() {
         <ul className="mt-8 grid gap-3 sm:grid-cols-2">
           {SUBJECTS.map((s) => (
             <li key={s.slug}>
-              <Link href={`/study-in-sweden/${s.slug}`} className="block rounded-2xl border border-almi-bg-peach bg-almi-paper p-4 text-almi-ink hover:border-almi-coral">
+              <Link href={`/study-in-switzerland/${s.slug}`} className="block rounded-2xl border border-almi-bg-peach bg-almi-paper p-4 text-almi-ink hover:border-almi-coral">
                 {s.name}
               </Link>
             </li>

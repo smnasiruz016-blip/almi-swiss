@@ -127,7 +127,7 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
   // subject. A thin, untaught cell is noindexed and canonicals UP to the subject
   // hub — a route that EXISTS — never to a subject×origin URL with no page (404).
   const taught = uniTeaches(uni, subject.slug);
-  const canonicalPath = taught ? path : `/study-in-sweden/${subject.slug}`;
+  const canonicalPath = taught ? path : `/study-in-switzerland/${subject.slug}`;
 
   const recognitionSection = {
     heading: `Using a Swedish degree back in ${country.name}`,
@@ -194,8 +194,8 @@ export function buildStudyPage(subject: SeoSubject, country: SeoCountry, uni: Se
       ...relatedStudy(subject, country, seed),
     ],
     breadcrumbs: [
-      { name: "Study in Sweden", path: "/study-in-sweden" },
-      { name: subject.name, path: `/study-in-sweden/${subject.slug}` },
+      { name: "Study in Sweden", path: "/study-in-switzerland" },
+      { name: subject.name, path: `/study-in-switzerland/${subject.slug}` },
       { name: country.name, path: path },
     ],
     jsonLd: faqJsonLd([
@@ -256,8 +256,8 @@ export function buildJobsPage(role: SeoRole, country: SeoCountry, hub: SeoHub, o
       ...HUBS.filter((h) => h.slug !== hub.slug).map((h) => ({ href: jobsPath(role.slug, country.slug, h.slug), label: `${role.name} in ${h.name}` })),
     ],
     breadcrumbs: [
-      { name: "Work in Sweden", path: "/work-in-sweden" },
-      { name: role.name, path: `/work-in-sweden/${role.slug}` },
+      { name: "Work in Sweden", path: "/work-in-switzerland" },
+      { name: role.name, path: `/work-in-switzerland/${role.slug}` },
       { name: `${country.name} · ${hub.name}`, path: path },
     ],
     jsonLd: faqJsonLd([

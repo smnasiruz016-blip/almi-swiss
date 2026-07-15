@@ -10,7 +10,7 @@ import Link from "next/link";
 // Cost rule: cache indefinitely; the facts only change on redeploy.
 export const revalidate = false;
 
-const PATH = "/requirements/sweden/medborgarskapsprov";
+const PATH = "/swiss-naturalisation-language";
 
 export const metadata: Metadata = {
   title: { absolute: "Sweden's Citizenship Test (Medborgarskapsprovet): What Is Actually Known" },
