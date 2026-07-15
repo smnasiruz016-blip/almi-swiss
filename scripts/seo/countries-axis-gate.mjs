@@ -3,8 +3,8 @@
 // WHY THIS EXISTS — two real bugs, both shipped to production, that every other
 // check in this repo passed:
 //
-//  1. SELF-ORIGIN. src/data/seo/countries.json listed Sweden itself, so the
-//     matrix advertised "Study in Sweden from Sweden". almi-dutch and
+//  1. SELF-ORIGIN. src/data/seo/countries.json listed Switzerland itself, so the
+//     matrix advertised "Study in Switzerland from Switzerland". almi-dutch and
 //     almi-icelandic had the identical bug. axes.ts even carried the comment
 //     "origins only (Sweden excluded)" — the label was localized, the fact was
 //     not, which is this lineage's signature failure.
@@ -30,7 +30,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-const SELF_ISO = "SE"; // this product's own country — never a valid origin of itself
+const SELF_ISO = "CH"; // this product's own country — never a valid origin of itself
 
 // The full country axis shared by the family (197). Any deviation is a bug:
 // a MISSING code silently denies that origin's users their pages; an EXTRA code
