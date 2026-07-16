@@ -102,7 +102,6 @@ const BANNED = [
   "Samhällskunskap", "utprövningsprov",
   "Sverige", "Swedish", "Sweden",
   "sv-SE",
-  "AlmiSwedish", "almi-swedish", "almiswedish",
   // — Norwegian —
   "Norskprøven", "Norskprøve", "Norskprov", "norskprove",
   "Bergenstesten", "Bergenstest",
@@ -126,11 +125,36 @@ const BANNED = [
   // NOTE what is deliberately NOT banned here any more: "Schreiben", "Sprechen",
   // "Goethe-Institut". See the note above — those are Swiss subject matter now.
   // Sibling PRODUCT names stay banned: naming AlmiGoethe in copy is still a leak.
-  "AlmiGoethe", "almi-goethe",
-  "CAPLE", "Celpe-Bras", "AlmiPortuguese",
-  "AlmiCELPIP", "AlmiDanish", "AlmiNorwegian", "AlmiIcelandic",
-  "almi-danish", "almi-norwegian", "almi-icelandic",
+  "CAPLE", "Celpe-Bras",
+  // Sibling/ancestor PRODUCT names are appended below — GENERATED, not hand-listed.
 ];
+
+// ── Ancestor product names, in every form a slug can ship in ─────────────────
+// Hand-listing these was itself a fork bug, and the list proved it. It carried
+// "almi-swedish" and "almiswedish" but no underscore; "AlmiGoethe" with no bare
+// slug; "AlmiPortuguese" and "AlmiCELPIP" with NO slug form at all — so
+// `almi-portuguese` and `almi-celpip` were never banned by the gate that exists to
+// ban them. Nobody chose that: it is just what a list edited by hand across six
+// forks looks like.
+//
+// It shipped. `src/lib/auth.ts` reads `SESSION_COOKIE_NAME = "almi_norwegian_session"`
+// and the gate was GREEN — BANNED held `almi-norwegian` (hyphen), the code used an
+// UNDERSCORE. Same blindness as the UHR acronym one commit earlier: the list agreed
+// the noun was an ancestor's, and the form that actually shipped was spelled
+// differently. A grep does not know that `almi-x` and `almi_x` are the same idea.
+//
+// So: name the products once, and let the code enumerate the spellings.
+const ANCESTOR_PRODUCTS = [
+  "celpip", "goethe", "icelandic", "danish", "norwegian", "swedish", "portuguese",
+];
+/** Every form a product slug ships in: almi-x · almi_x · almix · AlmiX. */
+function productNameForms(p) {
+  return [`almi-${p}`, `almi_${p}`, `almi${p}`, `Almi${p[0].toUpperCase()}${p.slice(1)}`];
+}
+for (const p of ANCESTOR_PRODUCTS) BANNED.push(...productNameForms(p));
+// Display names that are not simple capitalisations, so the generator cannot derive
+// them. Keep this list SHORT — anything here is a spelling the generator missed.
+BANNED.push("AlmiCELPIP");
 
 // SELF-CHECK. On 2026-07-16 a blanket find-replace of the ancestor's product name
 // across the repo also rewrote THIS list, so the gate began banning "AlmiSwiss" —
