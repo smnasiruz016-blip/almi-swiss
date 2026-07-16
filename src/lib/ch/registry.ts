@@ -95,7 +95,22 @@ export interface ExamMeta {
   skills: SwissSkill[];
   civic?: boolean; // true = canton-dependent local knowledge. NOT an exam.
   lead?: boolean; // the citizenship hook — fide
-  mockMinutes: number; // full timed mock duration guidance
+  /** Full timed mock duration guidance — OPTIONAL, and its ABSENCE IS A FACT: this
+   *  surface has no mock, because there is no exam to mock. Absent for CANTON_CIVIC.
+   *
+   *  It was `mockMinutes: number` and civic carried **60**. Nothing measures that 60 —
+   *  no national civics test exists (see CIVIC_HEDGE), so there is no paper, no
+   *  duration, and nothing to time. It was an invented number for an invented exam,
+   *  and it rendered: `/practice/canton-civic-german/mock` served a working, PRO-GATED
+   *  "full timed mock" of a test that does not exist, on a page whose own blurb said
+   *  "This is preparation, not a mock."
+   *
+   *  Optional ON PURPOSE. A required field can only be satisfied by making something
+   *  up; making it optional means the type checker asks every caller "what if there is
+   *  no mock?" and a fabricated default cannot be the answer. Same call as deleting
+   *  `C_PERMIT_LEVELS.years` (one field could not hold "fünf bzw. zehn"): when the
+   *  honest value is "there isn't one", delete the field — do not pick a number. */
+  mockMinutes?: number;
   cantonDependent?: boolean; // UI must render CANTON_HEDGE wherever this appears
 }
 
@@ -304,7 +319,8 @@ function civicEntry(language: SwissLanguage): ExamMeta {
     skills: ["KNOWLEDGE"],
     civic: true,
     cantonDependent: true,
-    mockMinutes: 60,
+    // NO mockMinutes — deliberate. See ExamMeta.mockMinutes: there is no national
+    // civics test, so there is nothing to time and nothing to mock.
   };
 }
 

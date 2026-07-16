@@ -22,6 +22,17 @@ export default async function MockPage({
   const exam = examBySlug(examSlug);
   if (!exam) notFound();
 
+  // No mockMinutes = this surface has no mock, because there is no exam to mock:
+  // canton-civic is local-knowledge practice and NO national civics test exists
+  // (CIVIC_HEDGE). This must 404 rather than merely go unlinked — the route was
+  // reachable, Pro-gated and fully working: KNOWLEDGE is a free skill, so
+  // pickPractice() happily returned 6 civic items and MockRunner timed them against
+  // an invented 60 minutes. See ExamMeta.mockMinutes.
+  //
+  // Checked BEFORE the paid gate on purpose: this page does not exist for anyone, so
+  // sending a non-subscriber to /account would invite them to pay for a 404.
+  if (!exam.mockMinutes) notFound();
+
   // The full timed mock is always Pro — no free taste.
   if (!hasPaidAccess(user)) {
     redirect("/account");
