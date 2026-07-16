@@ -4,26 +4,38 @@ import { createHash, randomBytes } from "crypto";
 import bcrypt from "bcryptjs";
 import { prisma } from "./prisma";
 
-// 🔴 KNOWN LEAK, DEFERRED ON PURPOSE — NOT an approval of this name.
-// This cookie carries the ANCESTOR'S product name, two forks back, and this product
-// sets it on every visitor's browser. It walked past the fork-hygiene gate for a day
-// because BANNED held the HYPHENATED slug while this value uses an UNDERSCORE; the
-// gate now generates every separator form, which is how this line got found.
-//
-// NOT renamed here because renaming the cookie LOGS OUT every live session: the
-// browser keeps sending the old name and nothing reads it. That is a real, visible
-// cost to real users, so it is the founder's call and its own change — do it in a
-// quiet window, and consider reading both names for one release before dropping the
-// old one.
-//
-// NOT a correctness bug: cookies are host-scoped, so this site and the ancestor's
-// never collide. It is an identity leak — and the exact string the next fork clones
-// into almi_swiss_session while meaning something else.
-//
-// The hygiene-allow marker below is what keeps the build green. It is a receipt, not
-// a pardon: every OTHER occurrence of any ancestor slug, in any spelling, still fails.
-const SESSION_COOKIE_NAME = "almi_norwegian_session"; // hygiene-allow — deferred rename, see above
+// The session cookie. Named for THIS product — it used to carry the ancestor's name
+// (two forks back) on every visitor's browser.
+const SESSION_COOKIE_NAME = "almi_swiss_session";
+
+/** Cookie names we still READ but never write. Renaming a session cookie normally
+ *  logs out every live session — the browser keeps sending the old name and nothing
+ *  reads it. Nobody had to be logged out for this: the cookie is only a container for
+ *  the token, and the session is found in the DB by tokenHash, so the NAME on the
+ *  envelope is irrelevant to the lookup. Read both, write one, and the rename is free.
+ *
+ *  🔴 REMOVAL: safe to delete this list — and its hygiene-allow — once every legacy
+ *  cookie has expired. They were issued with a 30-day life (SESSION_DURATION_MS), so
+ *  any still valid on 2026-08-16 was issued before the rename shipped (2026-07-16).
+ *  After that date this is dead code holding an ancestor noun in the repo, which is
+ *  exactly what the fork-hygiene gate exists to stop. Delete it then; do not let it
+ *  become permanent furniture. */
+const LEGACY_SESSION_COOKIE_NAMES = [
+  "almi_norwegian_session", // hygiene-allow — legacy read-only, delete after 2026-08-16
+];
+
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
+
+/** Read the session token from the current cookie name, falling back to legacy names.
+ *  Current name wins: a browser can carry both while a legacy cookie ages out. */
+async function readSessionToken(): Promise<string | undefined> {
+  const cookieStore = await cookies();
+  for (const name of [SESSION_COOKIE_NAME, ...LEGACY_SESSION_COOKIE_NAMES]) {
+    const value = cookieStore.get(name)?.value;
+    if (value) return value;
+  }
+  return undefined;
+}
 
 export async function hashPassword(password: string): Promise<string> {
   return bcrypt.hash(password, 12);
@@ -58,21 +70,36 @@ export async function createSession(userId: string): Promise<void> {
     expires: expiresAt,
     path: "/",
   });
+
+  // Retire any legacy cookie this browser still carries: drop its session row and
+  // clear the cookie. Without this the browser keeps sending a stale name and its DB
+  // row lingers until it expires — harmless (the current name wins the read) but it
+  // would keep legacy sessions alive for 30 days past a login that already replaced
+  // them. Safe here: createSession is only called from Server Actions, which may
+  // write cookies.
+  for (const name of LEGACY_SESSION_COOKIE_NAMES) {
+    const stale = cookieStore.get(name)?.value;
+    if (!stale) continue;
+    await prisma.session.deleteMany({ where: { tokenHash: hashToken(stale) } });
+    cookieStore.delete(name);
+  }
 }
 
 export async function destroySession(): Promise<void> {
   const cookieStore = await cookies();
-  const token = cookieStore.get(SESSION_COOKIE_NAME)?.value;
-  if (token) {
-    const tokenHash = hashToken(token);
-    await prisma.session.deleteMany({ where: { tokenHash } });
+  // Every name, not just the current one: a logout that leaves a legacy cookie behind
+  // is not a logout — the next request would read it and sign the user straight back in.
+  for (const name of [SESSION_COOKIE_NAME, ...LEGACY_SESSION_COOKIE_NAMES]) {
+    const token = cookieStore.get(name)?.value;
+    if (token) {
+      await prisma.session.deleteMany({ where: { tokenHash: hashToken(token) } });
+    }
+    cookieStore.delete(name);
   }
-  cookieStore.delete(SESSION_COOKIE_NAME);
 }
 
 export async function getCurrentUser() {
-  const cookieStore = await cookies();
-  const token = cookieStore.get(SESSION_COOKIE_NAME)?.value;
+  const token = await readSessionToken();
   if (!token) return null;
 
   const tokenHash = hashToken(token);
