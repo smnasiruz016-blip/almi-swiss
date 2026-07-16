@@ -1,0 +1,310 @@
+[
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Aushang im Treppenhaus",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Nachbarinnen und Nachbarn\n\nAm Samstag, 12. April, reinigen wir gemeinsam den Innenhof. Wir treffen uns um 9.00 Uhr beim Veloständer. Bitte bringen Sie Handschuhe mit. Für Kaffee und Brot ist gesorgt.\n\nDie Hausverwaltung",
+      "question": "Was sollen die Bewohnerinnen und Bewohner mitbringen?",
+      "options": ["Handschuhe", "Kaffee und Brot", "Ein Velo", "Einen Besen"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Öffnungszeiten der Gemeindeverwaltung",
+    "prompt": "Lesen Sie die Öffnungszeiten und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Einwohnerdienste — Schalteröffnungszeiten\n\nMontag bis Mittwoch: 8.00–11.30 und 14.00–16.30\nDonnerstag: 8.00–11.30 und 14.00–18.30\nFreitag: 8.00–14.00 durchgehend\nSamstag und Sonntag: geschlossen\n\nAusserhalb der Schalterzeiten erreichen Sie uns per E-Mail.",
+      "question": "Frau Ayad kann erst nach 17.00 Uhr zum Schalter kommen. An welchem Tag ist das möglich?",
+      "options": ["Am Montag", "Am Donnerstag", "Am Freitag", "Am Samstag"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Information zur Krankenversicherung",
+    "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Willkommen in der Schweiz\n\nDie Grundversicherung der Krankenkasse ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie müssen sich innerhalb von drei Monaten nach Ihrer Ankunft versichern. Die Versicherung gilt dann ab dem ersten Tag. Sie können die Krankenkasse frei wählen.",
+      "question": "Aussage: Man darf selbst entscheiden, bei welcher Krankenkasse man die Grundversicherung abschliesst.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "SMS von der Kinderkrippe",
+    "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Guten Morgen Herr Osei\n\nLeo hat Fieber (38.9°). Bitte holen Sie ihn heute Vormittag ab. Wenn Sie nicht können, rufen Sie uns bitte an, damit wir eine andere Lösung suchen.\n\nFreundliche Grüsse\nKrippe Sonnenblume",
+      "question": "Was soll Herr Osei tun, wenn er Leo nicht abholen kann?",
+      "options": [
+        "Am Nachmittag kommen",
+        "Bei der Krippe anrufen",
+        "Einen Arzt suchen",
+        "Eine SMS an Leo schreiben"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Wohin gehört der Abfall?",
+    "prompt": "Ordnen Sie jedem Gegenstand die richtige Sammelstelle zu.",
+    "payload": {
+      "instructions": "In vielen Gemeinden wird Abfall getrennt gesammelt. Ordnen Sie zu.",
+      "left": ["Eine leere Mineralwasserflasche aus Plastik", "Eine Zeitung", "Ein leeres Konfitürenglas", "Eine leere Konservendose"],
+      "right": ["PET-Sammlung", "Papiersammlung", "Glassammlung", "Metall- und Alusammlung", "Sonderabfall in der Apotheke"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Brief der Krankenkasse",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Sehr geehrte Frau Kovač\n\nWir bestätigen Ihnen den Eingang Ihrer Rechnung vom 3. Februar über CHF 480.00 für die Behandlung in der Notfallstation.\n\nVon diesem Betrag haben Sie Ihre Franchise von CHF 300.00 noch nicht erreicht. Diesen Teil müssen Sie selbst bezahlen. Vom Restbetrag von CHF 180.00 übernehmen wir 90 Prozent; die übrigen 10 Prozent sind Ihr Selbstbehalt.\n\nSie erhalten die Rückerstattung in den nächsten zehn Arbeitstagen.\n\nFreundliche Grüsse\nHelvetia Kranken AG",
+      "question": "Warum muss Frau Kovač einen Teil der Rechnung selbst bezahlen?",
+      "options": [
+        "Weil die Behandlung nicht versichert ist",
+        "Weil sie ihre Franchise noch nicht erreicht hat",
+        "Weil sie die Rechnung zu spät eingereicht hat",
+        "Weil die Notfallstation nicht anerkannt ist"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Hausordnung",
+    "prompt": "Lesen Sie den Auszug aus der Hausordnung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Auszug aus der Hausordnung\n\n3. Ruhezeiten\nVon 22.00 bis 7.00 Uhr sowie sonntags und an Feiertagen ganztags ist Ruhe einzuhalten. Bitte verzichten Sie in dieser Zeit auf laute Arbeiten wie Bohren oder Staubsaugen.\n\n4. Waschküche\nDie Waschküche wird nach Plan benutzt. Bitte tragen Sie Ihren Namen im Plan ein und reinigen Sie die Maschine nach dem Gebrauch. An Sonntagen bleibt die Waschküche geschlossen.\n\nBei Fragen wenden Sie sich an die Hausverwaltung.",
+      "question": "Herr Brunner möchte am Sonntagnachmittag ein Bild aufhängen und dafür bohren. Was sagt die Hausordnung dazu?",
+      "options": [
+        "Das ist erlaubt, weil es am Nachmittag ist",
+        "Das ist nur bis 22.00 Uhr erlaubt",
+        "Das ist nicht erlaubt, weil sonntags ganztags Ruhe gilt",
+        "Das muss er zuerst im Waschplan eintragen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Anmeldung bei der Gemeinde",
+    "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Wenn Sie in eine neue Gemeinde ziehen, müssen Sie sich bei den Einwohnerdiensten {{1}}. Bringen Sie Ihren Ausweis, den Mietvertrag und Ihre Versicherungsnachweise {{2}}. Die Gemeinde trägt Sie danach im Einwohnerregister ein. Wenn Sie später wieder wegziehen, müssen Sie sich {{3}}.",
+      "gaps": [
+        { "id": 1, "options": ["anmelden", "abmelden", "einladen", "bewerben"] },
+        { "id": 2, "options": ["mit", "nach", "ohne", "gegen"] },
+        { "id": 3, "options": ["anmelden", "abmelden", "aufschreiben", "ausruhen"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Elternbrief der Schule",
+    "prompt": "Lesen Sie den Brief. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Liebe Eltern\n\nAm Dienstag, 6. Mai, findet der Elternabend der Klasse 4b statt. Beginn ist um 19.30 Uhr im Zimmer 12.\n\nWir sprechen über das Schullager im Juni und über den Übertritt in die Sekundarstufe. Es ist wichtig, dass mindestens ein Elternteil teilnimmt. Falls Sie eine Übersetzerin oder einen Übersetzer brauchen, melden Sie sich bitte bis am 29. April im Sekretariat. Wir organisieren das gerne für Sie.\n\nFreundliche Grüsse\nM. Iten, Klassenlehrerin",
+      "question": "Aussage: Wer eine Übersetzung braucht, muss selbst jemanden mitbringen.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Eine Wohnung kündigen",
+    "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
+    "payload": {
+      "instructions": "Familie Nkemelu zieht um. Ordnen Sie die Schritte vom ersten bis zum letzten.",
+      "items": [
+        "Die Kündigung schriftlich und fristgerecht an die Verwaltung schicken",
+        "Einen Termin für die Wohnungsabgabe vereinbaren",
+        "Die Wohnung reinigen und kleine Schäden reparieren",
+        "Die Wohnung gemeinsam mit der Verwaltung abnehmen und das Protokoll unterschreiben",
+        "Die Schlüssel übergeben"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Aushang im Quartiertreff",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Deutsch am Mittwoch — Konversationsgruppe\n\nJeden Mittwoch von 14.00 bis 15.30 Uhr treffen wir uns im Quartiertreff und sprechen Deutsch. Wir üben Situationen aus dem Alltag: beim Arzt, auf der Gemeinde, am Elternabend.\n\nDie Gruppe ist kostenlos. Eine Anmeldung ist nicht nötig — kommen Sie einfach vorbei. Kinderbetreuung ist vorhanden.\n\nWichtig: Wir sprechen Standarddeutsch, damit alle mitmachen können.",
+      "question": "Was ist an dieser Gruppe besonders?",
+      "options": [
+        "Man muss sich vorher anmelden",
+        "Man bezahlt einen kleinen Beitrag",
+        "Es wird Standarddeutsch und nicht Dialekt gesprochen",
+        "Sie findet nur für Eltern statt"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Information zur Einbürgerung",
+    "prompt": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Ordentliche Einbürgerung\n\nWer sich ordentlich einbürgern lassen möchte, muss mehrere Voraussetzungen erfüllen. Der Bund verlangt unter anderem den Nachweis von Sprachkenntnissen: mündlich mindestens Niveau B1, schriftlich mindestens Niveau A2 in einer Landessprache.\n\nDiese Werte sind Mindestanforderungen des Bundes. Kanton und Gemeinde entscheiden über Ihr Gesuch und können zusätzliche Anforderungen stellen. Erkundigen Sie sich deshalb frühzeitig bei Ihrer Wohngemeinde, welche Regeln für Sie gelten.",
+      "question": "Was sagt das Merkblatt über die Anforderungen von Kanton und Gemeinde?",
+      "options": [
+        "Sie sind in der ganzen Schweiz gleich",
+        "Sie dürfen nicht über die Mindestanforderungen des Bundes hinausgehen",
+        "Sie können strenger sein als die Mindestanforderungen des Bundes",
+        "Sie gelten nur für die schriftlichen Sprachkenntnisse"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Auszug aus dem Arbeitsvertrag",
+    "prompt": "Lesen Sie den Auszug und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Die Probezeit {{1}} drei Monate. Während dieser Zeit kann das Arbeitsverhältnis von beiden Seiten mit einer Frist von sieben Tagen gekündigt werden. Nach Ablauf der Probezeit {{2}} eine Kündigungsfrist von zwei Monaten auf das Ende eines Monats. Die Arbeitnehmerin hat Anspruch {{3}} vier Wochen bezahlte Ferien pro Jahr.",
+      "gaps": [
+        { "id": 1, "options": ["beträgt", "bekommt", "gehört", "bedeutet"] },
+        { "id": 2, "options": ["gilt", "geht", "steht", "bleibt"] },
+        { "id": 3, "options": ["auf", "für", "an", "über"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Zwei Meinungen zum Vereinsleben",
+    "prompt": "Lesen Sie die beiden Beiträge aus der Quartierzeitung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Dilan (34): «Als ich hierhergezogen bin, kannte ich niemanden. Im Turnverein habe ich innerhalb von zwei Monaten mehr Leute kennengelernt als vorher in zwei Jahren. Man muss nicht perfekt Deutsch sprechen — man muss einfach hingehen. Das Reden kommt dann von allein.»\n\nMarco (51): «Ich höre oft, man solle einem Verein beitreten, dann klappe die Integration schon. So einfach ist es nicht. Wer den ganzen Tag arbeitet und abends die Kinder betreut, hat schlicht keine Zeit dafür. Vereine sind schön, aber sie sind kein Ersatz für bezahlbare Sprachkurse zu Zeiten, an denen berufstätige Menschen auch wirklich können.»",
+      "question": "Worin sind sich Dilan und Marco NICHT einig?",
+      "options": [
+        "Ob Vereine überhaupt Kontakte ermöglichen",
+        "Ob ein Verein für alle ein realistischer Weg ist",
+        "Ob man für einen Verein perfekt Deutsch können muss",
+        "Ob Sprachkurse zu teuer sind"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "An welche Stelle wende ich mich?",
+    "prompt": "Ordnen Sie jedem Anliegen die passende Stelle zu.",
+    "payload": {
+      "instructions": "Vier Personen brauchen Hilfe. Ordnen Sie jedem Anliegen die passende Stelle zu. Nicht alle Stellen werden gebraucht.",
+      "left": [
+        "Frau Silva ist umgezogen und muss ihre neue Adresse offiziell melden.",
+        "Herr Demir hat eine Rechnung erhalten, die er nicht versteht, und möchte eine unabhängige Beratung.",
+        "Frau Weber findet, ihre Vermieterin habe den Mietzins ohne Grund erhöht.",
+        "Herr Abebe möchte wissen, welche Unterlagen er für sein Einbürgerungsgesuch braucht."
+      ],
+      "right": [
+        "Einwohnerdienste der Gemeinde",
+        "Konsumentenschutz-Beratungsstelle",
+        "Schlichtungsbehörde in Mietsachen",
+        "Sekretariat der Wohngemeinde für Einbürgerungen",
+        "Kantonspolizei",
+        "Betreibungsamt"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

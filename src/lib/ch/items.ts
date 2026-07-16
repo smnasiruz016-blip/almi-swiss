@@ -28,6 +28,7 @@ import type {
   ObjectiveAnswer,
 } from "./types";
 import { ALL_EXAMS } from "./registry";
+import type { ExamMeta } from "./registry";
 
 /** A single authored item, matching the SwissItem content fields (no DB id). */
 export interface SwissItemSeed {
@@ -49,11 +50,29 @@ export interface SwissItemSeed {
 // inherited one still named sfi-*.json and tisus-*.json bundles months after the
 // tree had moved on. Deriving them means the tree and the content pipeline cannot
 // disagree about what should exist.
-function bundleFilesFor(e: (typeof ALL_EXAMS)[number]): string[] {
-  return e.skills.map((skill) => `${e.slug}-${skill.toLowerCase()}.json`);
+//
+// ⚠️ The unit of content is the REGISTRY ENTRY (its slug), NOT (exam, skill).
+// `exam` does not identify a surface: FIDE appears under CITIZENSHIP, C_PERMIT and
+// GETTING_STARTED — same test, three goals, different content and difficulty. An
+// early version of this file filtered on (language, exam, skill) and so returned the
+// citizenship items for all three tracks, counting each item three times and letting
+// the last track silently claim them. Rule #7 would then have read as satisfied for
+// modules with no content of their own. Slugs encode (base, language) and are unique
+// per entry, so loading BY SLUG is unambiguous by construction.
+function bundleFileFor(e: ExamMeta, skill: SwissSkill): string {
+  return `${e.slug}-${skill.toLowerCase()}.json`;
+}
+
+function bundleFilesFor(e: ExamMeta): string[] {
+  return e.skills.map((skill) => bundleFileFor(e, skill));
 }
 
 export const BUNDLE_FILES: string[] = ALL_EXAMS.flatMap(bundleFilesFor);
+
+/** Items for ONE registry entry + skill — the only unambiguous lookup. */
+export function itemsForSurface(e: ExamMeta, skill: SwissSkill): SwissItemSeed[] {
+  return loadBundle(bundleFileFor(e, skill));
+}
 
 const ITEMS_DIR = path.join(process.cwd(), "src", "data", "items");
 
@@ -80,15 +99,19 @@ function allItems(): SwissItemSeed[] {
   return cache;
 }
 
-/** Filtered item lookup. `language` is required — see the note at the top. */
+/** Filtered item lookup across surfaces. `language` and `track` are both required:
+ *  language because three languages share a tree, and track because `exam` alone is
+ *  ambiguous (FIDE spans CITIZENSHIP, C_PERMIT and GETTING_STARTED). For a single
+ *  surface prefer itemsForSurface(), which cannot be ambiguous at all. */
 export function getItems(
   language: SwissLanguage,
-  filter: { track?: SwissTrack; exam?: SwissExam; skill?: SwissSkill } = {},
+  track: SwissTrack,
+  filter: { exam?: SwissExam; skill?: SwissSkill } = {},
 ): SwissItemSeed[] {
   return allItems().filter(
     (it) =>
       it.language === language &&
-      (filter.track === undefined || it.track === filter.track) &&
+      it.track === track &&
       (filter.exam === undefined || it.exam === filter.exam) &&
       (filter.skill === undefined || it.skill === filter.skill),
   );
@@ -135,22 +158,19 @@ function stableShuffle<T>(arr: T[], seed: number): T[] {
  * stable reshuffle for variety. Never uses Math.random.
  */
 export function pickPractice(
-  language: SwissLanguage,
-  exam: SwissExam,
+  e: ExamMeta,
   skill: SwissSkill,
   n: number,
   seed?: number,
 ): SwissItemSeed[] {
-  const pool = getItems(language, { exam, skill });
+  const pool = itemsForSurface(e, skill);
   const ordered =
-    seed === undefined
-      ? pool
-      : stableShuffle(pool, seed ^ hashSeed(`${language}:${exam}:${skill}`));
+    seed === undefined ? pool : stableShuffle(pool, seed ^ hashSeed(`${e.slug}:${skill}`));
   return ordered.slice(0, Math.max(0, n));
 }
 
 /** How many items exist for a surface — the Rule #7 (≥15 per module per language
  *  track) check, and the honest answer to "is this module ready to ship?". */
-export function itemCount(language: SwissLanguage, exam: SwissExam, skill: SwissSkill): number {
-  return getItems(language, { exam, skill }).length;
+export function itemCount(e: ExamMeta, skill: SwissSkill): number {
+  return itemsForSurface(e, skill).length;
 }

@@ -126,6 +126,13 @@ export const STANDARD_GERMAN_NOTE =
   "Daily life in German-speaking Switzerland runs largely on Swiss-German dialect, but the recognised tests — fide, telc, Goethe — are set in Standard German. Practise Standard German for the test; expect dialect around you.";
 
 // Per-skill readiness thresholds (honest). Shown as an estimate, clearly labelled.
+/** Rule #7: every skill/component module must carry at least this many ORIGINAL
+ *  tasks — PER LANGUAGE TRACK, not per exam. German and French are separate bars:
+ *  15 German tasks do not make the French module ready. A module below this is not
+ *  listed as shipping (see SHIPPING_LANGUAGES in types.ts) — a half-built module is
+ *  more dangerous than an absent one, because the tree makes it look ready. */
+export const MIN_TASKS_PER_MODULE = 15;
+
 export const READY_PCT = 70; // CLEAR — comfortably meeting the level's demands
 export const BORDERLINE_PCT = 55; // BORDERLINE — close, needs consolidation
 
