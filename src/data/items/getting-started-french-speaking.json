@@ -1,0 +1,336 @@
+[
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Dire bonjour",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Vous rencontrez une nouvelle voisine dans la cage d'escalier. Saluez-la, dites qui vous êtes, où vous habitez et depuis quand.",
+      "criteria": [
+        "Salue et donne son nom",
+        "Dit l'appartement ou l'étage",
+        "Dit depuis quand vous habitez là",
+        "Parle en phrases courtes et entières"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Acheter quelque chose",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes à la boulangerie. Vous voulez deux pains et quatre croissants. Demandez aussi le prix.",
+      "criteria": [
+        "Dit clairement ce que vous voulez et combien",
+        "Demande le prix",
+        "Dit s'il vous plaît et merci",
+        "Comprend la réponse et réagit"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Votre famille",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Parlez de votre famille : qui en fait partie, quel âge ont les enfants ou les frères et sœurs, où ils habitent.",
+      "criteria": [
+        "Nomme plusieurs personnes",
+        "Dit l'âge ou le lieu",
+        "Parle en phrases entières",
+        "Parle sans très longues pauses"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Demander son chemin",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez la gare. Demandez à quelqu'un dans la rue. Demandez aussi combien de temps il faut à pied.",
+      "criteria": [
+        "Aborde la personne poliment",
+        "Pose la question clairement",
+        "Demande la durée",
+        "Remercie"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Votre matinée",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Racontez ce que vous faites normalement le matin : quand vous vous levez, ce que vous mangez, comment vous allez au travail ou au cours.",
+      "criteria": [
+        "Raconte dans l'ordre",
+        "Donne des heures (à sept heures, ensuite, après)",
+        "Parle au présent",
+        "Compréhensible"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Prendre rendez-vous au téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous téléphonez au coiffeur pour un rendez-vous. Dites qui vous êtes, ce que vous voulez et quand vous êtes libre. La première proposition ne vous convient pas.",
+      "criteria": [
+        "Donne son nom et le motif de l'appel",
+        "Donne des moments concrets",
+        "Refuse poliment la proposition et en propose une autre",
+        "Répète le rendez-vous à la fin"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Chez le médecin : qu'est-ce que vous avez ?",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes enrhumé. Dites au médecin ce que vous avez, depuis quand, et ce que vous avez déjà fait.",
+      "criteria": [
+        "Nomme au moins deux symptômes",
+        "Dit depuis quand",
+        "Dit ce que vous avez déjà essayé",
+        "Pose une question en retour"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Décrire une pièce",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Décrivez votre appartement ou votre chambre : combien de pièces, ce qui se trouve où, ce qui vous plaît et ce qui ne vous plaît pas.",
+      "criteria": [
+        "Décrit plusieurs choses",
+        "Dit où se trouve quelque chose (à gauche, à droite, à côté de)",
+        "Dit ce qui plaît et ce qui ne plaît pas",
+        "Parle 40 secondes de manière liée"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Échanger un article",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous avez acheté des chaussures. Elles sont trop petites. Vous retournez au magasin. Expliquez le problème et dites ce que vous voulez.",
+      "criteria": [
+        "Explique le problème clairement",
+        "Dit ce que vous voulez (une pointure au-dessus ou un remboursement)",
+        "Réagit à une question",
+        "Reste aimable"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Emprunter quelque chose",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'une perceuse pour une heure. Demandez à votre voisin.",
+      "criteria": [
+        "Demande poliment",
+        "Dit pour quoi faire et pour combien de temps",
+        "Dit quand vous la rendez",
+        "Remercie"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Plus lentement, s'il vous plaît",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Au guichet, la personne parle très vite et vous ne comprenez pas tout. Dites-le et demandez de l'aide. Dites aussi ce que vous avez déjà compris.",
+      "criteria": [
+        "Dit ouvertement que vous n'avez pas tout compris",
+        "Demande de parler plus lentement ou de répéter",
+        "Dit ce que vous avez déjà compris",
+        "Reste calme et poli — demander n'est pas une faute"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Parler de son travail",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Parlez de votre travail, ou d'un travail que vous avez fait avant : ce que vous faites ou faisiez, avec qui, ce qui est bien et ce qui est difficile.",
+      "criteria": [
+        "Répond à tous les points",
+        "Donne des exemples concrets, pas seulement « c'est bien »",
+        "Parle 50 secondes de manière liée",
+        "Relie les phrases (parce que, mais, et ensuite)",
+        "Compréhensible"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Expliquer quelque chose",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Une nouvelle voisine vous demande comment ça marche avec les déchets. Expliquez-lui ce que vous faites dans votre immeuble : quand quoi est ramassé, et où on apporte quoi.",
+      "criteria": [
+        "Explique étape par étape",
+        "Donne des jours ou des lieux",
+        "Dit aussi quand vous n'êtes pas sûr, au lieu de deviner",
+        "Demande à la fin si elle a compris",
+        "Parle 50 secondes"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Comparer : ville ou campagne",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Préférez-vous habiter en ville ou à la campagne ? Dites ce qui vous plaît et ce qui ne vous plaît pas, et pourquoi.",
+      "criteria": [
+        "Nomme les deux côtés, pas seulement un",
+        "Dit clairement ce que vous préférez",
+        "Justifie avec « parce que »",
+        "Parle 50 secondes sans s'interrompre",
+        "Compréhensible"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Clarifier un malentendu",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Vous aviez rendez-vous à 14h, mais au guichet on vous dit que votre rendez-vous était à 11h. Vous l'aviez noté autrement. Expliquez calmement ce que vous aviez compris et demandez ce qui est possible maintenant.",
+      "criteria": [
+        "Dit calmement ce que vous aviez compris",
+        "Ne hausse pas le ton et ne s'excuse pas de manière excessive",
+        "Demande une solution",
+        "Réagit à une question",
+        "Parle avec aisance même dans une situation désagréable"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Les heures d'ouverture de la boulangerie",
+    "prompt": "Lisez le panneau et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Boulangerie Perret\n\nDu lundi au vendredi : 6h00–18h30\nSamedi : 6h00–16h00\nDimanche : fermé",
+      "question": "Quand la boulangerie est-elle fermée ?",
+      "options": ["Le samedi", "Le dimanche", "Le lundi", "Le vendredi"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Un SMS d'une amie",
+    "prompt": "Lisez le message et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Salut ! On se retrouve à 14h devant la gare. Prends un parapluie, il pleut. À tout à l'heure !",
+      "question": "Que devez-vous prendre ?",
+      "options": ["Un parapluie", "Un livre", "Du café", "Un billet"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Le planning de la buanderie",
+    "prompt": "Lisez le planning. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Buanderie — planning\n\nLundi : appartement 1\nMardi : appartement 2\nMercredi : appartement 3\nJeudi : appartement 4\nVendredi : libre\n\nMerci de nettoyer la machine après usage.",
+      "question": "Affirmation : l'appartement 3 lave le mercredi.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Où est-ce que j'achète ça ?",
+    "prompt": "Associez chaque chose au bon endroit.",
+    "payload": {
+      "instructions": "Associez. Tous les endroits ne sont pas utilisés.",
+      "left": ["Du pain", "Des médicaments", "Des timbres", "Un billet de train"],
+      "right": ["La boulangerie", "La pharmacie", "La poste", "La gare", "La buanderie"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Un mot dans la cage d'escalier",
+    "prompt": "Lisez le mot et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chers voisins,\n\nSamedi, on nous livre un nouveau frigo. Les livreurs ont besoin de l'ascenseur de 9h à 11h.\n\nDésolés et merci !\nFamille Rochat, appartement 5",
+      "question": "Que se passe-t-il samedi de 9h à 11h ?",
+      "options": [
+        "L'ascenseur est utilisé",
+        "La buanderie est fermée",
+        "Il y a une fête",
+        "Il n'y a pas d'électricité"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "L'horaire du bus",
+    "prompt": "Lisez l'horaire et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Bus 12 — direction Hôpital\n\ndépart Place du Village : 7h05 · 7h35 · 8h05 · 8h35\nDurée jusqu'à l'hôpital : 20 minutes\n\nLe week-end, le bus passe toutes les heures.",
+      "question": "Vous avez rendez-vous à 8h00 à l'hôpital. Quel bus prenez-vous ?",
+      "options": ["7h05", "7h35", "8h05", "8h35"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Un mot à la cheffe",
+    "prompt": "Lisez le message et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Bonjour Madame Bovay,\n\nJe suis malade et je ne peux pas {{1}} aujourd'hui. Je vais chez le {{2}} à 10h. Demain, je serai là, j'espère.\n\nMeilleures {{3}}\nAmina",
+      "gaps": [
+        { "id": 1, "options": ["travailler", "manger", "dormir", "acheter"] },
+        { "id": 2, "options": ["médecin", "voisin", "marché", "train"] },
+        { "id": 3, "options": ["salutations", "journées", "semaines", "années"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Une action au magasin",
+    "prompt": "Lisez le panneau et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "ACTION cette semaine\n\nPommes, 1 kg : au lieu de 4.50, seulement 3.20\nLait, 1 litre : 1.60\nFromage, 200 g : 4.80\n\nValable jusqu'à samedi.",
+      "question": "Combien coûtent les pommes maintenant ?",
+      "options": ["4.50", "3.20", "1.60", "4.80"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Un mot du voisin",
+    "prompt": "Lisez le mot. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Bonjour,\n\nUn colis est arrivé pour vous. Je l'ai pris chez moi. Je suis à la maison le soir, après 18h.\n\nM. Pittet, appartement 2",
+      "question": "Affirmation : le colis est chez Monsieur Pittet.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Téléphoner au cabinet médical",
+    "prompt": "Mettez les étapes dans le bon ordre.",
+    "payload": {
+      "instructions": "Vous prenez rendez-vous chez le médecin. Classez de la première à la dernière étape.",
+      "items": [
+        "Téléphoner au cabinet",
+        "Dire votre nom",
+        "Dire ce que vous avez",
+        "Convenir d'un rendez-vous",
+        "Aller au cabinet le jour du rendez-vous"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Les déchets dans le quartier",
+    "prompt": "Lisez l'information et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Déchets\n\nLes ordures sont ramassées le mardi et le vendredi, tôt le matin.\nMerci de sortir les sacs seulement la veille au soir.\n\nPapier : le premier jeudi du mois.",
+      "question": "Quand sortez-vous le sac pour le mardi ?",
+      "options": [
+        "Le lundi soir",
+        "Le mardi soir",
+        "Le dimanche matin",
+        "Le premier jeudi du mois"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Une lettre de l'école",
+    "prompt": "Lisez la lettre et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chers parents,\n\nLe mercredi 14 mai, nous faisons une sortie au zoo. Nous partons en train à 8h30 et nous rentrons à 16h.\n\nVotre enfant a besoin de : bonnes chaussures, une veste, un pique-nique et une bouteille d'eau. La sortie est gratuite.\n\nMeilleures salutations\nD. Chappuis",
+      "question": "Qu'est-ce qui est exact ?",
+      "options": [
+        "Les parents doivent payer la sortie",
+        "Les enfants mangent au restaurant",
+        "Les enfants apportent à manger de la maison",
+        "La sortie se termine le matin"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "L'horaire de travail",
+    "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Cette semaine, vous travaillez du lundi {{1}} jeudi. Le lundi, vous commencez {{2}} 7h. Le jeudi, vous terminez {{3}} 16h. Le vendredi est libre.",
+      "gaps": [
+        { "id": 1, "options": ["au", "depuis", "pour", "sans"] },
+        { "id": 2, "options": ["à", "en", "de", "par"] },
+        { "id": 3, "options": ["à", "dans", "sur", "vers le"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Annonce : chambre à louer",
+    "prompt": "Lisez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chambre dans un appartement de 3 pièces\n\n15 m², meublée, dès le 1er septembre.\nLoyer : 650 francs par mois, charges comprises.\nCuisine et salle de bain partagées avec deux personnes.\nNon-fumeur, pas d'animaux.\n\nContact par courriel uniquement.",
+      "question": "Qu'est-ce qui est exact ?",
+      "options": [
+        "Il faut ajouter les charges aux 650 francs",
+        "La cuisine et la salle de bain sont pour vous seul",
+        "On peut téléphoner ou écrire un courriel",
+        "Les charges sont déjà comprises dans les 650 francs"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "Qui peut aider ?",
+    "prompt": "Associez chaque situation au bon endroit.",
+    "payload": {
+      "instructions": "Quatre personnes ont besoin d'aide. Associez. Tous les endroits ne sont pas utilisés.",
+      "left": [
+        "Madame Ali a très mal aux dents.",
+        "Monsieur Novak a oublié sa clé dans l'appartement.",
+        "Madame Berisha cherche un cours de français le soir.",
+        "Monsieur Tran a perdu son porte-monnaie dans le bus."
+      ],
+      "right": [
+        "Le dentiste",
+        "Le concierge ou la régie",
+        "Une école de langue ou l'université populaire",
+        "Les objets trouvés",
+        "La boulangerie",
+        "La bibliothèque"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

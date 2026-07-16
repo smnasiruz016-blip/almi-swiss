@@ -1,0 +1,294 @@
+[
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Ansage im Laden",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, wir schliessen in zehn Minuten. Bitte kommen Sie zur Kasse. Wir öffnen morgen wieder um acht Uhr. Vielen Dank und auf Wiedersehen.",
+      "question": "Was passiert in zehn Minuten?",
+      "options": ["Der Laden macht zu", "Der Laden macht auf", "Es gibt eine Aktion", "Die Kasse ist kaputt"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Eine Nachricht von Sara",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hoi, hier ist Sara. Ich komme heute ein bisschen später, so um halb sieben. Ich bin noch im Büro. Fang bitte schon mal an zu kochen. Danke, bis nachher!",
+      "question": "Wann kommt Sara?",
+      "options": ["Um sechs Uhr", "Um halb sieben", "Um sieben Uhr", "Um halb acht"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Das Wetter am Radio",
+    "prompt": "Hören Sie den Wetterbericht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Und jetzt das Wetter. Heute Nachmittag regnet es im ganzen Land. Es ist kühl, nur zwölf Grad. Am Abend hört der Regen auf. Morgen scheint die Sonne.",
+      "question": "Aussage: Morgen regnet es wieder.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "An der Kasse",
+    "prompt": "Hören Sie die Verkäuferin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "So, das macht zusammen zwölf Franken vierzig. Zahlen Sie bar oder mit Karte? … Mit Karte, gut. Bitte hier eingeben. Danke vielmal, schönen Tag!",
+      "question": "Wie viel kostet es?",
+      "options": ["2.40", "12.40", "12.14", "20.40"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Die Nachbarin klingelt",
+    "prompt": "Hören Sie die Nachbarin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag! Entschuldigung, ich bin Frau Lehmann von nebenan. Ich habe kein Salz mehr. Haben Sie vielleicht ein bisschen Salz für mich? Ich gebe es Ihnen morgen zurück.",
+      "question": "Was möchte Frau Lehmann?",
+      "options": ["Salz", "Zucker", "Milch", "Einen Schlüssel"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Anruf von der Praxis",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Herr Osman. Hier ist die Praxis Dr. Frei. Ihr Termin ist am Donnerstag um elf Uhr. Bitte bringen Sie Ihre Versichertenkarte mit. Wenn Sie nicht kommen können, rufen Sie uns bitte einen Tag vorher an. Danke und auf Wiederhören.",
+      "question": "Was soll Herr Osman mitbringen?",
+      "options": ["Seine Versichertenkarte", "Eine Rechnung", "Ein Foto", "Seinen Pass"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Durchsage im Zug",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Meine Damen und Herren, wir kommen in wenigen Minuten in Olten an. Bitte steigen Sie hier um, wenn Sie nach Basel fahren. Der Zug nach Basel fährt auf Gleis 9. Wir haben heute fünf Minuten Verspätung.",
+      "question": "Was müssen Sie tun, wenn Sie nach Basel wollen?",
+      "options": [
+        "Sitzen bleiben",
+        "In Olten umsteigen",
+        "In Basel auf Gleis 9 gehen",
+        "Fünf Minuten warten und dann aussteigen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Nachricht vom Hauswart",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist der Hauswart. Am Mittwochmorgen kommt der Maler ins Treppenhaus. Von acht bis zwölf können Sie den Lift nicht brauchen. Die Treppe geht natürlich. Am Nachmittag ist alles wieder normal. Danke für Ihr Verständnis.",
+      "question": "Aussage: Am Mittwochmorgen kann man die Treppe nicht brauchen.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Vier kurze Nachrichten",
+    "prompt": "Hören Sie die vier Nachrichten und ordnen Sie jede dem richtigen Thema zu.",
+    "payload": {
+      "instructions": "Ordnen Sie jede Nachricht dem passenden Thema zu. Nicht alle Themen werden gebraucht.",
+      "transcript": "Nachricht 1: Hallo, hier ist die Garage Studer. Ihr Auto ist fertig. Sie können es ab morgen holen.\n\nNachricht 2: Guten Tag, hier ist die Bibliothek. Ihr Buch ist da. Wir behalten es eine Woche für Sie.\n\nNachricht 3: Hoi, ich bin's. Kannst du Brot kaufen? Wir haben keines mehr. Danke!\n\nNachricht 4: Guten Tag, hier ist die Schule. Ihre Tochter hat ihre Jacke vergessen. Sie ist im Sekretariat.",
+      "left": ["Nachricht 1", "Nachricht 2", "Nachricht 3", "Nachricht 4"],
+      "right": [
+        "Etwas ist repariert und kann geholt werden",
+        "Etwas Bestelltes ist angekommen",
+        "Jemand bittet um einen Einkauf",
+        "Ein Kind hat etwas liegen lassen",
+        "Ein Termin fällt aus"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Der Weg zur Post",
+    "prompt": "Hören Sie die Antwort und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Zur Post? Das ist ganz einfach. Gehen Sie hier geradeaus bis zur Ampel. Dann rechts. Die Post ist nach etwa zweihundert Metern auf der linken Seite, neben der Apotheke. Zu Fuss sind das fünf Minuten.",
+      "question": "Wo ist die Post?",
+      "options": [
+        "Bei der Ampel links",
+        "Neben der Apotheke, auf der linken Seite",
+        "Geradeaus nach fünf Minuten auf der rechten Seite",
+        "Zweihundert Meter vor der Ampel"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Im Kurs: Information",
+    "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Noch eine Information zum Kurs: Nächste Woche ist am Montag Feiertag. Wir haben also keinen Unterricht. Dafür treffen wir uns am Mittwoch, gleiche Zeit, gleiches Zimmer. Bitte schreiben Sie das auf.",
+      "question": "Was ändert sich nächste Woche?",
+      "options": [
+        "Der Unterricht ist am Mittwoch statt am Montag",
+        "Der Unterricht ist in einem anderen Zimmer",
+        "Der Unterricht beginnt später",
+        "Es gibt nächste Woche keinen Unterricht"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Etwas gegen die Erkältung holen",
+    "prompt": "Hören Sie die Apothekerin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Also, gegen die Erkältung nehmen Sie das hier: morgens und abends eine Tablette, immer nach dem Essen. Nicht mehr als zwei pro Tag. Trinken Sie viel Wasser. Wenn es nach fünf Tagen nicht besser ist, gehen Sie bitte zum Arzt.",
+      "question": "Was soll die Person tun, wenn es nach fünf Tagen nicht besser ist?",
+      "options": [
+        "Mehr Tabletten nehmen",
+        "Zum Arzt gehen",
+        "Noch fünf Tage warten",
+        "Wieder in die Apotheke kommen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Der erste Arbeitstag",
+    "prompt": "Hören Sie den Chef und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herzlich willkommen! Also, Sie fangen um sieben Uhr an. Um neun machen wir eine kurze Pause, fünfzehn Minuten. Mittag ist von zwölf bis halb eins. Wenn Sie etwas nicht verstehen, fragen Sie bitte sofort — lieber einmal zu viel gefragt als etwas falsch gemacht. Frau Meier zeigt Ihnen alles.",
+      "question": "Was sagt der Chef über Fragen?",
+      "options": [
+        "Man soll erst am Ende des Tages fragen",
+        "Man soll sofort fragen, wenn man etwas nicht versteht",
+        "Man soll nur Frau Meier fragen, nicht ihn",
+        "Man soll möglichst wenig fragen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Mundart und Hochdeutsch",
+    "prompt": "Hören Sie die Kursleiterin. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Etwas, das viele am Anfang überrascht: In der Bäckerei, im Tram, bei den Nachbarn hören Sie meistens Dialekt. Aber Ihr Kurs, Ihre Prüfung und die Briefe von der Gemeinde sind auf Hochdeutsch. Das ist normal, und Sie können jederzeit sagen: «Entschuldigung, sprechen Sie bitte Hochdeutsch.» Die meisten Leute machen das gerne. Sie müssen keinen Dialekt sprechen.",
+      "question": "Aussage: Man muss Dialekt sprechen können.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Zwei Kolleginnen sprechen über den Weg zur Arbeit",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "— Wie kommst du eigentlich zur Arbeit?\n— Mit dem Velo, immer. Zwanzig Minuten. Und du?\n— Mit dem Bus. Aber am Morgen ist er oft voll, und wenn es Stau gibt, komme ich zu spät.\n— Und mit dem Velo? Du wohnst doch nicht weit.\n— Ja, das denke ich auch oft. Aber im Winter, bei Regen … ich weiss nicht.\n— Probier es doch im Frühling einmal aus. Nur eine Woche.",
+      "question": "Was schlägt die erste Kollegin vor?",
+      "options": [
+        "Den Bus früher zu nehmen",
+        "Im Frühling eine Woche mit dem Velo zu fahren",
+        "Näher bei der Arbeit zu wohnen",
+        "Im Winter zu Fuss zu gehen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]
