@@ -1,0 +1,303 @@
+[
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Les trois niveaux politiques",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "En Suisse, trois niveaux politiques se partagent le pouvoir. Lesquels ?",
+      "options": [
+        "La Confédération, les 26 cantons et les communes",
+        "La Confédération et les 26 cantons",
+        "Le Conseil fédéral, le Parlement et les tribunaux",
+        "Les communes et les régions linguistiques"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Les langues nationales",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Selon la Constitution fédérale, quelles sont les langues nationales de la Suisse ?",
+      "options": [
+        "L'allemand et le français",
+        "L'allemand, le français et l'italien",
+        "L'allemand, le français, l'italien et le romanche",
+        "L'allemand, le français, l'italien et l'anglais"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Le Conseil fédéral",
+    "prompt": "L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "question": "Affirmation : le Conseil fédéral compte sept membres.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "L'assurance maladie après l'arrivée",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Vous prenez domicile en Suisse. Dans quel délai devez-vous conclure une assurance maladie ?",
+      "options": [
+        "Dans les trois mois qui suivent la prise de domicile",
+        "Dans les douze mois qui suivent la prise de domicile",
+        "Seulement lorsque vous allez chez le médecin pour la première fois",
+        "Uniquement si vous exercez une activité lucrative"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Existe-t-il un examen national ?",
+    "prompt": "L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "question": "Affirmation : il existe un examen national unique d'instruction civique, valable pour toute la Suisse et identique dans toutes les communes.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "La présidence de la Confédération",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Qu'est-ce qui est exact au sujet de la présidence de la Confédération ?",
+      "options": [
+        "Elle est assurée pendant un an par un membre du Conseil fédéral ; cette personne est « primus inter pares » et n'est pas au-dessus des autres",
+        "Elle est élue pour quatre ans par le peuple et dirige le gouvernement",
+        "Elle dure un an et donne un droit de veto au sein du Conseil fédéral",
+        "Elle est assurée à vie"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Les chiffres des institutions",
+    "prompt": "Associez chaque institution au bon chiffre.",
+    "payload": {
+      "instructions": "Faites correspondre. Tous les chiffres ne sont pas utilisés.",
+      "left": ["Le Conseil national compte …", "Le Conseil des États compte …", "Le Conseil fédéral compte …", "La Suisse compte …"],
+      "right": ["200 membres", "46 membres", "7 membres", "26 cantons", "4 tribunaux fédéraux", "100 membres"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "L'initiative populaire",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Combien de signatures valables faut-il pour une initiative populaire fédérale, et dans quel délai ?",
+      "options": [
+        "50 000 signatures en 100 jours",
+        "100 000 signatures en 18 mois",
+        "100 000 signatures en 100 jours",
+        "50 000 signatures en 18 mois"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Le référendum facultatif",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Le Parlement a adopté une nouvelle loi. Un comité s'y oppose et veut une votation populaire. Que faut-il ?",
+      "options": [
+        "50 000 signatures valables dans les 100 jours qui suivent la publication",
+        "100 000 signatures valables en 18 mois",
+        "L'accord d'au moins dix cantons",
+        "Une décision du Tribunal fédéral"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Berne",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Quelle affirmation au sujet de Berne est exacte ?",
+      "options": [
+        "La Constitution désigne Berne comme la capitale de la Suisse",
+        "La Suisse n'a pas de capitale au sens juridique ; siège du gouvernement, Berne est appelée « ville fédérale »",
+        "Berne est la plus grande ville de Suisse",
+        "La capitale change tous les quatre ans entre les régions linguistiques"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "À quelle fréquence vote-t-on ?",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "À quelle fréquence les citoyennes et citoyens sont-ils appelés à voter au niveau fédéral ?",
+      "options": [
+        "Environ quatre fois par an",
+        "Une fois par an",
+        "Tous les quatre ans",
+        "Seulement si le Conseil fédéral le demande"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Qui décide d'une naturalisation ordinaire ?",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Vous déposez une demande de naturalisation ordinaire. Qui décide ?",
+      "options": [
+        "Le Secrétariat d'État aux migrations seul",
+        "Le canton et la commune de domicile — et ils peuvent exiger davantage que le minimum fédéral",
+        "Le Conseil fédéral",
+        "La commune, mais uniquement selon les règles fédérales, dont elle ne peut pas s'écarter"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Deux voies, deux autorités",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Pourquoi est-il important de distinguer la naturalisation facilitée de la naturalisation ordinaire ?",
+      "options": [
+        "Parce que la naturalisation facilitée n'exige aucune connaissance linguistique",
+        "Parce que pour la voie facilitée (p. ex. mariage avec une personne suisse), c'est le Secrétariat d'État aux migrations qui décide, alors que pour la voie ordinaire, ce sont le canton et la commune",
+        "Parce que les deux voies se déroulent dans des langues différentes",
+        "Parce que la naturalisation ordinaire n'est possible qu'en Suisse alémanique"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Dans quelle langue serez-vous évalué ?",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Dans quelle langue nationale devez-vous attester vos compétences linguistiques ?",
+      "options": [
+        "Dans la langue que vous choisissez vous-même",
+        "Toujours en allemand, parce que c'est la plus grande région linguistique",
+        "Dans la langue de votre canton et de votre commune — c'est un fait qui tient à votre domicile, pas une préférence",
+        "Dans deux langues nationales"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Ce que ce module est — et ce qu'il n'est pas",
+    "prompt": "Choisissez la bonne réponse.",
+    "payload": {
+      "question": "Vous avez terminé ce module d'instruction civique. Que signifie votre résultat ?",
+      "options": [
+        "C'est un résultat officiel que vous pouvez présenter à votre commune",
+        "C'est un entraînement. Il n'existe pas d'examen national ni de note de réussite valable dans tout le pays ; c'est votre commune qui décide si vous passez un test, un entretien, ou rien de tout cela — renseignez-vous auprès d'elle",
+        "Il correspond au test de votre canton",
+        "Il remplace l'attestation de langue"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]

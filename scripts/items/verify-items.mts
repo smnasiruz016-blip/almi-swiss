@@ -10,6 +10,8 @@
 // Also enforces Rule #7 (>=15 tasks per module per language track) so a module
 // cannot quietly ship half-built.
 
+import fs from "node:fs";
+import path from "node:path";
 import { itemsForSurface, BUNDLE_FILES } from "../../src/lib/ch/items";
 import { gradeObjective } from "../../src/lib/ch/grading";
 import { ALL_EXAMS, MIN_TASKS_PER_MODULE } from "../../src/lib/ch/registry";
@@ -129,6 +131,29 @@ if (shortfalls.length) {
 
 console.log(`\nBundles expected by the registry: ${BUNDLE_FILES.length}`);
 console.log(`Items found: ${allSeen.length}`);
+
+// ---- Orphan bundles: files nothing loads ----
+// loadBundle() returns [] for a missing file rather than throwing, which is right
+// for a module we have not written yet — but it also means a bundle saved under a
+// filename the registry does not derive is INVISIBLE. It parses, it self-grades,
+// and it ships to nobody. That happened: canton-civic-german.json instead of
+// canton-civic-german-knowledge.json (the name is `${slug}-${skill}`). Rule #7 sat
+// at 0 for a module that had 15 finished tasks, and the ONLY tell was a counter
+// that did not move. Same shape as every other absence bug here: nothing breaks.
+const ITEMS_DIR = path.join(process.cwd(), "src", "data", "items");
+const expected = new Set(BUNDLE_FILES);
+const orphans = fs
+  .readdirSync(ITEMS_DIR)
+  .filter((f) => f.endsWith(".json") && !expected.has(f));
+if (orphans.length) {
+  console.error(`\n${orphans.length} ORPHAN BUNDLE(S) — no registry entry loads these:`);
+  for (const o of orphans) console.error(`  ✗ ${o}`);
+  console.error(
+    "  Bundle filenames are derived: `${slug}-${skill.toLowerCase()}.json`.\n" +
+      "  Rename to a derived name, or delete it. A file nothing loads is not content."
+  );
+  process.exit(1);
+}
 
 if (problems.length) {
   console.error(`\n${problems.length} INTEGRITY PROBLEM(S):`);
