@@ -61,7 +61,7 @@ export default async function MockPage({
         </h1>
         <p className="mt-2 max-w-2xl text-sm text-almi-text">
           All parts in exam order (~{exam.mockMinutes} min). Nothing is marked until the end, then
-          you get an overall estimate — not an official UHR result.
+          you get an overall estimate — not an official result.
         </p>
       </header>
 

@@ -1,7 +1,7 @@
 // AI grading for the gated productive skills (Writing / Speaking). Sends the task
 // + the learner's written answer to Sonnet and returns an HONEST practice
 // readiness band (CLEAR / BORDERLINE / BELOW) with constructive, level-aware
-// feedback against the exam's own criteria — never an official result from UHR
+// feedback against the exam's own criteria — never an official result from
 // a fide test centre, a canton, or SEM.
 //
 // Graceful degradation: if ANTHROPIC_API_KEY is not yet provisioned the route

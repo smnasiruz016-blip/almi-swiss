@@ -72,7 +72,8 @@ export default async function PracticePage() {
 
       <p className="text-xs text-almi-text-muted">
         Every task here is written from scratch by AlmiSwiss. We never copy or reproduce official
-        test material, and we are not affiliated with UHR. Readiness bands are for practice only —
+        test material, and we are not affiliated with fide, SEM, or the bodies behind telc, Goethe,
+        DELF and TCF. Readiness bands are for practice only —
         confirm what you need with the body that decides it: your cantonal migration authority and your commune for an ordinary naturalisation, SEM for the facilitated route, and a recognised test centre for the test itself.
       </p>
     </div>
