@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Sich vorstellen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Stellen Sie sich vor: Woher kommen Sie, wie lange leben Sie schon hier, was machen Sie beruflich, und wer gehört zu Ihrer Familie?",
+      "criteria": [
+        "Beantwortet alle vier Punkte der Aufgabe",
+        "Spricht in ganzen Sätzen, nicht in einzelnen Wörtern",
+        "Ist verständlich, auch wenn die Aussprache einen Akzent hat",
+        "Spricht ohne lange Pausen zwischen den Sätzen"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Einen Termin vereinbaren",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie rufen bei einer Arztpraxis an und möchten einen Termin. Sagen Sie, wer Sie sind, was Sie haben, und wann Sie Zeit haben. Fragen Sie auch, was Sie mitbringen müssen.",
+      "criteria": [
+        "Nennt den eigenen Namen und das Anliegen zu Beginn",
+        "Nennt konkrete Zeiten, an denen es passt",
+        "Stellt mindestens eine Frage",
+        "Angemessene Höflichkeitsformen am Telefon"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Den Weg beschreiben",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand fragt Sie auf der Strasse, wie man vom Bahnhof zu Ihrer Wohnung kommt. Beschreiben Sie den Weg.",
+      "criteria": [
+        "Beschreibt den Weg in einer nachvollziehbaren Reihenfolge",
+        "Nennt Richtungen und mindestens einen Orientierungspunkt",
+        "Verwendet Wörter wie zuerst, dann, danach",
+        "Wäre für eine ortsfremde Person tatsächlich brauchbar"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Etwas im Laden zurückgeben",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben eine Jacke gekauft, aber sie ist zu klein. Sie gehen zurück in den Laden. Erklären Sie Ihr Anliegen und fragen Sie nach einer Lösung.",
+      "criteria": [
+        "Erklärt das Problem klar",
+        "Sagt, was man möchte (umtauschen oder Geld zurück)",
+        "Reagiert auf eine mögliche Rückfrage (Quittung, Zustand)",
+        "Bleibt freundlich und bestimmt zugleich"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Am Schalter der Gemeinde",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind neu zugezogen und stehen am Schalter der Einwohnerdienste. Melden Sie sich an. Erklären Sie, seit wann Sie hier wohnen, und fragen Sie, welche Unterlagen fehlen und bis wann Sie sie bringen müssen.",
+      "criteria": [
+        "Bringt das Anliegen ohne Umwege auf den Punkt",
+        "Gibt die nötigen Angaben unaufgefordert",
+        "Stellt konkrete Fragen zu Unterlagen und Fristen",
+        "Verwendet die Sie-Form durchgehend korrekt",
+        "Kann eine Rückfrage aufnehmen und beantworten"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Ein Problem in der Wohnung melden",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Die Heizung in Ihrer Wohnung funktioniert seit drei Tagen nicht. Rufen Sie die Hausverwaltung an. Beschreiben Sie das Problem, sagen Sie, was Sie schon versucht haben, und fragen Sie, wann jemand kommt.",
+      "criteria": [
+        "Beschreibt das Problem konkret genug, um es einzuordnen",
+        "Nennt seit wann und was bereits versucht wurde",
+        "Formuliert eine klare Erwartung",
+        "Bleibt sachlich, obwohl die Situation ärgerlich ist",
+        "Kann nachfragen, wenn die Antwort vage bleibt"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Gespräch mit der Lehrperson",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben ein Gespräch mit der Lehrerin Ihres Kindes. Sie machen sich Sorgen, weil Ihr Kind bei den Hausaufgaben nicht mitkommt. Beschreiben Sie, was Sie zu Hause beobachten, und fragen Sie, was Sie tun können.",
+      "criteria": [
+        "Beschreibt konkrete Beobachtungen, nicht nur ein Gefühl",
+        "Formuliert die Sorge, ohne die Schule anzugreifen",
+        "Fragt aktiv nach Möglichkeiten und Unterstützung",
+        "Kann einen Vorschlag aufnehmen und darauf reagieren",
+        "Ton passend für ein Gespräch auf Augenhöhe"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Beim Arzt: Beschwerden schildern",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind bei der Ärztin. Beschreiben Sie Ihre Beschwerden: was genau, seit wann, wann es schlimmer wird. Sagen Sie auch, ob Sie Medikamente nehmen.",
+      "criteria": [
+        "Beschreibt die Beschwerden konkret und lokalisiert",
+        "Nennt einen zeitlichen Verlauf",
+        "Nennt Medikamente oder Vorerkrankungen unaufgefordert",
+        "Kann eine Rückfrage der Ärztin beantworten",
+        "Wortschatz für Körper und Befinden ist ausreichend"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Mit einer Nachbarin etwas klären",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Ihre Nachbarin stellt regelmässig ihr Velo so in den Hausgang, dass Sie mit dem Kinderwagen nicht durchkommen. Sprechen Sie sie darauf an und suchen Sie eine Lösung.",
+      "criteria": [
+        "Spricht das Problem direkt, aber freundlich an",
+        "Erklärt, warum es ein Problem ist",
+        "Schlägt selbst eine Lösung vor, statt nur zu klagen",
+        "Lässt Raum für die Sicht der anderen Person",
+        "Ton bleibt nachbarschaftlich, nicht vorwurfsvoll"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Über die eigene Arbeit sprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von Ihrer Arbeit oder Ihrer letzten Tätigkeit: Was machen Sie genau, was gefällt Ihnen daran, und was ist schwierig?",
+      "criteria": [
+        "Beschreibt die Tätigkeit konkret, nicht nur den Beruf",
+        "Nennt sowohl Positives als auch Schwieriges",
+        "Begründet die Einschätzungen",
+        "Spricht zusammenhängend über eine Minute",
+        "Kann bei Wortsuche umschreiben, statt abzubrechen"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Eine Meinung begründen: Vereine und Integration",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Manche sagen: «Wer sich integrieren will, soll einem Verein beitreten — dann klappt es schon.» Was meinen Sie dazu? Begründen Sie Ihre Meinung und nennen Sie auch ein Gegenargument.",
+      "criteria": [
+        "Bezieht klar Stellung",
+        "Begründet mit mindestens zwei Argumenten",
+        "Nennt und entkräftet ein Gegenargument — nicht nur die eigene Sicht",
+        "Verknüpft mit Konnektoren (weil, deshalb, obwohl, trotzdem)",
+        "Spricht zusammenhängend über 90 Sekunden ohne Zusammenbruch",
+        "Bleibt respektvoll gegenüber der anderen Position"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Etwas erklären, das man selbst gelernt hat",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Eine Person, die neu in die Schweiz gezogen ist, fragt Sie: «Was muss ich in den ersten drei Monaten unbedingt erledigen?» Erklären Sie es und begründen Sie, warum es wichtig ist.",
+      "criteria": [
+        "Nennt mehrere konkrete Schritte in sinnvoller Reihenfolge",
+        "Begründet, warum sie wichtig sind — nicht nur eine Liste",
+        "Erklärt so, dass eine neu zugezogene Person es umsetzen kann",
+        "Sagt ehrlich, wenn etwas je nach Gemeinde unterschiedlich ist",
+        "Spricht 90 Sekunden strukturiert und ohne grosse Pausen"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Auf einen Entscheid reagieren",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Ein Antrag von Ihnen wurde abgelehnt, mit einer Begründung, die Sie für falsch halten. Sie sprechen persönlich bei der zuständigen Stelle vor. Schildern Sie den Fall, widersprechen Sie sachlich und sagen Sie, was Sie erwarten.",
+      "criteria": [
+        "Schildert den Sachverhalt geordnet und nachvollziehbar",
+        "Widerspricht mit Begründung, nicht mit Emotion",
+        "Belegt die eigene Darstellung mit konkreten Angaben",
+        "Formuliert eine klare, realistische Erwartung",
+        "Bleibt unter Druck sachlich und höflich",
+        "Kann auf Einwände reagieren, ohne den Faden zu verlieren"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Vergleichen: früher und heute",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Vergleichen Sie Ihr Leben heute mit der Zeit kurz nach Ihrer Ankunft. Was ist heute anders — im Alltag, bei der Sprache, bei den Kontakten? Was war schwieriger, als Sie erwartet hatten?",
+      "criteria": [
+        "Vergleicht wirklich zwei Zeitpunkte, statt nur zu erzählen",
+        "Verwendet Vergangenheit und Gegenwart nebeneinander",
+        "Nennt konkrete Beispiele statt Allgemeinplätze",
+        "Reflektiert die eigene Erwartung im Rückblick",
+        "Spricht 90 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Vermitteln: zwischen zwei Positionen",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit: Eine Partei möchte die Waschküche auch am Sonntag benutzen dürfen, eine andere besteht auf der Sonntagsruhe. Sie sprechen an der Hausversammlung. Stellen Sie beide Seiten dar und schlagen Sie einen Kompromiss vor.",
+      "criteria": [
+        "Gibt beide Positionen fair wieder, bevor die eigene kommt",
+        "Schlägt einen konkreten, umsetzbaren Kompromiss vor",
+        "Begründet, warum der Vorschlag für beide Seiten tragbar ist",
+        "Verwendet Redemittel des Abwägens (einerseits, andererseits, allerdings)",
+        "Bleibt neutral im Ton, auch bei einem Konflikt",
+        "Spricht 90 Sekunden strukturiert vor einer Gruppe"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

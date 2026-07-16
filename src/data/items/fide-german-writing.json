@@ -1,0 +1,343 @@
+[
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formular: Anmeldung bei der Gemeinde",
+    "prompt": "Füllen Sie die fehlenden Angaben in ganzen Sätzen aus. Schreiben Sie 30–50 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind neu in Ihre Gemeinde gezogen. Auf dem Anmeldeformular gibt es ein freies Feld: «Bemerkungen: Seit wann wohnen Sie hier, und wer wohnt mit Ihnen in der Wohnung?»",
+      "criteria": [
+        "Nennt ein Einzugsdatum",
+        "Nennt die Personen im Haushalt",
+        "Schreibt in ganzen Sätzen, nicht in Stichworten",
+        "Verständlich, auch wenn einfache Fehler vorkommen"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS: Termin absagen",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 30–50 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben morgen um 15 Uhr einen Termin bei der Zahnärztin, können aber nicht kommen, weil Sie arbeiten müssen. Schreiben Sie der Praxis eine Nachricht.",
+      "criteria": [
+        "Sagt den Termin klar ab und nennt Tag und Uhrzeit",
+        "Nennt einen Grund",
+        "Fragt nach einem neuen Termin",
+        "Höfliche Anrede und Gruss"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Notiz an die Nachbarin",
+    "prompt": "Schreiben Sie eine kurze Notiz. 30–50 Wörter.",
+    "payload": {
+      "stimulus": "Sie fahren eine Woche in die Ferien. Ihre Nachbarin Frau Bühler hat angeboten, den Briefkasten zu leeren. Schreiben Sie ihr eine Notiz.",
+      "criteria": [
+        "Nennt den Zeitraum der Abwesenheit",
+        "Sagt konkret, worum es geht (Briefkasten)",
+        "Bedankt sich",
+        "Angemessen freundlicher Ton für eine Nachbarin"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "E-Mail: Deutschkurs anmelden",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben ein Inserat für einen Deutschkurs am Abend gesehen. Sie möchten sich anmelden und wissen, was der Kurs kostet.",
+      "criteria": [
+        "Bezieht sich auf das Inserat",
+        "Sagt, dass und wofür man sich anmelden möchte",
+        "Stellt mindestens eine konkrete Frage",
+        "Anrede und Gruss passend für eine unbekannte Person"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Entschuldigung für die Schule",
+    "prompt": "Schreiben Sie eine kurze Entschuldigung. 30–50 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Sohn Elias war gestern krank und konnte nicht zur Schule. Die Lehrerin braucht eine schriftliche Entschuldigung.",
+      "criteria": [
+        "Nennt den Namen des Kindes und das Datum",
+        "Nennt den Grund für das Fehlen",
+        "Unterschreibt als Elternteil",
+        "Sachlicher, angemessener Ton gegenüber der Schule"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail an die Hausverwaltung: Reparatur",
+    "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Seit zwei Wochen tropft der Wasserhahn in Ihrer Küche. Sie haben schon einmal angerufen, aber niemand ist gekommen. Schreiben Sie der Hausverwaltung.",
+      "criteria": [
+        "Beschreibt das Problem konkret",
+        "Erwähnt, dass bereits ein Anruf erfolgt ist",
+        "Formuliert eine klare Bitte oder Erwartung",
+        "Bleibt sachlich und höflich, auch wenn man verärgert ist",
+        "Anrede, Gruss und ein für eine Verwaltung passender Ton"
+      ],
+      "charBand": { "min": 320, "max": 620 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Antwort auf eine Einladung",
+    "prompt": "Schreiben Sie eine Antwort. 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Der Quartierverein lädt zum Sommerfest ein und sucht Helferinnen und Helfer. Sie möchten kommen und beim Aufbau helfen, aber erst ab 14 Uhr — vorher arbeiten Sie.",
+      "criteria": [
+        "Sagt klar zu",
+        "Bietet die Hilfe konkret an und nennt die Zeit ab 14 Uhr",
+        "Erklärt kurz die Einschränkung",
+        "Freundlicher, aber nicht übertrieben formeller Ton",
+        "Zusammenhängender Text, nicht nur Stichworte"
+      ],
+      "charBand": { "min": 320, "max": 620 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail an die Lehrerin",
+    "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Sie können am Elternabend nicht teilnehmen, weil Sie an diesem Abend arbeiten. Sie möchten aber wissen, was besprochen wurde, besonders zum Schullager.",
+      "criteria": [
+        "Sagt ab und nennt den Grund",
+        "Fragt gezielt nach den Informationen, die man braucht",
+        "Zeigt Interesse — nicht nur eine Absage",
+        "Passende Anrede und Gruss gegenüber einer Lehrperson",
+        "Klar gegliedert und verständlich"
+      ],
+      "charBand": { "min": 320, "max": 620 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Anfrage an die Gemeinde",
+    "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten wissen, welche Unterlagen Sie für ein Einbürgerungsgesuch brauchen und ob Sie einen Termin vereinbaren müssen.",
+      "criteria": [
+        "Nennt das Anliegen klar",
+        "Stellt mindestens zwei konkrete Fragen",
+        "Gibt genug über sich preis, damit die Gemeinde antworten kann",
+        "Formelle Anrede und Gruss, wie sie eine Behörde erwartet",
+        "Verständlich strukturiert"
+      ],
+      "charBand": { "min": 320, "max": 620 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Kurze Mitteilung im Treppenhaus",
+    "prompt": "Schreiben Sie einen Aushang. 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Sie feiern am Samstagabend Ihren Geburtstag und erwarten Gäste. Sie möchten die Nachbarn vorher informieren.",
+      "criteria": [
+        "Nennt Tag und ungefähre Zeit",
+        "Informiert, ohne um Erlaubnis zu bitten — es ist eine Mitteilung",
+        "Bietet einen Kontakt oder eine Rücksicht an",
+        "Freundlicher Ton, der die Hausgemeinschaft ernst nimmt",
+        "Für alle Bewohnerinnen und Bewohner verständlich"
+      ],
+      "charBand": { "min": 260, "max": 520 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Beschwerde über eine Rechnung",
+    "prompt": "Schreiben Sie eine E-Mail. 60–90 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Rechnung für eine Leistung erhalten, die Sie nie bestellt haben. Sie möchten, dass die Firma die Rechnung prüft und storniert.",
+      "criteria": [
+        "Nennt die Rechnung so, dass sie auffindbar ist (Datum oder Betrag)",
+        "Erklärt sachlich, was nicht stimmt",
+        "Formuliert eine klare Forderung",
+        "Bleibt bestimmt, ohne unhöflich zu werden",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ],
+      "charBand": { "min": 320, "max": 680 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Leserbrief: Sprachkurse am Abend",
+    "prompt": "Schreiben Sie einen kurzen Leserbrief. 90–120 Wörter.",
+    "payload": {
+      "stimulus": "In der Quartierzeitung stand: «Wer sich integrieren will, soll einem Verein beitreten.» Sie finden das zu einfach gedacht — viele Berufstätige haben abends keine Zeit, und es fehlen bezahlbare Kurse zu passenden Zeiten. Schreiben Sie Ihre Meinung.",
+      "criteria": [
+        "Bezieht klar Stellung zur Aussage im Blatt",
+        "Begründet die Meinung mit mindestens zwei Argumenten",
+        "Verknüpft die Gedanken mit Konnektoren (weil, deshalb, trotzdem, obwohl)",
+        "Bleibt sachlich und respektiert die Gegenposition",
+        "Erkennbarer Aufbau: Bezug, Argumente, Schluss"
+      ],
+      "charBand": { "min": 500, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Bewerbung: kurzes Motivationsschreiben",
+    "prompt": "Schreiben Sie ein kurzes Motivationsschreiben. 90–120 Wörter.",
+    "payload": {
+      "stimulus": "Die Gemeindebibliothek sucht eine Person für 20 Prozent an der Ausleihe. Kontakt mit Menschen ist wichtig, Deutschkenntnisse sind nötig. Sie möchten sich bewerben.",
+      "criteria": [
+        "Nennt die Stelle und woher man von ihr weiss",
+        "Verbindet die eigene Erfahrung mit dem, was verlangt wird",
+        "Sagt konkret, was man mitbringt — nicht nur, dass man motiviert ist",
+        "Formelle Bewerbungsform mit Anrede und Gruss",
+        "Zusammenhängend und ohne Wiederholungen"
+      ],
+      "charBand": { "min": 500, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Erfahrungsbericht für die Quartierzeitung",
+    "prompt": "Schreiben Sie einen kurzen Bericht. 90–120 Wörter.",
+    "payload": {
+      "stimulus": "Die Quartierzeitung sammelt Berichte: «Was war für Sie am Anfang in der Schweiz am schwierigsten, und was hat geholfen?» Schreiben Sie über Ihre eigene Erfahrung.",
+      "criteria": [
+        "Erzählt eine konkrete eigene Erfahrung, nicht nur Allgemeines",
+        "Beschreibt sowohl die Schwierigkeit als auch, was geholfen hat",
+        "Nutzt Vergangenheitsformen korrekt genug, um verstanden zu werden",
+        "Hat einen erkennbaren Anfang und Schluss",
+        "Für fremde Leserinnen und Leser nachvollziehbar"
+      ],
+      "charBand": { "min": 500, "max": 900 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Einsprache: Antwort auf einen Entscheid",
+    "prompt": "Schreiben Sie eine sachliche Stellungnahme. 90–130 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben einen Brief erhalten: Ihr Gesuch um einen Parkplatz im Quartier wurde abgelehnt, weil Ihre Angaben angeblich unvollständig waren. Sie haben aber alle Unterlagen eingereicht. Schreiben Sie zurück.",
+      "criteria": [
+        "Nimmt Bezug auf den Entscheid und sein Datum",
+        "Widerspricht mit einer nachvollziehbaren Begründung",
+        "Belegt die eigene Darstellung (was wurde wann eingereicht)",
+        "Bleibt durchgehend sachlich — kein Vorwurf, keine Emotion",
+        "Formuliert klar, was man von der Behörde erwartet",
+        "Formeller Aufbau, wie ihn eine Behörde erwartet"
+      ],
+      "charBand": { "min": 520, "max": 950 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]
