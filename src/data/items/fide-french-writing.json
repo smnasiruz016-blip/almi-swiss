@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formulaire : annonce d'arrivée",
+    "prompt": "Complétez le champ libre en faisant des phrases entières. Écrivez 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous venez d'emménager dans une nouvelle commune. Sur le formulaire d'annonce du contrôle des habitants, il y a un champ libre : « Remarques : depuis quand habitez-vous ici, et qui vit avec vous dans le logement ? »",
+      "criteria": [
+        "Indique une date d'emménagement",
+        "Nomme les personnes du ménage",
+        "Écrit des phrases entières, pas des mots-clés",
+        "Compréhensible, même si des fautes simples subsistent"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS : annuler un rendez-vous",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous avez rendez-vous demain à 15h chez la dentiste, mais vous ne pouvez pas venir parce que vous devez travailler. Écrivez un message au cabinet.",
+      "criteria": [
+        "Annule clairement le rendez-vous en indiquant le jour et l'heure",
+        "Donne une raison",
+        "Demande un nouveau rendez-vous",
+        "Formule d'adresse et de salutation polies"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Mot à l'enseignant",
+    "prompt": "Écrivez un mot court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Votre fille était malade hier et n'est pas allée à l'école. L'enseignant demande un mot écrit des parents.",
+      "criteria": [
+        "Nomme l'enfant et le jour d'absence",
+        "Indique la raison (maladie)",
+        "Termine par une formule de politesse et une signature",
+        "Compréhensible, même si des fautes simples subsistent"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Petite annonce dans l'entrée",
+    "prompt": "Rédigez une annonce courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous voulez donner une armoire dont vous n'avez plus besoin. Vous accrochez une annonce dans l'entrée de l'immeuble.",
+      "criteria": [
+        "Dit ce qui est proposé et que c'est gratuit",
+        "Indique quand on peut venir la chercher",
+        "Donne un moyen de contact",
+        "Court et lisible"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Message à une voisine",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous partez une semaine en vacances. Vous demandez à votre voisine de relever votre courrier. Écrivez-lui un message.",
+      "criteria": [
+        "Formule la demande clairement",
+        "Indique la durée de l'absence",
+        "Remercie ou propose quelque chose en retour",
+        "Ton amical et poli"
+      ],
+      "charBand": { "min": 150, "max": 350 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel à la régie : le chauffage",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Depuis trois jours, le chauffage de votre salon ne fonctionne plus. Il fait froid. Écrivez à votre régie.",
+      "criteria": [
+        "Décrit le problème et depuis quand il dure",
+        "Indique clairement l'appartement ou l'étage",
+        "Demande une réparation ou un rendez-vous",
+        "Formule d'adresse, salutation, nom",
+        "Reste poli et factuel"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel à la commune : demander un document",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'une attestation de domicile pour votre employeur. Écrivez au contrôle des habitants de votre commune.",
+      "criteria": [
+        "Dit précisément quel document est demandé",
+        "Indique à quoi il sert",
+        "Donne son nom, son adresse et sa date de naissance",
+        "Demande comment recevoir le document ou combien il coûte",
+        "Formule d'adresse et salutation"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Répondre à une invitation",
+    "prompt": "Répondez à l'invitation. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Un collègue vous invite à son anniversaire samedi soir. Vous ne pouvez pas venir : votre belle-mère est en visite ce week-end. Répondez-lui.",
+      "criteria": [
+        "Remercie pour l'invitation",
+        "Refuse clairement",
+        "Donne une raison",
+        "Propose autre chose (par exemple se voir un autre jour)",
+        "Ton amical"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Mot au secrétariat de l'école",
+    "prompt": "Rédigez un message. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "La réunion de parents a lieu mardi à 19h30. Vous voulez venir, mais vous comprenez encore mal le français à l'oral quand cela va vite. L'école a écrit qu'on peut annoncer un besoin de traduction. Écrivez au secrétariat.",
+      "criteria": [
+        "Confirme la présence",
+        "Formule la demande de traduction sans détour",
+        "Nomme la classe ou l'enfant",
+        "Reste poli ; ne s'excuse pas de manière excessive",
+        "Salutation et nom"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Message à l'employeur : enfant malade",
+    "prompt": "Écrivez un message. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre fils est malade ce matin et vous devez rester à la maison. Écrivez à votre responsable.",
+      "criteria": [
+        "Annonce l'absence pour aujourd'hui",
+        "Donne la raison",
+        "Dit ce qui se passe avec le travail urgent (par ex. qui reprend, ou quand vous serez joignable)",
+        "Indique quand vous pensez revenir",
+        "Ton professionnel"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Résiliation du bail",
+    "prompt": "Rédigez la lettre. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous déménagez et devez résilier votre appartement par écrit auprès de la régie. La résiliation doit être claire et sans ambiguïté.",
+      "criteria": [
+        "Résilie clairement, avec l'adresse du logement",
+        "Indique une date de départ",
+        "Demande confirmation écrite",
+        "Propose de convenir d'un état des lieux",
+        "Forme de lettre : adresse, date, salutation, signature"
+      ],
+      "charBand": { "min": 250, "max": 550 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Contester une facture",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous avez reçu une facture pour un abonnement que vous avez résilié il y a deux mois. Vous avez la confirmation écrite de la résiliation. Écrivez à l'entreprise.",
+      "criteria": [
+        "Nomme la facture (date, montant ou numéro de référence)",
+        "Explique pourquoi elle est contestée",
+        "Renvoie à la confirmation de résiliation",
+        "Formule une demande claire (annulation de la facture)",
+        "Ferme sur le fond, poli dans le ton",
+        "Indique un délai ou demande une réponse"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courrier au journal communal",
+    "prompt": "Rédigez la lettre de lecteur. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Votre commune envisage de réduire les horaires de la bibliothèque. Vous trouvez cela dommage, en particulier pour les familles et les personnes qui apprennent le français. Écrivez au journal communal.",
+      "criteria": [
+        "Nomme le sujet dès le début",
+        "Défend une position claire",
+        "Étaie avec au moins deux arguments concrets",
+        "Reconnaît le point de vue adverse (par ex. les coûts)",
+        "Termine par une demande ou une proposition",
+        "Texte structuré, pas une simple liste"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Lettre de motivation, court passage",
+    "prompt": "Rédigez le passage. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous postulez comme assistant ou assistante en soins dans un EMS. Rédigez le passage de votre lettre où vous expliquez pourquoi ce poste vous intéresse et ce que vous apportez.",
+      "criteria": [
+        "Fait un lien entre son propre parcours et le poste",
+        "Nomme des expériences ou des compétences concrètes",
+        "Explique la motivation sans formules toutes faites",
+        "Mentionne le niveau de français de manière honnête si c'est pertinent",
+        "Ton assuré, sans exagération",
+        "Enchaînement fluide, pas une liste de puces"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Répondre à la régie après l'état des lieux",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Après l'état des lieux de sortie, la régie veut retenir 400 francs sur votre garantie pour des trous dans les murs. Vous estimez qu'il s'agit d'usure normale. Écrivez à la régie.",
+      "criteria": [
+        "Renvoie à l'état des lieux et à sa date",
+        "Nomme le montant contesté",
+        "Explique pourquoi il s'agit d'usure normale",
+        "Formule une demande claire",
+        "Reste objectif, sans reproches personnels",
+        "Mentionne une suite possible (par ex. autorité de conciliation) sans menacer"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

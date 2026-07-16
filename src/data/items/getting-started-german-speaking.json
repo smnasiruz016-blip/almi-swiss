@@ -1,0 +1,336 @@
+[
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Guten Tag sagen",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Sie treffen eine neue Nachbarin im Treppenhaus. Grüssen Sie, sagen Sie, wer Sie sind, wo Sie wohnen, und seit wann.",
+      "criteria": [
+        "Grüsst und nennt den Namen",
+        "Sagt die Wohnung oder den Stock",
+        "Sagt, seit wann Sie da wohnen",
+        "Spricht in kurzen, ganzen Sätzen"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Etwas kaufen",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind in der Bäckerei. Sie möchten zwei Brote und vier Gipfeli. Fragen Sie auch, was es kostet.",
+      "criteria": [
+        "Sagt klar, was Sie möchten, und wie viel",
+        "Fragt nach dem Preis",
+        "Sagt bitte und danke",
+        "Versteht die Antwort und reagiert"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Ihre Familie",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von Ihrer Familie: Wer gehört dazu, wie alt sind die Kinder oder Geschwister, wo wohnen sie?",
+      "criteria": [
+        "Nennt mehrere Personen",
+        "Sagt Alter oder Wohnort",
+        "Spricht in ganzen Sätzen",
+        "Spricht ohne sehr lange Pausen"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Nach dem Weg fragen",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Sie suchen den Bahnhof. Fragen Sie jemanden auf der Strasse. Fragen Sie auch, wie lange es zu Fuss dauert.",
+      "criteria": [
+        "Spricht die Person höflich an",
+        "Stellt die Frage klar",
+        "Fragt nach der Dauer",
+        "Bedankt sich"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Ihr Tag",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie, was Sie normalerweise am Morgen machen: Wann Sie aufstehen, was Sie essen, wie Sie zur Arbeit oder in den Kurs kommen.",
+      "criteria": [
+        "Erzählt der Reihe nach",
+        "Nennt Zeiten (um sieben Uhr, dann, danach)",
+        "Spricht im Präsens",
+        "Verständlich"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Einen Termin am Telefon abmachen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie rufen beim Coiffeur an und möchten einen Termin. Sagen Sie, wer Sie sind, was Sie möchten und wann Sie Zeit haben. Der erste Vorschlag passt Ihnen nicht.",
+      "criteria": [
+        "Nennt Namen und Grund des Anrufs",
+        "Nennt konkrete Zeiten",
+        "Sagt höflich, dass der Vorschlag nicht passt, und schlägt etwas anderes vor",
+        "Wiederholt den Termin am Schluss"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Beim Arzt: Was haben Sie?",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind erkältet. Sagen Sie dem Arzt, was Sie haben, seit wann, und was Sie schon gemacht haben.",
+      "criteria": [
+        "Nennt mindestens zwei Beschwerden",
+        "Sagt, seit wann",
+        "Sagt, was Sie schon probiert haben",
+        "Fragt etwas zurück"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Ein Zimmer beschreiben",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie Ihre Wohnung oder Ihr Zimmer: Wie viele Zimmer, was steht wo, was gefällt Ihnen, was nicht.",
+      "criteria": [
+        "Beschreibt mehrere Dinge",
+        "Sagt, wo etwas steht (links, rechts, neben, bei)",
+        "Sagt, was gefällt und was nicht",
+        "Spricht 40 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Etwas umtauschen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben Schuhe gekauft. Sie sind zu klein. Sie gehen in den Laden zurück. Erklären Sie das Problem und sagen Sie, was Sie möchten.",
+      "criteria": [
+        "Erklärt das Problem klar",
+        "Sagt, was Sie möchten (grössere Nummer oder Geld zurück)",
+        "Reagiert auf eine Rückfrage",
+        "Bleibt freundlich"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Etwas ausleihen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie brauchen eine Bohrmaschine für eine Stunde. Fragen Sie Ihren Nachbarn.",
+      "criteria": [
+        "Fragt höflich",
+        "Sagt, wofür und wie lange",
+        "Sagt, wann Sie es zurückbringen",
+        "Bedankt sich"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Bitte langsamer",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Am Schalter spricht die Person sehr schnell, und Sie verstehen nicht alles. Sagen Sie das und bitten Sie um Hilfe. Sagen Sie auch, was Sie schon verstanden haben.",
+      "criteria": [
+        "Sagt offen, dass Sie nicht alles verstanden haben",
+        "Bittet um langsameres Sprechen oder Wiederholen",
+        "Sagt, was Sie schon verstanden haben",
+        "Bleibt ruhig und höflich — Nachfragen ist kein Fehler"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Über Ihre Arbeit erzählen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von Ihrer Arbeit oder von einer Arbeit, die Sie früher gemacht haben: Was Sie machen oder gemacht haben, mit wem, was gut ist und was schwierig ist.",
+      "criteria": [
+        "Beantwortet alle Punkte",
+        "Nennt konkrete Beispiele, nicht nur «es ist gut»",
+        "Spricht 50 Sekunden zusammenhängend",
+        "Verbindet Sätze (weil, aber, und dann)",
+        "Verständlich"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Etwas erklären",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Eine neue Nachbarin fragt Sie, wie das mit dem Abfall funktioniert. Erklären Sie ihr, was Sie in Ihrem Haus machen: wann was kommt, und wohin man was bringt.",
+      "criteria": [
+        "Erklärt Schritt für Schritt",
+        "Nennt Tage oder Orte",
+        "Sagt auch, wenn Sie etwas nicht sicher wissen, statt zu raten",
+        "Fragt am Ende, ob sie es verstanden hat",
+        "Spricht 50 Sekunden"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Vergleichen: Stadt oder Dorf",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Wohnen Sie lieber in der Stadt oder auf dem Land? Sagen Sie, was Ihnen gefällt und was nicht, und warum.",
+      "criteria": [
+        "Nennt beide Seiten, nicht nur eine",
+        "Sagt klar, was Sie lieber möchten",
+        "Begründet mit «weil»",
+        "Spricht 50 Sekunden ohne abzubrechen",
+        "Verständlich"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Ein Missverständnis klären",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Sie hatten einen Termin um 14 Uhr, aber am Schalter sagt man, Ihr Termin sei um 11 Uhr gewesen. Sie haben es anders aufgeschrieben. Erklären Sie ruhig, was Sie verstanden haben, und fragen Sie, was jetzt möglich ist.",
+      "criteria": [
+        "Sagt ruhig, was Sie verstanden hatten",
+        "Wird nicht laut und entschuldigt sich nicht zu viel",
+        "Fragt nach einer Lösung",
+        "Reagiert auf eine Rückfrage",
+        "Spricht auch in einer unangenehmen Situation flüssig"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

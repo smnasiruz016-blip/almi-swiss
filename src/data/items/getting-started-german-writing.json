@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Sich kurz vorstellen",
+    "prompt": "Schreiben Sie 20–30 Wörter.",
+    "payload": {
+      "stimulus": "Im Deutschkurs sollen alle etwas über sich schreiben. Schreiben Sie: Name, Herkunft, wo Sie wohnen, was Sie machen.",
+      "criteria": [
+        "Nennt alle vier Angaben",
+        "Schreibt kurze, ganze Sätze",
+        "Verständlich, auch mit einfachen Fehlern",
+        "Beginnt Sätze gross und setzt Punkte"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Einkaufszettel mit Sätzen",
+    "prompt": "Schreiben Sie 20–30 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Mitbewohnerin geht einkaufen. Schreiben Sie ihr, was Sie brauchen und wie viel. Schreiben Sie in Sätzen, nicht nur in Wörtern.",
+      "criteria": [
+        "Nennt mindestens drei Dinge",
+        "Sagt bei mindestens einer Sache die Menge",
+        "Schreibt in Sätzen",
+        "Freundlicher Ton (bitte, danke)"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS: Ich komme später",
+    "prompt": "Schreiben Sie 20–30 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind mit einer Freundin um 18 Uhr verabredet. Der Bus hat Verspätung. Schreiben Sie ihr eine kurze Nachricht.",
+      "criteria": [
+        "Sagt, dass Sie später kommen",
+        "Nennt eine neue Zeit oder ungefähr wie lange",
+        "Nennt den Grund",
+        "Kurz und freundlich"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formular: Angaben zur Person",
+    "prompt": "Schreiben Sie die Antworten in ganzen Sätzen. 20–30 Wörter.",
+    "payload": {
+      "stimulus": "Sie melden sich für einen Deutschkurs an. Im Formular steht: «Warum möchten Sie Deutsch lernen? Wie viel Zeit haben Sie pro Woche?»",
+      "criteria": [
+        "Nennt einen Grund",
+        "Nennt eine Zeit pro Woche",
+        "Schreibt in ganzen Sätzen, nicht in Stichworten",
+        "Verständlich"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Zettel für den Nachbarn",
+    "prompt": "Schreiben Sie 20–30 Wörter.",
+    "payload": {
+      "stimulus": "Ein Paket für Ihren Nachbarn ist gekommen. Sie haben es genommen. Schreiben Sie ihm einen Zettel.",
+      "criteria": [
+        "Sagt, dass Sie das Paket haben",
+        "Sagt, wann er es holen kann",
+        "Nennt Ihren Namen oder Ihre Wohnung",
+        "Kurz und klar"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail: Termin abmachen",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten einen Termin beim Coiffeur. Schreiben Sie eine kurze E-Mail: Was Sie möchten, wann Sie Zeit haben, und wie man Sie erreicht.",
+      "criteria": [
+        "Sagt, was Sie möchten",
+        "Nennt mindestens zwei mögliche Zeiten",
+        "Gibt eine Telefonnummer oder E-Mail an",
+        "Anrede und Gruss",
+        "Verständlich"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Einladung schreiben",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Sie machen eine kleine Feier bei sich zu Hause. Laden Sie eine Kollegin ein.",
+      "criteria": [
+        "Sagt, was für eine Feier es ist",
+        "Nennt Tag, Zeit und Ort",
+        "Sagt, ob sie etwas mitbringen soll",
+        "Bittet um eine Antwort",
+        "Freundlicher Ton"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Nachricht an die Lehrerin",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Sie können nächste Woche nicht in den Deutschkurs kommen, weil Sie arbeiten müssen. Schreiben Sie der Lehrerin.",
+      "criteria": [
+        "Sagt, wann Sie fehlen",
+        "Nennt den Grund",
+        "Fragt, was Sie zu Hause machen können",
+        "Anrede und Gruss",
+        "Höflich"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Über das Wochenende schreiben",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Eine Freundin fragt, was Sie am Wochenende gemacht haben. Antworten Sie ihr.",
+      "criteria": [
+        "Erzählt mindestens zwei Sachen",
+        "Schreibt in der Vergangenheit (z. B. «ich habe … gemacht», «ich bin … gegangen»)",
+        "Sagt, wie es war",
+        "Stellt am Ende eine Frage zurück",
+        "Verständlich"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Etwas verkaufen",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten Ihr Velo verkaufen. Schreiben Sie eine kurze Anzeige.",
+      "criteria": [
+        "Sagt, was Sie verkaufen",
+        "Beschreibt es kurz (Farbe, Alter, Zustand)",
+        "Nennt einen Preis",
+        "Sagt, wie man Sie erreicht",
+        "Kurz und klar"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Sich für Hilfe bedanken",
+    "prompt": "Schreiben Sie 40–60 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Nachbarin hat auf Ihre Kinder aufgepasst, als Sie zum Arzt mussten. Schreiben Sie ihr ein paar Zeilen.",
+      "criteria": [
+        "Bedankt sich klar",
+        "Sagt, wofür",
+        "Bietet etwas an oder lädt sie ein",
+        "Freundlicher, persönlicher Ton",
+        "Verständlich"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "E-Mail an die Verwaltung: eine Lampe ist kaputt",
+    "prompt": "Schreiben Sie 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Im Treppenhaus ist die Lampe seit einer Woche kaputt. Am Abend ist es dunkel. Schreiben Sie der Verwaltung.",
+      "criteria": [
+        "Beschreibt das Problem",
+        "Sagt, seit wann",
+        "Sagt, wo genau",
+        "Bittet um Reparatur",
+        "Anrede, Gruss, Name und Wohnung",
+        "Sachlich und höflich"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Auf eine Einladung antworten",
+    "prompt": "Schreiben Sie 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Nachbarn laden Sie zum Fest im Hof ein. Sie kommen gern, aber erst später, weil Sie bis 19 Uhr arbeiten. Antworten Sie.",
+      "criteria": [
+        "Bedankt sich für die Einladung",
+        "Sagt klar zu",
+        "Erklärt, warum Sie später kommen",
+        "Sagt, was Sie mitbringen",
+        "Freundlicher Ton",
+        "Ganze Sätze, verständlich"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Kurze Bewerbung als Aushilfe",
+    "prompt": "Schreiben Sie 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Ein Café sucht eine Aushilfe am Wochenende. Schreiben Sie eine kurze Nachricht: Wer Sie sind, was Sie schon gemacht haben, wann Sie Zeit haben.",
+      "criteria": [
+        "Sagt, worauf Sie sich melden",
+        "Nennt eine Erfahrung oder eine Stärke",
+        "Sagt, wann Sie können",
+        "Nennt Ihr Deutschniveau ehrlich, wenn es passt",
+        "Anrede, Gruss, Kontakt",
+        "Freundlich und einfach — keine grossen Wörter"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Einen Ausflug beschreiben",
+    "prompt": "Schreiben Sie 60–80 Wörter.",
+    "payload": {
+      "stimulus": "Schreiben Sie einer Freundin über einen Ausflug: Wohin Sie gefahren sind, mit wem, was Sie gemacht haben und wie es war.",
+      "criteria": [
+        "Beantwortet alle vier Punkte",
+        "Schreibt in der Vergangenheit",
+        "Verbindet die Sätze (zuerst, dann, danach)",
+        "Sagt, wie es Ihnen gefallen hat",
+        "Verständlich über 60–80 Wörter",
+        "Kein abgebrochener Schluss"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

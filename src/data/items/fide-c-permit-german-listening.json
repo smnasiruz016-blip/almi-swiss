@@ -1,0 +1,299 @@
+[
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Nachricht von der Bank",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Frau Duarte. Hier ist die Bank Vontobel-Filiale Wiedikon. Ihre neue Karte ist da. Sie können sie am Schalter abholen, Montag bis Freitag von neun bis vier. Bitte bringen Sie einen Ausweis mit. Auf Wiederhören.",
+      "question": "Was soll Frau Duarte mitbringen?",
+      "options": ["Einen Ausweis", "Die alte Karte", "Geld", "Einen Brief"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Ansage in der Werkstatt",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Kurz eine Information für alle: Die Mittagspause ist heute von zwölf bis eins, nicht wie sonst von halb zwölf bis halb eins. Grund ist die Lieferung um halb zwölf. Danke.",
+      "question": "Wann ist heute Mittagspause?",
+      "options": ["Von 11.30 bis 12.30", "Von 12.00 bis 13.00", "Von 12.30 bis 13.30", "Es gibt heute keine Pause"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Nachricht vom Elektriker",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist Elektro Brunner. Wir kommen am Donnerstag zwischen acht und zehn Uhr. Es muss jemand da sein. Wenn das nicht geht, rufen Sie bitte zurück. Danke.",
+      "question": "Aussage: Es muss niemand zu Hause sein.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Am Postschalter",
+    "prompt": "Hören Sie die Angestellte und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Also, das Paket nach Portugal: normal dauert es fünf bis sieben Tage und kostet dreissig Franken. Express ist in zwei Tagen dort, aber das kostet fünfundfünfzig. Was möchten Sie?",
+      "question": "Wie viel kostet Express?",
+      "options": ["30 Franken", "55 Franken", "5 Franken", "7 Franken"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Der Vorgesetzte ruft an",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hoi, hier ist Reto. Du, morgen musst du nicht um sieben kommen, sondern erst um neun. Die Maschine wird am Morgen repariert. Bis dann!",
+      "question": "Wann soll die Person morgen kommen?",
+      "options": ["Um sieben", "Um neun", "Gar nicht", "Wie immer"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Auskunft zur Prämie",
+    "prompt": "Hören Sie die Mitarbeiterin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Ja, Ihre Prämie steigt nächstes Jahr, das stimmt. Sie können die Kasse wechseln, aber nur bis Ende November — nachher geht es erst wieder ein Jahr später. Und noch etwas: Sie können auch die Franchise erhöhen, dann sinkt die Prämie. Überlegen Sie das gut, dann zahlen Sie beim Arzt mehr selber.",
+      "question": "Was sagt die Mitarbeiterin über den Wechsel der Kasse?",
+      "options": [
+        "Er ist jederzeit möglich",
+        "Er ist nur bis Ende November möglich",
+        "Er ist nicht mehr möglich",
+        "Er ist nur mit einer höheren Franchise möglich"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Anruf wegen der Wohnung",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Herr Osei. Sie haben sich für die Dreizimmerwohnung an der Feldstrasse gemeldet. Wir zeigen sie am Samstag um zehn Uhr. Es kommen mehrere Interessenten gleichzeitig. Bringen Sie bitte einen Betreibungsregisterauszug und die letzten drei Lohnabrechnungen mit. Ohne diese Unterlagen können wir Ihre Bewerbung leider nicht prüfen.",
+      "question": "Was passiert, wenn Herr Osei die Unterlagen nicht mitbringt?",
+      "options": [
+        "Er kann die Wohnung trotzdem anschauen und später alles schicken",
+        "Seine Bewerbung kann nicht geprüft werden",
+        "Er bekommt einen eigenen Termin",
+        "Er muss eine Gebühr bezahlen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Information zur Weiterbildung",
+    "prompt": "Hören Sie die Information. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Noch eine Information: Die Firma zahlt die Hälfte des Kurses. Die andere Hälfte zahlen Sie selber. Wichtig ist: Der Kurs findet am Abend statt, nicht während der Arbeitszeit. Sie bekommen dafür also keine Stunden gutgeschrieben. Wer Interesse hat, meldet sich bis Ende Monat bei mir.",
+      "question": "Aussage: Der Kurs findet während der Arbeitszeit statt.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Vier Anrufe am Arbeitsplatz",
+    "prompt": "Hören Sie die vier Anrufe und ordnen Sie jeden dem richtigen Thema zu.",
+    "payload": {
+      "instructions": "Ordnen Sie jeden Anruf dem passenden Thema zu. Nicht alle Themen werden gebraucht.",
+      "transcript": "Anruf 1: Guten Tag, hier ist die Personalabteilung. Wir brauchen noch Ihre neue Adresse für die Lohnabrechnung.\n\nAnruf 2: Hoi, ich bin's, Luca. Ich bin krank, kannst du dem Chef sagen, dass ich heute nicht komme?\n\nAnruf 3: Guten Tag, hier ist die Firma Keller. Die Lieferung kommt eine Stunde später als abgemacht.\n\nAnruf 4: Guten Tag, hier ist das Kurszentrum. Ihr Deutschkurs beginnt eine Woche später, weil noch Plätze frei sind.",
+      "left": ["Anruf 1", "Anruf 2", "Anruf 3", "Anruf 4"],
+      "right": [
+        "Jemand braucht eine Angabe von Ihnen",
+        "Jemand meldet sich krank",
+        "Eine Lieferung verschiebt sich",
+        "Ein Kurs beginnt später",
+        "Jemand kündigt"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Beim Strassenverkehrsamt anrufen",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Also, mit Ihrem Ausweis dürfen Sie ab dem Zuzug zwölf Monate fahren. Danach brauchen Sie den Schweizer. Ob Sie eine Kontrollfahrt machen müssen, hängt vom Land ab, wo der Ausweis ausgestellt wurde. Am besten kommen Sie vorbei und bringen den Ausweis und Ihre Ausweiskopie mit, dann sagen wir Ihnen das direkt.",
+      "question": "Wovon hängt es ab, ob eine Kontrollfahrt nötig ist?",
+      "options": [
+        "Vom Alter der Person",
+        "Vom Land, in dem der Ausweis ausgestellt wurde",
+        "Davon, wie lange man schon hier wohnt",
+        "Vom Kanton"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Der Kollege fragt um einen Gefallen",
+    "prompt": "Hören Sie den Kollegen und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Du, hättest du am Samstag Zeit? Ich muss zügeln und suche noch jemanden, der mithilft. Es sind nur ein paar Möbel, wir sind zu dritt. Ich zahle das Mittagessen und leihe dir nächsten Monat meinen Anhänger, wenn du ihn brauchst. Sag ruhig Nein, wenn es nicht geht.",
+      "question": "Was bietet der Kollege an?",
+      "options": [
+        "Geld für die Hilfe",
+        "Das Mittagessen und später den Anhänger",
+        "Einen freien Tag",
+        "Er bietet nichts an"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Gespräch über die Steuererklärung",
+    "prompt": "Hören Sie die Beraterin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Also, ich schaue mir das an. Sie haben die Fahrkosten nicht eingetragen, und die Weiterbildung auch nicht. Beides dürfen Sie abziehen, das senkt Ihr steuerbares Einkommen. Was Sie nicht abziehen dürfen, sind die Kosten fürs Mittagessen zu Hause. Und noch etwas: Heben Sie die Belege auf. Wenn das Amt nachfragt und Sie haben nichts, streichen sie den Abzug wieder.",
+      "question": "Was rät die Beraterin zu den Belegen?",
+      "options": [
+        "Man muss sie immer mitschicken",
+        "Man soll sie aufbewahren, weil das Amt den Abzug sonst streichen kann",
+        "Man braucht sie nicht, wenn der Abzug klein ist",
+        "Man soll sie erst nach drei Jahren wegwerfen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Das Mitarbeitergespräch",
+    "prompt": "Hören Sie die Vorgesetzte und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Ich bin zufrieden mit Ihrer Arbeit, das vorweg. Die Qualität stimmt, und Sie sind zuverlässig. Zwei Punkte möchte ich trotzdem ansprechen. Erstens: Wenn etwas unklar ist, fragen Sie manchmal zu spät — lieber gleich. Zweitens: Sie machen viel allein. Das ist nicht falsch, aber im Team wäre es manchmal schneller. Was denken Sie selber?",
+      "question": "Was ist die Haltung der Vorgesetzten?",
+      "options": [
+        "Sie ist unzufrieden und droht mit Konsequenzen",
+        "Sie ist grundsätzlich zufrieden, nennt aber zwei Punkte zur Verbesserung",
+        "Sie findet die Qualität ungenügend",
+        "Sie will, dass die Person weniger fragt"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Auskunft am Schalter: was wir sagen dürfen",
+    "prompt": "Hören Sie die Mitarbeiterin. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Ich sage Ihnen gern, welche Unterlagen wir hier brauchen. Aber was am Schluss verlangt wird, das entscheidet nicht ich am Schalter. Ich kann Ihnen also nicht versprechen, dass es reicht. Was ich Ihnen sagen kann: Fragen Sie schriftlich nach, dann haben Sie es schwarz auf weiss. Eine mündliche Auskunft von mir ist keine Zusage.",
+      "question": "Aussage: Die Mitarbeiterin sagt, ihre mündliche Auskunft sei eine verbindliche Zusage.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Zwei Nachbarn über den Lärm",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "— Du, ich muss dir etwas sagen. Am Sonntag habt ihr bis Mitternacht gefeiert. Ich musste am Montag um fünf raus.\n— Oh. Das tut mir leid, das wusste ich nicht. Wir haben den Geburtstag von meiner Mutter gemacht.\n— Ich habe ja nichts gegen ein Fest, wirklich nicht. Nur — sag mir doch das nächste Mal vorher Bescheid. Dann weiss ich, was los ist, und ärgere mich nicht die halbe Nacht.\n— Das mache ich. Und wenn es zu laut ist, klingle einfach. Lieber du kommst zu mir, als dass du nicht schlafen kannst.",
+      "question": "Was möchte der erste Nachbar vor allem?",
+      "options": [
+        "Dass keine Feste mehr stattfinden",
+        "Dass man ihn vorher informiert",
+        "Dass die Feste früher aufhören müssen",
+        "Dass die Verwaltung eingreift"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]

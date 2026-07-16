@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Se présenter en quelques mots",
+    "prompt": "Écrivez 20 à 30 mots.",
+    "payload": {
+      "stimulus": "Au cours de français, chacun écrit quelque chose sur soi. Écrivez : votre nom, d'où vous venez, où vous habitez, ce que vous faites.",
+      "criteria": [
+        "Donne les quatre informations",
+        "Écrit des phrases courtes et entières",
+        "Compréhensible, même avec des fautes simples",
+        "Majuscules en début de phrase et points"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Une liste de courses en phrases",
+    "prompt": "Écrivez 20 à 30 mots.",
+    "payload": {
+      "stimulus": "Votre colocataire va faire les courses. Écrivez-lui ce dont vous avez besoin et en quelle quantité. Écrivez des phrases, pas seulement des mots.",
+      "criteria": [
+        "Nomme au moins trois choses",
+        "Donne la quantité pour au moins une",
+        "Écrit en phrases",
+        "Ton aimable (s'il te plaît, merci)"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS : j'arrive plus tard",
+    "prompt": "Écrivez 20 à 30 mots.",
+    "payload": {
+      "stimulus": "Vous avez rendez-vous avec une amie à 18h. Le bus a du retard. Écrivez-lui un message court.",
+      "criteria": [
+        "Dit que vous arrivez plus tard",
+        "Donne une nouvelle heure ou une durée approximative",
+        "Donne la raison",
+        "Court et aimable"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formulaire : quelques questions",
+    "prompt": "Répondez en phrases entières. 20 à 30 mots.",
+    "payload": {
+      "stimulus": "Vous vous inscrivez à un cours de français. Le formulaire demande : « Pourquoi voulez-vous apprendre le français ? Combien de temps avez-vous par semaine ? »",
+      "criteria": [
+        "Donne une raison",
+        "Indique un temps par semaine",
+        "Écrit des phrases entières, pas des mots-clés",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Un mot pour le voisin",
+    "prompt": "Écrivez 20 à 30 mots.",
+    "payload": {
+      "stimulus": "Un colis pour votre voisin est arrivé. Vous l'avez pris. Écrivez-lui un mot.",
+      "criteria": [
+        "Dit que vous avez le colis",
+        "Dit quand il peut venir le chercher",
+        "Donne votre nom ou votre appartement",
+        "Court et clair"
+      ],
+      "charBand": { "min": 100, "max": 250 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : prendre rendez-vous",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "Vous voulez un rendez-vous chez le coiffeur. Écrivez un courriel court : ce que vous voulez, quand vous êtes libre, et comment on peut vous joindre.",
+      "criteria": [
+        "Dit ce que vous voulez",
+        "Donne au moins deux moments possibles",
+        "Donne un numéro ou une adresse courriel",
+        "Formule d'adresse et salutation",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Écrire une invitation",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "Vous organisez une petite fête chez vous. Invitez une collègue.",
+      "criteria": [
+        "Dit de quelle fête il s'agit",
+        "Donne le jour, l'heure et le lieu",
+        "Dit si elle doit apporter quelque chose",
+        "Demande une réponse",
+        "Ton aimable"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Message à l'enseignante du cours",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "La semaine prochaine, vous ne pouvez pas venir au cours de français parce que vous devez travailler. Écrivez à l'enseignante.",
+      "criteria": [
+        "Dit quand vous serez absent",
+        "Donne la raison",
+        "Demande ce que vous pouvez faire à la maison",
+        "Formule d'adresse et salutation",
+        "Poli"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Raconter son week-end",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "Une amie vous demande ce que vous avez fait le week-end. Répondez-lui.",
+      "criteria": [
+        "Raconte au moins deux choses",
+        "Écrit au passé (par ex. « j'ai fait », « je suis allé »)",
+        "Dit comment c'était",
+        "Pose une question en retour à la fin",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Vendre quelque chose",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "Vous voulez vendre votre vélo. Rédigez une petite annonce.",
+      "criteria": [
+        "Dit ce que vous vendez",
+        "Le décrit brièvement (couleur, âge, état)",
+        "Donne un prix",
+        "Dit comment vous joindre",
+        "Court et clair"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Remercier pour un coup de main",
+    "prompt": "Écrivez 40 à 60 mots.",
+    "payload": {
+      "stimulus": "Votre voisine a gardé vos enfants pendant que vous étiez chez le médecin. Écrivez-lui quelques lignes.",
+      "criteria": [
+        "Remercie clairement",
+        "Dit pour quoi",
+        "Propose quelque chose ou l'invite",
+        "Ton aimable et personnel",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 200, "max": 420 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel à la régie : une lampe ne marche plus",
+    "prompt": "Écrivez 60 à 80 mots.",
+    "payload": {
+      "stimulus": "Dans la cage d'escalier, la lampe ne marche plus depuis une semaine. Le soir, il fait noir. Écrivez à la régie.",
+      "criteria": [
+        "Décrit le problème",
+        "Dit depuis quand",
+        "Dit où exactement",
+        "Demande une réparation",
+        "Formule d'adresse, salutation, nom et appartement",
+        "Factuel et poli"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Répondre à une invitation des voisins",
+    "prompt": "Écrivez 60 à 80 mots.",
+    "payload": {
+      "stimulus": "Vos voisins vous invitent à la fête dans la cour. Vous venez volontiers, mais plus tard, parce que vous travaillez jusqu'à 19h. Répondez.",
+      "criteria": [
+        "Remercie pour l'invitation",
+        "Accepte clairement",
+        "Explique pourquoi vous arrivez plus tard",
+        "Dit ce que vous apportez",
+        "Ton aimable",
+        "Phrases entières, compréhensible"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Petit message pour un extra le week-end",
+    "prompt": "Écrivez 60 à 80 mots.",
+    "payload": {
+      "stimulus": "Un café cherche quelqu'un pour aider le week-end. Écrivez un message court : qui vous êtes, ce que vous avez déjà fait, quand vous êtes disponible.",
+      "criteria": [
+        "Dit à quoi vous répondez",
+        "Nomme une expérience ou une qualité",
+        "Dit quand vous pouvez",
+        "Dit honnêtement votre niveau de français si c'est utile",
+        "Formule d'adresse, salutation, contact",
+        "Simple et aimable — pas de grands mots"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Raconter une excursion",
+    "prompt": "Écrivez 60 à 80 mots.",
+    "payload": {
+      "stimulus": "Écrivez à une amie au sujet d'une excursion : où vous êtes allé, avec qui, ce que vous avez fait et comment c'était.",
+      "criteria": [
+        "Répond aux quatre points",
+        "Écrit au passé",
+        "Relie les phrases (d'abord, ensuite, après)",
+        "Dit si ça vous a plu",
+        "Compréhensible sur 60 à 80 mots",
+        "Ne s'arrête pas au milieu d'une idée"
+      ],
+      "charBand": { "min": 300, "max": 560 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

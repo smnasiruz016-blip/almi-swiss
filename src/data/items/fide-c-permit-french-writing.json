@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formulaire : changer d'adresse",
+    "prompt": "Écrivez 15 à 25 mots.",
+    "payload": {
+      "stimulus": "Vous avez déménagé. Le service du personnel a besoin de votre nouvelle adresse. Le formulaire a un champ libre : « Nouvelle adresse et à partir de quand ? »",
+      "criteria": [
+        "Donne la nouvelle adresse",
+        "Donne une date",
+        "Écrit au moins deux phrases courtes et entières",
+        "Compréhensible, même avec des fautes simples"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS : je suis malade",
+    "prompt": "Écrivez 15 à 25 mots.",
+    "payload": {
+      "stimulus": "Vous êtes malade aujourd'hui et ne pouvez pas travailler. Écrivez un message court à votre supérieur.",
+      "criteria": [
+        "Dit que vous ne venez pas aujourd'hui",
+        "Donne la raison",
+        "Dit quelque chose sur votre retour",
+        "Court et compréhensible"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Note : aller chercher le colis",
+    "prompt": "Écrivez 15 à 25 mots.",
+    "payload": {
+      "stimulus": "Vous ne pouvez pas aller chercher un colis vous-même. Écrivez une note à votre partenaire : où, jusqu'à quand, et ce qu'il faut prendre.",
+      "criteria": [
+        "Dit où est le colis",
+        "Donne un délai",
+        "Dit ce qu'il faut prendre",
+        "Phrases courtes et claires"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formulaire : informations sur le travail",
+    "prompt": "Écrivez 15 à 25 mots.",
+    "payload": {
+      "stimulus": "Un formulaire demande : « Où travaillez-vous, depuis quand, et combien d'heures par semaine ? » Répondez en phrases entières.",
+      "criteria": [
+        "Donne le lieu de travail",
+        "Dit depuis quand",
+        "Donne les heures",
+        "Phrases entières, pas de mots-clés"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Mot : l'artisan passe",
+    "prompt": "Écrivez 15 à 25 mots.",
+    "payload": {
+      "stimulus": "Jeudi, l'électricien passe entre huit et dix heures. Vous travaillez. Écrivez un mot à votre colocataire.",
+      "criteria": [
+        "Donne le jour et l'heure",
+        "Dit qui vient",
+        "Dit ce qu'elle doit faire",
+        "Court et compréhensible"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel court : demander des vacances",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous voulez deux semaines de vacances en juillet. Écrivez un courriel court à votre supérieur.",
+      "criteria": [
+        "Donne les dates exactes",
+        "Demande si c'est possible",
+        "Formule d'adresse et salutation",
+        "Poli et court",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : déplacer un rendez-vous",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous avez un rendez-vous mardi à 14h au service cantonal. Vous devez travailler. Demandez un autre rendez-vous.",
+      "criteria": [
+        "Rappelle l'ancien rendez-vous",
+        "Dit pourquoi ce n'est pas possible",
+        "Propose deux autres moments",
+        "Formule d'adresse, salutation, nom",
+        "Poli"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel court à la caisse",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous avez envoyé une facture et vous n'avez rien reçu depuis six semaines. Demandez où cela en est.",
+      "criteria": [
+        "Dit de quoi il s'agit",
+        "Dit quand vous avez envoyé la facture",
+        "Pose une question claire",
+        "Formule d'adresse et salutation",
+        "Factuel"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Message : échanger un horaire",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous devez aller chez le médecin vendredi. Demandez à une collègue d'échanger son horaire avec vous.",
+      "criteria": [
+        "Demande clairement l'échange",
+        "Nomme les deux jours",
+        "Donne brièvement la raison",
+        "Propose quelque chose ou remercie",
+        "Ton aimable"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : se renseigner sur un cours",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Un cours du soir vous intéresse. Demandez au centre de cours les horaires et le prix.",
+      "criteria": [
+        "Dit quel cours vous intéresse",
+        "Pose deux questions concrètes",
+        "Dit quand vous êtes disponible",
+        "Formule d'adresse et salutation",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Note pour l'équipe",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "La livraison arrive demain une heure plus tard. Écrivez une note courte pour l'équipe.",
+      "criteria": [
+        "Dit ce qui change",
+        "Donne la nouvelle heure",
+        "Dit ce que l'équipe doit faire",
+        "Court et clair",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel : envoyer un document manquant",
+    "prompt": "Écrivez 40 à 55 mots.",
+    "payload": {
+      "stimulus": "Un service vous a écrit qu'il manque un document. Vous l'envoyez et vous voulez savoir ce qui se passe ensuite.",
+      "criteria": [
+        "Se réfère à la lettre (date ou référence)",
+        "Dit ce que vous joignez",
+        "Demande la suite de la procédure",
+        "Formule d'adresse, salutation, nom",
+        "Poli et factuel",
+        "Phrases entières sur 40 à 55 mots"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel : la facture est trop élevée",
+    "prompt": "Écrivez 40 à 55 mots.",
+    "payload": {
+      "stimulus": "Le garage a facturé 480 francs. Il était convenu environ 300. Écrivez au garage.",
+      "criteria": [
+        "Nomme la facture et le montant",
+        "Dit ce qui était convenu",
+        "Pose une question ou une demande claire",
+        "Reste factuel, sans reproches",
+        "Formule d'adresse et salutation",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel : nouvelle place, question courte",
+    "prompt": "Écrivez 40 à 55 mots.",
+    "payload": {
+      "stimulus": "Une entreprise cherche du personnel. Écrivez une demande courte : qui vous êtes, ce que vous avez fait, ce que vous voulez savoir.",
+      "criteria": [
+        "Dit à quoi vous répondez",
+        "Nomme votre expérience en une phrase",
+        "Pose une question concrète",
+        "Dit honnêtement votre niveau de français si c'est utile",
+        "Formule d'adresse, salutation, contact",
+        "Simple et clair — pas de grands mots"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel : annoncer un sinistre",
+    "prompt": "Écrivez 40 à 55 mots.",
+    "payload": {
+      "stimulus": "Votre vélo a été volé devant l'immeuble. Annoncez le sinistre à votre assurance.",
+      "criteria": [
+        "Dit ce qui s'est passé",
+        "Donne le lieu et le moment",
+        "Dit ce que vous avez déjà fait (p. ex. la police)",
+        "Demande ce qu'il faut encore",
+        "Formule d'adresse, salutation, nom",
+        "Factuel, en phrases entières"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

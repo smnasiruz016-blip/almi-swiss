@@ -1,0 +1,300 @@
+[
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Öffnungszeiten der Bäckerei",
+    "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Bäckerei Meier\n\nMontag bis Freitag: 6.00–18.30\nSamstag: 6.00–16.00\nSonntag: geschlossen",
+      "question": "Wann ist die Bäckerei zu?",
+      "options": ["Am Samstag", "Am Sonntag", "Am Montag", "Am Freitag"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "SMS von einer Freundin",
+    "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Hallo! Wir treffen uns um 14 Uhr vor dem Bahnhof. Bring bitte einen Regenschirm mit, es regnet. Bis später!",
+      "question": "Was sollen Sie mitbringen?",
+      "options": ["Einen Regenschirm", "Ein Buch", "Kaffee", "Ein Ticket"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Plan in der Waschküche",
+    "prompt": "Lesen Sie den Plan. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Waschküche — Plan\n\nMontag: Wohnung 1\nDienstag: Wohnung 2\nMittwoch: Wohnung 3\nDonnerstag: Wohnung 4\nFreitag: frei\n\nBitte die Maschine nach dem Waschen putzen.",
+      "question": "Aussage: Wohnung 3 wäscht am Mittwoch.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Wo kaufe ich was?",
+    "prompt": "Ordnen Sie zu: Wo bekommen Sie das?",
+    "payload": {
+      "instructions": "Ordnen Sie jede Sache dem richtigen Ort zu. Nicht alle Orte werden gebraucht.",
+      "left": ["Brot", "Medikamente", "Briefmarken", "Ein Zugbillett"],
+      "right": ["Bäckerei", "Apotheke", "Post", "Bahnhof", "Waschküche"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Ein Zettel im Treppenhaus",
+    "prompt": "Lesen Sie den Zettel und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Nachbarn\n\nAm Samstag kommt ein neuer Kühlschrank. Die Männer brauchen den Lift von 9 bis 11 Uhr.\n\nEntschuldigung und danke!\nFamilie Bühler, Wohnung 5",
+      "question": "Was passiert am Samstag von 9 bis 11 Uhr?",
+      "options": [
+        "Der Lift wird gebraucht",
+        "Die Waschküche ist zu",
+        "Es gibt ein Fest",
+        "Der Strom ist weg"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Der Busfahrplan",
+    "prompt": "Lesen Sie den Fahrplan und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Bus 12 — Richtung Spital\n\nab Dorfplatz: 7.05 · 7.35 · 8.05 · 8.35\nFahrzeit bis Spital: 20 Minuten\n\nAm Wochenende fährt der Bus jede Stunde.",
+      "question": "Sie haben um 8.00 Uhr einen Termin im Spital. Welchen Bus nehmen Sie?",
+      "options": ["7.05", "7.35", "8.05", "8.35"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Eine kurze Nachricht an die Chefin",
+    "prompt": "Lesen Sie die Nachricht und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Guten Morgen Frau Studer\n\nIch bin krank und kann heute nicht {{1}}. Ich gehe um 10 Uhr zum {{2}}. Morgen bin ich hoffentlich wieder da.\n\nFreundliche {{3}}\nAmina",
+      "gaps": [
+        { "id": 1, "options": ["arbeiten", "essen", "schlafen", "kaufen"] },
+        { "id": 2, "options": ["Arzt", "Bahnhof", "Nachbarn", "Markt"] },
+        { "id": 3, "options": ["Grüsse", "Tage", "Wochen", "Namen"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Angebot im Laden",
+    "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "AKTION diese Woche\n\nÄpfel, 1 kg: statt 4.50 nur 3.20\nMilch, 1 Liter: 1.60\nKäse, 200 g: 4.80\n\nGültig bis Samstag.",
+      "question": "Wie viel kosten die Äpfel jetzt?",
+      "options": ["4.50", "3.20", "1.60", "4.80"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Zettel vom Nachbarn",
+    "prompt": "Lesen Sie den Zettel. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Hallo\n\nEin Paket für Sie ist gekommen. Ich habe es genommen. Ich bin am Abend nach 18 Uhr zu Hause.\n\nHerr Fischer, Wohnung 2",
+      "question": "Aussage: Das Paket ist bei Herrn Fischer.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Beim Arzt anrufen",
+    "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
+    "payload": {
+      "instructions": "Sie machen einen Termin beim Arzt. Ordnen Sie von zuerst bis zuletzt.",
+      "items": [
+        "In der Praxis anrufen",
+        "Ihren Namen sagen",
+        "Sagen, was Sie haben",
+        "Einen Termin abmachen",
+        "Am Termin in die Praxis gehen"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Abfall im Quartier",
+    "prompt": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Abfall\n\nDer Kehricht kommt am Dienstag und am Freitag, immer am Morgen früh.\nBitte stellen Sie die Säcke erst am Abend vorher hinaus.\n\nPapier: jeden ersten Donnerstag im Monat.",
+      "question": "Wann stellen Sie den Sack für Dienstag hinaus?",
+      "options": [
+        "Am Montagabend",
+        "Am Dienstagabend",
+        "Am Sonntagmorgen",
+        "Am ersten Donnerstag im Monat"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Brief von der Schule",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Eltern\n\nAm Mittwoch, 14. Mai, machen wir einen Ausflug in den Zoo. Wir fahren um 8.30 Uhr mit dem Zug und sind um 16 Uhr zurück.\n\nIhr Kind braucht: gute Schuhe, eine Jacke, ein Picknick und eine Flasche Wasser. Der Ausflug kostet nichts.\n\nFreundliche Grüsse\nD. Kaufmann",
+      "question": "Was ist richtig?",
+      "options": [
+        "Die Eltern müssen den Ausflug bezahlen",
+        "Die Kinder essen im Restaurant",
+        "Die Kinder brauchen Essen von zu Hause",
+        "Der Ausflug ist am Morgen fertig"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Der Arbeitsplan",
+    "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Sie arbeiten diese Woche von Montag {{1}} Donnerstag. Am Montag fangen Sie um 7 Uhr {{2}}. Am Donnerstag haben Sie {{3}} 16 Uhr Feierabend. Der Freitag ist frei.",
+      "gaps": [
+        { "id": 1, "options": ["bis", "seit", "für", "ohne"] },
+        { "id": 2, "options": ["an", "auf", "aus", "ab"] },
+        { "id": 3, "options": ["um", "in", "am", "zu"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Anzeige: Zimmer zu vermieten",
+    "prompt": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Zimmer in einer 3-Zimmer-Wohnung\n\n15 m², möbliert, ab 1. September.\nMiete: 650 Franken pro Monat, Nebenkosten inklusive.\nKüche und Bad teilen Sie mit zwei Personen.\nNicht rauchen, keine Tiere.\n\nBitte nur per E-Mail melden.",
+      "question": "Was ist richtig?",
+      "options": [
+        "Zu den 650 Franken kommen noch Nebenkosten dazu",
+        "Sie haben Küche und Bad für sich allein",
+        "Sie können anrufen oder eine E-Mail schreiben",
+        "Im Preis von 650 Franken sind die Nebenkosten schon dabei"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "Wer hilft hier?",
+    "prompt": "Ordnen Sie jede Situation der richtigen Stelle zu.",
+    "payload": {
+      "instructions": "Vier Personen brauchen Hilfe. Ordnen Sie zu. Nicht alle Stellen werden gebraucht.",
+      "left": [
+        "Frau Ali hat starke Zahnschmerzen.",
+        "Herr Novak hat den Schlüssel in der Wohnung vergessen.",
+        "Frau Berisha sucht einen Deutschkurs am Abend.",
+        "Herr Tran hat sein Portemonnaie im Bus verloren."
+      ],
+      "right": [
+        "Zahnarzt",
+        "Hauswart oder Verwaltung",
+        "Volkshochschule oder Kursanbieter",
+        "Fundbüro",
+        "Bäckerei",
+        "Bibliothek"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Annonce au magasin",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, nous fermons dans dix minutes. Merci de vous rendre aux caisses. Nous rouvrons demain à huit heures. Merci et au revoir.",
+      "question": "Que se passe-t-il dans dix minutes ?",
+      "options": ["Le magasin ferme", "Le magasin ouvre", "Il y a une action", "La caisse est en panne"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Un message de Sara",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Salut, c'est Sara. Je vais arriver un peu plus tard, vers six heures et demie. Je suis encore au bureau. Commence à cuisiner sans moi, s'il te plaît. Merci, à tout à l'heure !",
+      "question": "Quand Sara arrive-t-elle ?",
+      "options": ["À six heures", "À six heures et demie", "À sept heures", "À sept heures et demie"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "La météo à la radio",
+    "prompt": "Écoutez la météo. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Et maintenant la météo. Cet après-midi, il pleut sur tout le pays. Il fait frais, seulement douze degrés. Ce soir, la pluie s'arrête. Demain, le soleil revient.",
+      "question": "Affirmation : demain, il pleut de nouveau.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "À la caisse",
+    "prompt": "Écoutez la vendeuse et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Voilà, ça vous fait douze francs quarante. Vous payez comment, en espèces ou avec la carte ? … Avec la carte, très bien. Tapez votre code ici, s'il vous plaît. Merci beaucoup, bonne journée !",
+      "question": "Combien coûtent les achats ?",
+      "options": ["2.40", "12.40", "12.14", "20.40"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "La voisine sonne",
+    "prompt": "Écoutez la voisine et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour ! Excusez-moi, je suis Madame Grand, votre voisine d'à côté. Je n'ai plus de sel. Vous auriez peut-être un peu de sel pour moi ? Je vous le rends demain.",
+      "question": "Que veut Madame Grand ?",
+      "options": ["Du sel", "Du sucre", "Du lait", "Une clé"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Le cabinet appelle",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Monsieur Osman, ici le cabinet du docteur Roulet. Votre rendez-vous est jeudi à onze heures. Merci d'apporter votre carte d'assuré. Si vous ne pouvez pas venir, appelez-nous la veille s'il vous plaît. Merci et au revoir.",
+      "question": "Que doit apporter Monsieur Osman ?",
+      "options": ["Sa carte d'assuré", "Une facture", "Une photo", "Son passeport"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Le prix au marché : nonante",
+    "prompt": "Écoutez le marchand et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Alors, deux kilos de carottes et un bouquet de persil. Ça vous fait six francs nonante. Vous payez comment ? … Voilà, merci beaucoup et bonne journée !",
+      "question": "Combien coûtent les carottes et le persil ?",
+      "options": ["6.19", "6.90", "9.60", "16.90"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Message du concierge",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici le concierge. Mercredi matin, le peintre vient dans la cage d'escalier. De huit heures à midi, vous ne pouvez pas utiliser l'ascenseur. L'escalier fonctionne normalement, bien sûr. L'après-midi, tout est de nouveau normal. Merci de votre compréhension.",
+      "question": "Affirmation : mercredi matin, on ne peut pas utiliser l'escalier.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Quatre messages courts",
+    "prompt": "Écoutez les quatre messages et associez chacun à son sujet.",
+    "payload": {
+      "instructions": "Associez chaque message au bon sujet. Tous les sujets ne sont pas utilisés.",
+      "transcript": "Message 1 : Bonjour, ici le garage Currat. Votre voiture est prête. Vous pouvez venir la chercher dès demain.\n\nMessage 2 : Bonjour, ici la bibliothèque. Votre livre est arrivé. Nous le gardons une semaine pour vous.\n\nMessage 3 : Salut, c'est moi. Tu peux acheter du pain ? Il n'y en a plus. Merci !\n\nMessage 4 : Bonjour, ici l'école. Votre fille a oublié sa veste. Elle est au secrétariat.",
+      "left": ["Message 1", "Message 2", "Message 3", "Message 4"],
+      "right": [
+        "Quelque chose est réparé et peut être récupéré",
+        "Une commande est arrivée",
+        "Quelqu'un demande de faire une course",
+        "Un enfant a oublié quelque chose",
+        "Un rendez-vous est annulé"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Le chemin de la poste",
+    "prompt": "Écoutez la réponse et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "La poste ? C'est tout simple. Continuez tout droit jusqu'au feu. Ensuite, à droite. La poste est après environ deux cents mètres, sur le côté gauche, à côté de la pharmacie. À pied, ça fait cinq minutes.",
+      "question": "Où se trouve la poste ?",
+      "options": [
+        "À gauche au feu",
+        "À côté de la pharmacie, sur le côté gauche",
+        "Tout droit, après cinq minutes, sur le côté droit",
+        "Deux cents mètres avant le feu"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Information au cours",
+    "prompt": "Écoutez l'information et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Encore une information sur le cours : la semaine prochaine, lundi est férié. Il n'y a donc pas de cours. À la place, nous nous retrouvons le mercredi, même heure, même salle. Notez-le, s'il vous plaît.",
+      "question": "Qu'est-ce qui change la semaine prochaine ?",
+      "options": [
+        "Le cours a lieu le mercredi au lieu du lundi",
+        "Le cours a lieu dans une autre salle",
+        "Le cours commence plus tard",
+        "Il n'y a pas de cours la semaine prochaine"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Quelque chose contre le rhume",
+    "prompt": "Écoutez la pharmacienne et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Alors, contre le rhume, prenez ceci : un comprimé le matin et un le soir, toujours après le repas. Pas plus de deux par jour. Buvez beaucoup d'eau. Si dans cinq jours ça ne va pas mieux, allez voir le médecin, s'il vous plaît.",
+      "question": "Que doit faire la personne si ça ne va pas mieux après cinq jours ?",
+      "options": [
+        "Prendre plus de comprimés",
+        "Aller chez le médecin",
+        "Attendre encore cinq jours",
+        "Revenir à la pharmacie"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Le premier jour de travail",
+    "prompt": "Écoutez le chef et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bienvenue ! Alors, vous commencez à sept heures. À neuf heures, on fait une petite pause de quinze minutes. La pause de midi, c'est de midi à midi et demi. Si vous ne comprenez pas quelque chose, demandez tout de suite — mieux vaut demander une fois de trop que de faire faux. Madame Favre va tout vous montrer.",
+      "question": "Que dit le chef à propos des questions ?",
+      "options": [
+        "Il faut attendre la fin de la journée pour demander",
+        "Il faut demander tout de suite quand on ne comprend pas",
+        "Il faut demander seulement à Madame Favre, pas à lui",
+        "Il faut poser le moins de questions possible"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Septante, nonante — et huitante ?",
+    "prompt": "Écoutez la formatrice. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Une chose qui surprend beaucoup de gens au début : ici, on dit septante et nonante, pas soixante-dix et quatre-vingt-dix. Ce n'est pas une faute, c'est le français d'ici, et vous l'entendrez partout en Suisse romande. Pour quatre-vingts, par contre, c'est différent selon l'endroit : on dit huitante dans le canton de Vaud, mais à Genève, on dit quatre-vingts. Donc écoutez bien où vous êtes.",
+      "question": "Affirmation : selon la formatrice, on dit « huitante » partout en Suisse romande.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "GETTING_STARTED",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Deux collègues parlent du trajet",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Tu viens comment au travail, en fait ?\n— À vélo, toujours. Vingt minutes. Et toi ?\n— En bus. Mais le matin, il est souvent plein, et s'il y a des bouchons, j'arrive en retard.\n— Et à vélo ? Tu n'habites pas loin, pourtant.\n— Oui, j'y pense souvent. Mais en hiver, sous la pluie… je ne sais pas.\n— Essaie au printemps, une semaine seulement. Pour voir.",
+      "question": "Que propose la première collègue ?",
+      "options": [
+        "De prendre le bus plus tôt",
+        "D'essayer le vélo une semaine au printemps",
+        "D'habiter plus près du travail",
+        "D'aller à pied en hiver"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]

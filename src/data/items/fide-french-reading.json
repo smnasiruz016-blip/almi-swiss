@@ -1,0 +1,315 @@
+[
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Note dans l'entrée de l'immeuble",
+    "prompt": "Lisez la note et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chères habitantes, chers habitants,\n\nLa fête des voisins aura lieu le vendredi 23 mai dès 18h00 dans la cour. Chacun apporte quelque chose à manger ou à boire. Les boissons sans alcool sont offertes par la régie.\n\nEn cas de pluie, la fête est annulée.\n\nLe comité des locataires",
+      "question": "Que doivent apporter les habitants ?",
+      "options": [
+        "Quelque chose à manger ou à boire",
+        "Des tables et des chaises",
+        "Rien du tout",
+        "Uniquement des boissons sans alcool"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Horaires du contrôle des habitants",
+    "prompt": "Lisez les horaires et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Contrôle des habitants — heures d'ouverture du guichet\n\nLundi au mercredi : 8h00–11h30 et 14h00–16h30\nJeudi : 8h00–11h30 et 14h00–18h30\nVendredi : 8h00–14h00 sans interruption\nSamedi et dimanche : fermé\n\nEn dehors des heures de guichet, vous pouvez nous écrire par courriel.",
+      "question": "Madame Traoré ne peut venir au guichet qu'après 17h00. Quel jour est-ce possible ?",
+      "options": ["Le lundi", "Le jeudi", "Le vendredi", "Le samedi"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Information sur l'assurance maladie",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Bienvenue en Suisse\n\nL'assurance maladie de base est obligatoire pour toute personne domiciliée en Suisse. Vous devez vous assurer dans les trois mois qui suivent votre arrivée. L'assurance est alors valable depuis le premier jour. Vous choisissez librement votre caisse maladie.",
+      "question": "Affirmation : on peut décider soi-même auprès de quelle caisse maladie on conclut l'assurance de base.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Message de la crèche",
+    "prompt": "Lisez le message et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Bonjour Monsieur Osei,\n\nLéo a de la fièvre (38.9°). Merci de venir le chercher ce matin. Si vous ne pouvez pas, appelez-nous afin que nous cherchions une autre solution.\n\nMeilleures salutations\nCrèche Les Tournesols",
+      "question": "Que doit faire Monsieur Osei s'il ne peut pas venir chercher Léo ?",
+      "options": [
+        "Venir l'après-midi",
+        "Téléphoner à la crèche",
+        "Chercher un médecin",
+        "Envoyer un message à Léo"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Où va ce déchet ?",
+    "prompt": "Associez chaque objet au bon point de collecte.",
+    "payload": {
+      "instructions": "Dans beaucoup de communes, les déchets sont triés. Faites correspondre.",
+      "left": ["Une bouteille d'eau minérale en plastique vide", "Un journal", "Un bocal à confiture vide", "Une boîte de conserve vide"],
+      "right": ["Collecte PET", "Collecte papier", "Collecte verre", "Collecte alu et fer-blanc", "Déchets spéciaux à la pharmacie"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Lettre de la caisse maladie",
+    "prompt": "Lisez la lettre et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Madame,\n\nNous accusons réception de votre facture du 3 février d'un montant de CHF 480.00 pour le traitement reçu aux urgences.\n\nVous n'avez pas encore atteint votre franchise de CHF 300.00. Cette part reste à votre charge. Sur le solde de CHF 180.00, nous prenons en charge 90 pour cent ; les 10 pour cent restants constituent votre quote-part.\n\nLe remboursement vous parviendra dans les dix jours ouvrables.\n\nAvec nos meilleures salutations\nHelvetia Santé SA",
+      "question": "Pourquoi Madame Kovač doit-elle payer une partie de la facture elle-même ?",
+      "options": [
+        "Parce que le traitement n'est pas assuré",
+        "Parce qu'elle n'a pas encore atteint sa franchise",
+        "Parce qu'elle a envoyé la facture trop tard",
+        "Parce que le service des urgences n'est pas reconnu"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Règlement de maison",
+    "prompt": "Lisez l'extrait du règlement et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Extrait du règlement de maison\n\n3. Heures de repos\nLe silence doit être respecté de 22h00 à 7h00, ainsi que le dimanche et les jours fériés toute la journée. Merci de renoncer pendant ces heures aux travaux bruyants tels que perceuse ou aspirateur.\n\n4. Buanderie\nLa buanderie s'utilise selon le planning affiché. Merci d'inscrire votre nom et de nettoyer la machine après usage. Le dimanche, la buanderie reste fermée.\n\nPour toute question, adressez-vous à la régie.",
+      "question": "Monsieur Berger voudrait percer un mur dimanche après-midi pour accrocher un tableau. Que dit le règlement ?",
+      "options": [
+        "C'est autorisé, puisque c'est l'après-midi",
+        "C'est autorisé jusqu'à 22h00",
+        "Ce n'est pas autorisé : le dimanche, le silence vaut toute la journée",
+        "Il doit d'abord s'inscrire sur le planning de la buanderie"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Annonce à la commune",
+    "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Lorsque vous emménagez dans une nouvelle commune, vous devez vous {{1}} auprès du contrôle des habitants. Apportez votre pièce d'identité, le bail et vos attestations d'assurance {{2}} vous. La commune vous inscrit ensuite au registre. Si vous quittez la commune plus tard, vous devez vous {{3}}.",
+      "gaps": [
+        { "id": 1, "options": ["annoncer", "excuser", "inviter", "présenter"] },
+        { "id": 2, "options": ["avec", "après", "sans", "contre"] },
+        { "id": 3, "options": ["annoncer", "désinscrire", "inscrire", "reposer"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Lettre aux parents",
+    "prompt": "Lisez la lettre. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Chers parents,\n\nLa réunion de parents de la classe 6P aura lieu le mardi 6 mai à 19h30, salle 12.\n\nNous parlerons du camp de juin et du passage au cycle d'orientation. Il est important qu'au moins un parent soit présent. Si vous avez besoin d'une traductrice ou d'un traducteur, annoncez-le au secrétariat jusqu'au 29 avril. Nous l'organisons volontiers pour vous.\n\nMeilleures salutations\nM. Iten, enseignante",
+      "question": "Affirmation : les personnes qui ont besoin d'une traduction doivent amener quelqu'un elles-mêmes.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Résilier un bail",
+    "prompt": "Mettez les étapes dans le bon ordre.",
+    "payload": {
+      "instructions": "La famille Nkemelu déménage. Classez les étapes de la première à la dernière.",
+      "items": [
+        "Envoyer la résiliation par écrit à la régie, dans les délais",
+        "Convenir d'une date pour l'état des lieux de sortie",
+        "Nettoyer l'appartement et réparer les petits dégâts",
+        "Faire l'état des lieux avec la régie et signer le procès-verbal",
+        "Remettre les clés"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Affiche à la maison de quartier",
+    "prompt": "Lisez l'affiche et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Café-conversation du mercredi\n\nChaque mercredi de 14h00 à 15h30, nous nous retrouvons à la maison de quartier pour parler français. Nous travaillons des situations du quotidien : chez le médecin, à la commune, à la réunion de parents.\n\nLe groupe est gratuit. Aucune inscription n'est nécessaire — venez simplement. Une garde d'enfants est assurée.\n\nÀ noter : ici, on dit septante et nonante, et dans le canton de Vaud aussi huitante. À Genève, on dit quatre-vingts. Ce ne sont pas des fautes : c'est le français d'ici.",
+      "question": "Que dit l'affiche à propos de « septante », « nonante » et « huitante » ?",
+      "options": [
+        "Ce sont des fautes à corriger",
+        "Ce sont des mots du français d'ici, et « huitante » ne se dit pas partout",
+        "Ils ne s'utilisent qu'à Genève",
+        "Ils ne s'emploient qu'à l'écrit"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Notice sur la naturalisation",
+    "prompt": "Lisez le texte et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : naturalisation ordinaire\n\nQui souhaite obtenir la naturalisation ordinaire doit remplir plusieurs conditions. La Confédération exige notamment une attestation de compétences linguistiques : au moins le niveau B1 à l'oral et au moins le niveau A2 à l'écrit dans une langue nationale.\n\nCes valeurs sont des exigences minimales de la Confédération. C'est le canton et votre commune de domicile qui décident de votre demande, et ils peuvent poser des exigences supplémentaires. Renseignez-vous donc suffisamment tôt auprès de votre commune pour savoir quelles règles s'appliquent à vous.",
+      "question": "Que dit la notice au sujet des exigences du canton et de la commune ?",
+      "options": [
+        "Elles sont les mêmes dans toute la Suisse",
+        "Elles ne peuvent pas dépasser les exigences minimales de la Confédération",
+        "Elles peuvent être plus strictes que les exigences minimales de la Confédération",
+        "Elles ne concernent que les compétences écrites"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Extrait du contrat de travail",
+    "prompt": "Lisez l'extrait et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Le temps d'essai {{1}} trois mois. Pendant cette période, le contrat peut être résilié par les deux parties moyennant un délai de sept jours. À l'échéance du temps d'essai, un délai de congé de deux mois pour la fin d'un mois {{2}}. La collaboratrice a droit {{3}} quatre semaines de vacances payées par année.",
+      "gaps": [
+        { "id": 1, "options": ["est de", "reçoit", "appartient", "signifie"] },
+        { "id": 2, "options": ["s'applique", "va", "reste", "arrive"] },
+        { "id": 3, "options": ["à", "pour", "sur", "de"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Deux avis sur la vie associative",
+    "prompt": "Lisez les deux contributions parues dans le journal de quartier et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Dilan (34 ans) : « Quand je suis arrivée ici, je ne connaissais personne. À la société de gymnastique, j'ai rencontré plus de monde en deux mois qu'en deux ans auparavant. Il ne faut pas parler un français parfait — il faut simplement y aller. Le reste vient tout seul. »\n\nMarco (51 ans) : « On entend souvent qu'il suffit d'entrer dans une association et que l'intégration se fera d'elle-même. Ce n'est pas si simple. Qui travaille toute la journée et s'occupe des enfants le soir n'a tout bonnement pas le temps. Les associations, c'est bien, mais ce n'est pas un substitut à des cours de français abordables, à des horaires où les gens qui travaillent peuvent vraiment venir. »",
+      "question": "Sur quel point Dilan et Marco ne sont-ils PAS d'accord ?",
+      "options": [
+        "Sur le fait que les associations permettent de créer des contacts",
+        "Sur le fait qu'une association soit une voie réaliste pour tout le monde",
+        "Sur le fait qu'il faille parler un français parfait pour y aller",
+        "Sur le fait que les cours de français soient trop chers"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "À quel service s'adresser ?",
+    "prompt": "Associez chaque situation au service qui convient.",
+    "payload": {
+      "instructions": "Quatre personnes ont besoin d'aide. Associez chaque situation au service qui convient. Tous les services ne sont pas utilisés.",
+      "left": [
+        "Madame Silva a déménagé et doit annoncer officiellement sa nouvelle adresse.",
+        "Monsieur Demir a reçu une facture qu'il ne comprend pas et souhaite un conseil indépendant.",
+        "Madame Weber estime que sa régie a augmenté le loyer sans motif.",
+        "Monsieur Abebe veut savoir quels documents lui sont demandés pour sa demande de naturalisation."
+      ],
+      "right": [
+        "Le contrôle des habitants de la commune",
+        "Une permanence de la Fédération romande des consommateurs",
+        "L'autorité de conciliation en matière de baux à loyer",
+        "Le secrétariat communal, service des naturalisations",
+        "La police cantonale",
+        "L'office des poursuites"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Sich kurz vorstellen (Kurs)",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Stellen Sie sich in einem neuen Kurs vor: Name, Herkunft, Sprachen, warum Sie Deutsch lernen.",
+      "criteria": [
+        "Beantwortet alle vier Punkte",
+        "Spricht in ganzen Sätzen",
+        "Ist verständlich, auch mit Akzent",
+        "Spricht ohne lange Pausen"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Ein Foto beschreiben",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie ein Foto aus Ihrem Handy: Wer ist darauf, wo wurde es gemacht, wann, und warum gefällt es Ihnen?",
+      "criteria": [
+        "Beschreibt, was zu sehen ist",
+        "Sagt Ort und Zeit",
+        "Sagt, warum es Ihnen gefällt",
+        "Spricht 30 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Im Hotel einchecken",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Sie kommen im Hotel an. Sagen Sie, wer Sie sind, dass Sie reserviert haben, und fragen Sie nach Frühstück und WLAN.",
+      "criteria": [
+        "Nennt Namen und Reservierung",
+        "Stellt beide Fragen",
+        "Reagiert auf die Antwort",
+        "Höflich"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Über Ihre Woche sprechen",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie, wie Ihre Woche aussieht: was Sie an welchen Tagen machen, und was Sie am liebsten mögen.",
+      "criteria": [
+        "Nennt mehrere Tage und Tätigkeiten",
+        "Sagt, was Ihnen am besten gefällt",
+        "Spricht im Präsens",
+        "Verständlich"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Etwas bestellen im Café",
+    "prompt": "Sprechen Sie mindestens 30 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind im Café. Bestellen Sie etwas zu trinken und ein Stück Kuchen. Fragen Sie, ob man mit Karte zahlen kann.",
+      "criteria": [
+        "Bestellt klar",
+        "Stellt die Frage zur Zahlung",
+        "Sagt bitte und danke",
+        "Versteht die Antwort und reagiert"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Gemeinsam etwas planen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Sie planen mit einer Kollegin einen Ausflug für die Klasse. Machen Sie Vorschläge zu Ziel, Datum und Anreise, und reagieren Sie auf einen Einwand (das Ziel ist zu teuer).",
+      "criteria": [
+        "Macht konkrete Vorschläge",
+        "Begründet sie",
+        "Geht auf den Einwand ein, statt ihn zu übergehen",
+        "Findet einen Kompromiss",
+        "Spricht 50 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Erfahrung erzählen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von einer Reise, die nicht wie geplant lief: Was ist passiert, was haben Sie gemacht, wie ist es ausgegangen?",
+      "criteria": [
+        "Erzählt in der Vergangenheit",
+        "Erzählt der Reihe nach",
+        "Sagt, wie Sie sich gefühlt haben",
+        "Kommt zu einem Schluss",
+        "Spricht 50 Sekunden"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Etwas empfehlen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand besucht zum ersten Mal Ihre Heimatstadt und hat einen Tag Zeit. Empfehlen Sie ein Programm und begründen Sie es.",
+      "criteria": [
+        "Macht mehrere konkrete Vorschläge",
+        "Begründet die Empfehlungen",
+        "Denkt an Praktisches (Zeit, Weg, Kosten)",
+        "Fragt nach den Interessen der Person",
+        "Spricht 50 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Am Telefon etwas klären",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben online etwas bestellt, aber die falsche Grösse bekommen. Rufen Sie an, erklären Sie das Problem und sagen Sie, was Sie möchten.",
+      "criteria": [
+        "Erklärt das Problem klar und kurz",
+        "Nennt die nötigen Angaben (Bestellung, Datum)",
+        "Sagt, was Sie möchten",
+        "Reagiert auf eine Rückfrage",
+        "Bleibt freundlich"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Über Gewohnheiten sprechen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Sprechen Sie über Ihre Essgewohnheiten: Was essen Sie normalerweise, hat sich das verändert, seit Sie hier leben, und warum?",
+      "criteria": [
+        "Beantwortet alle drei Punkte",
+        "Vergleicht früher und heute",
+        "Gibt konkrete Beispiele",
+        "Spricht 50 Sekunden zusammenhängend",
+        "Verständlich"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Höflich widersprechen",
+    "prompt": "Sprechen Sie mindestens 50 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand sagt: «Man muss keine Fremdsprachen mehr lernen, es gibt ja Übersetzungs-Apps.» Sie sehen das anders. Antworten Sie.",
+      "criteria": [
+        "Widerspricht klar, aber höflich",
+        "Bringt mindestens zwei Argumente",
+        "Gibt zu, was an der anderen Meinung stimmt",
+        "Spricht 50 Sekunden zusammenhängend",
+        "Wird nicht persönlich"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Eine Meinung vertreten: Vier-Tage-Woche",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Sollte man vier Tage pro Woche arbeiten, bei gleichem Lohn? Sagen Sie Ihre Meinung, begründen Sie sie, und gehen Sie auf den wichtigsten Einwand ein.",
+      "criteria": [
+        "Bezieht klar Position und hält sie",
+        "Begründet mit mindestens zwei Argumenten",
+        "Nennt den Gegeneinwand und antwortet darauf, ohne ihn zu verzerren",
+        "Spricht 90 Sekunden zusammenhängend, nicht in Stichworten",
+        "Bleibt auch bei anspruchsvollem Inhalt verständlich",
+        "Endet mit einem Fazit"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Eine Grafik beschreiben",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Eine Umfrage zeigt: 62 % der Befragten lesen täglich Nachrichten auf dem Handy, 24 % im Radio oder Fernsehen, 9 % in einer gedruckten Zeitung, 5 % gar nicht. Beschreiben Sie die Zahlen und sagen Sie, was Sie davon halten.",
+      "criteria": [
+        "Nennt die wichtigsten Zahlen korrekt",
+        "Vergleicht sie sprachlich (mehr als, am wenigsten, im Gegensatz zu)",
+        "Beschreibt zuerst, wertet erst danach",
+        "Sagt die eigene Meinung mit Begründung",
+        "Spricht 90 Sekunden strukturiert",
+        "Erfindet keine Zahlen dazu"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Ein Problem lösen: zu wenig Zeit",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Eine Freundin sagt, sie habe neben Arbeit und Familie keine Zeit mehr für sich. Hören Sie zu, fragen Sie nach, und machen Sie Vorschläge — ohne sie zu belehren.",
+      "criteria": [
+        "Zeigt Verständnis, bevor Sie raten",
+        "Stellt mindestens zwei Fragen",
+        "Macht konkrete, realistische Vorschläge",
+        "Drängt nicht und belehrt nicht",
+        "Spricht 90 Sekunden zusammenhängend",
+        "Kommt zu einem Abschluss"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Über Veränderung sprechen",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Wie hat sich die Art, wie wir Nachrichten lesen, in den letzten zwanzig Jahren verändert? Was ist besser geworden, was schlechter? Sagen Sie auch, wie Sie es selber machen.",
+      "criteria": [
+        "Beschreibt eine Entwicklung, nicht nur einen Zustand",
+        "Nennt Vor- und Nachteile",
+        "Verbindet Allgemeines mit dem eigenen Verhalten",
+        "Verwendet Zeitangaben und Vergleiche sicher",
+        "Spricht 90 Sekunden zusammenhängend",
+        "Behauptet keine Zahlen, die Sie nicht wissen"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

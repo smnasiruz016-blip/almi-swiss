@@ -1,0 +1,304 @@
+[
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Message sur le répondeur",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Madame Sylla, ici la déchetterie communale de Renens. Vous nous avez demandé les horaires pour les encombrants. Nous sommes ouverts du mardi au vendredi de 14h à 18h, et le samedi de 9h à 16h. Le lundi, nous sommes fermés. Vous pouvez venir avec votre carte d'habitant. Bonne journée.",
+      "question": "Quand la déchetterie est-elle fermée ?",
+      "options": ["Le lundi", "Le mardi", "Le samedi", "Le vendredi après-midi"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Annonce en gare",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Information aux voyageurs à destination de Genève. Le train InterRegio de 14h12 partira aujourd'hui exceptionnellement de la voie 5, et non de la voie 3. Je répète : le train pour Genève partira de la voie 5. Nous vous prions de nous excuser pour ce changement.",
+      "question": "Qu'est-ce qui a changé ?",
+      "options": ["L'heure de départ", "La voie", "La destination", "Le prix du billet"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Message du secrétariat de l'école",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici le secrétariat de l'école des Vergers. Demain, la sortie à la piscine est annulée : le car est en panne. Les élèves ont donc cours normalement en classe, aux heures habituelles. Il n'est pas nécessaire d'apporter les affaires de bain. Merci d'en informer votre enfant.",
+      "question": "Affirmation : demain, les cours commencent plus tard que d'habitude.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "À la pharmacie",
+    "prompt": "Écoutez la pharmacienne et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Alors, voici votre médicament. C'est un comprimé le matin et un le soir, toujours après le repas — jamais l'estomac vide, sinon vous risquez d'avoir mal au ventre. La boîte est pour dix jours. Terminez toute la boîte, même si vous vous sentez mieux avant.",
+      "question": "Quand faut-il prendre les comprimés ?",
+      "options": [
+        "Avant les repas",
+        "Après les repas",
+        "Seulement le matin",
+        "Uniquement en cas de douleur"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Le prix au marché",
+    "prompt": "Écoutez le marchand et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Voilà, madame : un kilo de pommes et une salade. Ça vous fait sept francs nonante. Vous payez comment ? Ah, avec la carte, très bien, tapez votre code s'il vous plaît. Merci et bonne journée !",
+      "question": "Combien coûtent les achats ?",
+      "options": ["7,19 francs", "7,90 francs", "9,70 francs", "17,90 francs"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Message de la régie",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Monsieur Rahimi, ici Madame Progin de la régie Duval. C'est au sujet de votre demande pour le chauffage. Le chauffagiste peut passer mercredi prochain entre 8h et midi. Il faut que quelqu'un soit présent dans l'appartement : nous n'entrons pas sans locataire. Si ce créneau ne va pas, rappelez-moi avant lundi, sinon nous confirmons le rendez-vous. Merci, au revoir.",
+      "question": "Que doit faire Monsieur Rahimi s'il ne peut pas être là mercredi matin ?",
+      "options": [
+        "Laisser la clé chez un voisin",
+        "Rappeler la régie avant lundi",
+        "Attendre un second message",
+        "Écrire directement au chauffagiste"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Au guichet du contrôle des habitants",
+    "prompt": "Écoutez l'employée et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Alors, pour annoncer votre arrivée dans la commune, il me faut trois choses : votre pièce d'identité, votre contrat de bail et votre attestation d'assurance maladie. Vous avez le bail et la pièce d'identité, très bien. L'attestation d'assurance, vous pouvez nous l'envoyer par courriel dans les prochains jours — ce n'est pas la peine de revenir au guichet pour ça. Je vous prépare déjà le reste.",
+      "question": "Que manque-t-il à cette personne, et comment peut-elle le fournir ?",
+      "options": [
+        "Le bail — elle doit revenir au guichet",
+        "L'attestation d'assurance maladie — elle peut l'envoyer par courriel",
+        "La pièce d'identité — elle doit la demander à sa commune",
+        "Rien : le dossier est complet"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Message de la caisse maladie",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour Madame Kovač, ici le service clientèle de votre caisse maladie. Nous avons bien reçu votre facture. Une partie reste toutefois à votre charge, car votre franchise n'est pas encore atteinte cette année. Ce n'est pas une erreur de notre part et ce n'est pas la peine de renvoyer le document. Si vous souhaitez des explications, notre ligne est ouverte du lundi au vendredi. Bonne journée.",
+      "question": "Affirmation : Madame Kovač doit renvoyer la facture une deuxième fois.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Message d'une collègue",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Salut, c'est Aline. Écoute, je suis coincée dans les bouchons, je vais arriver avec vingt minutes de retard à peu près. La séance commence à dix heures. Est-ce que tu peux prévenir Monsieur Bettex et commencer sans moi ? Je ferai ma partie à la fin. Merci beaucoup, à tout à l'heure !",
+      "question": "Que demande Aline à sa collègue ?",
+      "options": [
+        "De repousser la séance de vingt minutes",
+        "De prévenir Monsieur Bettex et de commencer sans elle",
+        "De faire sa partie à sa place",
+        "De venir la chercher en voiture"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Quatre messages sur le répondeur",
+    "prompt": "Écoutez les quatre messages et associez chacun à son sujet.",
+    "payload": {
+      "instructions": "Vous rentrez à la maison et écoutez votre répondeur. Associez chaque message au bon sujet.",
+      "transcript": "Message 1 : Bonjour, cabinet dentaire Morand. Nous vous rappelons votre rendez-vous de contrôle de jeudi à 16h30. Merci de nous avertir vingt-quatre heures à l'avance en cas d'empêchement.\n\nMessage 2 : Bonjour, ici la bibliothèque municipale. Deux de vos livres sont à rendre depuis une semaine. Merci de les rapporter afin d'éviter des frais de retard.\n\nMessage 3 : Bonsoir, c'est votre voisin du deuxième. Un colis est arrivé pour vous cet après-midi, je l'ai pris chez moi. Sonnez quand vous voulez, je suis là toute la soirée.\n\nMessage 4 : Bonjour, service des naturalisations de la commune. Il manque une pièce à votre dossier : l'attestation de langue. Merci de nous la faire parvenir d'ici la fin du mois.",
+      "left": ["Message 1", "Message 2", "Message 3", "Message 4"],
+      "right": [
+        "Un rappel de rendez-vous",
+        "Quelque chose à rendre en retard",
+        "Un colis gardé par quelqu'un d'autre",
+        "Un document manquant dans un dossier",
+        "Une facture impayée"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Annonce à la réunion de parents",
+    "prompt": "Écoutez l'enseignante et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Encore un point avant de terminer. Le camp de ski a lieu en février. Il coûte deux cents francs par enfant. Je sais que pour certaines familles, c'est beaucoup. Il existe un fonds communal qui prend en charge une partie du montant — mais il faut le demander, personne ne le propose automatiquement. Venez me voir après la séance, ou écrivez-moi. Cela reste entre nous.",
+      "question": "Que dit l'enseignante au sujet de l'aide financière ?",
+      "options": [
+        "Elle est accordée automatiquement aux familles concernées",
+        "Il faut la demander soi-même",
+        "Elle couvre la totalité du camp",
+        "Elle n'existe que pour les enfants du village"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Information au service des naturalisations",
+    "prompt": "Écoutez la collaboratrice et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Je vous explique comment ça fonctionne, parce que les gens confondent souvent. Le minimum fédéral, c'est au moins B1 à l'oral et au moins A2 à l'écrit dans une langue nationale. Mais tout dépend de votre voie. Si vous êtes mariée à un citoyen suisse, c'est la naturalisation facilitée, et là c'est le Secrétariat d'État aux migrations qui décide. Vous, c'est une naturalisation ordinaire : ce sont le canton et la commune qui décident, et ils peuvent exiger davantage que le minimum fédéral. Alors ne vous fiez pas seulement à ce qui est écrit au niveau fédéral : téléphonez à votre commune et demandez ce qui s'applique chez vous, avant de vous inscrire à un examen.",
+      "question": "Pourquoi la collaboratrice conseille-t-elle de téléphoner à la commune ?",
+      "options": [
+        "Parce que la commune organise elle-même l'examen de langue",
+        "Parce que pour une naturalisation ordinaire, c'est le canton et la commune qui décident et qui peuvent exiger davantage",
+        "Parce que le minimum fédéral ne s'applique pas en Suisse romande",
+        "Parce que le Secrétariat d'État aux migrations décide de toutes les demandes"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "État des lieux de sortie",
+    "prompt": "Écoutez le représentant de la régie et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bon, on a fait le tour. L'appartement est propre, c'est bien. Deux remarques quand même. Les trous dans le mur du salon, ça, c'est de l'usure normale, on ne vous les compte pas. En revanche, la plaque de cuisson est fêlée : ça, ce n'est pas de l'usure, et ce sera retenu sur la garantie. Je note les deux points au procès-verbal. Vous n'êtes pas obligé de le signer aujourd'hui si vous n'êtes pas d'accord — vous pouvez indiquer votre désaccord par écrit.",
+      "question": "Que dit le représentant au sujet des trous dans le mur ?",
+      "options": [
+        "Ils seront retenus sur la garantie",
+        "Ils comptent comme de l'usure normale et ne sont pas facturés",
+        "Ils doivent être réparés avant la remise des clés",
+        "Ils ne figureront pas au procès-verbal"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Chronique à la radio locale",
+    "prompt": "Écoutez la chronique. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Et pour terminer, un mot sur notre français d'ici. On nous écrit souvent pour nous demander s'il faut dire septante ou soixante-dix. La réponse est simple : en Suisse romande, on dit septante et nonante, et c'est du bon français — ce n'est pas une faute à corriger. Pour quatre-vingts, en revanche, ça dépend de l'endroit : on entend huitante dans le canton de Vaud, mais à Genève, on dit quatre-vingts comme en France. Donc si vous arrivez chez nous et qu'on vous corrige d'un village à l'autre, ne vous inquiétez pas : c'est la région qui change, pas votre français.",
+      "question": "Affirmation : selon la chronique, « huitante » s'emploie partout en Suisse romande.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Deux voisins parlent de la commune",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Tu as vu, ils veulent fermer la rue de l'École aux voitures.\n— Oui, j'ai lu ça dans le journal communal. Franchement, je trouve ça bien : les enfants y vont à pied tous les matins.\n— Je ne dis pas le contraire pour les enfants. Mon problème, c'est que je livre du matériel là tous les jours. Si je ne peux plus m'arrêter devant, je fais comment ?\n— Il paraît qu'il y aura des heures de livraison le matin, tôt.\n— Tôt comment ? Parce que si c'est avant six heures, ça ne m'arrange pas du tout. Je ne suis pas contre la rue piétonne, je veux juste qu'on nous demande avant de décider.",
+      "question": "Quelle est la position du deuxième voisin ?",
+      "options": [
+        "Il est opposé à la fermeture de la rue",
+        "Il n'est pas opposé au principe, mais veut être consulté sur les modalités",
+        "Il estime que les enfants ne devraient pas aller à pied à l'école",
+        "Il pense que le journal communal s'est trompé"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]

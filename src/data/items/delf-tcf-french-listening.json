@@ -1,0 +1,305 @@
+[
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Annonce au cinéma",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chers spectateurs, le film de la salle trois commence dans cinq minutes. Merci d'éteindre vos téléphones. Nous vous souhaitons une bonne soirée.",
+      "question": "Que doivent faire les spectateurs ?",
+      "options": ["Éteindre leur téléphone", "Aller en salle cinq", "Acheter des billets", "Attendre cinq minutes puis partir"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Message : je viens te chercher",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Salut Sam, je viens te chercher dimanche. Je serai chez toi à neuf heures et quart. Prends tes chaussures de marche, on va à la montagne. À dimanche !",
+      "question": "Quand la personne arrive-t-elle ?",
+      "options": ["À 9h00", "À 9h15", "À 9h45", "À 10h15"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Annonce au grand magasin",
+    "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Une information pour notre clientèle : aujourd'hui, toutes les vestes d'hiver sont à moitié prix. L'offre est valable aujourd'hui seulement et uniquement au deuxième étage.",
+      "question": "Affirmation : l'offre est valable toute la semaine.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Commander au restaurant",
+    "prompt": "Écoutez le serveur et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Alors, une soupe de légumes et une salade. Vous voulez du pain avec ? … Oui, volontiers. Et comme boisson ? … Deux eaux, très bien. J'arrive tout de suite.",
+      "question": "Qu'ont commandé les clients ?",
+      "options": [
+        "Soupe, salade, pain et eau",
+        "Seulement soupe et eau",
+        "Salade et café",
+        "Soupe, pain et vin"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Météo du week-end",
+    "prompt": "Écoutez le bulletin et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Le week-end sera variable. Samedi, le ciel est nuageux mais il ne pleut pas, avec quinze degrés. Dimanche, il pleut le matin, et l'après-midi le soleil revient.",
+      "question": "Quel temps fait-il samedi ?",
+      "options": ["Ensoleillé", "Nuageux et sec", "Pluvieux", "Froid et venteux"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Appel au service clientèle",
+    "prompt": "Écoutez la collaboratrice et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Oui, je vois votre commande. L'appareil n'est malheureusement plus en stock. Vous avez deux possibilités : vous attendez trois semaines la prochaine livraison, ou nous annulons la commande et vous êtes remboursé sous cinq jours. Que préférez-vous ?",
+      "question": "Quelles possibilités a le client ?",
+      "options": [
+        "Attendre ou annuler",
+        "Prendre un autre appareil ou attendre",
+        "Seulement attendre",
+        "Seulement annuler"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Chronique radio : moins de plastique",
+    "prompt": "Écoutez la chronique et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Beaucoup de gens veulent utiliser moins de plastique, mais ne savent pas par où commencer. Les spécialistes conseillent : commencez par une seule chose, pas par tout en même temps. Par exemple, une gourde plutôt que des boissons achetées. Celui qui veut tout changer d'un coup abandonne le plus souvent au bout de deux semaines.",
+      "question": "Que conseillent les spécialistes ?",
+      "options": [
+        "De tout changer d'un coup",
+        "De commencer par une seule chose",
+        "De tester deux semaines puis d'arrêter",
+        "De ne plus acheter de boissons"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Information sur la visite guidée",
+    "prompt": "Écoutez l'information. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bienvenue à cette visite guidée. Elle dure environ quatre-vingt-dix minutes. Nous ferons une courte pause au milieu. Vous pouvez poser vos questions à tout moment, vous n'êtes pas obligés d'attendre la fin. Les photos sont autorisées, mais sans flash s'il vous plaît.",
+      "question": "Affirmation : les questions ne sont possibles qu'à la fin de la visite.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Quatre personnes parlent de leur loisir",
+    "prompt": "Écoutez les quatre personnes et associez chacune à la bonne affirmation.",
+    "payload": {
+      "instructions": "Associez. Toutes les affirmations ne sont pas utilisées.",
+      "transcript": "Personne 1 : J'aime cuisiner, mais seulement le week-end. En semaine, je n'ai tout simplement pas le temps.\n\nPersonne 2 : J'ai commencé la guitare à cinquante ans. Tout le monde disait que j'étais trop vieux pour ça. Moi je trouve qu'il n'est jamais trop tard.\n\nPersonne 3 : Je cours tous les matins, par tous les temps. Pas parce que c'est amusant, mais parce qu'après, je vais mieux toute la journée.\n\nPersonne 4 : Je peins, mais je ne le montre à personne. C'est seulement pour moi. Si je devais le montrer, ça ne me plairait plus.",
+      "left": ["Personne 1", "Personne 2", "Personne 3", "Personne 4"],
+      "right": [
+        "N'a du temps pour son loisir que le week-end",
+        "A commencé tard et trouve que ce n'est pas un problème",
+        "Le fait pour l'effet après, pas pour le plaisir",
+        "Veut garder son loisir pour elle",
+        "Gagne de l'argent avec son loisir",
+        "A repris le loisir de ses parents"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Annonce à l'aéroport",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Information pour les passagers du vol LX quatre cent deux à destination de Berlin : le départ est retardé d'environ quarante minutes. L'embarquement commencera à seize heures vingt, porte B sept. Nous vous remercions de votre compréhension.",
+      "question": "Qu'est-ce qui est exact ?",
+      "options": [
+        "Le vol est annulé",
+        "L'embarquement commence plus tard, à 16h20",
+        "La porte a changé, mais pas l'heure",
+        "Les passagers doivent aller au guichet"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Deux amis organisent la soirée",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On va au cinéma ce soir ?\n— Hm, franchement je suis fatiguée. J'ai eu une longue journée.\n— Alors on cuisine chez moi et on regarde quelque chose à la maison ?\n— Ça me va mieux. J'apporte à boire.\n— Parfait, viens à sept heures.",
+      "question": "Que font les deux ?",
+      "options": [
+        "Ils vont au cinéma",
+        "Ils cuisinent et restent à la maison",
+        "Ils vont au restaurant",
+        "Ils ne se voient pas"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Entretien : apprendre une langue adulte",
+    "prompt": "Écoutez l'entretien et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Beaucoup disent que les enfants apprennent les langues plus facilement. C'est vrai ?\n— En partie. Les enfants ont un avantage pour la prononciation, c'est incontestable. Mais les adultes apprennent souvent la grammaire et le vocabulaire plus vite, parce qu'ils peuvent procéder de manière systématique.\n— Pourquoi tant d'adultes ont-ils alors l'impression que ça ne marche pas ?\n— Parce qu'ils se comparent à des locuteurs natifs au lieu de se comparer à eux-mêmes un an plus tôt. Et parce qu'ils parlent trop peu. On n'apprend pas une langue en la comprenant, mais en l'utilisant — avec des fautes aussi.",
+      "question": "Que dit la spécialiste au sujet des adultes ?",
+      "options": [
+        "Ils apprennent les langues moins bien que les enfants, par principe",
+        "Ils ont un avantage pour la prononciation",
+        "Ils apprennent souvent la grammaire et le vocabulaire plus vite, mais parlent trop peu",
+        "Ils devraient parler seulement quand ils ne font plus de fautes"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Exposé : pourquoi les pauses comptent",
+    "prompt": "Écoutez l'exposé et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Beaucoup croient que celui qui travaille plus longtemps produit davantage. La recherche montre autre chose. Après environ quatre-vingt-dix minutes de travail concentré, la performance baisse nettement. Celui qui continue met plus de temps pour la même tâche et fait plus d'erreurs. Une courte pause — cinq à dix minutes, sans écran — rétablit largement la concentration. Le problème n'est pas le savoir. Le problème, c'est que dans beaucoup d'entreprises, les pauses passent encore pour de la paresse.",
+      "question": "Selon l'exposé, quel est le vrai problème ?",
+      "options": [
+        "La recherche n'a pas encore de réponse",
+        "Dans beaucoup d'entreprises, les pauses passent pour de la paresse",
+        "Les pauses sont trop longues",
+        "Les gens veulent rentrer après 90 minutes"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Débat : la semaine de quatre jours",
+    "prompt": "Écoutez le débat. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "— J'en suis convaincue : quatre jours de travail, même salaire. Les essais montrent que les gens sont plus productifs.\n— Attends. Les essais montrent ça pour les bureaux. Pour un hôpital ou une boulangerie, ça ne vaut pas — on ne peut pas simplement condenser le travail. Quelqu'un doit se lever à quatre heures pour faire le pain.\n— C'est vrai, je te l'accorde. Je dis seulement : là où c'est possible, il faudrait le faire.\n— Là-dessus, je suis d'accord. Je m'oppose seulement à ce qu'on le vende comme une solution pour tout le monde.",
+      "question": "Affirmation : à la fin, les deux ne sont d'accord sur aucun point.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Téléphone : une réclamation",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, j'ai commandé une table chez vous. Celle qui a été livrée est abîmée.\n— Je suis désolé. Avez-vous signalé le dommage à la livraison ?\n— Non, je n'ai ouvert le carton que le soir.\n— Je comprends. En principe, il faudrait le signaler tout de suite. Mais envoyez-moi des photos, je regarderai ce que je peux faire. Je ne peux rien vous promettre, mais je vous recontacte d'ici vendredi.",
+      "question": "À quoi s'engage le collaborateur ?",
+      "options": [
+        "Il remplace la table immédiatement",
+        "Il ne peut rien faire, car le dommage a été signalé trop tard",
+        "Il regarde et recontacte le client d'ici vendredi, sans rien promettre",
+        "Il envoie le client à la poste"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  }
+]

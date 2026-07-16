@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Postkarte aus den Ferien",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind in den Ferien. Schreiben Sie einer Freundin eine Postkarte: wo Sie sind, wie das Wetter ist, was Sie machen.",
+      "criteria": [
+        "Beantwortet alle drei Punkte",
+        "Anrede und Gruss",
+        "Kurze, ganze Sätze",
+        "Verständlich, auch mit einfachen Fehlern"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formular: Anmeldung Bibliothek",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie melden sich in der Bibliothek an. Im Formular steht ein freies Feld: «Was lesen Sie gern, und wie oft kommen Sie ungefähr?»",
+      "criteria": [
+        "Sagt, was Sie gern lesen",
+        "Sagt, wie oft Sie kommen",
+        "Ganze Sätze, keine Stichworte",
+        "Verständlich"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS: Treffpunkt ändern",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie treffen eine Freundin heute Abend. Der Treffpunkt passt nicht mehr. Schreiben Sie ihr.",
+      "criteria": [
+        "Sagt, dass sich etwas ändert",
+        "Nennt den neuen Treffpunkt und die Zeit",
+        "Nennt kurz den Grund",
+        "Freundlich und kurz"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Über sich selbst schreiben",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Für eine Sprachpartner-Website schreiben Sie ein kurzes Profil: wer Sie sind, welche Sprachen Sie sprechen, was Sie gern machen.",
+      "criteria": [
+        "Beantwortet alle drei Punkte",
+        "Schreibt in ganzen Sätzen",
+        "Bleibt ehrlich beim Sprachniveau",
+        "Verständlich"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Notiz: Danke für das Buch",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Eine Kollegin hat Ihnen ein Buch geliehen. Sie geben es zurück und legen eine Notiz dazu.",
+      "criteria": [
+        "Bedankt sich",
+        "Sagt etwas zum Buch",
+        "Sagt, dass Sie es zurückgeben",
+        "Freundlicher Ton"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail: Hotel reservieren",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten ein Zimmer für zwei Nächte reservieren. Schreiben Sie an das Hotel.",
+      "criteria": [
+        "Nennt die Daten und die Art des Zimmers",
+        "Stellt mindestens zwei Fragen (z. B. Frühstück, Lage, Preis)",
+        "Bittet um eine Bestätigung",
+        "Anrede und Gruss in der Sie-Form",
+        "Verständlich und höflich"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail: Kurs absagen",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben sich für einen Kurs angemeldet, können aber doch nicht teilnehmen. Schreiben Sie dem Kurszentrum.",
+      "criteria": [
+        "Nennt den Kurs und das Datum der Anmeldung",
+        "Sagt klar ab",
+        "Nennt einen Grund",
+        "Fragt nach dem Geld oder einem späteren Kurs",
+        "Anrede, Gruss, Name"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Erfahrung erzählen",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Ein Freund fragt Sie nach Ihrem letzten Umzug. Erzählen Sie: wann, wohin, wie es war, wer geholfen hat.",
+      "criteria": [
+        "Beantwortet alle vier Punkte",
+        "Schreibt in der Vergangenheit",
+        "Verbindet die Sätze (zuerst, dann, am Schluss)",
+        "Sagt, wie es für Sie war",
+        "Verständlich"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Forumsbeitrag: Tipp für Lernende",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "In einem Forum fragt jemand: «Wie lernt ihr Vokabeln?» Antworten Sie mit Ihrem Tipp.",
+      "criteria": [
+        "Nennt einen konkreten Tipp",
+        "Sagt, warum er funktioniert",
+        "Gibt ein Beispiel",
+        "Passender Ton für ein Forum (freundlich, nicht belehrend)",
+        "Verständlich"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "E-Mail: Etwas reklamieren",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben online eine Jacke bestellt. Geliefert wurde die falsche Grösse. Schreiben Sie dem Shop.",
+      "criteria": [
+        "Nennt die Bestellung (Datum oder Nummer)",
+        "Beschreibt das Problem",
+        "Sagt, was Sie möchten",
+        "Bleibt sachlich",
+        "Anrede, Gruss, Name"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Einladung absagen",
+    "prompt": "Schreiben Sie 50–70 Wörter.",
+    "payload": {
+      "stimulus": "Freunde laden Sie zu einer Hochzeit ein. Sie können nicht kommen. Antworten Sie.",
+      "criteria": [
+        "Bedankt sich für die Einladung",
+        "Sagt klar ab",
+        "Nennt einen Grund",
+        "Wünscht etwas oder schlägt ein Treffen vor",
+        "Persönlicher, warmer Ton"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Stellungnahme: Handys in der Schule",
+    "prompt": "Schreiben Sie 80–120 Wörter.",
+    "payload": {
+      "stimulus": "In einem Forum wird diskutiert, ob Handys in der Schule verboten werden sollen. Schreiben Sie Ihre Meinung.",
+      "criteria": [
+        "Nennt das Thema und die eigene Position am Anfang",
+        "Bringt mindestens zwei Argumente",
+        "Nennt die Gegenseite und antwortet darauf",
+        "Schliesst mit einem Fazit",
+        "Zusammenhängender Text, keine Liste",
+        "Verständlich über 80–120 Wörter"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Brief: Ein Problem schildern und eine Lösung vorschlagen",
+    "prompt": "Schreiben Sie 80–120 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Sportverein gibt es zu wenig Trainingszeiten für Erwachsene. Schreiben Sie dem Vorstand.",
+      "criteria": [
+        "Beschreibt das Problem konkret",
+        "Sagt, wen es betrifft",
+        "Macht mindestens einen umsetzbaren Vorschlag",
+        "Erkennt eine Schwierigkeit an (z. B. Hallenzeiten)",
+        "Höflich, aber deutlich",
+        "Briefform: Anrede, Schluss, Name"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Text: Etwas vergleichen",
+    "prompt": "Schreiben Sie 80–120 Wörter.",
+    "payload": {
+      "stimulus": "Vergleichen Sie: mit dem Zug reisen oder mit dem Flugzeug? Nennen Sie Vor- und Nachteile und sagen Sie, was Sie wählen.",
+      "criteria": [
+        "Behandelt beide Seiten wirklich",
+        "Nennt Vor- und Nachteile bei beiden",
+        "Zeigt den Vergleich sprachlich (während, dagegen, im Gegensatz zu)",
+        "Trifft eine Wahl und begründet sie",
+        "Strukturierter Text",
+        "Widerspricht sich nicht"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "E-Mail: Auf eine Absage reagieren",
+    "prompt": "Schreiben Sie 80–120 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben sich für eine Stelle beworben und eine Absage bekommen. Sie möchten wissen, woran es lag, und für später in Kontakt bleiben. Schreiben Sie.",
+      "criteria": [
+        "Bedankt sich für die Rückmeldung",
+        "Bittet um eine kurze Begründung, ohne zu fordern",
+        "Zeigt weiter Interesse an der Firma",
+        "Bleibt souverän — keine Vorwürfe, kein Betteln",
+        "Angemessener, formeller Ton",
+        "Zusammenhängend über 80–120 Wörter"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

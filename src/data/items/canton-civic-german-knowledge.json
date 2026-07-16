@@ -1,0 +1,303 @@
+[
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Die drei politischen Ebenen",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "In der Schweiz teilen sich drei politische Ebenen die Macht. Welche sind es?",
+      "options": [
+        "Der Bund, die 26 Kantone und die Gemeinden",
+        "Der Bund und die 26 Kantone",
+        "Der Bundesrat, das Parlament und die Gerichte",
+        "Die Gemeinden und die Sprachregionen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Die Landessprachen",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Welche Sprachen sind nach der Bundesverfassung Landessprachen der Schweiz?",
+      "options": [
+        "Deutsch und Französisch",
+        "Deutsch, Französisch und Italienisch",
+        "Deutsch, Französisch, Italienisch und Rätoromanisch",
+        "Deutsch, Französisch, Italienisch und Englisch"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Der Bundesrat",
+    "prompt": "Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "question": "Aussage: Der Bundesrat besteht aus sieben Mitgliedern.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Krankenversicherung nach dem Zuzug",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Sie nehmen in der Schweiz Wohnsitz. Bis wann müssen Sie eine Krankenversicherung abschliessen?",
+      "options": [
+        "Innerhalb von drei Monaten nach dem Zuzug",
+        "Innerhalb von zwölf Monaten nach dem Zuzug",
+        "Erst wenn Sie zum ersten Mal zum Arzt gehen",
+        "Nur wenn Sie erwerbstätig sind"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Gibt es eine nationale Einbürgerungsprüfung?",
+    "prompt": "Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "question": "Aussage: Es gibt eine einzige nationale Staatskundeprüfung, die für die ganze Schweiz gilt und in allen Gemeinden gleich abläuft.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Die Bundespräsidentin oder der Bundespräsident",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Was stimmt über das Bundespräsidium?",
+      "options": [
+        "Es wird für ein Jahr aus dem Bundesrat besetzt; die Person ist «Primus inter pares» und steht nicht über den anderen",
+        "Es wird für vier Jahre vom Volk gewählt und leitet die Landesregierung",
+        "Es wird für ein Jahr besetzt und hat in dieser Zeit ein Vetorecht im Bundesrat",
+        "Es wird auf Lebenszeit besetzt"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Zahlen der Institutionen",
+    "prompt": "Ordnen Sie jeder Institution die richtige Zahl zu.",
+    "payload": {
+      "instructions": "Ordnen Sie zu. Nicht alle Zahlen werden gebraucht.",
+      "left": ["Der Nationalrat hat …", "Der Ständerat hat …", "Der Bundesrat hat …", "Die Schweiz hat …"],
+      "right": ["200 Mitglieder", "46 Mitglieder", "7 Mitglieder", "26 Kantone", "4 Bundesgerichte", "100 Mitglieder"]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Die Volksinitiative",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Wie viele beglaubigte Unterschriften braucht eine eidgenössische Volksinitiative, und in welcher Frist?",
+      "options": [
+        "50 000 Unterschriften innert 100 Tagen",
+        "100 000 Unterschriften innert 18 Monaten",
+        "100 000 Unterschriften innert 100 Tagen",
+        "50 000 Unterschriften innert 18 Monaten"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Das fakultative Referendum",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Das Parlament hat ein neues Gesetz beschlossen. Ein Komitee ist dagegen und will eine Volksabstimmung. Was braucht es?",
+      "options": [
+        "50 000 gültige Unterschriften innert 100 Tagen nach der Veröffentlichung",
+        "100 000 gültige Unterschriften innert 18 Monaten",
+        "Die Zustimmung von mindestens zehn Kantonen",
+        "Einen Entscheid des Bundesgerichts"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Bern",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Welche Aussage über Bern trifft zu?",
+      "options": [
+        "Bern ist in der Verfassung als Hauptstadt der Schweiz festgelegt",
+        "Die Schweiz hat keine Hauptstadt im rechtlichen Sinn; Bern ist als Sitz der Regierung die «Bundesstadt»",
+        "Bern ist die grösste Stadt der Schweiz",
+        "Die Hauptstadt wechselt alle vier Jahre zwischen den Sprachregionen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Wie oft wird abgestimmt?",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Wie oft werden die Stimmberechtigten in der Schweiz ungefähr zu eidgenössischen Abstimmungen aufgerufen?",
+      "options": [
+        "Etwa viermal pro Jahr",
+        "Einmal pro Jahr",
+        "Alle vier Jahre",
+        "Nur wenn der Bundesrat es verlangt"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Wer entscheidet über eine ordentliche Einbürgerung?",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Sie stellen ein Gesuch um ordentliche Einbürgerung. Wer entscheidet darüber?",
+      "options": [
+        "Allein das Staatssekretariat für Migration",
+        "Der Kanton und die Wohngemeinde — und sie können mehr verlangen als das eidgenössische Minimum",
+        "Der Bundesrat",
+        "Die Gemeinde, aber nur nach den Vorgaben des Bundes, von denen sie nicht abweichen darf"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Zwei Wege, zwei Entscheidstellen",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Warum ist es wichtig, die erleichterte von der ordentlichen Einbürgerung zu unterscheiden?",
+      "options": [
+        "Weil die erleichterte Einbürgerung keine Sprachkenntnisse verlangt",
+        "Weil bei der erleichterten Einbürgerung (z. B. Ehe mit einer Schweizerin oder einem Schweizer) das Staatssekretariat für Migration entscheidet, bei der ordentlichen aber Kanton und Gemeinde",
+        "Weil die beiden Wege in verschiedenen Sprachen ablaufen",
+        "Weil die ordentliche Einbürgerung nur in der Deutschschweiz möglich ist"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "In welcher Sprache werden Sie geprüft?",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "In welcher Landessprache müssen Sie Ihre Sprachkenntnisse nachweisen?",
+      "options": [
+        "In der Sprache, die Sie selber wählen",
+        "Immer auf Deutsch, weil es die grösste Sprachregion ist",
+        "In der Sprache Ihres Kantons und Ihrer Gemeinde — das ist eine Tatsache über Ihren Wohnort, keine Vorliebe",
+        "In zwei Landessprachen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CANTON_CIVIC",
+    "exam": "CANTON_CIVIC",
+    "skill": "KNOWLEDGE",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Was dieses Modul ist — und was nicht",
+    "prompt": "Wählen Sie die richtige Antwort.",
+    "payload": {
+      "question": "Sie haben dieses Staatskunde-Modul durchgearbeitet. Was bedeutet Ihr Ergebnis?",
+      "options": [
+        "Es ist ein offizielles Resultat, das Sie der Gemeinde vorlegen können",
+        "Es ist eine Übung. Es gibt keine nationale Prüfung und keine landesweite Bestehensgrenze; ob Sie einen Test, ein Gespräch oder nichts davon haben, entscheidet Ihre Gemeinde — fragen Sie dort nach",
+        "Es entspricht dem Test Ihres Kantons",
+        "Es ersetzt den Sprachnachweis"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  }
+]
