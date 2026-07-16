@@ -1,0 +1,316 @@
+[
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Facture du natel",
+    "prompt": "Lisez la facture et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Abonnement mobile — facture de juin\n\nAbonnement de base : 29.00\nDonnées supplémentaires : 5.00\nTotal : 34.00\n\nPayable jusqu'au 15 juillet",
+      "question": "Combien devez-vous payer ?",
+      "options": ["29.00", "5.00", "34.00", "15.00"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Panneau à la banque",
+    "prompt": "Lisez le panneau et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Guichet\n\nLundi–vendredi : 9h00–12h00 et 14h00–16h30\nSamedi : fermé\n\nBancomat : ouvert jour et nuit",
+      "question": "Vous voulez retirer de l'argent le samedi. Qu'est-ce qui est possible ?",
+      "options": [
+        "Le guichet le matin",
+        "Le guichet l'après-midi",
+        "Le bancomat",
+        "Rien, la banque est complètement fermée"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Information de la société de gym",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Société de gymnastique — nouveaux membres\n\nEntraînement : chaque mardi, 19h00–20h30, à la salle de gym.\nLes deux premières fois sont gratuites. Ensuite, cela coûte 120 francs par année.\n\nVous avez seulement besoin de chaussures de sport. Venez simplement.",
+      "question": "Affirmation : il faut d'abord s'inscrire.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Le courrier dans la boîte aux lettres",
+    "prompt": "Associez chaque lettre au bon expéditeur.",
+    "payload": {
+      "instructions": "Quatre lettres sont arrivées. Qui écrit ? Toutes les réponses ne sont pas utilisées.",
+      "left": [
+        "« Votre prime pour l'année prochaine s'élève à 340 francs par mois. »",
+        "« Votre colis est à disposition jusqu'au 12 mai. »",
+        "« Votre salaire du mois d'avril : voir annexe. »",
+        "« Merci de nous envoyer votre déclaration d'impôt d'ici fin mars. »"
+      ],
+      "right": [
+        "La caisse maladie",
+        "La poste",
+        "L'employeur",
+        "L'administration fiscale",
+        "L'école"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Un mot du collègue",
+    "prompt": "Lisez le mot et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Salut,\n\nJ'ai échangé ton horaire aujourd'hui. Tu travailles maintenant le vendredi et non le jeudi. Le chef est déjà au courant.\n\nÀ demain\nLuca",
+      "question": "Quand la personne travaille-t-elle maintenant ?",
+      "options": ["Le jeudi", "Le vendredi", "Le samedi", "Aujourd'hui"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "La fiche de salaire",
+    "prompt": "Lisez la fiche et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Fiche de salaire — avril\n\nSalaire brut : 4 200.00\nDéductions (AVS, caisse de pension, accident) : 620.00\nSalaire net : 3 580.00\n\nLe montant est versé le 25 du mois.",
+      "question": "Combien la personne reçoit-elle sur son compte ?",
+      "options": ["4 200.00", "620.00", "3 580.00", "25.00"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Lettre de l'administration fiscale",
+    "prompt": "Lisez la lettre et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Madame,\n\nNous n'avons pas encore reçu votre déclaration d'impôt. Merci de nous la faire parvenir jusqu'au 31 mars.\n\nSi vous avez besoin de plus de temps, vous pouvez demander une prolongation de délai. C'est gratuit, mais vous devez le faire avant le 31 mars.\n\nAvec nos meilleures salutations\nAdministration fiscale de la commune",
+      "question": "Que peut faire Madame Yilmaz si elle a besoin de plus de temps ?",
+      "options": [
+        "Rien — le 31 mars s'applique toujours",
+        "Demander une prolongation de délai avant le 31 mars",
+        "Téléphoner après le 31 mars pour expliquer",
+        "Payer une amende et envoyer plus tard"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Inscription à un cours",
+    "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Vous souhaitez vous {{1}} au cours. Remplissez le formulaire et envoyez-le {{2}} secrétariat. Le cours commence {{3}} septembre et dure dix semaines.",
+      "gaps": [
+        { "id": 1, "options": ["inscrire", "désinscrire", "ouvrir", "accepter"] },
+        { "id": 2, "options": ["au", "sur", "de", "hors"] },
+        { "id": 3, "options": ["en", "à", "vers", "pour"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Assurance ménage",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Votre assurance ménage\n\nSont assurées vos affaires dans le logement : meubles, habits, ordinateur. L'assurance paie en cas d'incendie, de dégât d'eau et de vol dans le logement.\n\nNe sont pas assurées : les affaires que vous perdez dehors. Un vélo qui se trouve devant l'immeuble n'est couvert qu'avec une assurance complémentaire.",
+      "question": "Affirmation : un vélo volé devant l'immeuble est automatiquement assuré.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Demander des vacances",
+    "prompt": "Mettez les étapes dans le bon ordre.",
+    "payload": {
+      "instructions": "Vous voulez deux semaines de vacances en juillet. Classez de la première à la dernière étape.",
+      "items": [
+        "Regarder dans l'équipe qui a déjà des vacances en juillet",
+        "Remplir le formulaire de vacances",
+        "Le donner à votre supérieur",
+        "Attendre la signature",
+        "Réserver le voyage"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Affichage : travaux dans l'immeuble",
+    "prompt": "Lisez l'affichage et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chères locataires, chers locataires,\n\nDu lundi 5 mai au vendredi 16 mai, les fenêtres de la cage d'escalier seront remplacées.\n\nLes travaux ont lieu de 8h à 17h. Il y aura du bruit. Le week-end, il n'y a pas de travaux.\n\nVotre appartement n'est pas concerné. Vous ne devez pas être présent.",
+      "question": "Qu'est-ce qui est exact ?",
+      "options": [
+        "Les locataires doivent être chez eux pendant les travaux",
+        "On travaille aussi le week-end",
+        "Les fenêtres des appartements sont remplacées",
+        "Les travaux ne concernent que la cage d'escalier et seulement les jours ouvrables"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Le certificat de travail",
+    "prompt": "Lisez l'extrait et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Extrait du certificat de travail\n\nMonsieur Mehta a travaillé chez nous du 1er mars 2021 au 30 avril 2026 en qualité de magasinier.\n\nIl a accompli ses tâches à notre entière satisfaction. Nous relevons en particulier sa fiabilité et sa disponibilité à intervenir à court terme. Son comportement envers ses supérieurs, ses collègues et la clientèle a toujours été irréprochable.\n\nMonsieur Mehta nous quitte de son propre gré. Nous regrettons sa décision et le remercions pour le travail accompli.",
+      "question": "Pourquoi Monsieur Mehta quitte-t-il l'entreprise ?",
+      "options": [
+        "L'entreprise l'a licencié",
+        "Il a démissionné lui-même",
+        "Son contrat a pris fin automatiquement après cinq ans",
+        "Ce n'est pas indiqué dans le certificat"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Devis chez le dentiste",
+    "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Avant un traitement important, vous recevez un devis. Il indique ce que le traitement {{1}} à peu près. En général, l'assurance de base ne paie {{2}} chez le dentiste. Renseignez-vous donc {{3}} avant d'accepter.",
+      "gaps": [
+        { "id": 1, "options": ["coûte", "reçoit", "paie", "demande"] },
+        { "id": 2, "options": ["rien", "tout", "la moitié", "toujours"] },
+        { "id": 3, "options": ["avant", "après", "pendant", "sans"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Le permis de conduire étranger",
+    "prompt": "Lisez le texte et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Vous avez un permis de conduire étranger et vous venez de vous installer en Suisse.\n\nPendant les douze premiers mois, vous pouvez conduire avec ce permis. Ensuite, il vous faut un permis suisse. Selon le pays où votre permis a été délivré, vous devez faire une course de contrôle ou non.\n\nC'est le service des automobiles de votre canton qui vous dira quelle règle s'applique à vous. Renseignez-vous avant la fin des douze mois.",
+      "question": "Que dit le texte au sujet de la course de contrôle ?",
+      "options": [
+        "Tout le monde doit en faire une",
+        "Personne ne doit en faire une",
+        "Cela dépend du pays où le permis a été délivré — le service des automobiles vous le dira",
+        "La course de contrôle remplace le permis suisse"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "Qui est compétent ?",
+    "prompt": "Associez chaque situation au bon service.",
+    "payload": {
+      "instructions": "Quatre personnes ont besoin d'un renseignement. Associez. Tous les services ne sont pas utilisés.",
+      "left": [
+        "Madame Duarte a démissionné et cherche un nouvel emploi.",
+        "Monsieur Kaya trouve sa prime trop élevée et voudrait changer de caisse.",
+        "Madame Ceylan s'est fait voler son vélo et a besoin d'une attestation pour l'assurance.",
+        "Monsieur Silva a un permis de conduire étranger et habite ici depuis onze mois."
+      ],
+      "right": [
+        "L'office régional de placement (ORP)",
+        "La caisse maladie ou un comparateur",
+        "La police",
+        "Le service des automobiles",
+        "La boulangerie",
+        "L'administration fiscale"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

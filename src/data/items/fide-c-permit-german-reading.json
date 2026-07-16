@@ -1,0 +1,316 @@
+[
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Quittung vom Handyabo",
+    "prompt": "Lesen Sie die Rechnung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Mobil-Abo — Rechnung Juni\n\nAbo Basis: 29.00\nZusätzliche Daten: 5.00\nTotal: 34.00\n\nZahlbar bis: 15. Juli",
+      "question": "Wie viel müssen Sie bezahlen?",
+      "options": ["29.00", "5.00", "34.00", "15.00"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Schild bei der Bank",
+    "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Schalter\n\nMontag–Freitag: 9.00–12.00 und 14.00–16.30\nSamstag: geschlossen\n\nBankomat: Tag und Nacht offen",
+      "question": "Sie möchten am Samstag Geld holen. Was geht?",
+      "options": [
+        "Der Schalter am Morgen",
+        "Der Schalter am Nachmittag",
+        "Der Bankomat",
+        "Nichts, die Bank ist ganz zu"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Information zum Sportverein",
+    "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Turnverein — neue Mitglieder\n\nTraining: jeden Dienstag, 19.00–20.30, in der Turnhalle.\nDie ersten zwei Male sind gratis. Danach kostet es 120 Franken pro Jahr.\n\nSie brauchen nur Sportschuhe. Kommen Sie einfach vorbei.",
+      "question": "Aussage: Man muss sich zuerst anmelden.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Post im Briefkasten",
+    "prompt": "Ordnen Sie jeden Brief dem richtigen Absender zu.",
+    "payload": {
+      "instructions": "Vier Briefe sind gekommen. Wer schreibt? Nicht alle Antworten werden gebraucht.",
+      "left": [
+        "«Ihre Prämie für nächstes Jahr beträgt 340 Franken pro Monat.»",
+        "«Ihr Paket liegt bis am 12. Mai zur Abholung bereit.»",
+        "«Ihr Lohn für den Monat April: siehe Beilage.»",
+        "«Bitte senden Sie uns die Steuererklärung bis Ende März.»"
+      ],
+      "right": [
+        "Die Krankenkasse",
+        "Die Post",
+        "Der Arbeitgeber",
+        "Das Steueramt",
+        "Die Schule"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Notiz vom Kollegen",
+    "prompt": "Lesen Sie die Notiz und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Hoi\n\nIch habe heute deine Schicht getauscht. Du arbeitest jetzt am Freitag statt am Donnerstag. Der Chef weiss es schon.\n\nBis morgen\nLuca",
+      "question": "Wann arbeitet die Person jetzt?",
+      "options": ["Am Donnerstag", "Am Freitag", "Am Samstag", "Heute"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Die Lohnabrechnung",
+    "prompt": "Lesen Sie die Abrechnung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Lohnabrechnung — April\n\nBruttolohn: 4 200.00\nAbzüge (AHV, Pensionskasse, Unfall): 620.00\nNettolohn: 3 580.00\n\nDer Betrag wird am 25. des Monats überwiesen.",
+      "question": "Wie viel bekommt die Person aufs Konto?",
+      "options": ["4 200.00", "620.00", "3 580.00", "25.00"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Brief vom Steueramt",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Sehr geehrte Frau Yilmaz\n\nWir haben Ihre Steuererklärung noch nicht erhalten. Bitte senden Sie sie bis am 31. März.\n\nWenn Sie mehr Zeit brauchen, können Sie eine Fristverlängerung verlangen. Das ist kostenlos, aber Sie müssen es vor dem 31. März tun.\n\nFreundliche Grüsse\nSteueramt der Gemeinde",
+      "question": "Was kann Frau Yilmaz machen, wenn sie mehr Zeit braucht?",
+      "options": [
+        "Nichts — der 31. März gilt immer",
+        "Vor dem 31. März eine Fristverlängerung verlangen",
+        "Nach dem 31. März anrufen und erklären",
+        "Eine Busse bezahlen und später senden"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Anmeldung für einen Kurs",
+    "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Sie möchten sich für den Kurs {{1}}. Füllen Sie das Formular aus und schicken Sie es {{2}} das Sekretariat. Der Kurs beginnt {{3}} September und dauert zehn Wochen.",
+      "gaps": [
+        { "id": 1, "options": ["anmelden", "abmelden", "aufmachen", "annehmen"] },
+        { "id": 2, "options": ["an", "auf", "von", "aus"] },
+        { "id": 3, "options": ["im", "am", "um", "zum"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Hausratversicherung",
+    "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Ihre Hausratversicherung\n\nVersichert sind Ihre Sachen in der Wohnung: Möbel, Kleider, Computer. Bezahlt wird bei Feuer, Wasser und Diebstahl aus der Wohnung.\n\nNicht versichert: Sachen, die Sie draussen verlieren. Ein Velo, das vor dem Haus steht, ist nur mit einer Zusatzversicherung gedeckt.",
+      "question": "Aussage: Ein Velo, das vor dem Haus gestohlen wird, ist automatisch versichert.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Ferien beantragen",
+    "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
+    "payload": {
+      "instructions": "Sie möchten im Juli zwei Wochen Ferien. Ordnen Sie von zuerst bis zuletzt.",
+      "items": [
+        "Im Team schauen, wer im Juli schon Ferien hat",
+        "Das Ferienformular ausfüllen",
+        "Es dem Vorgesetzten geben",
+        "Auf die Unterschrift warten",
+        "Die Reise buchen"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Aushang: Umbau im Haus",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Mieterinnen und Mieter\n\nVon Montag, 5. Mai, bis Freitag, 16. Mai, werden die Fenster im Treppenhaus ersetzt.\n\nDie Arbeiten sind von 8 bis 17 Uhr. Es wird laut. Am Wochenende wird nicht gearbeitet.\n\nIhre Wohnung ist nicht betroffen. Sie müssen nicht zu Hause sein.",
+      "question": "Was ist richtig?",
+      "options": [
+        "Die Mieter müssen während der Arbeiten zu Hause sein",
+        "Auch am Wochenende wird gearbeitet",
+        "In den Wohnungen werden die Fenster ersetzt",
+        "Die Arbeiten sind nur im Treppenhaus und nur an Werktagen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Das Arbeitszeugnis",
+    "prompt": "Lesen Sie den Auszug und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Auszug aus dem Arbeitszeugnis\n\nHerr Mehta war vom 1. März 2021 bis zum 30. April 2026 als Lagermitarbeiter bei uns tätig.\n\nEr erledigte seine Aufgaben stets zu unserer vollsten Zufriedenheit. Besonders hervorzuheben sind seine Zuverlässigkeit und seine Bereitschaft, kurzfristig einzuspringen. Sein Verhalten gegenüber Vorgesetzten, Mitarbeitenden und Kunden war jederzeit einwandfrei.\n\nHerr Mehta verlässt uns auf eigenen Wunsch. Wir bedauern seinen Entschluss und danken ihm für die geleistete Arbeit.",
+      "question": "Warum verlässt Herr Mehta die Firma?",
+      "options": [
+        "Die Firma hat ihm gekündigt",
+        "Er hat selber gekündigt",
+        "Sein Vertrag ist nach fünf Jahren automatisch abgelaufen",
+        "Es steht nicht im Zeugnis"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Kostenvoranschlag beim Zahnarzt",
+    "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Vor einer grösseren Behandlung bekommen Sie einen Kostenvoranschlag. Darin steht, was die Behandlung ungefähr {{1}}. Die Grundversicherung zahlt beim Zahnarzt normalerweise {{2}}. Fragen Sie deshalb {{3}}, bevor Sie zusagen.",
+      "gaps": [
+        { "id": 1, "options": ["kostet", "bekommt", "bezahlt", "braucht"] },
+        { "id": 2, "options": ["nichts", "alles", "die Hälfte", "immer"] },
+        { "id": 3, "options": ["nach", "über", "für", "an"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Zwei Wege zum Führerausweis",
+    "prompt": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Sie haben einen ausländischen Führerausweis und wohnen neu in der Schweiz.\n\nIn den ersten zwölf Monaten dürfen Sie damit fahren. Danach brauchen Sie einen Schweizer Ausweis. Je nachdem, wo Ihr Ausweis ausgestellt wurde, müssen Sie eine Kontrollfahrt machen oder nicht.\n\nWelche Regel für Sie gilt, sagt Ihnen das Strassenverkehrsamt Ihres Kantons. Fragen Sie dort nach, bevor die zwölf Monate um sind.",
+      "question": "Was sagt der Text über die Kontrollfahrt?",
+      "options": [
+        "Alle müssen eine Kontrollfahrt machen",
+        "Niemand muss eine Kontrollfahrt machen",
+        "Ob Sie eine machen müssen, hängt davon ab, wo Ihr Ausweis ausgestellt wurde — das Strassenverkehrsamt sagt es Ihnen",
+        "Die Kontrollfahrt ersetzt den Schweizer Ausweis"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "Wer ist zuständig?",
+    "prompt": "Ordnen Sie jede Situation der richtigen Stelle zu.",
+    "payload": {
+      "instructions": "Vier Personen brauchen Auskunft. Ordnen Sie zu. Nicht alle Stellen werden gebraucht.",
+      "left": [
+        "Frau Duarte hat gekündigt und sucht eine neue Stelle.",
+        "Herr Kaya findet seine Prämie zu hoch und möchte die Kasse wechseln.",
+        "Frau Ceylan wurde das Velo gestohlen und sie braucht eine Bestätigung für die Versicherung.",
+        "Herr Silva hat einen ausländischen Führerausweis und wohnt seit elf Monaten hier."
+      ],
+      "right": [
+        "Das RAV (Arbeitsvermittlung)",
+        "Die Krankenkasse oder ein Vergleichsdienst",
+        "Die Polizei",
+        "Das Strassenverkehrsamt",
+        "Die Bäckerei",
+        "Das Steueramt"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

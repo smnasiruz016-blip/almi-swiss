@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Dire où vous travaillez",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Quelqu'un vous pose des questions sur votre travail. Dites où vous travaillez, ce que vous faites, depuis quand, et quels sont vos horaires.",
+      "criteria": [
+        "Répond aux quatre points",
+        "Parle en phrases entières",
+        "Donne correctement les heures et les chiffres",
+        "Est compréhensible, même avec un accent"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Envoyer un colis",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes à la poste et voulez envoyer un colis à l'étranger. Demandez le prix et la durée, puis décidez.",
+      "criteria": [
+        "Dit clairement ce que vous voulez",
+        "Demande le prix et la durée",
+        "Prend une décision et la dit",
+        "Réagit à la réponse"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "S'annoncer malade au téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous téléphonez au travail pour vous annoncer malade. Dites qui vous êtes, ce que vous avez, et combien de temps vous serez probablement absent.",
+      "criteria": [
+        "Donne son nom et le motif de l'appel",
+        "Dit ce que vous avez",
+        "Dit quelque chose sur la durée",
+        "Poli et clair"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Parler de votre quartier",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Racontez où vous habitez : ce qu'il y a dans le quartier, comment vous faites vos courses, ce qui vous plaît.",
+      "criteria": [
+        "Nomme plusieurs choses du quartier",
+        "Dit ce qui vous plaît",
+        "Parle 40 secondes de manière liée",
+        "Compréhensible"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Obtenir un renseignement au guichet",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'un renseignement au guichet. Dites ce que vous voulez et demandez quels documents il vous faut.",
+      "criteria": [
+        "Dit clairement de quoi il s'agit",
+        "Demande quels documents",
+        "Redemande si vous ne comprenez pas",
+        "Remercie"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Visiter un appartement",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous visitez un appartement. Posez vos questions à la régie : les charges, à partir de quand il est libre, ce qui est compris. Dites aussi brièvement qui emménagerait avec vous.",
+      "criteria": [
+        "Pose au moins trois questions concrètes",
+        "Dit qui emménagerait",
+        "Réagit aux questions en retour",
+        "Parle 60 secondes de manière liée",
+        "Poli, mais pose vraiment ses questions"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Signaler un problème au travail",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Le planning de la semaine prochaine est faux : vous êtes inscrit deux fois au même moment. Parlez-en à votre supérieur.",
+      "criteria": [
+        "Décrit le problème précisément",
+        "Dit ce dont vous avez besoin",
+        "Propose vous-même quelque chose",
+        "Reste factuel",
+        "Résume à la fin ce qui est décidé"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Chez le dentiste : clarifier les coûts",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Le dentiste propose un traitement. Vous voulez d'abord savoir ce qu'il coûte et ce que l'assurance paie. Renseignez-vous.",
+      "criteria": [
+        "Demande clairement les coûts",
+        "Demande un devis",
+        "Dit que vous voulez d'abord réfléchir",
+        "Ne se laisse pas convaincre si vous n'êtes pas sûr",
+        "Reste poli"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Montrer quelque chose à un collègue",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Un nouveau collègue commence aujourd'hui. Expliquez-lui quelque chose de votre travail : ce qu'on fait, dans quel ordre, et à quoi il faut faire attention.",
+      "criteria": [
+        "Explique étape par étape",
+        "Donne l'ordre clairement (d'abord, ensuite, à la fin)",
+        "Prévient d'une erreur typique",
+        "Demande à la fin s'il a compris",
+        "Parle 60 secondes"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Refuser poliment une demande",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Un collègue demande si vous pouvez l'aider à déménager samedi. Vous ne pouvez pas — vous avez déjà quelque chose de prévu. Refusez, mais restez en bons termes.",
+      "criteria": [
+        "Refuse clairement, sans détour",
+        "Donne une raison",
+        "Propose une alternative",
+        "Reste aimable",
+        "Parle 60 secondes de manière liée"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Redemander quand ça va vite",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Au téléphone, quelqu'un vous explique rapidement quels documents envoyer. Vous n'avez compris que la moitié. Posez vos questions de façon à savoir vraiment quoi faire à la fin.",
+      "criteria": [
+        "Dit ouvertement que vous n'avez pas tout compris",
+        "Pose des questions ciblées, point par point",
+        "Répète à la fin ce que vous avez compris, pour vérifier",
+        "Reste calme et poli",
+        "Parle 60 secondes"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Répondre lors de l'entretien annuel",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Lors de l'entretien annuel, votre supérieure dit que vous posez vos questions trop tard et que vous faites trop de choses seul. Vous n'êtes pas entièrement d'accord. Répondez : ce qui est juste, ce que vous voyez autrement, et ce que vous proposez.",
+      "criteria": [
+        "Accepte ce qui est juste, sans se rabaisser",
+        "Conteste là où vous voyez les choses autrement, avec un exemple",
+        "Fait une proposition concrète",
+        "Reste calme et factuel",
+        "Parle 90 secondes de manière liée, pas en mots-clés",
+        "Arrive à une conclusion"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Clarifier une facture au téléphone",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Le garage a facturé 480 francs, alors qu'environ 300 étaient convenus. Au téléphone, on vous dit qu'il y a eu plus de travail. Clarifiez la situation et obtenez un accord.",
+      "criteria": [
+        "Présente les faits dans un ordre compréhensible",
+        "Renvoie à ce qui était convenu",
+        "Ne cède pas tout de suite, tout en restant poli",
+        "Demande quelque chose de concret et une confirmation écrite",
+        "Réagit aux objections en direct",
+        "Reste fluide sous pression"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Raconter ses années ici",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Quelqu'un vous demande : « Vous êtes ici depuis plusieurs années — qu'est-ce qui a changé pour vous, qu'est-ce qui a été difficile, et qu'est-ce qui est différent aujourd'hui par rapport au début ? » Racontez honnêtement ; les difficultés ne sont pas une mauvaise réponse.",
+      "criteria": [
+        "Répond aux trois volets",
+        "Donne des exemples concrets plutôt que des phrases générales",
+        "Parle avec assurance au passé et au présent",
+        "Sait nuancer (ce qui a été dur ET ce qui a aidé)",
+        "Parle 90 secondes de manière liée",
+        "Reste soi-même, pas un texte appris"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Peser deux offres d'emploi",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous avez deux offres d'emploi : l'une plus proche de chez vous mais moins bien payée ; l'autre mieux payée mais avec une heure de trajet dans chaque sens. Pesez le pour et le contre, puis décidez.",
+      "criteria": [
+        "Traite réellement les deux offres",
+        "Nomme des avantages et des inconvénients des deux côtés",
+        "Marque la comparaison par la langue (alors que, en revanche, par contre)",
+        "Arrive à une décision et la justifie",
+        "Parle 90 secondes de façon structurée",
+        "Ne se contredit pas en cours de route"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

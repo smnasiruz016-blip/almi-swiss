@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Sagen, wo Sie arbeiten",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand fragt Sie nach Ihrer Arbeit. Sagen Sie, wo Sie arbeiten, was Sie machen, seit wann, und wie Ihre Arbeitszeiten sind.",
+      "criteria": [
+        "Beantwortet alle vier Punkte",
+        "Spricht in ganzen Sätzen",
+        "Nennt Zeiten und Zahlen richtig",
+        "Ist verständlich, auch mit Akzent"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Ein Paket aufgeben",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind auf der Post und möchten ein Paket ins Ausland schicken. Fragen Sie nach Preis und Dauer, und entscheiden Sie sich dann.",
+      "criteria": [
+        "Sagt klar, was Sie möchten",
+        "Fragt nach Preis und Dauer",
+        "Trifft eine Entscheidung und sagt sie",
+        "Reagiert auf die Antwort"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Sich krankmelden am Telefon",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie rufen bei der Arbeit an und melden sich krank. Sagen Sie, wer Sie sind, was Sie haben, und wie lange Sie voraussichtlich fehlen.",
+      "criteria": [
+        "Nennt Namen und Grund des Anrufs",
+        "Sagt, was Sie haben",
+        "Sagt etwas zur Dauer",
+        "Höflich und klar"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Über Ihr Quartier sprechen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie, wo Sie wohnen: was es im Quartier gibt, wie Sie einkaufen, was Ihnen gefällt.",
+      "criteria": [
+        "Nennt mehrere Dinge im Quartier",
+        "Sagt, was Ihnen gefällt",
+        "Spricht 40 Sekunden zusammenhängend",
+        "Verständlich"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Eine Auskunft am Schalter holen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "stimulus": "Sie brauchen eine Auskunft am Schalter. Sagen Sie, was Sie möchten, und fragen Sie, welche Unterlagen Sie brauchen.",
+      "criteria": [
+        "Sagt klar, worum es geht",
+        "Fragt nach den Unterlagen",
+        "Fragt nach, wenn Sie etwas nicht verstehen",
+        "Bedankt sich"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Wohnung besichtigen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie besichtigen eine Wohnung. Stellen Sie der Verwaltung Ihre Fragen: Nebenkosten, ab wann frei, was zur Wohnung gehört. Sagen Sie auch kurz, wer bei Ihnen einziehen würde.",
+      "criteria": [
+        "Stellt mindestens drei konkrete Fragen",
+        "Sagt, wer einziehen würde",
+        "Reagiert auf Rückfragen",
+        "Spricht 60 Sekunden zusammenhängend",
+        "Höflich, aber fragt wirklich nach"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Ein Problem bei der Arbeit ansprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Der Plan für nächste Woche stimmt nicht: Sie sind zweimal für dieselbe Zeit eingeteilt. Sprechen Sie Ihren Vorgesetzten darauf an.",
+      "criteria": [
+        "Beschreibt das Problem genau",
+        "Sagt, was Sie brauchen",
+        "Schlägt selber etwas vor",
+        "Bleibt sachlich",
+        "Fasst am Schluss zusammen, was gilt"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Beim Zahnarzt: Kosten klären",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Der Zahnarzt schlägt eine Behandlung vor. Sie möchten zuerst wissen, was sie kostet und was die Versicherung zahlt. Fragen Sie nach.",
+      "criteria": [
+        "Fragt klar nach den Kosten",
+        "Fragt nach einem Kostenvoranschlag",
+        "Sagt, dass Sie es zuerst überlegen möchten",
+        "Lässt sich nicht überreden, wenn Sie unsicher sind",
+        "Bleibt höflich"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Einem Kollegen etwas zeigen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Ein neuer Kollege beginnt heute. Erklären Sie ihm etwas aus Ihrer Arbeit: was man macht, in welcher Reihenfolge, und worauf man aufpassen muss.",
+      "criteria": [
+        "Erklärt Schritt für Schritt",
+        "Nennt die Reihenfolge klar (zuerst, dann, zum Schluss)",
+        "Warnt vor einem typischen Fehler",
+        "Fragt am Schluss, ob er es verstanden hat",
+        "Spricht 60 Sekunden"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Eine Bitte höflich ablehnen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Ein Kollege fragt, ob Sie am Samstag beim Zügeln helfen. Sie können nicht — Sie haben schon etwas abgemacht. Sagen Sie ab, aber bleiben Sie im guten.",
+      "criteria": [
+        "Lehnt klar ab, ohne auszuweichen",
+        "Nennt einen Grund",
+        "Bietet eine Alternative an",
+        "Bleibt freundlich",
+        "Spricht 60 Sekunden zusammenhängend"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Nachfragen, wenn es schnell geht",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Am Telefon erklärt Ihnen jemand schnell, welche Unterlagen Sie schicken müssen. Sie haben nur die Hälfte verstanden. Fragen Sie so nach, dass Sie am Schluss wirklich wissen, was zu tun ist.",
+      "criteria": [
+        "Sagt offen, dass Sie nicht alles verstanden haben",
+        "Fragt gezielt nach einzelnen Punkten",
+        "Wiederholt am Schluss, was Sie verstanden haben, zur Kontrolle",
+        "Bleibt ruhig und höflich",
+        "Spricht 60 Sekunden"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Im Mitarbeitergespräch antworten",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Mitarbeitergespräch sagt Ihre Vorgesetzte, Sie würden zu spät nachfragen und zu viel allein machen. Sie sehen das teilweise anders. Antworten Sie: Was stimmt, was sehen Sie anders, und was schlagen Sie vor?",
+      "criteria": [
+        "Nimmt an, was stimmt, ohne sich klein zu machen",
+        "Widerspricht dort, wo Sie es anders sehen, mit einem Beispiel",
+        "Macht einen konkreten Vorschlag",
+        "Bleibt ruhig und sachlich",
+        "Spricht 90 Sekunden zusammenhängend, nicht in Stichworten",
+        "Kommt zu einem Schluss"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Eine Rechnung am Telefon klären",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Die Werkstatt hat 480 Franken verrechnet, abgemacht waren rund 300. Am Telefon sagt man Ihnen, es sei mehr Arbeit gewesen. Klären Sie das und erreichen Sie eine Abmachung.",
+      "criteria": [
+        "Stellt die Fakten in einer verständlichen Reihenfolge dar",
+        "Verweist auf das, was abgemacht war",
+        "Gibt nicht sofort nach, bleibt aber höflich",
+        "Verlangt etwas Konkretes und eine schriftliche Bestätigung",
+        "Reagiert auf Einwände im Gespräch",
+        "Spricht auch unter Druck flüssig"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Über die eigenen Jahre hier erzählen",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand fragt Sie: «Sie sind schon einige Jahre hier — was hat sich für Sie verändert, was war schwierig, und was ist heute anders als am Anfang?» Erzählen Sie ehrlich; Schwierigkeiten sind keine falsche Antwort.",
+      "criteria": [
+        "Beantwortet alle drei Teile",
+        "Nennt konkrete Beispiele statt allgemeiner Sätze",
+        "Spricht sicher in der Vergangenheit und in der Gegenwart",
+        "Kann abwägen (was schwierig war UND was geholfen hat)",
+        "Spricht 90 Sekunden zusammenhängend",
+        "Klingt wie Sie selbst, nicht auswendig gelernt"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Zwei Angebote abwägen",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben zwei Stellenangebote: eines näher bei zu Hause, aber weniger Lohn; eines mit mehr Lohn, aber einer Stunde Arbeitsweg pro Richtung. Wägen Sie ab und entscheiden Sie sich.",
+      "criteria": [
+        "Behandelt wirklich beide Angebote",
+        "Nennt Vor- und Nachteile auf beiden Seiten",
+        "Zeigt den Vergleich sprachlich (während, dagegen, dafür)",
+        "Kommt zu einem Entscheid und begründet ihn",
+        "Spricht 90 Sekunden strukturiert",
+        "Widerspricht sich unterwegs nicht"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

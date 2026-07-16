@@ -1,0 +1,346 @@
+[
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formular: Adresse ändern",
+    "prompt": "Schreiben Sie 15–25 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind umgezogen. Die Personalabteilung braucht Ihre neue Adresse. Im Formular gibt es ein freies Feld: «Neue Adresse und ab wann?»",
+      "criteria": [
+        "Nennt die neue Adresse",
+        "Nennt ein Datum",
+        "Schreibt mindestens zwei kurze, ganze Sätze",
+        "Verständlich, auch mit einfachen Fehlern"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS: Ich bin krank",
+    "prompt": "Schreiben Sie 15–25 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind heute krank und können nicht arbeiten. Schreiben Sie Ihrem Vorgesetzten eine kurze Nachricht.",
+      "criteria": [
+        "Sagt, dass Sie heute nicht kommen",
+        "Nennt den Grund",
+        "Sagt etwas dazu, wann Sie wieder da sind",
+        "Kurz und verständlich"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Notiz: Paket abholen",
+    "prompt": "Schreiben Sie 15–25 Wörter.",
+    "payload": {
+      "stimulus": "Sie können ein Paket nicht selber abholen. Schreiben Sie Ihrer Partnerin oder Ihrem Partner eine Notiz: wo, bis wann, und was man mitnehmen muss.",
+      "criteria": [
+        "Sagt, wo das Paket ist",
+        "Nennt eine Frist",
+        "Sagt, was man mitnehmen muss",
+        "Kurze, klare Sätze"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formular: Angaben zur Arbeit",
+    "prompt": "Schreiben Sie 15–25 Wörter.",
+    "payload": {
+      "stimulus": "In einem Formular steht: «Wo arbeiten Sie, seit wann, und wie viele Stunden pro Woche?» Antworten Sie in ganzen Sätzen.",
+      "criteria": [
+        "Nennt den Arbeitsort",
+        "Nennt, seit wann",
+        "Nennt die Stunden",
+        "Ganze Sätze, keine Stichworte"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Zettel: Handwerker kommt",
+    "prompt": "Schreiben Sie 15–25 Wörter.",
+    "payload": {
+      "stimulus": "Am Donnerstag kommt der Elektriker zwischen acht und zehn. Sie arbeiten. Schreiben Sie Ihrer Mitbewohnerin einen Zettel.",
+      "criteria": [
+        "Nennt Tag und Zeit",
+        "Sagt, wer kommt",
+        "Sagt, was sie machen soll",
+        "Kurz und verständlich"
+      ],
+      "charBand": { "min": 70, "max": 200 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Kurze Mail: Ferien anmelden",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten im Juli zwei Wochen Ferien. Schreiben Sie Ihrem Vorgesetzten eine kurze Mail.",
+      "criteria": [
+        "Nennt die genauen Daten",
+        "Fragt, ob es geht",
+        "Anrede und Gruss",
+        "Höflich und kurz",
+        "Verständlich"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Mail: Termin verschieben",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben am Dienstag um 14 Uhr einen Termin beim Amt. Sie müssen arbeiten. Bitten Sie um einen anderen Termin.",
+      "criteria": [
+        "Nennt den alten Termin",
+        "Sagt, warum es nicht geht",
+        "Schlägt zwei andere Zeiten vor",
+        "Anrede, Gruss, Name",
+        "Höflich"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Kurze Mail an die Kasse",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Rechnung eingeschickt und seit sechs Wochen nichts gehört. Fragen Sie nach.",
+      "criteria": [
+        "Sagt, worum es geht",
+        "Nennt, wann Sie die Rechnung geschickt haben",
+        "Stellt eine klare Frage",
+        "Anrede und Gruss",
+        "Sachlich"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Nachricht: Schicht tauschen",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie müssen am Freitag zum Arzt. Fragen Sie eine Kollegin, ob sie mit Ihnen die Schicht tauscht.",
+      "criteria": [
+        "Fragt klar nach dem Tausch",
+        "Nennt beide Tage",
+        "Nennt kurz den Grund",
+        "Bietet etwas an oder bedankt sich",
+        "Freundlicher Ton"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Mail: Kurs anfragen",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Sie interessieren sich für einen Kurs am Abend. Fragen Sie beim Kurszentrum nach Zeiten und Preis.",
+      "criteria": [
+        "Sagt, für welchen Kurs Sie sich interessieren",
+        "Stellt zwei konkrete Fragen",
+        "Sagt, wann Sie können",
+        "Anrede und Gruss",
+        "Verständlich"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Notiz an das Team",
+    "prompt": "Schreiben Sie 25–40 Wörter.",
+    "payload": {
+      "stimulus": "Die Lieferung kommt morgen eine Stunde später. Schreiben Sie eine kurze Notiz für das Team.",
+      "criteria": [
+        "Sagt, was sich ändert",
+        "Nennt die neue Zeit",
+        "Sagt, was das Team machen soll",
+        "Kurz und klar",
+        "Verständlich"
+      ],
+      "charBand": { "min": 130, "max": 300 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Mail: Unterlagen nachreichen",
+    "prompt": "Schreiben Sie 40–55 Wörter.",
+    "payload": {
+      "stimulus": "Ein Amt hat Ihnen geschrieben, dass ein Dokument fehlt. Sie schicken es nach und möchten wissen, wie es weitergeht.",
+      "criteria": [
+        "Bezieht sich auf den Brief (Datum oder Referenz)",
+        "Sagt, was Sie beilegen",
+        "Fragt nach dem weiteren Ablauf",
+        "Anrede, Gruss, Name",
+        "Höflich und sachlich",
+        "Ganze Sätze über 40–55 Wörter"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Mail: Rechnung ist zu hoch",
+    "prompt": "Schreiben Sie 40–55 Wörter.",
+    "payload": {
+      "stimulus": "Die Werkstatt hat 480 Franken verrechnet. Abgemacht waren ungefähr 300. Schreiben Sie der Werkstatt.",
+      "criteria": [
+        "Nennt die Rechnung und den Betrag",
+        "Sagt, was abgemacht war",
+        "Stellt eine klare Frage oder Forderung",
+        "Bleibt sachlich, keine Vorwürfe",
+        "Anrede und Gruss",
+        "Verständlich"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Mail: Neue Stelle, kurze Anfrage",
+    "prompt": "Schreiben Sie 40–55 Wörter.",
+    "payload": {
+      "stimulus": "Ein Betrieb sucht Mitarbeitende. Schreiben Sie eine kurze Anfrage: wer Sie sind, was Sie gemacht haben, was Sie wissen möchten.",
+      "criteria": [
+        "Sagt, worauf Sie sich melden",
+        "Nennt Ihre Erfahrung in einem Satz",
+        "Stellt eine konkrete Frage",
+        "Nennt Ihr Sprachniveau ehrlich, wenn es passt",
+        "Anrede, Gruss, Kontakt",
+        "Einfach und klar — keine grossen Wörter"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "C_PERMIT",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Mail: Schaden melden",
+    "prompt": "Schreiben Sie 40–55 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Velo wurde vor dem Haus gestohlen. Melden Sie den Schaden Ihrer Versicherung.",
+      "criteria": [
+        "Sagt, was passiert ist",
+        "Nennt Ort und Zeit",
+        "Sagt, was Sie schon gemacht haben (z. B. Polizei)",
+        "Fragt, was Sie noch brauchen",
+        "Anrede, Gruss, Name",
+        "Sachlich, in ganzen Sätzen"
+      ],
+      "charBand": { "min": 200, "max": 400 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]
