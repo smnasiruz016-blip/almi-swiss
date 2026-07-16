@@ -3,7 +3,7 @@
 // Objective practice runner. Steps through auto-marked items (Reading/Listening),
 // submits each to /api/ch/submit for deterministic grading, shows per-item
 // correctness, and closes with an honest per-skill readiness readout. All labels
-// are framed as a "practice estimate" — never an official UHR result.
+// are framed as a "practice estimate" — never an official result.
 
 import { useState } from "react";
 import type { SwissSkill } from "@/lib/ch/types";
@@ -89,7 +89,7 @@ export function PracticeRunner({
           </span>
         </div>
         <p className="text-xs text-almi-text-muted">
-          This is a practice estimate against the level&apos;s criteria, not an official UHR result.
+          This is a practice estimate against the level&apos;s criteria, not an official result.
         </p>
         <button
           type="button"

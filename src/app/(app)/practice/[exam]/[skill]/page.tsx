@@ -94,7 +94,7 @@ export default async function SkillRunnerPage({
 
       <p className="text-xs text-almi-text-muted">
         Original to AlmiSwiss. Every readout is a per-skill readiness band for practice, not an
-        official UHR result.
+        official result.
       </p>
     </div>
   );

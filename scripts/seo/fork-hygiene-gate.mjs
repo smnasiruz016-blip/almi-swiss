@@ -150,8 +150,32 @@ for (const n of SELF_NAMES) {
   }
 }
 
-// `SIRI` and `UDI` need word boundaries — they collide with ordinary substrings.
-const BANNED_WORD = ["UDI", "SIRI"];
+// Acronyms need word boundaries — they collide with ordinary substrings.
+//
+// ⚠️ `UHR` WAS MISSING, AND THE GATE WAS GREEN WHILE THE LEAK SHIPPED. BANNED lists
+// the Swedish authority by its full name ("Universitets- och högskolerådet"), so the
+// list AGREED that this body is an ancestor noun — but every user-facing surface said
+// the ACRONYM, and nothing checked for it. Four live pages told Swiss users their
+// practice score was "not an official UHR result": UHR is Sweden's Council for Higher
+// Education, the body behind Tisus and Swedex. It decides nothing about a Swiss
+// naturalisation.
+//
+// The shape is the one this whole file exists to catch, in its purest form. On
+// practice/page.tsx the NEXT SENTENCE already named the right bodies — the cantonal
+// migration authority, SEM, a recognised test centre. The prose around the noun was
+// localized and the noun itself was not. It is also the second time this exact noun
+// got through: find-replacing it once produced "Swiss Council for Higher Education",
+// a fabricated body (see the registry fact base). That fabrication was caught because
+// it read wrong in English; the bare acronym read like a plausible initialism and
+// survived.
+//
+// Lesson for the next fork: ban the ancestor's authorities by ACRONYM AND full name.
+// An acronym is not a shorter version of a noun you already banned — to a grep it is
+// an unrelated string, and it is the form that actually ships in copy.
+//
+// `UHR` is a real German word (clock/hour) and a substring of "Uhrzeit"; word
+// boundaries are what make banning it safe in a product that teaches German.
+const BANNED_WORD = ["UDI", "SIRI", "UHR"];
 
 function walk(dir, out = []) {
   let entries;
