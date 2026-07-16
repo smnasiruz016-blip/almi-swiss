@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { NATURALISATION_MIN, C_PERMIT_LEVELS, C_PERMIT_PROVENANCE } from "@/lib/ch/registry";
+import { KNOWN, UNKNOWN, FAQ } from "./facts";
 
-// Honest requirements explainer for Sweden's NEW citizenship test. This page's
-// whole job is to be the one place that does not overclaim: the society test is
-// real but provisional, the language test does not exist yet, and no pass mark has
-// been published. Framed as honest preparation, never as beating or getting around
-// Migrationsverket.
+// Honest requirements explainer for the language side of Swiss naturalisation.
+//
+// This page's whole job is to be the one place that does not flatten. The single
+// most common error written about Switzerland — on other sites and in the ancestor
+// this file was forked from — is stating ONE national answer for a country that
+// decides this at canton and commune level. B1 spoken / A2 written is real, and it
+// is a FEDERAL MINIMUM, not "the requirement". Everything here is arranged around
+// keeping that distinction visible rather than burying it in a footnote.
+//
+// Framed as honest preparation, never as beating or getting around SEM or a canton.
 //
 // Cost rule: cache indefinitely; the facts only change on redeploy.
 export const revalidate = false;
@@ -13,65 +20,22 @@ export const revalidate = false;
 const PATH = "/swiss-naturalisation-language";
 
 export const metadata: Metadata = {
-  title: { absolute: "Sweden's Citizenship Test (Medborgarskapsprovet): What Is Actually Known" },
+  title: { absolute: "Swiss Naturalisation Language Levels: B1 Spoken, A2 Written — and Why That Isn't the Whole Answer" },
   description:
-    "Sweden's new citizenship test: the society component starts with a pilot on 15 August 2026, the language test is not expected before autumn 2028, and UHR has published no pass mark. An honest guide — plus original practice.",
+    "Switzerland's federal minimum for naturalisation is B1 spoken and A2 written in one national language. But your canton and commune decide an ordinary naturalisation and can ask for more — and there is no national civics test. An honest guide.",
   alternates: { canonical: PATH },
   openGraph: {
-    title: "Medborgarskapsprovet — an honest guide to Sweden's new citizenship test",
+    title: "Swiss naturalisation and language — an honest guide to what is actually required",
     description:
-      "What UHR has actually published about Medborgarskapsprovet, what is still unknown, and how to prepare fairly. Confirm current requirements with UHR and Migrationsverket.",
+      "The federal minimum, why your canton can ask for more, why there is no national civics test, and what nobody can tell you. Confirm your own case with your cantonal migration authority.",
   },
 };
-
-const FAQ = [
-  {
-    q: "What is Medborgarskapsprovet?",
-    a: "It is Sweden's new citizenship test. Under rules in force since 6 June 2026, applicants for Swedish citizenship aged 16–66 must demonstrate knowledge of Swedish society and of Swedish. UHR (Universitets- och högskolerådet) develops, administers and marks the test; Migrationsverket assesses citizenship applications and instructs applicants to register. So far only the society component exists.",
-  },
-  {
-    q: "What score do I need to pass?",
-    a: "UHR has not published a pass mark. Nobody can honestly tell you what it is, and anyone who quotes you a number is guessing. The test is new: the first sitting, on 15 August 2026, is an utprövningsprov — a pilot — and it is free of charge. Check UHR for the current details rather than trusting a third party's figure.",
-  },
-  {
-    q: "Is there a Swedish language test for citizenship?",
-    a: "Not yet. A language component is planned, but UHR indicates it cannot be ready before autumn 2028 at the earliest, and no CEFR level has been set for it. We do not sell practice for it, because there is nothing published to practise against. Building your Swedish on the SFI/CEFR ladder helps you either way — but it is not the citizenship language test, and we will not pretend otherwise.",
-  },
-  {
-    q: "What does the society test cover, and what format is it?",
-    a: "UHR describes the test provisionally as around 60 multiple-choice questions with four options each, in about 90 minutes, in Swedish and on paper. The content comes from UHR's own free study material, Sverige i fokus, which covers 13 areas of Swedish society — from how Sweden is governed and how elections work to law and rights, the labour market, welfare, modern history, media, religion and traditions. The format is provisional and may change before the test is established.",
-  },
-  {
-    q: "Is passing the test enough for citizenship?",
-    a: "No — it is one requirement, not the whole application. Since 6 June 2026 the main rule for habitual residence is eight years, and there is a self-sufficiency requirement as well. There are no transitional arrangements: Migrationsverket assesses cases not decided before 6 June 2026 under the new rules. Only Migrationsverket can tell you which conditions apply to your situation.",
-  },
-  {
-    q: "How does AlmiSwedish help — and is it official?",
-    a: "It is not official. AlmiSwedish is not affiliated with UHR, and UHR has said plainly that it does not stand behind unofficial practice tests found online and that their quality is not checked by UHR. That includes ours. Our questions are original practice written against the same 13 society areas Sverige i fokus covers; they are not UHR's question bank, and no score here is an official result. Use UHR's free material as your source of truth and use us to find your gaps.",
-  },
-] as const;
 
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 };
-
-// The honest core of this page: separating published fact from open question.
-const KNOWN = [
-  { k: "Who runs it", v: "UHR develops, administers and marks the test. Migrationsverket assesses citizenship applications and instructs applicants to register." },
-  { k: "Who must take it", v: "Applicants for Swedish citizenship aged 16–66." },
-  { k: "First sitting", v: "15 August 2026, at Stockholmsmässan — an utprövningsprov (pilot), free of charge." },
-  { k: "Provisional format", v: "Around 60 multiple-choice questions, four options each, about 90 minutes, in Swedish, on paper." },
-  { k: "Source material", v: "UHR's own study material Sverige i fokus — free as a PDF and as audio — covering 13 areas of Swedish society." },
-  { k: "Residence rule", v: "Eight years' habitual residence as the main rule, since 6 June 2026, with no transitional arrangements." },
-];
-
-const UNKNOWN = [
-  { k: "The pass mark", v: "Not published by UHR. We do not show one, and we do not guess." },
-  { k: "The language test", v: "Planned, but UHR indicates autumn 2028 at the earliest. No CEFR level has been set." },
-  { k: "The settled format", v: "The 60-question / 90-minute shape is provisional and may change before the test is established." },
-];
 
 function Fact({ k, v }: { k: string; v: string }) {
   return (
@@ -91,76 +55,98 @@ export default function Page() {
         <nav aria-label="Breadcrumb" className="mb-6 text-xs text-almi-text-muted">
           <ol className="flex flex-wrap items-center gap-1">
             <li><Link href="/" className="hover:text-almi-coral">Home</Link></li>
-            <li className="flex items-center gap-1"><span aria-hidden>/</span><Link href="/exams" className="hover:text-almi-coral">Swedish exams</Link></li>
-            <li className="flex items-center gap-1"><span aria-hidden>/</span><span>Medborgarskapsprovet</span></li>
+            <li className="flex items-center gap-1"><span aria-hidden>/</span><Link href="/exams" className="hover:text-almi-coral">Swiss language tests</Link></li>
+            <li className="flex items-center gap-1"><span aria-hidden>/</span><span>Naturalisation language</span></li>
           </ol>
         </nav>
 
         <header>
-          <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">Requirements · Sweden</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">Requirements · Switzerland</p>
           <h1 className="mt-2 text-3xl font-semibold leading-tight text-almi-ink sm:text-4xl">
-            Sweden&apos;s new citizenship test: what is actually known.
+            Swiss naturalisation and language: the federal minimum, and why it isn&apos;t your answer.
           </h1>
           <p className="mt-3 text-base text-almi-text">
-            Since <strong>6 June 2026</strong>, Swedish citizenship has required <strong>eight years&apos; habitual
-            residence</strong> as the main rule, <strong>self-sufficiency</strong>, and — for applicants aged{" "}
-            <strong>16–66</strong> — <strong>Medborgarskapsprovet</strong>. The test is developed, administered and marked
-            by <strong>UHR</strong> (Universitets- och högskolerådet); applications are assessed by{" "}
-            <strong>Migrationsverket</strong>.
+            Switzerland asks for <strong>{NATURALISATION_MIN.spoken} spoken</strong> and{" "}
+            <strong>{NATURALISATION_MIN.written} written</strong> in one national language. That figure is real, it comes
+            from <strong>SEM</strong>, and on its own it will mislead you — because it is a{" "}
+            <strong>federal minimum</strong>, and for an ordinary naturalisation it is your{" "}
+            <strong>canton and commune</strong> who decide, not the Confederation.
           </p>
           <p className="mt-3 text-base text-almi-text">
-            The test is genuinely new, and a lot of what is written about it online is invented. This page separates what
-            UHR has actually published from what nobody knows yet.
+            Most of what is written about this online flattens a canton-by-canton reality into one national number. This
+            page does the opposite: it separates what is actually published from what only your commune can tell you.
           </p>
         </header>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-almi-ink">What UHR has published</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">What is actually published</h2>
           <div className="mt-4 space-y-3">
             {KNOWN.map((f) => <Fact key={f.k} {...f} />)}
           </div>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-almi-ink">What is not known — and what we refuse to invent</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">What no website can tell you — and what we refuse to invent</h2>
           <div className="mt-4 space-y-3">
             {UNKNOWN.map((f) => <Fact key={f.k} {...f} />)}
           </div>
           <p className="mt-4 text-xs text-almi-text-muted">
-            This is general information about the requirement, not advice about your citizenship application.
+            This is general information about the requirement, not advice about your naturalisation application.
           </p>
         </section>
 
         <section className="mt-10 rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
-          <h2 className="text-xl font-semibold text-almi-ink">There is no language test yet</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">There is no national civics test</h2>
           <p className="mt-3 text-base text-almi-text">
-            The citizenship requirement covers knowledge of Swedish society <em>and</em> Swedish. Only the{" "}
-            <strong>society component</strong> exists. UHR indicates a Swedish language test{" "}
-            <strong>cannot be ready before autumn 2028</strong> at the earliest, and <strong>no level has been set</strong>{" "}
-            for it. We do not sell practice for a test with no published specification. Building your Swedish on the{" "}
-            <Link href="/exams" className="font-semibold text-almi-coral-deep hover:underline">SFI / CEFR ladder</Link>{" "}
-            helps you in daily life, at work and in study whatever happens — but it is not the citizenship language test.
+            Nearly every country that asks this of applicants has a single national test with a published format and a
+            pass mark. <strong>Switzerland does not.</strong> Local knowledge is handled by cantons and communes: some use
+            a written test, some an interview, some neither — and each decides its own content. So there is{" "}
+            <strong>no national format and no national pass mark</strong>, and any site that quotes you one has invented
+            it.
+          </p>
+          <p className="mt-3 text-base text-almi-text">
+            We offer <Link href="/exams/canton-civic-german" className="font-semibold text-almi-coral-deep hover:underline">local-knowledge practice</Link>{" "}
+            on the areas these procedures tend to cover — how the political system works, rights and obligations,
+            geography, everyday rules. It is <em>preparation, not a mock</em>, because there is no national exam to mock.
+            Ask your commune what your procedure actually involves.
           </p>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-semibold text-almi-ink">The test is only one part</h2>
+          <h2 className="text-xl font-semibold text-almi-ink">Speaking is the level that decides it</h2>
           <p className="mt-3 text-base text-almi-text">
-            Passing the society test addresses <strong>one</strong> requirement. Citizenship also depends on{" "}
-            <strong>eight years&apos; habitual residence</strong> (the main rule) and <strong>self-sufficiency</strong>, and
-            those are assessed by <strong>Migrationsverket</strong>. The rules changed on 6 June 2026{" "}
-            <strong>without transitional arrangements</strong>, which means applications not decided before that date are
-            assessed under the new rules. Check your own situation directly with Migrationsverket rather than assuming.
+            The requirement is <strong>not symmetrical</strong>: {NATURALISATION_MIN.spoken} spoken but only{" "}
+            {NATURALISATION_MIN.written} written — a full CEFR level apart. And the{" "}
+            <strong>{C_PERMIT_LEVELS.earlier.label.toLowerCase()}</strong> of the settlement permit asks{" "}
+            <strong>{C_PERMIT_LEVELS.earlier.spoken} spoken too</strong> — the same as citizenship. The idea that
+            &ldquo;the C permit needs less&rdquo; is true only on the ten-year route, where speaking drops to{" "}
+            {C_PERMIT_LEVELS.ordinary.spoken}. On the five-year route it is exactly as demanding on the skill that
+            matters most.
+          </p>
+          <p className="mt-3 text-xs text-almi-text-muted">{C_PERMIT_PROVENANCE}</p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-xl font-semibold text-almi-ink">The language is only one part</h2>
+          <p className="mt-3 text-base text-almi-text">
+            Meeting the language level addresses <strong>one</strong> requirement. Naturalisation also depends on your
+            residence, your integration, and conditions your canton and commune set themselves — and it is they who
+            decide an ordinary naturalisation, while <strong>SEM</strong> decides the facilitated route for spouses of
+            Swiss citizens. Those are different bodies applying different rules. Check your own situation with your
+            cantonal migration authority rather than assuming that what applied to someone in another canton applies to
+            you.
           </p>
         </section>
 
         <section className="mt-10">
           <h2 className="text-xl font-semibold text-almi-ink">How to prepare — honestly</h2>
           <p className="mt-3 text-base text-almi-text">
-            Start with UHR&apos;s own material: <strong>Sverige i fokus</strong> is free, comes from UHR, and is the source
-            the test is drawn from. Then use practice to find your gaps. AlmiSwedish gives you original questions written
-            against the same 13 areas, auto-marked so you can see where you actually stand. Because UHR has published no
-            pass mark, <strong>we do not show one</strong> — we show what you got right and what you missed.
+            Start by asking your commune what your procedure actually involves — that is free, it takes one email, and it
+            is the only way to learn your real bar. Then practise against it. AlmiSwiss gives you original tasks built
+            around the situations you will actually be in — the Gemeinde counter, the insurer, the landlord, the parents&apos;
+            evening — auto-marked so you can see where you stand. Because the levels are asymmetrical, we{" "}
+            <strong>band each skill separately</strong> rather than averaging them into a single number that would hide
+            the gap that decides your case.
           </p>
           <p className="mt-3 text-base text-almi-text">
             We help you prepare fairly. We don&apos;t claim to shortcut the process, and we couldn&apos;t if we wanted to.
@@ -168,23 +154,22 @@ export default function Page() {
         </section>
 
         <section className="mt-10 rounded-2xl border border-almi-bg-peach bg-almi-paper p-6 text-center shadow-sm">
-          <p className="text-base font-semibold text-almi-ink">Practise the society questions — honestly.</p>
+          <p className="text-base font-semibold text-almi-ink">Practise the language you&apos;ll actually be judged on.</p>
           <Link
-            href="/practice/medborgarskapsprov"
+            href="/practice/fide-german"
             className="mt-4 inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep"
           >
-            Try the free practice questions
+            Try the free practice tasks
           </Link>
-          <p className="mt-3 text-xs text-almi-text-muted">Society practice is free · no card needed</p>
+          <p className="mt-3 text-xs text-almi-text-muted">Reading and Listening practice is free · no card needed</p>
         </section>
 
         <section className="mt-10 rounded-2xl border border-almi-accent/40 bg-almi-accent/10 p-5">
           <p className="text-sm text-almi-ink">
-            <strong>AlmiSwedish is not affiliated with UHR, and UHR does not endorse this site.</strong> UHR has stated
-            that it does not stand behind unofficial practice tests found online and that their quality is not checked by
-            UHR — that includes ours. Use UHR&apos;s free material as your source of truth, and confirm your own
-            requirement with UHR and Migrationsverket. Only the official authorities can tell you which conditions apply
-            to your situation.
+            <strong>AlmiSwiss is not affiliated with SEM, with any canton, or with a fide test centre, and none of them
+            endorse this site.</strong> Our tasks are original practice, not any test centre&apos;s question bank, and no
+            score here is a result. Only a recognised test centre issues a real result, and only your canton and commune
+            decide your case — confirm your own requirement with your cantonal migration authority.
           </p>
         </section>
 
@@ -203,10 +188,10 @@ export default function Page() {
         <section className="mt-10">
           <h2 className="text-lg font-semibold text-almi-ink">Related</h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            <li><Link href="/exams/medborgarskapsprov" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">Medborgarskapsprovet guide</Link></li>
-            <li><Link href="/exams/tisus" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">Tisus (≈C1) — university admission</Link></li>
-            <li><Link href="/exams/sfi-cd" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">SFI Courses C–D guide</Link></li>
-            <li><Link href="/exams" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">All Swedish exams</Link></li>
+            <li><Link href="/exams/fide-german" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">fide German guide</Link></li>
+            <li><Link href="/exams/fide-french" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">fide French guide</Link></li>
+            <li><Link href="/exams/canton-civic-german" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">Local knowledge — not a national test</Link></li>
+            <li><Link href="/exams" className="inline-block rounded-full border border-almi-bg-peach bg-almi-paper px-3 py-1.5 text-sm text-almi-ink hover:border-almi-coral">All Swiss language tests</Link></li>
           </ul>
         </section>
       </div>
