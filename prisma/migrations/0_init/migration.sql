@@ -8,28 +8,31 @@ CREATE TYPE "Locale" AS ENUM ('EN', 'UR', 'AR', 'HI');
 CREATE TYPE "SubscriptionTier" AS ENUM ('FREE', 'PREMIUM');
 
 -- CreateEnum
-CREATE TYPE "SwedishTrack" AS ENUM ('CITIZENSHIP', 'UNIVERSITY', 'GETTING_STARTED', 'PROFICIENCY');
+CREATE TYPE "SwissTrack" AS ENUM ('CITIZENSHIP', 'C_PERMIT', 'CERTIFICATE', 'GETTING_STARTED', 'CANTON_CIVIC');
 
 -- CreateEnum
-CREATE TYPE "SwedishExam" AS ENUM ('SFI_AB', 'SFI_CD', 'SVENSKA_B1B2', 'TISUS', 'MEDBORGARSKAPSPROV');
+CREATE TYPE "SwissExam" AS ENUM ('FIDE', 'TELC_GOETHE', 'DELF_TCF', 'CELI', 'CANTON_CIVIC');
 
 -- CreateEnum
-CREATE TYPE "SwedishSkill" AS ENUM ('READING', 'LISTENING', 'WRITING', 'SPEAKING', 'KNOWLEDGE');
+CREATE TYPE "SwissLanguage" AS ENUM ('DE', 'FR', 'IT');
 
 -- CreateEnum
-CREATE TYPE "SwedishTaskType" AS ENUM ('MCQ_SINGLE', 'MATCHING', 'CLOZE', 'ORDERING', 'TRUE_FALSE', 'WRITING_PROMPT', 'SPEAKING_PROMPT');
+CREATE TYPE "SwissSkill" AS ENUM ('READING', 'LISTENING', 'WRITING', 'SPEAKING', 'KNOWLEDGE');
 
 -- CreateEnum
-CREATE TYPE "SwedishDifficulty" AS ENUM ('FOUNDATION', 'CORE', 'STRETCH');
+CREATE TYPE "SwissTaskType" AS ENUM ('MCQ_SINGLE', 'MATCHING', 'CLOZE', 'ORDERING', 'TRUE_FALSE', 'WRITING_PROMPT', 'SPEAKING_PROMPT');
 
 -- CreateEnum
-CREATE TYPE "SwedishAttemptStatus" AS ENUM ('PENDING', 'SCORED', 'EVALUATED', 'FAILED');
+CREATE TYPE "SwissDifficulty" AS ENUM ('FOUNDATION', 'CORE', 'STRETCH');
 
 -- CreateEnum
-CREATE TYPE "SwedishSessionMode" AS ENUM ('PRACTICE', 'MOCK');
+CREATE TYPE "SwissAttemptStatus" AS ENUM ('PENDING', 'SCORED', 'EVALUATED', 'FAILED');
 
 -- CreateEnum
-CREATE TYPE "SwedishSessionStatus" AS ENUM ('IN_PROGRESS', 'COMPLETED', 'ABANDONED');
+CREATE TYPE "SwissSessionMode" AS ENUM ('PRACTICE', 'MOCK');
+
+-- CreateEnum
+CREATE TYPE "SwissSessionStatus" AS ENUM ('IN_PROGRESS', 'COMPLETED', 'ABANDONED');
 
 -- CreateTable
 CREATE TABLE "User" (
@@ -56,7 +59,8 @@ CREATE TABLE "User" (
     "compGrantedAt" TIMESTAMP(3),
     "compGrantedBy" TEXT,
     "compReason" TEXT,
-    "targetExam" "SwedishExam",
+    "targetExam" "SwissExam",
+    "targetLanguage" "SwissLanguage",
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
@@ -136,13 +140,14 @@ CREATE TABLE "AICostLedger" (
 );
 
 -- CreateTable
-CREATE TABLE "SwedishItem" (
+CREATE TABLE "SwissItem" (
     "id" TEXT NOT NULL,
-    "track" "SwedishTrack" NOT NULL,
-    "exam" "SwedishExam" NOT NULL,
-    "skill" "SwedishSkill" NOT NULL,
-    "taskType" "SwedishTaskType" NOT NULL,
-    "difficulty" "SwedishDifficulty" NOT NULL DEFAULT 'CORE',
+    "language" "SwissLanguage" NOT NULL,
+    "track" "SwissTrack" NOT NULL,
+    "exam" "SwissExam" NOT NULL,
+    "skill" "SwissSkill" NOT NULL,
+    "taskType" "SwissTaskType" NOT NULL,
+    "difficulty" "SwissDifficulty" NOT NULL DEFAULT 'CORE',
     "title" TEXT NOT NULL,
     "prompt" TEXT NOT NULL,
     "payload" JSONB NOT NULL,
@@ -152,16 +157,16 @@ CREATE TABLE "SwedishItem" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "SwedishItem_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "SwissItem_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "SwedishAttempt" (
+CREATE TABLE "SwissAttempt" (
     "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "itemId" TEXT NOT NULL,
     "sessionId" TEXT,
-    "status" "SwedishAttemptStatus" NOT NULL DEFAULT 'PENDING',
+    "status" "SwissAttemptStatus" NOT NULL DEFAULT 'PENDING',
     "response" JSONB,
     "points" INTEGER,
     "maxPoints" INTEGER,
@@ -170,22 +175,23 @@ CREATE TABLE "SwedishAttempt" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "submittedAt" TIMESTAMP(3),
 
-    CONSTRAINT "SwedishAttempt_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "SwissAttempt_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "SwedishSession" (
+CREATE TABLE "SwissSession" (
     "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
-    "track" "SwedishTrack" NOT NULL,
-    "exam" "SwedishExam" NOT NULL,
-    "mode" "SwedishSessionMode" NOT NULL DEFAULT 'PRACTICE',
-    "status" "SwedishSessionStatus" NOT NULL DEFAULT 'IN_PROGRESS',
+    "language" "SwissLanguage" NOT NULL,
+    "track" "SwissTrack" NOT NULL,
+    "exam" "SwissExam" NOT NULL,
+    "mode" "SwissSessionMode" NOT NULL DEFAULT 'PRACTICE',
+    "status" "SwissSessionStatus" NOT NULL DEFAULT 'IN_PROGRESS',
     "aggregate" JSONB,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "completedAt" TIMESTAMP(3),
 
-    CONSTRAINT "SwedishSession_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "SwissSession_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
@@ -258,22 +264,22 @@ CREATE INDEX "AICostLedger_userId_timestamp_idx" ON "AICostLedger"("userId", "ti
 CREATE INDEX "AICostLedger_feature_timestamp_idx" ON "AICostLedger"("feature", "timestamp");
 
 -- CreateIndex
-CREATE INDEX "SwedishItem_track_exam_skill_active_idx" ON "SwedishItem"("track", "exam", "skill", "active");
+CREATE INDEX "SwissItem_language_track_exam_skill_active_idx" ON "SwissItem"("language", "track", "exam", "skill", "active");
 
 -- CreateIndex
-CREATE INDEX "SwedishItem_exam_skill_idx" ON "SwedishItem"("exam", "skill");
+CREATE INDEX "SwissItem_language_exam_skill_idx" ON "SwissItem"("language", "exam", "skill");
 
 -- CreateIndex
-CREATE INDEX "SwedishAttempt_userId_createdAt_idx" ON "SwedishAttempt"("userId", "createdAt");
+CREATE INDEX "SwissAttempt_userId_createdAt_idx" ON "SwissAttempt"("userId", "createdAt");
 
 -- CreateIndex
-CREATE INDEX "SwedishAttempt_itemId_idx" ON "SwedishAttempt"("itemId");
+CREATE INDEX "SwissAttempt_itemId_idx" ON "SwissAttempt"("itemId");
 
 -- CreateIndex
-CREATE INDEX "SwedishAttempt_sessionId_idx" ON "SwedishAttempt"("sessionId");
+CREATE INDEX "SwissAttempt_sessionId_idx" ON "SwissAttempt"("sessionId");
 
 -- CreateIndex
-CREATE INDEX "SwedishSession_userId_createdAt_idx" ON "SwedishSession"("userId", "createdAt");
+CREATE INDEX "SwissSession_userId_createdAt_idx" ON "SwissSession"("userId", "createdAt");
 
 -- AddForeignKey
 ALTER TABLE "Session" ADD CONSTRAINT "Session_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
@@ -285,14 +291,14 @@ ALTER TABLE "PasswordResetToken" ADD CONSTRAINT "PasswordResetToken_userId_fkey"
 ALTER TABLE "Review" ADD CONSTRAINT "Review_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "SwedishAttempt" ADD CONSTRAINT "SwedishAttempt_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "SwissAttempt" ADD CONSTRAINT "SwissAttempt_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "SwedishAttempt" ADD CONSTRAINT "SwedishAttempt_itemId_fkey" FOREIGN KEY ("itemId") REFERENCES "SwedishItem"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "SwissAttempt" ADD CONSTRAINT "SwissAttempt_itemId_fkey" FOREIGN KEY ("itemId") REFERENCES "SwissItem"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "SwedishAttempt" ADD CONSTRAINT "SwedishAttempt_sessionId_fkey" FOREIGN KEY ("sessionId") REFERENCES "SwedishSession"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "SwissAttempt" ADD CONSTRAINT "SwissAttempt_sessionId_fkey" FOREIGN KEY ("sessionId") REFERENCES "SwissSession"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "SwedishSession" ADD CONSTRAINT "SwedishSession_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "SwissSession" ADD CONSTRAINT "SwissSession_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 

@@ -1,19 +1,24 @@
-// AlmiSwedish data model. The shared engine foundation (auth, billing, AI cost
-// ledger) is common to the AlmiWorld language products. The practice layer is an
-// ITEM-BANK: a single SwedishItem ↔ SwedishAttempt pair carries every task type via
-// a typed `payload` Json, instead of one model per skill. Scoring is hybrid —
-// deterministic for objective modules (Läsförståelse + Hörförståelse + the society
-// MCQ), AI trait-feedback for productive modules (Skriftlig framställning + Muntlig)
-// — and is reported as an honest per-skill readiness band, never a fabricated
-// composite or an official result.
+// AlmiSwiss data model. The shared engine foundation (auth, billing, AI cost ledger)
+// is common to the AlmiWorld language products. The practice layer is an ITEM-BANK: a
+// single SwissItem ↔ SwissAttempt pair carries every task type via a typed `payload`
+// Json, instead of one model per skill. Scoring is hybrid — deterministic for
+// objective modules (Reading, Listening, and the local-knowledge MCQ), AI
+// trait-feedback for productive modules (Writing, Speaking) — and is reported as an
+// honest per-skill readiness band, never a fabricated composite or an official result.
 //
-// Structural note: an item belongs to exactly ONE exam (SFI A–B reading content is
-// not Tisus reading content), so `exam` lives ON THE ITEM and is the primary filter,
-// alongside `track` for the goal funnel.
+// Structural note 1: an item belongs to exactly ONE exam, so `exam` lives ON THE ITEM
+// and is the primary filter, alongside `track` for the goal funnel.
 //
-// All content is original Swedish, never copied from UHR, Stockholms universitet or
-// Skolverket material; results are practice estimates — candidates confirm the real
-// requirement with UHR / Migrationsverket / their university.
+// Structural note 2 — THE LANGUAGE AXIS, which does not exist in the Nordic products
+// this was forked from. They each have one national language, so (exam, skill)
+// identified an item. Switzerland has three, and the candidate's CANTON decides which
+// applies. So `language` is on the item, on the session, and FIRST in the indexes.
+// Drop it and a French candidate is served German items — a query that returns the
+// wrong language throws nothing and looks like content.
+//
+// All content is original; results are practice estimates, never an official result
+// from SEM, a canton, or a fide test centre — candidates confirm the real requirement
+// with their cantonal migration authority.
 
 generator client {
   provider = "prisma-client-js"
@@ -64,24 +69,28 @@ model User {
 
   // Comp Pro access — admin-granted, no Stripe. isProActive()/hasPaidAccess()
   // short-circuit true while compProUntil is in the future, bypassing BOTH the
-  // subscription check AND email verification. AlmiSwedish full Pro = AI feedback
-  // on Skriftlig framställning + Muntlig + the full per-exam mock.
+  // subscription check AND email verification. AlmiSwiss full Pro = AI feedback on
+  // Writing + Speaking + the full per-exam mock.
   compProUntil  DateTime?
   compGrantedAt DateTime?
   compGrantedBy String?
   compReason    String?
 
-  // Which Swedish exam the user is preparing for (SFI ladder / Tisus / Medborgarskapsprovet).
-  // Drives the default mock and which practice content is surfaced. Null = not chosen.
-  targetExam SwedishExam?
+  // Which exam the user is preparing for (fide / a recognised certificate / local
+  // knowledge). Drives the default mock and which practice content is surfaced.
+  // Null = not chosen.
+  targetExam SwissExam?
+  // And in WHICH national language — inseparable from targetExam, because "fide" alone
+  // does not identify a test. Null = not chosen.
+  targetLanguage SwissLanguage?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   sessions            Session[]
   passwordResetTokens PasswordResetToken[]
-  svAttempts          SwedishAttempt[]
-  svSessions          SwedishSession[]
+  svAttempts          SwissAttempt[]
+  svSessions          SwissSession[]
   reviews             Review[]
 
   @@index([email])
@@ -165,58 +174,76 @@ model AICostLedger {
 }
 
 
-// ===================== Swedish practice item-bank =====================
-// AlmiSwedish covers FOUR goal tracks via ONE item-bank:
-//   • Medborgarskapsprovet — Sweden's NEW citizenship test. Under the law in force
-//     6 June 2026, applicants aged 16–66 must show knowledge of Swedish society and
-//     Swedish. UHR (Universitets- och högskolerådet) develops, administers and marks
-//     it; Migrationsverket assesses applications and instructs applicants to register.
-//     Only the SOCIETY component exists: UHR's first sitting is 15 Aug 2026 and is an
-//     *utprövningsprov* (pilot), free of charge. UHR states the format provisionally
-//     as ~60 four-option multiple-choice questions in 90 minutes, in Swedish, on paper,
-//     drawn from its own study material "Sverige i fokus". THE PASS MARK IS NOT
-//     PUBLISHED — never state or imply one.
-//   • The SWEDISH LANGUAGE component of the citizenship test is NOT modelled here.
-//     UHR indicates it cannot be ready before autumn 2028 and no CEFR level has been
-//     set. We do not ship practice for a test with no published spec. Do not add a
-//     MEDBORGARSKAPSPROV language exam until UHR publishes one.
-//   • Tisus (Test i svenska för universitets- och högskolestudier) — the established
-//     ≈C1 proficiency test for Swedish-taught university admission, run by Stockholms
-//     universitet.
-//   • SFI (Svenska för invandrare) courses A–D and a general CEFR ladder. Skolverket
-//     maps SFI A/B ≈ A1–A2 and C/D ≈ A2–B1+; the SFI scale is NOT itself CEFR, so the
-//     mapping is stated as approximate.
-// Swedex is deliberately absent: it can no longer be taken after 31 Dec 2026.
-// One SwedishItem/SwedishAttempt pair serves every task type via a typed `payload`
-// Json. All content is original Swedish; results are per-skill readiness estimates —
-// never an official UHR result. Confirm current requirements with UHR/Migrationsverket.
+// ===================== Swiss practice item-bank =====================
+// AlmiSwiss covers FIVE goal tracks via ONE item-bank, across the national languages
+// in SHIPPING_LANGUAGES (see src/lib/ch/types.ts).
+//
+// FACT BASE — the tiers differ, and the header says which is which BECAUSE a fork
+// flattens them. Full provenance in src/lib/ch/registry.ts; re-check before editing.
+//   • VERIFIED AT SEM: naturalisation requires B1 SPOKEN + A2 WRITTEN in ONE national
+//     language. ⚠️ That figure is SEM's for the FACILITATED (married) route, which SEM
+//     itself decides. For ORDINARY naturalisation the CANTON AND COMMUNE decide and may
+//     ask more. Never blur the two into one "Swiss requirement".
+//   • VERIFIED AT SEM: fide is the Swiss test and issues the fide language passport;
+//     SEM-recognised certificates (telc/Goethe · DELF/TCF · CELI) are accepted too.
+//   • FOUNDER-SUPPLIED, SECONDARY-SOURCED — NOT confirmed at SEM: the C permit levels
+//     (ordinary 10yr = A2 spoken/A1 written; early 5yr = B1 spoken/A1 written). SEM's
+//     CEFR table is an image and its factsheet PDFs 403 automated fetches. Shown in the
+//     product with its provenance attached, not asserted as verified fact.
+//   • THERE IS NO NATIONAL CIVICS TEST. Verified by its ABSENCE from SEM: cantons and
+//     communes differ — some use a test, some an interview, some neither. CANTON_CIVIC
+//     is PRACTICE, never an exam. Do not add a national civics exam, do not invent a
+//     canton's questions or format, and never state or imply a pass mark. An absence is
+//     the hardest thing to keep true across a fork: nothing breaks if we invent one.
+//
+// NOT MODELLED, DELIBERATELY: Romansh (a national language, but rarely the language of
+// a naturalisation procedure — omitted rather than filled with invented content).
+//
+// One SwissItem/SwissAttempt pair serves every task type via a typed `payload` Json.
+// All content is original; results are per-skill readiness estimates — never an
+// official result. Confirm current requirements with the cantonal migration authority.
 
-enum SwedishTrack {
-  CITIZENSHIP // Medborgarskapsprovet — society component (lead)
-  UNIVERSITY // Tisus (≈C1)
-  GETTING_STARTED // SFI courses A–B (≈A1–A2)
-  PROFICIENCY // SFI C–D + general Swedish CEFR ladder
+enum SwissTrack {
+  CITIZENSHIP // fide at the federal minimum: B1 spoken + A2 written (lead)
+  C_PERMIT // fide at the permit levels — lower than citizenship, and route-dependent
+  CERTIFICATE // SEM-recognised certificates: telc/Goethe · DELF/TCF · CELI
+  GETTING_STARTED // A1–A2 everyday language — groundwork, not an exam
+  CANTON_CIVIC // canton-dependent local knowledge. NOT a national test — none exists.
 }
 
-// Exam axis. The Swedish language ladder (SFI A–B, SFI C–D, general B1–B2, Tisus)
-// plus the one society knowledge test (Medborgarskapsprovet).
-enum SwedishExam {
-  SFI_AB // SFI courses A–B — ≈A1–A2 (getting started)
-  SFI_CD // SFI courses C–D — ≈A2–B1+ (the common SFI exit)
-  SVENSKA_B1B2 // General Swedish — B1–B2 (CEFR ladder)
-  TISUS // Tisus — ≈C1 (university admission)
-  MEDBORGARSKAPSPROV // Citizenship society knowledge test (lead)
+// Exam axis. fide (the Swiss test) + the SEM-recognised certificate families, plus
+// canton-dependent local-knowledge practice. NOTE what is absent: no national civics
+// exam, because Switzerland has none. See the fact base above.
+enum SwissExam {
+  FIDE // the Swiss scenario-based test — issues the fide language passport (lead)
+  TELC_GOETHE // SEM-recognised German certificates
+  DELF_TCF // SEM-recognised French certificates
+  CELI // SEM-recognised Italian certificates
+  CANTON_CIVIC // local-knowledge PRACTICE. Not an exam: Switzerland has no national civics test.
 }
 
-enum SwedishSkill {
-  READING // Läsförståelse (objective)
-  LISTENING // Hörförståelse (objective)
-  WRITING // Skriftlig framställning (AI-graded)
-  SPEAKING // Muntlig (AI-graded)
-  KNOWLEDGE // Samhällskunskap — society knowledge MCQ (objective)
+// Switzerland's relevant national languages. This axis does not exist in the Nordic
+// products this schema was forked from — they each have ONE national language, so
+// (exam, skill) identified an item. Here it does not: fide in German and fide in
+// French are different tests, and which one applies is decided by the candidate's
+// CANTON. Every item and session is therefore language-scoped.
+// Romansh is a national language but is rarely the language of a naturalisation
+// procedure — omitted deliberately rather than modelled with invented content.
+enum SwissLanguage {
+  DE
+  FR
+  IT
 }
 
-enum SwedishTaskType {
+enum SwissSkill {
+  READING // objective
+  LISTENING // objective
+  WRITING // AI-graded
+  SPEAKING // AI-graded
+  KNOWLEDGE // local-knowledge MCQ (objective) — used by CANTON_CIVIC only
+}
+
+enum SwissTaskType {
   MCQ_SINGLE // objective single-answer multiple choice (Reading/Listening)
   MATCHING // objective matching
   CLOZE // objective gap-fill (option-per-gap)
@@ -226,42 +253,45 @@ enum SwedishTaskType {
   SPEAKING_PROMPT // productive speaking (criteria)
 }
 
-enum SwedishDifficulty {
+enum SwissDifficulty {
   FOUNDATION
   CORE
   STRETCH
 }
 
-enum SwedishAttemptStatus {
+enum SwissAttemptStatus {
   PENDING
   SCORED // objective auto-graded
   EVALUATED // productive AI-graded
   FAILED
 }
 
-enum SwedishSessionMode {
+enum SwissSessionMode {
   PRACTICE
   MOCK
 }
 
-enum SwedishSessionStatus {
+enum SwissSessionStatus {
   IN_PROGRESS
   COMPLETED
   ABANDONED
 }
 
-model SwedishItem {
+model SwissItem {
   id         String          @id @default(cuid())
-  track      SwedishTrack
-  exam       SwedishExam
-  skill      SwedishSkill
-  taskType   SwedishTaskType
-  difficulty SwedishDifficulty @default(CORE)
+  // Which national language this item is SET IN. Not a display preference: an item
+  // is only ever valid for candidates whose canton uses this language.
+  language   SwissLanguage
+  track      SwissTrack
+  exam       SwissExam
+  skill      SwissSkill
+  taskType   SwissTaskType
+  difficulty SwissDifficulty @default(CORE)
   title      String
   // Instruction / stem shown to the candidate (NL).
   prompt     String
   // Task-specific structure: objective → { options, passage, transcript, answerKey };
-  // productive → { criteria[], charBand, stimulus }. Validated in src/lib/sv/types.
+  // productive → { criteria[], charBand, stimulus }. Validated in src/lib/ch/types.
   payload    Json
   // Objective answer key (null for productive/AI tasks).
   answer     Json?
@@ -270,18 +300,18 @@ model SwedishItem {
   active     Boolean         @default(true)
   createdAt  DateTime        @default(now())
   updatedAt  DateTime        @updatedAt
-  attempts   SwedishAttempt[]
+  attempts   SwissAttempt[]
 
-  @@index([track, exam, skill, active])
-  @@index([exam, skill])
+  @@index([language, track, exam, skill, active])
+  @@index([language, exam, skill])
 }
 
-model SwedishAttempt {
+model SwissAttempt {
   id        String             @id @default(cuid())
   userId    String
   itemId    String
   sessionId String?
-  status    SwedishAttemptStatus @default(PENDING)
+  status    SwissAttemptStatus @default(PENDING)
   // User response: objective → selected answer(s); productive → { text } or { audioKey }.
   response  Json?
   // Objective scoring.
@@ -295,28 +325,29 @@ model SwedishAttempt {
   submittedAt DateTime?
 
   user    User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  item    SwedishItem     @relation(fields: [itemId], references: [id], onDelete: Cascade)
-  session SwedishSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
+  item    SwissItem     @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  session SwissSession? @relation(fields: [sessionId], references: [id], onDelete: SetNull)
 
   @@index([userId, createdAt])
   @@index([itemId])
   @@index([sessionId])
 }
 
-model SwedishSession {
+model SwissSession {
   id        String             @id @default(cuid())
   userId    String
-  track     SwedishTrack
-  exam      SwedishExam
-  mode      SwedishSessionMode   @default(PRACTICE)
-  status    SwedishSessionStatus @default(IN_PROGRESS)
+  language  SwissLanguage
+  track     SwissTrack
+  exam      SwissExam
+  mode      SwissSessionMode   @default(PRACTICE)
+  status    SwissSessionStatus @default(IN_PROGRESS)
   // Aggregate readout: { perSkill: {skill: {points,max,readiness}}, overall }.
   aggregate Json?
   createdAt   DateTime  @default(now())
   completedAt DateTime?
 
   user     User           @relation(fields: [userId], references: [id], onDelete: Cascade)
-  attempts SwedishAttempt[]
+  attempts SwissAttempt[]
 
   @@index([userId, createdAt])
 }

@@ -1,12 +1,18 @@
-// AlmiSwedish scoring engine — per-skill READINESS estimate. Tisus, the SFI ladder
-// and the CEFR levels are pass/fail against official criteria, and
-// Medborgarskapsprovet has no published pass mark at all; we do NOT fabricate an
-// official result for any of them. We score each skill's objective items
-// deterministically to a percentage and map it to an honest readiness band, and
-// we label productive skills (Writing/Speaking) as AI estimates.
+// AlmiSwiss scoring engine — per-skill READINESS estimate.
+//
+// Nothing here may produce an official result, and for Switzerland that matters in
+// two distinct ways:
+//   • fide and the recognised certificates are assessed against official criteria by
+//     a test centre. We are not one.
+//   • Canton civic content has NO published pass mark anywhere, because there is no
+//     national test to publish one — cantons and communes each decide. Inventing a
+//     threshold there would fabricate the very test we say does not exist.
+// So we grade objective items deterministically to a percentage, map that to an
+// honest readiness band, and label productive skills (Writing/Speaking) as AI
+// estimates. Every readout is an orientation estimate, never a result.
 
 import { READY_PCT, BORDERLINE_PCT } from "./registry";
-import type { ObjectiveAnswer, SwedishTaskType, SwedishSkill } from "./types";
+import type { ObjectiveAnswer, SwissTaskType, SwissSkill } from "./types";
 import { isObjectiveTask } from "./types";
 
 export type Readiness = "CLEAR" | "BORDERLINE" | "BELOW";
@@ -59,7 +65,7 @@ export function readinessFromPct(pct: number): Readiness {
 }
 
 export interface SkillReadout {
-  skill: SwedishSkill;
+  skill: SwissSkill;
   points: number;
   maxPoints: number;
   pct: number;
@@ -68,7 +74,7 @@ export interface SkillReadout {
 }
 
 export function skillReadout(
-  skill: SwedishSkill,
+  skill: SwissSkill,
   points: number,
   maxPoints: number,
 ): SkillReadout {
@@ -96,14 +102,14 @@ export function aggregateReadout(readouts: SkillReadout[]): {
   meanPct: number;
   overall: Readiness;
   label: string;
-  weakest: SwedishSkill | null;
+  weakest: SwissSkill | null;
   allClear: boolean;
 } {
   const graded = readouts.filter((r) => r.maxPoints > 0);
   const meanPct = graded.length
     ? Math.round(graded.reduce((s, r) => s + r.pct, 0) / graded.length)
     : 0;
-  let weakest: SwedishSkill | null = null;
+  let weakest: SwissSkill | null = null;
   let low = Infinity;
   for (const r of graded) if (r.pct < low) { low = r.pct; weakest = r.skill; }
   return {
@@ -116,6 +122,6 @@ export function aggregateReadout(readouts: SkillReadout[]): {
 }
 
 /** True when this task type is auto-gradable (objective). */
-export function isObjectiveTaskType(t: SwedishTaskType): boolean {
+export function isObjectiveTaskType(t: SwissTaskType): boolean {
   return isObjectiveTask(t);
 }

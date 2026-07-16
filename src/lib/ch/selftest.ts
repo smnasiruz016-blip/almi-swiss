@@ -60,5 +60,5 @@ eq(skillReadout("READING", 8, 10).readiness, "CLEAR", "reading 80% clear");
   eq(agg.allClear, true, "agg all clear");
 }
 
-console.log(`\nAlmiSwedish engine selftest: ${pass} passed, ${fail} failed`);
+console.log(`\nAlmiSwiss engine selftest: ${pass} passed, ${fail} failed`);
 if (fail > 0) process.exit(1);
