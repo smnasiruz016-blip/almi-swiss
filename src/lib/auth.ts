@@ -4,7 +4,25 @@ import { createHash, randomBytes } from "crypto";
 import bcrypt from "bcryptjs";
 import { prisma } from "./prisma";
 
-const SESSION_COOKIE_NAME = "almi_norwegian_session";
+// 🔴 KNOWN LEAK, DEFERRED ON PURPOSE — NOT an approval of this name.
+// This cookie carries the ANCESTOR'S product name, two forks back, and this product
+// sets it on every visitor's browser. It walked past the fork-hygiene gate for a day
+// because BANNED held the HYPHENATED slug while this value uses an UNDERSCORE; the
+// gate now generates every separator form, which is how this line got found.
+//
+// NOT renamed here because renaming the cookie LOGS OUT every live session: the
+// browser keeps sending the old name and nothing reads it. That is a real, visible
+// cost to real users, so it is the founder's call and its own change — do it in a
+// quiet window, and consider reading both names for one release before dropping the
+// old one.
+//
+// NOT a correctness bug: cookies are host-scoped, so this site and the ancestor's
+// never collide. It is an identity leak — and the exact string the next fork clones
+// into almi_swiss_session while meaning something else.
+//
+// The hygiene-allow marker below is what keeps the build green. It is a receipt, not
+// a pardon: every OTHER occurrence of any ancestor slug, in any spelling, still fails.
+const SESSION_COOKIE_NAME = "almi_norwegian_session"; // hygiene-allow — deferred rename, see above
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
 
 export async function hashPassword(password: string): Promise<string> {

@@ -26,7 +26,7 @@ export const ROLES = rolesJson as SeoRole[];
 // destination — you cannot come from where you already are).
 // The ancestor's self-exclusion was always right for IT, but Portugal was missing
 // until 2026-07-15 —
-// inherited from almi-portuguese's copy, where dropping PT was correct because PT was
+// inherited from almi-portuguese's copy, where dropping PT was correct because PT was  hygiene-allow
 // its own self. fork-hygiene-gate.mjs could not catch that: it checks for BAD rows,
 // and this bug is an ABSENCE. See scripts/seo/countries-axis-gate.mjs.
 export const COUNTRIES = countriesJson as SeoCountry[];
