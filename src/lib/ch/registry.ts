@@ -26,20 +26,40 @@
 //     invent one. See the CANTON_CIVIC note in types.ts. Never assert a national
 //     test, never invent a canton's questions, format, or pass mark.
 //
-// TIER 2 — FOUNDER-SUPPLIED, SECONDARY-SOURCED. NOT yet confirmed at SEM.
-//   (Same handling as AlmiFrench's DELF structures: use it, but say where it came
-//   from, in code, so the next person can tell tier 2 from tier 1.)
-//   • C permit, ordinary route (10 years):    A2 spoken / A1 written
-//   • C permit, early/fast-track (5 years):   B1 spoken / A1 written
-//     Note the fast-track SPEAKING level equals the citizenship level. An earlier
-//     draft described the C permit as simply "lower than citizenship"; that reads
-//     as A2 speaking and would UNDER-PREPARE 5-year applicants on the deciding
-//     skill. The split is why C_PERMIT is one track with two routes, not one level.
-//     WHY IT IS STILL TIER 2: SEM's CEFR table is published as an IMAGE, and the
-//     EDA/SEM "proof of language skills" factsheet PDFs return 403 to automated
-//     fetches, so this could not be machine-verified. fide-service.ch also would
-//     not load. Founder wants final confirmation against the SEM factsheet.
-//     → When that confirmation lands, move these to tier 1 and say so here.
+// TIER 1 — C PERMIT, VERIFIED AT SEM 2026-07-16. Promoted from tier 2; the levels
+//   were right, the framing around them was not.
+//   SOURCE: SEM, "Merkblatt zum Nachweis von Sprachkompetenzen bei der Erteilung
+//   einer Aufenthaltsbewilligung (B) oder einer Niederlassungsbewilligung (C) an
+//   Drittstaatsangehörige" (sem.admin.ch), legal basis Art. 77d VZAE / Art. 58a AIG.
+//   Read from the PDF itself, not from a summary. Verbatim:
+//   • "Ordentliche Erteilung der Niederlassung nach einem ordnungsgemässen und
+//     ununterbrochenen Aufenthalt von FÜNF BZW. ZEHN JAHREN in der Schweiz"
+//        → "mündlich A2, schriftlich A1"
+//   • "Vorzeitige Erteilung der Niederlassung nach einem ordnungsgemässen und
+//     ununterbrochenen Aufenthalt von fünf Jahren in der Schweiz"
+//        → "mündlich B1, schriftlich A1"
+//   • Also stated, and NOT modelled here: re-issuance after a Rückstufung or a stay
+//     abroad → mündlich A2 / schriftlich A1. Same levels as the ordinary route, so
+//     the level table is complete; only the situation differs.
+//
+//   ⚠️ WHAT THE PROMOTION CORRECTED: this file said the ordinary route was "10
+//   years". SEM says FIVE OR TEN ("fünf bzw. zehn") — five-year ordinary issuance
+//   exists (e.g. under a settlement agreement), and it still asks only A2 spoken.
+//   The number was verified while the scope around it was invented: the exact trap
+//   that put "Swiss Council for Higher Education" in this repo, and that made an
+//   earlier draft attach SEM's facilitated-naturalisation B1/A2 to the ORDINARY
+//   route. A verified figure does not verify the sentence you wrap around it.
+//
+//   ⚠️ SCOPE, NOW RECORDED: the Merkblatt governs DRITTSTAATSANGEHÖRIGE (third-country
+//   nationals). EU/EFTA citizens fall under the free-movement agreement and are NOT
+//   what this factsheet answers for — and this product serves 196 origins, most of
+//   them EU/EFTA for exactly this question. Hence C_PERMIT_SCOPE below, which every
+//   surface rendering a permit level must also render. Tier 1 is not "no hedge".
+//
+//   Note the early-route SPEAKING level equals the citizenship level. An earlier
+//   draft described the C permit as simply "lower than citizenship"; that reads as
+//   A2 speaking and would UNDER-PREPARE five-year applicants on the deciding skill.
+//   The split is why C_PERMIT is one track with two routes, not one level.
 //
 // TIER 1 — exam landscape (SEM):
 //   • fide is the Swiss test; a pass issues the fide LANGUAGE PASSPORT.
@@ -94,14 +114,33 @@ export const NATURALISATION_MIN = {
   written: "A2",
 } as const;
 
-// Tier 2 — see the fact base. Rendered only alongside C_PERMIT_PROVENANCE.
+// Tier 1 — see the fact base above. Rendered only alongside C_PERMIT_PROVENANCE
+// and C_PERMIT_SCOPE.
+//
+// No `years` field. It was here, it said 10, and it was wrong: SEM's ordinary route
+// is "fünf bzw. zehn Jahren". A field that can only hold one number cannot hold that
+// fact, so the honest fix is to delete the field rather than pick a side — and the
+// labels below now say what SEM says. Nothing read `.years`; the label is what shipped.
 export const C_PERMIT_LEVELS = {
-  ordinary: { years: 10, spoken: "A2", written: "A1", label: "Ordinary route (after 10 years)" },
-  earlier: { years: 5, spoken: "B1", written: "A1", label: "Early route (after 5 years)" },
+  ordinary: {
+    spoken: "A2",
+    written: "A1",
+    label: "Ordinary route (after five or ten years, depending on your situation)",
+  },
+  earlier: { spoken: "B1", written: "A1", label: "Early route (after five years)" },
 } as const;
 
 export const C_PERMIT_PROVENANCE =
-  "These C permit levels come from SEM's published guidance as transcribed for us, not from a page we could verify automatically — SEM's CEFR table is an image and its factsheet PDFs block automated access. They are correct to the best of our knowledge; confirm yours with your cantonal migration authority before you plan around them.";
+  "These C permit levels are SEM's own: they come from its factsheet on proving language skills for a B or C permit (legal basis Art. 77d VZAE), read from the factsheet itself. SEM also sets the same A2 spoken / A1 written levels for a permit re-issued after a downgrade or a stay abroad.";
+
+// The scope caveat is NOT optional decoration on a tier-1 fact — it is part of the
+// fact. SEM's factsheet answers for Drittstaatsangehörige (third-country nationals);
+// EU/EFTA citizens come under the free-movement agreement, which this factsheet does
+// not speak to. This product is read from ~196 origins, and for a large share of them
+// the honest answer to "is this my level?" is "this page isn't about your permit".
+// Any surface that renders a C permit level must render this too.
+export const C_PERMIT_SCOPE =
+  "These levels are what SEM sets for citizens of countries outside the EU and EFTA. If you are an EU or EFTA citizen, your settlement permit comes under the free movement agreement instead, and this factsheet is not the rule for you. Either way, confirm your own case with your cantonal migration authority before you plan around it.";
 
 // The sentence that governs EVERY claim about a citizenship language level on this
 // site. Every surface that renders a level must render this too.
@@ -197,7 +236,7 @@ const TEMPLATES: ExamTemplate[] = [
     name: (l) => `fide for the C permit (${LANGUAGE_LABEL[l]})`,
     cefr: "A1–B1",
     blurb: (l) =>
-      `The same fide test in ${LANGUAGE_LABEL[l]}, aimed at the settlement permit rather than citizenship. The levels are lower than naturalisation — but they depend on your route: the early route after five years asks B1 spoken, the same speaking level as citizenship, while the ordinary route after ten years asks A2 spoken. Both ask A1 written.`,
+      `The same fide test in ${LANGUAGE_LABEL[l]}, aimed at the settlement permit rather than citizenship. The levels are lower than naturalisation — but they depend on your route: the early route after five years asks B1 spoken, the same speaking level as citizenship, while the ordinary route asks A2 spoken. Both ask A1 written.`,
     mockMinutes: 120,
     cantonDependent: true,
   },
@@ -329,7 +368,7 @@ export const TRACKS: TrackMeta[] = [
     label: "C permit (settlement)",
     goal: "Applying for the settlement permit",
     requires: "fide at the permit levels — B1 spoken on the early route, A2 spoken on the ordinary route; A1 written on both",
-    caveat: `${C_PERMIT_PROVENANCE} ${CANTON_HEDGE}`,
+    caveat: `${C_PERMIT_PROVENANCE} ${C_PERMIT_SCOPE} ${CANTON_HEDGE}`,
   },
   {
     track: "CERTIFICATE",
