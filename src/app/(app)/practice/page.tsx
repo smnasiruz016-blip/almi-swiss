@@ -1,10 +1,10 @@
 // Practice hub — "Choose a Test". Four goal-based tracks, all read from TRACKS in
-// the registry: Citizenship (Medborgarskapsprovet), University (Tisus), Getting
-// started (SFI Courses A–B) and Building proficiency (SFI Courses C–D → Swedish
+// the registry: Citizenship (fide), C permit (fide at the permit levels),
+// Certificate (telc/Goethe · DELF/TCF · CELI), Getting started, and Canton local
 // B1–B2). Each card routes to /practice/<slug>. Reading + Listening + the
-// Samhällskunskap MCQs are free to taste; Writing, Speaking and the timed mock are
+// Reading, Listening and local-knowledge MCQs are free to taste; Writing, Speaking and the timed mock are
 // Pro. Every readout is a per-skill practice readiness band — never an official
-// UHR or Migrationsverket result.
+// result from a test centre, a canton, or SEM.
 
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
@@ -48,10 +48,10 @@ export default async function PracticePage() {
         </p>
         <h1 className="mt-1 text-3xl font-semibold text-almi-ink">Choose a test</h1>
         <p className="mt-2 max-w-2xl text-sm text-almi-text">
-          Start from your goal. Reading, Listening and the Samhällskunskap questions are auto-marked
+          Start from your goal. Reading, Listening and the local-knowledge questions are auto-marked
           and free to practise. Writing and Speaking are graded with honest AI-style feedback against
           the level&apos;s criteria. Every readout is a per-skill readiness band for practice — never an
-          official UHR or Migrationsverket result.
+          official result.
         </p>
       </header>
 
@@ -73,9 +73,7 @@ export default async function PracticePage() {
       <p className="text-xs text-almi-text-muted">
         Every task here is written from scratch by AlmiSwiss. We never copy or reproduce official
         test material, and we are not affiliated with UHR. Readiness bands are for practice only —
-        confirm the exam you need with the body that runs it: UHR for Medborgarskapsprovet,
-        Migrationsverket for citizenship applications, Stockholms universitet for Tisus and
-        Skolverket for SFI.
+        confirm what you need with the body that decides it: your cantonal migration authority and your commune for an ordinary naturalisation, SEM for the facilitated route, and a recognised test centre for the test itself.
       </p>
     </div>
   );

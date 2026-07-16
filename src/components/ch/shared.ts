@@ -12,7 +12,8 @@ import { LANGUAGE_TTS } from "@/lib/ch/types";
 
 export interface RunnerItem {
   /** Which national language this item is set in. Required: the runner cannot pick a
-   *  TTS voice, or label a skill, without it — and guessing is the is-IS bug. */
+   *  TTS voice, or label a skill, without it — and guessing is the is-IS bug.  hygiene-allow
+   */
   language: SwissLanguage;
   title: string;
   prompt: string;
@@ -35,12 +36,12 @@ export interface SubmitResult {
 
 /** The BCP-47 voice tag for listening audio, for the language the item is SET IN.
  *
- *  ⚠️ THIS FUNCTION TOOK NO ARGUMENT AND RETURNED "sv-SE" WHEN THIS REPO WAS FORKED.
+ *  ⚠️ THIS FUNCTION TOOK NO ARGUMENT AND RETURNED "sv-SE" WHEN THIS REPO WAS FORKED.  hygiene-allow
  *  That is not a stale string — it is the same bug the fork-hygiene gate's own header
  *  documents from two generations ago: almi-norwegian inherited ttsLang() → "is-IS"  hygiene-allow
  *  and read every Norwegian transcript aloud in an Icelandic voice. Here it would  hygiene-allow
  *  have read every German fide transcript in a Swedish voice, and nothing would have  hygiene-allow
- *  thrown: the label says German, the audio is Swedish, and only a user notices.
+ *  thrown: the label says German, the audio is Swedish, and only a user notices.  hygiene-allow
  *
  *  An argument-less accessor was CORRECT in a one-language country and is
  *  structurally unable to be correct here. So the language is now required, and the

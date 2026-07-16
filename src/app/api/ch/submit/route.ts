@@ -77,7 +77,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   // failure (missing item, empty database) is swallowed so grading still returns.
   if (itemId) {
     try {
-      await prisma.swedishAttempt.create({
+      await prisma.swissAttempt.create({
         data: {
           userId: user.id,
           itemId,

@@ -29,11 +29,12 @@ export default async function MockPage({
 
   const sections: MockSection[] = exam.skills.map((skill) => {
     const objective = isFreeSkill(skill);
-    const items = pickPractice(exam.exam, skill, objective ? 6 : 2);
+    const items = pickPractice(exam, skill, objective ? 6 : 2);
     return {
       skill,
       objective,
       items: items.map((it) => ({
+        language: it.language,
         title: it.title,
         prompt: it.prompt,
         exam: it.exam,

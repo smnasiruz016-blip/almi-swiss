@@ -65,7 +65,7 @@ export default async function ExamPage({
                     </span>
                   )}
                 </div>
-                <p className="mt-1 text-sm text-almi-text-muted">{label.sv}</p>
+                <p className="mt-1 text-sm text-almi-text-muted">{label.local[exam.language]}</p>
                 <p className="mt-3 text-sm font-semibold text-almi-coral">Practise →</p>
               </Link>
             );

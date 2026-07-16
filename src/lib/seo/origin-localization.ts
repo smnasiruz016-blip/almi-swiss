@@ -63,6 +63,6 @@ export function resolveOriginBlock(country: SeoCountry): OriginBlock {
     equivalenceNote: `If you plan to use your studies back in ${country.name}, confirm how a Swiss qualification is recognised with the relevant authority there before relying on it.`,
     commonConcern: `how a Swiss qualification is recognised back in ${country.name}`,
     searchTerms: [],
-    citizenshipNote: `Citizenship and dual-nationality rules differ by country and change — confirm the current requirement with the authorities in ${country.name} and in Sweden.`,
+    citizenshipNote: `Citizenship and dual-nationality rules differ by country and change — confirm the current requirement for ${country.name} with its own authorities before you plan, and your Swiss requirement with your cantonal migration authority.`,
   };
 }

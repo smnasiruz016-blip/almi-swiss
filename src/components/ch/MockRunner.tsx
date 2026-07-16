@@ -266,8 +266,9 @@ function MockResult({
         ))}
       </ul>
       <p className="text-xs text-almi-text-muted">
-        This is a practice estimate, not an official Migrationsverket or UHR (the Swiss Council for Higher Education)
-        result. The real exam is judged pass/fail across all four skills against the official criteria.
+        This is a practice estimate, not an official result. Only a recognised test centre issues one,
+        and only your canton and commune decide your case. The federal minimum for naturalisation is
+        B1 spoken and A2 written — your canton can ask for more.
       </p>
     </div>
   );

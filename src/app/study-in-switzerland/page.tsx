@@ -3,9 +3,9 @@ import Link from "next/link";
 import { SUBJECTS } from "@/lib/seo/axes";
 
 export const metadata: Metadata = {
-  title: { absolute: "Study in Sweden — the Swedish-language pathway by subject | AlmiSwiss" },
+  title: { absolute: "Study in Switzerland — the language question, by subject | AlmiSwiss" },
   description:
-    "Studying in Sweden in Swedish means meeting a Swedish-language requirement — usually Tisus (≈C1). Explore the pathway by subject, with honest readiness practice — never a fabricated official result.",
+    "There is no single Swiss language requirement for study — Zurich teaches in German, Geneva in French, Lugano in Italian, and many master's programmes in English. Explore what applies by subject and country of origin.",
   alternates: { canonical: "/study-in-switzerland" },
 };
 
@@ -13,14 +13,15 @@ export default function StudyHub() {
   return (
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
-        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Study in Sweden</h1>
+        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Study in Switzerland</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
-          Whatever you plan to study in Sweden, the step students most often underestimate is the
-          Swedish-language requirement. Many master&apos;s programmes are taught in English, but a
-          Swedish-taught degree asks you to document your Swedish — and Tisus (≈C1), run by
-          Stockholms universitet, is the established route. Choose a field to see the language
-          pathway, and practise honestly for the Swedish exams — the SFI courses, general Swedish
-          B1–B2 and Tisus.
+          There is no single Swiss language requirement for study, because there is no single
+          language of instruction. Zurich teaches in German, Geneva in French, Lugano in
+          Italian, and many master&apos;s programmes in English — each university sets its own
+          bar, typically around C1 in the language it teaches in. Choose a field to see what
+          applies and how a Swiss degree is recognised back home. To be direct: we do not
+          prepare you for admission — fide is a permit and naturalisation test, not an
+          admission exam. What we do prepare you for is the language you need to stay.
         </p>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2">
           {SUBJECTS.map((s) => (

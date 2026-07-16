@@ -37,7 +37,7 @@ export default async function SkillRunnerPage({
 
   const label = SKILL_LABELS[skill];
   const objective = isFreeSkill(skill);
-  const items = pickPractice(exam.exam, skill, objective ? 8 : 4);
+  const items = pickPractice(exam, skill, objective ? 8 : 4);
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -52,7 +52,7 @@ export default async function SkillRunnerPage({
           </Link>
         </p>
         <h1 className="mt-1 text-3xl font-semibold text-almi-ink">{label.en}</h1>
-        <p className="mt-1 text-sm text-almi-text-muted">{label.sv}</p>
+        <p className="mt-1 text-sm text-almi-text-muted">{label.local[exam.language]}</p>
       </header>
 
       {items.length === 0 ? (
@@ -65,6 +65,7 @@ export default async function SkillRunnerPage({
           examName={exam.name}
           skill={skill}
           items={items.map((it) => ({
+            language: it.language,
             title: it.title,
             prompt: it.prompt,
             exam: it.exam,
@@ -80,6 +81,7 @@ export default async function SkillRunnerPage({
           examName={exam.name}
           skill={skill}
           items={items.map((it) => ({
+            language: it.language,
             title: it.title,
             prompt: it.prompt,
             exam: it.exam,

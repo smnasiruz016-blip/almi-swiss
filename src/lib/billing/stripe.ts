@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/site";
 // The central billing router (almi-billing-router) routes checkout.session.completed
 // on session.metadata.product, because that event carries no price line-items inline.
 // This repo was forked with the value still set to the ANCESTOR's tag, which would  hygiene-allow
-// have routed every Swiss customer's checkout to the Swedish product's webhook —
+// have routed every Swiss customer's checkout to the Swedish product's webhook —  hygiene-allow
 // real payments, wrong destination, and nothing here would have failed: Stripe
 // accepts any string, and the router would happily match an existing product.
 // It must equal the tag registered for THIS product via scripts/register-swiss.ps1.

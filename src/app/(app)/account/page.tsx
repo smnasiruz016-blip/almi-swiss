@@ -1,11 +1,12 @@
-// Account page — plan + email status + target Swedish exam.
+// Account page — plan + email status + target test AND language. The language is
+// not a preference here: it is half of what identifies the test.
 
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import type { SwissExam } from "@prisma/client";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { ALL_EXAMS, TRACKS } from "@/lib/ch/registry";
+import { ALL_EXAMS, TRACKS, examBySlug } from "@/lib/ch/registry";
 import {
   getUserPlan,
   PLAN_DISPLAY_NAME,
@@ -21,11 +22,23 @@ const EXAM_VALUES = ALL_EXAMS.map((e) => e.exam) as string[];
 async function setExam(formData: FormData) {
   "use server";
   const user = await requireUser();
-  const value = String(formData.get("exam") ?? "");
-  const valid = EXAM_VALUES.includes(value);
+
+  // The form posts a registry SLUG, not an exam enum. `exam` alone cannot identify
+  // what someone is preparing for here: FIDE is the exam for CITIZENSHIP, C_PERMIT
+  // and GETTING_STARTED, in German and in French — five entries, one enum value. The
+  // inherited version posted `e.exam`, so three <option>s rendered with value="FIDE"
+  // and the browser could not tell them apart; whichever the user picked, they got
+  // the first match. Slugs are unique per entry, so resolve both fields from one.
+  const slug = String(formData.get("exam") ?? "");
+  const entry = examBySlug(slug);
   await prisma.user.update({
     where: { id: user.id },
-    data: { targetExam: valid ? (value as SwissExam) : null },
+    data: {
+      targetExam: entry ? entry.exam : null,
+      // Inseparable from targetExam — storing one without the other leaves a user
+      // whose "goal" cannot be resolved back to a set of items.
+      targetLanguage: entry ? entry.language : null,
+    },
   });
   redirect("/account?saved=1");
 }
@@ -37,6 +50,11 @@ export default async function AccountPage({
 }) {
   const user = await requireUser();
   const params = await searchParams;
+
+  // Resolve the stored (exam, language) pair back to the slug the picker uses.
+  // Both are needed — targetExam alone is ambiguous across tracks and languages.
+  const currentSlug =
+    ALL_EXAMS.find((e) => e.exam === user.targetExam && e.language === user.targetLanguage)?.slug ?? "";
   const plan = getUserPlan(user);
   const proActive = isProActive(user);
   const verified = isEmailVerified(user);
@@ -140,22 +158,21 @@ export default async function AccountPage({
       </section>
 
       <section className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6 shadow-sm">
-        <h2 className="text-lg font-semibold text-almi-ink">Which exam are you preparing for?</h2>
+        <h2 className="text-lg font-semibold text-almi-ink">What are you preparing for?</h2>
         <p className="mt-1 text-sm text-almi-text-muted">
-          Pick Medborgarskapsprovet (the citizenship society test), Tisus (university admission), or a level on the SFI/CEFR ladder. This sets the default for your practice and full mock. You can
-          change it any time.
+          Pick your goal and the language your canton uses — both, because “fide” on its own does not identify a test. This sets the default for your practice and full mock. You can change it any time.
         </p>
         <form action={setExam} className="mt-4 flex flex-wrap items-center gap-3">
           <select
             name="exam"
-            defaultValue={user.targetExam ?? ""}
+            defaultValue={currentSlug}
             className="min-h-[40px] rounded-md border border-almi-bg-peach bg-almi-bg px-3 py-2 text-sm text-almi-ink"
           >
             <option value="">Not set</option>
             {TRACKS.map((t) => (
               <optgroup key={t.track} label={`${t.label} — ${t.requires}`}>
                 {ALL_EXAMS.filter((e) => e.track === t.track).map((e) => (
-                  <option key={e.exam} value={e.exam}>
+                  <option key={e.slug} value={e.slug}>
                     {e.name} · {e.cefr}
                   </option>
                 ))}
@@ -170,15 +187,14 @@ export default async function AccountPage({
           </button>
         </form>
         <p className="mt-2 text-xs text-almi-text-muted">
-          Not sure which exam you need? Confirm citizenship requirements with Migrationsverket and UHR, and
-          study-programme requirements with the specific Swedish university.
+          Not sure? Only your canton and commune can tell you what your procedure asks, and which language it runs in. That is one email, and it is the only way to learn your real bar.
         </p>
       </section>
 
       <ReviewCard initial={myReview} />
 
       <section className="rounded-2xl border border-almi-bg-peach bg-almi-bg p-6 text-center">
-        <p className="text-sm text-almi-text">Ready to practise Swedish?</p>
+        <p className="text-sm text-almi-text">Ready to practise?</p>
         <Link
           href="/practice"
           className="mt-3 inline-flex min-h-[44px] items-center justify-center rounded-full bg-almi-coral px-6 py-3 text-sm font-semibold text-almi-ink hover:bg-almi-coral-deep"

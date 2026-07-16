@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const r = ROLE_BY_SLUG.get(role);
   if (!r) return { title: "Not found" };
   return {
-    title: { absolute: `Work in Sweden as a ${r.name} — Swedish you'll need | AlmiSwiss` },
-    description: `How much Swedish a ${r.name} needs in Sweden, which CEFR level, and honest readiness practice — by country of origin and city.`,
+    title: { absolute: `Work in Switzerland as a ${r.name} — the language you'll need | AlmiSwiss` },
+    description: `How much language a ${r.name} needs in Switzerland, and which language — that is decided by your canton, not your employer. By country of origin and city.`,
     alternates: { canonical: `/work-in-switzerland/${r.slug}` },
   };
 }
@@ -27,18 +27,23 @@ export default async function RoleHub({ params }: { params: Params }) {
   const sample = COUNTRIES.slice(0, 60);
   // Hub names come from the axis data so the city list can never drift.
   const hubNames = HUBS.map((h) => h.name).join(", ");
-  // The working-level Swedish exam — read from the registry, not hardcoded.
-  const working = examBySlug("svenska-b1b2");
+  // The lead test — read from the registry, not hardcoded. The inherited code looked
+  // up "svenska-b1b2", a slug that no longer exists, so `working` was always
+  // undefined and the CTA below silently never rendered. Nothing failed; the button
+  // just quietly disappeared.
+  const working = examBySlug("fide-german");
   return (
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <nav aria-label="Breadcrumb" className="mb-6 text-xs text-almi-text-muted">
-          <Link href="/work-in-switzerland" className="hover:text-almi-coral">Work in Sweden</Link> / {r.name}
+          <Link href="/work-in-switzerland" className="hover:text-almi-coral">Work in Switzerland</Link> / {r.name}
         </nav>
-        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Sweden as a {r.name}</h1>
+        <h1 className="text-3xl font-semibold text-almi-ink sm:text-4xl">Work in Switzerland as a {r.name}</h1>
         <p className="mt-3 max-w-2xl text-base text-almi-text">
-          The Swedish you need as a {r.name} depends on the setting and city. Pick where you&apos;re
-          coming from and the hub you&apos;re targeting — {hubNames} — or start practising Swedish now.
+          How much language a {r.name} needs depends on the setting. WHICH language depends on the
+          canton — German in Zurich and Basel, French in Geneva and Lausanne — and that is not your
+          employer&apos;s call or yours. Pick where you&apos;re coming from and the city you&apos;re
+          targeting — {hubNames} — to see both.
         </p>
         {working && (
           <div className="mt-6">

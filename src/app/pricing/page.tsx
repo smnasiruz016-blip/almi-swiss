@@ -9,7 +9,7 @@ import { ALL_EXAMS } from "@/lib/ch/registry";
 export const metadata: Metadata = {
   title: "Pricing — 7-day free trial",
   description:
-    "AlmiSwiss Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice, and honest readiness estimates across the Swedish ladder — SFI Courses A–B and C–D, Swedish B1–B2, Tisus — and Medborgarskapsprovet.",
+    "AlmiSwiss Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice and per-skill readiness bands for fide in German or French. Reading, Listening and local-knowledge practice stay free.",
 };
 
 const FEATURES = [

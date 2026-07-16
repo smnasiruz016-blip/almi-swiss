@@ -7,11 +7,17 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ttsLang } from "./shared";
+import type { SwissLanguage } from "@/lib/ch/types";
 
 export function TtsAudio({
   transcript,
+  language,
 }: {
   transcript: string;
+  /** Required, with no default. A default here would be the is-IS bug again: the  hygiene-allow
+   *  component would silently speak SOME language, and the wrong one is unnoticeable
+   *  in code review. Callers must know what they are playing. */
+  language: SwissLanguage;
 }) {
   const [supported, setSupported] = useState(false);
   const [speaking, setSpeaking] = useState(false);
@@ -31,7 +37,7 @@ export function TtsAudio({
     if (!supported) return;
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(transcript);
-    u.lang = ttsLang();
+    u.lang = ttsLang(language);
     u.rate = 0.95;
     u.onend = () => setSpeaking(false);
     u.onerror = () => setSpeaking(false);

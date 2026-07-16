@@ -14,6 +14,7 @@ import type {
 } from "@/lib/ch/types";
 import type { RunnerItem } from "./shared";
 import { TtsAudio } from "./TtsAudio";
+import type { SwissLanguage } from "@/lib/ch/types";
 
 export function ObjectiveTask({
   item,
@@ -39,16 +40,20 @@ export function ObjectiveTask({
   }
 }
 
+// `language` is threaded from the item rather than defaulted, so a listening task can
+// never be spoken in a language other than the one it is written in.
 function Stimulus({
   passage,
   transcript,
+  language,
 }: {
   passage?: string;
   transcript?: string;
+  language: SwissLanguage;
 }) {
   return (
     <>
-      {transcript ? <TtsAudio transcript={transcript} /> : null}
+      {transcript ? <TtsAudio transcript={transcript} language={language} /> : null}
       {passage ? (
         <p className="whitespace-pre-wrap rounded-xl border border-almi-bg-peach bg-almi-paper p-4 text-sm text-almi-text">
           {passage}
@@ -71,7 +76,7 @@ function McqTask({
   const [picked, setPicked] = useState<number | null>(null);
   return (
     <div className="space-y-3">
-      <Stimulus passage={p.passage} transcript={p.transcript} />
+      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} />
       <p className="font-medium text-almi-ink">{p.question}</p>
       <div className="space-y-2">
         {p.options.map((opt, i) => (
@@ -118,7 +123,7 @@ function MatchingTask({
   }
   return (
     <div className="space-y-3">
-      <Stimulus passage={p.passage} transcript={p.transcript} />
+      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} />
       <p className="text-sm text-almi-text-muted">{p.instructions}</p>
       <div className="space-y-2">
         {p.left.map((prompt, li) => (

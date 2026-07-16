@@ -15,6 +15,7 @@ import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
 import { examBySlug } from "@/lib/ch/registry";
+import { LANGUAGE_LABEL } from "@/lib/ch/types";
 import type { SwissSkill, SwissTaskType } from "@/lib/ch/types";
 
 export const runtime = "nodejs";
@@ -110,12 +111,17 @@ export async function POST(req: Request): Promise<NextResponse> {
   const exam = body.exam ? examBySlug(body.exam) : undefined;
   const examName = exam?.name ?? "the test";
   const cefr = exam?.cefr ?? "the target";
+  // The examiner's LANGUAGE, from the registry entry. This was hardcoded to the
+  // ancestor's language at fork time, which would have told the model it was a
+  // Swedish examiner while grading German writing — a wrong persona that produces  hygiene-allow
+  // confident, fluent, wrong feedback rather than an error anyone could see.
+  const examLanguage = exam ? LANGUAGE_LABEL[exam.language] : "the target";
   const isSpeaking = body.taskType === "SPEAKING_PROMPT";
   const criteria = (body.criteria ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);
 
   const system = [
-    `You are an experienced Swedish-language examiner for ${examName} (CEFR ${cefr}).`,
-    `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official UHR result, and you never claim otherwise.`,
+    `You are an experienced ${examLanguage}-language examiner for ${examName} (CEFR ${cefr}).`,
+    `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official result, and you never claim otherwise.`,
     isSpeaking
       ? `This is a SPEAKING task; the learner has typed the answer they would say aloud, so judge content, structure, range and appropriacy, not pronunciation.`
       : `This is a WRITING task; judge task fulfilment, coherence, range and accuracy at the ${cefr} level.`,
@@ -180,7 +186,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   // itemId simply skips the write (never 500s on an empty database).
   if (body.itemId) {
     try {
-      await prisma.swedishAttempt.create({
+      await prisma.swissAttempt.create({
         data: {
           userId: user.id,
           itemId: body.itemId,
