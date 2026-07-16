@@ -104,7 +104,7 @@
     "title": "Lettre de la caisse maladie",
     "prompt": "Lisez la lettre et choisissez la bonne réponse.",
     "payload": {
-      "passage": "Madame,\n\nNous accusons réception de votre facture du 3 février d'un montant de CHF 480.00 pour le traitement reçu aux urgences.\n\nVous n'avez pas encore atteint votre franchise de CHF 300.00. Cette part reste à votre charge. Sur le solde de CHF 180.00, nous prenons en charge 90 pour cent ; les 10 pour cent restants constituent votre quote-part.\n\nLe remboursement vous parviendra dans les dix jours ouvrables.\n\nAvec nos meilleures salutations\nHelvetia Santé SA",
+      "passage": "Madame,\n\nNous accusons réception de votre facture du 3 février d'un montant de CHF 480.00 pour le traitement reçu aux urgences.\n\nVous n'avez pas encore atteint votre franchise de CHF 300.00. Cette part reste à votre charge. Sur le solde de CHF 180.00, nous prenons en charge 90 pour cent ; les 10 pour cent restants constituent votre quote-part.\n\nLe remboursement vous parviendra dans les dix jours ouvrables.\n\nAvec nos meilleures salutations\nCaisse Modèle SA",
       "question": "Pourquoi Madame Kovač doit-elle payer une partie de la facture elle-même ?",
       "options": [
         "Parce que le traitement n'est pas assuré",

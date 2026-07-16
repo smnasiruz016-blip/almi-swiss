@@ -99,7 +99,7 @@
     "title": "Brief der Krankenkasse",
     "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Sehr geehrte Frau Kovač\n\nWir bestätigen Ihnen den Eingang Ihrer Rechnung vom 3. Februar über CHF 480.00 für die Behandlung in der Notfallstation.\n\nVon diesem Betrag haben Sie Ihre Franchise von CHF 300.00 noch nicht erreicht. Diesen Teil müssen Sie selbst bezahlen. Vom Restbetrag von CHF 180.00 übernehmen wir 90 Prozent; die übrigen 10 Prozent sind Ihr Selbstbehalt.\n\nSie erhalten die Rückerstattung in den nächsten zehn Arbeitstagen.\n\nFreundliche Grüsse\nHelvetia Kranken AG",
+      "passage": "Sehr geehrte Frau Kovač\n\nWir bestätigen Ihnen den Eingang Ihrer Rechnung vom 3. Februar über CHF 480.00 für die Behandlung in der Notfallstation.\n\nVon diesem Betrag haben Sie Ihre Franchise von CHF 300.00 noch nicht erreicht. Diesen Teil müssen Sie selbst bezahlen. Vom Restbetrag von CHF 180.00 übernehmen wir 90 Prozent; die übrigen 10 Prozent sind Ihr Selbstbehalt.\n\nSie erhalten die Rückerstattung in den nächsten zehn Arbeitstagen.\n\nFreundliche Grüsse\nKranken AG",
       "question": "Warum muss Frau Kovač einen Teil der Rechnung selbst bezahlen?",
       "options": [
         "Weil die Behandlung nicht versichert ist",
