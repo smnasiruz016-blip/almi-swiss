@@ -31,7 +31,7 @@ import { LANGUAGE_LABEL } from "@/lib/ch/types";
 import {
   ALL_EXAMS, examBySlug,
   CITIZENSHIP_HEDGE as CH_CITIZENSHIP_HEDGE, CANTON_HEDGE, CIVIC_HEDGE,
-  LANGUAGE_CHOICE_HEDGE, STANDARD_GERMAN_NOTE, C_PERMIT_PROVENANCE, C_PERMIT_LEVELS,
+  LANGUAGE_CHOICE_HEDGE, STANDARD_GERMAN_NOTE, C_PERMIT_PROVENANCE, C_PERMIT_SCOPE, C_PERMIT_LEVELS,
   NATURALISATION_MIN, type ExamMeta,
 } from "@/lib/ch/registry";
 import {
@@ -296,7 +296,7 @@ export function buildJobsPage(role: SeoRole, country: SeoCountry, hub: SeoHub, o
       {
         heading: "Settling in Switzerland, and later citizenship",
         body: [
-          `If working in ${hub.name} is a step toward settling, the language matters well beyond the job. The settlement permit asks less than naturalisation does — but how much less depends on your route. ${C_PERMIT_LEVELS.earlier.label} asks for ${C_PERMIT_LEVELS.earlier.spoken} spoken, the same speaking level as citizenship; ${C_PERMIT_LEVELS.ordinary.label} asks for ${C_PERMIT_LEVELS.ordinary.spoken} spoken. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. ${C_PERMIT_PROVENANCE}`,
+          `If working in ${hub.name} is a step toward settling, the language matters well beyond the job. The settlement permit asks less than naturalisation does — but how much less depends on your route. ${C_PERMIT_LEVELS.earlier.label} asks for ${C_PERMIT_LEVELS.earlier.spoken} spoken, the same speaking level as citizenship; ${C_PERMIT_LEVELS.ordinary.label} asks for ${C_PERMIT_LEVELS.ordinary.spoken} spoken. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. ${C_PERMIT_PROVENANCE} ${C_PERMIT_SCOPE}`,
           `${CITIZENSHIP_HEDGE} ${origin.citizenshipNote}`,
         ],
       },
@@ -384,7 +384,7 @@ export function buildLevelPage(exam: ExamMeta): SeoPage {
             heading: "Which level do you actually need?",
             body: [
               `For naturalisation, the federal minimum is ${NATURALISATION_MIN.spoken} spoken and ${NATURALISATION_MIN.written} written in one national language. Read that carefully: it is a MINIMUM, and it is not symmetrical — speaking is asked at a full CEFR level above writing. ${CITIZENSHIP_HEDGE}`,
-              `For the settlement permit the levels are lower — but "lower" hides the thing that matters. ${C_PERMIT_LEVELS.earlier.label} asks ${C_PERMIT_LEVELS.earlier.spoken} spoken, exactly the same speaking level as citizenship; only ${C_PERMIT_LEVELS.ordinary.label} drops to ${C_PERMIT_LEVELS.ordinary.spoken}. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. If you are on the five-year route and someone told you the permit needs less speaking than citizenship, they were wrong. ${C_PERMIT_PROVENANCE}`,
+              `For the settlement permit the levels are lower — but "lower" hides the thing that matters. ${C_PERMIT_LEVELS.earlier.label} asks ${C_PERMIT_LEVELS.earlier.spoken} spoken, exactly the same speaking level as citizenship; only ${C_PERMIT_LEVELS.ordinary.label} drops to ${C_PERMIT_LEVELS.ordinary.spoken}. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. If you are on the five-year route and someone told you the permit needs less speaking than citizenship, they were wrong. ${C_PERMIT_PROVENANCE} ${C_PERMIT_SCOPE}`,
             ],
           }]),
       ...(exam.language === "DE" && !isCivic

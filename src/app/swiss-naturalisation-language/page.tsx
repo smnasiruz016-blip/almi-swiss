@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { NATURALISATION_MIN, C_PERMIT_LEVELS, C_PERMIT_PROVENANCE } from "@/lib/ch/registry";
+import {
+  NATURALISATION_MIN,
+  C_PERMIT_LEVELS,
+  C_PERMIT_PROVENANCE,
+  C_PERMIT_SCOPE,
+} from "@/lib/ch/registry";
 import { KNOWN, UNKNOWN, FAQ } from "./facts";
 
 // Honest requirements explainer for the language side of Swiss naturalisation.
@@ -119,11 +124,13 @@ export default function Page() {
             {NATURALISATION_MIN.written} written — a full CEFR level apart. And the{" "}
             <strong>{C_PERMIT_LEVELS.earlier.label.toLowerCase()}</strong> of the settlement permit asks{" "}
             <strong>{C_PERMIT_LEVELS.earlier.spoken} spoken too</strong> — the same as citizenship. The idea that
-            &ldquo;the C permit needs less&rdquo; is true only on the ten-year route, where speaking drops to{" "}
-            {C_PERMIT_LEVELS.ordinary.spoken}. On the five-year route it is exactly as demanding on the skill that
+            &ldquo;the C permit needs less&rdquo; is true only on the ordinary route, where speaking drops to{" "}
+            {C_PERMIT_LEVELS.ordinary.spoken}. On the early route it is exactly as demanding on the skill that
             matters most.
           </p>
-          <p className="mt-3 text-xs text-almi-text-muted">{C_PERMIT_PROVENANCE}</p>
+          <p className="mt-3 text-xs text-almi-text-muted">
+            {C_PERMIT_PROVENANCE} {C_PERMIT_SCOPE}
+          </p>
         </section>
 
         <section className="mt-10">

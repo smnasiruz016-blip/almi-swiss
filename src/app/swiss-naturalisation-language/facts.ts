@@ -8,12 +8,18 @@
 //
 // PROVENANCE, which differs per row and must not be flattened:
 //   • NATURALISATION_MIN and who-decides: verified at SEM.
-//   • C permit levels: founder-supplied, secondary-sourced, NOT confirmed at SEM —
-//     every surface that shows them must also show C_PERMIT_PROVENANCE.
+//   • C permit levels: verified at SEM (factsheet on proving language skills, Art.
+//     77d VZAE) — but scoped to third-country nationals, so every surface that shows
+//     them must also show C_PERMIT_PROVENANCE and C_PERMIT_SCOPE.
 //   • The absence of a national civics test: verified by its absence from SEM.
 // See src/lib/ch/registry.ts for the full fact base.
 
-import { NATURALISATION_MIN, C_PERMIT_LEVELS, C_PERMIT_PROVENANCE } from "@/lib/ch/registry";
+import {
+  NATURALISATION_MIN,
+  C_PERMIT_LEVELS,
+  C_PERMIT_PROVENANCE,
+  C_PERMIT_SCOPE,
+} from "@/lib/ch/registry";
 
 export interface Fact {
   k: string;
@@ -40,7 +46,7 @@ export const KNOWN: Fact[] = [
   },
   {
     k: "The C permit",
-    v: `Lower than citizenship, but route-dependent: ${C_PERMIT_LEVELS.earlier.spoken} spoken on the early five-year route — the same as citizenship — and ${C_PERMIT_LEVELS.ordinary.spoken} spoken on the ordinary ten-year route. ${C_PERMIT_LEVELS.ordinary.written} written on both.`,
+    v: `Lower than citizenship, but route-dependent: ${C_PERMIT_LEVELS.earlier.spoken} spoken on the early five-year route — the same as citizenship — and ${C_PERMIT_LEVELS.ordinary.spoken} spoken on the ordinary route. ${C_PERMIT_LEVELS.ordinary.written} written on both. SEM sets these for citizens of countries outside the EU and EFTA.`,
   },
 ];
 
@@ -79,7 +85,7 @@ export const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "Is the C permit easier than citizenship?",
-    a: `Lower, but not in the way people assume — and the assumption is the dangerous part. ${C_PERMIT_LEVELS.earlier.label} asks for ${C_PERMIT_LEVELS.earlier.spoken} spoken, which is the same speaking level as citizenship. Only ${C_PERMIT_LEVELS.ordinary.label} drops to ${C_PERMIT_LEVELS.ordinary.spoken} spoken. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. If you are on the five-year route and someone told you the permit needs less speaking, they were wrong on the one skill that decides it. ${C_PERMIT_PROVENANCE}`,
+    a: `Lower, but not in the way people assume — and the assumption is the dangerous part. ${C_PERMIT_LEVELS.earlier.label} asks for ${C_PERMIT_LEVELS.earlier.spoken} spoken, which is the same speaking level as citizenship. Only ${C_PERMIT_LEVELS.ordinary.label} drops to ${C_PERMIT_LEVELS.ordinary.spoken} spoken. Both ask ${C_PERMIT_LEVELS.ordinary.written} written. If you are on the five-year route and someone told you the permit needs less speaking, they were wrong on the one skill that decides it. ${C_PERMIT_PROVENANCE} ${C_PERMIT_SCOPE}`,
   },
   {
     q: "Is passing a language test enough for naturalisation?",
