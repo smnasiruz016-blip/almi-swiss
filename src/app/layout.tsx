@@ -13,23 +13,27 @@ const allura = Allura({ variable: "--font-allura", subsets: ["latin"], weight: "
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "AlmiSwiss | Practise Swedish Exams with Honest Readiness",
+    default: "AlmiSwiss | fide Practice for Swiss Permits & Naturalisation, with Honest Readiness",
     template: "%s · AlmiSwiss",
   },
   description:
-    "Sweden's new 2026 citizenship rules add a civic test, with a language test to follow. Practise SFI, Tisus and the new Medborgarskapsprov with honest AI readiness bands. $12/month with a 7-day free trial. Original material, never copied from official exam papers. Not affiliated with UHR — confirm current requirements with UHR and Migrationsverket. Part of the AlmiWorld family.",
+    "Switzerland asks B1 spoken and A2 written for naturalisation — a federal minimum, not the answer, because your canton and commune decide. Practise fide in German or French with honest per-skill readiness bands. $12/month with a 7-day free trial. Original material, never copied. Not affiliated with SEM — confirm your requirement with your cantonal migration authority. Part of the AlmiWorld family.",
   applicationName: "AlmiSwiss",
   authors: [{ name: "AlmiWorld" }],
-  keywords: ["SFI practice test online", "Swedish citizenship language test", "Tisus mock test", "Medborgarskapsprov Sweden preparation", "Svenska B1 B2 evaluation", "Medborgarskapsprovet", "SFI", "Tisus", "learn Swedish", "Swedish exam practice", "AlmiSwiss", "AlmiWorld"],
+  // Keywords reflect what people actually search when they are trying to work this
+  // out — including the two questions this product exists to answer honestly: which
+  // level, and who decides. No keyword here implies a national civics test or a
+  // university-admission route, because neither is something we can deliver.
+  keywords: ["fide test practice", "Swiss naturalisation language requirement", "B1 spoken A2 written Switzerland", "fide Sprachnachweis", "C permit language level", "fide German practice", "fide French practice", "Swiss citizenship language test", "canton language requirement", "AlmiSwiss", "AlmiWorld"],
   openGraph: {
-    title: "AlmiSwiss — honest SFI, Tisus & Medborgarskapsprov practice",
-    description: "Original Swedish practice for the SFI ladder, Tisus and Sweden's new Medborgarskapsprov civic test — honest per-skill readiness estimates and AI feedback.",
+    title: "AlmiSwiss — honest fide practice for permits and naturalisation",
+    description: "Original fide practice in German and French, built around real Swiss situations — honest per-skill readiness estimates and AI feedback. Your canton decides the bar; we help you clear it.",
     url: SITE_URL,
     siteName: "AlmiSwiss",
     type: "website",
     locale: "en_US",
   },
-  twitter: { card: "summary_large_image", title: "AlmiSwiss — SFI, Tisus & Medborgarskapsprov practice", description: "Honest Swedish practice — per-skill readiness estimates, ranges not inflated numbers." },
+  twitter: { card: "summary_large_image", title: "AlmiSwiss — fide practice for Swiss permits & naturalisation", description: "Honest fide practice — per-skill readiness bands, never one inflated number." },
   robots: ROBOTS_META,
 };
 

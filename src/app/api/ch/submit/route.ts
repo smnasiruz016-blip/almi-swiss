@@ -1,5 +1,5 @@
 // Practice submit endpoint. Grades objective items deterministically via the
-// Swedish engine and echoes productive self-ratings. DB persistence of attempts is
+// Swiss engine and echoes productive self-ratings. DB persistence of attempts is
 // best-effort: bundled items have no DB id, so unless a resolvable itemId is
 // supplied we simply return the grade — this never 500s on an empty database.
 

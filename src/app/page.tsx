@@ -8,76 +8,80 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: {
-    absolute: "AlmiSwiss | Practise Swedish Exams with Honest Readiness",
+    absolute: "AlmiSwiss | fide Practice for Swiss Permits & Naturalisation, with Honest Readiness",
   },
   description:
-    "Sweden's new 2026 citizenship rules add a civic test, with a language test to follow. Practise SFI, Tisus and the new Medborgarskapsprov with honest AI readiness bands. Not affiliated with UHR.",
+    "Switzerland asks B1 spoken and A2 written for naturalisation — but that is a federal minimum, and your canton decides. Practise fide in German or French with honest per-skill readiness bands. Not affiliated with SEM.",
   openGraph: {
-    title: "AlmiSwiss — honest SFI, Tisus & Medborgarskapsprov practice",
+    title: "AlmiSwiss — honest fide practice for permits and naturalisation",
     description:
-      "Original practice for the SFI ladder, academic Tisus and Sweden's new Medborgarskapsprov civic test — a readiness estimate shown honestly, not an inflated score.",
+      "Original fide practice in German and French, built around real Swiss situations — a readiness estimate shown honestly, not an inflated score.",
   },
 };
 
 const PROMISES = [
   {
-    title: "Every Swedish goal mapped",
+    title: "Built for what your canton actually asks",
     detail:
-      "Citizenship (Medborgarskapsprovet — the civic test), university admission (Tisus), getting started (SFI Courses A–B) and building proficiency (SFI C–D → Swedish B1–B2) — the language exams across Reading, Listening, Writing and Speaking, plus the civic questions.",
+      "Naturalisation (fide at the federal minimum — B1 spoken, A2 written), the C permit (lower, but route-dependent: B1 spoken on the five-year route, the same as citizenship), recognised certificates, and canton local knowledge. In German or French — whichever your canton uses, because that is not your choice to make.",
   },
   {
     title: "Honest readiness, not a fake score",
     detail:
-      "Objective Reading, Listening and civic questions are auto-marked to a clear readiness band. Writing and Speaking get AI feedback labelled an estimate. We never invent an official UHR, Skolverket or university result — and for the civic test, where UHR has published no pass mark, we don’t show one.",
+      "Reading and Listening are auto-marked to a clear per-skill band. Writing and Speaking get AI feedback labelled an estimate. We band each skill separately rather than averaging them, because the levels are not symmetrical — speaking is asked a full level above writing, and one blended number would hide exactly the gap that decides your case.",
   },
   {
     title: "100% original material",
     detail:
-      "Every reading text, audio transcript, writing task and speaking prompt is written from scratch to mirror the real task types — never copied from a real exam.",
+      "Every reading text, audio transcript, writing task and speaking prompt is written from scratch around real situations — the Gemeinde counter, the insurer, the landlord, the parents' evening — never copied from a real test.",
   },
   {
-    title: "Feedback you can act on",
+    title: "We tell you what we can't do",
     detail:
-      "AI feedback on productive tasks points to what to fix next — against each exam's real criteria, level-aware, constructive and never inflated.",
+      "fide is not a university admission test, so we don't sell it as one. There is no national Swiss civics test, so we don't invent one or show you a pass mark for it. And we can't tell you your canton's own bar — only your commune can.",
   },
 ] as const;
 
 const PRICING_LINES = [
-  "Full access to Writing & Speaking AI-evaluation modules across every track",
-  "Free, unlimited auto-marked Reading, Listening and Medborgarskapsprov civic-practice sets",
-  "AI analysis modelled on the real task formats and criteria — always an estimate, never an official UHR result",
-  "Full timed mock for your chosen exam, with per-skill readiness and progress tracking",
+  "Full access to Writing & Speaking AI-evaluation across every track",
+  "Free, unlimited auto-marked Reading, Listening and local-knowledge practice sets",
+  "AI analysis modelled on the real task formats and criteria — always an estimate, never an official result",
+  "Full timed mock for your chosen test, with per-skill readiness and progress tracking",
   "Flat $12/month with one-click cancellation inside your account",
 ] as const;
 
 const FAQ = [
   {
-    q: "Which Swedish exams does AlmiSwiss cover?",
-    a: "The SFI ladder — SFI Courses A–B (≈A1–A2) and C–D (≈A2–B1+) — plus general Swedish B1–B2 and Tisus (≈C1, university admission, run by Stockholms universitet), all across Reading, Listening, Writing and Speaking. And Medborgarskapsprovet, Sweden's new citizenship test of knowledge about Swedish society. You pick your exam in your account, and your practice and full mock run for it.",
+    q: "Which tests does AlmiSwiss cover?",
+    a: "fide — the Swiss test used as proof of language for settlement permits and naturalisation — across Reading, Listening, Writing and Speaking, in German or French. Plus canton local-knowledge practice. We also point you to the SEM-recognised certificate alternatives (telc/Goethe for German, DELF/TCF for French, CELI for Italian) where your procedure accepts them. You pick your track and language in your account, and your practice and full mock run for it.",
   },
   {
-    q: "What do I need for Swedish citizenship?",
-    a: "Since 6 June 2026 the main rule is eight years' habitual residence, plus a self-sufficiency requirement, plus Medborgarskapsprovet for applicants aged 16–66. There are no transitional arrangements. Only the society component of the test exists so far; UHR's first sitting on 15 August 2026 is a pilot. Always confirm the current requirement with Migrationsverket and UHR before you rely on it. We help you prepare fairly; we never claim to help anyone shortcut the process.",
+    q: "What language level do I need for Swiss naturalisation?",
+    a: "The federal minimum is B1 spoken and A2 written in one national language. Read 'minimum' carefully: for an ordinary naturalisation your canton and commune decide, and some ask for more. If you are married to a Swiss citizen, the facilitated route is decided by SEM instead. Confirm what applies to you with your cantonal migration authority. We help you prepare fairly; we never claim to help anyone shortcut the process.",
   },
   {
-    q: "Is there a Swedish language test for citizenship?",
-    a: "Not yet. A language component is planned, but UHR indicates it will not be ready before autumn 2028 at the earliest, and no CEFR level has been set. We don't sell practice for it, because there is nothing published to practise against. The SFI/CEFR ladder here builds the Swedish you'll need either way — but it is not the citizenship language test.",
+    q: "Do I get to choose which language I'm tested in?",
+    a: "No — your canton does. German, French and Italian are each the procedural language somewhere in Switzerland, and a few cantons are officially bilingual, so it can even come down to your commune. Working in English does not change it. Practise the language your canton actually uses.",
   },
   {
-    q: "What score do I need to pass Medborgarskapsprovet?",
-    a: "UHR has not published a pass mark, so nobody can honestly tell you — anyone quoting a number is guessing. We don't show one either. We show what you got right and where your gaps are.",
+    q: "Is there a Swiss civics test I need to pass?",
+    a: "There is no national one. Cantons and communes handle local knowledge themselves — some with a written test, some an interview, some neither — and each sets its own content. So there is no national pass mark, and anyone quoting you one has invented it. We offer practice on the areas these procedures tend to cover, and we call it practice, not a mock. Ask your commune what yours involves.",
   },
   {
-    q: "Is my AlmiSwiss estimate my real exam result?",
-    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results. AlmiSwiss is not affiliated with UHR, and UHR does not endorse unofficial practice tests, including ours.",
+    q: "Can I use fide to get into a Swiss university?",
+    a: "No. fide runs A1–B1 and exists for permits and naturalisation — no university accepts it for admission. Degree programmes typically want around C1 in whichever language that university teaches in (Goethe C1/C2, TestDaF, DALF), or English via IELTS or TOEFL. We'd rather tell you that than sell you practice that cannot get you in.",
   },
   {
-    q: "Is the practice copied from a real exam?",
-    a: "No. Every text, audio transcript, writing task, speaking prompt and civic question is original, written from scratch to mirror the real task types. Our civic questions are written against the same 13 areas of Swedish society that UHR's own free study material, Sverige i fokus, covers — they are not UHR's question bank.",
+    q: "Is my AlmiSwiss estimate my real result?",
+    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only a recognised test centre issues a real result, and only your canton and commune decide your case. AlmiSwiss is not affiliated with SEM, with any canton, or with a fide test centre, and none of them endorse this site.",
+  },
+  {
+    q: "Is the practice copied from a real test?",
+    a: "No. Every text, audio transcript, writing task, speaking prompt and local-knowledge question is original, written from scratch to mirror the real task types. They are not any test centre's question bank.",
   },
   {
     q: "How much does AlmiSwiss cost?",
-    a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and civic practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
+    a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and local-knowledge practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
   },
 ] as const;
 
@@ -92,9 +96,14 @@ const faqJsonLd = {
 };
 
 // Illustrative sample — clearly labelled, never a real user, never a real result.
+// Illustrative, and chosen to TEACH rather than to flatter: this learner is
+// comfortably past the A2 writing bar but short on speaking — which is the level
+// that actually decides naturalisation, and the five-year C permit with it. A
+// blended average would read as "on track" and hide precisely that. It is the
+// commonest real shape, and the reason we never show one number.
 const SAMPLE = [
   { skill: "Reading", band: "Clear", pct: 82 },
-  { skill: "Listening", band: "Borderline", pct: 64 },
+  { skill: "Listening", band: "Clear", pct: 74 },
   { skill: "Writing", band: "Estimate", pct: 71 },
   { skill: "Speaking", band: "Estimate", pct: 58 },
 ];
@@ -104,7 +113,7 @@ function ReadinessMockup() {
     <div className="relative mx-auto w-full max-w-sm">
       <div className="rounded-3xl border border-almi-bg-peach bg-almi-paper p-6 shadow-xl">
         <div className="flex items-center justify-between">
-          <p className="text-xs font-bold uppercase tracking-wider text-almi-text-muted">Sample readiness · Swedish B1–B2</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-almi-text-muted">Sample readiness · fide German</p>
           <span className="rounded-full bg-almi-bg-peach px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-almi-ink">Sample</span>
         </div>
         <ul className="mt-4 space-y-3">
@@ -149,15 +158,16 @@ export default function Home() {
         <div aria-hidden className="pointer-events-none absolute -bottom-16 -left-16 z-0 h-80 w-80 rounded-full bg-almi-coral/10 blur-3xl" />
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwiss · Swedish exam &amp; civic practice</p>
+            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwiss · fide practice for permits &amp; naturalisation</p>
             <h1 className="mt-4 text-balance text-4xl font-semibold leading-[1.08] text-almi-ink sm:text-5xl">
-              Practise Swedish with <span className="text-almi-coral">honest readiness.</span>
+              The Swiss language bar, <span className="text-almi-coral">honestly measured.</span>
             </h1>
             <p className="mt-5 text-lg text-almi-text">
-              Original practice for three pathways — the <strong>SFI</strong> (Svenska för invandrare) steps,
-              academic <strong>Tisus</strong> preparation, and Sweden&apos;s newly legislated{" "}
-              <strong>Medborgarskapsprov</strong> citizenship test — with an honest readiness estimate against
-              each exam&apos;s real criteria, so you know exactly where you stand.
+              Switzerland asks <strong>B1 spoken</strong> and <strong>A2 written</strong> for naturalisation — a{" "}
+              <strong>federal minimum</strong>, not the answer to your case, because your{" "}
+              <strong>canton and commune</strong> decide and can ask for more. Original{" "}
+              <strong>fide</strong> practice in German or French, banded per skill against the real criteria,
+              so you know exactly where you stand.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link
@@ -183,20 +193,26 @@ export default function Home() {
         <div className="mx-auto max-w-3xl">
           <h2 className="text-center text-3xl font-semibold text-almi-ink">An honest estimate, not a fake score</h2>
           <p className="mt-5 text-base text-almi-text">
-            The official tests are set and marked by their own bodies — the new citizenship test
-            (<strong>Medborgarskapsprovet</strong>) by the <strong>Swedish Council for Higher Education (UHR)</strong>;{" "}
-            <strong>SFI</strong> within the municipal adult-education system (<strong>Skolverket</strong>); and{" "}
-            <strong>Tisus</strong> by Stockholms universitet — so anyone promising a guaranteed official grade
+            <strong>fide</strong> is set and marked by recognised test centres, and your case is decided by your{" "}
+            <strong>canton and commune</strong> — or, if you are married to a Swiss citizen, by{" "}
+            <strong>SEM</strong>. We are none of those, so anyone promising you a guaranteed official outcome
             from an online simulation is guessing. AlmiSwiss does the honest thing instead: we estimate your
-            readiness from your practice and map it into clear bands (Clear or Borderline) against each
-            exam&apos;s real criteria.
+            readiness from your practice and map it into clear bands (Clear or Borderline) against the real
+            criteria.
           </p>
           <p className="mt-4 text-base text-almi-text">
-            One principle runs through it: <strong className="text-almi-ink">tell you the truth.</strong> Honest,
-            level-aware feedback, 100% original material, and an un-inflated read on what to work on next — then
-            confirm the requirement you actually need with the relevant authority (Migrationsverket and UHR for
-            citizenship). We are not affiliated with UHR, and UHR does not endorse unofficial practice tests —
-            including ours.
+            We band <strong className="text-almi-ink">each skill separately, and never average them.</strong> That
+            is not a design preference — Switzerland asks a full CEFR level more of your speaking than your
+            writing, so a single blended number would read as &ldquo;on track&rdquo; for someone who is short on
+            the one skill that actually decides it. The same asymmetry catches people on the five-year C permit,
+            which asks B1 spoken too.
+          </p>
+          <p className="mt-4 text-base text-almi-text">
+            One principle runs through it: <strong className="text-almi-ink">tell you the truth</strong> — including
+            when the truth is that we are not what you need. fide will not get you into a university, and no
+            website can tell you your own canton&apos;s bar. Confirm that with your cantonal migration authority.
+            We are not affiliated with SEM, with any canton, or with a fide test centre, and none of them endorse
+            this site.
           </p>
         </div>
       </section>
@@ -205,32 +221,34 @@ export default function Home() {
       <section className="border-t border-almi-bg-peach bg-almi-bg-peach/40 px-6 py-16">
         <div className="mx-auto max-w-3xl text-center">
           <span className="inline-flex items-center rounded-full bg-almi-coral/15 px-3 py-1 text-xs font-bold uppercase tracking-wide text-almi-coral-deep">
-            New 2026 Swedish citizenship rules
+            B1 spoken / A2 written is a floor, not an answer
           </span>
-          <h2 className="mt-4 text-3xl font-semibold text-almi-ink">Getting ready for SFI or the new Medborgarskapsprov? Start here.</h2>
+          <h2 className="mt-4 text-3xl font-semibold text-almi-ink">Switzerland decides this by canton. Almost nobody tells you that.</h2>
           <p className="mt-4 text-base text-almi-text">
-            Sweden&apos;s citizenship rules changed on <strong>6 June 2026</strong> — eight years&apos; habitual
-            residence as the main rule, a self-sufficiency requirement, and a new{" "}
-            <strong>Medborgarskapsprov</strong> for applicants aged <strong>16–66</strong>. It arrives in stages:
-            the knowledge-of-society test starts with a <strong>pilot sitting on 15 August 2026</strong>, and a
-            Swedish language test follows later — UHR indicates <strong>not before autumn 2028</strong>, with no
-            level set yet.
+            The figure you find everywhere — <strong>B1 spoken, A2 written</strong> — is real, and it comes from{" "}
+            <strong>SEM</strong>. It is also a <strong>federal minimum</strong>. For an ordinary naturalisation
+            your <strong>canton and commune</strong> decide, and some ask for more; the facilitated route for
+            spouses of Swiss citizens is decided by SEM instead. Which of the three national languages applies is
+            your canton&apos;s call as well, not yours — and a few cantons are officially bilingual, so it can come
+            down to your commune.
           </p>
           <p className="mt-4 text-base text-almi-text">
-            Because the details are still rolling out, UHR has published <strong>no pass mark</strong> — so we
-            don&apos;t show one, and we don&apos;t invent a format or a level.{" "}
+            Two things follow that catch people out. Your <strong>speaking</strong> is asked a full level above
+            your writing — and the <strong>five-year C permit asks B1 spoken too</strong>, so &ldquo;the permit
+            needs less&rdquo; is wrong on the deciding skill. And there is{" "}
+            <strong>no national civics test</strong> — cantons and communes each decide, so nobody can honestly
+            quote you a pass mark for one.{" "}
             <Link href="/swiss-naturalisation-language" className="font-semibold text-almi-coral-deep hover:underline">
-              See exactly what is and isn&apos;t known
+              See exactly what is and isn&apos;t published
             </Link>
-            , practise realistic civic questions, and get an honest read on your readiness. We help you prepare
-            fairly — never to shortcut the process.
+            , then practise against the real thing. We help you prepare fairly — never to shortcut the process.
           </p>
           <div className="mt-8">
             <Link
               href="/signup"
               className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep"
             >
-              Practise the Swedish tracks — free trial
+              Practise fide — free trial
             </Link>
           </div>
         </div>
@@ -336,7 +354,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-semibold text-almi-ink">Practise honestly. Walk in ready.</h2>
           <p className="mt-3 text-base text-almi-text">
-            Every Swedish exam at your level, honest readiness estimates, 100% original material — for
+            Practice at your level in the language your canton uses, honest readiness estimates, 100% original material — for
             $12/month with a 7-day free trial.
           </p>
           <div className="mt-8">

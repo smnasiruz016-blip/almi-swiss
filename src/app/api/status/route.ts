@@ -8,6 +8,11 @@ import { prisma } from "@/lib/prisma";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+// ⚠️ `product` here is an IDENTITY KEY, not a label: AlmiMonitor reads this endpoint
+// to attribute health to a product in its registry. Forked with the ancestor's value,
+// this product's uptime and item counts would have been reported as the Swedish
+// product's — two products claiming one identity, and the monitor believing the last
+// one it polled. Same class of bug as metadata.product in lib/billing/stripe.ts.
 export async function GET(): Promise<NextResponse> {
   let itemsActive: number | null = null;
   let items: Record<string, number> = {};
@@ -32,7 +37,7 @@ export async function GET(): Promise<NextResponse> {
   }
 
   return NextResponse.json(
-    { ok: true, product: "almi-swedish", itemsActive, items, approvedReviews, dbError },
+    { ok: true, product: "almi-swiss", itemsActive, items, approvedReviews, dbError },
     { headers: { "Cache-Control": "no-store" } },
   );
 }

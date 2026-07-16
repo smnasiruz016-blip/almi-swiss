@@ -2,7 +2,7 @@
 // + the learner's written answer to Sonnet and returns an HONEST practice
 // readiness band (CLEAR / BORDERLINE / BELOW) with constructive, level-aware
 // feedback against the exam's own criteria — never an official result from UHR
-// (Universitets- och högskolerådet) or any other Swedish authority.
+// a fide test centre, a canton, or SEM.
 //
 // Graceful degradation: if ANTHROPIC_API_KEY is not yet provisioned the route
 // returns { ok: true, available: false } (HTTP 200) so the client falls back to
@@ -108,7 +108,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   }
 
   const exam = body.exam ? examBySlug(body.exam) : undefined;
-  const examName = exam?.name ?? "the Swedish exam";
+  const examName = exam?.name ?? "the test";
   const cefr = exam?.cefr ?? "the target";
   const isSpeaking = body.taskType === "SPEAKING_PROMPT";
   const criteria = (body.criteria ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);

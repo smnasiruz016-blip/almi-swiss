@@ -46,6 +46,6 @@ show("JOBS SAMPLE", buildJobsPage(
   resolveOriginBlock(COUNTRY_BY_SLUG.get("india")!),
 ));
 
-// Sample 3 — CITIZENSHIP: Medborgarskapsprovet, the lead. This is the page whose
+// Sample 3 — CITIZENSHIP: fide, the lead. This is the page whose
 // every claim is load-bearing: no pass mark, no language test, pilot not launch.
 show("CITIZENSHIP SAMPLE (Medborgarskapsprovet)", buildLevelPage(leadExam()));

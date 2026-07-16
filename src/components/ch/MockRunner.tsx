@@ -266,7 +266,7 @@ function MockResult({
         ))}
       </ul>
       <p className="text-xs text-almi-text-muted">
-        This is a practice estimate, not an official Migrationsverket or UHR (the Swedish Council for Higher Education)
+        This is a practice estimate, not an official Migrationsverket or UHR (the Swiss Council for Higher Education)
         result. The real exam is judged pass/fail across all four skills against the official criteria.
       </p>
     </div>

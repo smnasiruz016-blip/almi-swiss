@@ -1,7 +1,8 @@
 "use client";
 
 // Listening audio via the browser SpeechSynthesis API — free, no Blob storage.
-// Reads the transcript in sv-SE. Where speech synthesis is unavailable,
+// Reads the transcript in the voice of the language the item is SET IN (see
+// ttsLang). Where speech synthesis is unavailable,
 // it gracefully falls back to showing the transcript.
 
 import { useEffect, useRef, useState } from "react";

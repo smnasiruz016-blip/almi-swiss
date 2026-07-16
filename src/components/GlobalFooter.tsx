@@ -10,8 +10,8 @@ type FooterColumn = { title: string; links: FooterLink[] };
 
 const FOOTER_COLUMNS: FooterColumn[] = [
   {
-    // This site's own pages — internal nav. Honest Medborgarskapsprovet, Tisus and
-    // SFI/CEFR Swedish practice; 25% of proceeds support the Shamool Foundation.
+    // This site's own pages — internal nav. Honest fide, certificate and local-knowledge
+    // Honest fide practice for Swiss permits and naturalisation; 25% of proceeds support the Shamool Foundation.
     title: "AlmiSwiss",
     links: [
       { label: "Practice", href: "/practice" },

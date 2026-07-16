@@ -3,6 +3,16 @@ import { prisma } from "@/lib/prisma";
 import { priceIdToPlanLabel } from "@/lib/billing/plans";
 import { SITE_URL } from "@/lib/site";
 
+// ⚠️ metadata.product IS THE ROUTING KEY, NOT A LABEL.
+// The central billing router (almi-billing-router) routes checkout.session.completed
+// on session.metadata.product, because that event carries no price line-items inline.
+// This repo was forked with the value still set to the ANCESTOR's tag, which would  hygiene-allow
+// have routed every Swiss customer's checkout to the Swedish product's webhook —
+// real payments, wrong destination, and nothing here would have failed: Stripe
+// accepts any string, and the router would happily match an existing product.
+// It must equal the tag registered for THIS product via scripts/register-swiss.ps1.
+const ROUTER_PRODUCT_TAG = "almi-swiss";
+
 const TRIAL_PERIOD_DAYS = 7;
 
 let cachedClient: Stripe | null = null;
@@ -45,7 +55,7 @@ export async function getOrCreateStripeCustomer(input: {
   const customer = await stripe.customers.create({
     email: input.email,
     name: input.name ?? undefined,
-    metadata: { userId: input.userId, product: "almi-swedish" },
+    metadata: { userId: input.userId, product: ROUTER_PRODUCT_TAG },
   });
 
   await prisma.user.update({
@@ -82,9 +92,9 @@ export async function createCheckoutSession(input: {
     line_items: [{ price: input.priceId, quantity: 1 }],
     subscription_data: {
       trial_period_days: TRIAL_PERIOD_DAYS,
-      metadata: { userId: input.userId, plan: planLabel, product: "almi-swedish" },
+      metadata: { userId: input.userId, plan: planLabel, product: ROUTER_PRODUCT_TAG },
     },
-    metadata: { userId: input.userId, plan: planLabel, product: "almi-swedish" },
+    metadata: { userId: input.userId, plan: planLabel, product: ROUTER_PRODUCT_TAG },
     allow_promotion_codes: true,
     success_url: `${baseUrl}/account?upgraded=true`,
     cancel_url: `${baseUrl}/pricing?cancelled=true`,

@@ -20,7 +20,7 @@ export type OriginBlock = {
   /** Degree-recognition body (verified name, or a hedged generic phrase). */
   recognitionBody: string;
   recognitionUrl?: string;
-  /** What using a foreign/Swedish degree back home requires. */
+  /** What using a foreign/Swiss degree back home requires. */
   equivalenceNote: string;
   /** The lead concern a searcher from this origin actually brings. */
   commonConcern: string;
@@ -60,8 +60,8 @@ export function resolveOriginBlock(country: SeoCountry): OriginBlock {
     countryName: country.name,
     localized: false,
     recognitionBody: `the official degree-recognition authority in ${country.name}`,
-    equivalenceNote: `If you plan to use your studies back in ${country.name}, confirm how a Swedish qualification is recognised with the relevant authority there before relying on it.`,
-    commonConcern: `how a Swedish qualification is recognised back in ${country.name}`,
+    equivalenceNote: `If you plan to use your studies back in ${country.name}, confirm how a Swiss qualification is recognised with the relevant authority there before relying on it.`,
+    commonConcern: `how a Swiss qualification is recognised back in ${country.name}`,
     searchTerms: [],
     citizenshipNote: `Citizenship and dual-nationality rules differ by country and change — confirm the current requirement with the authorities in ${country.name} and in Sweden.`,
   };
