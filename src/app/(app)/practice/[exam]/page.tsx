@@ -73,27 +73,32 @@ export default async function ExamPage({
         </div>
       </section>
 
-      <Link
-        href={`/practice/${exam.slug}/mock`}
-        className="block rounded-2xl border border-almi-coral/40 bg-almi-coral/10 p-6 shadow-sm transition hover:border-almi-coral"
-      >
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <div className="flex items-center gap-2">
-              <span aria-hidden className="text-xl">🏁</span>
-              <h2 className="text-lg font-semibold text-almi-ink">Full timed mock</h2>
-              <span className="rounded-full bg-almi-coral px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-almi-ink">
-                Pro
-              </span>
+      {/* Only where a mock exists. Absent mockMinutes = there is no exam to mock, so
+          there is no card — canton-civic used to render this block directly beneath a
+          blurb that says "This is preparation, not a mock". See ExamMeta.mockMinutes. */}
+      {exam.mockMinutes ? (
+        <Link
+          href={`/practice/${exam.slug}/mock`}
+          className="block rounded-2xl border border-almi-coral/40 bg-almi-coral/10 p-6 shadow-sm transition hover:border-almi-coral"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2">
+                <span aria-hidden className="text-xl">🏁</span>
+                <h2 className="text-lg font-semibold text-almi-ink">Full timed mock</h2>
+                <span className="rounded-full bg-almi-coral px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-almi-ink">
+                  Pro
+                </span>
+              </div>
+              <p className="mt-2 max-w-xl text-sm text-almi-text">
+                All parts in exam order (~{exam.mockMinutes} min), then an honest overall estimate —
+                never an official result.
+              </p>
             </div>
-            <p className="mt-2 max-w-xl text-sm text-almi-text">
-              All parts in exam order (~{exam.mockMinutes} min), then an honest overall estimate —
-              never an official result.
-            </p>
+            <span className="text-sm font-semibold text-almi-coral">Start full mock →</span>
           </div>
-          <span className="text-sm font-semibold text-almi-coral">Start full mock →</span>
-        </div>
-      </Link>
+        </Link>
+      ) : null}
 
       <p className="text-xs text-almi-text-muted">
         Original to AlmiSwiss — never copied from official test material. Every readout is a
