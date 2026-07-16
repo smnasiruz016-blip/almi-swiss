@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Carte postale de vacances",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous êtes en vacances. Écrivez une carte postale à une amie : où vous êtes, quel temps il fait, ce que vous faites.",
+      "criteria": [
+        "Répond aux trois points",
+        "Formule d'adresse et salutation",
+        "Phrases courtes et entières",
+        "Compréhensible, même avec des fautes simples"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Formulaire : inscription à la bibliothèque",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous vous inscrivez à la bibliothèque. Le formulaire a un champ libre : « Qu'aimez-vous lire, et à quelle fréquence venez-vous environ ? »",
+      "criteria": [
+        "Dit ce que vous aimez lire",
+        "Dit à quelle fréquence vous venez",
+        "Phrases entières, pas de mots-clés",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "SMS : changer le lieu de rendez-vous",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Vous voyez une amie ce soir. Le lieu de rendez-vous ne convient plus. Écrivez-lui.",
+      "criteria": [
+        "Dit que quelque chose change",
+        "Donne le nouveau lieu et l'heure",
+        "Donne brièvement la raison",
+        "Aimable et court"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Écrire sur soi",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Pour un site d'échange linguistique, rédigez un court profil : qui vous êtes, quelles langues vous parlez, ce que vous aimez faire.",
+      "criteria": [
+        "Répond aux trois points",
+        "Écrit en phrases entières",
+        "Reste honnête sur son niveau de langue",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Note : merci pour le livre",
+    "prompt": "Écrivez 25 à 40 mots.",
+    "payload": {
+      "stimulus": "Une collègue vous a prêté un livre. Vous le rendez et vous joignez une note.",
+      "criteria": [
+        "Remercie",
+        "Dit quelque chose sur le livre",
+        "Dit que vous le rendez",
+        "Ton aimable"
+      ],
+      "charBand": { "min": 120, "max": 280 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : réserver un hôtel",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Vous voulez réserver une chambre pour deux nuits. Écrivez à l'hôtel.",
+      "criteria": [
+        "Donne les dates et le type de chambre",
+        "Pose au moins deux questions (p. ex. petit-déjeuner, situation, prix)",
+        "Demande une confirmation",
+        "Formule d'adresse et salutation, vouvoiement",
+        "Compréhensible et poli"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : annuler un cours",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Vous vous êtes inscrit à un cours, mais finalement vous ne pouvez pas y participer. Écrivez au centre de cours.",
+      "criteria": [
+        "Nomme le cours et la date d'inscription",
+        "Annule clairement",
+        "Donne une raison",
+        "Demande le remboursement ou un cours plus tard",
+        "Formule d'adresse, salutation, nom"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Raconter une expérience",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Un ami vous demande comment s'est passé votre dernier déménagement. Racontez : quand, où, comment c'était, qui a aidé.",
+      "criteria": [
+        "Répond aux quatre points",
+        "Écrit au passé",
+        "Relie les phrases (d'abord, ensuite, à la fin)",
+        "Dit comment c'était pour vous",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Message sur un forum : un conseil",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Sur un forum, quelqu'un demande : « Comment apprenez-vous le vocabulaire ? » Répondez avec votre conseil.",
+      "criteria": [
+        "Donne un conseil concret",
+        "Dit pourquoi ça marche",
+        "Donne un exemple",
+        "Ton adapté à un forum (aimable, pas donneur de leçons)",
+        "Compréhensible"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Courriel : réclamer",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Vous avez commandé une veste en ligne. On vous a livré la mauvaise taille. Écrivez à la boutique.",
+      "criteria": [
+        "Nomme la commande (date ou numéro)",
+        "Décrit le problème",
+        "Dit ce que vous voulez",
+        "Reste factuel",
+        "Formule d'adresse, salutation, nom"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Décliner une invitation",
+    "prompt": "Écrivez 50 à 70 mots.",
+    "payload": {
+      "stimulus": "Des amis vous invitent à leur mariage. Vous ne pouvez pas venir. Répondez.",
+      "criteria": [
+        "Remercie pour l'invitation",
+        "Décline clairement",
+        "Donne une raison",
+        "Souhaite quelque chose ou propose de se voir",
+        "Ton personnel et chaleureux"
+      ],
+      "charBand": { "min": 250, "max": 480 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Prise de position : les portables à l'école",
+    "prompt": "Écrivez 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Sur un forum, on discute de l'interdiction des portables à l'école. Donnez votre avis.",
+      "criteria": [
+        "Nomme le sujet et sa position au début",
+        "Apporte au moins deux arguments",
+        "Nomme la position adverse et y répond",
+        "Termine par une conclusion",
+        "Texte suivi, pas une liste",
+        "Compréhensible sur 80 à 120 mots"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Lettre : exposer un problème et proposer une solution",
+    "prompt": "Écrivez 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Dans votre club de sport, il y a trop peu d'horaires d'entraînement pour les adultes. Écrivez au comité.",
+      "criteria": [
+        "Décrit le problème concrètement",
+        "Dit qui est concerné",
+        "Fait au moins une proposition réalisable",
+        "Reconnaît une difficulté (p. ex. les horaires de salle)",
+        "Poli mais net",
+        "Forme de lettre : adresse, conclusion, nom"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Texte : comparer",
+    "prompt": "Écrivez 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Comparez : voyager en train ou en avion ? Donnez les avantages et les inconvénients, puis dites ce que vous choisissez.",
+      "criteria": [
+        "Traite réellement les deux côtés",
+        "Donne avantages et inconvénients pour chacun",
+        "Marque la comparaison par la langue (alors que, en revanche, contrairement à)",
+        "Fait un choix et le justifie",
+        "Texte structuré",
+        "Ne se contredit pas"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Courriel : réagir à un refus",
+    "prompt": "Écrivez 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous avez postulé pour un poste et reçu un refus. Vous aimeriez savoir pourquoi et rester en contact pour plus tard. Écrivez.",
+      "criteria": [
+        "Remercie pour la réponse",
+        "Demande une brève explication, sans exiger",
+        "Montre un intérêt continu pour l'entreprise",
+        "Reste digne — ni reproches ni supplication",
+        "Ton formel approprié",
+        "Texte suivi sur 80 à 120 mots"
+      ],
+      "charBand": { "min": 400, "max": 800 }
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

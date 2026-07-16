@@ -1,0 +1,322 @@
+[
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Message court : rendez-vous",
+    "prompt": "Lisez le message et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Bonjour Nina,\n\nSamedi, je vais à la piscine. Tu viens avec moi ? On se retrouve à deux heures à l'entrée. L'entrée coûte huit euros.\n\nRéponds-moi avant vendredi, s'il te plaît.\n\nAmitiés\nJonas",
+      "question": "Où Nina et Jonas se retrouvent-ils ?",
+      "options": ["À l'entrée de la piscine", "Chez Jonas", "À la gare", "Au restaurant"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Panneau au musée",
+    "prompt": "Lisez le panneau et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Muséum d'histoire naturelle\n\nMardi–dimanche : 10h00–17h00\nLundi : fermé\n\nAdultes : 12.00\nEnfants jusqu'à 16 ans : gratuit\n\nLes photos sans flash sont autorisées.",
+      "question": "Qu'est-ce qui est autorisé ?",
+      "options": [
+        "Les photos avec flash",
+        "Les photos sans flash",
+        "La visite le lundi",
+        "Les enfants seulement avec un billet"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Courriel de vacances",
+    "prompt": "Lisez le courriel. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Chère Mamie,\n\nNous sommes bien arrivés. L'hôtel est petit mais très joli, et la mer est à cinq minutes à pied.\n\nHier, il a plu, alors nous sommes allés au musée. Aujourd'hui, il y a du soleil et nous allons à la plage.\n\nÀ bientôt !\nElif",
+      "question": "Affirmation : hier, Elif était à la plage.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "FOUNDATION",
+    "title": "Annonces et personnes",
+    "prompt": "Associez chaque personne à la bonne annonce.",
+    "payload": {
+      "instructions": "Quatre personnes cherchent quelque chose. Associez. Toutes les annonces ne sont pas utilisées.",
+      "left": [
+        "Tom cherche un cours de langue le week-end.",
+        "Léa voudrait acheter un vélo pas cher.",
+        "Ali cherche un logement pour deux personnes.",
+        "Mia voudrait faire garder son chien le temps d'un week-end."
+      ],
+      "right": [
+        "Cours de français, le samedi 9h–12h, débutants bienvenus",
+        "Vélo d'occasion, 80 euros, bon état",
+        "Appartement 2 pièces, 55 m², libre dès juillet",
+        "Garde d'animaux : nous nous occupons de votre chien",
+        "Cours de piano pour enfants",
+        "Cherche covoiturage pour Lyon"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Recette : soupe de pommes de terre",
+    "prompt": "Lisez la recette et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Soupe de pommes de terre pour quatre personnes\n\nIl vous faut : 1 kg de pommes de terre, 2 oignons, 1 litre d'eau, du sel et du poivre.\n\nCoupez les pommes de terre et les oignons en petits morceaux. Faites cuire le tout pendant 20 minutes. Mixez. Salez et poivrez.\n\nLa soupe est encore meilleure le lendemain.",
+      "question": "Combien de temps la soupe doit-elle cuire ?",
+      "options": ["4 minutes", "20 minutes", "1 heure", "Une journée"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Article : moins de voitures en ville",
+    "prompt": "Lisez le texte et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Dans beaucoup de villes européennes, de moins en moins de gens circulent avec leur propre voiture. Les raisons sont diverses : les places de parc sont chères, les villes construisent davantage de pistes cyclables, et les jeunes passent le permis plus tard qu'avant.\n\nUne étude le montre : celui qui habite en ville et dispose de bons transports publics n'a en général besoin de la voiture que le week-end. Beaucoup la vendent donc et en louent une en cas de besoin.",
+      "question": "Quelle est une raison pour laquelle moins de gens ont leur propre voiture ?",
+      "options": [
+        "Les voitures sont interdites",
+        "Les places de parc sont chères et il y a plus de pistes cyclables",
+        "Les jeunes n'ont pas le droit de passer le permis",
+        "Les transports publics sont devenus plus chers"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "title": "Courriel : réserver une chambre",
+    "prompt": "Lisez le courriel et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Madame, Monsieur,\n\nJe souhaiterais réserver une chambre double {{1}} deux nuits, du 3 au 5 juin. Merci de me dire {{2}} le petit-déjeuner est compris dans le prix. Nous arrivons {{3}} train et cherchons un hôtel près de la gare.\n\nAvec mes meilleures salutations\nS. Kravitz",
+      "gaps": [
+        { "id": 1, "options": ["pour", "depuis", "chez", "hors"] },
+        { "id": 2, "options": ["si", "que", "quand", "comme"] },
+        { "id": 3, "options": ["en", "sur", "de", "dans"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Blog : ma première année seule",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "À dix-neuf ans, j'ai quitté la maison. Je pensais que le plus difficile serait de cuisiner. Ça ne l'était pas.\n\nLe plus difficile, c'était de décider seule. Avant, ma mère disait ce qui était important. Tout à coup, je devais savoir moi-même si j'avais besoin d'une assurance ou non. Cuisiner, je l'ai appris en deux semaines. Pour le reste, il m'a fallu plus de temps.",
+      "question": "Affirmation : pour l'auteure, cuisiner a été le plus gros problème.",
+      "options": ["Vrai", "Faux"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "title": "Organiser un voyage",
+    "prompt": "Mettez les étapes dans le bon ordre.",
+    "payload": {
+      "instructions": "Classez de la première à la dernière étape.",
+      "items": [
+        "Choisir une destination",
+        "Comparer les prix du train et de l'hôtel",
+        "Réserver le train et l'hôtel",
+        "Faire la valise",
+        "Partir"
+      ]
+    },
+    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Information : emporter son vélo",
+    "prompt": "Lisez l'information et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Le vélo dans le train\n\nDans les trains régionaux, vous pouvez emporter votre vélo sans réservation. Il vous faut toutefois un billet vélo.\n\nDans les trains grandes lignes, une réservation est nécessaire. Les places sont limitées et vite complètes en été.\n\nLes vélos pliables comptent comme bagage et sont toujours gratuits.",
+      "question": "Que dit le texte des vélos pliables ?",
+      "options": [
+        "Ils nécessitent une réservation",
+        "Ils nécessitent un billet vélo",
+        "Ils comptent comme bagage et ne coûtent rien",
+        "Ils sont interdits dans les trains grandes lignes"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Lire la description d'un cours",
+    "prompt": "Lisez la description et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Cours : parler et discuter (B1)\n\nCe cours s'adresse aux personnes qui ont déjà des bases et souhaitent parler plus couramment. Nous travaillons les discussions, les présentations et les conversations de tous les jours.\n\nCondition : avoir terminé un cours A2 ou passer un test de niveau.\n\nCe cours n'est pas une préparation à l'examen. Si vous préparez un examen, suivez plutôt le cours « Préparation à l'examen B1 ».",
+      "question": "À qui ce cours ne s'adresse-t-il pas ?",
+      "options": [
+        "Aux personnes qui veulent parler plus couramment",
+        "Aux personnes qui ont terminé un cours A2",
+        "Aux personnes qui préparent précisément un examen",
+        "Aux personnes qui veulent travailler les conversations de tous les jours"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Chronique : le télétravail",
+    "prompt": "Lisez la chronique et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Depuis quelques années, beaucoup de gens travaillent une partie de la semaine à la maison. Les avantages sont connus : pas de trajet, moins de bruit, plus de temps pour la famille.\n\nCe qu'on dit plus rarement : le télétravail n'est pas aussi bon pour tout le monde. Celui qui a un grand logement et travaille seul y gagne. Celui qui vit à trois dans deux pièces s'installe à la table de la cuisine pendant que les enfants font leurs devoirs.\n\nLe télétravail n'est donc pas un avantage en soi. C'est un avantage pour ceux qui ont la place. Ceux qui décident devraient y penser.",
+      "question": "Quelle est l'idée principale de la chronique ?",
+      "options": [
+        "Le télétravail devrait être supprimé",
+        "Le télétravail profite surtout à ceux qui ont assez de place — ce n'est pas un avantage pour tous",
+        "Le télétravail est un avantage pour tous les employés",
+        "Le trajet est le plus gros problème de la vie professionnelle"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "title": "Texte : pourquoi nous remettons à plus tard",
+    "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
+    "payload": {
+      "passage": "Presque tout le monde connaît ça : une tâche est importante, {{1}} on ne la fait quand même pas. Les chercheurs disent que cela a moins à voir avec la paresse {{2}} avec les émotions. Nous remettons les choses à plus tard parce qu'elles nous sont désagréables. Une astuce simple aide : on décide de travailler seulement cinq minutes. La plupart du temps, on continue {{3}}.",
+      "gaps": [
+        { "id": 1, "options": ["mais", "car", "parce que", "que"] },
+        { "id": 2, "options": ["qu'", "comme", "si", "alors"] },
+        { "id": 3, "options": ["ensuite", "avant", "jamais", "hier"] }
+      ]
+    },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "maxPoints": 3
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Deux courriers de lecteurs : les portables à l'école",
+    "prompt": "Lisez les deux courriers et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Madame K. : « Les portables n'ont pas leur place en classe. Les enfants sont distraits, et à la récréation, plus personne ne se parle. Une interdiction est la solution la plus simple — et elle fonctionne. »\n\nMonsieur M. : « Je suis aussi pour moins de portables en classe. Mais une interdiction seule ne règle rien. Les enfants n'apprennent alors pas à s'en servir — ils le font simplement en cachette. Il vaudrait mieux travailler l'usage : quand ai-je besoin de l'appareil, quand est-ce que je le range. C'est plus fatigant qu'une interdiction, mais ça dure plus longtemps. »",
+      "question": "Sur quoi Madame K. et Monsieur M. sont-ils d'accord ?",
+      "options": [
+        "Sur le fait qu'une interdiction est la meilleure solution",
+        "Sur le fait qu'il faudrait moins utiliser les portables en classe",
+        "Sur le fait que les enfants doivent apprendre à gérer leur portable",
+        "Sur le fait que les portables devraient être interdits à la récréation"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "title": "Des titres pour des paragraphes",
+    "prompt": "Associez chaque paragraphe au bon titre.",
+    "payload": {
+      "instructions": "Quatre paragraphes d'un article sur le sommeil. Associez. Tous les titres ne sont pas utilisés.",
+      "left": [
+        "Les adultes ont besoin en moyenne de sept à huit heures. Mais certaines personnes se contentent de six, et d'autres en demandent neuf. Plus important que le chiffre : comment on se sent dans la journée.",
+        "La lumière du soir, surtout celle des écrans, décale l'horloge interne. Celui qui s'endort mal devrait poser son téléphone une heure avant.",
+        "Celui qui se couche et se lève toujours à la même heure dort mieux. Le week-end aussi. Le corps aime la régularité.",
+        "Rester éveillé la nuit en s'énervant aggrave les choses. Les spécialistes conseillent : se lever, faire quelque chose de calme dans une autre pièce, et ne revenir que lorsqu'on est fatigué."
+      ],
+      "right": [
+        "Combien de sommeil est normal ?",
+        "Les écrans et l'horloge interne",
+        "Des horaires réguliers aident",
+        "Que faire quand on ne s'endort pas ?",
+        "Les somnifères et leurs effets",
+        "Le sommeil chez les enfants"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  }
+]

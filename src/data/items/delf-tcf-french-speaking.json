@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Se présenter (cours)",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Présentez-vous dans un nouveau cours : nom, origine, langues, pourquoi vous apprenez le français.",
+      "criteria": [
+        "Répond aux quatre points",
+        "Parle en phrases entières",
+        "Est compréhensible, même avec un accent",
+        "Parle sans longues pauses"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Décrire une photo",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Décrivez une photo de votre téléphone : qui est dessus, où elle a été prise, quand, et pourquoi elle vous plaît.",
+      "criteria": [
+        "Décrit ce qu'on voit",
+        "Dit le lieu et le moment",
+        "Dit pourquoi elle vous plaît",
+        "Parle 30 secondes de manière liée"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Arriver à l'hôtel",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Vous arrivez à l'hôtel. Dites qui vous êtes, que vous avez réservé, et demandez pour le petit-déjeuner et le wifi.",
+      "criteria": [
+        "Donne son nom et la réservation",
+        "Pose les deux questions",
+        "Réagit à la réponse",
+        "Poli"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Parler de votre semaine",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Racontez à quoi ressemble votre semaine : ce que vous faites quels jours, et ce que vous préférez.",
+      "criteria": [
+        "Nomme plusieurs jours et activités",
+        "Dit ce que vous préférez",
+        "Parle au présent",
+        "Compréhensible"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Commander au café",
+    "prompt": "Parlez pendant au moins 30 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au café. Commandez une boisson et une part de gâteau. Demandez si on peut payer par carte.",
+      "criteria": [
+        "Commande clairement",
+        "Pose la question du paiement",
+        "Dit s'il vous plaît et merci",
+        "Comprend la réponse et réagit"
+      ],
+      "minSeconds": 30
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Organiser quelque chose ensemble",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Vous organisez une sortie de classe avec une collègue. Faites des propositions pour la destination, la date et le trajet, et réagissez à une objection (la destination est trop chère).",
+      "criteria": [
+        "Fait des propositions concrètes",
+        "Les justifie",
+        "Prend l'objection au sérieux au lieu de l'ignorer",
+        "Trouve un compromis",
+        "Parle 50 secondes de manière liée"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Raconter une expérience de voyage",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Racontez un voyage qui ne s'est pas passé comme prévu : ce qui est arrivé, ce que vous avez fait, comment ça s'est terminé.",
+      "criteria": [
+        "Raconte au passé",
+        "Raconte dans l'ordre",
+        "Dit comment vous vous êtes senti",
+        "Arrive à une conclusion",
+        "Parle 50 secondes"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Recommander quelque chose",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Quelqu'un visite votre ville d'origine pour la première fois et a une journée. Proposez un programme et justifiez-le.",
+      "criteria": [
+        "Fait plusieurs propositions concrètes",
+        "Justifie les recommandations",
+        "Pense au pratique (temps, trajet, coût)",
+        "Demande ce qui intéresse la personne",
+        "Parle 50 secondes de manière liée"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Régler quelque chose au téléphone",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Vous avez commandé quelque chose en ligne, mais vous avez reçu la mauvaise taille. Téléphonez, expliquez le problème et dites ce que vous voulez.",
+      "criteria": [
+        "Explique le problème clairement et brièvement",
+        "Donne les informations nécessaires (commande, date)",
+        "Dit ce que vous voulez",
+        "Réagit à une question",
+        "Reste aimable"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Parler de ses habitudes",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Parlez de vos habitudes alimentaires : ce que vous mangez normalement, si cela a changé depuis que vous vivez ici, et pourquoi.",
+      "criteria": [
+        "Répond aux trois points",
+        "Compare avant et maintenant",
+        "Donne des exemples concrets",
+        "Parle 50 secondes de manière liée",
+        "Compréhensible"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Contredire poliment",
+    "prompt": "Parlez pendant au moins 50 secondes.",
+    "payload": {
+      "stimulus": "Quelqu'un dit : « On n'a plus besoin d'apprendre les langues, il y a les applications de traduction. » Vous n'êtes pas d'accord. Répondez.",
+      "criteria": [
+        "Contredit clairement mais poliment",
+        "Apporte au moins deux arguments",
+        "Reconnaît ce qui est juste dans l'autre avis",
+        "Parle 50 secondes de manière liée",
+        "Ne devient pas personnel"
+      ],
+      "minSeconds": 50
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Défendre un avis : la semaine de quatre jours",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Faut-il travailler quatre jours par semaine, à salaire égal ? Donnez votre avis, justifiez-le, et répondez à l'objection principale.",
+      "criteria": [
+        "Prend clairement position et la tient",
+        "Justifie avec au moins deux arguments",
+        "Nomme l'objection et y répond sans la déformer",
+        "Parle 90 secondes de manière liée, pas en mots-clés",
+        "Reste compréhensible même quand le contenu devient exigeant",
+        "Termine par une conclusion"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Décrire un graphique",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Un sondage montre : 62 % des personnes interrogées lisent les actualités chaque jour sur leur téléphone, 24 % à la radio ou à la télévision, 9 % dans un journal papier, 5 % pas du tout. Décrivez les chiffres et dites ce que vous en pensez.",
+      "criteria": [
+        "Cite correctement les chiffres principaux",
+        "Les compare par la langue (plus que, le moins, contrairement à)",
+        "Décrit d'abord, commente ensuite",
+        "Donne son avis avec une justification",
+        "Parle 90 secondes de façon structurée",
+        "N'invente pas de chiffres supplémentaires"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Résoudre un problème : trop peu de temps",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Une amie dit qu'entre le travail et la famille, elle n'a plus de temps pour elle. Écoutez, posez des questions, et faites des propositions — sans lui faire la leçon.",
+      "criteria": [
+        "Montre de la compréhension avant de conseiller",
+        "Pose au moins deux questions",
+        "Fait des propositions concrètes et réalistes",
+        "N'insiste pas et ne fait pas la leçon",
+        "Parle 90 secondes de manière liée",
+        "Arrive à une conclusion"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CERTIFICATE",
+    "exam": "DELF_TCF",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Parler d'une évolution",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Comment la façon de lire les actualités a-t-elle changé en vingt ans ? Qu'est-ce qui s'est amélioré, qu'est-ce qui s'est dégradé ? Dites aussi comment vous faites vous-même.",
+      "criteria": [
+        "Décrit une évolution, pas seulement un état",
+        "Nomme les avantages et les inconvénients",
+        "Relie le général à son propre comportement",
+        "Utilise les repères de temps et les comparaisons avec assurance",
+        "Parle 90 secondes de manière liée",
+        "N'affirme pas de chiffres que vous ne connaissez pas"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]

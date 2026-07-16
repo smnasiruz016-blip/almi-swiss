@@ -1,0 +1,305 @@
+[
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Ansage im Kino",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Gäste, der Film im Saal drei beginnt in fünf Minuten. Bitte schalten Sie Ihre Handys aus. Wir wünschen Ihnen einen schönen Abend.",
+      "question": "Was sollen die Gäste machen?",
+      "options": ["Die Handys ausschalten", "In Saal fünf gehen", "Tickets kaufen", "Fünf Minuten warten und dann gehen"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Nachricht: Ich hole dich ab",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hallo Sam, ich hole dich am Sonntag ab. Ich bin um Viertel nach neun bei dir. Bring bitte deine Wanderschuhe mit, wir gehen ja auf den Berg. Bis Sonntag!",
+      "question": "Wann kommt die Person?",
+      "options": ["Um 9.00", "Um 9.15", "Um 9.45", "Um 10.15"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "title": "Ansage im Kaufhaus",
+    "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Eine Information für unsere Kundinnen und Kunden: Heute gibt es alle Winterjacken zum halben Preis. Das Angebot gilt nur heute und nur im zweiten Stock.",
+      "question": "Aussage: Das Angebot gilt die ganze Woche.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Im Restaurant bestellen",
+    "prompt": "Hören Sie den Kellner und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "So, einmal die Gemüsesuppe und einmal den Salat. Möchten Sie dazu Brot? … Ja, gern. Und zum Trinken? … Zweimal Wasser, gut. Kommt sofort.",
+      "question": "Was haben die Gäste bestellt?",
+      "options": [
+        "Suppe, Salat, Brot und Wasser",
+        "Nur Suppe und Wasser",
+        "Salat und Kaffee",
+        "Suppe, Brot und Wein"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "title": "Wetter für das Wochenende",
+    "prompt": "Hören Sie den Bericht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Das Wochenende wird wechselhaft. Am Samstag ist es bewölkt, aber trocken, bei fünfzehn Grad. Am Sonntag regnet es am Vormittag, am Nachmittag kommt die Sonne heraus.",
+      "question": "Wie ist das Wetter am Samstag?",
+      "options": ["Sonnig", "Bewölkt und trocken", "Regnerisch", "Kalt und windig"]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Anruf beim Kundendienst",
+    "prompt": "Hören Sie die Mitarbeiterin und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Ja, ich sehe Ihre Bestellung. Das Gerät ist leider nicht mehr am Lager. Sie haben zwei Möglichkeiten: Sie warten drei Wochen auf die nächste Lieferung, oder wir stornieren die Bestellung und Sie bekommen das Geld innert fünf Tagen zurück. Was möchten Sie?",
+      "question": "Welche Möglichkeiten hat der Kunde?",
+      "options": [
+        "Warten oder stornieren",
+        "Ein anderes Gerät nehmen oder warten",
+        "Nur warten",
+        "Nur stornieren"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Radiobeitrag: Weniger Plastik",
+    "prompt": "Hören Sie den Beitrag und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Viele Menschen möchten weniger Plastik brauchen, wissen aber nicht, wo sie anfangen sollen. Fachleute empfehlen: Fangen Sie mit einer Sache an, nicht mit allen gleichzeitig. Zum Beispiel eine eigene Flasche statt gekaufter Getränke. Wer zu viel auf einmal ändern will, hört meistens nach zwei Wochen wieder auf.",
+      "question": "Was empfehlen die Fachleute?",
+      "options": [
+        "Alles auf einmal zu ändern",
+        "Mit einer einzigen Sache anzufangen",
+        "Zwei Wochen zu testen und dann aufzuhören",
+        "Keine Getränke mehr zu kaufen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "title": "Information zur Führung",
+    "prompt": "Hören Sie die Information. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Willkommen zur Führung. Sie dauert etwa neunzig Minuten. Wir machen in der Mitte eine kurze Pause. Fragen können Sie jederzeit stellen, Sie müssen nicht bis zum Schluss warten. Fotografieren ist erlaubt, aber bitte ohne Blitz.",
+      "question": "Aussage: Fragen sind erst am Ende der Führung möglich.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "title": "Vier Personen über ihr Hobby",
+    "prompt": "Hören Sie die vier Personen und ordnen Sie jede der passenden Aussage zu.",
+    "payload": {
+      "instructions": "Ordnen Sie zu. Nicht alle Aussagen werden gebraucht.",
+      "transcript": "Person 1: Ich koche gern, aber nur am Wochenende. Unter der Woche habe ich einfach keine Zeit dafür.\n\nPerson 2: Ich habe mit fünfzig angefangen, Gitarre zu spielen. Alle sagten, dafür sei ich zu alt. Ich finde, es ist nie zu spät.\n\nPerson 3: Ich laufe jeden Morgen, bei jedem Wetter. Nicht weil es Spass macht, sondern weil ich danach den ganzen Tag besser drauf bin.\n\nPerson 4: Ich male, aber ich zeige es niemandem. Das ist nur für mich. Wenn ich es herzeigen müsste, würde es mir keinen Spass mehr machen.",
+      "left": ["Person 1", "Person 2", "Person 3", "Person 4"],
+      "right": [
+        "Hat für das Hobby nur am Wochenende Zeit",
+        "Hat spät angefangen und findet, das sei kein Problem",
+        "Macht es wegen der Wirkung danach, nicht aus Spass",
+        "Möchte das Hobby für sich behalten",
+        "Verdient mit dem Hobby Geld",
+        "Hat das Hobby von den Eltern übernommen"
+      ]
+    },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Durchsage am Flughafen",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Information für die Passagiere des Fluges LH vier-null-zwei nach Berlin: Der Abflug verzögert sich um etwa vierzig Minuten. Das Boarding beginnt neu um sechzehn Uhr zwanzig, Gate B sieben. Wir bitten um Ihr Verständnis.",
+      "question": "Was ist richtig?",
+      "options": [
+        "Der Flug ist gestrichen",
+        "Das Boarding beginnt später, um 16.20 Uhr",
+        "Das Gate hat sich geändert, die Zeit nicht",
+        "Die Passagiere sollen zum Schalter gehen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "title": "Zwei Freunde planen den Abend",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "— Sollen wir heute ins Kino?\n— Hm, ehrlich gesagt bin ich müde. Ich hatte einen langen Tag.\n— Dann kochen wir bei mir und schauen etwas zu Hause?\n— Das klingt besser. Ich bringe etwas zu trinken mit.\n— Super, komm um sieben.",
+      "question": "Was machen die beiden?",
+      "options": [
+        "Sie gehen ins Kino",
+        "Sie kochen und bleiben zu Hause",
+        "Sie gehen ins Restaurant",
+        "Sie treffen sich nicht"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Interview: Sprachenlernen als Erwachsener",
+    "prompt": "Hören Sie das Interview und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "— Viele sagen, Kinder lernen Sprachen leichter. Stimmt das?\n— Teilweise. Kinder haben bei der Aussprache Vorteile, das ist unbestritten. Aber Erwachsene lernen Grammatik und Wortschatz oft schneller, weil sie systematisch vorgehen können.\n— Warum haben dann so viele Erwachsene das Gefühl, es gehe nicht?\n— Weil sie sich mit Muttersprachlern vergleichen statt mit sich selbst vor einem Jahr. Und weil sie zu wenig sprechen. Man lernt eine Sprache nicht, indem man sie versteht, sondern indem man sie benutzt — auch mit Fehlern.",
+      "question": "Was sagt die Fachperson über Erwachsene?",
+      "options": [
+        "Sie lernen Sprachen grundsätzlich schlechter als Kinder",
+        "Sie haben bei der Aussprache Vorteile",
+        "Sie lernen Grammatik und Wortschatz oft schneller, sprechen aber zu wenig",
+        "Sie sollten erst sprechen, wenn sie keine Fehler mehr machen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Vortrag: Warum Pausen wichtig sind",
+    "prompt": "Hören Sie den Vortrag und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Viele glauben, wer länger arbeitet, schafft mehr. Die Forschung zeigt etwas anderes. Nach etwa neunzig Minuten konzentrierter Arbeit sinkt die Leistung deutlich. Wer dann weitermacht, braucht für dieselbe Aufgabe länger und macht mehr Fehler. Eine kurze Pause — fünf bis zehn Minuten, ohne Bildschirm — stellt die Konzentration weitgehend wieder her. Das Problem ist nicht das Wissen. Das Problem ist, dass Pausen in vielen Betrieben immer noch als Faulheit gelten.",
+      "question": "Was ist laut dem Vortrag das eigentliche Problem?",
+      "options": [
+        "Dass die Forschung noch keine Antwort hat",
+        "Dass Pausen in vielen Betrieben als Faulheit gelten",
+        "Dass Pausen zu lang sind",
+        "Dass die Leute nach 90 Minuten nach Hause gehen wollen"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "title": "Diskussion: Vier-Tage-Woche",
+    "prompt": "Hören Sie die Diskussion. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "— Ich bin überzeugt: Vier Tage arbeiten, gleicher Lohn. Die Versuche zeigen, dass die Leute produktiver sind.\n— Moment. Die Versuche zeigen das für Büros. Für ein Spital oder eine Bäckerei gilt das nicht — dort kann man die Arbeit nicht einfach verdichten. Jemand muss um vier Uhr aufstehen und backen.\n— Das stimmt, das gebe ich zu. Ich sage nur: Wo es geht, sollte man es machen.\n— Damit bin ich einverstanden. Ich wehre mich nur dagegen, dass man es als Lösung für alle verkauft.",
+      "question": "Aussage: Die beiden sind sich am Ende in keinem Punkt einig.",
+      "options": ["Richtig", "Falsch"]
+    },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "title": "Telefonat: eine Reklamation",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "— Guten Tag, ich habe bei Ihnen einen Tisch bestellt. Geliefert wurde ein beschädigter.\n— Das tut mir leid. Haben Sie den Schaden bei der Lieferung gemeldet?\n— Nein, ich habe den Karton erst am Abend geöffnet.\n— Verstehe. Grundsätzlich sollte man es sofort melden. Aber schicken Sie mir bitte Fotos, dann schaue ich, was ich machen kann. Ich kann Ihnen nichts versprechen, aber ich melde mich bis Freitag.",
+      "question": "Was sagt der Mitarbeiter zu?",
+      "options": [
+        "Er ersetzt den Tisch sofort",
+        "Er kann nichts machen, weil der Schaden zu spät gemeldet wurde",
+        "Er schaut es an und meldet sich bis Freitag, ohne etwas zu versprechen",
+        "Er schickt den Kunden zur Post"
+      ]
+    },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "maxPoints": 1
+  }
+]
