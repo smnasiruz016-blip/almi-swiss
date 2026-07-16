@@ -23,12 +23,13 @@ import {
 } from "@/lib/seo/axes";
 import { uniTeaches } from "@/lib/seo/subject-mapper";
 import type { OriginBlock } from "@/lib/seo/origin-localization";
+import { SITE_URL as SITE } from "@/lib/site";
 
 // Strip trailing punctuation from a concern fragment so it reads cleanly when
 // we quote it inline (e.g. `"…recognised back home"` not `"…back home?."`).
 const cleanConcern = (s: string) => s.replace(/\s*[.?;]+\s*$/, "").trim();
 
-const SITE = "https://almiswedish.almiworld.com";
+
 
 export interface SeoPage {
   h1: string;

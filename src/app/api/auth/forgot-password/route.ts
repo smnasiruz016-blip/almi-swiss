@@ -3,6 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { withDbRetry } from "@/lib/db-retry";
 import { getIpHash } from "@/lib/ip-hash";
 import { sendPasswordResetEmail } from "@/lib/email";
+import { SITE_URL } from "@/lib/site";
 
 const RATE_WINDOW_MS = 60 * 60 * 1000;
 const MAX_PER_EMAIL = 3;
@@ -38,7 +39,7 @@ function getClientIp(req: Request): string {
 }
 
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL ?? "https://almiswedish.almiworld.com";
+  return SITE_URL;
 }
 
 export async function POST(req: Request) {

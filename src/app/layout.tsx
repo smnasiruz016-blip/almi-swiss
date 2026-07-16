@@ -3,11 +3,12 @@ import { Inter, Allura } from "next/font/google";
 import "./globals.css";
 import { GlobalHeader } from "@/components/GlobalHeader";
 import { GlobalFooter } from "@/components/GlobalFooter";
+import { SITE_URL, ROBOTS_META } from "@/lib/site";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
 const allura = Allura({ variable: "--font-allura", subsets: ["latin"], weight: "400", display: "swap" });
 
-const SITE_URL = "https://almiswedish.almiworld.com";
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   twitter: { card: "summary_large_image", title: "AlmiSwedish — SFI, Tisus & Medborgarskapsprov practice", description: "Honest Swedish practice — per-skill readiness estimates, ranges not inflated numbers." },
-  robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large" } },
+  robots: ROBOTS_META,
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

@@ -1,6 +1,7 @@
 import Stripe from "stripe";
 import { prisma } from "@/lib/prisma";
 import { priceIdToPlanLabel } from "@/lib/billing/plans";
+import { SITE_URL } from "@/lib/site";
 
 const TRIAL_PERIOD_DAYS = 7;
 
@@ -20,7 +21,7 @@ export function getStripeClient(): Stripe {
 
 function getPublicBaseUrl(): string {
   return (
-    process.env.NEXT_PUBLIC_APP_URL ?? "https://almiswedish.almiworld.com"
+    SITE_URL
   );
 }
 

@@ -5,8 +5,9 @@ import {
 } from "@/lib/seo/axes";
 import { TAUGHT_STUDY_TOTAL, taughtStudyComboAtIndex } from "@/lib/seo/taught-index";
 import { ALL_EXAMS } from "@/lib/sv/registry";
+import { SITE_URL as SITE } from "@/lib/site";
 
-const SITE = "https://almiswedish.almiworld.com";
+
 const PER = 50_000; // Google's max URLs per sitemap
 const LASTMOD = "2026-07-15";
 

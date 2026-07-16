@@ -1,5 +1,6 @@
 import { JOBS_TOTAL } from "@/lib/seo/axes";
 import { TAUGHT_STUDY_TOTAL } from "@/lib/seo/taught-index";
+import { SITE_URL as SITE } from "@/lib/site";
 
 // Next 16's generateSitemaps does NOT emit a sitemap index — it only serves the
 // shards at /sitemap/[id].xml. We publish an explicit <sitemapindex> here so
@@ -11,7 +12,7 @@ import { TAUGHT_STUDY_TOTAL } from "@/lib/seo/taught-index";
 // tail as empty phantom shards. Keep this total === sitemap.ts's TOTAL_SHARDS.
 export const dynamic = "force-static";
 
-const SITE = "https://almiswedish.almiworld.com";
+
 const PER = 50_000;
 const LASTMOD = "2026-07-10";
 const TOTAL_SHARDS = 1 + Math.ceil(TAUGHT_STUDY_TOTAL / PER) + Math.ceil(JOBS_TOTAL / PER);

@@ -5,19 +5,20 @@
 // WHAT MAKES SWITZERLAND STRUCTURALLY DIFFERENT from the Nordic siblings this
 // product was forked from, and why the shapes below are not a rename of theirs:
 //
-//  1. THERE IS A LANGUAGE AXIS. Sweden/Norway/Denmark each have ONE national
-//     language, so their registries key on (exam, skill). Switzerland has three
-//     relevant national languages — German, French, Italian — and which one you
-//     need is decided by your canton, not by you. So every exam here carries a
-//     `language`, and the tree is (language × track × exam × skill).
+//  1. THERE IS A LANGUAGE AXIS. The Nordic products this was forked from each have
+//     exactly ONE national language, so their registries key on (exam, skill).
+//     Switzerland has three relevant national languages — German, French, Italian —
+//     and which one you need is decided by your canton, not by you. So every exam
+//     here carries a `language`, and the tree is (language × track × exam × skill).
 //
-//  2. THERE IS NO NATIONAL CIVICS TEST. The Swedish fork models exactly one
-//     society exam (MEDBORGARSKAPSPROV, a real national test run by UHR). Switzerland
-//     has NO national equivalent: cantons and communes differ, some use a test, some
-//     an interview. Modelling a "Swiss civics exam" would fabricate a national test
-//     that does not exist. Civic content is therefore CANTON_CIVIC — practice, not an
-//     exam, and it must be presented as canton-dependent every time it is rendered.
-//     Do not promote it to an exam, and do not invent a canton's questions or format.
+//  2. THERE IS NO NATIONAL CIVICS TEST. The product this was forked from models
+//     exactly one national society exam — a real one, run by that country's central
+//     agency. Switzerland has NO national equivalent: cantons and communes differ,
+//     some use a test, some an interview. Modelling a "Swiss civics exam" would
+//     fabricate a national test that does not exist. Civic content is therefore
+//     CANTON_CIVIC — practice, not an exam, and it must be presented as
+//     canton-dependent every time it is rendered. Do not promote it to an exam, and
+//     do not invent a canton's questions or format.
 
 // Switzerland's relevant national languages. Romansh is a national language but is
 // rarely the language of a naturalisation procedure — deliberately omitted rather
@@ -103,11 +104,12 @@ export const LANGUAGE_ENDONYM: Record<SwissLanguage, string> = {
   IT: "Italiano",
 };
 
-/** BCP-47 tag for TTS. German is de-CH ONLY for regional flavour of everyday audio;
- *  the recognised tests are set in STANDARD German, not Swiss-German dialect, so
- *  test-format audio uses de-DE. Getting this wrong is the exact class of bug that
- *  had almi-danish reading Danish transcripts in an Icelandic voice: the label said
- *  one language and the code returned another. */
+/** BCP-47 tag for TTS. The recognised tests are set in STANDARD German, not
+ *  Swiss-German dialect, so test-format audio uses de-DE rather than de-CH.
+ *  Getting a TTS tag wrong is not cosmetic: a sibling product in this lineage
+ *  shipped a listening module that read every transcript aloud in the WRONG
+ *  language's voice, inherited wholesale from its own ancestor. The label said one
+ *  language and the code returned another, and nothing failed. */
 export const LANGUAGE_TTS: Record<SwissLanguage, string> = {
   DE: "de-DE",
   FR: "fr-FR",

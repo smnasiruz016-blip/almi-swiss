@@ -4,11 +4,12 @@ import { createHash, randomBytes } from "crypto";
 import { prisma } from "@/lib/prisma";
 import { createSession, getCurrentUser, hashPassword } from "@/lib/auth";
 import { sendEmailVerification } from "@/lib/email";
+import { SITE_URL } from "@/lib/site";
 
 const VERIFY_TTL_MS = 24 * 60 * 60 * 1000;
 
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL ?? "https://almiswedish.almiworld.com";
+  return SITE_URL;
 }
 
 async function signupAction(formData: FormData) {

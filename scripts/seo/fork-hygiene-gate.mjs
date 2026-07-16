@@ -1,7 +1,8 @@
 // Build-time FORK HYGIENE GATE — the AlmiWorld §7 rule, enforced instead of trusted.
 //
 // WHY THIS EXISTS. This repo's lineage is:
-//   almi-celpip → almi-goethe → almi-icelandic → almi-danish → almi-norwegian → almi-swedish
+//   almi-celpip → almi-goethe → almi-icelandic → almi-danish → almi-norwegian →
+//   almi-swedish → almi-swiss  (you are here)
 // and every hop leaked the previous country's facts into user-facing copy. Real
 // examples found live in production, not hypotheticals:
 //   • almi-norwegian shipped `DK_UNIS = "the University of Copenhagen, Aarhus
@@ -20,10 +21,12 @@
 // dangerous cases are the ones where the LABEL was localized and the FACT was not
 // ("...and other Norwegian universities" passes a "Norway" grep). So this gate
 // bans the ancestors' proper nouns outright — any occurrence is a leak, since a
-// Swedish product has no reason to name Norwegian exams or Danish agencies.
+// Swiss product has no reason to name Swedish exams or Danish agencies.
 //
 // Runs before the build and FAILS it on any hit. If a future fork descends from
-// this repo, update BANNED to add Swedish nouns and keep the ancestors listed.
+// this repo, RE-CUT BANNED in both directions: add the Swiss nouns (fide, SEM,
+// canton names...), and REMOVE whatever the new country legitimately owns. See the
+// note on BANNED — inheriting this list unchanged is itself a fork bug.
 
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -45,15 +48,22 @@ const ALLOWLIST = new Map([
   // script, not user-facing copy, and it must name the ancestors to explain the
   // absence bug it exists to catch — Portugal missing from all five forks.
   ["scripts/seo/countries-axis-gate.mjs", "documents the lineage bugs it prevents; build script, never rendered"],
-  // REAL-WORLD REFERENCE DATA, not authored copy. Norway/Denmark/Iceland are
-  // legitimate ORIGIN countries for a Swedish product (someone really can move
-  // from Norway to Sweden), universities.json lists institutions worldwide as
-  // origin references, and Malmö's hub profile correctly mentions the Öresund
-  // link to Copenhagen. These axes are imported, not written — the fork risk
-  // lives in the prose that consumes them, which is NOT allowlisted.
-  ["src/data/seo/countries.json", "Norway/Denmark are valid origin countries"],
+  // site.ts names the ancestor domain ONLY inside the comment explaining why ten
+  // files hardcoded it and why there is now no fallback. The names appear in prose
+  // ABOUT the leak, never in a value: the sole export resolves from env and throws
+  // in production rather than guess. Verified by grepping the file for the noun
+  // outside a comment — if a real URL ever returns here, this entry must go.
+  ["src/lib/site.ts", "explains the ancestor-domain leak it fixes; emits no ancestor value"],
+  // REAL-WORLD REFERENCE DATA, not authored copy. Sweden/Norway/Denmark/Iceland are
+  // legitimate ORIGIN countries for a Swiss product (someone really can move from
+  // Sweden to Switzerland — and Sweden being the immediate ancestor does not stop
+  // Swedes emigrating). universities.json lists institutions worldwide as origin
+  // references, and Basel's hub profile correctly mentions the French and German
+  // borders. These axes are imported, not written — the fork risk lives in the prose
+  // that consumes them, which is NOT allowlisted.
+  ["src/data/seo/countries.json", "Sweden/Norway/Denmark are valid ORIGIN countries for a Swiss product — people move here from all of them"],
   ["src/data/seo/universities.json", "worldwide origin institutions"],
-  ["src/data/seo/hubs.json", "Malmö genuinely borders Denmark via the Öresund Bridge"],
+  ["src/data/seo/hubs.json", "Basel genuinely sits where Switzerland, France and Germany meet"],
 ]);
 
 // Per-line escape for prose that must NAME an ancestor to warn about it (e.g. the
@@ -61,8 +71,38 @@ const ALLOWLIST = new Map([
 // review: a line carrying this marker is asserting "I mean this on purpose".
 const LINE_ESCAPE = "hygiene-allow";
 
-// Ancestor proper nouns. A Swedish product naming any of these is a fork leak.
+// Ancestor proper nouns. A Swiss product naming any of these is a fork leak.
+// ⚠️ THIS LIST IS PRODUCT-SPECIFIC AND MUST BE RE-CUT AT EVERY FORK — IN BOTH
+// DIRECTIONS. Inheriting it unchanged is itself a fork bug, and AlmiSwiss proved it
+// twice on 2026-07-16:
+//
+//   ADD the immediate ancestor. Swedish was absent from the list this repo
+//   inherited, because in almi-swedish Swedish was the SUBJECT. The moment Sweden
+//   became an ancestor, every Swedish noun became a leak — and the gate was blind
+//   to precisely the country it had just been forked from. The gate is always
+//   weakest against the fork that just happened.
+//
+//   REMOVE what the new country legitimately owns. The inherited list banned
+//   "Schreiben", "Sprechen" and "Goethe-Institut" — correct for a Nordic product,
+//   WRONG here: German is one of Switzerland's national languages, and Goethe is an
+//   SEM-RECOGNISED certificate this product legitimately offers (see the CERTIFICATE
+//   track). Left in place, the gate would have banned this product's own subject
+//   matter and pushed us to delete true content to get a green build. A gate that
+//   fails on correct content is worse than no gate: it trains you to ignore it.
+//
+// Rule of thumb: BANNED = the ancestors' facts. NOT this product's facts, and NOT
+// the whole language just because an ancestor spoke it.
 const BANNED = [
+  // — Swedish (the IMMEDIATE ancestor — every noun below shipped as fact here) —
+  "Tisus", "SFI", "Svenska för invandrare", "Swedex",
+  "Medborgarskapsprovet", "Medborgarskapsprov",
+  "Universitets- och högskolerådet", "Migrationsverket", "Skolverket",
+  "Sverige i fokus", "Stockholms universitet", "Stockholmsmässan",
+  "Läsförståelse", "Hörförståelse", "Skriftlig framställning", "Muntlig framställning",
+  "Samhällskunskap", "utprövningsprov",
+  "Sverige", "Swedish", "Sweden",
+  "sv-SE",
+  "AlmiSwedish", "almi-swedish", "almiswedish",
   // — Norwegian —
   "Norskprøven", "Norskprøve", "Norskprov", "norskprove",
   "Bergenstesten", "Bergenstest",
@@ -82,8 +122,11 @@ const BANNED = [
   "Ríkisborgarapróf", "Útlendingastofnun", "Háskóli Íslands",
   "Iceland", "Icelandic",
   "is-IS",
-  // — Earlier ancestors (German / Portuguese / Dutch / CELPIP) —
-  "Goethe-Institut", "AlmiGoethe", "Schreiben", "Sprechen",
+  // — Earlier ancestors (Portuguese / Dutch / CELPIP) —
+  // NOTE what is deliberately NOT banned here any more: "Schreiben", "Sprechen",
+  // "Goethe-Institut". See the note above — those are Swiss subject matter now.
+  // Sibling PRODUCT names stay banned: naming AlmiGoethe in copy is still a leak.
+  "AlmiGoethe", "almi-goethe",
   "CAPLE", "Celpe-Bras", "AlmiPortuguese",
   "AlmiCELPIP", "AlmiDanish", "AlmiNorwegian", "AlmiIcelandic",
   "almi-danish", "almi-norwegian", "almi-icelandic",
@@ -130,8 +173,8 @@ for (const dir of SCAN_DIRS) {
 }
 
 // ── Structural audit of countries.json ────────────────────────────────────────
-// The noun-ban above allowlists this file, because Norway/Denmark ARE valid origins
-// for a Swedish product. That allowlist was a hole: on 2026-07-15 the file itself was
+// The noun-ban above allowlists this file, because Sweden/Norway/Denmark ARE valid
+// origins for a Swiss product. That allowlist was a hole: on 2026-07-15 the file was
 // found corrupted by a blind Denmark→Norway find-replace inherited from almi-norwegian —
 // the Denmark row renamed to slug "norway"/name "Norway" (its 🇩🇰 flag the only tell),
 // Iceland's name overwritten with "Norway", and two rows slugged "norway". Denmark had
@@ -140,7 +183,11 @@ for (const dir of SCAN_DIRS) {
 //
 // So audit the DATA, not the prose: flag emoji encode ISO-3166 alpha-2 (regional
 // indicators U+1F1E6–U+1F1FF → A–Z), which makes every row self-checking.
-const SELF_ISO = "SE"; // this product's own country — never a valid origin of itself
+const SELF_ISO = "CH"; // this product's own country — never a valid origin of itself
+// ⚠️ Was "SE" when this repo was forked: the gate believed it still WAS Sweden, and
+// so flagged Sweden — a perfectly valid origin for a Swiss product — as an illegal
+// self-origin. The tool built to catch fork leaks was itself an un-forked leak.
+// Whatever else changes at a fork, THIS line changes first.
 function isoFromFlag(flag) {
   const cp = [...flag];
   if (cp.length < 2) return "??";

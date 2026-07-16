@@ -1,4 +1,5 @@
 import { Resend } from "resend";
+import { SITE_URL } from "@/lib/site";
 
 let cachedClient: Resend | null = null;
 
@@ -39,7 +40,7 @@ const COLOR_INK = "#1a1a2e";
 const COLOR_TEXT = "#334155";
 const COLOR_TEXT_MUTED = "#475569";
 const COLOR_CORAL = "#FF7A6B";
-const SITE_URL = "https://almiswedish.almiworld.com";
+
 
 function shell(bodyInner: string): string {
   return `<!DOCTYPE html>
