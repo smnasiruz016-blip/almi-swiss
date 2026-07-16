@@ -1,0 +1,346 @@
+[
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Se présenter",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Présentez-vous : d'où venez-vous, depuis combien de temps vivez-vous ici, que faites-vous comme travail, et qui compose votre famille ?",
+      "criteria": [
+        "Répond aux quatre points de la consigne",
+        "Parle en phrases entières, pas en mots isolés",
+        "Est compréhensible, même avec un accent",
+        "Parle sans longues pauses entre les phrases"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Prendre un rendez-vous",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous téléphonez à un cabinet médical pour prendre rendez-vous. Dites qui vous êtes, ce que vous avez, et quand vous êtes disponible. La secrétaire vous propose un horaire qui ne vous convient pas : réagissez.",
+      "criteria": [
+        "Se nomme et dit le motif de l'appel",
+        "Propose des disponibilités concrètes",
+        "Refuse poliment l'horaire proposé et en propose un autre",
+        "Utilise les formules de politesse au téléphone"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Décrire le chemin",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Quelqu'un vous demande dans la rue comment aller de l'arrêt de bus à la poste. Décrivez le chemin.",
+      "criteria": [
+        "Donne les indications dans un ordre logique",
+        "Utilise des repères (à gauche, tout droit, après le passage piéton)",
+        "Donne une indication de durée ou de distance",
+        "Vérifie que la personne a compris"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Faire les courses",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au marché. Vous voulez un kilo de tomates et du fromage. Vous demandez aussi le prix, puis vous payez.",
+      "criteria": [
+        "Formule sa demande clairement",
+        "Demande le prix et comprend la réponse",
+        "Réagit correctement (payer, dire merci)",
+        "Comprend « septante » et « nonante » sans être déstabilisé"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "title": "Parler de sa journée",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Racontez une journée de travail ordinaire : quand vous vous levez, ce que vous faites, avec qui, et ce que vous faites le soir.",
+      "criteria": [
+        "Raconte dans un ordre chronologique",
+        "Utilise des indications de temps (d'abord, ensuite, vers midi)",
+        "Parle au présent de manière compréhensible",
+        "Parle assez longtemps sans s'arrêter"
+      ],
+      "minSeconds": 40
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Signaler un défaut à la régie",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "L'eau chaude de votre salle de bain ne fonctionne plus depuis deux jours. Vous téléphonez à la régie. Décrivez le problème et convenez de la suite. La personne vous propose un rendez-vous pendant vos heures de travail.",
+      "criteria": [
+        "Décrit le problème précisément et depuis quand",
+        "Dit clairement ce qu'il ou elle attend",
+        "Explique pourquoi l'horaire proposé ne va pas et propose une solution",
+        "Reste poli tout en défendant son intérêt",
+        "Résume ce qui a été convenu à la fin"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Au guichet de la commune",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au contrôle des habitants pour annoncer votre arrivée. L'employé vous demande un document que vous n'avez pas sur vous. Expliquez la situation et trouvez une solution.",
+      "criteria": [
+        "Explique le motif de sa venue",
+        "Réagit à la difficulté sans se bloquer",
+        "Demande une alternative (envoyer plus tard, autre document)",
+        "Pose des questions de compréhension si nécessaire",
+        "Reprend les points essentiels à la fin"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Parler à l'enseignante",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "L'enseignante de votre fils vous dit qu'il est souvent distrait en classe. Vous savez qu'il dort mal depuis le déménagement. Parlez-en avec elle et cherchez ensemble une solution.",
+      "criteria": [
+        "Écoute et réagit à ce qui est dit, sans monologuer",
+        "Apporte une information que l'enseignante n'a pas",
+        "Fait une proposition concrète",
+        "Pose au moins une question",
+        "Ton coopératif, ni sur la défensive ni accusateur"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Chez le médecin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez mal au dos depuis trois semaines. Décrivez au médecin ce que vous ressentez, depuis quand, ce qui aggrave la douleur, et ce que vous avez déjà essayé.",
+      "criteria": [
+        "Décrit les symptômes de façon différenciée, pas seulement « j'ai mal »",
+        "Situe dans le temps",
+        "Répond aux questions de suivi",
+        "Demande ce que signifie la suite (traitement, arrêt de travail)",
+        "Compréhensible sans que le médecin doive tout redemander"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Un malentendu avec un voisin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Votre voisin vous reproche d'avoir mis vos déchets dans le mauvais conteneur. Ce n'était pas vous. Répondez-lui.",
+      "criteria": [
+        "Contredit clairement, sans agressivité",
+        "Reste factuel",
+        "Propose une manière de clarifier",
+        "Préserve la relation de voisinage",
+        "Parle de manière fluide malgré la situation désagréable"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "title": "Expliquer son parcours",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Lors d'un entretien d'embauche, on vous demande : « Parlez-nous de votre parcours. Qu'avez-vous fait jusqu'ici et pourquoi ce poste ? »",
+      "criteria": [
+        "Raconte au passé de manière compréhensible",
+        "Relie le parcours au poste visé",
+        "Nomme des expériences concrètes, pas des généralités",
+        "Parle de son niveau de français de manière honnête si le sujet vient",
+        "Structure son propos (début, milieu, fin)"
+      ],
+      "minSeconds": 60
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Défendre une position à la séance",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Lors d'une séance de l'association du quartier, on discute de la fermeture de la rue de l'École aux voitures. Prenez position : dites ce que vous en pensez, pourquoi, et répondez à l'objection principale de l'autre camp.",
+      "criteria": [
+        "Prend une position claire et la garde",
+        "Étaie avec au moins deux arguments",
+        "Nomme l'objection adverse et y répond, sans la caricaturer",
+        "Parle de manière liée pendant 90 secondes, sans réciter une liste",
+        "Reste compréhensible même quand le contenu devient exigeant",
+        "Termine par une conclusion, pas en s'interrompant"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Expliquer une facture contestée",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous téléphonez à une entreprise au sujet d'une facture pour un abonnement que vous avez résilié. La personne au téléphone dit qu'elle ne voit aucune résiliation dans le système. Expliquez la situation et obtenez une suite.",
+      "criteria": [
+        "Expose les faits dans un ordre compréhensible",
+        "Renvoie à des preuves (confirmation, date)",
+        "Ne cède pas quand on le contredit, tout en restant courtois",
+        "Demande une suite concrète et une confirmation écrite",
+        "Gère les objections en direct",
+        "Reste fluide sous pression"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Parler de son intégration",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Lors d'un entretien à la commune, on vous demande : « Racontez-nous votre vie ici. Qu'est-ce qui a été difficile, qu'est-ce qui s'est bien passé, et qu'est-ce qui vous relie à cet endroit ? » Répondez honnêtement — les difficultés ne sont pas une mauvaise réponse.",
+      "criteria": [
+        "Répond aux trois volets de la question",
+        "Donne des exemples concrets plutôt que des formules générales",
+        "Parle au passé et au présent avec assurance",
+        "Peut nuancer (ce qui a été dur ET ce qui a aidé)",
+        "Parle de manière liée pendant 90 secondes",
+        "Reste soi-même : ce n'est pas un texte appris par cœur"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "title": "Comparer deux options",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Votre famille hésite : rester en ville, plus cher mais proche du travail et des écoles, ou s'installer dans un village, moins cher mais avec des trajets plus longs. Pesez le pour et le contre, puis dites ce que vous choisiriez et pourquoi.",
+      "criteria": [
+        "Traite réellement les deux options, pas seulement celle qui a sa préférence",
+        "Nomme des avantages et des inconvénients de chaque côté",
+        "Marque la comparaison par la langue (alors que, en revanche, par contre)",
+        "Arrive à une décision et la justifie",
+        "Parle 90 secondes de manière structurée",
+        "Ne se contredit pas en cours de route"
+      ],
+      "minSeconds": 90
+    },
+    "answer": null,
+    "maxPoints": 0
+  }
+]
