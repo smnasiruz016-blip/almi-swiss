@@ -4,14 +4,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
-import { examBySlug, SKILL_LABELS, TRACKS } from "@/lib/sv/registry";
-import { isFreeSkill } from "@/lib/sv/types";
-import type { SwedishSkill, SwedishTrack } from "@/lib/sv/types";
+import { examBySlug, SKILL_LABELS, TRACKS } from "@/lib/ch/registry";
+import { isFreeSkill } from "@/lib/ch/types";
+import type { SwissSkill, SwissTrack } from "@/lib/ch/types";
 
 // Derived from TRACKS so the tree and these labels can never drift apart.
-const TRACK_LABEL: Record<SwedishTrack, string> = Object.fromEntries(
+const TRACK_LABEL: Record<SwissTrack, string> = Object.fromEntries(
   TRACKS.map((t) => [t.track, `${t.label} — ${t.requires}`]),
-) as Record<SwedishTrack, string>;
+) as Record<SwissTrack, string>;
 
 export default async function ExamPage({
   params,
@@ -44,7 +44,7 @@ export default async function ExamPage({
       <section>
         <h2 className="text-lg font-semibold text-almi-ink">Practise by skill</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          {exam.skills.map((skill: SwedishSkill) => {
+          {exam.skills.map((skill: SwissSkill) => {
             const free = isFreeSkill(skill);
             const label = SKILL_LABELS[skill];
             return (
@@ -96,7 +96,7 @@ export default async function ExamPage({
       </Link>
 
       <p className="text-xs text-almi-text-muted">
-        Original to AlmiSwedish — never copied from official test material. Every readout is a
+        Original to AlmiSwiss — never copied from official test material. Every readout is a
         practice estimate.
       </p>
     </div>

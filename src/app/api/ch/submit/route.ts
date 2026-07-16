@@ -7,21 +7,21 @@ import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
-import { gradeObjective } from "@/lib/sv/grading";
-import { isObjectiveTask, isFreeSkill } from "@/lib/sv/types";
+import { gradeObjective } from "@/lib/ch/grading";
+import { isObjectiveTask, isFreeSkill } from "@/lib/ch/types";
 import type {
   ObjectiveAnswer,
-  SwedishSkill,
-  SwedishTaskType,
-} from "@/lib/sv/types";
+  SwissSkill,
+  SwissTaskType,
+} from "@/lib/ch/types";
 
 export const runtime = "nodejs";
 
 interface SubmitBody {
   itemId?: string;
   exam?: string;
-  skill?: SwedishSkill;
-  taskType?: SwedishTaskType;
+  skill?: SwissSkill;
+  taskType?: SwissTaskType;
   answer?: ObjectiveAnswer | null;
   maxPoints?: number;
   response?: unknown;

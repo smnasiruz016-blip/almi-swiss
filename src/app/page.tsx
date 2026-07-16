@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { TRACKS, examsByTrack } from "@/lib/sv/registry";
+import { TRACKS, examsByTrack } from "@/lib/ch/registry";
 import { TestimonialsSection } from "@/components/reviews/TestimonialsSection";
 
 // Re-render hourly so newly approved testimonials appear without a redeploy.
@@ -8,12 +8,12 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: {
-    absolute: "AlmiSwedish | Practise Swedish Exams with Honest Readiness",
+    absolute: "AlmiSwiss | Practise Swedish Exams with Honest Readiness",
   },
   description:
     "Sweden's new 2026 citizenship rules add a civic test, with a language test to follow. Practise SFI, Tisus and the new Medborgarskapsprov with honest AI readiness bands. Not affiliated with UHR.",
   openGraph: {
-    title: "AlmiSwedish — honest SFI, Tisus & Medborgarskapsprov practice",
+    title: "AlmiSwiss — honest SFI, Tisus & Medborgarskapsprov practice",
     description:
       "Original practice for the SFI ladder, academic Tisus and Sweden's new Medborgarskapsprov civic test — a readiness estimate shown honestly, not an inflated score.",
   },
@@ -52,7 +52,7 @@ const PRICING_LINES = [
 
 const FAQ = [
   {
-    q: "Which Swedish exams does AlmiSwedish cover?",
+    q: "Which Swedish exams does AlmiSwiss cover?",
     a: "The SFI ladder — SFI Courses A–B (≈A1–A2) and C–D (≈A2–B1+) — plus general Swedish B1–B2 and Tisus (≈C1, university admission, run by Stockholms universitet), all across Reading, Listening, Writing and Speaking. And Medborgarskapsprovet, Sweden's new citizenship test of knowledge about Swedish society. You pick your exam in your account, and your practice and full mock run for it.",
   },
   {
@@ -68,15 +68,15 @@ const FAQ = [
     a: "UHR has not published a pass mark, so nobody can honestly tell you — anyone quoting a number is guessing. We don't show one either. We show what you got right and where your gaps are.",
   },
   {
-    q: "Is my AlmiSwedish estimate my real exam result?",
-    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results. AlmiSwedish is not affiliated with UHR, and UHR does not endorse unofficial practice tests, including ours.",
+    q: "Is my AlmiSwiss estimate my real exam result?",
+    a: "No. It's a practice readiness estimate to guide your prep — a per-skill band (Clear or Borderline) against the real criteria. Only the official assessments issue real results. AlmiSwiss is not affiliated with UHR, and UHR does not endorse unofficial practice tests, including ours.",
   },
   {
     q: "Is the practice copied from a real exam?",
     a: "No. Every text, audio transcript, writing task, speaking prompt and civic question is original, written from scratch to mirror the real task types. Our civic questions are written against the same 13 areas of Swedish society that UHR's own free study material, Sverige i fokus, covers — they are not UHR's question bank.",
   },
   {
-    q: "How much does AlmiSwedish cost?",
+    q: "How much does AlmiSwiss cost?",
     a: "$12 per month with a 7-day free trial, monthly only, cancel anytime. Reading, Listening and civic practice are free; AI feedback on Writing and Speaking and the full timed mock are part of the subscription.",
   },
 ] as const;
@@ -149,7 +149,7 @@ export default function Home() {
         <div aria-hidden className="pointer-events-none absolute -bottom-16 -left-16 z-0 h-80 w-80 rounded-full bg-almi-coral/10 blur-3xl" />
         <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div>
-            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwedish · Swedish exam &amp; civic practice</p>
+            <p className="text-sm font-bold uppercase tracking-widest text-almi-accent-deep">AlmiSwiss · Swedish exam &amp; civic practice</p>
             <h1 className="mt-4 text-balance text-4xl font-semibold leading-[1.08] text-almi-ink sm:text-5xl">
               Practise Swedish with <span className="text-almi-coral">honest readiness.</span>
             </h1>
@@ -187,7 +187,7 @@ export default function Home() {
             (<strong>Medborgarskapsprovet</strong>) by the <strong>Swedish Council for Higher Education (UHR)</strong>;{" "}
             <strong>SFI</strong> within the municipal adult-education system (<strong>Skolverket</strong>); and{" "}
             <strong>Tisus</strong> by Stockholms universitet — so anyone promising a guaranteed official grade
-            from an online simulation is guessing. AlmiSwedish does the honest thing instead: we estimate your
+            from an online simulation is guessing. AlmiSwiss does the honest thing instead: we estimate your
             readiness from your practice and map it into clear bands (Clear or Borderline) against each
             exam&apos;s real criteria.
           </p>
@@ -301,7 +301,7 @@ export default function Home() {
             ))}
           </ul>
           <p className="mx-auto mt-6 max-w-xl text-sm text-almi-text-muted">
-            25% of AlmiSwedish proceeds fund the Shamool Foundation&apos;s social mission — free primary-school education and daily hot meals for underprivileged children in Lahore, Pakistan.
+            25% of AlmiSwiss proceeds fund the Shamool Foundation&apos;s social mission — free primary-school education and daily hot meals for underprivileged children in Lahore, Pakistan.
           </p>
           <div className="mt-8">
             <Link href="/signup" className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep">

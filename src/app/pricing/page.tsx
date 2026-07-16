@@ -4,12 +4,12 @@ import { getCurrentUser } from "@/lib/auth";
 import { isBillingEnabled } from "@/lib/billing/plans";
 // Family GlobalHeader + GlobalFooter come from the root layout.
 import { PricingCheckoutButton } from "./PricingCheckoutButton";
-import { ALL_EXAMS } from "@/lib/sv/registry";
+import { ALL_EXAMS } from "@/lib/ch/registry";
 
 export const metadata: Metadata = {
   title: "Pricing — 7-day free trial",
   description:
-    "AlmiSwedish Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice, and honest readiness estimates across the Swedish ladder — SFI Courses A–B and C–D, Swedish B1–B2, Tisus — and Medborgarskapsprovet.",
+    "AlmiSwiss Pro — $12/month, cancel anytime. 7-day free trial. Honest AI feedback on writing and speaking, full-length practice, and honest readiness estimates across the Swedish ladder — SFI Courses A–B and C–D, Swedish B1–B2, Tisus — and Medborgarskapsprovet.",
 };
 
 const FEATURES = [

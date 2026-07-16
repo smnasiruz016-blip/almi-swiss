@@ -6,10 +6,10 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
-import { examBySlug } from "@/lib/sv/registry";
-import { isFreeSkill } from "@/lib/sv/types";
-import { pickPractice } from "@/lib/sv/items";
-import { MockRunner, type MockSection } from "@/components/sv/MockRunner";
+import { examBySlug } from "@/lib/ch/registry";
+import { isFreeSkill } from "@/lib/ch/types";
+import { pickPractice } from "@/lib/ch/items";
+import { MockRunner, type MockSection } from "@/components/ch/MockRunner";
 
 export default async function MockPage({
   params,

@@ -12,7 +12,7 @@ import {
   TRACKS,
   examsByTrack,
   type ExamMeta,
-} from "@/lib/sv/registry";
+} from "@/lib/ch/registry";
 
 function ExamCard({ exam }: { exam: ExamMeta }) {
   return (
@@ -44,7 +44,7 @@ export default async function PracticePage() {
     <div className="space-y-10">
       <header>
         <p className="text-xs font-bold uppercase tracking-wider text-almi-accent-deep">
-          AlmiSwedish · practice
+          AlmiSwiss · practice
         </p>
         <h1 className="mt-1 text-3xl font-semibold text-almi-ink">Choose a test</h1>
         <p className="mt-2 max-w-2xl text-sm text-almi-text">
@@ -71,7 +71,7 @@ export default async function PracticePage() {
       ))}
 
       <p className="text-xs text-almi-text-muted">
-        Every task here is written from scratch by AlmiSwedish. We never copy or reproduce official
+        Every task here is written from scratch by AlmiSwiss. We never copy or reproduce official
         test material, and we are not affiliated with UHR. Readiness bands are for practice only —
         confirm the exam you need with the body that runs it: UHR for Medborgarskapsprovet,
         Migrationsverket for citizenship applications, Stockholms universitet for Tisus and

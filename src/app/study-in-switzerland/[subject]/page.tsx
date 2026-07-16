@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SUBJECT_BY_SLUG, SUBJECTS, COUNTRIES, UNIVERSITIES, studyPath } from "@/lib/seo/axes";
-import { examBySlug } from "@/lib/sv/registry";
+import { examBySlug } from "@/lib/ch/registry";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return SUBJECTS.map((s) => ({ subject: s.slug })); }
@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const s = SUBJECT_BY_SLUG.get(subject);
   if (!s) return { title: "Not found" };
   return {
-    title: { absolute: `Study ${s.name} in Sweden — Swedish-language pathway | AlmiSwedish` },
+    title: { absolute: `Study ${s.name} in Sweden — Swedish-language pathway | AlmiSwiss` },
     description: `The Swedish-language route for studying ${s.name} in Sweden — typical CEFR level and honest readiness practice, by country of origin.`,
     alternates: { canonical: `/study-in-switzerland/${s.slug}` },
   };

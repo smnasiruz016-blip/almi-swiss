@@ -1,4 +1,4 @@
-// AlmiSwedish-branded header — own wordmark + the family sibling nav + product entry
+// AlmiSwiss-branded header — own wordmark + the family sibling nav + product entry
 // points. Desktop uses the grouped 2-row layout (Nav Task 1): row 1 = family strip
 // (canonical names, overflow behind "More ▾"), row 2 = product links + CTA. Family
 // labels come from the canonical single source (src/lib/nav/family.ts).
@@ -8,11 +8,11 @@ import { familyStrip } from "@/lib/nav/family";
 import { FamilyNav } from "./nav/FamilyNav";
 import { HeaderMobileMenu } from "./HeaderMobileMenu";
 
-// The family strip for this repo = every product except AlmiSwedish (its own brand
+// The family strip for this repo = every product except AlmiSwiss (its own brand
 // wordmark is this product's home) + the network links. Sourced from the canonical list.
 export const FAMILY_NAV = familyStrip("swedish");
 
-// Product entry points into AlmiSwedish's own practice product.
+// Product entry points into AlmiSwiss's own practice product.
 export const PRODUCT_NAV = [
   { label: "Practice", href: "/practice" },
   { label: "Log in", href: "/login" },
@@ -27,11 +27,11 @@ export function GlobalHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link
           href="/"
-          aria-label="AlmiSwedish home"
+          aria-label="AlmiSwiss home"
           className="inline-flex shrink-0 items-center gap-2 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-almi-coral focus-visible:ring-offset-2 focus-visible:ring-offset-almi-bg"
         >
           <span aria-hidden className="flex h-9 w-9 items-center justify-center rounded-lg bg-almi-coral text-lg font-bold text-white">A</span>
-          <span className="text-xl font-semibold tracking-tight text-almi-ink">AlmiSwedish</span>
+          <span className="text-xl font-semibold tracking-tight text-almi-ink">AlmiSwiss</span>
         </Link>
 
         {/* Desktop: grouped 2-row — family strip on top, product actions below. */}

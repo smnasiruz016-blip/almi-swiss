@@ -34,7 +34,7 @@ export const FAMILY_PRODUCTS: readonly FamilyProduct[] = [
   { key: "icelandic", name: "AlmiIcelandic", href: "https://almiicelandic.almiworld.com/" },
   { key: "danish", name: "AlmiDanish", href: "https://almidanish.almiworld.com/" },
   { key: "norwegian", name: "AlmiNorwegian", href: "https://alminorwegian.almiworld.com/" },
-  { key: "swedish", name: "AlmiSwedish", href: "https://swedish.almiworld.com/" },
+  { key: "swedish", name: "AlmiSwiss", href: "https://swedish.almiworld.com/" },
 ];
 
 // Non-product network links — unchanged by the naming doctrine.

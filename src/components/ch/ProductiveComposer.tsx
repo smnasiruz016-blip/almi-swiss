@@ -10,10 +10,10 @@
 
 import { useMemo, useState } from "react";
 import type {
-  SwedishSkill,
+  SwissSkill,
   ProductivePayload,
-} from "@/lib/sv/types";
-import { SKILL_LABELS } from "@/lib/sv/registry";
+} from "@/lib/ch/types";
+import { SKILL_LABELS } from "@/lib/ch/registry";
 import {
   submitAttempt,
   gradeProductive,
@@ -63,7 +63,7 @@ export function ProductiveComposer({
   items,
 }: {
   examName: string;
-  skill: SwedishSkill;
+  skill: SwissSkill;
   items: ProductiveItem[];
 }) {
   const [step, setStep] = useState(0);
@@ -310,7 +310,7 @@ function Summary({
   onReset,
 }: {
   examName: string;
-  skill: SwedishSkill;
+  skill: SwissSkill;
   ratings: string[];
   onReset: () => void;
 }) {

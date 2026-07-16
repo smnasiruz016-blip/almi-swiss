@@ -12,7 +12,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
   {
     // This site's own pages — internal nav. Honest Medborgarskapsprovet, Tisus and
     // SFI/CEFR Swedish practice; 25% of proceeds support the Shamool Foundation.
-    title: "AlmiSwedish",
+    title: "AlmiSwiss",
     links: [
       { label: "Practice", href: "/practice" },
       { label: "Pricing", href: "/pricing" },

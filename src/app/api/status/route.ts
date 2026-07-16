@@ -1,4 +1,4 @@
-// Lightweight ops/health endpoint: reports active SwedishItem counts per
+// Lightweight ops/health endpoint: reports active SwissItem counts per
 // exam/skill (no PII, counts only). DB-optional — never 500s, so a deploy can be
 // verified before Neon is wired (dbError is surfaced honestly instead).
 

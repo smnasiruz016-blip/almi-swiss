@@ -7,7 +7,7 @@ import {
   SOCIETY_FORMAT_HEDGE,
   ALL_EXAMS,
   type ExamMeta,
-} from "@/lib/sv/registry";
+} from "@/lib/ch/registry";
 
 // Exam names come from the registry so this page can never drift from the tree.
 const EXAM_NAMES = ALL_EXAMS.map((e) => e.name).join(", ");
@@ -15,7 +15,7 @@ const EXAM_NAMES = ALL_EXAMS.map((e) => e.name).join(", ");
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Swedish exams — SFI, Swedish B1–B2, Tisus & Medborgarskapsprovet | AlmiSwedish",
+      "Swedish exams — SFI, Swedish B1–B2, Tisus & Medborgarskapsprovet | AlmiSwiss",
   },
   description: `The Swedish exams for citizenship, university, getting started and building proficiency — ${EXAM_NAMES}. Honest per-skill readiness practice, never an official result.`,
   alternates: { canonical: "/exams" },
@@ -43,7 +43,7 @@ function ExamList({ exams }: { exams: ExamMeta[] }) {
   );
 }
 
-export default function SwedishExamsHub() {
+export default function SwissTestsHub() {
   return (
     <main className="bg-almi-bg text-almi-text">
       <div className="mx-auto max-w-4xl px-6 py-12">
@@ -78,7 +78,7 @@ export default function SwedishExamsHub() {
             develops, administers and marks it; Migrationsverket assesses citizenship applications.
             The first sitting, on 15 August 2026, is a pilot (utprövningsprov) and free of charge —
             not a general launch. {SOCIETY_FORMAT_HEDGE} Our questions are original practice, not the
-            official question bank, and AlmiSwedish is not affiliated with UHR.
+            official question bank, and AlmiSwiss is not affiliated with UHR.
           </p>
           <ExamList exams={KNOWLEDGE_EXAMS} />
           <p className="mt-4 text-sm text-almi-text-muted">{LANGUAGE_TEST_HEDGE}</p>

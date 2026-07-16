@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ROLE_BY_SLUG, ROLES, COUNTRIES, HUBS, jobsPath } from "@/lib/seo/axes";
-import { examBySlug } from "@/lib/sv/registry";
+import { examBySlug } from "@/lib/ch/registry";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return ROLES.map((r) => ({ role: r.slug })); }
@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const r = ROLE_BY_SLUG.get(role);
   if (!r) return { title: "Not found" };
   return {
-    title: { absolute: `Work in Sweden as a ${r.name} — Swedish you'll need | AlmiSwedish` },
+    title: { absolute: `Work in Sweden as a ${r.name} — Swedish you'll need | AlmiSwiss` },
     description: `How much Swedish a ${r.name} needs in Sweden, which CEFR level, and honest readiness practice — by country of origin and city.`,
     alternates: { canonical: `/work-in-switzerland/${r.slug}` },
   };

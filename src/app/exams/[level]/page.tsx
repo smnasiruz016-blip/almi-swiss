@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ALL_EXAMS, examBySlug } from "@/lib/sv/registry";
+import { ALL_EXAMS, examBySlug } from "@/lib/ch/registry";
 import { buildLevelPage } from "@/lib/seo/content";
 import { FunnelPage } from "@/components/seo/FunnelPage";
 

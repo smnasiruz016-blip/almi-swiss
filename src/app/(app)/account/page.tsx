@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import type { SwedishExam } from "@prisma/client";
+import type { SwissExam } from "@prisma/client";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { ALL_EXAMS, TRACKS } from "@/lib/sv/registry";
+import { ALL_EXAMS, TRACKS } from "@/lib/ch/registry";
 import {
   getUserPlan,
   PLAN_DISPLAY_NAME,
@@ -25,7 +25,7 @@ async function setExam(formData: FormData) {
   const valid = EXAM_VALUES.includes(value);
   await prisma.user.update({
     where: { id: user.id },
-    data: { targetExam: valid ? (value as SwedishExam) : null },
+    data: { targetExam: valid ? (value as SwissExam) : null },
   });
   redirect("/account?saved=1");
 }

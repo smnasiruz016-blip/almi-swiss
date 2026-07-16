@@ -11,7 +11,7 @@ import type {
   MatchingPayload,
   ClozePayload,
   OrderingPayload,
-} from "@/lib/sv/types";
+} from "@/lib/ch/types";
 import type { RunnerItem } from "./shared";
 import { TtsAudio } from "./TtsAudio";
 

@@ -4,7 +4,7 @@ import {
   jobsComboAtIndex, studyPath, jobsPath,
 } from "@/lib/seo/axes";
 import { TAUGHT_STUDY_TOTAL, taughtStudyComboAtIndex } from "@/lib/seo/taught-index";
-import { ALL_EXAMS } from "@/lib/sv/registry";
+import { ALL_EXAMS } from "@/lib/ch/registry";
 import { SITE_URL as SITE } from "@/lib/site";
 
 

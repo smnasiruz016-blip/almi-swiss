@@ -6,12 +6,12 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
-import { examBySlug, SKILL_LABELS } from "@/lib/sv/registry";
-import { isFreeSkill } from "@/lib/sv/types";
-import type { SwedishSkill } from "@/lib/sv/types";
-import { pickPractice } from "@/lib/sv/items";
-import { PracticeRunner } from "@/components/sv/PracticeRunner";
-import { ProductiveComposer } from "@/components/sv/ProductiveComposer";
+import { examBySlug, SKILL_LABELS } from "@/lib/ch/registry";
+import { isFreeSkill } from "@/lib/ch/types";
+import type { SwissSkill } from "@/lib/ch/types";
+import { pickPractice } from "@/lib/ch/items";
+import { PracticeRunner } from "@/components/ch/PracticeRunner";
+import { ProductiveComposer } from "@/components/ch/ProductiveComposer";
 
 export default async function SkillRunnerPage({
   params,
@@ -26,7 +26,7 @@ export default async function SkillRunnerPage({
 
   const skill = exam.skills.find(
     (s) => s.toLowerCase() === skillParam.toLowerCase(),
-  ) as SwedishSkill | undefined;
+  ) as SwissSkill | undefined;
   if (!skill) notFound();
 
   // SKILL-SPLIT GUARD: objective skills (Reading/Listening) are free to taste;
@@ -91,7 +91,7 @@ export default async function SkillRunnerPage({
       )}
 
       <p className="text-xs text-almi-text-muted">
-        Original to AlmiSwedish. Every readout is a per-skill readiness band for practice, not an
+        Original to AlmiSwiss. Every readout is a per-skill readiness band for practice, not an
         official UHR result.
       </p>
     </div>

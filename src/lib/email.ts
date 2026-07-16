@@ -16,12 +16,12 @@ function getResendClient(): Resend {
 
 // From-address. EMAIL_FROM is OPTIONAL — if unset we use the verified family
 // sender, so the only env var email actually needs is RESEND_API_KEY.
-const DEFAULT_FROM = "AlmiSwedish <almiworld@almiworld.com>";
+const DEFAULT_FROM = "AlmiSwiss <almiworld@almiworld.com>";
 
 function getFromAddress(): string {
   const addr = process.env.EMAIL_FROM?.trim();
   if (!addr) return DEFAULT_FROM;
-  return addr.includes("<") ? addr : `AlmiSwedish <${addr}>`;
+  return addr.includes("<") ? addr : `AlmiSwiss <${addr}>`;
 }
 
 function escapeHtml(s: string): string {
@@ -33,7 +33,7 @@ function escapeHtml(s: string): string {
     .replace(/'/g, "&#39;");
 }
 
-// AlmiSwedish palette — mirrors src/lib/brand.ts.
+// AlmiSwiss palette — mirrors src/lib/brand.ts.
 const COLOR_BG = "#FFFBF5";
 const COLOR_PAPER = "#FFFFFF";
 const COLOR_INK = "#1a1a2e";
@@ -48,7 +48,7 @@ function shell(bodyInner: string): string {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>AlmiSwedish</title>
+    <title>AlmiSwiss</title>
   </head>
   <body style="margin:0;padding:24px 12px;background-color:${COLOR_BG};font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;color:${COLOR_TEXT};">
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:${COLOR_BG};">
@@ -58,7 +58,7 @@ function shell(bodyInner: string): string {
             <tr>
               <td style="font-size:16px;line-height:1.6;color:${COLOR_TEXT};">
                 ${bodyInner}
-                <p style="margin:24px 0 0 0;color:${COLOR_TEXT_MUTED};font-size:14px;">— AlmiSwedish<br /><a href="${SITE_URL}" style="color:${COLOR_TEXT_MUTED};">${SITE_URL}</a></p>
+                <p style="margin:24px 0 0 0;color:${COLOR_TEXT_MUTED};font-size:14px;">— AlmiSwiss<br /><a href="${SITE_URL}" style="color:${COLOR_TEXT_MUTED};">${SITE_URL}</a></p>
               </td>
             </tr>
           </table>
@@ -86,7 +86,7 @@ function renderPasswordResetHtml(resetUrl: string): string {
   const safe = escapeHtml(resetUrl);
   return shell(`
     <p style="margin:0 0 16px 0;">Assalam o alaikum,</p>
-    <p style="margin:0 0 16px 0;">Someone (hopefully you) requested a password reset for your AlmiSwedish account.</p>
+    <p style="margin:0 0 16px 0;">Someone (hopefully you) requested a password reset for your AlmiSwiss account.</p>
     <p style="margin:0 0 8px 0;">To set a new password, click the button below:</p>
     ${ctaButton(safe, "Reset my password")}
     <p style="margin:0 0 8px 0;font-size:14px;color:${COLOR_TEXT_MUTED};">Or copy and paste this link:</p>
@@ -99,7 +99,7 @@ function renderPasswordResetHtml(resetUrl: string): string {
 function renderPasswordResetText(resetUrl: string): string {
   return `Assalam o alaikum,
 
-Someone (hopefully you) requested a password reset for your AlmiSwedish account.
+Someone (hopefully you) requested a password reset for your AlmiSwiss account.
 
 To set a new password, click this link:
 ${resetUrl}
@@ -108,7 +108,7 @@ This link expires in 1 hour and can only be used once.
 
 If you didn't request this, you can safely ignore this email — your password won't change.
 
-— AlmiSwedish
+— AlmiSwiss
 ${SITE_URL}
 `;
 }
@@ -121,7 +121,7 @@ export async function sendPasswordResetEmail(input: {
   const result = await client.emails.send({
     from: getFromAddress(),
     to: input.to,
-    subject: "Reset your AlmiSwedish password",
+    subject: "Reset your AlmiSwiss password",
     html: renderPasswordResetHtml(input.resetUrl),
     text: renderPasswordResetText(input.resetUrl),
   });
@@ -136,28 +136,28 @@ function renderEmailVerificationHtml(verifyUrl: string): string {
   const safe = escapeHtml(verifyUrl);
   return shell(`
     <p style="margin:0 0 16px 0;">Assalam o alaikum,</p>
-    <p style="margin:0 0 16px 0;">Welcome to AlmiSwedish. One more step — please confirm this email address so we know it's really you.</p>
+    <p style="margin:0 0 16px 0;">Welcome to AlmiSwiss. One more step — please confirm this email address so we know it's really you.</p>
     ${ctaButton(safe, "Verify my email")}
     <p style="margin:0 0 8px 0;font-size:14px;color:${COLOR_TEXT_MUTED};">Or copy and paste this link:</p>
     <p style="margin:0 0 16px 0;font-size:14px;color:${COLOR_TEXT_MUTED};word-break:break-all;"><a href="${safe}" style="color:${COLOR_TEXT_MUTED};">${safe}</a></p>
     <p style="margin:0 0 16px 0;">This link expires in 24 hours.</p>
-    <p style="margin:0;">If you didn't sign up for AlmiSwedish, you can safely ignore this email.</p>
+    <p style="margin:0;">If you didn't sign up for AlmiSwiss, you can safely ignore this email.</p>
   `);
 }
 
 function renderEmailVerificationText(verifyUrl: string): string {
   return `Assalam o alaikum,
 
-Welcome to AlmiSwedish. One more step — please confirm this email address so we know it's really you.
+Welcome to AlmiSwiss. One more step — please confirm this email address so we know it's really you.
 
 Click this link to verify:
 ${verifyUrl}
 
 This link expires in 24 hours.
 
-If you didn't sign up for AlmiSwedish, you can safely ignore this email.
+If you didn't sign up for AlmiSwiss, you can safely ignore this email.
 
-— AlmiSwedish
+— AlmiSwiss
 ${SITE_URL}
 `;
 }
@@ -170,7 +170,7 @@ export async function sendEmailVerification(input: {
   const result = await client.emails.send({
     from: getFromAddress(),
     to: input.to,
-    subject: "Verify your AlmiSwedish email",
+    subject: "Verify your AlmiSwiss email",
     html: renderEmailVerificationHtml(input.verifyUrl),
     text: renderEmailVerificationText(input.verifyUrl),
   });
@@ -190,7 +190,7 @@ function renderWelcomeHtml(name: string | null | undefined): string {
   const practiceUrl = `${SITE_URL}/practice`;
   return shell(`
     <p style="margin:0 0 16px 0;">${greeting(name)}</p>
-    <p style="margin:0 0 16px 0;">Your email is confirmed and your AlmiSwedish account is ready.</p>
+    <p style="margin:0 0 16px 0;">Your email is confirmed and your AlmiSwiss account is ready.</p>
     <p style="margin:0 0 8px 0;">You can start practising exam questions right away. Your readiness score is honest — it reflects only the questions you have actually answered, so what you see is where you really stand.</p>
     ${ctaButton(practiceUrl, "Start practising")}
     <p style="margin:0 0 8px 0;font-size:14px;color:${COLOR_TEXT_MUTED};">Or open <a href="${practiceUrl}" style="color:${COLOR_TEXT_MUTED};">${practiceUrl}</a></p>
@@ -202,7 +202,7 @@ function renderWelcomeText(name: string | null | undefined): string {
   const g = name?.trim() ? `Assalam o alaikum ${name.trim()},` : "Assalam o alaikum,";
   return `${g}
 
-Your email is confirmed and your AlmiSwedish account is ready.
+Your email is confirmed and your AlmiSwiss account is ready.
 
 You can start practising exam questions right away. Your readiness score is honest — it reflects only the questions you have actually answered, so what you see is where you really stand.
 
@@ -210,7 +210,7 @@ Start practising: ${SITE_URL}/practice
 
 If you have any question, just reply to this email.
 
-— AlmiSwedish
+— AlmiSwiss
 ${SITE_URL}
 `;
 }
@@ -223,7 +223,7 @@ export async function sendWelcomeEmail(input: {
   const result = await client.emails.send({
     from: getFromAddress(),
     to: input.to,
-    subject: "Welcome to AlmiSwedish",
+    subject: "Welcome to AlmiSwiss",
     html: renderWelcomeHtml(input.name),
     text: renderWelcomeText(input.name),
   });
@@ -256,14 +256,14 @@ function renderSubscriptionHtml(input: {
   const accountUrl = `${SITE_URL}/account`;
   const plan = input.planLabel?.trim()
     ? escapeHtml(input.planLabel.trim())
-    : "AlmiSwedish Premium";
+    : "AlmiSwiss Premium";
   const trialEndStr = formatDateUTC(input.trialEnd);
 
   const statusBlock = input.isTrial
     ? `<p style="margin:0 0 16px 0;">Your free trial of ${plan} has started, and you now have full access to every practice feature.</p>
        ${
          trialEndStr
-           ? `<p style="margin:0 0 16px 0;">You will not be charged until <strong>${trialEndStr}</strong>. If AlmiSwedish isn't right for you, cancel any time before then from your account and you won't pay anything.</p>`
+           ? `<p style="margin:0 0 16px 0;">You will not be charged until <strong>${trialEndStr}</strong>. If AlmiSwiss isn't right for you, cancel any time before then from your account and you won't pay anything.</p>`
            : `<p style="margin:0 0 16px 0;">You can cancel any time before your trial ends from your account, and you won't be charged.</p>`
        }`
     : `<p style="margin:0 0 16px 0;">Your ${plan} subscription is active, and you now have full access to every practice feature.</p>`;
@@ -286,12 +286,12 @@ function renderSubscriptionText(input: {
   const g = input.name?.trim()
     ? `Assalam o alaikum ${input.name.trim()},`
     : "Assalam o alaikum,";
-  const plan = input.planLabel?.trim() || "AlmiSwedish Premium";
+  const plan = input.planLabel?.trim() || "AlmiSwiss Premium";
   const trialEndStr = formatDateUTC(input.trialEnd);
   const statusBlock = input.isTrial
     ? `Your free trial of ${plan} has started, and you now have full access to every practice feature.\n\n${
         trialEndStr
-          ? `You will not be charged until ${trialEndStr}. If AlmiSwedish isn't right for you, cancel any time before then from your account and you won't pay anything.`
+          ? `You will not be charged until ${trialEndStr}. If AlmiSwiss isn't right for you, cancel any time before then from your account and you won't pay anything.`
           : `You can cancel any time before your trial ends from your account, and you won't be charged.`
       }`
     : `Your ${plan} subscription is active, and you now have full access to every practice feature.`;
@@ -305,7 +305,7 @@ Manage your subscription: ${SITE_URL}/account
 
 Questions? Just reply to this email.
 
-— AlmiSwedish
+— AlmiSwiss
 ${SITE_URL}
 `;
 }
@@ -322,8 +322,8 @@ export async function sendSubscriptionConfirmationEmail(input: {
     from: getFromAddress(),
     to: input.to,
     subject: input.isTrial
-      ? "Your AlmiSwedish trial has started"
-      : "Your AlmiSwedish subscription is active",
+      ? "Your AlmiSwiss trial has started"
+      : "Your AlmiSwiss subscription is active",
     html: renderSubscriptionHtml(input),
     text: renderSubscriptionText(input),
   });

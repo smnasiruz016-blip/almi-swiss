@@ -14,8 +14,8 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
-import { examBySlug } from "@/lib/sv/registry";
-import type { SwedishSkill, SwedishTaskType } from "@/lib/sv/types";
+import { examBySlug } from "@/lib/ch/registry";
+import type { SwissSkill, SwissTaskType } from "@/lib/ch/types";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -23,8 +23,8 @@ export const maxDuration = 60;
 interface GradeBody {
   itemId?: string;
   exam?: string;
-  skill?: SwedishSkill;
-  taskType?: SwedishTaskType;
+  skill?: SwissSkill;
+  taskType?: SwissTaskType;
   title?: string;
   prompt?: string;
   criteria?: string[];

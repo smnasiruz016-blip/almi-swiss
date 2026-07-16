@@ -132,6 +132,24 @@ const BANNED = [
   "almi-danish", "almi-norwegian", "almi-icelandic",
 ];
 
+// SELF-CHECK. On 2026-07-16 a blanket find-replace of the ancestor's product name
+// across the repo also rewrote THIS list, so the gate began banning "AlmiSwiss" —
+// this product's own name — and reported 90 false positives that looked exactly like
+// a real leak storm. The irony is the lesson: a careless global replace is the very
+// thing this gate exists to catch, and it caught it only because the count moved the
+// wrong way. Assert it outright rather than relying on someone noticing.
+const SELF_NAMES = ["AlmiSwiss", "almi-swiss", "almiswiss"];
+for (const n of SELF_NAMES) {
+  if (BANNED.some((b) => b.toLowerCase() === n.toLowerCase())) {
+    console.error("");
+    console.error(`FORK-HYGIENE GATE IS MISCONFIGURED: BANNED contains "${n}", which is THIS product's own name.`);
+    console.error("Every legitimate mention of ourselves would be reported as an ancestor leak.");
+    console.error("Almost certainly a global find-replace that rewrote the banned list. Fix BANNED.");
+    console.error("");
+    process.exit(2);
+  }
+}
+
 // `SIRI` and `UDI` need word boundaries — they collide with ordinary substrings.
 const BANNED_WORD = ["UDI", "SIRI"];
 

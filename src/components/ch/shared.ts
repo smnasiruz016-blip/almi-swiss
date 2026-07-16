@@ -2,18 +2,18 @@
 // components. Payloads stay `unknown` and are narrowed by taskType at render.
 
 import type {
-  SwedishExam,
-  SwedishSkill,
-  SwedishTaskType,
+  SwissExam,
+  SwissSkill,
+  SwissTaskType,
   ObjectiveAnswer,
-} from "@/lib/sv/types";
+} from "@/lib/ch/types";
 
 export interface RunnerItem {
   title: string;
   prompt: string;
-  exam: SwedishExam;
-  skill: SwedishSkill;
-  taskType: SwedishTaskType;
+  exam: SwissExam;
+  skill: SwissSkill;
+  taskType: SwissTaskType;
   payload: unknown;
   answer: ObjectiveAnswer | null;
   maxPoints: number;
@@ -36,7 +36,7 @@ export function ttsLang(): string {
 /** POST a graded/echoed attempt to the submit API. DB-optional, never throws. */
 export async function submitAttempt(body: unknown): Promise<SubmitResult | null> {
   try {
-    const res = await fetch("/api/sv/submit", {
+    const res = await fetch("/api/ch/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
@@ -68,16 +68,16 @@ export type GradeOutcome =
  * self-rating flow. Never throws.
  */
 export async function gradeProductive(body: {
-  exam: SwedishExam;
-  skill: SwedishSkill;
-  taskType: SwedishTaskType;
+  exam: SwissExam;
+  skill: SwissSkill;
+  taskType: SwissTaskType;
   title: string;
   prompt: string;
   criteria: string[];
   response: string;
 }): Promise<GradeOutcome> {
   try {
-    const res = await fetch("/api/sv/grade", {
+    const res = await fetch("/api/ch/grade", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),

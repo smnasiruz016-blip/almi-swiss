@@ -7,7 +7,7 @@
 import { buildStudyPage, buildJobsPage, buildLevelPage } from "@/lib/seo/content";
 import { SUBJECT_BY_SLUG, COUNTRY_BY_SLUG, UNI_BY_SLUG, ROLE_BY_SLUG, HUB_BY_SLUG } from "@/lib/seo/axes";
 import { resolveOriginBlock } from "@/lib/seo/origin-localization";
-import { leadExam } from "@/lib/sv/registry";
+import { leadExam } from "@/lib/ch/registry";
 
 function show(title: string, p: ReturnType<typeof buildStudyPage>) {
   console.log("\n" + "=".repeat(80) + "\n" + title + "\n" + "=".repeat(80));
