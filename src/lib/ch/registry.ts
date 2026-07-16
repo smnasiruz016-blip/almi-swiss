@@ -224,7 +224,8 @@ interface ExamTemplate {
   name: (l: SwissLanguage) => string;
   cefr: string;
   blurb: (l: SwissLanguage) => string;
-  mockMinutes: number;
+  /** Optional — see ExamMeta.mockMinutes. Absent = this track has no mock. */
+  mockMinutes?: number;
   lead?: boolean;
   cantonDependent?: boolean;
 }
@@ -264,7 +265,8 @@ const TEMPLATES: ExamTemplate[] = [
     cefr: "A1–B1",
     blurb: () =>
       "SEM-recognised German certificates, accepted as proof of language alongside the fide passport. Set in Standard German, not Swiss-German dialect. Useful if you already hold one, or want a certificate that travels beyond Switzerland — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
-    mockMinutes: 150,
+    // NO mockMinutes — see the CERTIFICATE note above buildExams(). This bundle is
+    // telc AND Goethe: two exams, two papers, no shared "exam order" to time.
     cantonDependent: true,
   },
   {
@@ -276,7 +278,8 @@ const TEMPLATES: ExamTemplate[] = [
     cefr: "A1–B1",
     blurb: () =>
       "SEM-recognised French certificates, accepted as proof of language alongside the fide passport. Useful if you already hold one, or want a certificate that travels beyond Switzerland — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
-    mockMinutes: 150,
+    // NO mockMinutes — see the CERTIFICATE note above buildExams(). DELF is
+    // level-based, TCF is scale-based: not even the same KIND of test.
     cantonDependent: true,
   },
   {
@@ -288,7 +291,9 @@ const TEMPLATES: ExamTemplate[] = [
     cefr: "A1–B1",
     blurb: () =>
       "SEM-recognised Italian certificates, accepted as proof of language alongside the fide passport. Relevant in Ticino and the Italian-speaking valleys of Graubünden — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
-    mockMinutes: 150,
+    // NO mockMinutes — see the CERTIFICATE note above buildExams(). Fixed here too
+    // even though Italian does not ship yet (SHIPPING_LANGUAGES): leaving it would
+    // hand the bug straight back to whoever turns IT on.
     cantonDependent: true,
   },
   {
@@ -324,6 +329,26 @@ function civicEntry(language: SwissLanguage): ExamMeta {
   };
 }
 
+// ── Why the CERTIFICATE track has NO MOCK ────────────────────────────────────
+// Recorded HERE, in the registry, because that is where the mock is decided. This
+// call was made once already, during the item-bank work — and it was applied to the
+// items and NOT to this file, so the mock rendered anyway, built out of the
+// level-practice tasks. A decision that lives only in the bank is not enforced.
+//
+// Each CERTIFICATE bundle is TWO exams:
+//   • telc ≠ Goethe — SEM recognises both; they are separate exams with separate
+//     papers and formats.
+//   • DELF ≠ TCF — DELF is level-based (you sit A2, you pass A2), TCF is scale-based
+//     (you sit one test, you get a score band). NOT EVEN THE SAME KIND OF TEST.
+// So there is no single "all parts in exam order", and no single duration. The old
+// `mockMinutes: 150` could only ever have been one of: one exam's paper asserted as
+// both, or a blend of two that matches neither. Both are FABRICATION — the same class
+// as inventing a national civics test (see CIVIC_HEDGE), and the reason fide keeps its
+// mock is simply that fide is ONE real exam whose format we are actually preparing for.
+//
+// What remains is what the blurb promises and the items deliver: level practice at
+// A1–B1, per skill. If a mock is ever wanted here, it needs a VERIFIED paper for ONE
+// named exam — a new registry entry, not a duration added back to a bundle of two.
 function buildExams(): ExamMeta[] {
   const out: ExamMeta[] = [];
   for (const t of TEMPLATES) {
