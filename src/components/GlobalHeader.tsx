@@ -10,7 +10,7 @@ import { HeaderMobileMenu } from "./HeaderMobileMenu";
 
 // The family strip for this repo = every product except AlmiSwiss (its own brand
 // wordmark is this product's home) + the network links. Sourced from the canonical list.
-export const FAMILY_NAV = familyStrip("swedish");
+export const FAMILY_NAV = familyStrip("swiss");
 
 // Product entry points into AlmiSwiss's own practice product.
 export const PRODUCT_NAV = [

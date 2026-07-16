@@ -29,7 +29,7 @@ const FOOTER_COLUMNS: FooterColumn[] = [
   {
     // Every family product except this site's own — from the canonical single source.
     title: "Products",
-    links: footerProducts("swedish"),
+    links: footerProducts("swiss"),
   },
   {
     title: "Legal & Contact",
