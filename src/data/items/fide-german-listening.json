@@ -2790,5 +2790,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ansage vor dem Konzert",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herzlich willkommen zum heutigen Konzert. Zwei kurze Hinweise: Bitte schalten Sie Ihre Handys jetzt aus, nicht nur leise. Und während des Konzerts sind keine Fotos und keine Videos erlaubt. In der Pause nach etwa einer Stunde können Sie im Foyer etwas trinken. Wir wünschen Ihnen einen schönen Abend und viel Freude mit der Musik.",
+      "question": "Was sollen die Gäste laut der Ansage mit dem Handy tun?",
+      "options": [
+        "Es ganz ausschalten",
+        "Es leise stellen",
+        "Damit Fotos machen",
+        "Es dem Personal geben"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: eine kurze Umfrage",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Anruferin: Guten Tag, mein Name ist Frau Kraft. Wir machen eine kurze Umfrage zum Einkaufen im Quartier. Haben Sie zwei Minuten Zeit?\nHerr Sow: Ja, kurz schon.\nAnruferin: Danke. Kaufen Sie meistens im Quartier ein oder fahren Sie in ein grösseres Zentrum?\nHerr Sow: Meistens im Quartier, das ist praktisch und ich kenne die Leute.\nAnruferin: Und was fehlt Ihnen im Quartier?\nHerr Sow: Ein guter Gemüseladen. Sonst bin ich zufrieden.\nAnruferin: Vielen Dank für Ihre Antworten!",
+      "question": "Was fehlt Herrn Sow im Quartier?",
+      "options": [
+        "Ein guter Gemüseladen",
+        "Ein Zentrum",
+        "Nette Leute",
+        "Nichts"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: einen Handwerker empfehlen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Meier: Du, kennst du einen guten Elektriker? Bei mir funktioniert eine Steckdose nicht.\nHerr Tanner: Ja, ich hatte letztes Jahr einen. Er war schnell und nicht zu teuer. Ich gebe dir seine Nummer.\nFrau Meier: Super, danke. Muss man lange warten?\nHerr Tanner: Bei mir kam er innerhalb von zwei Tagen. Ruf am besten am Morgen an.\nFrau Meier: Mache ich. Danke für den Tipp.",
+      "question": "Was sagt Herr Tanner über den Elektriker?",
+      "options": [
+        "Er war schnell und nicht zu teuer",
+        "Er war teuer und langsam",
+        "Er kommt nie",
+        "Er arbeitet nur am Wochenende"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Zug: Verspätung",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sehr geehrte Fahrgäste, wegen einer Störung hat unser Zug etwa fünfzehn Minuten Verspätung. Der Anschluss in Zürich nach St. Gallen wartet auf uns. Reisende nach Bern nehmen bitte in Zürich den nächsten Zug um 16.40 Uhr. Wir bitten um Entschuldigung.",
+      "question": "Was gilt für Reisende nach Bern?",
+      "options": [
+        "Sie nehmen in Zürich den nächsten Zug um 16.40 Uhr",
+        "Ihr Anschluss wartet auf den Zug",
+        "Sie steigen in St. Gallen aus",
+        "Der Zug fährt nicht mehr"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht der Apotheke: Feiertag",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Apotheke am Markt. Wir informieren Sie: Am nächsten Montag ist ein Feiertag, darum bleibt die Apotheke geschlossen. Am Dienstag sind wir wieder normal für Sie da, von 8 bis 18.30 Uhr. In einem dringenden Fall finden Sie die Notfallapotheke beim Spital. Danke und schöne Feiertage.",
+      "question": "Aussage: Laut der Nachricht ist die Apotheke am Montag geöffnet.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

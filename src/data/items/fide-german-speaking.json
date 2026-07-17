@@ -2441,5 +2441,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über Ihre Freizeit sprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sprechen Sie über Ihre Freizeit: Was machen Sie gern in Ihrer freien Zeit? Wie oft und mit wem? Gibt es etwas, das Sie gern neu lernen oder ausprobieren möchten?",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt, was Sie in der Freizeit gern machen",
+        "Sagt, wie oft und mit wem",
+        "Nennt etwas, das Sie neu ausprobieren möchten",
+        "Spricht zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über Ihre Pläne sprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sprechen Sie über Ihre Pläne für die nächste Zeit: Was möchten Sie in den nächsten Monaten oder Jahren erreichen — bei der Arbeit, beim Deutsch oder privat? Warum ist Ihnen das wichtig und was tun Sie dafür?",
+      "minSeconds": 60,
+      "criteria": [
+        "Nennt konkrete Pläne oder Ziele",
+        "Erklärt, warum das wichtig ist",
+        "Sagt, was Sie dafür tun",
+        "Spricht zusammenhängend und in der Zukunft"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Einen Freund überzeugen mitzukommen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten am Wochenende an ein Quartierfest gehen und möchten, dass ein Freund mitkommt. Er hat aber keine grosse Lust. Überzeugen Sie ihn: Sagen Sie, warum es schön wird, gehen Sie auf seine Bedenken ein und machen Sie einen Vorschlag, der ihm entgegenkommt.",
+      "minSeconds": 75,
+      "criteria": [
+        "Sagt, warum das Fest schön wird",
+        "Geht auf die Bedenken des Freundes ein",
+        "Macht einen Vorschlag, der entgegenkommt",
+        "Bleibt freundlich und überzeugend",
+        "Strukturiert das Gespräch"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Beim Metzger einkaufen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind beim Metzger und möchten etwas kaufen. Sagen Sie, was und wie viel Sie möchten (zum Beispiel 300 Gramm Hackfleisch und vier Bratwürste), fragen Sie nach dem Preis und bezahlen Sie.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, was und wie viel Sie möchten",
+        "Fragt nach dem Preis",
+        "Bezahlt und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über den Gemeinschaftsraum",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es einen Gemeinschaftsraum. Eine Familie möchte ihn oft für Kindergeburtstage nutzen; andere Bewohner möchten ihn auch für ruhige Anlässe und finden, eine Partei nutze ihn zu oft. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer fairen Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine faire Lösung hin (z. B. ein Reservationssystem)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

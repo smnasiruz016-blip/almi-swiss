@@ -2766,5 +2766,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Glückwunschkarte zur Hochzeit",
+    "prompt": "Schreiben Sie eine kurze Karte. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Freunde von Ihnen heiraten bald. Schreiben Sie ihnen eine kurze Glückwunschkarte: Gratulieren Sie zur Hochzeit, wünschen Sie ihnen etwas Schönes für die Zukunft und sagen Sie, dass Sie sich auf das Fest freuen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Gratuliert zur Hochzeit",
+        "Wünscht etwas Schönes für die Zukunft",
+        "Freut sich auf das Fest",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an den Vermieter: ausgesperrt",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben die Wohnungstür hinter sich zugezogen und den Schlüssel drinnen vergessen. Sie kommen nicht mehr hinein. Schreiben Sie dem Vermieter eine kurze SMS: Erklären Sie das Problem, sagen Sie, dass es dringend ist, und fragen Sie, ob er einen Ersatzschlüssel hat.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Erklärt das Problem (ausgesperrt, Schlüssel drinnen)",
+        "Macht deutlich, dass es dringend ist",
+        "Fragt nach einem Ersatzschlüssel",
+        "Kurz und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Schule: einen Ausflug bezahlen",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind macht mit der Klasse einen Ausflug, der 30 Franken kostet. Schreiben Sie der Lehrperson eine kurze E-Mail: Fragen Sie, wie und bis wann Sie den Betrag bezahlen sollen, und ob Sie das Geld dem Kind mitgeben können.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt den Ausflug und den Betrag",
+        "Fragt, wie und bis wann man bezahlt",
+        "Fragt, ob man das Geld mitgeben kann",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Notiz an die Familie: Anweisungen",
+    "prompt": "Schreiben Sie eine kurze Notiz. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie kommen heute später nach Hause. Schreiben Sie Ihrer Familie eine kurze Notiz: Sagen Sie, wann Sie kommen, was es zum Essen gibt und was zu Hause noch erledigt werden soll (zum Beispiel einkaufen oder aufräumen).",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, wann Sie kommen",
+        "Sagt, was es zum Essen gibt",
+        "Nennt, was noch zu tun ist",
+        "Kurz und klar"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Verwaltung: der Lift ist oft defekt",
+    "prompt": "Schreiben Sie eine sachliche E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Haus ist der Lift in den letzten Wochen immer wieder ausgefallen. Für ältere Bewohner ist das ein Problem. Schreiben Sie der Hausverwaltung eine sachliche E-Mail: Schildern Sie die Situation, nennen Sie die Folgen und bitten Sie darum, das Problem endlich zu lösen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Schildert das Problem konkret (Lift fällt wiederholt aus)",
+        "Nennt die Folgen (v. a. für ältere Bewohner)",
+        "Bittet klar um eine dauerhafte Lösung",
+        "Bleibt sachlich und höflich",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

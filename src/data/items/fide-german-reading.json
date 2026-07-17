@@ -3549,5 +3549,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Wetter für die Woche",
+    "prompt": "Lesen Sie die Vorhersage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Wetter für die Woche\n\nMontag:     sonnig, 22 Grad\nDienstag:   bewölkt, 19 Grad\nMittwoch:   Regen, 15 Grad\nDonnerstag: sonnig, 21 Grad\nFreitag:    sonnig und warm, 25 Grad\n\nAm Wochenende bleibt es schön und trocken.",
+      "question": "An welchem Tag regnet es laut der Vorhersage?",
+      "options": [
+        "Am Mittwoch",
+        "Am Montag",
+        "Am Freitag",
+        "Am Wochenende"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Regeln im Fitnessstudio",
+    "prompt": "Lesen Sie die Regeln. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Hausregeln\n\nBitte bringen Sie für das Training saubere Hallenschuhe mit. Mit Strassenschuhen ist das Training nicht erlaubt.\nWischen Sie die Geräte nach dem Gebrauch mit dem Tuch ab.\nGetränke sind erlaubt, aber nur in verschlossenen Flaschen. Essen ist im Trainingsraum nicht gestattet.\nDie Garderobenschränke sind nur während des Trainings zu benutzen.",
+      "question": "Aussage: Laut den Regeln darf man mit Strassenschuhen trainieren.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Anleitung: das Billett am Automaten kaufen",
+    "prompt": "Lesen Sie die Anleitung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "So kaufen Sie ein Billett am Automaten\n\n1. Wählen Sie am Bildschirm Ihr Ziel.\n2. Wählen Sie, ob Sie einfach oder hin und zurück fahren.\n3. Wählen Sie die Klasse: 1. oder 2. Klasse.\n4. Bezahlen Sie mit Münzen, Noten oder Karte.\n5. Nehmen Sie das Billett und das Rückgeld unten heraus.\n\nDas Billett gilt sofort. Bewahren Sie es bis zum Ende der Fahrt auf.",
+      "question": "Was ist laut der Anleitung der erste Schritt?",
+      "options": [
+        "Am Bildschirm das Ziel wählen",
+        "Bezahlen",
+        "Die Klasse wählen",
+        "Das Billett herausnehmen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Einladung: Grillfest beim Verein",
+    "prompt": "Lesen Sie die Einladung und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Einladung zum Grillfest\n\nLiebe Mitglieder, wir laden Sie herzlich zum Grillfest ein. Es findet am Samstag, 12. Juli, ab 17 Uhr im {{1}} beim Vereinshaus statt.\nFür Fleisch, Brot und Getränke ist {{2}}. Bringen Sie gern einen {{3}} für das Buffet mit.\nBei Regen feiern wir im Saal. Bitte melden Sie sich bis am 5. Juli {{4}}, damit wir genug einkaufen.\nWir freuen uns auf einen schönen Abend!",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Garten",
+            "Estrich",
+            "Keller"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "gesorgt",
+            "verboten",
+            "teuer"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "Salat",
+            "Hund",
+            "Tisch"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "an",
+            "aus",
+            "auf"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Probleme mit der Prämie",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Probleme mit der Prämie\n\nDie Grundversicherung ist obligatorisch, und die Prämie müssen Sie jeden Monat bezahlen. Wenn Sie eine Rechnung nicht bezahlen, schickt Ihnen die Kasse eine Mahnung.\nWarten Sie nicht, bis es mehr wird: Melden Sie sich bei Ihrer Kasse und fragen Sie nach einer Ratenzahlung.\nWenn Ihr Einkommen tief ist, kann Ihnen die Prämienverbilligung helfen. Dafür ist Ihr Kanton zuständig; erkundigen Sie sich dort.",
+      "question": "Was empfiehlt das Merkblatt, wenn man die Prämie nicht bezahlen kann?",
+      "options": [
+        "Sich bei der Kasse melden und nach einer Ratenzahlung fragen",
+        "Die Krankenkasse einfach zu wechseln, ohne etwas zu sagen",
+        "Die Rechnungen zu ignorieren",
+        "Sofort aus der Schweiz wegzuziehen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
