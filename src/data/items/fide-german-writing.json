@@ -1194,5 +1194,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an die Nachbarin: Schlüssel hinterlegen",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ein Handwerker kommt morgen Nachmittag in Ihre Wohnung, aber Sie sind bei der Arbeit. Schreiben Sie Ihrer Nachbarin, Frau Meyer, eine kurze SMS: Fragen Sie, ob Sie ihr den Schlüssel geben dürfen, damit sie den Handwerker hereinlässt.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Erklärt die Situation kurz (Handwerker, Sie sind bei der Arbeit)",
+        "Formuliert die Bitte höflich",
+        "Nennt, wann der Handwerker kommt",
+        "Passende Anrede und kurzer Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an die Vorgesetzte: Ferienwunsch",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten im Juli zwei Wochen Ferien nehmen. Schreiben Sie Ihrer Vorgesetzten eine kurze E-Mail: Nennen Sie die gewünschten Daten und fragen Sie, ob das möglich ist.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt den Ferienwunsch und die genauen Daten",
+        "Fragt höflich, ob das möglich ist",
+        "Bietet an, die Arbeit vorher zu organisieren",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Hausverwaltung: Namensschild",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind neu eingezogen. Am Briefkasten und an der Wohnungstür fehlt noch Ihr Namensschild. Schreiben Sie der Hausverwaltung eine kurze E-Mail und bitten Sie darum, die Schilder anzubringen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt den Einzug und das fehlende Namensschild",
+        "Bittet klar um Briefkasten- und Türschild",
+        "Gibt an, wie Ihr Name geschrieben wird",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Formular: Angaben zum Kind",
+    "prompt": "Füllen Sie die Angaben in ganzen Sätzen aus. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie melden Ihr Kind in der Kita an. Füllen Sie die fehlenden Angaben in ganzen Sätzen aus: Name und Alter des Kindes, gewünschte Betreuungstage und eine Person für Notfälle.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt Name und Alter des Kindes",
+        "Nennt die gewünschten Betreuungstage",
+        "Gibt eine Notfallkontaktperson an",
+        "Schreibt in ganzen, verständlichen Sätzen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Gemeinde: zu viel bezahlte Gebühr",
+    "prompt": "Schreiben Sie eine sachliche E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Gebühr für einen Ausweis zweimal bezahlt — einmal am Schalter und einmal später per Rechnung. Schreiben Sie der Gemeinde eine sachliche E-Mail: Schildern Sie, was passiert ist, und bitten Sie um Rückerstattung des zu viel bezahlten Betrags.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Schildert den Sachverhalt klar und nachvollziehbar (zweimal bezahlt)",
+        "Nennt Belege oder Daten, die das zeigen",
+        "Formuliert die Bitte um Rückerstattung deutlich",
+        "Bleibt sachlich und höflich",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
