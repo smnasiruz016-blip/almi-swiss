@@ -1013,7 +1013,7 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "STRETCH",
-    "cefr": "B1",
+    "cefr": "A2",
     "title": "Auszug aus dem Mietvertrag",
     "prompt": "Lesen Sie den Auszug und wählen Sie für jede Lücke das passende Wort.",
     "payload": {
