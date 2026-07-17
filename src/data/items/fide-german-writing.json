@@ -1456,5 +1456,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an den Vermieter: Wasserschaden",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Badezimmer läuft Wasser aus der Wand, und es wird immer mehr. Schreiben Sie Ihrem Vermieter sofort eine kurze SMS: Beschreiben Sie das Problem, sagen Sie, dass es dringend ist, und fragen Sie, was Sie tun sollen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt das Problem klar (Wasser aus der Wand)",
+        "Macht deutlich, dass es dringend ist",
+        "Fragt, was zu tun ist / ob jemand kommt",
+        "Kurz und verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an die Schule: Kind einen Tag abmelden",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind kann am nächsten Freitag nicht in die Schule, weil Sie zu einer Familienfeier reisen. Schreiben Sie der Lehrperson eine kurze E-Mail: Melden Sie Ihr Kind für diesen Tag ab und fragen Sie, ob es etwas nachholen muss.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Meldet das Kind für den genannten Tag ab",
+        "Nennt kurz den Grund",
+        "Fragt, ob das Kind etwas nachholen muss",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Bibliothek: Ausweis verloren",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben Ihren Bibliotheksausweis verloren. Schreiben Sie der Bibliothek eine kurze E-Mail: Melden Sie den Verlust, fragen Sie, ob Sie einen neuen Ausweis bekommen und ob das etwas kostet.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Meldet den Verlust des Ausweises",
+        "Fragt nach einem neuen Ausweis",
+        "Fragt nach möglichen Kosten",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Notiz an das Team: Kaffeekasse",
+    "prompt": "Schreiben Sie eine kurze Notiz. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Im Pausenraum gibt es eine gemeinsame Kaffeekasse, aber sie ist fast leer. Schreiben Sie eine kurze Notiz an das Team: Erinnern Sie freundlich daran, etwas einzuzahlen, und sagen Sie, wo das Geld hinkommt.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Weist freundlich auf die fast leere Kaffeekasse hin",
+        "Bittet darum, etwas einzuzahlen",
+        "Sagt, wo/wie man einzahlt",
+        "Freundlicher Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Beschwerde an die Verwaltung: die Reparatur wurde nicht gemacht",
+    "prompt": "Schreiben Sie eine sachliche E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Vor drei Wochen haben Sie der Hausverwaltung gemeldet, dass Ihr Fenster nicht mehr richtig schliesst. Man hat eine Reparatur versprochen, aber nichts ist passiert, und jetzt wird es kalt. Schreiben Sie eine sachliche E-Mail: Erinnern Sie an Ihre Meldung, schildern Sie die Folgen und bitten Sie um einen konkreten Termin.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Erinnert an die frühere Meldung mit Datum",
+        "Schildert die Folgen sachlich (Fenster schliesst nicht, es wird kalt)",
+        "Bittet um einen konkreten Reparaturtermin",
+        "Bleibt höflich, aber bestimmt",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
