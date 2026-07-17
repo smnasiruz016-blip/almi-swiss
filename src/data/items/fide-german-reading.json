@@ -2345,5 +2345,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Reinigung der Fenster",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Freitag, 14. März, werden die Fenster im Treppenhaus und die Balkonfenster von einer Firma gereinigt. Die Arbeiten dauern von 8 bis etwa 15 Uhr.\nBitte schliessen Sie an diesem Tag Ihre Fenster und nehmen Sie Pflanzen und Gegenstände vom Balkon herein.\nSie müssen nicht zu Hause sein.\n\nDie Hausverwaltung",
+      "question": "Was sollen die Bewohner am 14. März tun?",
+      "options": [
+        "Die Fenster schliessen und den Balkon aufräumen",
+        "Den ganzen Tag zu Hause bleiben",
+        "Die Fenster selbst putzen",
+        "Die Pflanzen giessen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS von der Schule: Unterricht fällt aus",
+    "prompt": "Lesen Sie die SMS. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Guten Tag, hier die Schule Rosenweg. Morgen fällt der Unterricht der Klasse 3b aus, weil die Lehrerin krank ist. Die Kinder haben also frei. Wer keine Betreuung hat, kann sein Kind trotzdem um 8 Uhr bringen; wir betreuen die Kinder dann in einer anderen Klasse. Bitte antworten Sie kurz, ob Ihr Kind kommt. Danke.",
+      "question": "Aussage: Laut der SMS müssen alle Kinder der Klasse 3b morgen zur Schule kommen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Brief: Rückgabe der Bibliotheksbücher",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Gemeindebibliothek\n\nGuten Tag Herr Silva\nZwei Bücher, die Sie ausgeliehen haben, sind seit zehn Tagen überfällig.\nBitte bringen Sie die Bücher bald zurück oder verlängern Sie die Ausleihe online oder per Telefon. Für überfällige Bücher verrechnen wir eine kleine Gebühr pro Tag.\nBei Fragen sind wir gern für Sie da.\n\nFreundliche Grüsse\nIhre Bibliothek",
+      "question": "Was kann Herr Silva tun, wenn er die Bücher noch länger braucht?",
+      "options": [
+        "Die Ausleihe online oder per Telefon verlängern",
+        "Die Bücher behalten, ohne etwas zu tun",
+        "Neue Bücher kaufen",
+        "Die Bibliothek wechseln"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Sommerfest im Quartier",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Aushang: Sommerfest im Quartier\n\nAm Samstag, 5. Juli, feiern wir unser Sommerfest auf dem {{1}} beim Quartiertreff, ab 15 Uhr.\nEs gibt Musik, Spiele für die {{2}} und einen Grill. Bringen Sie gern einen Salat oder einen Kuchen zum {{3}} mit.\nWer beim Aufbau helfen kann, meldet sich bis Ende Juni. Bei Regen findet das Fest im {{4}} statt.\nWir freuen uns auf Sie!",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Platz",
+            "Estrich",
+            "Keller"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Kinder",
+            "Autos",
+            "Ämter"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "Teilen",
+            "Verkaufen",
+            "Wegwerfen"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Saal",
+            "Wald",
+            "Wasser"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Wer entscheidet über die Einbürgerung?",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Wer entscheidet über die Einbürgerung?\n\nBei der ordentlichen Einbürgerung entscheiden Ihre Gemeinde und Ihr Kanton. Der Bund gibt vorher die eidgenössische Bewilligung. Sie reichen das Gesuch bei uns in der Gemeinde ein.\nAnders ist es bei der erleichterten Einbürgerung, zum Beispiel wenn Sie mit einer Schweizerin oder einem Schweizer verheiratet sind: Dann entscheidet der Bund, das Staatssekretariat für Migration (SEM). Das Gesuch stellen Sie in diesem Fall direkt beim SEM.\nWelcher Weg für Sie gilt, hängt von Ihrer Situation ab. Erkundigen Sie sich frühzeitig bei uns.",
+      "question": "Wer entscheidet laut dem Merkblatt über eine ordentliche Einbürgerung?",
+      "options": [
+        "Die Gemeinde und der Kanton; der Bund gibt die Bewilligung",
+        "Nur der Bund (SEM)",
+        "Nur die Gemeinde allein",
+        "Eine private Firma"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
