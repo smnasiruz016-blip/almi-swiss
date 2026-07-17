@@ -1894,5 +1894,133 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Beratung: ordentlich oder erleichtert einbürgern?",
+    "prompt": "Hören Sie die Beratung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag. Sie fragen, welcher Weg zur Einbürgerung für Sie gilt. Kurz gesagt: Es gibt zwei. Bei der ordentlichen Einbürgerung entscheiden Ihre Gemeinde und Ihr Kanton; der Bund gibt dazu die Bewilligung. Das Gesuch reichen Sie bei der Gemeinde ein. Wenn Sie dagegen mit einer Schweizerin oder einem Schweizer verheiratet sind, kommt oft die erleichterte Einbürgerung infrage — da entscheidet der Bund, also das SEM, und das Gesuch stellen Sie direkt beim SEM. Welcher Weg bei Ihnen gilt, hängt von Ihrer Situation ab; erkundigen Sie sich am besten frühzeitig.",
+      "question": "Was ist laut der Beratung richtig?",
+      "options": [
+        "Bei der ordentlichen Einbürgerung entscheiden Gemeinde und Kanton; bei der erleichterten der Bund",
+        "Immer entscheidet nur die Gemeinde",
+        "Immer entscheidet nur der Bund",
+        "Verheiratete können sich gar nicht einbürgern lassen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: einen Deutschkurs auswählen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Diallo: Ich möchte im Herbst einen Deutschkurs machen. Weisst du, welcher gut ist?\nHerr Kurt: Es gibt zwei im Quartier. Der eine ist am Morgen, der andere am Abend.\nFrau Diallo: Am Abend wäre besser, wegen der Arbeit. Ist er teuer?\nHerr Kurt: Nicht so. Und man kann eine Probelektion gratis besuchen.\nFrau Diallo: Das mache ich. Dann sehe ich, ob das Niveau passt.\nHerr Kurt: Gute Idee. Melde dich vorher an, die Plätze sind schnell weg.",
+      "question": "Was will Frau Diallo zuerst tun?",
+      "options": [
+        "Eine gratis Probelektion des Abendkurses besuchen",
+        "Sofort den Morgenkurs bezahlen",
+        "Keinen Kurs machen",
+        "Den Kurs in einer anderen Stadt suchen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: eine Lieferung verschieben",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Mitarbeiter: Guten Tag, hier ist die Lieferfirma. Wir bringen Ihr Sofa morgen zwischen 9 und 12 Uhr.\nFrau Roth: Oh, morgen Vormittag bin ich leider nicht da. Geht es auch am Nachmittag?\nMitarbeiter: Morgen Nachmittag ist schon voll. Aber übermorgen zwischen 13 und 15 Uhr hätten wir Zeit.\nFrau Roth: Übermorgen Nachmittag ist gut.\nMitarbeiter: Gut, ich trage das ein. Sie bekommen am Morgen eine SMS mit der genauen Zeit.\nFrau Roth: Danke, das passt.",
+      "question": "Wann wird das Sofa geliefert?",
+      "options": [
+        "Übermorgen zwischen 13 und 15 Uhr",
+        "Morgen zwischen 9 und 12 Uhr",
+        "Morgen Nachmittag",
+        "Heute Abend"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Bus: Endstation",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Endstation Marktplatz. Bitte steigen Sie alle aus, dieser Bus fährt nicht weiter. Der nächste Bus in die Stadt fährt in zehn Minuten von der gleichen Haltestelle. Bitte vergessen Sie nichts im Bus. Wir wünschen Ihnen einen schönen Tag.",
+      "question": "Was sollen die Fahrgäste tun?",
+      "options": [
+        "Aussteigen, weil der Bus nicht weiterfährt",
+        "Im Bus sitzen bleiben",
+        "Zum nächsten Marktplatz laufen",
+        "Ein Billett kaufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Kita: früher schliessen",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Kita Sonnenschein. Wir möchten Sie informieren: Morgen schliessen wir schon um 14 Uhr, weil das Team eine Weiterbildung hat. Bitte holen Sie Ihr Kind bis 14 Uhr ab. Wenn das für Sie nicht geht, melden Sie sich heute bei uns, dann suchen wir eine Lösung. Danke für Ihr Verständnis.",
+      "question": "Aussage: Laut der Nachricht schliesst die Kita morgen erst am Abend.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

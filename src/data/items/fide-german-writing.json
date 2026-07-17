@@ -1849,5 +1849,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an den Vermieter: Termin bestätigen",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Der Vermieter hat vorgeschlagen, am Donnerstag um 16 Uhr die Heizung anzuschauen. Das passt Ihnen. Schreiben Sie ihm eine kurze SMS: Bestätigen Sie den Termin und sagen Sie, dass Sie zu Hause sein werden.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Bestätigt den Termin klar (Tag/Zeit)",
+        "Sagt, dass Sie zu Hause sein werden",
+        "Bietet an, sich bei Änderungen zu melden",
+        "Kurz und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an einen Freund: beim Umzug helfen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie ziehen am nächsten Samstag um und brauchen Hilfe. Schreiben Sie Ihrem Freund Ali eine kurze E-Mail: Fragen Sie, ob er helfen kann, sagen Sie, wann und wo, und was zu tun ist.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Fragt höflich um Hilfe beim Umzug",
+        "Nennt Tag, Zeit und Ort",
+        "Sagt kurz, was zu tun ist (Kartons, Möbel)",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Gemeinde: Öffnungszeiten fragen",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten am Schalter der Gemeinde etwas anmelden, kennen aber die Öffnungszeiten nicht. Schreiben Sie eine kurze E-Mail: Fragen Sie nach den Öffnungszeiten und ob Sie einen Termin brauchen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt kurz Ihr Anliegen",
+        "Fragt nach den Öffnungszeiten",
+        "Fragt, ob ein Termin nötig ist",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Notiz an die Nachbarin: Blumen giessen",
+    "prompt": "Schreiben Sie eine kurze Notiz. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie fahren eine Woche in die Ferien. Schreiben Sie Ihrer Nachbarin eine kurze Notiz: Bitten Sie sie, während dieser Zeit Ihre Blumen auf dem Balkon zu giessen, und sagen Sie, wo der Schlüssel ist.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Bringt die Bitte höflich vor (Blumen giessen)",
+        "Nennt den Zeitraum",
+        "Sagt, wo der Schlüssel ist",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an den Verein: einen Anlass vorschlagen",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind in einem Quartierverein. Sie möchten vorschlagen, einen gemeinsamen Spielnachmittag für Familien zu organisieren. Schreiben Sie dem Vorstand eine E-Mail: Beschreiben Sie die Idee, begründen Sie sie und bieten Sie an, mitzuhelfen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Beschreibt die Idee klar (Spielnachmittag für Familien)",
+        "Begründet den Vorschlag nachvollziehbar",
+        "Bietet an, bei der Organisation mitzuhelfen",
+        "Bleibt freundlich und konkret",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

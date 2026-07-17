@@ -1629,5 +1629,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Beim Amt nach dem Einbürgerungsverfahren fragen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie überlegen, ein Einbürgerungsgesuch zu stellen, und wissen nicht, wie es geht. Gehen Sie zum Schalter der Gemeinde: Erklären Sie Ihr Anliegen, fragen Sie, wie das Verfahren abläuft, welche Unterlagen Sie brauchen und wo Sie beginnen. Fragen Sie nach, wenn etwas unklar ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt das Anliegen klar (Interesse an der Einbürgerung)",
+        "Fragt nach dem Ablauf und den nötigen Unterlagen",
+        "Fragt, wo man beginnt",
+        "Fragt höflich nach, wenn etwas unklar ist"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ein wiederkehrendes Problem mit dem Nachbarn ansprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Ihr Nachbar stellt sein Velo immer so ab, dass Sie mit dem Kinderwagen kaum vorbeikommen. Sprechen Sie ihn ruhig an: Schildern Sie das Problem ohne Vorwürfe, erklären Sie, warum es Sie stört, und schlagen Sie eine Lösung vor.",
+      "minSeconds": 60,
+      "criteria": [
+        "Spricht das Problem ruhig und ohne Vorwürfe an",
+        "Erklärt, warum es stört (Kinderwagen kommt nicht vorbei)",
+        "Schlägt eine Lösung vor",
+        "Bleibt freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Die eigene Meinung zu einem Quartierthema begründen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "In Ihrem Quartier wird diskutiert, ob eine Strasse für Autos gesperrt und zur Spielstrasse werden soll. Sagen Sie Ihre Meinung: Nennen Sie Ihre Position, begründen Sie sie mit zwei Argumenten und gehen Sie auf einen möglichen Einwand ein.",
+      "minSeconds": 75,
+      "criteria": [
+        "Nennt die eigene Position klar",
+        "Begründet sie mit zwei Argumenten",
+        "Geht auf einen möglichen Einwand ein",
+        "Bleibt sachlich und höflich",
+        "Strukturiert den Beitrag"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Etwas in der Bäckerei kaufen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind in der Bäckerei und möchten Brot und zwei Gipfeli kaufen. Sagen Sie der Verkäuferin, was Sie möchten, fragen Sie nach dem Preis und ob Sie mit Karte zahlen können.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, was Sie kaufen möchten",
+        "Fragt nach dem Preis",
+        "Fragt, ob man mit Karte zahlen kann, und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über den Lärm auf dem Spielplatz",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Am Spielplatz vor dem Haus gibt es Streit: Familien mit kleinen Kindern nutzen ihn tagsüber, ältere Jugendliche treffen sich dort am Abend, und es wird laut. Anwohner beschweren sich. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer Lösung, mit der beide leben können, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin (z. B. Zeiten)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
