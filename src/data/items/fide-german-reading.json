@@ -2517,5 +2517,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Umzugstag im Haus",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Samstag, 3. Mai, zieht eine Familie in die Wohnung im 2. Stock ein. Der Lift wird an diesem Tag von 8 bis 12 Uhr für den Umzug gebraucht.\nBitte benutzen Sie in dieser Zeit die Treppe oder warten Sie kurz. Am Nachmittag steht der Lift wieder allen zur Verfügung.\nDanke für Ihr Verständnis.\n\nDie Hausverwaltung",
+      "question": "Warum ist der Lift am 3. Mai am Vormittag nicht frei?",
+      "options": [
+        "Weil eine Familie einzieht und den Lift für den Umzug braucht",
+        "Weil der Lift repariert wird",
+        "Weil er gereinigt wird",
+        "Weil er kaputt ist"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS vom Arzt: Ergebnis da",
+    "prompt": "Lesen Sie die SMS. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Guten Tag Frau Berisha, hier die Arztpraxis Dr. Lang. Ihre Blutwerte sind da und alle in Ordnung. Sie müssen nichts weiter tun und brauchen keinen neuen Termin. Wenn Sie trotzdem Fragen haben, rufen Sie uns gern an. Freundliche Grüsse, Ihr Praxisteam.",
+      "question": "Aussage: Laut der SMS muss Frau Berisha einen neuen Termin abmachen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Brief: Anmeldung zum Schwimmkurs",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Schwimmschule im Hallenbad\n\nGuten Tag Frau Okafor\nWir bestätigen die Anmeldung Ihrer Tochter zum Anfängerkurs. Der Kurs findet ab dem 6. September jeden Samstag von 10 bis 11 Uhr statt.\nBitte bringen Sie Badekleidung, ein Handtuch und eine Badekappe mit. Duschen Sie vor dem Schwimmen.\nWenn Ihre Tochter einmal krank ist, geben Sie uns bitte kurz Bescheid.\n\nFreundliche Grüsse\nDie Schwimmschule",
+      "question": "Was soll die Tochter zum Kurs mitbringen?",
+      "options": [
+        "Badekleidung, ein Handtuch und eine Badekappe",
+        "Ein Znüni und Schuhe",
+        "Ein Buch und einen Stift",
+        "Nichts"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Kleidertauschbörse",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Aushang: Kleidertauschbörse\n\nAm Sonntag, 19. Oktober, gibt es im Quartiertreff eine {{1}} für Kleider. Bringen Sie saubere Kleider mit, die Ihnen nicht mehr passen, und nehmen Sie andere mit nach {{2}}.\nAlles ist {{3}} — Sie bezahlen nichts. Was am Schluss übrig bleibt, geben wir einem {{4}}.\nKommen Sie vorbei, auch ohne Kleider zum Tauschen!",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Börse",
+            "Baustelle",
+            "Prüfung"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Hause",
+            "oben",
+            "aussen"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "gratis",
+            "teuer",
+            "verboten"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Hilfswerk",
+            "Amt",
+            "Automaten"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Die erleichterte Einbürgerung",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Die erleichterte Einbürgerung\n\nDie erleichterte Einbürgerung ist ein besonderer Weg. Sie kommt zum Beispiel infrage, wenn Sie mit einer Schweizerin oder einem Schweizer verheiratet sind und die Bedingungen erfüllen.\nÜber die erleichterte Einbürgerung entscheidet der Bund, das Staatssekretariat für Migration (SEM). Das Gesuch stellen Sie deshalb direkt beim SEM, nicht bei der Gemeinde.\nBei der ordentlichen Einbürgerung ist es anders: Dort entscheiden Ihre Gemeinde und Ihr Kanton, und der Bund gibt die Bewilligung.\nWelcher Weg für Sie gilt, hängt von Ihrer Situation ab. Auch beim erleichterten Weg müssen Sie eine Landessprache nachweisen.",
+      "question": "Wer entscheidet laut dem Merkblatt über die erleichterte Einbürgerung?",
+      "options": [
+        "Der Bund (das SEM)",
+        "Die Gemeinde allein",
+        "Der Kanton allein",
+        "Der Arbeitgeber"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

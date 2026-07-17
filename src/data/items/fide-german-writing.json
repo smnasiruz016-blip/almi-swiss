@@ -1980,5 +1980,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an eine Freundin: ins Kino gehen",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten am Freitagabend mit Ihrer Freundin Mira ins Kino gehen. Schreiben Sie ihr eine kurze SMS: Fragen Sie, ob sie Zeit hat, schlagen Sie einen Film und eine Zeit vor und wo Sie sich treffen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Fragt, ob die Freundin Zeit hat",
+        "Schlägt einen Film und eine Zeit vor",
+        "Nennt einen Treffpunkt",
+        "Freundlicher, kurzer Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an den Chef: Termin während der Arbeit",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben nächsten Dienstag um 10 Uhr einen wichtigen Arzttermin und müssen dafür kurz von der Arbeit weg. Schreiben Sie Ihrem Chef eine kurze E-Mail: Informieren Sie ihn, sagen Sie, wie lange Sie weg sind, und bieten Sie an, die Zeit nachzuholen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt den Termin und den Grund (Arzt)",
+        "Sagt, wie lange Sie ungefähr weg sind",
+        "Bietet an, die Zeit nachzuholen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Kita: Kind ist krank",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind ist krank und kann heute nicht in die Kita. Schreiben Sie der Kita eine kurze E-Mail: Melden Sie Ihr Kind ab, nennen Sie kurz den Grund und sagen Sie, dass Sie sich melden, wenn es wieder gesund ist.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Meldet das Kind für heute ab",
+        "Nennt kurz den Grund (krank)",
+        "Sagt, dass Sie sich bei Genesung melden",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Notiz an das Team: Sitzung verschoben",
+    "prompt": "Schreiben Sie eine kurze Notiz. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Die Teamsitzung von morgen 9 Uhr muss verschoben werden, weil die Chefin nicht da ist. Schreiben Sie eine kurze Notiz an das Team: Sagen Sie, dass die Sitzung verschoben wird, nennen Sie den neuen Zeitpunkt (Donnerstag 9 Uhr) und bitten Sie um kurze Bestätigung.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt klar, dass die Sitzung verschoben wird",
+        "Nennt den neuen Zeitpunkt",
+        "Bittet um eine kurze Bestätigung",
+        "Kurz und verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Verwaltung: um einen Veloabstellplatz bitten",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Haus gibt es zu wenige Veloabstellplätze, und Sie haben keinen. Schreiben Sie der Hausverwaltung eine E-Mail: Schildern Sie die Situation, bitten Sie um einen Abstellplatz oder eine Lösung und fragen Sie, ob es eine Warteliste gibt.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Schildert die Situation klar (kein Veloabstellplatz)",
+        "Bittet höflich um einen Platz oder eine Lösung",
+        "Fragt nach einer Warteliste",
+        "Bleibt sachlich und freundlich",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
