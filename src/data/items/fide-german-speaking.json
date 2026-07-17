@@ -1281,5 +1281,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Am Schalter eine Bescheinigung verlangen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie brauchen für Ihren Arbeitgeber eine Wohnsitzbescheinigung. Gehen Sie zum Schalter der Gemeinde: Erklären Sie, was Sie brauchen und wofür, fragen Sie, was es kostet und wie lange es dauert, und ob Sie etwas mitbringen müssen.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt klar, welche Bescheinigung Sie brauchen und wofür",
+        "Fragt nach Kosten und Bearbeitungszeit",
+        "Fragt, welche Unterlagen nötig sind",
+        "Höfliche Sprache am Schalter"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Eine doppelte Abbuchung klären",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Auf Ihrer Rechnung sehen Sie, dass ein Betrag zweimal abgebucht wurde. Rufen Sie beim Anbieter an: Erklären Sie ruhig das Problem, nennen Sie die Beträge und Daten und fragen Sie, wie das Geld zurückkommt.",
+      "minSeconds": 60,
+      "criteria": [
+        "Schildert das Problem klar (zweimal abgebucht)",
+        "Nennt konkrete Beträge und Daten",
+        "Fragt nach der Rückerstattung",
+        "Bleibt ruhig und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Einen Vorschlag im Team machen und begründen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "In Ihrem Team gibt es oft Missverständnisse, weil Informationen nur mündlich weitergegeben werden. Sie möchten vorschlagen, eine kurze gemeinsame Notiz oder Tafel einzuführen. Bringen Sie den Vorschlag vor, begründen Sie ihn und gehen Sie auf mögliche Einwände ein.",
+      "minSeconds": 75,
+      "criteria": [
+        "Bringt den Vorschlag klar vor",
+        "Begründet ihn nachvollziehbar (weniger Missverständnisse)",
+        "Geht auf einen möglichen Einwand ein",
+        "Bleibt sachlich und höflich",
+        "Strukturiert den Beitrag"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Einen Tisch im Restaurant reservieren",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten am Samstagabend mit vier Personen essen gehen. Rufen Sie im Restaurant an: Sagen Sie, für wann und für wie viele Personen Sie einen Tisch möchten, und fragen Sie, bis wann Sie kommen sollen.",
+      "minSeconds": 45,
+      "criteria": [
+        "Nennt Tag, Zeit und Anzahl Personen",
+        "Bittet klar um eine Reservierung",
+        "Fragt nach, wenn etwas unklar ist, und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über den gemeinsamen Garten",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit über den gemeinsamen Garten: Die eine Partei möchte Gemüse anpflanzen, die andere will eine Rasenfläche zum Spielen für die Kinder. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, die beiden gerecht wird, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine gemeinsame Lösung hin (z. B. Aufteilung des Gartens)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

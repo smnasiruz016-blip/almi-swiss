@@ -1510,5 +1510,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Gespräch: einen Arzttermin verschieben",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Praxis: Praxis Dr. Sommer, guten Tag.\nFrau Adem: Guten Tag, ich habe morgen um 9 Uhr einen Termin, aber mein Kind ist krank. Kann ich verschieben?\nPraxis: Natürlich. Nächste Woche Dienstag um 11 Uhr wäre frei.\nFrau Adem: Dienstag 11 Uhr passt. Muss ich etwas mitbringen?\nPraxis: Bringen Sie die Liste Ihrer Medikamente mit. Und wenn es dem Kind bis dahin nicht besser geht, melden Sie sich früher.\nFrau Adem: Danke, bis Dienstag.",
+      "question": "Was ist am Ende abgemacht?",
+      "options": [
+        "Ein neuer Termin am Dienstag um 11 Uhr",
+        "Der Termin morgen um 9 Uhr bleibt",
+        "Der Termin wird ganz abgesagt",
+        "Frau Adem kommt ohne Termin vorbei"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf vom Vermieter: Besichtigung angekündigt",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Vermieter: Guten Tag Herr Baumann. Da Sie ja Ende Monat ausziehen, möchte ich die Wohnung neuen Interessenten zeigen.\nHerr Baumann: Ja, das ist in Ordnung. Wann möchten Sie kommen?\nVermieter: Ich dachte an Mittwochabend um 18 Uhr. Zwei Personen würden die Wohnung anschauen. Passt Ihnen das?\nHerr Baumann: Mittwoch geht. Soll ich etwas vorbereiten?\nVermieter: Nein, es muss nicht aufgeräumt sein. Ich klingle kurz und wir bleiben nicht lange.\nHerr Baumann: Gut, dann bis Mittwoch.",
+      "question": "Warum ruft der Vermieter an?",
+      "options": [
+        "Er möchte die Wohnung neuen Interessenten zeigen",
+        "Er möchte die Miete erhöhen",
+        "Er will die Wohnung selbst renovieren",
+        "Er kündigt Herrn Baumann die Wohnung"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch am Elternabend",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Lehrerin: Schön, dass Sie da sind. Ihr Sohn Amir macht gute Fortschritte, vor allem im Rechnen.\nHerr Nasser: Das freut mich. Beim Lesen tut er sich noch schwer.\nLehrerin: Das stimmt, aber es wird besser. Wenn Sie zu Hause zehn Minuten am Tag mit ihm lesen, hilft das sehr.\nHerr Nasser: Das machen wir gern. Gibt es passende Bücher?\nLehrerin: Ja, ich gebe Ihnen eine Liste mit. Und die Bibliothek im Quartier hat viele einfache Bücher.\nHerr Nasser: Danke, das probieren wir.",
+      "question": "Was rät die Lehrerin Herrn Nasser?",
+      "options": [
+        "Täglich zehn Minuten mit dem Kind zu lesen",
+        "Das Kind in eine andere Klasse zu geben",
+        "Weniger zu rechnen",
+        "Nichts zu tun, es wird von selbst besser"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Freibad",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Gäste, wegen eines Gewitters müssen wir das Freibad schliessen. Bitte verlassen Sie das Wasser sofort und gehen Sie in die Garderoben. Sobald das Wetter besser ist, öffnen wir wieder; hören Sie auf die Durchsagen. Ihr Eintritt gilt auch, wenn wir heute wieder aufmachen. Danke für Ihr Verständnis.",
+      "question": "Was sollen die Gäste jetzt tun?",
+      "options": [
+        "Sofort aus dem Wasser gehen und in die Garderoben",
+        "Im Wasser bleiben",
+        "Nach Hause fahren und morgen wiederkommen",
+        "Einen neuen Eintritt kaufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht der Nachbarin: bitte die Katze füttern",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Hallo, hier ist Frau Bianchi von nebenan. Wir fahren morgen für eine Woche weg. Könntest du bitte jeden Tag unsere Katze füttern? Das Futter steht in der Küche, und der Schlüssel ist wie immer bei dir. Einmal am Tag reicht. Ich bringe dir etwas aus den Ferien mit. Vielen Dank und melde dich, wenn es nicht geht.",
+      "question": "Aussage: Laut der Nachricht soll die Katze zweimal am Tag gefüttert werden.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
