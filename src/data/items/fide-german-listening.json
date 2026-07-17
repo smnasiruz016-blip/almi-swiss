@@ -2022,5 +2022,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Gespräch: Mundart oder Hochdeutsch?",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Amaru: Ich verstehe im Laden oft fast nichts — sprechen alle Dialekt?\nHerr Widmer: Im Alltag ja, das ist normal hier. Aber keine Sorge: Im Deutschkurs, in der Prüfung und in den Briefen der Behörden ist es Hochdeutsch, also Standarddeutsch.\nFrau Amaru: Und muss ich selber Dialekt lernen?\nHerr Widmer: Nein, das müssen Sie nicht. Sprechen Sie ruhig Hochdeutsch, das versteht man überall. Mit der Zeit verstehen Sie den Dialekt dann von selbst besser.\nFrau Amaru: Das beruhigt mich.",
+      "question": "Was sagt Herr Widmer über die Sprache?",
+      "options": [
+        "Im Alltag Dialekt, aber in Kurs, Prüfung und Ämtern Hochdeutsch; Dialekt sprechen muss man nicht",
+        "Man muss den Dialekt sprechen können",
+        "In den Ämtern spricht man nur Dialekt",
+        "Hochdeutsch versteht hier niemand"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: einen Handwerker bestellen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Nowak: Guten Tag, bei mir tropft es unter dem Küchenschrank, ich glaube, ein Rohr ist undicht.\nSanitär: Das schauen wir uns an. Können Sie das Wasser unter dem Schrank abstellen?\nFrau Nowak: Ja, den Hahn habe ich schon zugedreht.\nSanitär: Gut. Ich kann heute zwischen 16 und 18 Uhr kommen. Passt das?\nFrau Nowak: Ja, ich bin zu Hause.\nSanitär: Dann bis später. Stellen Sie einen Eimer darunter, falls es noch tropft.\nFrau Nowak: Mache ich, danke.",
+      "question": "Was ist abgemacht?",
+      "options": [
+        "Der Handwerker kommt heute zwischen 16 und 18 Uhr",
+        "Frau Nowak repariert das Rohr selbst",
+        "Der Handwerker kommt erst nächste Woche",
+        "Es wird kein Termin gemacht"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: Kinderbetreuung organisieren",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Sari: Du, am Mittwoch habe ich einen Termin und kann Leon nicht von der Schule abholen. Könntest du ihn mitnehmen?\nFrau Brun: Klar, ich hole meine Tochter sowieso ab. Er kann bis am Abend bei uns bleiben.\nFrau Sari: Das wäre super. Ich hole ihn dann um sechs.\nFrau Brun: Passt. Und nächste Woche, wenn ich mal nicht kann, fragst du mich einfach.\nFrau Sari: Machen wir. Danke dir!",
+      "question": "Was machen die beiden am Mittwoch ab?",
+      "options": [
+        "Frau Brun nimmt Leon mit und betreut ihn bis am Abend",
+        "Leon geht allein nach Hause",
+        "Frau Sari sagt ihren Termin ab",
+        "Leon bleibt in der Schule"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Zug: nächster Halt",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Nächster Halt: Olten. Reisende nach Basel steigen bitte hier um; der Zug nach Basel fährt von Gleis 2, gegenüber. Der Speisewagen befindet sich in der Mitte des Zuges. Wir wünschen eine gute Weiterreise.",
+      "question": "Was sollen Reisende nach Basel in Olten tun?",
+      "options": [
+        "Umsteigen; der Zug nach Basel fährt von Gleis 2",
+        "Im Zug sitzen bleiben",
+        "In den Speisewagen gehen",
+        "In Olten aussteigen und bleiben"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Nachbarin: Paket angenommen",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Hallo, hier ist Frau Kohli von unten. Der Postbote war da, und ich habe ein Paket für Sie angenommen. Sie können es jederzeit am Abend bei mir abholen, ich bin ab sechs zu Hause. Klingeln Sie einfach. Bis dann!",
+      "question": "Aussage: Laut der Nachricht kann man das Paket am Vormittag abholen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

@@ -1745,5 +1745,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Beim Arzt anhaltende Beschwerden schildern",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben seit zwei Wochen Kopfschmerzen, die nicht weggehen. Sie sind beim Arzt. Schildern Sie Ihre Beschwerden genau: seit wann, wie oft, wie stark, was Sie schon versucht haben, und fragen Sie, was Sie tun können.",
+      "minSeconds": 60,
+      "criteria": [
+        "Schildert die Beschwerden genau (seit wann, wie oft, wie stark)",
+        "Sagt, was Sie schon versucht haben",
+        "Fragt, was Sie tun können",
+        "Höfliche Sprache und Rückfragen, wenn nötig"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Eine Wohnungsbesichtigung vereinbaren",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie interessieren sich für eine Wohnung. Rufen Sie an: Stellen Sie sich vor, bitten Sie um einen Besichtigungstermin, fragen Sie, ob die Wohnung noch frei ist und was sie kostet, und sagen Sie, wann Sie Zeit haben.",
+      "minSeconds": 60,
+      "criteria": [
+        "Stellt sich vor und nennt den Grund",
+        "Bittet um einen Besichtigungstermin",
+        "Fragt nach Verfügbarkeit und Kosten",
+        "Sagt, wann Sie Zeit haben"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Im Elterngespräch eine Bitte äussern",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Ihr Kind hat Mühe, in der Pause Anschluss zu finden. Sprechen Sie mit der Lehrperson: Schildern Sie kurz die Situation, äussern Sie die Bitte, ob man dem Kind helfen kann, und begründen Sie, warum Ihnen das wichtig ist.",
+      "minSeconds": 75,
+      "criteria": [
+        "Schildert die Situation des Kindes klar",
+        "Äussert die Bitte deutlich",
+        "Begründet, warum es wichtig ist",
+        "Bleibt höflich und offen",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Am Kiosk etwas kaufen und nach dem Weg fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind an einem Kiosk. Kaufen Sie eine Zeitung und eine Flasche Wasser, fragen Sie nach dem Preis, und fragen Sie dann, wie Sie zur nächsten Bushaltestelle kommen.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, was Sie kaufen möchten, und fragt nach dem Preis",
+        "Fragt nach dem Weg zur Bushaltestelle",
+        "Bedankt sich höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Grillnutzung im Hof",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Hof gibt es einen gemeinsamen Grill. Eine Partei grillt fast jeden Abend, andere stört der Rauch und der Geruch in der Wohnung. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, mit der beide leben können, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin (z. B. Zeiten/Häufigkeit)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
