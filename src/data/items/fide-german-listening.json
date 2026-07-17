@@ -2534,5 +2534,133 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Podcast: Tipps fürs Sparen beim Einkaufen",
+    "prompt": "Hören Sie den Podcast und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Willkommen zum Alltagstipp. Heute geht es ums Sparen beim Einkaufen. Mein erster Tipp: Machen Sie vorher eine Liste und halten Sie sich daran — so kaufen Sie weniger, das Sie nicht brauchen. Zweitens: Gehen Sie nicht hungrig einkaufen, sonst landet mehr im Wagen. Und drittens: Vergleichen Sie die Preise pro Kilo, nicht pro Packung; die grosse Packung ist nicht immer günstiger. Probieren Sie es aus!",
+      "question": "Was ist der erste Tipp im Podcast?",
+      "options": [
+        "Vorher eine Einkaufsliste machen und sich daran halten",
+        "Immer die grösste Packung kaufen",
+        "Hungrig einkaufen gehen",
+        "Nie eine Liste machen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: ein Konto bei der Bank eröffnen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Berater: Guten Tag, Sie möchten ein Konto eröffnen?\nHerr Diop: Ja, ein normales Konto für den Alltag, für Lohn und Rechnungen.\nBerater: Gern. Bringen Sie einen gültigen Ausweis mit. Sind Sie in der Schweiz angemeldet?\nHerr Diop: Ja, ich habe die Anmeldebestätigung dabei.\nBerater: Sehr gut. Dann können wir das Konto heute eröffnen. Die Karte kommt in etwa einer Woche mit der Post.\nHerr Diop: Und was kostet das Konto?\nBerater: Die Kontoführung ist für den Alltag günstig; die genauen Gebühren zeige ich Ihnen gleich auf dem Blatt.\nHerr Diop: Gut, danke.",
+      "question": "Was braucht Herr Diop laut dem Berater, um das Konto zu eröffnen?",
+      "options": [
+        "Einen gültigen Ausweis und die Anmeldebestätigung",
+        "Nur Bargeld",
+        "Eine Kreditkarte einer anderen Bank",
+        "Gar nichts"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anrufbeantworter der Praxis",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Sie haben die Praxis Dr. Roth erreicht. Wir sind zurzeit nicht da. Unsere Öffnungszeiten sind Montag bis Freitag von 8 bis 12 und von 14 bis 17 Uhr. Bitte rufen Sie während dieser Zeit wieder an oder hinterlassen Sie Ihren Namen und Ihre Nummer, wir rufen zurück. In einem Notfall wählen Sie bitte die 144. Danke.",
+      "question": "Was soll man in einem Notfall tun?",
+      "options": [
+        "Die 144 wählen",
+        "Auf den Rückruf warten",
+        "Eine Nachricht hinterlassen",
+        "Am Montag wieder anrufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Parkhaus",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sehr geehrte Kundinnen und Kunden, das Parkhaus schliesst um 22 Uhr. Bitte fahren Sie Ihr Auto vorher hinaus. Bezahlen Sie das Parkticket am Automaten beim Ausgang, bevor Sie zum Auto gehen. Der Automat nimmt Münzen und Karten. Wir danken für Ihren Besuch.",
+      "question": "Wo bezahlt man laut der Durchsage das Parkticket?",
+      "options": [
+        "Am Automaten beim Ausgang",
+        "Direkt beim Auto",
+        "An der Kasse im Geschäft",
+        "Man muss nicht bezahlen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Schule: früher Schluss",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Schule Feldrain. Wegen der grossen Hitze endet der Unterricht morgen bereits um 12 Uhr. Es gibt am Nachmittag keine Betreuung. Wenn Sie für Ihr Kind eine Betreuung brauchen, melden Sie sich bitte heute im Sekretariat. Danke für Ihr Verständnis.",
+      "question": "Aussage: Laut der Nachricht endet der Unterricht morgen erst am Nachmittag.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

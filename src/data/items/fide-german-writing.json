@@ -2504,5 +2504,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Zusage zu einer Einladung",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Eine Kollegin hat Sie zu ihrem Abschiedsessen am nächsten Freitag eingeladen. Sie kommen gern. Schreiben Sie ihr eine kurze Nachricht: Sagen Sie zu, fragen Sie, ob Sie etwas mitbringen sollen, und freuen Sie sich.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt klar zu",
+        "Fragt, ob Sie etwas mitbringen sollen",
+        "Drückt Freude aus",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Kurze Reklamation: falsche Ware",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben online eine blaue Tasche bestellt, aber eine schwarze bekommen. Schreiben Sie dem Onlineshop eine kurze Nachricht: Beschreiben Sie das Problem, nennen Sie Ihre Bestellnummer und sagen Sie, was Sie möchten.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt das Problem (falsche Farbe geliefert)",
+        "Nennt die Bestellnummer",
+        "Sagt, was Sie möchten (richtige Tasche oder Geld zurück)",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Nachricht an die Vermieterin: einen Besichtigungstermin",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Vermieterin möchte die Wohnung neuen Interessenten zeigen, weil Sie ausziehen. Schreiben Sie ihr eine kurze Nachricht: Schlagen Sie zwei mögliche Zeiten vor, an denen Sie zu Hause sind, und fragen Sie, wie lange die Besichtigung dauert.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt zwei mögliche Zeiten",
+        "Sagt, dass Sie dann zu Hause sind",
+        "Fragt nach der Dauer",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Kommentar in einem Forum",
+    "prompt": "Schreiben Sie einen kurzen Kommentar. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "In einem Onlineforum für Ihr Quartier wird über einen neuen Veloweg diskutiert. Schreiben Sie einen kurzen Kommentar: Sagen Sie Ihre Meinung, nennen Sie einen Grund und bleiben Sie höflich.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt die eigene Meinung klar",
+        "Nennt einen Grund",
+        "Bleibt höflich und sachlich",
+        "Verständlich formuliert"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Bibliothek: eine Veranstaltung vorschlagen",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie besuchen oft die Gemeindebibliothek. Sie möchten vorschlagen, dass die Bibliothek einmal im Monat eine Vorlesestunde für Kinder anbietet. Schreiben Sie eine E-Mail: Beschreiben Sie die Idee, begründen Sie sie und bieten Sie an, mitzuhelfen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Beschreibt die Idee klar (Vorlesestunde für Kinder)",
+        "Begründet den Vorschlag",
+        "Bietet an mitzuhelfen",
+        "Bleibt freundlich und konkret",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

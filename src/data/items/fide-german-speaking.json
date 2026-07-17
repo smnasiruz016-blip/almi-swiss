@@ -2209,5 +2209,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Am Schalter fragen, welcher Einbürgerungsweg gilt",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind mit einer Schweizerin verheiratet und überlegen, sich einbürgern zu lassen. Sie wissen aber nicht, welcher Weg für Sie gilt. Gehen Sie zum Schalter der Gemeinde: Schildern Sie Ihre Situation und fragen Sie, ob für Sie der ordentliche oder der erleichterte Weg gilt und wo Sie das Gesuch stellen. Fragen Sie nach, wenn etwas unklar ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Schildert die eigene Situation klar (verheiratet mit einer Schweizerin)",
+        "Fragt, welcher Weg gilt und wo man das Gesuch stellt",
+        "Fragt höflich nach, wenn etwas unklar ist",
+        "Angemessene Sprache am Schalter"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Einem Freund einen Rat geben",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Ein Freund erzählt Ihnen, dass seine Nachbarn jede Nacht laut sind und er nicht schlafen kann. Geben Sie ihm einen Rat: Zeigen Sie Verständnis, machen Sie zwei bis drei Vorschläge, was er tun könnte, und ermutigen Sie ihn.",
+      "minSeconds": 60,
+      "criteria": [
+        "Zeigt Verständnis für die Situation",
+        "Macht zwei bis drei konkrete Vorschläge",
+        "Ermutigt den Freund",
+        "Spricht freundlich und zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Von einem Missgeschick erzählen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von einem kleinen Missgeschick, das Ihnen passiert ist — zum Beispiel, dass Sie den Zug verpasst oder etwas vergessen haben. Sagen Sie, was passiert ist, wie es dazu kam, was Sie dann gemacht haben und wie es ausgegangen ist.",
+      "minSeconds": 75,
+      "criteria": [
+        "Erzählt zusammenhängend, was passiert ist",
+        "Erklärt, wie es dazu kam",
+        "Sagt, was Sie dann gemacht haben",
+        "Sagt, wie es ausgegangen ist",
+        "Verwendet die Vergangenheit und Verbindungswörter"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Am Postschalter ein Paket aufgeben",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten ein Paket verschicken. Gehen Sie zum Postschalter: Sagen Sie, dass Sie ein Paket aufgeben möchten, wohin es geht, und fragen Sie nach dem Preis und wie lange es dauert.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, dass Sie ein Paket aufgeben möchten, und wohin",
+        "Fragt nach dem Preis",
+        "Fragt nach der Dauer und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über Kinderwagen im Hausflur",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Hausflur stehen mehrere Kinderwagen, und es gibt Streit: Die einen sagen, sie hätten keinen anderen Platz; die anderen finden, der Flur sei zu eng und im Notfall gefährlich. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine tragbare Lösung hin (z. B. ein anderer Abstellplatz)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
