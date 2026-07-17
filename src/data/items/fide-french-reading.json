@@ -6,6 +6,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Note dans l'entrée de l'immeuble",
     "prompt": "Lisez la note et choisissez la bonne réponse.",
     "payload": {
@@ -18,7 +19,10 @@
         "Uniquement des boissons sans alcool"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -28,14 +32,23 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Horaires du contrôle des habitants",
     "prompt": "Lisez les horaires et choisissez la bonne réponse.",
     "payload": {
       "passage": "Contrôle des habitants — heures d'ouverture du guichet\n\nLundi au mercredi : 8h00–11h30 et 14h00–16h30\nJeudi : 8h00–11h30 et 14h00–18h30\nVendredi : 8h00–14h00 sans interruption\nSamedi et dimanche : fermé\n\nEn dehors des heures de guichet, vous pouvez nous écrire par courriel.",
       "question": "Madame Traoré ne peut venir au guichet qu'après 17h00. Quel jour est-ce possible ?",
-      "options": ["Le lundi", "Le jeudi", "Le vendredi", "Le samedi"]
+      "options": [
+        "Le lundi",
+        "Le jeudi",
+        "Le vendredi",
+        "Le samedi"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -45,14 +58,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Information sur l'assurance maladie",
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Bienvenue en Suisse\n\nL'assurance maladie de base est obligatoire pour toute personne domiciliée en Suisse. Vous devez vous assurer dans les trois mois qui suivent votre arrivée. L'assurance est alors valable depuis le premier jour. Vous choisissez librement votre caisse maladie.",
       "question": "Affirmation : on peut décider soi-même auprès de quelle caisse maladie on conclut l'assurance de base.",
-      "options": ["Vrai", "Faux"]
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -62,6 +82,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Message de la crèche",
     "prompt": "Lisez le message et choisissez la bonne réponse.",
     "payload": {
@@ -74,7 +95,10 @@
         "Envoyer un message à Léo"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -84,14 +108,46 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Où va ce déchet ?",
     "prompt": "Associez chaque objet au bon point de collecte.",
     "payload": {
       "instructions": "Dans beaucoup de communes, les déchets sont triés. Faites correspondre.",
-      "left": ["Une bouteille d'eau minérale en plastique vide", "Un journal", "Un bocal à confiture vide", "Une boîte de conserve vide"],
-      "right": ["Collecte PET", "Collecte papier", "Collecte verre", "Collecte alu et fer-blanc", "Déchets spéciaux à la pharmacie"]
+      "left": [
+        "Une bouteille d'eau minérale en plastique vide",
+        "Un journal",
+        "Un bocal à confiture vide",
+        "Une boîte de conserve vide"
+      ],
+      "right": [
+        "Collecte PET",
+        "Collecte papier",
+        "Collecte verre",
+        "Collecte alu et fer-blanc",
+        "Déchets spéciaux à la pharmacie"
+      ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   },
   {
@@ -101,6 +157,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Lettre de la caisse maladie",
     "prompt": "Lisez la lettre et choisissez la bonne réponse.",
     "payload": {
@@ -113,7 +170,10 @@
         "Parce que le service des urgences n'est pas reconnu"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -123,6 +183,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Règlement de maison",
     "prompt": "Lisez l'extrait du règlement et choisissez la bonne réponse.",
     "payload": {
@@ -135,7 +196,10 @@
         "Il doit d'abord s'inscrire sur le planning de la buanderie"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -145,17 +209,58 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Annonce à la commune",
     "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
     "payload": {
       "passage": "Lorsque vous emménagez dans une nouvelle commune, vous devez vous {{1}} auprès du contrôle des habitants. Apportez votre pièce d'identité, le bail et vos attestations d'assurance {{2}} vous. La commune vous inscrit ensuite au registre. Si vous quittez la commune plus tard, vous devez vous {{3}}.",
       "gaps": [
-        { "id": 1, "options": ["annoncer", "excuser", "inviter", "présenter"] },
-        { "id": 2, "options": ["avec", "après", "sans", "contre"] },
-        { "id": 3, "options": ["annoncer", "désinscrire", "inscrire", "reposer"] }
+        {
+          "id": 1,
+          "options": [
+            "annoncer",
+            "excuser",
+            "inviter",
+            "présenter"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "avec",
+            "après",
+            "sans",
+            "contre"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "annoncer",
+            "désinscrire",
+            "inscrire",
+            "reposer"
+          ]
+        }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 1
+        }
+      ]
+    },
     "maxPoints": 3
   },
   {
@@ -165,14 +270,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Lettre aux parents",
     "prompt": "Lisez la lettre. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Chers parents,\n\nLa réunion de parents de la classe 6P aura lieu le mardi 6 mai à 19h30, salle 12.\n\nNous parlerons du camp de juin et du passage au cycle d'orientation. Il est important qu'au moins un parent soit présent. Si vous avez besoin d'une traductrice ou d'un traducteur, annoncez-le au secrétariat jusqu'au 29 avril. Nous l'organisons volontiers pour vous.\n\nMeilleures salutations\nM. Iten, enseignante",
       "question": "Affirmation : les personnes qui ont besoin d'une traduction doivent amener quelqu'un elles-mêmes.",
-      "options": ["Vrai", "Faux"]
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -182,6 +294,7 @@
     "skill": "READING",
     "taskType": "ORDERING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Résilier un bail",
     "prompt": "Mettez les étapes dans le bon ordre.",
     "payload": {
@@ -194,7 +307,16 @@
         "Remettre les clés"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": {
+      "type": "ORDERING",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
     "maxPoints": 1
   },
   {
@@ -204,6 +326,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Affiche à la maison de quartier",
     "prompt": "Lisez l'affiche et choisissez la bonne réponse.",
     "payload": {
@@ -216,7 +339,10 @@
         "Ils ne s'emploient qu'à l'écrit"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -226,6 +352,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Notice sur la naturalisation",
     "prompt": "Lisez le texte et choisissez la bonne réponse.",
     "payload": {
@@ -238,7 +365,10 @@
         "Elles ne concernent que les compétences écrites"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -248,17 +378,58 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Extrait du contrat de travail",
     "prompt": "Lisez l'extrait et choisissez le mot qui convient pour chaque lacune.",
     "payload": {
       "passage": "Le temps d'essai {{1}} trois mois. Pendant cette période, le contrat peut être résilié par les deux parties moyennant un délai de sept jours. À l'échéance du temps d'essai, un délai de congé de deux mois pour la fin d'un mois {{2}}. La collaboratrice a droit {{3}} quatre semaines de vacances payées par année.",
       "gaps": [
-        { "id": 1, "options": ["est de", "reçoit", "appartient", "signifie"] },
-        { "id": 2, "options": ["s'applique", "va", "reste", "arrive"] },
-        { "id": 3, "options": ["à", "pour", "sur", "de"] }
+        {
+          "id": 1,
+          "options": [
+            "est de",
+            "reçoit",
+            "appartient",
+            "signifie"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "s'applique",
+            "va",
+            "reste",
+            "arrive"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "à",
+            "pour",
+            "sur",
+            "de"
+          ]
+        }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
     "maxPoints": 3
   },
   {
@@ -268,6 +439,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Deux avis sur la vie associative",
     "prompt": "Lisez les deux contributions parues dans le journal de quartier et choisissez la bonne réponse.",
     "payload": {
@@ -280,7 +452,10 @@
         "Sur le fait que les cours de français soient trop chers"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -290,6 +465,7 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "À quel service s'adresser ?",
     "prompt": "Associez chaque situation au service qui convient.",
     "payload": {
@@ -309,7 +485,27 @@
         "L'office des poursuites"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   }
 ]

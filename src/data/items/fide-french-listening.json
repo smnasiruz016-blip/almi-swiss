@@ -6,14 +6,23 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Message sur le répondeur",
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Sylla, ici la déchetterie communale de Renens. Vous nous avez demandé les horaires pour les encombrants. Nous sommes ouverts du mardi au vendredi de 14h à 18h, et le samedi de 9h à 16h. Le lundi, nous sommes fermés. Vous pouvez venir avec votre carte d'habitant. Bonne journée.",
       "question": "Quand la déchetterie est-elle fermée ?",
-      "options": ["Le lundi", "Le mardi", "Le samedi", "Le vendredi après-midi"]
+      "options": [
+        "Le lundi",
+        "Le mardi",
+        "Le samedi",
+        "Le vendredi après-midi"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -23,14 +32,23 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Annonce en gare",
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Information aux voyageurs à destination de Genève. Le train InterRegio de 14h12 partira aujourd'hui exceptionnellement de la voie 5, et non de la voie 3. Je répète : le train pour Genève partira de la voie 5. Nous vous prions de nous excuser pour ce changement.",
       "question": "Qu'est-ce qui a changé ?",
-      "options": ["L'heure de départ", "La voie", "La destination", "Le prix du billet"]
+      "options": [
+        "L'heure de départ",
+        "La voie",
+        "La destination",
+        "Le prix du billet"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -40,14 +58,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Message du secrétariat de l'école",
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici le secrétariat de l'école des Vergers. Demain, la sortie à la piscine est annulée : le car est en panne. Les élèves ont donc cours normalement en classe, aux heures habituelles. Il n'est pas nécessaire d'apporter les affaires de bain. Merci d'en informer votre enfant.",
       "question": "Affirmation : demain, les cours commencent plus tard que d'habitude.",
-      "options": ["Vrai", "Faux"]
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -57,6 +82,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "À la pharmacie",
     "prompt": "Écoutez la pharmacienne et choisissez la bonne réponse.",
     "payload": {
@@ -69,7 +95,10 @@
         "Uniquement en cas de douleur"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -79,14 +108,23 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Le prix au marché",
     "prompt": "Écoutez le marchand et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Voilà, madame : un kilo de pommes et une salade. Ça vous fait sept francs nonante. Vous payez comment ? Ah, avec la carte, très bien, tapez votre code s'il vous plaît. Merci et bonne journée !",
       "question": "Combien coûtent les achats ?",
-      "options": ["7,19 francs", "7,90 francs", "9,70 francs", "17,90 francs"]
+      "options": [
+        "7,19 francs",
+        "7,90 francs",
+        "9,70 francs",
+        "17,90 francs"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -96,6 +134,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Message de la régie",
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
@@ -108,7 +147,10 @@
         "Écrire directement au chauffagiste"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -118,6 +160,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Au guichet du contrôle des habitants",
     "prompt": "Écoutez l'employée et choisissez la bonne réponse.",
     "payload": {
@@ -130,7 +173,10 @@
         "Rien : le dossier est complet"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -140,14 +186,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Message de la caisse maladie",
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Madame Kovač, ici le service clientèle de votre caisse maladie. Nous avons bien reçu votre facture. Une partie reste toutefois à votre charge, car votre franchise n'est pas encore atteinte cette année. Ce n'est pas une erreur de notre part et ce n'est pas la peine de renvoyer le document. Si vous souhaitez des explications, notre ligne est ouverte du lundi au vendredi. Bonne journée.",
       "question": "Affirmation : Madame Kovač doit renvoyer la facture une deuxième fois.",
-      "options": ["Vrai", "Faux"]
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -157,6 +210,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Message d'une collègue",
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
@@ -169,7 +223,10 @@
         "De venir la chercher en voiture"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -179,12 +236,18 @@
     "skill": "LISTENING",
     "taskType": "MATCHING",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Quatre messages sur le répondeur",
     "prompt": "Écoutez les quatre messages et associez chacun à son sujet.",
     "payload": {
       "instructions": "Vous rentrez à la maison et écoutez votre répondeur. Associez chaque message au bon sujet.",
       "transcript": "Message 1 : Bonjour, cabinet dentaire Morand. Nous vous rappelons votre rendez-vous de contrôle de jeudi à 16h30. Merci de nous avertir vingt-quatre heures à l'avance en cas d'empêchement.\n\nMessage 2 : Bonjour, ici la bibliothèque municipale. Deux de vos livres sont à rendre depuis une semaine. Merci de les rapporter afin d'éviter des frais de retard.\n\nMessage 3 : Bonsoir, c'est votre voisin du deuxième. Un colis est arrivé pour vous cet après-midi, je l'ai pris chez moi. Sonnez quand vous voulez, je suis là toute la soirée.\n\nMessage 4 : Bonjour, service des naturalisations de la commune. Il manque une pièce à votre dossier : l'attestation de langue. Merci de nous la faire parvenir d'ici la fin du mois.",
-      "left": ["Message 1", "Message 2", "Message 3", "Message 4"],
+      "left": [
+        "Message 1",
+        "Message 2",
+        "Message 3",
+        "Message 4"
+      ],
       "right": [
         "Un rappel de rendez-vous",
         "Quelque chose à rendre en retard",
@@ -193,7 +256,27 @@
         "Une facture impayée"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   },
   {
@@ -203,6 +286,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Annonce à la réunion de parents",
     "prompt": "Écoutez l'enseignante et choisissez la bonne réponse.",
     "payload": {
@@ -215,7 +299,10 @@
         "Elle n'existe que pour les enfants du village"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -225,6 +312,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Information au service des naturalisations",
     "prompt": "Écoutez la collaboratrice et choisissez la bonne réponse.",
     "payload": {
@@ -237,7 +325,10 @@
         "Parce que le Secrétariat d'État aux migrations décide de toutes les demandes"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -247,6 +338,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "État des lieux de sortie",
     "prompt": "Écoutez le représentant de la régie et choisissez la bonne réponse.",
     "payload": {
@@ -259,7 +351,10 @@
         "Ils ne figureront pas au procès-verbal"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -269,14 +364,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Chronique à la radio locale",
     "prompt": "Écoutez la chronique. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Et pour terminer, un mot sur notre français d'ici. On nous écrit souvent pour nous demander s'il faut dire septante ou soixante-dix. La réponse est simple : en Suisse romande, on dit septante et nonante, et c'est du bon français — ce n'est pas une faute à corriger. Pour quatre-vingts, en revanche, ça dépend de l'endroit : on entend huitante dans le canton de Vaud, mais à Genève, on dit quatre-vingts comme en France. Donc si vous arrivez chez nous et qu'on vous corrige d'un village à l'autre, ne vous inquiétez pas : c'est la région qui change, pas votre français.",
       "question": "Affirmation : selon la chronique, « huitante » s'emploie partout en Suisse romande.",
-      "options": ["Vrai", "Faux"]
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -286,6 +388,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Deux voisins parlent de la commune",
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
@@ -298,7 +401,10 @@
         "Il pense que le journal communal s'est trompé"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   }
 ]
