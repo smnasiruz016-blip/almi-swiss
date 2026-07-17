@@ -2662,5 +2662,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Kurznachricht: eine neue Buslinie",
+    "prompt": "Hören Sie die Meldung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Und noch eine Meldung aus der Gemeinde: Ab dem ersten September gibt es eine neue Buslinie, die Linie 8. Sie verbindet das neue Wohnquartier im Norden direkt mit dem Bahnhof und dem Spital. Der Bus fährt werktags alle fünfzehn Minuten, am Wochenende alle dreissig Minuten. Damit wird es für viele Menschen einfacher, ohne Auto zur Arbeit zu kommen.",
+      "question": "Was ist neu ab dem ersten September?",
+      "options": [
+        "Eine neue Buslinie zwischen dem Wohnquartier, dem Bahnhof und dem Spital",
+        "Ein neuer Bahnhof",
+        "Ein neues Spital",
+        "Dass keine Busse mehr fahren"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: das Wochenende planen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Lang: Was machen wir am Wochenende? Das Wetter soll gut sein.\nHerr Kern: Wir könnten wandern gehen oder in den Zoo.\nFrau Lang: Mit den Kindern ist der Zoo vielleicht besser, das ist weniger anstrengend.\nHerr Kern: Stimmt. Dann gehen wir am Samstag in den Zoo und ruhen uns am Sonntag aus.\nFrau Lang: Gut. Ich schaue noch, wann er offen ist, und packe etwas zu essen ein.\nHerr Kern: Super, dann ist das abgemacht.",
+      "question": "Was planen die beiden für den Samstag?",
+      "options": [
+        "Mit den Kindern in den Zoo zu gehen",
+        "Eine lange Wanderung",
+        "Zu Hause zu bleiben",
+        "Einkaufen zu gehen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: eine Reservation ändern",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Restaurant: Restaurant Sonne, guten Tag.\nFrau Aziz: Guten Tag, ich habe für heute Abend einen Tisch für vier Personen reserviert, auf den Namen Aziz. Wir sind aber jetzt zu sechst. Geht das noch?\nRestaurant: Einen Moment … ja, das geht. Ich ändere die Reservation auf sechs Personen. Um wie viel Uhr waren Sie noch mal?\nFrau Aziz: Um 19 Uhr.\nRestaurant: Gut, sechs Personen um 19 Uhr, auf den Namen Aziz. Bis heute Abend.\nFrau Aziz: Vielen Dank.",
+      "question": "Was ändert das Restaurant?",
+      "options": [
+        "Die Reservation von vier auf sechs Personen",
+        "Die Uhrzeit auf 20 Uhr",
+        "Den Namen der Reservation",
+        "Den Tag der Reservation"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Warenhaus: Sonderangebot",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, wir haben ein Sonderangebot für Sie: Heute gibt es alle Jacken zum halben Preis. Sie finden die Jacken im zweiten Stock bei der Rolltreppe. Das Angebot gilt nur bis Ladenschluss um 19 Uhr. Wir wünschen Ihnen viel Freude beim Einkaufen.",
+      "question": "Wo findet man die Jacken im Angebot?",
+      "options": [
+        "Im zweiten Stock bei der Rolltreppe",
+        "Im Erdgeschoss",
+        "Beim Eingang",
+        "Im Keller"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht vom Vermieter: Wasser abgestellt",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Verwaltung. Wir informieren Sie: Morgen, am Dienstag, ist von 9 bis 12 Uhr das Wasser abgestellt, weil eine Leitung repariert wird. Bitte drehen Sie in dieser Zeit die Hähne zu. Am Nachmittag läuft das Wasser wieder normal. Danke für Ihr Verständnis.",
+      "question": "Aussage: Laut der Nachricht ist das Wasser den ganzen Dienstag abgestellt.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

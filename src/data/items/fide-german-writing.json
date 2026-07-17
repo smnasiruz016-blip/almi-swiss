@@ -2635,5 +2635,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Kurze Bewerbung: Zeitungen austragen",
+    "prompt": "Schreiben Sie eine kurze Bewerbung. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben einen Aushang gesehen: Man sucht jemanden, der am frühen Morgen Zeitungen austrägt. Schreiben Sie eine kurze Bewerbung: Sagen Sie, dass Sie sich interessieren, warum Sie geeignet sind, und wann Sie erreichbar sind.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt, dass Sie sich für die Stelle interessieren",
+        "Sagt, warum Sie geeignet sind (z. B. zuverlässig, früh wach)",
+        "Nennt, wann Sie erreichbar sind",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht an die Nachbarin: Werkzeug zurückgeben",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben von Ihrer Nachbarin eine Leiter ausgeliehen und möchten sie zurückgeben. Schreiben Sie ihr eine kurze Nachricht: Bedanken Sie sich, sagen Sie, wann Sie die Leiter zurückbringen, und fragen Sie, ob die Zeit passt.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Bedankt sich für die Leiter",
+        "Sagt, wann Sie sie zurückbringen",
+        "Fragt, ob die Zeit passt",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Kita: Ferien mitteilen",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind geht in die Kita. In zwei Wochen machen Sie eine Woche Ferien, in der Ihr Kind nicht kommt. Schreiben Sie der Kita eine kurze E-Mail: Nennen Sie die genauen Tage und fragen Sie, ob Sie in dieser Woche trotzdem bezahlen müssen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt die genauen Ferientage",
+        "Sagt, dass das Kind in dieser Zeit nicht kommt",
+        "Fragt nach der Bezahlung in dieser Woche",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Katze entlaufen",
+    "prompt": "Schreiben Sie einen Aushang. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Katze ist seit gestern weg. Schreiben Sie einen kurzen Aushang für das Quartier: Beschreiben Sie die Katze, sagen Sie, seit wann sie weg ist, und wie man Sie erreicht, wenn jemand sie findet.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt die Katze (Farbe, Grösse, Besonderheiten)",
+        "Sagt, seit wann sie weg ist",
+        "Sagt, wie man Sie erreicht",
+        "Übersichtlich und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Gemeinde: Termin für die Einbürgerungsberatung",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie überlegen, ein Einbürgerungsgesuch zu stellen, und möchten sich zuerst beraten lassen. Schreiben Sie den Einwohnerdiensten eine E-Mail: Bitten Sie um einen Beratungstermin, erklären Sie kurz Ihre Situation und fragen Sie, welche Unterlagen Sie zum Gespräch mitbringen sollen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Bittet klar um einen Beratungstermin",
+        "Erklärt kurz die eigene Situation",
+        "Fragt, welche Unterlagen Sie mitbringen sollen",
+        "Bleibt höflich und konkret",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
