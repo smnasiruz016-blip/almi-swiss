@@ -1,143 +1,168 @@
-// Real-entity gate — no invented document may be signed by a real company.
+// Real-entity gate — no invented document may be signed by a real COMPANY.
 //
-// WHY THIS EXISTS
+// Run: npm run gate:real-entity   (also wired into `build`)
+//
+// WHY
 //
 // Our items ARE fabrications: invented letters, invented phone calls, invented
-// notices. That is legitimate — until one is signed with a real organisation's name.
-// Then it stops being a practice task and becomes words put in a real company's mouth.
+// notices. That is legitimate — until one is signed with a real company's name. Then
+// it stops being a practice task and becomes words put in that company's mouth.
 //
-// It has happened twice, and both times a human caught it, not a check:
+// Twice now, and a person caught it both times, not a check:
 //   * PR#11 — two reading tasks signed invented insurance letters "Helvetia Kranken AG"
 //     and "Helvetia Santé SA". Helvetia is a real Swiss insurer (1858, Basel). The
-//     amounts in the letters were CORRECT — CHF 300 franchise, 10% Selbstbehalt — which
-//     is exactly why it survived: the fact-check passes, and the fact-check is not what
-//     is wrong.
-//   * 2026-07-17 — a new reading task invented a notice for a "Repair-Café", a real
-//     trademarked name (Repair Café International Foundation).
+//     amounts were CORRECT — CHF 300 franchise, 10% Selbstbehalt — which is exactly why
+//     it survived: the fact-check passes, and the fact-check is not what is wrong.
+//   * 2026-07-17 — an invented notice for a "Repair-Café", a real trademarked name.
 //
-// No other gate can see this. Every word is allowed. The fork-hygiene gate hunts
-// ANCESTOR nouns; this hunts REAL-WORLD ones. Different failure, different list.
+// No other gate can see this: every word is allowed. fork-hygiene hunts ANCESTOR
+// nouns; this hunts REAL-WORLD COMMERCIAL ones. Different failure, different list.
 //
-// WHAT IT DOES NOT DO
+// 🔴 THIS IS A REGRESSION GUARD, NOT A COMPLETENESS CHECK.
 //
-// It does not ban naming a real body where naming one is the honest thing: fide, SEM,
-// telc, Goethe are named on purpose ("we are not affiliated with..."). Those are not on
-// this list. This list is organisations that could plausibly be a PARTY in one of our
-// invented documents — insurers, banks, retailers, telecoms.
+// A green run means "none of the names we already got wrong, or already thought of,
+// is in the bank". It does NOT mean no real company is named — there are thousands,
+// and this list has 40-odd. The next unknown entity will be caught by READING the
+// item, exactly as both of these were. Do not let this gate stand in for that, and do
+// not treat the list as the definition of the rule. The rule is: an invented document
+// names no real company. When reading turns up a new one, add it here so it can never
+// come back — that is all this file is for.
 //
-// AMBIGUITY IS HANDLED, NOT IGNORED. A blanket denylist would fire on true German prose
-// and train everyone to ignore the gate:
-//   * "Mobiliar" is an ordinary German noun (furnishings) AND an insurer (die Mobiliar).
-//     A Wohnungsabnahme item may legitimately say "das Mobiliar". So the brand is matched
-//     as the PHRASE "die Mobiliar", never the bare word.
-//   * "Helvetia" is also the national personification (Confoederatio Helvetica → CH).
-//     Banned in ITEMS, where it can only be a company; prose may need the other sense,
-//     so prose can escape per line.
-// Use `real-entity-allow` on a line that genuinely needs the word.
+// AUTHORITIES ARE NOT ON THIS LIST, ON PURPOSE. SEM, fide, telc, Goethe, "die
+// Gemeinde", "der Kanton", "die Einwohnerdienste" are named deliberately and correctly
+// — the bank's whole civic discipline is to attribute claims to a document or an
+// authority. Only COMMERCIAL entities are blocked: insurers, banks, retailers,
+// telecoms, transport, trademarked programmes.
 
 import fs from "node:fs";
 import path from "node:path";
 
-// Unambiguous brands. Word-boundary, case-sensitive.
+// Unambiguous brands: the word is the company, so a bare match is enough.
 const BRANDS = [
-  // health insurers (BAG-authorised)
-  "Helvetia", "Helsana", "CSS", "Swica", "SWICA", "Assura", "Concordia", "Sanitas",
-  "Visana", "KPT", "Atupri", "Sympany", "ÖKK", "EGK", "Agrisano", "Aquilana",
-  // other insurers
-  "Baloise", "Vaudoise", "AXA", "Allianz", "Generali", "Zurich Insurance",
-  // banks
-  "UBS", "PostFinance", "Raiffeisen", "Credit Suisse", "Zürcher Kantonalbank", "ZKB",
-  // retail / telecom / transport
-  "Migros", "Coop", "Denner", "Manor", "Swisscom", "Sunrise", "Aldi", "Lidl",
-  // trademarked programme names that read as generic
-  "Repair Café", "Repair-Café", "Repair Cafe", "Repair-Cafe",
+  "Helsana", "Swica", "SWICA", "Baloise", "Atupri", "ÖKK", "EGK", "Agrisano", "Aquilana",
+  "Vaudoise", "AXA", "Allianz", "Generali",
+  "UBS", "PostFinance", "Raiffeisen", "ZKB", "Zürcher Kantonalbank", "Credit Suisse",
+  "Migros Bank", "Migros", "Coop", "Denner", "Manor", "Aldi", "Lidl",
+  "Swisscom", "Sunrise",
+  "SBB", "CFF", "FFS",
+  "Klubschule Migros", "Repair Café", "Repair-Café", "Repair Cafe", "Repair-Cafe",
+  "Groupe Mutuel",
 ];
 
-// Brands whose bare word is ordinary German. Matched only as the exact brand phrase.
-const PHRASES = ["die Mobiliar", "Die Mobiliar", "der Mobiliar", "Groupe Mutuel", "Die Post AG"];
+// Names that are ALSO ordinary words. These fire ONLY next to a corporate marker, or in
+// sender form ("die <Name>"). Without that rule the gate produces noise and gets
+// ignored — an ignored gate is worse than none, because it reads as coverage:
+//   * "Mobiliar"  = furnishings — a Wohnungsabnahme item may say "das Mobiliar".
+//   * "Helvetia"  = the national personification (Confoederatio Helvetica → CH).
+//   * "Concordia" = concord; also a real university elsewhere.
+//   * "Sanitas"/"Visana"/"Assura"/"Sympany"/"CSS"/"KPT" = look like words/initialisms.
+const COMMON_WORD_BRANDS = [
+  "Helvetia", "CSS", "Concordia", "Sanitas", "Visana", "Assura", "Sympany", "Mobiliar",
+  "KPT",
+];
+
+// What makes a mention corporate rather than ordinary.
+const CORPORATE_MARKER = /\b(AG|SA|SAGL|GmbH|Versicherung(?:en)?|Krankenkasse|Krankenversicherung|Kasse|Bank|Gruppe|Assurance|Assicurazione)\b/u;
+const SENDER_FORM = /\b[Dd]ie\s*$/u;
 
 const ESCAPE = "real-entity-allow";
 
-// SCOPE: items only, and that is the honest scope. Both real incidents were invented
-// documents (an insurance letter, a notice). Prose is different work: naming a real
-// body there can be correct — "not affiliated with fide", a real university in
-// universities.json, "CSS" meaning the stylesheet language. A first draft of this gate
-// scanned all of src and immediately produced exactly those two false positives. A gate
-// that cries wolf gets ignored, and an ignored gate is worse than no gate, because it
-// reads as coverage. So: invented content is where a real name can only be a mistake.
+// (a) SCOPE — item CONTENT only. Not prose, not code, not study data.
+//
+// A first draft scanned all of src and instantly produced two false positives:
+// "Concordia" (a real university, legitimately in universities.json) and "CSS" (the
+// stylesheet language, in brand.ts). Naming a real body in PROSE is frequently correct
+// — "we are not affiliated with fide" is a sentence we want. Invented item content is
+// the one place a real company name can only ever be a mistake, so that is the scope.
 const ITEM_DIR = path.join(process.cwd(), "src", "data", "items");
-const SCAN_DIRS = [ITEM_DIR];
 
-function walk(dir, out = []) {
-  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    const full = path.join(dir, e.name);
-    if (e.isDirectory()) walk(full, out);
-    else if (e.name.endsWith(".json")) out.push(full);
+// The fields a learner actually reads. Structural fields (language, exam, track, cefr,
+// taskType) are not content and cannot carry a leak.
+const CONTENT_KEYS = new Set([
+  "title", "prompt", "passage", "transcript", "stimulus", "question", "instructions",
+  "options", "left", "right", "items", "criteria",
+]);
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+function findHits(text) {
+  const found = [];
+
+  for (const b of BRANDS) {
+    if (new RegExp(`(^|\\P{L})${escapeRe(b)}($|\\P{L})`, "u").test(text)) found.push(b);
   }
-  return out;
+
+  // (b) Common-word names need corporate context in the SAME string.
+  for (const b of COMMON_WORD_BRANDS) {
+    const re = new RegExp(`(^|\\P{L})${escapeRe(b)}($|\\P{L})`, "gu");
+    let m;
+    while ((m = re.exec(text)) !== null) {
+      const at = m.index + m[1].length;
+      const before = text.slice(Math.max(0, at - 30), at);
+      const after = text.slice(at + b.length, at + b.length + 30);
+      if (CORPORATE_MARKER.test(after) || CORPORATE_MARKER.test(before) || SENDER_FORM.test(before)) {
+        found.push(b);
+        break;
+      }
+    }
+  }
+  return found;
 }
 
 const problems = [];
 
-const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-
-function hits(text) {
-  const found = [];
-  for (const b of BRANDS) {
-    if (new RegExp(`(^|\\P{L})${escapeRe(b)}($|\\P{L})`, "u").test(text)) found.push(b);
-  }
-  for (const p of PHRASES) if (text.includes(p)) found.push(p);
-  return found;
-}
-
 /**
- * Walk the PARSED json and test each string value — never the raw file text.
+ * Test the PARSED string values, never raw file text.
  *
- * The first version scanned raw lines and MISSED the flagship case. In the file the
- * passage reads `Freundliche Grüsse
-Helvetia Kranken AG`, and `
-` there is two
- * characters: a backslash and the letter n. So the character before "Helvetia" is a
- * LETTER, the word-boundary never matched, and the gate went green on the exact bug it
- * was written for — a company name in a signature, which is precisely where `
-` always
- * sits. Blind in the one place signatures live.
- *
- * Parsing first makes the boundary real: the value contains a genuine newline.
+ * The first version scanned raw lines and WENT GREEN on the Helvetia bug when I
+ * re-introduced it to test. In the file the passage reads
+ * `Freundliche Grüsse\nHelvetia Kranken AG`, and there `\n` is two characters — a
+ * backslash and the letter n. So the character before "Helvetia" was a LETTER, the
+ * word boundary never matched, and the gate was blind in the exact place a company
+ * name always sits: right after the newline in a signature. Repair-Café was caught
+ * only because a space happened to precede it. Parsing first makes the boundary real.
  */
-function scanValue(v, file, trail) {
+function scanContent(v, file, trail) {
   if (typeof v === "string") {
     if (v.includes(ESCAPE)) return;
-    for (const b of hits(v)) {
-      problems.push(`${path.relative(process.cwd(), file)} ${trail} — real entity "${b}"`);
+    for (const b of findHits(v)) {
+      problems.push(`${path.relative(process.cwd(), file)} ${trail} — real company "${b}"`);
     }
   } else if (Array.isArray(v)) {
-    v.forEach((x, i) => scanValue(x, file, `${trail}[${i}]`));
-  } else if (v && typeof v === "object") {
-    for (const [k, x] of Object.entries(v)) scanValue(x, file, `${trail}.${k}`);
+    v.forEach((x, i) => scanContent(x, file, `${trail}[${i}]`));
   }
 }
 
-function scan(file) {
+function scanItem(item, file, trail) {
+  for (const [k, v] of Object.entries(item)) {
+    if (CONTENT_KEYS.has(k)) scanContent(v, file, `${trail}.${k}`);
+    else if (v && typeof v === "object" && !Array.isArray(v)) scanItem(v, file, `${trail}.${k}`);
+  }
+}
+
+for (const f of fs.readdirSync(ITEM_DIR).filter((n) => n.endsWith(".json"))) {
+  const full = path.join(ITEM_DIR, f);
   let parsed;
   try {
-    parsed = JSON.parse(fs.readFileSync(file, "utf8"));
+    parsed = JSON.parse(fs.readFileSync(full, "utf8"));
   } catch {
-    problems.push(`${path.relative(process.cwd(), file)} — unparseable JSON`);
-    return;
+    problems.push(`${f} — unparseable JSON`);
+    continue;
   }
-  scanValue(parsed, file, "");
+  if (!Array.isArray(parsed)) continue;
+  parsed.forEach((item, i) => scanItem(item, full, `[${i}]`));
 }
 
-for (const d of SCAN_DIRS) for (const f of walk(d)) scan(f);
-
 if (problems.length) {
-  console.error(`\n✗ real-entity gate: ${problems.length} hit(s) — an invented document must not name a real organisation.\n`);
+  console.error(`\n✗ real-entity gate: ${problems.length} hit(s) — an invented document must not name a real company.\n`);
   for (const p of problems) console.error("  " + p);
-  console.error(`\nFix by inventing a placeholder ("Kranken AG", "Muster AG" — the Confederation's own`);
-  console.error(`specimens use Muster*), or reuse one the bank already ships. If a line genuinely needs`);
-  console.error(`the word (e.g. Helvetia as the national personification), add "${ESCAPE}" to that line.`);
+  console.error(`\nFix: invent a placeholder ("Kranken AG"; the Confederation's own specimens use`);
+  console.error(`Muster*), or reuse one the bank already ships — a name already in use cannot`);
+  console.error(`introduce a NEW collision. If a string genuinely needs the word (Helvetia as the`);
+  console.error(`national personification), add "${ESCAPE}" to it.\n`);
   process.exit(1);
 }
 
-console.log(`✓ Real-entity gate: clean (${BRANDS.length + PHRASES.length} real orgs checked across the item bank).`);
+console.log(
+  `✓ Real-entity gate: clean (${BRANDS.length + COMMON_WORD_BRANDS.length} known companies; regression guard, not a completeness check — a new one comes from reading the item).`,
+);
