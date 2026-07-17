@@ -438,5 +438,565 @@
       ]
     },
     "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Ansage im Hallenbad",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Gäste. Wir schliessen heute um 20 Uhr. Bitte verlassen Sie die Becken um Viertel vor acht. Die Duschen bleiben bis zehn nach acht offen. Wir wünschen Ihnen einen schönen Abend.",
+      "question": "Wann soll man aus dem Becken kommen?",
+      "options": [
+        "Um 19.45 Uhr",
+        "Um 20.00 Uhr",
+        "Um 20.10 Uhr",
+        "Um 21.00 Uhr"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Kita",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Frau Adeyemi, hier ist die Kita Sonnenblume. Nur eine kurze Information: Morgen machen wir mit den Kindern einen Ausflug in den Wald. Bitte ziehen Sie Ihrer Tochter feste Schuhe an und geben Sie ihr eine Jacke mit. Das Essen bekommen die Kinder von uns. Danke und bis morgen.",
+      "question": "Was sollen die Eltern mitgeben?",
+      "options": [
+        "Das Essen",
+        "Feste Schuhe und eine Jacke",
+        "Geld für den Ausflug",
+        "Ein Spielzeug"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Bus",
+    "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Nächster Halt: Dorfplatz. Achtung, die Haltestelle Schulhaus wird heute nicht bedient. Wegen einer Baustelle fährt der Bus direkt zum Spital weiter. Fahrgäste zum Schulhaus steigen bitte am Dorfplatz aus und gehen fünf Minuten zu Fuss.",
+      "question": "Aussage: Der Bus hält heute nicht beim Schulhaus.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Anruf vom Zahnarzt",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Herr Salihu. Hier die Zahnarztpraxis am Park. Ihr Termin am Mittwoch um 14 Uhr bleibt wie abgemacht. Bitte denken Sie daran: Sie haben gesagt, Sie nehmen ein Medikament. Bringen Sie bitte die Packung mit, damit wir den Namen sehen. Bis Mittwoch.",
+      "question": "Was soll Herr Salihu mitbringen?",
+      "options": [
+        "Die Versichertenkarte",
+        "Die Packung seines Medikaments",
+        "Eine Überweisung",
+        "Bargeld"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht aus der Bibliothek",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Frau Duarte. Hier ist die Gemeindebibliothek. Das Buch, das Sie reserviert haben, ist da. Wir legen es für Sie an die Seite. Bitte holen Sie es innerhalb von einer Woche ab, sonst geben wir es der nächsten Person. Sie brauchen nichts zu bezahlen. Auf Wiederhören.",
+      "question": "Was passiert, wenn Frau Duarte das Buch nicht abholt?",
+      "options": [
+        "Sie bezahlt eine Gebühr",
+        "Es geht an die nächste Person",
+        "Es wird nach Hause geschickt",
+        "Die Bibliothek ruft noch einmal an"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Ansage auf dem Markt",
+    "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Liebe Marktbesucherinnen und Marktbesucher. Wegen des starken Windes bauen wir heute früher ab. Die Stände schliessen um 12 Uhr statt um 16 Uhr. Der Markt am nächsten Samstag findet normal statt. Danke für Ihr Verständnis.",
+      "question": "Aussage: Der Markt fällt nächsten Samstag aus.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Nachbarin",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hallo, hier ist Frau Steiner von unten. Ich sehe, Sie sind nicht zu Hause, und bei Ihnen ist ein Fenster offen. Es soll heute Nacht regnen. Ich habe keinen Schlüssel, ich kann also nichts machen. Rufen Sie mich zurück, wenn Sie das hören, dann sage ich Ihnen, welches Fenster es ist.",
+      "question": "Warum ruft Frau Steiner an?",
+      "options": [
+        "Sie braucht einen Schlüssel",
+        "Ein Fenster steht offen und es soll regnen",
+        "Sie beschwert sich über Lärm",
+        "Sie will etwas ausleihen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Am Schalter: eine Bestätigung holen",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Osei: Guten Tag, ich brauche eine Bestätigung, dass ich hier wohne. Für meinen Arbeitgeber.\nMitarbeiterin: Gerne. Eine Wohnsitzbestätigung. Haben Sie einen Ausweis dabei?\nHerr Osei: Ja, hier.\nMitarbeiterin: Danke. Sie bekommen sie direkt mit, das dauert etwa fünf Minuten. Sie kostet zwanzig Franken.\nHerr Osei: Ich habe kein Bargeld dabei.\nMitarbeiterin: Kein Problem, Sie können mit Karte bezahlen. Nur bei Beträgen unter fünf Franken geht das nicht.",
+      "question": "Was gilt für die Bezahlung?",
+      "options": [
+        "Herr Osei muss Bargeld holen",
+        "Er kann mit Karte bezahlen",
+        "Er bezahlt später per Rechnung",
+        "Die Bestätigung ist gratis"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Anruf bei der Verwaltung: Heizung",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Rahimi: Guten Tag, hier Rahimi, Lindenweg 8. Unsere Heizung wird seit drei Tagen nicht mehr richtig warm.\nMitarbeiter: Haben Sie schon entlüftet?\nFrau Rahimi: Ja, mein Nachbar hat mir gezeigt, wie das geht. Es hat nichts gebracht.\nMitarbeiter: Gut, dann ist es nicht die Luft. Ich schicke den Servicemann. Er kommt morgen zwischen acht und zwölf. Können Sie da jemanden zu Hause haben?\nFrau Rahimi: Morgen früh arbeite ich. Aber meine Tochter ist da, sie ist siebzehn.\nMitarbeiter: Das genügt, sie muss nur die Tür öffnen und ihn hineinlassen.",
+      "question": "Was ist das Ergebnis des Gesprächs?",
+      "options": [
+        "Frau Rahimi soll die Heizung noch einmal entlüften",
+        "Der Servicemann kommt morgen; die Tochter lässt ihn hinein",
+        "Frau Rahimi muss morgen freinehmen",
+        "Die Verwaltung schickt niemanden"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Gespräch über den Gebührensack",
+    "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Herr Bytyqi: Du, ich habe die Säcke aus meiner alten Gemeinde noch. Kann ich die hier brauchen?\nFrau Lehmann: Nein, leider nicht. Jede Gemeinde hat ihre eigenen Säcke, und hier nehmen sie nur die von hier mit. Deine bleiben stehen.\nHerr Bytyqi: Und was mache ich mit den alten?\nFrau Lehmann: Frag am Schalter nach. Manche Gemeinden tauschen sie um, andere nicht — das ist überall anders geregelt.",
+      "question": "Aussage: Laut Frau Lehmann tauschen alle Gemeinden alte Säcke um.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Anruf beim Sportverein",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, hier ist der Turnverein. Sie haben wegen des Trainings für Ihre Tochter angerufen. Also: Die Gruppe für Zehnjährige trainiert am Mittwoch von 17 bis 18.30 Uhr in der Turnhalle. Zwei Schnuppertrainings sind gratis, danach entscheiden Sie in Ruhe. Der Jahresbeitrag ist hundertzwanzig Franken. Und noch etwas, das oft gefragt wird: Wenn der Beitrag für eine Familie schwierig ist, melden Sie sich bitte bei uns — wir finden eine Lösung, und das bleibt unter uns.",
+      "question": "Was sagt der Verein über den Beitrag?",
+      "options": [
+        "Er muss vor dem ersten Training bezahlt werden",
+        "Wer ihn nicht bezahlen kann, soll sich melden",
+        "Er ist für Kinder gratis",
+        "Er wird von der Gemeinde bezahlt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Auskunft im Kurszentrum",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag. Sie fragen nach einem Deutschkurs am Abend. Wir haben zwei: Montag und Mittwoch von 18.30 bis 20 Uhr auf Niveau A2, und Dienstag auf Niveau B1. Bevor Sie sich anmelden, machen Sie bitte den Einstufungstest — er ist kostenlos und dauert eine halbe Stunde. Es bringt nichts, wenn Sie im falschen Kurs sitzen: Wer zu hoch einsteigt, hört nach drei Wochen auf. Den Test können Sie ohne Anmeldung machen, jeden Donnerstagnachmittag.",
+      "question": "Warum empfiehlt die Mitarbeiterin den Einstufungstest?",
+      "options": [
+        "Weil er für die Anmeldung vorgeschrieben ist",
+        "Damit man nicht im falschen Kurs sitzt",
+        "Weil der Kurs sonst teurer wird",
+        "Weil die Kurse sonst voll sind"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Elterngespräch in der Schule",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Lehrerin Frau Widmer: Danke, dass Sie gekommen sind. Mit dem Rechnen geht es gut. Beim Lesen braucht Ihr Sohn mehr Zeit als die anderen — er versteht den Text, aber er liest langsam.\nHerr Mwangi: Zu Hause sprechen wir Suaheli. Ist das das Problem?\nFrau Widmer: Nein. Bitte hören Sie nicht auf, Suaheli zu sprechen — das hilft ihm sogar. Was ihm fehlt, ist einfach Lesekilometer auf Deutsch. Zwanzig Minuten am Tag, irgendein Buch, das ihn interessiert.",
+      "question": "Was rät Frau Widmer den Eltern?",
+      "options": [
+        "Zu Hause nur noch Deutsch zu sprechen",
+        "Weiter Suaheli zu sprechen und täglich auf Deutsch zu lesen",
+        "Den Sohn in eine andere Klasse zu geben",
+        "Einen Nachhilfelehrer zu bezahlen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Vier Ansagen im Quartier",
+    "prompt": "Hören Sie die vier Ansagen und ordnen Sie jeder das passende Thema zu.",
+    "payload": {
+      "transcript": "Ansage eins: Liebe Anwohnerinnen und Anwohner, am Donnerstag wird die Strasse neu geteert. Bitte parkieren Sie Ihr Auto ab Mittwochabend woanders.\n\nAnsage zwei: Die Bibliothek bleibt nächste Woche geschlossen. Wir zügeln in den neuen Raum im Erdgeschoss.\n\nAnsage drei: Der Brunnen auf dem Dorfplatz wird geputzt. Bitte lassen Sie Kinder in dieser Zeit nicht hinein.\n\nAnsage vier: Wir suchen noch Freiwillige für das Quartierfest. Melden Sie sich bitte im Gemeindehaus.",
+      "instructions": "Ordnen Sie zu.",
+      "left": [
+        "Ansage eins",
+        "Ansage zwei",
+        "Ansage drei",
+        "Ansage vier"
+      ],
+      "right": [
+        "Man soll das Auto woanders parkieren",
+        "Ein Ort ist wegen eines Umzugs zu",
+        "Eine Reinigung, Kinder sollen wegbleiben",
+        "Es werden Helferinnen und Helfer gesucht",
+        "Eine Strasse wird für immer gesperrt"
+      ]
+    },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Anruf: eine Rechnung klären",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Kaya: Guten Tag, ich habe eine Rechnung über achtzig Franken für einen Termin, den ich abgesagt habe.\nMitarbeiter: Einen Moment. Ja, ich sehe es. Sie haben am Vortag um 17 Uhr abgesagt.\nFrau Kaya: Genau, per Telefon.\nMitarbeiter: Das Problem ist die Frist: Wir verrechnen, wenn weniger als vierundzwanzig Stunden vorher abgesagt wird. Ihr Termin war am Morgen um neun.\nFrau Kaya: Das habe ich nicht gewusst. Es steht auch nicht auf der Terminkarte.\nMitarbeiter: Da haben Sie recht, das steht wirklich nicht drauf. Ich streiche die Rechnung dieses Mal. Aber jetzt wissen Sie es.",
+      "question": "Warum streicht der Mitarbeiter die Rechnung?",
+      "options": [
+        "Weil Frau Kaya rechtzeitig abgesagt hat",
+        "Weil die Frist nicht auf der Terminkarte stand",
+        "Weil Frau Kaya sich beschwert hat",
+        "Weil die Praxis einen Fehler im Datum gemacht hat"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Auskunft zum Einbürgerungsgespräch",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag. Sie fragen, wie das Gespräch bei uns abläuft. Ich sage es Ihnen gerne, aber bitte merken Sie sich eines: Das gilt für unsere Gemeinde. In der Nachbargemeinde ist es anders, und in einem anderen Kanton erst recht — jede Gemeinde regelt das selbst, im Rahmen des kantonalen Rechts. Bei uns kommen Sie zu dritt mit der Kommission zusammen, es dauert etwa vierzig Minuten, und wir sprechen über Ihren Alltag hier. Es ist kein Sprachtest. Den Sprachnachweis bringen Sie separat mit. Und Ihre Nachbarin, die vor zwei Jahren in einer anderen Gemeinde eingebürgert wurde, wird Ihnen etwas anderes erzählen — das heisst nicht, dass eine von Ihnen falsch liegt.",
+      "question": "Was ist die Hauptaussage der Auskunftsperson?",
+      "options": [
+        "Das Gespräch läuft überall gleich ab",
+        "Was sie beschreibt, gilt nur für ihre Gemeinde",
+        "Das Gespräch ersetzt den Sprachnachweis",
+        "Die Nachbarin hat falsche Informationen bekommen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Zwei Stimmen zum Quartierfest",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Perez: Ich finde, wir sollten das Fest wieder auf dem Spielplatz machen. Da kommen die Familien hin, die Kinder spielen, und die Eltern bleiben sitzen und reden. Im Gemeindesaal sitzt jeder an seinem Tisch und um neun ist Schluss.\n\nHerr Frei: Auf dem Spielplatz waren es letztes Jahr vierzig Leute und die Hälfte ist gegangen, als es geregnet hat. Ich bin nicht gegen den Spielplatz, ich bin gegen den Spielplatz ohne Plan B. Wenn wir einen Unterstand organisieren, mache ich mit.",
+      "question": "Wie stehen die beiden zueinander?",
+      "options": [
+        "Sie sind sich völlig uneinig über den Ort",
+        "Herr Frei ist einverstanden, wenn es eine Lösung bei Regen gibt",
+        "Beide wollen das Fest im Gemeindesaal",
+        "Herr Frei findet, es kommen zu viele Leute"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Radiobeitrag: Vereine im Dorf",
+    "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Und zum Schluss ein Blick auf die Vereine. Man hört oft, das Vereinsleben sterbe aus. Die Zahlen bei uns sagen etwas anderes — aber sie sagen auch nicht das, was die Vereine gerne hätten. Die Mitgliederzahlen sind stabil. Was fehlt, sind Leute für den Vorstand: Wer heute eintritt, will trainieren oder singen, aber nicht die Kasse führen. Ein Verein ohne Kassierin hört auf, auch wenn er hundert Mitglieder hat. Wer also überlegt, irgendwo mitzumachen: Man muss nicht seit zwanzig Jahren dabei sein, um im Vorstand zu helfen. Im Gegenteil.",
+      "question": "Aussage: Laut dem Beitrag ist das Hauptproblem der Vereine, dass die Mitgliederzahlen sinken.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch über die Wohnungsabgabe",
+    "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Kern (Verwaltung): So, wir sind durch. Die Wohnung ist sauber, das ist in Ordnung.\nFrau Osmani: Und die Löcher im Wohnzimmer?\nHerr Kern: Verschlossen und gestrichen — dafür ist eine Wohnung da. Das ist normale Abnützung, das geht nicht zu Ihren Lasten.\nFrau Osmani: Und der Riss im Lavabo?\nHerr Kern: Der schon. Ein Riss kommt nicht vom Wohnen. Ich schreibe beides ins Protokoll, auch die Löcher, damit später niemand kommt und sagt, wir hätten das nicht angeschaut.\nFrau Osmani: Und wenn ich mit dem Lavabo nicht einverstanden bin?\nHerr Kern: Dann unterschreiben Sie nicht. Sie müssen heute nicht unterschreiben.",
+      "question": "Was sagt Herr Kern über das Protokoll?",
+      "options": [
+        "Nur der Riss kommt hinein",
+        "Beides kommt hinein, damit später nichts offen bleibt",
+        "Frau Osmani muss sofort unterschreiben",
+        "Die Löcher gehen zu ihren Lasten"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Vier Personen über ihre Gemeinde",
+    "prompt": "Hören Sie die vier Beiträge und ordnen Sie jeder Person ihre Aussage zu.",
+    "payload": {
+      "transcript": "Ana: Ich war acht Jahre hier, bevor ich zum ersten Mal im Gemeindehaus war. Nicht aus Angst — es hat mir schlicht nie jemand gesagt, dass man dort auch einfach fragen kann.\n\nDrago: Bei uns steht alles auf der Website. Das nützt nur nichts, wenn man nicht weiss, wie das Wort heisst, das man suchen müsste.\n\nLina: Ich habe im Turnverein mehr über die Gemeinde gelernt als in jedem Brief. Nicht weil dort erklärt wird — sondern weil man fragen kann, ohne dass es peinlich ist.\n\nMarco: Ich bin hier aufgewachsen und habe die Hälfte auch nicht gewusst. Das ist kein Problem der Zugezogenen, das ist ein Problem der Sprache in den Briefen.",
+      "instructions": "Ordnen Sie zu.",
+      "left": [
+        "Ana",
+        "Drago",
+        "Lina",
+        "Marco"
+      ],
+      "right": [
+        "Niemand hat ihr gesagt, dass man einfach fragen kann",
+        "Informationen nützen nichts, wenn man das Suchwort nicht kennt",
+        "Im Verein kann man fragen, ohne dass es peinlich ist",
+        "Auch Einheimische verstehen die Briefe nicht",
+        "Die Gemeinde sollte mehr Briefe verschicken"
+      ]
+    },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "maxPoints": 4
   }
 ]
