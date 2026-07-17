@@ -12,10 +12,32 @@
 // estimates. Every readout is an orientation estimate, never a result.
 
 import { READY_PCT, BORDERLINE_PCT } from "./registry";
-import type { ObjectiveAnswer, SwissTaskType, SwissSkill } from "./types";
-import { isObjectiveTask } from "./types";
+import type { ObjectiveAnswer, SwissTaskType, SwissSkill, CefrLevel } from "./types";
+import { isObjectiveTask, compareCefr } from "./types";
 
 export type Readiness = "CLEAR" | "BORDERLINE" | "BELOW";
+
+/** Where a task sits relative to the module's goal level.
+ *
+ *  AT_GOAL       — the only tasks a goal-readiness band may be computed from.
+ *  ABOVE_GOAL    — harder than the goal (reading #14 at B1 vs an A2 goal). Getting it
+ *                  wrong says nothing about A2 readiness, so it is labelled and left
+ *                  OUT of the band. Keeping it in punished people on a bar they never
+ *                  had to clear: naturalisation asks A2 written, not B1.
+ *  FOUNDATIONAL  — below the goal. Useful practice, but passing it is NOT evidence of
+ *                  the goal, so it is also out of the band — reported as its own thing
+ *                  rather than quietly inflating the number.
+ *  UNDECLARED    — the task states no level. NOT treated as AT_GOAL: an unstated level
+ *                  is unknown, and counting it would let a silent omission decide a
+ *                  learner's band. Surfaced so it gets fixed, never absorbed. */
+export type LevelRole = "AT_GOAL" | "ABOVE_GOAL" | "FOUNDATIONAL" | "UNDECLARED";
+
+export function levelRole(taskCefr: CefrLevel | undefined, goal: CefrLevel | undefined): LevelRole {
+  if (!goal || !taskCefr) return "UNDECLARED";
+  const d = compareCefr(taskCefr, goal);
+  if (d === 0) return "AT_GOAL";
+  return d > 0 ? "ABOVE_GOAL" : "FOUNDATIONAL";
+}
 
 export interface ObjectiveResult {
   points: number;
@@ -81,6 +103,65 @@ export function skillReadout(
   const pct = maxPoints > 0 ? Math.round((points / maxPoints) * 100) : 0;
   const isEstimate = skill === "WRITING" || skill === "SPEAKING";
   return { skill, points, maxPoints, pct, readiness: readinessFromPct(pct), isEstimate };
+}
+
+export interface GoalScored {
+  cefr?: CefrLevel;
+  points: number;
+  maxPoints: number;
+}
+
+export interface GoalReadout {
+  goal: CefrLevel | undefined;
+  /** The band — computed from AT_GOAL tasks ONLY. Null when the session contained
+   *  none: with nothing at the goal there is no honest thing to say about the goal,
+   *  and "0%" would be a lie about the learner rather than about the session. */
+  atGoal: SkillReadout | null;
+  above: { count: number; points: number; maxPoints: number };
+  foundational: { count: number; points: number; maxPoints: number };
+  undeclared: number;
+}
+
+/**
+ * Split a session's results by level role and band ONLY what sits at the goal.
+ *
+ * This is the level-crossing rule. It keys on each task's declared `cefr` against the
+ * module's goal — NOT on `difficulty`. Difficulty is a ladder inside a module and
+ * crosses levels freely: reading #13 is STRETCH at A2 (the goal — it counts), while
+ * every listening STRETCH is B1 (also the goal). Excluding "STRETCH" would have thrown
+ * away tasks that ARE the goal and kept nothing that isn't.
+ */
+export function goalReadout(
+  skill: SwissSkill,
+  goal: CefrLevel | undefined,
+  scored: GoalScored[],
+): GoalReadout {
+  const bucket = { count: 0, points: 0, maxPoints: 0 };
+  const at = { ...bucket };
+  const above = { ...bucket };
+  const found = { ...bucket };
+  let undeclared = 0;
+
+  for (const s of scored) {
+    switch (levelRole(s.cefr, goal)) {
+      case "AT_GOAL":
+        at.count++; at.points += s.points; at.maxPoints += s.maxPoints; break;
+      case "ABOVE_GOAL":
+        above.count++; above.points += s.points; above.maxPoints += s.maxPoints; break;
+      case "FOUNDATIONAL":
+        found.count++; found.points += s.points; found.maxPoints += s.maxPoints; break;
+      default:
+        undeclared++;
+    }
+  }
+
+  return {
+    goal,
+    atGoal: at.count > 0 ? skillReadout(skill, at.points, at.maxPoints) : null,
+    above: { count: above.count, points: above.points, maxPoints: above.maxPoints },
+    foundational: { count: found.count, points: found.points, maxPoints: found.maxPoints },
+    undeclared,
+  };
 }
 
 /** Overall readiness LABEL for a percentage (honest, non-official framing). */

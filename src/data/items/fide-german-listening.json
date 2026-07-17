@@ -6,6 +6,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Nachricht auf dem Anrufbeantworter",
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
@@ -18,7 +19,10 @@
         "Frau Haddad hat etwas vergessen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -28,14 +32,23 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Durchsage am Bahnhof",
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Information für die Reisenden nach Bern: Der Intercity 728, Abfahrt 10 Uhr 04, fährt heute nicht von Gleis 7, sondern von Gleis 12. Ich wiederhole: Der Intercity nach Bern fährt heute von Gleis 12. Wir bitten um Entschuldigung.",
       "question": "Was hat sich geändert?",
-      "options": ["Die Abfahrtszeit", "Das Gleis", "Das Ziel", "Der Preis"]
+      "options": [
+        "Die Abfahrtszeit",
+        "Das Gleis",
+        "Das Ziel",
+        "Der Preis"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -45,14 +58,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Nachricht von der Schule",
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Morgen, hier ist das Schulsekretariat. Morgen fällt der Sportunterricht aus, weil die Turnhalle repariert wird. Der Unterricht beginnt deshalb erst um 9 Uhr 45 statt um 8 Uhr. Bitte informieren Sie Ihr Kind. Danke und einen schönen Tag.",
       "question": "Aussage: Der Unterricht beginnt morgen später als sonst.",
-      "options": ["Richtig", "Falsch"]
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -62,14 +82,23 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Ansage im Einkaufszentrum",
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, wir schliessen in zwanzig Minuten. Bitte bringen Sie Ihre Einkäufe zur Kasse. Wir öffnen morgen wieder um 8 Uhr. An diesem Sonntag bleibt das Einkaufszentrum geschlossen. Vielen Dank für Ihren Besuch.",
       "question": "Wann ist das Einkaufszentrum geschlossen?",
-      "options": ["Morgen früh", "Am Sonntag", "In zwanzig Minuten für immer", "Am Samstagabend"]
+      "options": [
+        "Morgen früh",
+        "Am Sonntag",
+        "In zwanzig Minuten für immer",
+        "Am Samstagabend"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -79,12 +108,18 @@
     "skill": "LISTENING",
     "taskType": "MATCHING",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Vier kurze Mitteilungen",
     "prompt": "Hören Sie die vier Mitteilungen und ordnen Sie jeder das passende Thema zu.",
     "payload": {
       "transcript": "Mitteilung eins: Hallo Sara, ich stehe im Stau und komme etwa zwanzig Minuten später. Fang schon mal an.\n\nMitteilung zwei: Guten Tag, Ihr Paket konnte nicht zugestellt werden. Sie können es ab morgen auf der Poststelle abholen.\n\nMitteilung drei: Hier ist die Autogarage Frei. Ihr Auto ist fertig, Sie können es heute bis 18 Uhr abholen.\n\nMitteilung vier: Liebe Mieterinnen und Mieter, am Montag wird zwischen 8 und 12 Uhr das Wasser abgestellt.",
       "instructions": "Ordnen Sie jeder Mitteilung das passende Thema zu.",
-      "left": ["Mitteilung eins", "Mitteilung zwei", "Mitteilung drei", "Mitteilung vier"],
+      "left": [
+        "Mitteilung eins",
+        "Mitteilung zwei",
+        "Mitteilung drei",
+        "Mitteilung vier"
+      ],
       "right": [
         "Jemand kommt zu spät",
         "Eine Sendung liegt zur Abholung bereit",
@@ -93,7 +128,27 @@
         "Eine Einladung zum Essen"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   },
   {
@@ -103,6 +158,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Am Schalter der Einwohnerdienste",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
@@ -115,7 +171,10 @@
         "Die Gemeinde holt ihn bei der Versicherung"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -125,6 +184,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Anruf bei der Krankenkasse",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
@@ -137,7 +197,10 @@
         "Die Kasse übernimmt trotzdem alle Kosten"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -147,14 +210,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Nachricht der Hausverwaltung",
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, Frau Petrović, hier ist Herr Studer von der Verwaltung. Es geht um die Wohnungsabgabe am dreissigsten. Wichtig: Die Wohnung muss komplett leer und gereinigt sein, bevor wir sie abnehmen. Auch der Keller und der Estrich. Wir gehen dann gemeinsam durch und schreiben ein Protokoll. Die Schlüssel geben Sie erst nach der Abnahme ab, nicht vorher. Bei Fragen melden Sie sich. Danke, auf Wiederhören.",
       "question": "Aussage: Frau Petrović soll die Schlüssel vor der Abnahme abgeben.",
-      "options": ["Richtig", "Falsch"]
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -164,6 +234,7 @@
     "skill": "LISTENING",
     "taskType": "ORDERING",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Wegbeschreibung zum Gemeindehaus",
     "prompt": "Hören Sie die Wegbeschreibung und bringen Sie die Schritte in die richtige Reihenfolge.",
     "payload": {
@@ -177,7 +248,16 @@
         "Nach hundert Metern das gelbe Gebäude rechts finden"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": {
+      "type": "ORDERING",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
     "maxPoints": 1
   },
   {
@@ -187,6 +267,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Gespräch über die Arbeitszeit",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
@@ -199,7 +280,10 @@
         "Die Kita öffnet für ihn früher"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -209,6 +293,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "In der Apotheke",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
@@ -221,7 +306,10 @@
         "Die Dauer entscheidet der Patient selbst"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -231,6 +319,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Telefonische Auskunft zur Einbürgerung",
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
@@ -243,7 +332,10 @@
         "Auf die Einbürgerung verzichten, wenn das Niveau fehlt"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -253,6 +345,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Zwei Kolleginnen über den Deutschkurs",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
@@ -265,7 +358,10 @@
         "Beatrice sollte am Arbeitsplatz weniger sprechen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -275,14 +371,21 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Einladung zur Gemeindeversammlung",
     "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Einwohnerinnen und Einwohner. Am Dienstag, dem elften November, findet um 20 Uhr die Gemeindeversammlung in der Mehrzweckhalle statt. Traktandiert sind das Budget für das kommende Jahr und der Umbau des Schulhauses. Stimmberechtigt sind alle Schweizerinnen und Schweizer mit Wohnsitz in der Gemeinde. Interessierte ohne Stimmrecht sind als Zuhörerinnen und Zuhörer herzlich willkommen — die Versammlung ist öffentlich. Im Anschluss offeriert die Gemeinde einen Apéro.",
-      "question": "Aussage: Wer nicht stimmberechtigt ist, darf trotzdem an der Versammlung teilnehmen und zuhören.",
-      "options": ["Richtig", "Falsch"]
+      "question": "Laut der Ansage: Wer nicht stimmberechtigt ist, darf trotzdem an der Versammlung teilnehmen und zuhören.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -292,12 +395,18 @@
     "skill": "LISTENING",
     "taskType": "MATCHING",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Vier Personen über das Ankommen",
     "prompt": "Hören Sie die vier Beiträge und ordnen Sie jeder Person ihre Aussage zu.",
     "payload": {
       "transcript": "Tomas: Für mich war die Sprache nie das grösste Problem. Das Schwierigste war, dass alles im Voraus geplant werden muss. Spontan bei jemandem vorbeigehen — das macht man hier nicht.\n\nRoxana: Ich habe zwei Jahre gebraucht, bis ich im Haus jemanden richtig kannte. Und dann bin ich dem Quartierverein beigetreten, und plötzlich ging alles schnell.\n\nJelena: Mir hat niemand gesagt, dass ich mich innerhalb von drei Monaten versichern muss. Das habe ich zufällig von einer Kollegin erfahren. Solche Informationen sollte man bekommen, wenn man ankommt.\n\nPavel: Ich verstehe im Büro alles. Aber sobald die Leute in der Pause auf Dialekt wechseln, bin ich raus. Das ist frustrierend, obwohl mein Deutsch eigentlich gut ist.",
       "instructions": "Wer sagt was? Ordnen Sie zu. Nicht alle Aussagen werden gebraucht.",
-      "left": ["Tomas", "Roxana", "Jelena", "Pavel"],
+      "left": [
+        "Tomas",
+        "Roxana",
+        "Jelena",
+        "Pavel"
+      ],
       "right": [
         "Die Planungskultur war die grössere Umstellung als die Sprache",
         "Ein Verein hat die Kontakte deutlich beschleunigt",
@@ -307,7 +416,27 @@
         "Die Kosten waren höher als erwartet"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   }
 ]

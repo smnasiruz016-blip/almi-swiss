@@ -6,6 +6,7 @@ import type {
   SwissLanguage,
   SwissSkill,
   SwissTaskType,
+  CefrLevel,
   ObjectiveAnswer,
 } from "@/lib/ch/types";
 import { LANGUAGE_TTS } from "@/lib/ch/types";
@@ -20,6 +21,11 @@ export interface RunnerItem {
   exam: SwissExam;
   skill: SwissSkill;
   taskType: SwissTaskType;
+  /** The task's own CEFR level. Carried all the way to the runner and the AI grader:
+   *  the grader used to be told the EXAM's `cefr` label ("A1–B1"), a three-level range
+   *  that no single task sits at, so an A2 email could be judged at B1 and a B1 letter
+   *  passed at A1. A task is judged at ITS level or not at all. */
+  cefr?: CefrLevel;
   payload: unknown;
   answer: ObjectiveAnswer | null;
   maxPoints: number;
@@ -89,6 +95,10 @@ export async function gradeProductive(body: {
   exam: SwissExam;
   skill: SwissSkill;
   taskType: SwissTaskType;
+  /** The task's level, so the grader judges at it. Omitted → the route judges against
+   *  the criteria alone and assumes no level; it must never fall back to the exam's
+   *  "A1–B1" range. */
+  cefr?: CefrLevel;
   title: string;
   prompt: string;
   criteria: string[];

@@ -64,6 +64,28 @@ export type SwissTaskType =
 
 export type SwissDifficulty = "FOUNDATION" | "CORE" | "STRETCH";
 
+/** The CEFR level a task is actually pitched at.
+ *
+ *  DIFFICULTY IS NOT A LEVEL. `SwissDifficulty` is a ladder *within* a module
+ *  (relative: FOUNDATION → CORE → STRETCH); `CefrLevel` is an absolute claim about
+ *  the task itself. They cross: fide-german reading #13 is STRETCH but sits at A2,
+ *  and every listening STRETCH sits at B1 — the module's own goal. Treating
+ *  "STRETCH" as "above the goal" would have thrown away tasks that ARE the goal.
+ *  So the level-crossing rule below keys on this field vs the module's goal, and
+ *  never on difficulty. */
+export type CefrLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+
+export const CEFR_ORDER: CefrLevel[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
+
+/** Compare two CEFR levels: <0 a below b, 0 equal, >0 a above b. */
+export function compareCefr(a: CefrLevel, b: CefrLevel): number {
+  return CEFR_ORDER.indexOf(a) - CEFR_ORDER.indexOf(b);
+}
+
+export function isCefrLevel(v: unknown): v is CefrLevel {
+  return typeof v === "string" && (CEFR_ORDER as string[]).includes(v);
+}
+
 export const OBJECTIVE_TASK_TYPES: SwissTaskType[] = [
   "MCQ_SINGLE",
   "MATCHING",

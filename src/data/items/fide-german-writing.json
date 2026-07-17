@@ -6,6 +6,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Formular: Anmeldung bei der Gemeinde",
     "prompt": "Füllen Sie die fehlenden Angaben in ganzen Sätzen aus. Schreiben Sie 30–50 Wörter.",
     "payload": {
@@ -16,7 +17,10 @@
         "Schreibt in ganzen Sätzen, nicht in Stichworten",
         "Verständlich, auch wenn einfache Fehler vorkommen"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -28,6 +32,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "SMS: Termin absagen",
     "prompt": "Schreiben Sie eine kurze Nachricht. 30–50 Wörter.",
     "payload": {
@@ -38,7 +43,10 @@
         "Fragt nach einem neuen Termin",
         "Höfliche Anrede und Gruss"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -50,6 +58,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Notiz an die Nachbarin",
     "prompt": "Schreiben Sie eine kurze Notiz. 30–50 Wörter.",
     "payload": {
@@ -60,7 +69,10 @@
         "Bedankt sich",
         "Angemessen freundlicher Ton für eine Nachbarin"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -72,6 +84,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "E-Mail: Deutschkurs anmelden",
     "prompt": "Schreiben Sie eine kurze E-Mail. 40–60 Wörter.",
     "payload": {
@@ -82,7 +95,10 @@
         "Stellt mindestens eine konkrete Frage",
         "Anrede und Gruss passend für eine unbekannte Person"
       ],
-      "charBand": { "min": 200, "max": 420 }
+      "charBand": {
+        "min": 200,
+        "max": 420
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -94,6 +110,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Entschuldigung für die Schule",
     "prompt": "Schreiben Sie eine kurze Entschuldigung. 30–50 Wörter.",
     "payload": {
@@ -104,7 +121,10 @@
         "Unterschreibt als Elternteil",
         "Sachlicher, angemessener Ton gegenüber der Schule"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -116,6 +136,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "E-Mail an die Hausverwaltung: Reparatur",
     "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
     "payload": {
@@ -127,7 +148,10 @@
         "Bleibt sachlich und höflich, auch wenn man verärgert ist",
         "Anrede, Gruss und ein für eine Verwaltung passender Ton"
       ],
-      "charBand": { "min": 320, "max": 620 }
+      "charBand": {
+        "min": 320,
+        "max": 620
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -139,6 +163,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Antwort auf eine Einladung",
     "prompt": "Schreiben Sie eine Antwort. 60–80 Wörter.",
     "payload": {
@@ -150,7 +175,10 @@
         "Freundlicher, aber nicht übertrieben formeller Ton",
         "Zusammenhängender Text, nicht nur Stichworte"
       ],
-      "charBand": { "min": 320, "max": 620 }
+      "charBand": {
+        "min": 320,
+        "max": 620
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -162,6 +190,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "E-Mail an die Lehrerin",
     "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
     "payload": {
@@ -173,7 +202,10 @@
         "Passende Anrede und Gruss gegenüber einer Lehrperson",
         "Klar gegliedert und verständlich"
       ],
-      "charBand": { "min": 320, "max": 620 }
+      "charBand": {
+        "min": 320,
+        "max": 620
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -185,6 +217,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Anfrage an die Gemeinde",
     "prompt": "Schreiben Sie eine E-Mail. 60–80 Wörter.",
     "payload": {
@@ -196,7 +229,10 @@
         "Formelle Anrede und Gruss, wie sie eine Behörde erwartet",
         "Verständlich strukturiert"
       ],
-      "charBand": { "min": 320, "max": 620 }
+      "charBand": {
+        "min": 320,
+        "max": 620
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -208,6 +244,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Kurze Mitteilung im Treppenhaus",
     "prompt": "Schreiben Sie einen Aushang. 50–70 Wörter.",
     "payload": {
@@ -219,7 +256,10 @@
         "Freundlicher Ton, der die Hausgemeinschaft ernst nimmt",
         "Für alle Bewohnerinnen und Bewohner verständlich"
       ],
-      "charBand": { "min": 260, "max": 520 }
+      "charBand": {
+        "min": 260,
+        "max": 520
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -231,6 +271,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Beschwerde über eine Rechnung",
     "prompt": "Schreiben Sie eine E-Mail. 60–90 Wörter.",
     "payload": {
@@ -242,7 +283,10 @@
         "Bleibt bestimmt, ohne unhöflich zu werden",
         "Formeller Aufbau mit Anrede und Gruss"
       ],
-      "charBand": { "min": 320, "max": 680 }
+      "charBand": {
+        "min": 320,
+        "max": 680
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -254,6 +298,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Leserbrief: Sprachkurse am Abend",
     "prompt": "Schreiben Sie einen kurzen Leserbrief. 90–120 Wörter.",
     "payload": {
@@ -265,7 +310,10 @@
         "Bleibt sachlich und respektiert die Gegenposition",
         "Erkennbarer Aufbau: Bezug, Argumente, Schluss"
       ],
-      "charBand": { "min": 500, "max": 900 }
+      "charBand": {
+        "min": 500,
+        "max": 900
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -277,6 +325,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Bewerbung: kurzes Motivationsschreiben",
     "prompt": "Schreiben Sie ein kurzes Motivationsschreiben. 90–120 Wörter.",
     "payload": {
@@ -288,7 +337,10 @@
         "Formelle Bewerbungsform mit Anrede und Gruss",
         "Zusammenhängend und ohne Wiederholungen"
       ],
-      "charBand": { "min": 500, "max": 900 }
+      "charBand": {
+        "min": 500,
+        "max": 900
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -300,6 +352,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Erfahrungsbericht für die Quartierzeitung",
     "prompt": "Schreiben Sie einen kurzen Bericht. 90–120 Wörter.",
     "payload": {
@@ -311,7 +364,10 @@
         "Hat einen erkennbaren Anfang und Schluss",
         "Für fremde Leserinnen und Leser nachvollziehbar"
       ],
-      "charBand": { "min": 500, "max": 900 }
+      "charBand": {
+        "min": 500,
+        "max": 900
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -323,6 +379,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Einsprache: Antwort auf einen Entscheid",
     "prompt": "Schreiben Sie eine sachliche Stellungnahme. 90–130 Wörter.",
     "payload": {
@@ -335,7 +392,10 @@
         "Formuliert klar, was man von der Behörde erwartet",
         "Formeller Aufbau, wie ihn eine Behörde erwartet"
       ],
-      "charBand": { "min": 520, "max": 950 }
+      "charBand": {
+        "min": 520,
+        "max": 950
+      }
     },
     "answer": null,
     "maxPoints": 0
