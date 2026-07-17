@@ -1861,5 +1861,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ein Foto beschreiben: ein Familienfest",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie ein Foto von einem Familienfest — echt oder vorgestellt. Sagen Sie, wer auf dem Bild ist, wo und wann es war, was die Personen machen und wie die Stimmung ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt, wer auf dem Bild ist und wo/wann",
+        "Sagt, was die Personen machen",
+        "Beschreibt die Stimmung",
+        "Spricht zusammenhängend mit passenden Wörtern"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Von einem schönen Tag erzählen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von einem schönen Tag, den Sie in letzter Zeit erlebt haben. Was haben Sie gemacht, mit wem waren Sie zusammen, und warum war der Tag schön?",
+      "minSeconds": 60,
+      "criteria": [
+        "Erzählt zusammenhängend von einem Tag",
+        "Sagt, was Sie gemacht haben und mit wem",
+        "Erklärt, warum der Tag schön war",
+        "Verbindet die Sätze (zuerst, dann, weil)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Erklären, wie man ein einfaches Gericht kocht",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Erklären Sie einer Freundin, wie man ein einfaches Gericht aus Ihrer Küche kocht. Nennen Sie die wichtigsten Zutaten und beschreiben Sie die Schritte der Reihe nach.",
+      "minSeconds": 75,
+      "criteria": [
+        "Nennt die wichtigsten Zutaten",
+        "Beschreibt die Schritte in der richtigen Reihenfolge",
+        "Verwendet Reihenfolge-Wörter (zuerst, dann, zum Schluss)",
+        "Spricht klar und verständlich",
+        "Antwortet auf mögliche Nachfragen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Auf dem Markt Gemüse kaufen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind auf dem Wochenmarkt und möchten Gemüse kaufen. Sagen Sie der Verkäuferin, was und wie viel Sie möchten (zum Beispiel ein Kilo Tomaten und zwei Rüebli), fragen Sie nach dem Preis und bezahlen Sie.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, was und wie viel Sie kaufen möchten",
+        "Fragt nach dem Preis",
+        "Bezahlt und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Haustierhaltung im Haus",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit: Eine Partei hat einen Hund, der manchmal bellt; andere fühlen sich gestört. Die eine Seite sagt, ein Hund gehöre zur Familie, die andere möchte Ruhe. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, mit der beide leben können, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
