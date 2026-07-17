@@ -2173,5 +2173,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Estrich wird geräumt",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Aushang der Hausverwaltung\n\nLiebe Mieterinnen und Mieter\nAm Samstag, 25. Oktober, wird der Estrich (Dachboden) gereinigt und aufgeräumt.\nBitte holen Sie bis dann alle Gegenstände, die Ihnen gehören, aus dem Estrich. Was nachher noch dort steht und nicht angeschrieben ist, wird entsorgt.\nWenn Sie einen abgeschlossenen Abteil haben, lassen Sie ihn bitte offen oder geben Sie den Schlüssel bei der Hauswartin ab.\n\nDie Hausverwaltung",
+      "question": "Was sollen die Mieter bis zum 25. Oktober tun?",
+      "options": [
+        "Ihre Sachen aus dem Estrich holen",
+        "Den Estrich selbst putzen",
+        "Neue Möbel in den Estrich stellen",
+        "Die Miete bar bezahlen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS der Apotheke: Ihr Medikament ist bereit",
+    "prompt": "Lesen Sie die SMS. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Guten Tag Frau Weber, Ihr bestelltes Medikament ist eingetroffen und liegt für Sie bereit. Sie können es diese Woche abholen; wir haben Montag bis Freitag bis 18.30 Uhr und Samstag bis 16 Uhr offen. Bitte bringen Sie das Rezept mit. Freundliche Grüsse, Ihre Apotheke am Markt.",
+      "question": "Aussage: Laut der SMS ist die Apotheke am Sonntag geöffnet.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Elternbrief: Schulreise",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Eltern\n\nAm Dienstag, 20. Mai, macht die Klasse die jährliche Schulreise. Wir fahren mit dem Zug an den Zoo und sind am Abend um etwa 17.30 Uhr zurück.\nBitte geben Sie Ihrem Kind gutes Schuhwerk, ein Picknick und eine Trinkflasche mit. Der Zug und der Eintritt werden aus der Klassenkasse bezahlt.\nBei sehr schlechtem Wetter verschieben wir die Reise; Sie erhalten in diesem Fall am Vortag eine Nachricht.\n\nFreundliche Grüsse\nDie Klassenlehrerin",
+      "question": "Was müssen die Eltern für die Schulreise mitgeben?",
+      "options": [
+        "Gutes Schuhwerk, ein Picknick und eine Trinkflasche",
+        "Geld für den Eintritt",
+        "Ein Zugbillett",
+        "Eine schriftliche Erlaubnis"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Winterdienst",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Aushang der Gemeinde: Winterdienst\n\nBei Schnee räumen wir die Hauptstrassen zuerst. Kleinere Wege werden {{1}} geräumt. Bitte haben Sie etwas Geduld.\nDamit die Fahrzeuge durchkommen, parkieren Sie bei Schneefall bitte nicht am {{2}}. Autos, die im Weg stehen, müssen {{3}} werden.\nVor dem Haus sind die {{4}} für einen sicheren Gehweg mitverantwortlich. Streuen Sie bei Glatteis.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "später",
+            "nie",
+            "sofort"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Strassenrand",
+            "Fenster",
+            "Balkon"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "weggefahren",
+            "gewaschen",
+            "gestrichen"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Bewohner",
+            "Kinder",
+            "Gäste"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt der Gemeinde: Das Einbürgerungsverfahren",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Das Einbürgerungsverfahren\n\nDas Verfahren für die ordentliche Einbürgerung ist nicht überall gleich. Wie viele Schritte es gibt, ob ein persönliches Gespräch stattfindet und welche Unterlagen Sie einreichen, regelt jede Gemeinde selbst — im Rahmen des kantonalen und des eidgenössischen Rechts.\nBeginnen Sie darum bei uns: Wir sagen Ihnen, was in unserer Gemeinde gilt, welche Belege Sie brauchen (zum Beispiel den Sprachnachweis) und wie es dann weitergeht.\nRechnen Sie mit einer längeren Bearbeitungszeit und erkundigen Sie sich frühzeitig.",
+      "question": "Was sagt das Merkblatt über das Einbürgerungsverfahren?",
+      "options": [
+        "Wie es genau abläuft, ist je nach Gemeinde verschieden",
+        "Es läuft in der ganzen Schweiz genau gleich ab",
+        "Man braucht keine Unterlagen einzureichen",
+        "Das Verfahren dauert überall nur wenige Tage"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
