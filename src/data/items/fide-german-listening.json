@@ -1766,5 +1766,133 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Anruf beim Kundendienst: Internet gestört",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Mitarbeiter: Kundendienst, guten Tag. Wie kann ich helfen?\nHerr Sahin: Guten Tag, bei mir geht das Internet seit gestern Abend nicht mehr.\nMitarbeiter: Das tut mir leid. Haben Sie den Router schon einmal aus- und wieder eingeschaltet?\nHerr Sahin: Ja, zweimal. Es ändert nichts.\nMitarbeiter: Dann liegt es vielleicht an der Leitung. Ich schicke Ihnen einen Techniker. Passt Ihnen Donnerstag zwischen 8 und 12 Uhr?\nHerr Sahin: Donnerstagvormittag geht. Kostet der Besuch etwas?\nMitarbeiter: Wenn der Fehler bei uns liegt, ist er gratis. Sie bekommen vorher eine SMS.\nHerr Sahin: Gut, danke.",
+      "question": "Was macht der Mitarbeiter?",
+      "options": [
+        "Er schickt am Donnerstagvormittag einen Techniker",
+        "Er sagt, Herr Sahin müsse einen neuen Router kaufen",
+        "Er kann nicht helfen",
+        "Er kommt selbst sofort vorbei"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: eine Fahrgemeinschaft abmachen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Costa: Du, wir arbeiten ja beide im Gewerbegebiet. Sollen wir zusammen fahren?\nHerr Meier: Gern, das spart Benzin. Wann fängst du an?\nFrau Costa: Um sieben. Ich könnte dich um Viertel vor sieben abholen.\nHerr Meier: Perfekt. Und wer fährt, wechseln wir ab?\nFrau Costa: Ja, machen wir wochenweise. Diese Woche fahre ich, nächste du.\nHerr Meier: Abgemacht. Dann bis morgen um Viertel vor sieben.",
+      "question": "Was haben die beiden abgemacht?",
+      "options": [
+        "Sie fahren zusammen zur Arbeit und wechseln sich wochenweise ab",
+        "Herr Meier fährt immer allein",
+        "Sie fahren nur diese Woche zusammen",
+        "Sie nehmen jeden Tag den Bus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Elterngespräch: eine Empfehlung",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Lehrerin: Ihre Tochter Nadia arbeitet gut mit, aber beim Schreiben braucht sie noch Übung.\nFrau Achmed: Das merke ich auch zu Hause. Was können wir tun?\nLehrerin: Es gibt einen Förderkurs am Mittwochnachmittag, freiwillig und gratis. Ich würde ihn empfehlen.\nFrau Achmed: Und passt das neben den Aufgaben?\nLehrerin: Ja, es ist nur eine Stunde. Wenn Sie einverstanden sind, melde ich Nadia an.\nFrau Achmed: Gern, machen wir das.",
+      "question": "Was empfiehlt die Lehrerin?",
+      "options": [
+        "Einen freiwilligen Förderkurs am Mittwochnachmittag",
+        "Die Klasse zu wechseln",
+        "Weniger Hausaufgaben zu machen",
+        "Nadia zu Hause zu lassen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage am Bahnhof: Gleisänderung",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Information für die Reisenden nach Luzern: Der Zug um 14.20 Uhr fährt heute nicht von Gleis 3, sondern von Gleis 7. Wir wiederholen: Der Zug nach Luzern fährt von Gleis 7. Bitte beachten Sie die Anzeigen. Danke.",
+      "question": "Von welchem Gleis fährt der Zug nach Luzern?",
+      "options": [
+        "Von Gleis 7",
+        "Von Gleis 3",
+        "Von Gleis 14",
+        "Der Zug fällt aus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Praxis: Termin bestätigt",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag Herr Yusuf, hier ist die Arztpraxis Dr. Frei. Wir bestätigen Ihren Termin am Mittwoch, den 8. Mai, um 10.30 Uhr. Bitte bringen Sie Ihre Versichertenkarte mit. Wenn Sie nicht kommen können, melden Sie sich bitte einen Tag vorher. Danke und bis Mittwoch.",
+      "question": "Aussage: Laut der Nachricht soll Herr Yusuf die Versichertenkarte mitbringen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

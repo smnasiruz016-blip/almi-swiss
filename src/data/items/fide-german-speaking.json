@@ -1513,5 +1513,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Eine Rechnung reklamieren, die man schon bezahlt hat",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben eine Mahnung für eine Rechnung bekommen, die Sie schon vor zwei Wochen bezahlt haben. Rufen Sie beim Anbieter an: Erklären Sie ruhig die Situation, sagen Sie, wann und wie Sie bezahlt haben, und fragen Sie, wie das geklärt wird.",
+      "minSeconds": 60,
+      "criteria": [
+        "Schildert die Situation klar (Mahnung trotz Zahlung)",
+        "Nennt, wann und wie Sie bezahlt haben",
+        "Fragt, wie das geklärt wird",
+        "Bleibt ruhig und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Sich beim Nachbarn für den Lärm entschuldigen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Gestern hatten Sie ein Fest, und es wurde spät und laut. Heute treffen Sie Ihren Nachbarn im Treppenhaus. Entschuldigen Sie sich: Sagen Sie, dass es Ihnen leidtut, erklären Sie kurz den Anlass und sagen Sie, dass Sie das nächste Mal früher aufhören oder ihn vorher informieren.",
+      "minSeconds": 60,
+      "criteria": [
+        "Entschuldigt sich aufrichtig",
+        "Erklärt kurz den Anlass",
+        "Bietet für das nächste Mal etwas an (früher aufhören / vorher informieren)",
+        "Bleibt freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Eine zusätzliche Aufgabe höflich ablehnen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Ihre Vorgesetzte bittet Sie, diese Woche eine zusätzliche Aufgabe zu übernehmen. Sie schaffen das aber nicht, weil Sie schon viel zu tun haben. Lehnen Sie höflich ab: Erklären Sie Ihre Situation, bieten Sie eine Alternative an (später oder mit Hilfe) und bleiben Sie freundlich.",
+      "minSeconds": 75,
+      "criteria": [
+        "Lehnt höflich und klar ab",
+        "Erklärt den Grund nachvollziehbar (Auslastung)",
+        "Bietet eine Alternative an (später / mit Hilfe)",
+        "Bleibt freundlich und wertschätzend",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Beim Amt telefonisch einen Termin abmachen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie brauchen einen Termin bei der Gemeinde, um etwas anzumelden. Rufen Sie an: Sagen Sie, worum es geht, fragen Sie nach einem Termin und fragen Sie, was Sie mitbringen müssen.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, worum es geht",
+        "Fragt nach einem Termin",
+        "Fragt, was mitzubringen ist, und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Nutzung des Trockenraums",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit über den Trockenraum: Eine Partei lässt ihre Wäsche tagelang hängen, andere kommen nie an die Reihe. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer fairen Regel, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine faire Regel hin (z. B. Zeitfenster)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

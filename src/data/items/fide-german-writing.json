@@ -1718,5 +1718,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Notiz an die Nachbarin: Ruhe wegen Prüfung",
+    "prompt": "Schreiben Sie eine kurze Notiz. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben nächste Woche eine wichtige Prüfung und müssen viel lernen. Schreiben Sie Ihrer Nachbarin eine freundliche Notiz: Bitten Sie sie, am Abend etwas leiser zu sein, und erklären Sie kurz, warum.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Bringt die Bitte freundlich vor (etwas leiser am Abend)",
+        "Erklärt kurz den Grund (Prüfung, lernen)",
+        "Nennt den Zeitraum",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an die Sprachschule: Anmeldung zur Prüfung",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie besuchen einen Deutschkurs und möchten sich für die Prüfung am Ende anmelden. Schreiben Sie der Sprachschule eine kurze E-Mail: Melden Sie sich für die Prüfung an und fragen Sie nach dem Datum und den Kosten.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Meldet sich klar für die Prüfung an",
+        "Fragt nach dem Datum",
+        "Fragt nach den Kosten",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Verwaltung: Schlüssel verloren",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben den Schlüssel zu Ihrer Wohnung verloren. Schreiben Sie der Hausverwaltung eine kurze E-Mail: Melden Sie den Verlust, fragen Sie, wie Sie einen neuen Schlüssel bekommen und was das kostet.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Meldet den Verlust des Schlüssels",
+        "Fragt, wie man einen neuen bekommt",
+        "Fragt nach den Kosten",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Nachricht an die Kita: Grossvater holt das Kind ab",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Heute können Sie Ihr Kind nicht selbst von der Kita abholen. Der Grossvater kommt stattdessen. Schreiben Sie der Kita eine kurze Nachricht: Sagen Sie, wer das Kind abholt, wann, und dass Sie einverstanden sind.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt klar, wer das Kind abholt (Grossvater)",
+        "Nennt die ungefähre Zeit",
+        "Macht deutlich, dass Sie einverstanden sind",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Schule: Bitte um ein Gespräch",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind hat in der Schule Schwierigkeiten und ist unglücklich. Schreiben Sie der Lehrperson eine E-Mail und bitten Sie um ein persönliches Gespräch: Schildern Sie kurz und sachlich, was Sie beobachten, und schlagen Sie zwei mögliche Termine vor.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Bittet klar um ein persönliches Gespräch",
+        "Schildert sachlich, was Sie beobachten",
+        "Schlägt zwei mögliche Termine vor",
+        "Bleibt höflich und lösungsorientiert",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
