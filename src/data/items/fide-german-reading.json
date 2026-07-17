@@ -6,14 +6,23 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Aushang im Treppenhaus",
     "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
     "payload": {
       "passage": "Liebe Nachbarinnen und Nachbarn\n\nAm Samstag, 12. April, reinigen wir gemeinsam den Innenhof. Wir treffen uns um 9.00 Uhr beim Veloständer. Bitte bringen Sie Handschuhe mit. Für Kaffee und Brot ist gesorgt.\n\nDie Hausverwaltung",
       "question": "Was sollen die Bewohnerinnen und Bewohner mitbringen?",
-      "options": ["Handschuhe", "Kaffee und Brot", "Ein Velo", "Einen Besen"]
+      "options": [
+        "Handschuhe",
+        "Kaffee und Brot",
+        "Ein Velo",
+        "Einen Besen"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -23,14 +32,23 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Öffnungszeiten der Gemeindeverwaltung",
     "prompt": "Lesen Sie die Öffnungszeiten und wählen Sie die richtige Antwort.",
     "payload": {
       "passage": "Einwohnerdienste — Schalteröffnungszeiten\n\nMontag bis Mittwoch: 8.00–11.30 und 14.00–16.30\nDonnerstag: 8.00–11.30 und 14.00–18.30\nFreitag: 8.00–14.00 durchgehend\nSamstag und Sonntag: geschlossen\n\nAusserhalb der Schalterzeiten erreichen Sie uns per E-Mail.",
       "question": "Frau Ayad kann erst nach 17.00 Uhr zum Schalter kommen. An welchem Tag ist das möglich?",
-      "options": ["Am Montag", "Am Donnerstag", "Am Freitag", "Am Samstag"]
+      "options": [
+        "Am Montag",
+        "Am Donnerstag",
+        "Am Freitag",
+        "Am Samstag"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -40,14 +58,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Information zur Krankenversicherung",
     "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Willkommen in der Schweiz\n\nDie Grundversicherung der Krankenkasse ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie müssen sich innerhalb von drei Monaten nach Ihrer Ankunft versichern. Die Versicherung gilt dann ab dem ersten Tag. Sie können die Krankenkasse frei wählen.",
       "question": "Aussage: Man darf selbst entscheiden, bei welcher Krankenkasse man die Grundversicherung abschliesst.",
-      "options": ["Richtig", "Falsch"]
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -57,6 +82,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "SMS von der Kinderkrippe",
     "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
@@ -69,7 +95,10 @@
         "Eine SMS an Leo schreiben"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -79,14 +108,46 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Wohin gehört der Abfall?",
     "prompt": "Ordnen Sie jedem Gegenstand die richtige Sammelstelle zu.",
     "payload": {
       "instructions": "In vielen Gemeinden wird Abfall getrennt gesammelt. Ordnen Sie zu.",
-      "left": ["Eine leere Mineralwasserflasche aus Plastik", "Eine Zeitung", "Ein leeres Konfitürenglas", "Eine leere Konservendose"],
-      "right": ["PET-Sammlung", "Papiersammlung", "Glassammlung", "Metall- und Alusammlung", "Sonderabfall in der Apotheke"]
+      "left": [
+        "Eine leere Mineralwasserflasche aus Plastik",
+        "Eine Zeitung",
+        "Ein leeres Konfitürenglas",
+        "Eine leere Konservendose"
+      ],
+      "right": [
+        "PET-Sammlung",
+        "Papiersammlung",
+        "Glassammlung",
+        "Metall- und Alusammlung",
+        "Sonderabfall in der Apotheke"
+      ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   },
   {
@@ -96,6 +157,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Brief der Krankenkasse",
     "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
     "payload": {
@@ -108,7 +170,10 @@
         "Weil die Notfallstation nicht anerkannt ist"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -118,6 +183,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Hausordnung",
     "prompt": "Lesen Sie den Auszug aus der Hausordnung und wählen Sie die richtige Antwort.",
     "payload": {
@@ -130,7 +196,10 @@
         "Das muss er zuerst im Waschplan eintragen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -140,17 +209,58 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Anmeldung bei der Gemeinde",
     "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
     "payload": {
       "passage": "Wenn Sie in eine neue Gemeinde ziehen, müssen Sie sich bei den Einwohnerdiensten {{1}}. Bringen Sie Ihren Ausweis, den Mietvertrag und Ihre Versicherungsnachweise {{2}}. Die Gemeinde trägt Sie danach im Einwohnerregister ein. Wenn Sie später wieder wegziehen, müssen Sie sich {{3}}.",
       "gaps": [
-        { "id": 1, "options": ["anmelden", "abmelden", "einladen", "bewerben"] },
-        { "id": 2, "options": ["mit", "nach", "ohne", "gegen"] },
-        { "id": 3, "options": ["anmelden", "abmelden", "aufschreiben", "ausruhen"] }
+        {
+          "id": 1,
+          "options": [
+            "anmelden",
+            "abmelden",
+            "einladen",
+            "bewerben"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "mit",
+            "nach",
+            "ohne",
+            "gegen"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "anmelden",
+            "abmelden",
+            "aufschreiben",
+            "ausruhen"
+          ]
+        }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 1
+        }
+      ]
+    },
     "maxPoints": 3
   },
   {
@@ -160,14 +270,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Elternbrief der Schule",
     "prompt": "Lesen Sie den Brief. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Liebe Eltern\n\nAm Dienstag, 6. Mai, findet der Elternabend der Klasse 4b statt. Beginn ist um 19.30 Uhr im Zimmer 12.\n\nWir sprechen über das Schullager im Juni und über den Übertritt in die Sekundarstufe. Es ist wichtig, dass mindestens ein Elternteil teilnimmt. Falls Sie eine Übersetzerin oder einen Übersetzer brauchen, melden Sie sich bitte bis am 29. April im Sekretariat. Wir organisieren das gerne für Sie.\n\nFreundliche Grüsse\nM. Iten, Klassenlehrerin",
       "question": "Aussage: Wer eine Übersetzung braucht, muss selbst jemanden mitbringen.",
-      "options": ["Richtig", "Falsch"]
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -177,6 +294,7 @@
     "skill": "READING",
     "taskType": "ORDERING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Eine Wohnung kündigen",
     "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
     "payload": {
@@ -189,7 +307,16 @@
         "Die Schlüssel übergeben"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": {
+      "type": "ORDERING",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
     "maxPoints": 1
   },
   {
@@ -199,6 +326,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Aushang im Quartiertreff",
     "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
     "payload": {
@@ -211,7 +339,10 @@
         "Sie findet nur für Eltern statt"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -221,6 +352,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Information zur Einbürgerung",
     "prompt": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
@@ -233,7 +365,10 @@
         "Sie gelten nur für die schriftlichen Sprachkenntnisse"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
     "maxPoints": 1
   },
   {
@@ -243,17 +378,58 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Auszug aus dem Arbeitsvertrag",
     "prompt": "Lesen Sie den Auszug und wählen Sie für jede Lücke das passende Wort.",
     "payload": {
       "passage": "Die Probezeit {{1}} drei Monate. Während dieser Zeit kann das Arbeitsverhältnis von beiden Seiten mit einer Frist von sieben Tagen gekündigt werden. Nach Ablauf der Probezeit {{2}} eine Kündigungsfrist von zwei Monaten auf das Ende eines Monats. Die Arbeitnehmerin hat Anspruch {{3}} vier Wochen bezahlte Ferien pro Jahr.",
       "gaps": [
-        { "id": 1, "options": ["beträgt", "bekommt", "gehört", "bedeutet"] },
-        { "id": 2, "options": ["gilt", "geht", "steht", "bleibt"] },
-        { "id": 3, "options": ["auf", "für", "an", "über"] }
+        {
+          "id": 1,
+          "options": [
+            "beträgt",
+            "bekommt",
+            "gehört",
+            "bedeutet"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "gilt",
+            "geht",
+            "steht",
+            "bleibt"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "auf",
+            "für",
+            "an",
+            "über"
+          ]
+        }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
     "maxPoints": 3
   },
   {
@@ -263,6 +439,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Zwei Meinungen zum Vereinsleben",
     "prompt": "Lesen Sie die beiden Beiträge aus der Quartierzeitung und wählen Sie die richtige Antwort.",
     "payload": {
@@ -275,7 +452,10 @@
         "Ob Sprachkurse zu teuer sind"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -285,6 +465,7 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "An welche Stelle wende ich mich?",
     "prompt": "Ordnen Sie jedem Anliegen die passende Stelle zu.",
     "payload": {
@@ -304,7 +485,27 @@
         "Betreibungsamt"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
     "maxPoints": 4
   }
 ]

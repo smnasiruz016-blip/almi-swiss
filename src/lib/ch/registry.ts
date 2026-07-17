@@ -81,6 +81,7 @@ import type {
   CivicModule,
   SwissSkill,
   LanguageSkill,
+  CefrLevel,
 } from "./types";
 import { SHIPPING_LANGUAGES, LANGUAGE_LABEL } from "./types";
 
@@ -128,6 +129,24 @@ export const NATURALISATION_MIN = {
   spoken: "B1",
   written: "A2",
 } as const;
+
+/** The CEFR level a surface's practice is measured AGAINST, per skill — the "goal".
+ *  Undefined = this track has no declared goal yet, so no task on it may be scored
+ *  as progress toward one.
+ *
+ *  DERIVED from NATURALISATION_MIN, never a second copy of "B1"/"A2". The federal
+ *  minimum is already stated once above; restating it here is how the two drift, and
+ *  a drifted goal would silently re-band every learner's practice.
+ *
+ *  CITIZENSHIP only, on purpose. C_PERMIT levels are a different pair (A2/A1 ordinary,
+ *  B1/A1 early) and GETTING_STARTED is explicitly "not an exam", so neither declares a
+ *  goal here — and CANTON_CIVIC never can: there is no national civics test to be
+ *  ready for. Adding a track here is a decision to measure people against it. */
+export function goalCefrFor(e: ExamMeta, skill: SwissSkill): CefrLevel | undefined {
+  if (e.track !== "CITIZENSHIP") return undefined;
+  const spoken = skill === "LISTENING" || skill === "SPEAKING";
+  return (spoken ? NATURALISATION_MIN.spoken : NATURALISATION_MIN.written) as CefrLevel;
+}
 
 // Tier 1 — see the fact base above. Rendered only alongside C_PERMIT_PROVENANCE
 // and C_PERMIT_SCOPE.

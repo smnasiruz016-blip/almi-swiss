@@ -6,8 +6,8 @@
 // are framed as a "practice estimate" — never an official result.
 
 import { useState } from "react";
-import type { SwissSkill } from "@/lib/ch/types";
-import { skillReadout, readinessFromPct } from "@/lib/ch/grading";
+import type { SwissSkill, CefrLevel } from "@/lib/ch/types";
+import { goalReadout, readinessFromPct } from "@/lib/ch/grading";
 import { SKILL_LABELS } from "@/lib/ch/registry";
 import { ObjectiveTask } from "./ObjectiveTask";
 import { submitAttempt, type RunnerItem, type SubmitResult } from "./shared";
@@ -22,10 +22,15 @@ export function PracticeRunner({
   examName,
   skill,
   items,
+  goalCefr,
 }: {
   examName: string;
   skill: SwissSkill;
   items: RunnerItem[];
+  /** The level this module's readiness is measured against — undefined on tracks that
+   *  declare no goal (C permit, getting started, canton civic), where the runner shows
+   *  a plain score and claims no readiness at all. */
+  goalCefr?: CefrLevel;
 }) {
   const [step, setStep] = useState(0);
   const [response, setResponse] = useState<unknown>(null);
@@ -68,8 +73,13 @@ export function PracticeRunner({
   if (done) {
     const points = results.reduce((s, r) => s + r.points, 0);
     const maxPoints = results.reduce((s, r) => s + r.maxPoints, 0);
-    const readout = skillReadout(skill, points, maxPoints);
-    const band = READINESS_LABEL[readout.readiness] ?? READINESS_LABEL.BELOW;
+    // results[i] is items[i] — the runner advances one item per submit, in order.
+    const g = goalReadout(
+      skill,
+      goalCefr,
+      results.map((r, i) => ({ cefr: items[i]?.cefr, points: r.points, maxPoints: r.maxPoints })),
+    );
+    const band = g.atGoal ? READINESS_LABEL[g.atGoal.readiness] ?? READINESS_LABEL.BELOW : null;
     return (
       <div className="space-y-5 rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
         <div>
@@ -80,14 +90,47 @@ export function PracticeRunner({
             {points} / {maxPoints} correct
           </h2>
         </div>
-        <div className="flex flex-wrap items-center gap-3">
-          <span className={`rounded-full px-3 py-1 text-sm font-semibold ${band.cls}`}>
-            {band.text}
-          </span>
-          <span className="text-sm text-almi-text-muted">
-            {readout.pct}% · readiness band {readinessFromPct(readout.pct)}
-          </span>
-        </div>
+
+        {/* The goal band reads ONLY the tasks that sit at the goal. Tasks above it are
+            named and left out: missing a B1 task says nothing about A2 readiness, and
+            naturalisation asks A2 in writing — not B1. */}
+        {g.atGoal && band ? (
+          <div className="flex flex-wrap items-center gap-3">
+            <span className={`rounded-full px-3 py-1 text-sm font-semibold ${band.cls}`}>
+              {band.text} at {g.goal}
+            </span>
+            <span className="text-sm text-almi-text-muted">
+              {g.atGoal.pct}% on {g.atGoal.maxPoints} point
+              {g.atGoal.maxPoints === 1 ? "" : "s"} at {g.goal} · readiness band{" "}
+              {readinessFromPct(g.atGoal.pct)}
+            </span>
+          </div>
+        ) : goalCefr ? (
+          <p className="rounded-xl bg-almi-bg-peach/60 px-3 py-2 text-sm text-almi-ink">
+            No {goalCefr} tasks came up in this round, so there is nothing to say about your{" "}
+            {goalCefr} readiness yet. Practise again for a {goalCefr} estimate.
+          </p>
+        ) : null}
+
+        {(g.above.count > 0 || g.foundational.count > 0) && (
+          <ul className="space-y-1 text-xs text-almi-text-muted">
+            {g.above.count > 0 && (
+              <li>
+                <strong>{g.above.count}</strong> task{g.above.count === 1 ? "" : "s"} above{" "}
+                {g.goal} ({g.above.points}/{g.above.maxPoints}) — stretch practice, not counted
+                toward your {g.goal} estimate.
+              </li>
+            )}
+            {g.foundational.count > 0 && (
+              <li>
+                <strong>{g.foundational.count}</strong> task{g.foundational.count === 1 ? "" : "s"}{" "}
+                below {g.goal} ({g.foundational.points}/{g.foundational.maxPoints}) — groundwork;
+                getting these right is not yet evidence of {g.goal}.
+              </li>
+            )}
+          </ul>
+        )}
+
         <p className="text-xs text-almi-text-muted">
           This is a practice estimate against the level&apos;s criteria, not an official result.
         </p>

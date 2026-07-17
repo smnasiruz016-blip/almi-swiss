@@ -15,8 +15,8 @@ import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
 import { examBySlug } from "@/lib/ch/registry";
-import { LANGUAGE_LABEL } from "@/lib/ch/types";
-import type { SwissSkill, SwissTaskType } from "@/lib/ch/types";
+import { LANGUAGE_LABEL, isCefrLevel } from "@/lib/ch/types";
+import type { SwissSkill, SwissTaskType, CefrLevel } from "@/lib/ch/types";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -26,6 +26,9 @@ interface GradeBody {
   exam?: string;
   skill?: SwissSkill;
   taskType?: SwissTaskType;
+  /** The task's own CEFR level. The exam's `cefr` label is a RANGE and must never
+   *  stand in for it — see the note at the call site below. */
+  cefr?: CefrLevel;
   title?: string;
   prompt?: string;
   criteria?: string[];
@@ -110,7 +113,17 @@ export async function POST(req: Request): Promise<NextResponse> {
 
   const exam = body.exam ? examBySlug(body.exam) : undefined;
   const examName = exam?.name ?? "the test";
-  const cefr = exam?.cefr ?? "the target";
+  // The level to judge THIS task at — the task's own, not the exam's.
+  //
+  // This read `exam?.cefr`, which is the entry's display label and for fide is the
+  // RANGE "A1–B1". No task sits at "A1–B1": the model was asked to judge a 40-word
+  // A2 note and a 120-word B1 Leserbrief against the same three-level span, so the
+  // same answer could pass as A1 and fail as B1 depending on where the model aimed.
+  // A range cannot be a standard. Judge each task at its declared level, and when a
+  // task declares none, say so rather than substituting the exam's range — an
+  // unstated level is unknown, and "A1–B1" is not a safe guess for it.
+  const cefr = isCefrLevel(body.cefr) ? body.cefr : null;
+  const levelPhrase = cefr ?? "the task's own criteria";
   // The examiner's LANGUAGE, from the registry entry. This was hardcoded to the
   // ancestor's language at fork time, which would have told the model it was a
   // Swedish examiner while grading German writing — a wrong persona that produces  hygiene-allow
@@ -120,14 +133,17 @@ export async function POST(req: Request): Promise<NextResponse> {
   const criteria = (body.criteria ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);
 
   const system = [
-    `You are an experienced ${examLanguage}-language examiner for ${examName} (CEFR ${cefr}).`,
+    `You are an experienced ${examLanguage}-language examiner for ${examName}.`,
+    cefr
+      ? `This task is pitched at CEFR ${cefr}. Judge it at ${cefr} — not above it and not below it.`
+      : `This task does not declare a CEFR level, so judge it against its own criteria only and do not assume a level.`,
     `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official result, and you never claim otherwise.`,
     isSpeaking
       ? `This is a SPEAKING task; the learner has typed the answer they would say aloud, so judge content, structure, range and appropriacy, not pronunciation.`
-      : `This is a WRITING task; judge task fulfilment, coherence, range and accuracy at the ${cefr} level.`,
+      : `This is a WRITING task; judge task fulfilment, coherence, range and accuracy at ${levelPhrase}.`,
     `Be constructive, specific and level-aware. Do not inflate. Reply with STRICT JSON only, no prose, no code fences, in this exact shape:`,
     `{"band":"CLEAR|BORDERLINE|BELOW","summary":"1-2 sentence honest estimate","strengths":["..."],"improvements":["..."]}`,
-    `Bands: CLEAR = comfortably meets the criteria at ${cefr}; BORDERLINE = partially meets them, could go either way; BELOW = does not yet meet them.`,
+    `Bands: CLEAR = comfortably meets the criteria at ${levelPhrase}; BORDERLINE = partially meets them, could go either way; BELOW = does not yet meet them.`,
   ].join(" ");
 
   const userMsg = [
@@ -152,7 +168,7 @@ export async function POST(req: Request): Promise<NextResponse> {
 
     await recordCost({
       userId: user.id,
-      feature: "sv.grade.productive",
+      feature: "ch.grade.productive",
       model: MODELS.SONNET,
       usage: {
         inputTokens: msg.usage.input_tokens,
@@ -168,7 +184,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   } catch (e) {
     await recordCost({
       userId: user.id,
-      feature: "sv.grade.productive",
+      feature: "ch.grade.productive",
       model: MODELS.SONNET,
       usage: { inputTokens: 0, outputTokens: 0 },
       success: false,

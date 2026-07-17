@@ -6,6 +6,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Sich vorstellen",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Einen Termin vereinbaren",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Den Weg beschreiben",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Etwas im Laden zurückgeben",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Am Schalter der Gemeinde",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -117,6 +122,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Ein Problem in der Wohnung melden",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -140,6 +146,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Gespräch mit der Lehrperson",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -163,6 +170,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Beim Arzt: Beschwerden schildern",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -186,6 +194,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Mit einer Nachbarin etwas klären",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -209,6 +218,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Über die eigene Arbeit sprechen",
     "prompt": "Sprechen Sie mindestens 60 Sekunden.",
     "payload": {
@@ -232,6 +242,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Eine Meinung begründen: Vereine und Integration",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -256,6 +267,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Etwas erklären, das man selbst gelernt hat",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -279,6 +291,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Auf einen Entscheid reagieren",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -303,6 +316,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Vergleichen: früher und heute",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B2",
     "title": "Vermitteln: zwischen zwei Positionen",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {

@@ -1,7 +1,7 @@
 // Engine selftests — run with `npm run selftest:engine` (tsx).
 // Proves the per-skill readiness bands and objective grading are correct.
 
-import { gradeObjective, readinessFromPct, skillReadout, aggregateReadout } from "./grading";
+import { gradeObjective, readinessFromPct, skillReadout, aggregateReadout, levelRole, goalReadout } from "./grading";
 
 let pass = 0;
 let fail = 0;
@@ -58,6 +58,46 @@ eq(skillReadout("READING", 8, 10).readiness, "CLEAR", "reading 80% clear");
     skillReadout("LISTENING", 8, 10),
   ]);
   eq(agg.allClear, true, "agg all clear");
+}
+
+// ---- level-crossing rule ----
+// The rule keys on the task's CEFR vs the module's goal, NEVER on difficulty.
+eq(levelRole("A2", "A2"), "AT_GOAL", "A2 task, A2 goal");
+eq(levelRole("B1", "A2"), "ABOVE_GOAL", "B1 task, A2 goal — reading #14");
+eq(levelRole("A2", "B1"), "FOUNDATIONAL", "A2 task, B1 goal — listening #1");
+eq(levelRole("B2", "B1"), "ABOVE_GOAL", "B2 task, B1 goal — speaking #15");
+eq(levelRole(undefined, "A2"), "UNDECLARED", "no level declared is NOT at-goal");
+eq(levelRole("A2", undefined), "UNDECLARED", "no goal declared — nothing to be ready for");
+
+{
+  // The bug this rule exists to kill: a B1 task wrong must not lower an A2 band.
+  // Two A2 right, one B1 wrong → A2 readiness is 100%, not 67%.
+  const g = goalReadout("READING", "A2", [
+    { cefr: "A2", points: 1, maxPoints: 1 },
+    { cefr: "A2", points: 1, maxPoints: 1 },
+    { cefr: "B1", points: 0, maxPoints: 1 },
+  ]);
+  eq(g.atGoal?.pct, 100, "above-goal miss does not lower the goal band");
+  eq(g.atGoal?.maxPoints, 2, "goal band counts only at-goal points");
+  eq(g.above.count, 1, "above-goal task is reported, not hidden");
+}
+{
+  // And the mirror: acing below-goal work is not evidence of the goal.
+  const g = goalReadout("LISTENING", "B1", [
+    { cefr: "A2", points: 1, maxPoints: 1 },
+    { cefr: "A2", points: 1, maxPoints: 1 },
+  ]);
+  eq(g.atGoal, null, "no at-goal tasks → no goal band, not a 100%");
+  eq(g.foundational.count, 2, "below-goal work reported as groundwork");
+}
+{
+  // A task with no declared level must not be absorbed into the band.
+  const g = goalReadout("WRITING", "A2", [
+    { cefr: "A2", points: 0, maxPoints: 1 },
+    { points: 1, maxPoints: 1 },
+  ]);
+  eq(g.atGoal?.pct, 0, "undeclared task does not inflate the band");
+  eq(g.undeclared, 1, "undeclared task is surfaced");
 }
 
 console.log(`\nAlmiSwiss engine selftest: ${pass} passed, ${fail} failed`);

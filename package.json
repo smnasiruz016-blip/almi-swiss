@@ -8,7 +8,9 @@
     "build": "node scripts/seo/countries-axis-gate.mjs && node scripts/seo/fork-hygiene-gate.mjs && node scripts/seo/uniqueness-gate.mjs && prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "postinstall": "prisma generate",
-    "gate:hygiene": "node scripts/seo/fork-hygiene-gate.mjs"
+    "gate:hygiene": "node scripts/seo/fork-hygiene-gate.mjs",
+    "selftest:engine": "tsx src/lib/ch/selftest.ts",
+    "verify:items": "tsx scripts/items/verify-items.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",

@@ -25,6 +25,7 @@ import type {
   SwissSkill,
   SwissTaskType,
   SwissDifficulty,
+  CefrLevel,
   ObjectiveAnswer,
 } from "./types";
 import { ALL_EXAMS } from "./registry";
@@ -38,6 +39,16 @@ export interface SwissItemSeed {
   skill: SwissSkill;
   taskType: SwissTaskType;
   difficulty: SwissDifficulty;
+  /** The CEFR level this task is pitched at — OPTIONAL, and its absence is "we have
+   *  not stated one yet", never "it matches the goal".
+   *
+   *  Optional because 450 of the 510 items are on tracks whose goal level we have not
+   *  reviewed; requiring it would be satisfied only by inventing a level for each,
+   *  which is the fabrication this field exists to prevent. Enforcement is scoped
+   *  instead: `verify-items.mts` REQUIRES `cefr` on every item of a surface that
+   *  declares a goal (goalCefrFor), so a module gets levels the moment it gets a goal
+   *  — and a task with no level can never be silently counted as proof of one. */
+  cefr?: CefrLevel;
   title: string;
   prompt: string;
   payload: unknown;

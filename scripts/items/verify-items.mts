@@ -14,8 +14,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { itemsForSurface, BUNDLE_FILES } from "../../src/lib/ch/items";
 import { gradeObjective } from "../../src/lib/ch/grading";
-import { ALL_EXAMS, MIN_TASKS_PER_MODULE } from "../../src/lib/ch/registry";
-import { isObjectiveTask } from "../../src/lib/ch/types";
+import { ALL_EXAMS, MIN_TASKS_PER_MODULE, goalCefrFor } from "../../src/lib/ch/registry";
+import { isObjectiveTask, isCefrLevel } from "../../src/lib/ch/types";
 import type { SwissItemSeed } from "../../src/lib/ch/items";
 
 const problems: string[] = [];
@@ -96,6 +96,23 @@ for (const e of ALL_EXAMS) {
       // content disagree about what the learner is practising.
       if (it.track !== e.track) note(it, `filed under ${e.slug} (track ${e.track}) but declares track ${it.track}`);
       checkItem(it);
+
+      // A surface that declares a GOAL measures people against it, so every task on
+      // it must declare the level it is pitched at. `cefr` is optional in the type —
+      // 450 items sit on tracks with no goal, and inventing levels for them is the
+      // fabrication this field exists to stop — so the requirement is scoped here
+      // instead: goal ⇒ level, enforced, and the two arrive together.
+      //
+      // Without this the failure is silent and one-directional: an item with no level
+      // is never AT_GOAL, so it drops out of the band it should have been counted in,
+      // and the number still renders. A learner would see a confident estimate built
+      // from fewer tasks than they answered. Same family as the orphan bundle below —
+      // an absence that reads as a smaller, plausible number rather than an error.
+      const goal = goalCefrFor(e, skill);
+      if (goal && !isCefrLevel(it.cefr)) {
+        note(it, `on ${e.slug}/${skill}, which has goal ${goal}, but declares no cefr level`);
+      }
+
       allSeen.push(it);
     }
   }
