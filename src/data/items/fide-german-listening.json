@@ -2278,5 +2278,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Gespräch: verheiratet mit einer Schweizerin — welcher Weg?",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Osei: Du, ich bin ja mit Anna verheiratet, sie ist Schweizerin. Muss ich das Gesuch auch bei der Gemeinde stellen wie du?\nHerr Baumann: Nein, bei dir ist es wahrscheinlich anders. Wenn man mit einer Schweizerin verheiratet ist, gibt es die erleichterte Einbürgerung. Da entscheidet der Bund, das SEM, und das Gesuch stellst du direkt beim SEM.\nHerr Osei: Ah, also nicht bei der Gemeinde?\nHerr Baumann: Genau, nicht wie bei der ordentlichen. Aber erkundige dich sicherheitshalber, welche Bedingungen für dich gelten. Und einen Sprachnachweis brauchst du auch.\nHerr Osei: Gut, danke für den Tipp.",
+      "question": "Was rät Herr Baumann?",
+      "options": [
+        "Bei der erleichterten Einbürgerung stellt man das Gesuch beim SEM, nicht bei der Gemeinde",
+        "Auch als Verheirateter stellt man das Gesuch bei der Gemeinde",
+        "Verheiratete brauchen keinen Sprachnachweis",
+        "Man kann sich gar nicht einbürgern lassen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Interview: eine Freiwillige erzählt",
+    "prompt": "Hören Sie das Interview und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Reporterin: Sie helfen jede Woche im Quartiertreff. Was machen Sie genau?\nFrau Meli: Ich koche am Mittwoch für ältere Leute, die allein sind. Wir essen zusammen und reden.\nReporterin: Und warum machen Sie das?\nFrau Meli: Als ich neu hier war, hat mir auch jemand geholfen. Jetzt gebe ich etwas zurück. Es macht mir Freude, und ich lerne viele Leute kennen.\nReporterin: Brauchen Sie eine Ausbildung dafür?\nFrau Meli: Nein, man muss nur zuverlässig sein und gern mit Menschen zusammen sein. Neue Helfer sind immer willkommen.",
+      "question": "Warum hilft Frau Meli im Quartiertreff?",
+      "options": [
+        "Sie möchte etwas zurückgeben und trifft gern Leute",
+        "Sie verdient dort viel Geld",
+        "Sie muss es für die Schule machen",
+        "Sie sucht eine neue Wohnung"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Bei der Führung im Museum",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Willkommen zur Führung. Wir sind hier im ältesten Teil des Hauses, er ist über 300 Jahre alt. Bitte machen Sie keine Fotos mit Blitz, das schadet den alten Bildern. Die Führung dauert etwa eine Stunde. Am Schluss haben Sie Zeit, den Shop und das Café zu besuchen. Wenn Sie eine Frage haben, stellen Sie sie gern jederzeit. Gehen wir weiter in den nächsten Raum.",
+      "question": "Was ist bei der Führung nicht erlaubt?",
+      "options": [
+        "Fotos mit Blitz zu machen",
+        "Fragen zu stellen",
+        "Das Café zu besuchen",
+        "In den nächsten Raum zu gehen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Ansage am Telefon: Warteschleife",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag und willkommen bei der Gemeindeverwaltung. Für die Einwohnerdienste drücken Sie die Eins. Für das Steueramt drücken Sie die Zwei. Für alle anderen Anliegen bleiben Sie am Apparat, wir verbinden Sie mit dem Empfang. Unsere Öffnungszeiten finden Sie auf unserer Webseite.",
+      "question": "Welche Taste drückt man für die Einwohnerdienste?",
+      "options": [
+        "Die Eins",
+        "Die Zwei",
+        "Die Drei",
+        "Keine Taste"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Wetterwarnung im Radio",
+    "prompt": "Hören Sie die Warnung. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Achtung, eine Wetterwarnung: Heute Nachmittag ziehen starke Gewitter auf, mit Sturmböen und Hagel. Bringen Sie lose Gegenstände auf dem Balkon herein und schliessen Sie die Fenster. Fahren Sie wenn möglich nicht mit dem Velo. Die Warnung gilt bis heute Abend um 20 Uhr.",
+      "question": "Aussage: Laut der Warnung soll man die Fenster offen lassen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

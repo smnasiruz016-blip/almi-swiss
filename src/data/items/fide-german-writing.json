@@ -2242,5 +2242,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Dankeskarte an die Nachbarin",
+    "prompt": "Schreiben Sie eine kurze Dankeskarte. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Nachbarin hat Ihnen geholfen, als Sie krank waren — sie hat für Sie eingekauft. Schreiben Sie ihr eine kurze Dankeskarte: Bedanken Sie sich, sagen Sie, wofür, und bieten Sie an, sich zu revanchieren.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Bedankt sich herzlich",
+        "Sagt, wofür (Einkaufen, als Sie krank waren)",
+        "Bietet an, sich zu revanchieren",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Kleinanzeige: Suche einen Tisch",
+    "prompt": "Schreiben Sie eine Kleinanzeige. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie suchen einen gebrauchten Küchentisch. Schreiben Sie eine kurze Kleinanzeige für das schwarze Brett: Sagen Sie, was Sie suchen, wie gross er sein soll, wie viel Sie ungefähr bezahlen möchten und wie man Sie erreicht.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt klar, was Sie suchen (Küchentisch)",
+        "Nennt Wünsche (Grösse, Zustand oder Preis)",
+        "Gibt an, wie man Sie erreicht",
+        "Kurz und übersichtlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Wegbeschreibung für einen Gast",
+    "prompt": "Schreiben Sie eine kurze Wegbeschreibung. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ein Gast kommt zum ersten Mal zu Ihnen nach Hause und fragt nach dem Weg vom Bahnhof. Schreiben Sie ihm eine kurze Wegbeschreibung: Beschreiben Sie den Weg vom Bahnhof zu Ihrer Wohnung Schritt für Schritt.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Beschreibt den Weg Schritt für Schritt",
+        "Nennt wichtige Punkte (Strassen, Ecken, Gebäude)",
+        "Gibt die ungefähre Dauer an",
+        "Klar und verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Nachricht in der Klassen-Chatgruppe",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "In der Chatgruppe der Eltern organisieren Sie ein Geschenk für die Lehrerin, die geht. Schreiben Sie eine kurze Nachricht an die Gruppe: Erklären Sie die Idee, schlagen Sie einen Betrag vor und sagen Sie, bis wann und wie man das Geld gibt.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Erklärt die Idee (gemeinsames Geschenk)",
+        "Schlägt einen Betrag vor",
+        "Sagt, bis wann und wie man zahlt",
+        "Freundlicher, klarer Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Volkshochschule: Kursinformationen",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie interessieren sich für einen Computerkurs an der Volkshochschule. Schreiben Sie eine E-Mail: Fragen Sie nach dem nächsten Kursbeginn, den Kosten, den Vorkenntnissen, die man braucht, und ob es Kurse am Abend gibt.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Nennt Ihr Interesse (Computerkurs)",
+        "Fragt nach Beginn und Kosten",
+        "Fragt nach nötigen Vorkenntnissen",
+        "Fragt nach Abendkursen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
