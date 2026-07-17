@@ -932,5 +932,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an die Nachbarn: Treppenhaus tauschen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Diese Woche sind Sie mit der Reinigung des Treppenhauses an der Reihe. Sie sind aber in den Ferien. Schreiben Sie Ihrer Nachbarin, Frau Roth, eine kurze E-Mail und bitten Sie sie, die Woche mit Ihnen zu tauschen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt den Grund (Ferien) und die betroffene Woche",
+        "Formuliert die Bitte, die Woche zu tauschen, höflich",
+        "Schlägt vor, wann Sie die Reinigung übernehmen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Mitteilung an die Gemeinde: neue Telefonnummer",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine neue Telefonnummer. Schreiben Sie den Einwohnerdiensten Ihrer Gemeinde eine kurze Nachricht, damit man Sie erreichen kann.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt den Grund der Nachricht (neue Telefonnummer)",
+        "Gibt die nötigen Angaben an (Name, Adresse, neue Nummer)",
+        "Bittet darum, die Angaben zu ändern",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail: Termin für die Wohnungsübergabe",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Sie ziehen Ende Monat aus. Schreiben Sie der Hausverwaltung eine E-Mail und bitten Sie um einen Termin für die Wohnungsübergabe. Schlagen Sie zwei mögliche Tage vor.",
+      "charBand": {
+        "min": 260,
+        "max": 620
+      },
+      "criteria": [
+        "Nennt den Auszug und den Wunsch nach einem Übergabetermin",
+        "Schlägt zwei konkrete Tage oder Zeiten vor",
+        "Fragt, was Sie zur Übergabe vorbereiten sollen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Antwort: Zusage zum Elternabend",
+    "prompt": "Schreiben Sie eine Antwort. 40 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Die Schule Ihres Kindes lädt zu einem Elternabend am Donnerstag um 19.00 Uhr ein. Antworten Sie der Lehrperson: Sie kommen, aber etwa zehn Minuten später. Fragen Sie, ob es Unterlagen zum Mitnehmen gibt.",
+      "charBand": {
+        "min": 200,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt klar zu und nennt den Anlass",
+        "Weist darauf hin, dass Sie etwas später kommen",
+        "Stellt die Frage nach Unterlagen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Leserbrief: Öffnungszeiten der Sammelstelle",
+    "prompt": "Schreiben Sie einen Leserbrief. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrer Quartierzeitung wird über die Öffnungszeiten der Sammelstelle diskutiert. Viele Berufstätige schaffen es nicht, den Karton und das Grüngut während der Woche zu bringen. Schreiben Sie einen Leserbrief: Begründen Sie Ihren Vorschlag und bleiben Sie sachlich. Beachten Sie, dass die Gemeinde über die Zeiten entscheidet.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Nennt das Problem klar (Zeiten passen Berufstätigen nicht)",
+        "Macht einen konkreten Vorschlag (z. B. ein Abend oder Samstagmorgen)",
+        "Begründet den Vorschlag nachvollziehbar",
+        "Anerkennt, dass die Gemeinde entscheidet, und bleibt sachlich",
+        "Klarer Aufbau eines Leserbriefs mit Anrede und Schluss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
