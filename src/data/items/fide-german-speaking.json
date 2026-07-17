@@ -817,5 +817,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Am Schalter: nach der Anmeldefrist fragen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind neu in Ihre Gemeinde gezogen und stehen bei den Einwohnerdiensten am Schalter. Erklären Sie, dass Sie sich anmelden möchten, und fragen Sie, bis wann das nötig ist und welche Unterlagen Sie brauchen. Fragen Sie auch nach, wenn eine Antwort für Sie unklar ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt das Anliegen klar (Anmeldung nach dem Umzug)",
+        "Fragt nach der Frist und den nötigen Unterlagen",
+        "Fragt höflich nach, wenn etwas unklar ist",
+        "Angemessene, höfliche Sprache am Schalter"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über einen Umzug erzählen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von einem Umzug, den Sie erlebt haben. Was mussten Sie organisieren? Was war einfach, was war schwierig? Was würden Sie beim nächsten Mal anders machen?",
+      "minSeconds": 60,
+      "criteria": [
+        "Erzählt zusammenhängend von einem Umzug",
+        "Nennt, was einfach und was schwierig war",
+        "Gibt einen Ausblick (was beim nächsten Mal anders wäre)",
+        "Verbindet die Sätze mit passenden Wörtern (zuerst, dann, weil, aber)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Im Elternrat einen Vorschlag machen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "In der Schule Ihres Kindes gibt es einen Elternrat. Sie möchten vorschlagen, dass die Elterngespräche auch am Abend angeboten werden, damit Berufstätige teilnehmen können. Bringen Sie Ihren Vorschlag vor und begründen Sie ihn. Rechnen Sie mit Gegenargumenten und gehen Sie darauf ein.",
+      "minSeconds": 75,
+      "criteria": [
+        "Bringt den Vorschlag klar und verständlich vor",
+        "Begründet ihn nachvollziehbar (Berufstätige, Vereinbarkeit)",
+        "Geht auf ein mögliches Gegenargument ein",
+        "Bleibt sachlich und höflich",
+        "Strukturiert den Beitrag (Einstieg, Begründung, Schluss)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Sagen, welche Unterlagen Sie dabei haben",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind an einem Schalter und wollen sich anmelden. Die Person am Schalter fragt, welche Unterlagen Sie mitgebracht haben. Sagen Sie, was Sie dabei haben (zum Beispiel Ausweis, Mietvertrag, Formular), und fragen Sie, ob etwas fehlt.",
+      "minSeconds": 45,
+      "criteria": [
+        "Nennt einfache, passende Unterlagen",
+        "Spricht in kurzen, verständlichen Sätzen",
+        "Stellt die Frage, ob etwas fehlt"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit um die Waschküche",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Zwei Nachbarinnen streiten über die Benutzung der Waschküche: Die eine sagt, sie halte sich immer an den Waschplan, die andere findet den Plan unfair. Sie werden gebeten zu vermitteln. Fassen Sie beide Positionen fair zusammen und führen Sie das Gespräch zu einer möglichen Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Lenkt das Gespräch auf eine gemeinsame Lösung",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

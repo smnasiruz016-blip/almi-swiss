@@ -998,5 +998,133 @@
       ]
     },
     "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Auskunft am Schalter: Anmeldung nach dem Umzug",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Willkommen bei den Einwohnerdiensten. Sie sind also neu zugezogen – dann melden Sie sich bei uns an. Bringen Sie einen gültigen Ausweis mit, den Mietvertrag und, falls vorhanden, Ihre bisherige Anmeldebestätigung. Bis wann Sie sich anmelden müssen, ist nicht überall gleich; die genaue Frist hängt von der Gemeinde und vom Kanton ab. Warten Sie darum nicht zu lange und fragen Sie im Zweifel gleich hier nach. Den Ausländerausweis regelt eine andere Stelle; darüber informieren wir Sie separat.",
+      "question": "Was sagt die Auskunftsperson über die Anmeldefrist?",
+      "options": [
+        "Sie hängt von der Gemeinde und vom Kanton ab",
+        "Sie ist in der ganzen Schweiz gleich",
+        "Es gibt gar keine Frist",
+        "Sie beträgt immer drei Monate"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Telefonische Auskunft zur Grundversicherung",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, Sie fragen wegen der Krankenversicherung. Also: Die Grundversicherung ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie müssen sich innerhalb von drei Monaten nach Ihrer Ankunft versichern. Wenn Sie das rechtzeitig tun, gilt die Versicherung rückwirkend ab dem ersten Tag. Welche Kasse Sie wählen, ist Ihnen überlassen; die Leistungen der Grundversicherung sind überall dieselben. Über die Prämien und mögliche Verbilligungen gibt Ihnen Ihr Kanton Auskunft.",
+      "question": "Was ist laut der Auskunft richtig?",
+      "options": [
+        "Wer sich rechtzeitig versichert, ist ab dem ersten Tag gedeckt",
+        "Man muss sich erst nach einem Jahr versichern",
+        "Die Grundversicherung ist freiwillig",
+        "Jede Kasse bietet andere Grundleistungen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: einen Schichttausch abmachen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Keller: Salim, du, ich habe ein Problem mit dem Dienstplan. Am Freitag habe ich Spätschicht, aber mein Sohn hat einen wichtigen Termin. Könntest du mit mir tauschen?\nHerr Osman: Freitag Spätschicht … da habe ich eigentlich frei. Aber ich könnte. Was gibst du mir dafür?\nFrau Keller: Ich nehme deine Frühschicht am Montag. Dann sind wir quitt.\nHerr Osman: Gut, das geht. Aber wir müssen es dem Teamleiter melden, sonst steht der alte Plan.\nFrau Keller: Mache ich noch heute. Danke dir!",
+      "question": "Worauf einigen sich die beiden?",
+      "options": [
+        "Sie tauschen zwei Schichten und melden es dem Teamleiter",
+        "Herr Osman übernimmt beide Schichten allein",
+        "Sie lassen den Dienstplan, wie er ist",
+        "Frau Keller sagt ihren Termin ab"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage in der Bibliothek",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Besucherinnen und Besucher, wir schliessen in fünfzehn Minuten. Bitte bringen Sie die Bücher, die Sie ausleihen möchten, jetzt zur Theke. Medien, die Sie zurückgeben, legen Sie bitte in die Box beim Ausgang. Morgen sind wir ab neun Uhr wieder für Sie da. Wir danken Ihnen und wünschen einen schönen Abend.",
+      "question": "Was sollen Besucher tun, wenn sie ein Buch ausleihen möchten?",
+      "options": [
+        "Es jetzt zur Theke bringen",
+        "Es in die Box beim Ausgang legen",
+        "Bis morgen um neun Uhr warten",
+        "Es wieder ins Regal stellen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Anruf aus der Velowerkstatt",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag Herr Prakash, hier ist die Velowerkstatt am Bahnhofplatz. Ihr Velo ist fertig; wir haben die Bremsen und die Kette ersetzt. Sie können es ab morgen abholen, am besten bis Freitag. Die Reparatur kostet hundertzwanzig Franken, bitte bar oder mit Karte. Bringen Sie den Abholschein mit. Danke und bis bald.",
+      "question": "Aussage: Laut der Nachricht muss Herr Prakash das Velo heute noch abholen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

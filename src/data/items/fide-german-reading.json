@@ -1141,5 +1141,177 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Erinnerung an einen Termin",
+    "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Praxis Dr. Meier – Terminerinnerung\n\nGuten Tag Frau Osei\nWir erinnern Sie an Ihren Termin am Dienstag, 6. Mai, um 14.00 Uhr.\nBitte bringen Sie Ihre Versichertenkarte mit.\nWenn Sie nicht kommen können, sagen Sie bitte mindestens 24 Stunden vorher telefonisch ab. Sonst müssen wir den Termin verrechnen.\n\nFreundliche Grüsse\nIhre Praxis",
+      "question": "Was sollen Sie tun, wenn Sie den Termin nicht wahrnehmen können?",
+      "options": [
+        "Mindestens 24 Stunden vorher telefonisch absagen",
+        "Am selben Tag eine E-Mail schreiben",
+        "Ohne Nachricht einen neuen Termin nehmen",
+        "Die Versichertenkarte zurückschicken"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Anschlag: Reinigung des Treppenhauses",
+    "prompt": "Lesen Sie den Anschlag. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Anschlag der Hausverwaltung\n\nLiebe Mieterinnen und Mieter\nAb April reinigt jede Wohnung das Treppenhaus eine Woche lang, nach dem Plan am schwarzen Brett. Die Woche beginnt jeweils am Montag.\nWer an der Reihe ist, wischt den Boden und leert den Abfalleimer beim Eingang.\nWenn Sie in den Ferien sind, tauschen Sie die Woche bitte selbst mit einer anderen Partei.\n\nDie Hausverwaltung",
+      "question": "Aussage: Laut dem Anschlag sucht die Hausverwaltung einen Ersatz, wenn man in den Ferien ist.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Sammelstelle für Karton",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Aushang unserer Gemeinde: Kartonsammlung\n\nKarton bringen Sie zur {{1}} beim Werkhof. Bitte den Karton flach {{2}} und mit einer Schnur bündeln. Kleben Sie kein Klebeband darauf.\nDie Sammelstelle ist von Montag bis Samstag {{3}}. An Feiertagen bleibt sie geschlossen.\nWelche Abfälle wohin gehören, ist von Gemeinde zu Gemeinde {{4}}. Fragen Sie im Zweifel bei uns nach.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Sammelstelle",
+            "Haltestelle",
+            "Baustelle"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "falten",
+            "fahren",
+            "fallen"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "geöffnet",
+            "geschlossen",
+            "besetzt"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "verschieden",
+            "gleich",
+            "kostenlos"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Merkblatt: Grünabfuhr",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Grünabfuhr\n\nWir holen den Grünabfall in unserer Gemeinde alle zwei Wochen am Mittwoch ab, jeweils ab 7.00 Uhr.\nIn die Grünabfuhr gehören Rasenschnitt, Laub und Zweige. Speisereste gehören nicht dazu.\nStellen Sie die Behälter am Vorabend oder bis 7.00 Uhr an den Strassenrand.\nDie genauen Daten für dieses Jahr finden Sie auf dem Abfallkalender Ihrer Gemeinde.",
+      "question": "Was dürfen Sie laut dem Merkblatt in die Grünabfuhr geben?",
+      "options": [
+        "Laub und Zweige",
+        "Speisereste aus der Küche",
+        "Alte Möbel",
+        "Karton und Papier"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Der Sprachnachweis für die Einbürgerung",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Sprachnachweis bei der Einbürgerung\n\nFür die ordentliche Einbürgerung müssen Sie eine Landessprache nachweisen: mündlich mindestens auf dem Niveau B1, schriftlich mindestens auf dem Niveau A2. Das ist die Vorgabe des Bundes; Ihr Kanton oder Ihre Gemeinde kann höhere Anforderungen stellen.\nDen Nachweis erbringen Sie mit einem anerkannten Sprachzertifikat oder einem gleichwertigen Beleg. Ein persönliches Einbürgerungsgespräch, falls in unserer Gemeinde eines stattfindet, ist kein Sprachtest und ersetzt diesen Nachweis nicht.\nErkundigen Sie sich frühzeitig, welche Belege wir anerkennen.",
+      "question": "Was ist laut dem Merkblatt richtig?",
+      "options": [
+        "Mündlich wird ein höheres Niveau verlangt als schriftlich",
+        "Das Einbürgerungsgespräch ersetzt den Sprachnachweis",
+        "Der Bund verbietet den Kantonen, mehr zu verlangen",
+        "Schriftlich wird das Niveau B1 verlangt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
