@@ -3046,5 +3046,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ansage im Kino",
+    "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herzlich willkommen im Kino. Bevor der Film beginnt, ein paar Hinweise: Bitte schalten Sie Ihre Handys aus. Essen und Getränke dürfen Sie mit in den Saal nehmen, aber räumen Sie den Abfall nach dem Film in die Behälter beim Ausgang. Der Notausgang ist rechts vorne, bitte beachten Sie das grüne Schild. Wir wünschen Ihnen viel Vergnügen.",
+      "question": "Was sollen die Gäste laut der Ansage nach dem Film tun?",
+      "options": [
+        "Den Abfall in die Behälter beim Ausgang räumen",
+        "Die Handys einschalten",
+        "Im Saal bleiben",
+        "Das Essen mit nach Hause nehmen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: ein Zimmer streichen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Weiss: Wir sollten das Wohnzimmer neu streichen. Welche Farbe magst du?\nHerr Roth: Ich hätte gern etwas Helles, vielleicht ein warmes Gelb.\nFrau Weiss: Gelb ist mir zu kräftig. Wie wäre ein helles Beige? Das passt zu allem.\nHerr Roth: Beige ist gut, das ist ruhig. Und eine Wand könnten wir etwas dunkler machen, als Akzent.\nFrau Weiss: Ja, das gefällt mir. Dann kaufen wir Beige und für eine Wand ein dunkleres Braun.\nHerr Roth: Abgemacht. Ich hole die Farbe am Samstag.",
+      "question": "Worauf einigen sich die beiden?",
+      "options": [
+        "Auf Beige und für eine Wand ein dunkleres Braun",
+        "Auf ein kräftiges Gelb",
+        "Auf Weiss überall",
+        "Sie streichen doch nicht"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: einen Handwerker um eine Offerte bitten",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Malerin: Malergeschäft Bunt, guten Tag.\nHerr Sila: Guten Tag, ich möchte mein Wohnzimmer streichen lassen und hätte gern eine Offerte.\nMalerin: Gern. Wie gross ist der Raum ungefähr?\nHerr Sila: Etwa zwanzig Quadratmeter, mit einer hohen Wand.\nMalerin: Am besten schaue ich es mir kurz an, dann kann ich Ihnen einen genauen Preis geben. Passt Ihnen Donnerstag um 17 Uhr?\nHerr Sila: Ja, das passt. Kostet die Offerte etwas?\nMalerin: Nein, die Offerte ist gratis und unverbindlich.\nHerr Sila: Sehr gut, dann bis Donnerstag.",
+      "question": "Was macht die Malerin, bevor sie einen Preis nennt?",
+      "options": [
+        "Sie schaut sich den Raum am Donnerstag an",
+        "Sie beginnt sofort mit dem Streichen",
+        "Sie schickt eine Rechnung",
+        "Sie sagt den Termin ab"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Einkaufszentrum",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, unser Einkaufszentrum schliesst in fünfzehn Minuten. Bitte beenden Sie Ihren Einkauf und gehen Sie zu den Kassen. Die Tiefgarage bleibt bis Mitternacht offen, Sie können Ihr Auto also in Ruhe holen. Wir danken für Ihren Besuch und freuen uns auf morgen.",
+      "question": "Was können die Kunden laut der Durchsage noch bis Mitternacht tun?",
+      "options": [
+        "Das Auto aus der Tiefgarage holen",
+        "Weiter einkaufen",
+        "Im Zentrum essen",
+        "An der Kasse bezahlen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Schule: Elternabend verschoben",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Schule Rosenweg. Wir müssen Ihnen leider mitteilen: Der Elternabend von morgen Abend wird verschoben, weil die Lehrerin krank ist. Der neue Termin ist nächsten Donnerstag, ebenfalls um 19 Uhr. Bitte notieren Sie sich das neue Datum. Wir bitten um Ihr Verständnis und danken Ihnen.",
+      "question": "Aussage: Laut der Nachricht findet der Elternabend wie geplant morgen statt.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

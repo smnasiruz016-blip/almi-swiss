@@ -2673,5 +2673,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ein Fest aus Ihrer Heimat beschreiben",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie ein Fest oder einen besonderen Tag, den man in Ihrer Heimat oder in Ihrer Familie feiert. Sagen Sie, wann und warum man feiert, was man macht und isst, und was Ihnen daran besonders gefällt.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt, wann und warum man feiert",
+        "Beschreibt, was man macht und isst",
+        "Sagt, was Ihnen daran gefällt",
+        "Spricht zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ihre Meinung: mehr Grün in der Stadt",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "In vielen Städten möchte man mehr Bäume und Grünflächen. Sagen Sie Ihre Meinung dazu: Finden Sie das wichtig? Nennen Sie zwei Gründe und sagen Sie, was das für die Menschen im Quartier bringen würde.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt klar Ihre Meinung",
+        "Nennt zwei Gründe",
+        "Sagt, was es den Menschen bringt",
+        "Spricht zusammenhängend und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Sich bei der Verwaltung über Lärm beschweren",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "In Ihrem Haus wird seit Wochen an den Wochenenden laut gebaut und gebohrt. Gehen Sie zur Hausverwaltung: Schildern Sie das Problem sachlich, sagen Sie, wie es Sie beeinträchtigt, und fragen Sie, was die Verwaltung tun kann.",
+      "minSeconds": 75,
+      "criteria": [
+        "Schildert das Problem sachlich (Baulärm am Wochenende)",
+        "Sagt, wie es Sie beeinträchtigt",
+        "Fragt, was die Verwaltung tun kann",
+        "Bleibt höflich, aber bestimmt",
+        "Strukturiert das Gespräch"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Im Reisebüro nach einem Angebot fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten mit Ihrer Familie eine Reise machen. Gehen Sie ins Reisebüro: Sagen Sie, wohin und wann Sie ungefähr reisen möchten, für wie viele Personen, und fragen Sie nach einem günstigen Angebot.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt, wohin und wann Sie reisen möchten",
+        "Nennt die Zahl der Personen",
+        "Fragt nach einem Angebot und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Lautstärke der Musik",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit: Ein junger Bewohner hört am Abend gern laut Musik; ein älteres Paar nebenan möchte Ruhe. Der junge Mann sagt, es sei ja noch nicht spät; das Paar findet es trotzdem zu laut. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer tragbaren Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin (z. B. Zeiten oder Lautstärke)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

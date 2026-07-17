@@ -3028,5 +3028,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Dankeskarte nach einem Besuch",
+    "prompt": "Schreiben Sie eine kurze Karte. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben das Wochenende bei Freunden in einer anderen Stadt verbracht. Schreiben Sie ihnen eine kurze Dankeskarte: Bedanken Sie sich für die Gastfreundschaft, sagen Sie, was Ihnen besonders gefallen hat, und laden Sie sie zu sich ein.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Bedankt sich für die Gastfreundschaft",
+        "Sagt, was besonders gefallen hat",
+        "Lädt die Freunde ein",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an den Kollegen: Schicht übernehmen?",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind am Samstag krank und können nicht zur Arbeit. Schreiben Sie einem Kollegen eine kurze SMS: Erklären Sie die Situation, fragen Sie höflich, ob er Ihre Schicht übernehmen kann, und bieten Sie an, sich zu revanchieren.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Erklärt die Situation (krank, Samstagsschicht)",
+        "Fragt höflich, ob er die Schicht übernimmt",
+        "Bietet an, sich zu revanchieren",
+        "Kurz und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Nachbarn: ein Fest ankündigen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie feiern am nächsten Samstag Ihren Geburtstag und rechnen mit etwas Lärm. Schreiben Sie den Nachbarn eine kurze E-Mail oder Notiz: Kündigen Sie das Fest an, sagen Sie, bis wann es ungefähr dauert, und laden Sie die Nachbarn ein, kurz vorbeizukommen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Kündigt das Fest an (Datum)",
+        "Sagt, bis wann es ungefähr dauert",
+        "Lädt die Nachbarn ein oder bittet um Verständnis",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Gefundener Schlüssel",
+    "prompt": "Schreiben Sie einen Aushang. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben vor Ihrem Haus einen Schlüsselbund gefunden. Schreiben Sie einen kurzen Aushang für das schwarze Brett: Sagen Sie, was Sie gefunden haben und wo, und wie sich die Besitzerin oder der Besitzer bei Ihnen melden kann.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt, was Sie gefunden haben (Schlüsselbund) und wo",
+        "Sagt, wie man sich meldet",
+        "Bittet darum, dass sich die richtige Person meldet",
+        "Übersichtlich und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Versicherung: einen Schaden melden",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrer Wohnung ist ein Wasserschaden entstanden: Ein Rohr ist geplatzt und hat den Boden und einen Teppich beschädigt. Schreiben Sie Ihrer Hausratversicherung eine E-Mail: Beschreiben Sie, was passiert ist, was beschädigt wurde, und fragen Sie, wie Sie den Schaden melden und was Sie jetzt tun sollen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Beschreibt, was passiert ist (Wasserschaden, geplatztes Rohr)",
+        "Nennt, was beschädigt wurde",
+        "Fragt, wie man den Schaden meldet und was zu tun ist",
+        "Bleibt sachlich und klar",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
