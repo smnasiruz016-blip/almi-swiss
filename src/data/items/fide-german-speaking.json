@@ -1977,5 +1977,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Zwei Wohnungen vergleichen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben zwei Wohnungen angeschaut. Die eine ist grösser, aber weiter weg; die andere ist kleiner, aber zentral und günstiger. Vergleichen Sie die beiden, nennen Sie Vor- und Nachteile und sagen Sie, welche Sie nehmen würden und warum.",
+      "minSeconds": 60,
+      "criteria": [
+        "Vergleicht die beiden Wohnungen (Grösse, Lage, Preis)",
+        "Nennt Vor- und Nachteile",
+        "Sagt, welche Sie nehmen würden und warum",
+        "Spricht zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ihre Meinung zum Recycling im Quartier",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "In Ihrem Quartier wird über das Recycling diskutiert: Manche finden, es gibt zu wenige Sammelstellen. Sagen Sie Ihre Meinung: Nennen Sie Ihre Position, begründen Sie sie und machen Sie einen Vorschlag, was man verbessern könnte.",
+      "minSeconds": 60,
+      "criteria": [
+        "Nennt die eigene Position klar",
+        "Begründet sie nachvollziehbar",
+        "Macht einen konkreten Vorschlag",
+        "Bleibt sachlich und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Ein Kleidungsstück umtauschen und begründen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben eine Hose gekauft, die zu Hause nicht passt. Gehen Sie in den Laden: Erklären Sie, was Sie möchten, zeigen Sie den Kassenbon, sagen Sie, warum Sie umtauschen wollen, und fragen Sie, ob es die Hose in einer anderen Grösse gibt.",
+      "minSeconds": 75,
+      "criteria": [
+        "Erklärt das Anliegen klar (umtauschen)",
+        "Verweist auf den Kassenbon",
+        "Begründet, warum (passt nicht)",
+        "Fragt nach einer anderen Grösse",
+        "Bleibt höflich, auch bei Diskussionen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Jemandem den Weg zur Post erklären",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Eine Person auf der Strasse fragt Sie nach dem Weg zur Post. Sie kennen den Weg. Erklären Sie ihn einfach: Sagen Sie, wohin die Person gehen soll (geradeaus, links, rechts) und wie lange es ungefähr dauert.",
+      "minSeconds": 45,
+      "criteria": [
+        "Erklärt den Weg einfach und klar (geradeaus, links, rechts)",
+        "Nennt ein oder zwei Orientierungspunkte",
+        "Sagt, wie lange es ungefähr dauert"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Reinigung des Treppenhauses",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit über die Reinigung des Treppenhauses: Eine Partei findet, sie mache immer mehr als die anderen; eine andere findet den Putzplan unfair. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer fairen Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine faire Lösung hin (z. B. klarer Putzplan)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

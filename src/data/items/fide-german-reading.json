@@ -2861,5 +2861,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Fahrplan: Bus Linie 5",
+    "prompt": "Lesen Sie den Fahrplan und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Fahrplan Bus Linie 5 — Richtung Spital (Montag bis Freitag)\n\nBahnhof:    7.05 | 7.35 | 8.05 | 8.35\nMarktplatz: 7.12 | 7.42 | 8.12 | 8.42\nSchule:     7.18 | 7.48 | 8.18 | 8.48\nSpital:     7.25 | 7.55 | 8.25 | 8.55\n\nAm Wochenende fährt der Bus nur jede Stunde.",
+      "question": "Frau Sane muss spätestens um 8.20 Uhr beim Spital sein. Welchen Bus nimmt sie am Bahnhof?",
+      "options": [
+        "Den Bus um 7.35 Uhr",
+        "Den Bus um 8.05 Uhr",
+        "Den Bus um 8.35 Uhr",
+        "Sie kann keinen Bus nehmen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Speisekarte im Restaurant",
+    "prompt": "Lesen Sie die Karte. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Mittagsmenü (Montag bis Freitag)\n\nSuppe des Tages ................. 6.–\nSalatteller ..................... 12.–\nTagesteller mit Fleisch ......... 18.50\nVegetarischer Tagesteller ....... 16.–\nDessert ......................... 6.50\n\nZum Mittagsmenü ist ein Getränk inbegriffen. Am Wochenende gilt die normale Karte.",
+      "question": "Aussage: Laut der Karte ist am Wochenende ein Getränk zum Mittagsmenü inbegriffen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Gebrauchsanweisung: Waschmaschine",
+    "prompt": "Lesen Sie die Anleitung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Kurzanleitung Waschmaschine\n\n1. Wäsche einfüllen, aber die Trommel nicht zu voll machen.\n2. Waschmittel in das Fach links geben.\n3. Programm wählen: 'Buntwäsche 40 Grad' für normale Kleidung.\n4. Tür schliessen und die Taste 'Start' drücken.\n\nWenn die Maschine piept, ist die Wäsche fertig. Öffnen Sie die Tür erst, wenn das Schloss frei ist.",
+      "question": "Welches Programm wählt man laut der Anleitung für normale Kleidung?",
+      "options": [
+        "Buntwäsche 40 Grad",
+        "Kochwäsche 90 Grad",
+        "Handwäsche",
+        "Schleudern"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Anzeige: Fahrrad zu verkaufen",
+    "prompt": "Lesen Sie die Anzeige und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Zu verkaufen: Fahrrad\n\nIch verkaufe ein gut erhaltenes Damenvelo, blau, mit sieben {{1}}. Es ist zwei Jahre alt und war wenig im {{2}}. Neue Reifen sind schon {{3}}.\nPreis: 180 Franken. Bei Interesse schreiben Sie mir eine {{4}} oder rufen Sie am Abend an.\nAbholung in Neudorf.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Gängen",
+            "Türen",
+            "Tagen"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Einsatz",
+            "Wasser",
+            "Buch"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "montiert",
+            "gekocht",
+            "gemalt"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Nachricht",
+            "Suppe",
+            "Reise"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Anmeldung nach dem Zuzug",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Anmeldung nach dem Zuzug\n\nWenn Sie neu in unsere Gemeinde ziehen, melden Sie sich bei den Einwohnerdiensten an. Bringen Sie einen gültigen Ausweis, den Mietvertrag und, wenn Sie aus einer anderen Gemeinde kommen, Ihre Abmeldebestätigung mit.\nBis wann Sie sich anmelden müssen, ist je nach Gemeinde und Kanton unterschiedlich. Warten Sie darum nicht zu lange und fragen Sie im Zweifel bei uns nach.\nSind Sie neu in der Schweiz, gehört auch die Krankenversicherung dazu: Sie müssen sich innerhalb von drei Monaten versichern.",
+      "question": "Was sagt das Merkblatt über die Frist für die Anmeldung?",
+      "options": [
+        "Sie ist je nach Gemeinde und Kanton unterschiedlich",
+        "Sie ist in der ganzen Schweiz gleich lang",
+        "Es gibt keine Frist",
+        "Sie beträgt immer sechs Monate"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
