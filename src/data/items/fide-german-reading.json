@@ -2001,5 +2001,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Fahrplanwechsel beim Bus",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Aushang der Verkehrsbetriebe\n\nLiebe Fahrgäste\nWegen Bauarbeiten fährt die Buslinie 12 vom 2. bis 20. September eine andere Route. Die Haltestelle 'Kirchweg' wird in dieser Zeit nicht bedient.\nBitte benutzen Sie die Ersatzhaltestelle beim Schulhaus, rund zwei Minuten zu Fuss entfernt.\nDie Fahrzeiten bleiben gleich. Danke für Ihr Verständnis.",
+      "question": "Was sollen Fahrgäste während der Bauarbeiten tun?",
+      "options": [
+        "Die Ersatzhaltestelle beim Schulhaus benutzen",
+        "An der Haltestelle Kirchweg warten",
+        "Zu Fuss ins Zentrum gehen",
+        "Eine andere Buslinie kaufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Hinweis: Paketautomat",
+    "prompt": "Lesen Sie den Hinweis. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Abholung am Paketautomaten\n\nIhr Paket liegt im Paketautomaten beim Bahnhof bereit. Sie haben einen Code per SMS bekommen.\nGeben Sie den Code am Bildschirm ein; das richtige Fach öffnet sich automatisch. Bitte holen Sie das Paket innerhalb von sieben Tagen ab. Danach geht es an den Absender zurück.\nDer Automat ist Tag und Nacht geöffnet.",
+      "question": "Aussage: Laut dem Hinweis kann man das Paket nur am Tag abholen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Brief: Impftermin für das Kind",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Kinderarztpraxis Sonnenhof\n\nGuten Tag Frau Kone\nIhr Sohn Adam ist bald zwei Jahre alt. Für diese Zeit ist eine Impfung vorgesehen.\nBitte rufen Sie uns an, um einen Termin abzumachen. Bringen Sie zum Termin das Impfbüchlein mit.\nWenn Sie Fragen zur Impfung haben, besprechen wir diese gern vorher.\n\nFreundliche Grüsse\nDas Praxisteam",
+      "question": "Was sollen die Eltern zum Termin mitbringen?",
+      "options": [
+        "Das Impfbüchlein",
+        "Eine Überweisung vom Spital",
+        "Die Krankenkassenkarte des Nachbarn",
+        "Ein ärztliches Zeugnis"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Sperrmüll-Sammlung",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Aushang der Gemeinde: Sperrmüll\n\nAm Samstag, 11. Oktober, holen wir grossen {{1}} ab: alte Möbel, Teppiche und Matratzen.\nStellen Sie die Sachen bis 7 Uhr an den {{2}}. Bitte stellen Sie nichts früher hinaus, damit der Gehweg frei bleibt.\nElektrogeräte nehmen wir {{3}} mit; diese geben Sie im Laden zurück.\nBei Fragen rufen Sie beim {{4}} an.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Abfall",
+            "Garten",
+            "Verkehr"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Strassenrand",
+            "Balkon",
+            "Estrich"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "nicht",
+            "gern",
+            "immer"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Werkhof",
+            "Spital",
+            "Bahnhof"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Krankenversicherung für die ganze Familie",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Krankenversicherung für die ganze Familie\n\nDie Grundversicherung ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch — auch für Kinder und Babys. Melden Sie jedes Familienmitglied innerhalb von drei Monaten nach der Ankunft oder nach der Geburt bei einer Krankenkasse an. Die Versicherung gilt dann rückwirkend ab dem ersten Tag.\nFür Kinder gibt es oft tiefere Prämien; Sie können für jedes Familienmitglied eine andere Kasse wählen, müssen es aber nicht.\nÜber Prämienverbilligungen entscheidet Ihr Kanton.",
+      "question": "Was ist laut dem Merkblatt richtig?",
+      "options": [
+        "Auch Kinder müssen innerhalb von drei Monaten versichert werden",
+        "Kinder brauchen keine Krankenversicherung",
+        "Alle Familienmitglieder müssen bei derselben Kasse sein",
+        "Über Prämienverbilligungen entscheidet die Krankenkasse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

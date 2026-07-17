@@ -1638,5 +1638,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Anruf: eine Reparatur nachfragen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Kundin: Guten Tag, ich habe letzte Woche meine Waschmaschine zur Reparatur gebracht. Ist sie schon fertig?\nMitarbeiter: Einen Moment, wie ist Ihr Name? … Ah ja, Frau Torres. Das Ersatzteil ist gestern gekommen, wir bauen es heute ein.\nKundin: Und wann kann ich sie abholen?\nMitarbeiter: Ab morgen Nachmittag. Wir rufen Sie an, sobald sie bereit ist.\nKundin: Gut. Wissen Sie schon, was es kostet?\nMitarbeiter: Etwa 150 Franken mit dem Teil. Den genauen Betrag sehen Sie auf der Rechnung.\nKundin: Danke, dann warte ich auf Ihren Anruf.",
+      "question": "Was sagt der Mitarbeiter über die Waschmaschine?",
+      "options": [
+        "Sie ist ab morgen Nachmittag abholbereit; er ruft an",
+        "Sie ist schon fertig und kann sofort geholt werden",
+        "Sie kann nicht repariert werden",
+        "Das Ersatzteil fehlt noch"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: einen Ausflug planen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Blanc: Am Sonntag soll das Wetter schön werden. Sollen wir mit den Kindern wandern?\nFrau Yilmaz: Gute Idee. Aber eine lange Wanderung ist mit den Kleinen schwierig.\nHerr Blanc: Stimmt. Wie wäre der See? Dort gibt es einen kurzen Weg und einen Spielplatz.\nFrau Yilmaz: Perfekt. Nehmen wir den Zug oder das Auto?\nHerr Blanc: Den Zug, dann müssen wir nicht parkieren. Treffen wir uns um neun am Bahnhof?\nFrau Yilmaz: Abgemacht. Ich bringe etwas zu essen mit.",
+      "question": "Was haben die beiden für Sonntag geplant?",
+      "options": [
+        "Mit dem Zug an den See, ein kurzer Weg mit Spielplatz",
+        "Eine lange Wanderung in den Bergen",
+        "Mit dem Auto in die Stadt",
+        "Zu Hause bleiben wegen des Wetters"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: eine Bestellung ändern",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Mitarbeiterin: Möbelhaus am Ring, guten Tag.\nHerr Ferreira: Guten Tag, ich habe gestern ein Regal bestellt, möchte aber die Farbe ändern — statt Weiss lieber Braun.\nMitarbeiterin: Kein Problem, wenn die Bestellung noch nicht versandt ist. Ihre Bestellnummer?\nHerr Ferreira: Sie ist 4457.\nMitarbeiterin: Danke … ja, sie ist noch hier. Ich ändere die Farbe auf Braun. Der Preis bleibt gleich. Die Lieferung dauert etwa eine Woche.\nHerr Ferreira: Sehr gut, vielen Dank.",
+      "question": "Was ändert die Mitarbeiterin?",
+      "options": [
+        "Die Farbe des Regals von Weiss auf Braun",
+        "Die Lieferadresse",
+        "Den Preis der Bestellung",
+        "Die Bestellnummer"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Kaufhaus: ein Kind wird gesucht",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, wir haben an der Information ein kleines Mädchen. Sie heisst Lea und ist etwa vier Jahre alt und sucht ihre Mama. Die Mutter von Lea kommt bitte zur Information im Erdgeschoss beim Haupteingang. Vielen Dank.",
+      "question": "Was soll Leas Mutter tun?",
+      "options": [
+        "Zur Information im Erdgeschoss kommen",
+        "Das Kaufhaus verlassen",
+        "An der Kasse warten",
+        "Die Polizei rufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht vom Kollegen: Mittagessen",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Hallo, hier ist Tom. Du, gehen wir heute zusammen essen? Ich habe um Viertel nach zwölf Pause. Sollen wir uns am Eingang treffen und zum Imbiss um die Ecke gehen? Schreib mir kurz, ob das passt. Bis später.",
+      "question": "Aussage: Laut der Nachricht will Tom sich um 12.15 Uhr am Eingang treffen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

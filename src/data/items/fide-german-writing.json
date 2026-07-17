@@ -1587,5 +1587,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an eine Freundin: später treffen",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind mit Ihrer Freundin Sara um 15 Uhr verabredet, kommen aber wegen der Arbeit etwa eine halbe Stunde später. Schreiben Sie ihr eine kurze SMS: Sagen Sie Bescheid, entschuldigen Sie sich und schlagen Sie vor, wo Sie sich treffen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt, dass Sie später kommen, und um wie viel",
+        "Entschuldigt sich kurz",
+        "Schlägt einen Treffpunkt vor",
+        "Freundlicher, kurzer Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an den Nachbarn: Werkzeug leihen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten ein Bild aufhängen und brauchen eine Bohrmaschine. Schreiben Sie Ihrem Nachbarn, Herrn Sutter, eine kurze E-Mail: Fragen Sie höflich, ob Sie seine Bohrmaschine kurz ausleihen dürfen, und sagen Sie, wann Sie sie zurückbringen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt den Grund (Bild aufhängen, Bohrmaschine)",
+        "Fragt höflich um das Ausleihen",
+        "Sagt, wann Sie sie zurückbringen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Praxis: Termin bestätigen und Frage",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben von Ihrer Arztpraxis einen Termin für nächsten Montag bekommen. Schreiben Sie eine kurze E-Mail: Bestätigen Sie den Termin und fragen Sie, ob Sie nüchtern kommen müssen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Bestätigt den Termin klar (Tag/Zeit)",
+        "Stellt die Frage (nüchtern?)",
+        "Bittet um eine kurze Rückmeldung",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Möbel zu verschenken",
+    "prompt": "Schreiben Sie einen Aushang. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben ein Sofa und einen kleinen Tisch, die Sie nicht mehr brauchen und verschenken möchten. Schreiben Sie einen kurzen Aushang für das schwarze Brett: Beschreiben Sie die Möbel, sagen Sie, dass sie gratis sind, und wie man Sie erreicht.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Beschreibt die Möbel kurz (Sofa, Tisch, Zustand)",
+        "Sagt klar, dass sie gratis sind",
+        "Gibt an, wie man Sie erreicht",
+        "Übersichtlich und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Gemeinde: einen Saal für ein Fest mieten",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie möchten für den Geburtstag Ihres Kindes einen kleinen Saal im Gemeindehaus mieten. Schreiben Sie der Gemeinde eine E-Mail: Nennen Sie den Anlass, das gewünschte Datum und die Zahl der Gäste, und fragen Sie nach den Kosten und den Bedingungen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Nennt den Anlass und das gewünschte Datum",
+        "Nennt die ungefähre Zahl der Gäste",
+        "Fragt nach Kosten und Bedingungen",
+        "Bittet um eine Rückmeldung",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

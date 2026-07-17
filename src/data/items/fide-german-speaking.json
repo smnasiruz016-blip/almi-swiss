@@ -1397,5 +1397,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Sich telefonisch nach einer Stelle erkundigen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben ein Stelleninserat für eine Aushilfe im Detailhandel gesehen. Rufen Sie an: Stellen Sie sich vor, sagen Sie, worauf Sie sich beziehen, fragen Sie nach den Arbeitszeiten und wie Sie sich bewerben können.",
+      "minSeconds": 60,
+      "criteria": [
+        "Stellt sich vor und nennt das Inserat",
+        "Fragt nach den Arbeitszeiten",
+        "Fragt, wie man sich bewirbt",
+        "Höfliche Telefonsprache und Rückfragen, wenn nötig"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Einen Termin absagen und neu vereinbaren",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben morgen einen Termin beim Coiffeur, können aber nicht kommen. Rufen Sie an: Sagen Sie den Termin höflich ab, nennen Sie den Grund und vereinbaren Sie einen neuen Termin.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt den Termin höflich ab",
+        "Nennt kurz den Grund",
+        "Vereinbart einen neuen Termin",
+        "Bleibt freundlich und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Der Lehrperson die Situation des Kindes erklären",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Ihr Kind ist neu an der Schule und noch schüchtern. Sprechen Sie mit der Lehrperson: Erklären Sie die Situation, sagen Sie, was Ihrem Kind hilft, und fragen Sie, wie Sie zusammenarbeiten können.",
+      "minSeconds": 75,
+      "criteria": [
+        "Erklärt die Situation des Kindes klar",
+        "Sagt, was dem Kind hilft",
+        "Fragt nach Zusammenarbeit",
+        "Bleibt höflich und offen",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Im Laden nach einer anderen Grösse fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten eine Jacke kaufen, aber Ihre Grösse ist nicht im Regal. Fragen Sie die Verkäuferin: Sagen Sie, welche Jacke und welche Grösse Sie möchten, und fragen Sie, ob es sie noch gibt oder wann sie wieder da ist.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, welche Jacke und Grösse Sie suchen",
+        "Fragt, ob es sie noch gibt",
+        "Fragt bei Bedarf nach und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Lautstärke im Treppenhaus",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Zwei Nachbarn streiten: Der eine hört, dass die Kinder des anderen im Treppenhaus laut spielen und rennen; der andere findet, Kinder müssten sich auch bewegen dürfen. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, mit der beide leben können, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
