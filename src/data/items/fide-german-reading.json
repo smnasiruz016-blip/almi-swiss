@@ -1313,5 +1313,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Rechnung vom Zahnarzt",
+    "prompt": "Lesen Sie die Rechnung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Zahnarztpraxis am Lindenplatz – Rechnung\n\nGuten Tag Herr Nguyen\nFür die Behandlung vom 3. April stellen wir Ihnen 240 Franken in Rechnung.\nBitte bezahlen Sie den Betrag innerhalb von 30 Tagen.\nWenn Ihnen das schwerfällt, melden Sie sich bei uns. Eine Zahlung in Raten ist nach Absprache möglich.\n\nFreundliche Grüsse\nDas Praxisteam",
+      "question": "Was können Sie tun, wenn Sie den Betrag nicht auf einmal bezahlen können?",
+      "options": [
+        "Sich bei der Praxis melden und Raten vereinbaren",
+        "Die Rechnung ohne Antwort liegen lassen",
+        "Nur die Hälfte bezahlen und nichts sagen",
+        "Einen neuen Termin verlangen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Lift ausser Betrieb",
+    "prompt": "Lesen Sie den Aushang. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Dienstag, 8. Oktober, wird der Lift gewartet. Von 8.00 bis etwa 12.00 Uhr steht er nicht zur Verfügung.\nBitte benutzen Sie in dieser Zeit das Treppenhaus. Ab dem Mittag fährt der Lift wieder normal.\nDanke für Ihr Verständnis.\n\nDie Hausverwaltung",
+      "question": "Aussage: Laut dem Aushang fällt der Lift den ganzen Dienstag aus.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Elternbrief: Klassenausflug",
+    "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Eltern\n\nAm Freitag, 16. Mai, macht die Klasse 4b einen Ausflug in den Tierpark.\nWir treffen uns um 8.15 Uhr beim Schulhaus und sind um 16.00 Uhr zurück.\nBitte geben Sie Ihrem Kind ein Znüni, ein Mittagessen und eine Regenjacke mit. Der Eintritt ist bereits bezahlt.\nBitte unterschreiben Sie den Talon und geben Sie ihn bis Mittwoch zurück.\n\nFreundliche Grüsse\nDie Klassenlehrerin",
+      "question": "Was müssen die Eltern bis Mittwoch tun?",
+      "options": [
+        "Den Talon unterschreiben und zurückgeben",
+        "Den Eintritt bezahlen",
+        "Ein Znüni in die Schule bringen",
+        "Das Kind um 8.15 Uhr abholen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Merkblatt: Die Grundversicherung",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Merkblatt: Die Grundversicherung\n\nDie Grundversicherung der Krankenkasse ist für alle Personen mit Wohnsitz in der Schweiz {{1}}. Sie müssen sich innerhalb von drei {{2}} nach Ihrer Ankunft versichern.\nWelche Kasse Sie {{3}}, ist Ihnen überlassen. Die Leistungen der Grundversicherung sind bei allen Kassen {{4}}.\nBei Fragen hilft Ihnen Ihre Gemeinde oder Ihre Kasse weiter.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "obligatorisch",
+            "freiwillig",
+            "kostenlos"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Monaten",
+            "Tagen",
+            "Jahren"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "wählen",
+            "verlieren",
+            "vergessen"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "gleich",
+            "verschieden",
+            "teurer"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Auszug aus der Hausordnung: Ruhezeiten",
+    "prompt": "Lesen Sie den Auszug und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Auszug aus der Hausordnung\n\nDamit alle im Haus gut zusammenleben, gelten folgende Ruhezeiten: nachts von 22.00 bis 6.00 Uhr sowie über Mittag von 12.00 bis 13.00 Uhr. An Sonn- und Feiertagen gilt Ruhe den ganzen Tag.\nLärmige Arbeiten wie Bohren oder Staubsaugen sind ausserhalb dieser Zeiten erlaubt. Wer ein Fest plant, informiert die Nachbarn vorher und nimmt Rücksicht.\nDie Waschküche steht bis 21.00 Uhr zur Verfügung; danach ist sie aus Rücksicht auf die Nachbarn geschlossen.",
+      "question": "Wann darf man laut der Hausordnung staubsaugen?",
+      "options": [
+        "Am Samstag um 15.00 Uhr",
+        "Am Sonntag um 10.00 Uhr",
+        "Um 12.30 Uhr über Mittag",
+        "Um 22.30 Uhr in der Nacht"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

@@ -1063,5 +1063,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Notiz an den Hauswart: Heizung",
+    "prompt": "Schreiben Sie eine kurze Notiz. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrer Wohnung wird die Heizung nicht mehr richtig warm. Schreiben Sie dem Hauswart eine kurze Notiz: Beschreiben Sie das Problem und bitten Sie ihn, vorbeizukommen. Geben Sie an, wann Sie zu Hause sind.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt das Problem klar (Heizung wird nicht warm)",
+        "Bittet den Hauswart, vorbeizukommen",
+        "Nennt, wann Sie zu Hause erreichbar sind",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht an den Teamleiter: später zur Schicht",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie kommen heute wegen einer Zugverspätung etwa zwanzig Minuten zu spät zur Schicht. Schreiben Sie Ihrem Teamleiter eine kurze Nachricht: Entschuldigen Sie sich, nennen Sie den Grund und sagen Sie, wann Sie da sind.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Entschuldigt sich und nennt den Grund (Zugverspätung)",
+        "Sagt, um wie viel später Sie kommen",
+        "Bietet an, die Zeit nachzuholen oder etwas zu übernehmen",
+        "Passende Anrede und kurzer Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Krankenkasse: Adressänderung",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind umgezogen. Schreiben Sie Ihrer Krankenkasse eine kurze E-Mail und teilen Sie Ihre neue Adresse mit. Bitten Sie darum, die Post künftig an die neue Adresse zu schicken.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt den Grund (Umzug) und die neue Adresse",
+        "Gibt die nötigen Angaben an (Name, Versichertennummer, falls bekannt)",
+        "Bittet, die Post an die neue Adresse zu senden",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Anmeldung: Kind für den Mittagstisch",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Die Schule bietet einen Mittagstisch an. Schreiben Sie der Schule eine kurze E-Mail und melden Sie Ihr Kind an. Sagen Sie, an welchen Tagen Ihr Kind teilnehmen soll, und fragen Sie nach den Kosten.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Meldet das Kind klar für den Mittagstisch an",
+        "Nennt die gewünschten Tage",
+        "Fragt nach den Kosten",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Beschwerde an die Hausverwaltung: wiederholter Lärm",
+    "prompt": "Schreiben Sie eine sachliche Beschwerde. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Seit mehreren Wochen gibt es in der Nachbarwohnung fast jede Nacht laute Musik. Sie haben schon einmal freundlich mit den Nachbarn gesprochen, ohne Erfolg. Schreiben Sie der Hausverwaltung eine sachliche Beschwerde: Schildern Sie das Problem, was Sie schon versucht haben, und was Sie erwarten.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Schildert das Problem konkret (wiederholter nächtlicher Lärm, Zeitraum)",
+        "Nennt, was Sie selbst schon unternommen haben",
+        "Formuliert klar, was Sie von der Verwaltung erwarten",
+        "Bleibt durchgehend sachlich, ohne zu beleidigen",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
