@@ -1126,5 +1126,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Telefonische Auskunft zur Prämienverbilligung",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag. Sie fragen wegen der Prämienverbilligung. Das läuft nicht über uns, sondern über Ihren Kanton. Ob Sie Anspruch haben, hängt vom Einkommen ab, und die genauen Regeln sind von Kanton zu Kanton verschieden. Sie stellen den Antrag bei der zuständigen kantonalen Stelle; in vielen Kantonen bekommen Sie ein Formular automatisch zugeschickt, in anderen müssen Sie sich selbst melden. Erkundigen Sie sich darum direkt bei Ihrem Kanton, was bei Ihnen gilt.",
+      "question": "Was ist laut der Auskunft richtig?",
+      "options": [
+        "Die Prämienverbilligung regelt der Kanton, nicht die Krankenkasse",
+        "Alle Kantone haben dieselben Regeln",
+        "Jede Person bekommt die Verbilligung automatisch",
+        "Man beantragt sie bei der Krankenkasse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Zwei Nachbarn über die Nebenkosten",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Frei: Du, hast du die Nebenkostenabrechnung schon angeschaut? Ich soll nachzahlen, fast dreihundert Franken.\nFrau Abbas: Ja, bei mir ist es ähnlich. Aber schau die Abrechnung genau an – es steht ja aufgeschlüsselt, wofür: Heizung, Wasser, Hauswart.\nHerr Frei: Stimmt. Bei der Heizung ist es diesen Winter mehr geworden.\nFrau Abbas: Genau. Wenn dir etwas nicht klar ist, kannst du bei der Verwaltung nachfragen und die Belege einsehen.\nHerr Frei: Gut, dann frage ich nach, bevor ich einfach zahle.",
+      "question": "Was rät Frau Abbas Herrn Frei?",
+      "options": [
+        "Die Abrechnung prüfen und bei Bedarf die Belege einsehen",
+        "Sofort und ohne Nachfrage bezahlen",
+        "Die Nachzahlung einfach nicht zu bezahlen",
+        "Die Wohnung zu kündigen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: einen Termin beim Amt verschieben",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sachbearbeiterin: Einwohnerdienste, guten Tag.\nHerr Silva: Guten Tag, ich habe morgen um 10 Uhr einen Termin, aber ich muss arbeiten. Kann ich ihn verschieben?\nSachbearbeiterin: Kein Problem. Passt Ihnen Donnerstag um 14 Uhr?\nHerr Silva: Donnerstag ist gut. Muss ich etwas mitbringen?\nSachbearbeiterin: Ja, Ihren Ausweis und den Brief, den wir Ihnen geschickt haben. Ich trage Sie also für Donnerstag 14 Uhr ein.\nHerr Silva: Danke, bis dann.",
+      "question": "Was ist am Ende des Gesprächs abgemacht?",
+      "options": [
+        "Ein neuer Termin am Donnerstag um 14 Uhr",
+        "Der Termin am nächsten Tag um 10 Uhr bleibt",
+        "Herr Silva braucht keine Unterlagen",
+        "Der Termin wird ganz abgesagt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Tram",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Nächster Halt: Bahnhofplatz. Achtung, wegen einer Baustelle fährt das Tram heute nicht bis zur Endstation. Bitte steigen Sie am Bahnhofplatz aus. Von dort fährt ein Ersatzbus zur Klinik und zum Zoo. Wir danken für Ihr Verständnis.",
+      "question": "Was sollen die Fahrgäste am Bahnhofplatz tun?",
+      "options": [
+        "Aussteigen und den Ersatzbus nehmen",
+        "Im Tram sitzen bleiben",
+        "Zu Fuss zur Endstation gehen",
+        "Auf das nächste Tram warten"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht aus der Apotheke",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag Frau Costa, hier ist die Apotheke im Zentrum. Ihr Medikament ist da; Sie können es abholen. Bitte bringen Sie das Rezept mit. Wir haben von Montag bis Freitag bis 18.30 Uhr offen, am Samstag bis 16.00 Uhr. Einen schönen Tag.",
+      "question": "Aussage: Laut der Nachricht muss Frau Costa das Rezept mitbringen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

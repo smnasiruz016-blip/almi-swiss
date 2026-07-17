@@ -933,5 +933,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über die Nebenkostenabrechnung nachfragen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben die Nebenkostenabrechnung Ihrer Wohnung erhalten und sollen nachzahlen. Etwas ist Ihnen unklar. Rufen Sie die Hausverwaltung an: Erklären Sie Ihr Anliegen, fragen Sie höflich nach, wofür die Kosten sind, und bitten Sie darum, die Belege einzusehen.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt das Anliegen klar (Frage zur Nebenkostenabrechnung)",
+        "Fragt konkret nach den einzelnen Positionen",
+        "Bittet höflich darum, die Belege einzusehen",
+        "Angemessene, höfliche Telefonsprache"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Einen Nachbarn um einen Gefallen bitten",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie fahren zwei Wochen in die Ferien. Bitten Sie Ihren Nachbarn, während dieser Zeit die Pflanzen zu giessen und den Briefkasten zu leeren. Erklären Sie, was zu tun ist, und bieten Sie an, sich zu revanchieren.",
+      "minSeconds": 60,
+      "criteria": [
+        "Bringt die Bitte klar und höflich vor",
+        "Erklärt genau, was zu tun ist (Pflanzen, Briefkasten)",
+        "Nennt den Zeitraum",
+        "Bietet an, sich zu revanchieren"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Einen Fehler in einem Brief des Amtes klären",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben einen Brief von einem Amt bekommen. Darin steht ein falsches Datum oder ein falscher Betrag. Rufen Sie an: Erklären Sie ruhig, was nicht stimmt, belegen Sie es mit Ihren Angaben und fragen Sie, wie der Fehler korrigiert wird.",
+      "minSeconds": 75,
+      "criteria": [
+        "Beschreibt den Fehler klar und ruhig",
+        "Belegt die eigene Sicht mit konkreten Angaben",
+        "Fragt, wie und bis wann der Fehler korrigiert wird",
+        "Bleibt sachlich und höflich, auch wenn es dauert",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nach den Öffnungszeiten fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten am Schalter der Gemeinde etwas erledigen, wissen aber die Öffnungszeiten nicht. Rufen Sie an: Begrüssen Sie, fragen Sie nach den Öffnungszeiten und ob Sie einen Termin brauchen. Bedanken Sie sich.",
+      "minSeconds": 45,
+      "criteria": [
+        "Begrüsst und bringt das Anliegen einfach vor",
+        "Fragt klar nach den Öffnungszeiten",
+        "Fragt, ob ein Termin nötig ist, und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit um den Veloraum",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit um den Veloraum: Er ist zu voll, und zwei Parteien beschuldigen sich gegenseitig, zu viele Velos abzustellen. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer gemeinsamen Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Lenkt das Gespräch auf eine gemeinsame Lösung (z. B. eine Regel)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
