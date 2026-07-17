@@ -3893,5 +3893,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Zugfahrplan: nach Zürich",
+    "prompt": "Lesen Sie den Fahrplan und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Zugverbindungen Neudorf – Zürich (Montag bis Freitag)\n\nAbfahrt Neudorf: 6.42 | 7.12 | 7.42 | 8.12\nAnkunft Zürich:  7.20 | 7.50 | 8.20 | 8.50\n\nDie Züge fahren von Gleis 1. Am Wochenende gilt ein anderer Fahrplan.",
+      "question": "Herr Ali muss spätestens um 8 Uhr in Zürich sein. Welchen Zug nimmt er in Neudorf?",
+      "options": [
+        "Den Zug um 7.12 Uhr",
+        "Den Zug um 7.42 Uhr",
+        "Den Zug um 8.12 Uhr",
+        "Er kann keinen Zug nehmen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Bewertung eines Restaurants",
+    "prompt": "Lesen Sie die Bewertung. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Bewertung ****\n\nWir waren am Samstag im Restaurant Löwen. Das Essen war sehr gut und nicht zu teuer. Besonders die Suppe hat uns geschmeckt.\nDer Service war freundlich, aber wir mussten lange auf das Essen warten, weil es voll war.\nTrotzdem kommen wir gern wieder. Am besten reserviert man vorher einen Tisch.",
+      "question": "Aussage: Laut der Bewertung war das Essen schlecht.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Anleitung: den Kaffeeautomaten benutzen",
+    "prompt": "Lesen Sie die Anleitung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "So machen Sie einen Kaffee\n\n1. Stellen Sie eine Tasse unter den Auslauf.\n2. Wählen Sie am Knopf, ob Sie einen kleinen oder grossen Kaffee möchten.\n3. Drücken Sie 'Start'. Der Kaffee läuft automatisch in die Tasse.\n4. Warten Sie, bis der Automat piept, und nehmen Sie die Tasse heraus.\n\nIst der Wasserbehälter leer, leuchtet ein rotes Licht. Füllen Sie dann Wasser nach.",
+      "question": "Was bedeutet es laut der Anleitung, wenn ein rotes Licht leuchtet?",
+      "options": [
+        "Der Wasserbehälter ist leer und muss aufgefüllt werden",
+        "Der Kaffee ist fertig",
+        "Der Automat ist kaputt",
+        "Man muss bezahlen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Nachbarschaftshilfe",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Nachbarschaftshilfe im Quartier\n\nBrauchen Sie manchmal {{1}}? Zum Beispiel beim Einkaufen, beim Ausfüllen eines Formulars oder wenn Sie kurz jemanden zum Reden brauchen?\nIn unserem Quartier gibt es Freiwillige, die gern {{2}}. Die Hilfe ist {{3}} und unkompliziert.\nMelden Sie sich im Quartiertreff oder rufen Sie an. Auch wer selber {{4}} möchte, ist herzlich willkommen.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Hilfe",
+            "Geld",
+            "Streit"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "helfen",
+            "schlafen",
+            "verkaufen"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "gratis",
+            "teuer",
+            "verboten"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "helfen",
+            "zahlen",
+            "fahren"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Was Sie für das Einbürgerungsgesuch brauchen",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Unterlagen für das Einbürgerungsgesuch\n\nFür ein Einbürgerungsgesuch brauchen Sie verschiedene Unterlagen. Dazu gehören in der Regel ein Ausweis, Angaben zu Ihrem Aufenthalt und ein Sprachnachweis (mündlich B1, schriftlich A2).\nWelche Unterlagen Sie genau einreichen müssen, ist nicht überall gleich — das legt Ihre Gemeinde im Rahmen des kantonalen Rechts fest.\nFragen Sie darum bei uns nach der genauen Liste, bevor Sie das Gesuch einreichen. So vermeiden Sie, dass etwas fehlt und das Verfahren länger dauert.",
+      "question": "Was sagt das Merkblatt über die Liste der Unterlagen?",
+      "options": [
+        "Sie ist nicht überall gleich; die Gemeinde legt sie fest",
+        "Sie ist in der ganzen Schweiz genau gleich",
+        "Man braucht gar keine Unterlagen",
+        "Nur die Krankenkasse entscheidet darüber"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
