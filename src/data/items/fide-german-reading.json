@@ -3205,5 +3205,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Preisliste: Coiffeur",
+    "prompt": "Lesen Sie die Preisliste und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Preisliste — Coiffeur Salon Welle\n\nHaare schneiden (Damen) ........ 55.–\nHaare schneiden (Herren) ....... 38.–\nKinder bis 12 Jahre ............ 25.–\nWaschen und Föhnen ............. 30.–\nFärben ......................... ab 70.–\n\nTermine nach Vereinbarung. Kinder am Mittwochnachmittag ohne Voranmeldung.",
+      "question": "Was kostet der Haarschnitt für ein zehnjähriges Kind?",
+      "options": [
+        "25 Franken",
+        "38 Franken",
+        "55 Franken",
+        "70 Franken"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Veranstaltungen im Quartier",
+    "prompt": "Lesen Sie den Kalender. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Veranstaltungen im Quartier — Juni\n\nSa 7. Juni: Flohmarkt beim Quartiertreff, 9–15 Uhr\nMi 11. Juni: Vortrag 'Gesund essen', 19 Uhr\nSa 21. Juni: Kinderfest im Park, 14 Uhr\nFr 27. Juni: Konzert im Saal, 20 Uhr\n\nAlle Veranstaltungen sind gratis. Bei schlechtem Wetter finden die Anlässe im Freien im Saal statt.",
+      "question": "Aussage: Laut dem Kalender kostet das Konzert am 27. Juni Eintritt.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Hinweise auf der Packung",
+    "prompt": "Lesen Sie die Hinweise und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Hinweise\n\nErwachsene und Kinder ab 12 Jahren: dreimal täglich eine Tablette mit etwas Wasser einnehmen, am besten nach dem Essen.\nNehmen Sie nicht mehr als drei Tabletten pro Tag. Wenn die Beschwerden nach drei Tagen nicht besser sind, gehen Sie zum Arzt.\nFür Kinder unter 12 Jahren fragen Sie in der Apotheke.",
+      "question": "Was soll man laut den Hinweisen tun, wenn es nach drei Tagen nicht besser ist?",
+      "options": [
+        "Zum Arzt gehen",
+        "Mehr Tabletten nehmen",
+        "Die Tabletten wegwerfen",
+        "Nichts tun"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail: Einladung zum Elterncafé",
+    "prompt": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Liebe Eltern\n\nWir laden Sie herzlich zum {{1}} ein. Jeden ersten Freitag im Monat treffen wir uns im Schulhaus zu Kaffee und {{2}}. Sie können andere Eltern {{3}} und Fragen zur Schule stellen.\nDas nächste Treffen ist am 4. Oktober um 8.30 Uhr. Eine Anmeldung ist nicht {{4}}. Kommen Sie einfach vorbei!\n\nFreundliche Grüsse\nDie Schule",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Elterncafé",
+            "Bahnhof",
+            "Spital"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Kuchen",
+            "Autos",
+            "Steuern"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "kennenlernen",
+            "verkaufen",
+            "vergessen"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "nötig",
+            "gratis",
+            "offen"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Sprachen in der Schweiz",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Sprachen in der Schweiz\n\nDie Schweiz hat vier Landessprachen: Deutsch, Französisch, Italienisch und Rätoromanisch. Welche Sprache im Alltag und bei den Behörden gilt, hängt vom Kanton und von der Gemeinde ab.\nIn unserer Gemeinde ist die Amtssprache Deutsch. Briefe der Behörden, Formulare und Kurse sind auf Deutsch. Im Alltag hören Sie oft Dialekt; die Behördensprache aber ist Standarddeutsch.\nWenn Sie in einen anderen Kanton ziehen, kann dort eine andere Amtssprache gelten. Erkundigen Sie sich, was am neuen Wohnort gilt.",
+      "question": "Wovon hängt laut dem Merkblatt die Amtssprache ab?",
+      "options": [
+        "Vom Kanton und von der Gemeinde",
+        "Vom Alter der Person",
+        "Von der Krankenkasse",
+        "Sie ist überall gleich"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
