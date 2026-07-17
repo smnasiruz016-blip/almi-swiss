@@ -1,7 +1,11 @@
 // Engine selftests — run with `npm run selftest:engine` (tsx).
 // Proves the per-skill readiness bands and objective grading are correct.
 
-import { gradeObjective, readinessFromPct, skillReadout, aggregateReadout, levelRole, goalReadout } from "./grading";
+import { gradeObjective, readinessFromPct, skillReadout, aggregateReadout, goalReadout } from "./grading";
+// levelRole is the SHARED rule (almi-data). Re-tested here on purpose: this repo's
+// goalReadout is built on it, and the assertions below are what that composition
+// promises the learner.
+import { levelRole } from "./types";
 
 let pass = 0;
 let fail = 0;

@@ -13,31 +13,18 @@
 
 import { READY_PCT, BORDERLINE_PCT } from "./registry";
 import type { ObjectiveAnswer, SwissTaskType, SwissSkill, CefrLevel } from "./types";
-import { isObjectiveTask, compareCefr } from "./types";
+import { isObjectiveTask, splitByLevel } from "./types";
 
 export type Readiness = "CLEAR" | "BORDERLINE" | "BELOW";
 
-/** Where a task sits relative to the module's goal level.
- *
- *  AT_GOAL       — the only tasks a goal-readiness band may be computed from.
- *  ABOVE_GOAL    — harder than the goal (reading #14 at B1 vs an A2 goal). Getting it
- *                  wrong says nothing about A2 readiness, so it is labelled and left
- *                  OUT of the band. Keeping it in punished people on a bar they never
- *                  had to clear: naturalisation asks A2 written, not B1.
- *  FOUNDATIONAL  — below the goal. Useful practice, but passing it is NOT evidence of
- *                  the goal, so it is also out of the band — reported as its own thing
- *                  rather than quietly inflating the number.
- *  UNDECLARED    — the task states no level. NOT treated as AT_GOAL: an unstated level
- *                  is unknown, and counting it would let a silent omission decide a
- *                  learner's band. Surfaced so it gets fixed, never absorbed. */
-export type LevelRole = "AT_GOAL" | "ABOVE_GOAL" | "FOUNDATIONAL" | "UNDECLARED";
-
-export function levelRole(taskCefr: CefrLevel | undefined, goal: CefrLevel | undefined): LevelRole {
-  if (!goal || !taskCefr) return "UNDECLARED";
-  const d = compareCefr(taskCefr, goal);
-  if (d === 0) return "AT_GOAL";
-  return d > 0 ? "ABOVE_GOAL" : "FOUNDATIONAL";
-}
+// The level-crossing rule (levelRole / splitByLevel) is SHARED — see @/lib/ch/types,
+// which re-exports it from @smnasiruz016-blip/almi-data. It is deliberately not
+// reimplemented here: all seven language forks carried the same bug precisely because
+// each held its own copy, and the next fork would inherit whichever copy it cloned.
+//
+// What stays local is what is genuinely ours: the BANDS (READY_PCT / BORDERLINE_PCT)
+// and what we say to the learner. The shared module decides what may COUNT toward the
+// goal; this file decides what "on track" MEANS.
 
 export interface ObjectiveResult {
   points: number;
@@ -136,31 +123,20 @@ export function goalReadout(
   goal: CefrLevel | undefined,
   scored: GoalScored[],
 ): GoalReadout {
-  const bucket = { count: 0, points: 0, maxPoints: 0 };
-  const at = { ...bucket };
-  const above = { ...bucket };
-  const found = { ...bucket };
-  let undeclared = 0;
-
-  for (const s of scored) {
-    switch (levelRole(s.cefr, goal)) {
-      case "AT_GOAL":
-        at.count++; at.points += s.points; at.maxPoints += s.maxPoints; break;
-      case "ABOVE_GOAL":
-        above.count++; above.points += s.points; above.maxPoints += s.maxPoints; break;
-      case "FOUNDATIONAL":
-        found.count++; found.points += s.points; found.maxPoints += s.maxPoints; break;
-      default:
-        undeclared++;
-    }
-  }
-
+  const s = splitByLevel(scored, goal);
   return {
     goal,
-    atGoal: at.count > 0 ? skillReadout(skill, at.points, at.maxPoints) : null,
-    above: { count: above.count, points: above.points, maxPoints: above.maxPoints },
-    foundational: { count: found.count, points: found.points, maxPoints: found.maxPoints },
-    undeclared,
+    // No at-goal tasks → NO band. Not 0%: with nothing at the goal there is nothing
+    // honest to say about the goal, and 0% would be a lie about the learner rather
+    // than a fact about the session.
+    atGoal: s.atGoal.count > 0 ? skillReadout(skill, s.atGoal.points, s.atGoal.maxPoints) : null,
+    above: { count: s.above.count, points: s.above.points, maxPoints: s.above.maxPoints },
+    foundational: {
+      count: s.foundational.count,
+      points: s.foundational.points,
+      maxPoints: s.foundational.maxPoints,
+    },
+    undeclared: s.undeclared,
   };
 }
 
