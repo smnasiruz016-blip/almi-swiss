@@ -2557,5 +2557,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über Ihre erste Zeit in der Schweiz erzählen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von Ihrer ersten Zeit in der Schweiz: Was war neu oder ungewohnt für Sie? Was war schwierig, was hat Ihnen geholfen? Und was hat sich seither verändert?",
+      "minSeconds": 60,
+      "criteria": [
+        "Erzählt zusammenhängend von der ersten Zeit",
+        "Nennt, was neu oder schwierig war",
+        "Sagt, was geholfen hat",
+        "Sagt, was sich verändert hat"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ihre Meinung: Handys in der Schule",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "An manchen Schulen sind Handys verboten. Sagen Sie Ihre Meinung dazu: Finden Sie ein Verbot gut oder nicht? Nennen Sie zwei Gründe und gehen Sie auf ein Gegenargument ein.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt klar, ob Sie ein Verbot gut finden",
+        "Nennt zwei Gründe",
+        "Geht auf ein Gegenargument ein",
+        "Spricht zusammenhängend und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Mit dem Vermieter über eine Reparatur sprechen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "In Ihrer Wohnung ist die Küche seit Wochen ein Problem: Der Backofen funktioniert nicht. Der Vermieter reagiert nicht richtig. Sprechen Sie mit ihm: Schildern Sie das Problem, sagen Sie, was Sie schon versucht haben, und bestehen Sie höflich, aber bestimmt auf einer baldigen Reparatur.",
+      "minSeconds": 75,
+      "criteria": [
+        "Schildert das Problem klar (Backofen defekt, seit wann)",
+        "Sagt, was Sie schon versucht haben",
+        "Besteht höflich, aber bestimmt auf einer Reparatur",
+        "Schlägt einen konkreten nächsten Schritt vor",
+        "Bleibt sachlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nach den Öffnungszeiten der Bibliothek fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten in die Bibliothek gehen, wissen aber die Öffnungszeiten nicht. Rufen Sie an: Begrüssen Sie, fragen Sie nach den Öffnungszeiten und ob man einen Ausweis braucht, um Bücher auszuleihen. Bedanken Sie sich.",
+      "minSeconds": 45,
+      "criteria": [
+        "Begrüsst und fragt nach den Öffnungszeiten",
+        "Fragt, ob man einen Ausweis braucht",
+        "Bedankt sich höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über das Rauchen auf dem Balkon",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit: Ein Bewohner raucht auf dem Balkon, und der Rauch zieht in die Wohnung darüber, wo eine Familie mit einem kleinen Kind wohnt. Der Raucher sagt, es sei sein Balkon; die Familie möchte frische Luft. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer tragbaren Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin (z. B. Zeiten oder Ort)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

@@ -2918,5 +2918,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Interview: ein Bäcker erzählt",
+    "prompt": "Hören Sie das Interview und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Reporterin: Sie stehen jeden Tag sehr früh auf. Wann beginnt Ihr Tag?\nHerr Frei: Um drei Uhr morgens. Dann heize ich den Ofen und beginne mit dem Brot.\nReporterin: Das ist wirklich früh. Was mögen Sie an Ihrem Beruf?\nHerr Frei: Dass die Leute sich am Morgen über frisches Brot freuen. Und der Duft in der Backstube am Morgen ist etwas Besonderes.\nReporterin: Und was ist schwierig?\nHerr Frei: Die frühen Stunden und dass ich am Wochenende arbeite. Aber ich mache es gern.",
+      "question": "Was mag Herr Frei an seinem Beruf?",
+      "options": [
+        "Dass sich die Leute über frisches Brot freuen",
+        "Dass er lange schlafen kann",
+        "Dass er am Wochenende frei hat",
+        "Dass er wenig arbeiten muss"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: ein Geschenk aussuchen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Reto: Unsere Chefin geht in Pension. Was schenken wir ihr?\nHerr Alba: Wir könnten Geld sammeln und einen Gutschein für ein Restaurant kaufen.\nFrau Reto: Gute Idee. Oder etwas Persönliches, zum Beispiel ein Fotobuch mit Bildern aus dem Team.\nHerr Alba: Ein Fotobuch ist schön, aber es braucht mehr Zeit. Machen wir beides: einen Gutschein und ein paar Fotos?\nFrau Reto: Perfekt. Ich frage die anderen, ob alle etwas dazugeben.\nHerr Alba: Und ich sammle die Fotos.",
+      "question": "Worauf einigen sich die beiden?",
+      "options": [
+        "Auf einen Gutschein und ein paar Fotos",
+        "Nur auf Geld",
+        "Auf gar kein Geschenk",
+        "Auf ein neues Auto"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: eine Auskunft beim Amt",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sachbearbeiter: Gemeindeverwaltung, guten Tag.\nFrau Kaya: Guten Tag, ich brauche eine Wohnsitzbestätigung. Kann ich die einfach am Schalter holen?\nSachbearbeiter: Ja, kommen Sie mit einem gültigen Ausweis vorbei. Sie bekommen die Bestätigung gleich mit.\nFrau Kaya: Und was kostet das?\nSachbearbeiter: Zwanzig Franken, bar oder mit Karte. Unser Schalter ist bis 16 Uhr offen.\nFrau Kaya: Gut, dann komme ich heute Nachmittag. Danke.",
+      "question": "Was muss Frau Kaya mitbringen?",
+      "options": [
+        "Einen gültigen Ausweis",
+        "Ein Foto",
+        "Einen Mietvertrag",
+        "Nichts"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage am Flughafen",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sehr geehrte Fluggäste des Fluges nach Lissabon: Das Boarding beginnt jetzt am Gate B12. Bitte halten Sie Ihre Bordkarte und Ihren Ausweis bereit. Passagiere mit kleinen Kindern und Personen, die Hilfe brauchen, dürfen zuerst einsteigen. Wir wünschen Ihnen einen guten Flug.",
+      "question": "Wer darf laut der Durchsage zuerst einsteigen?",
+      "options": [
+        "Passagiere mit kleinen Kindern und Personen, die Hilfe brauchen",
+        "Alle gleichzeitig",
+        "Nur Personen mit wenig Gepäck",
+        "Niemand"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht von der Nachbarin: Fest am Wochenende",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Hallo, hier ist Sara von oben. Ich wollte nur kurz Bescheid geben: Am Samstag habe ich Geburtstag und feiere mit ein paar Freunden bei mir. Es kann etwas lauter werden, aber wir hören um elf Uhr auf. Ich hoffe, das ist okay für dich. Wenn es stört, sag mir einfach Bescheid. Danke!",
+      "question": "Aussage: Laut der Nachricht feiert Sara bis spät in die Nacht ohne Ende.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
