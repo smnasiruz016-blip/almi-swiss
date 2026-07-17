@@ -1325,5 +1325,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Notiz an die Nachbarin: Ihr Paket ist bei mir",
+    "prompt": "Schreiben Sie eine kurze Notiz. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Der Postbote hat ein Paket für Ihre Nachbarin, Frau Keller, bei Ihnen abgegeben, weil sie nicht zu Hause war. Schreiben Sie ihr eine kurze Notiz: Sagen Sie, dass das Paket bei Ihnen ist, und wann sie es abholen kann.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt klar, dass das Paket bei Ihnen ist",
+        "Nennt den Grund (sie war nicht zu Hause)",
+        "Sagt, wann sie es abholen kann",
+        "Passende Anrede und kurzer Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "E-Mail an die Kursleitung: eine Stunde nachholen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben letzte Woche eine Stunde im Deutschkurs verpasst. Schreiben Sie der Kursleitung eine kurze E-Mail: Entschuldigen Sie sich, fragen Sie, was Sie verpasst haben, und ob Sie es nachholen können.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Entschuldigt sich für die verpasste Stunde",
+        "Fragt, was in der Stunde behandelt wurde",
+        "Fragt, wie Sie es nachholen können",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an den Verein: Mitgliedschaft kündigen",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind Mitglied in einem Sportverein, haben aber keine Zeit mehr. Schreiben Sie dem Verein eine kurze E-Mail und kündigen Sie Ihre Mitgliedschaft auf Ende des Jahres. Bedanken Sie sich für die schöne Zeit.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt den Wunsch, die Mitgliedschaft zu kündigen",
+        "Nennt den Zeitpunkt (Ende des Jahres)",
+        "Bedankt sich freundlich",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Nachricht an den Hauswart: Container ist voll",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Der Container für Karton im Hof ist seit Tagen voll, und niemand kann mehr etwas hineinlegen. Schreiben Sie dem Hauswart eine kurze Nachricht: Beschreiben Sie das Problem und bitten Sie darum, dass der Container geleert wird.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt das Problem klar (Kartoncontainer voll)",
+        "Bittet darum, ihn zu leeren",
+        "Sagt, seit wann das Problem besteht",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Leserbrief: ein Spielplatz im Quartier",
+    "prompt": "Schreiben Sie einen Leserbrief. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Quartier gibt es viele Kinder, aber keinen guten Spielplatz. In der Quartierzeitung wird darüber diskutiert. Schreiben Sie einen Leserbrief: Begründen Sie, warum ein Spielplatz wichtig wäre, machen Sie einen Vorschlag und bleiben Sie sachlich. Beachten Sie, dass die Gemeinde darüber entscheidet.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Nennt das Anliegen klar (fehlender Spielplatz)",
+        "Begründet, warum er wichtig wäre",
+        "Macht einen konkreten Vorschlag (Ort, Ausstattung)",
+        "Anerkennt, dass die Gemeinde entscheidet, und bleibt sachlich",
+        "Klarer Aufbau eines Leserbriefs mit Anrede und Schluss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

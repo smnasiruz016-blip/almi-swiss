@@ -1165,5 +1165,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Telefonisch nach einer Wohnung fragen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben ein Inserat für eine 3-Zimmer-Wohnung gesehen. Rufen Sie an: Stellen Sie sich vor, fragen Sie nach der Miete, den Nebenkosten und einem Besichtigungstermin, und sagen Sie kurz etwas über sich (Beruf, wie viele Personen).",
+      "minSeconds": 60,
+      "criteria": [
+        "Stellt sich vor und nennt den Grund des Anrufs",
+        "Fragt nach Miete, Nebenkosten und Besichtigung",
+        "Sagt kurz etwas über sich",
+        "Höfliche Telefonsprache und Rückfragen, wenn nötig"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Einen kleinen Unfall bei der Arbeit melden",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Bei der Arbeit ist Ihnen ein Glas heruntergefallen und zerbrochen; eine Kollegin hat sich leicht an der Hand geschnitten. Melden Sie den Vorfall Ihrer Vorgesetzten: Sagen Sie, was passiert ist, dass es der Kollegin gut geht, und fragen Sie, ob Sie etwas ausfüllen müssen.",
+      "minSeconds": 60,
+      "criteria": [
+        "Schildert den Vorfall klar und ruhig",
+        "Sagt, dass es der Kollegin gut geht",
+        "Fragt nach dem weiteren Vorgehen (Formular?)",
+        "Angemessene, sachliche Sprache"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Sich bei der Kita nach einem Platz erkundigen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie suchen einen Betreuungsplatz für Ihr Kind. Rufen Sie eine Kita an: Erklären Sie, was Sie suchen (Alter des Kindes, gewünschte Tage), fragen Sie, ob es freie Plätze gibt und was es kostet, und bitten Sie um ein Gespräch.",
+      "minSeconds": 75,
+      "criteria": [
+        "Erklärt das Anliegen klar (Betreuungsplatz, Alter, Tage)",
+        "Fragt nach freien Plätzen und Kosten",
+        "Bittet um ein persönliches Gespräch",
+        "Bleibt höflich und fragt bei Unklarheiten nach",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nach dem Weg zum Gemeindehaus fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind zu Fuss unterwegs und suchen das Gemeindehaus. Fragen Sie eine Passantin nach dem Weg: Begrüssen Sie, fragen Sie höflich, und wiederholen Sie den Weg kurz, damit Sie sicher sind. Bedanken Sie sich.",
+      "minSeconds": 45,
+      "criteria": [
+        "Begrüsst und fragt höflich nach dem Weg",
+        "Wiederholt den Weg kurz zur Bestätigung",
+        "Bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über Ruhezeiten am Wochenende",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Zwei Nachbarn streiten: Der eine renoviert am Samstag und bohrt viel, der andere möchte am Wochenende seine Ruhe. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, die für beide tragbar ist, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
