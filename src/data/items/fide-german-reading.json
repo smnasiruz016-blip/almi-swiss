@@ -4065,5 +4065,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Kinoprogramm heute",
+    "prompt": "Lesen Sie das Programm und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Kino Rex — Programm heute\n\nDer kleine Drache (für Kinder): 14.00 und 16.00 Uhr\nReise ins All: 18.30 Uhr\nDie lange Nacht (ab 16 Jahren): 20.45 Uhr\n\nKinder bis 12 Jahre bezahlen die Hälfte. Am Dienstag sind alle Vorstellungen günstiger.",
+      "question": "Wann läuft der Film für Kinder?",
+      "options": [
+        "Um 14.00 und 16.00 Uhr",
+        "Um 18.30 Uhr",
+        "Um 20.45 Uhr",
+        "Nur am Dienstag"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Lift-Modernisierung",
+    "prompt": "Lesen Sie den Aushang. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nVon Montag bis Mittwoch nächste Woche wird der Lift modernisiert. In dieser Zeit steht er nicht zur Verfügung.\nBitte benutzen Sie die Treppe. Wenn Sie Hilfe beim Tragen brauchen, melden Sie sich bei der Hauswartin.\nAb Donnerstag fährt der Lift wieder und ist danach sicherer und leiser.\n\nDie Hausverwaltung",
+      "question": "Aussage: Laut dem Aushang kann man den Lift auch am Dienstag benutzen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Backanleitung: einfache Muffins",
+    "prompt": "Lesen Sie die Anleitung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Einfache Muffins\n\nVerrühren Sie 200 Gramm Mehl, 100 Gramm Zucker und ein Päckchen Backpulver. Geben Sie zwei Eier, 100 Milliliter Öl und 150 Milliliter Milch dazu und mischen Sie alles kurz.\nFüllen Sie den Teig in die Förmchen, aber nur zu zwei Dritteln.\nBacken Sie die Muffins bei 180 Grad etwa 20 Minuten. Sie sind fertig, wenn sie goldbraun sind.",
+      "question": "Wie voll soll man die Förmchen laut der Anleitung füllen?",
+      "options": [
+        "Nur zu zwei Dritteln",
+        "Ganz voll",
+        "Nur zur Hälfte mit Milch",
+        "Gar nicht"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Bücherflohmarkt",
+    "prompt": "Lesen Sie den Aushang und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Bücherflohmarkt in der Bibliothek\n\nAm Samstag, 8. November, verkaufen wir alte {{1}} zu günstigen Preisen. Ein Buch kostet nur einen oder zwei {{2}}.\nDer Erlös geht an die Bibliothek, damit wir neue Bücher {{3}} können.\nKommen Sie vorbei und stöbern Sie in Ruhe. Für Kaffee und Kuchen ist {{4}}. Wir freuen uns auf Sie!",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Bücher",
+            "Autos",
+            "Häuser"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Franken",
+            "Meter",
+            "Kilo"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "kaufen",
+            "werfen",
+            "verbrennen"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "gesorgt",
+            "verboten",
+            "zu spät"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Deutsch am Arbeitsplatz",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Deutsch am Arbeitsplatz — Mundart oder Hochdeutsch?\n\nAm Arbeitsplatz hören Sie in der Deutschschweiz oft Dialekt, vor allem in Gesprächen unter Kolleginnen und Kollegen. Das ist normal.\nWichtig ist: Schriftliche Dinge wie E-Mails, Anleitungen und Sicherheitshinweise sind fast immer auf Hochdeutsch, also auf Standarddeutsch. Auch bei einer Schulung oder mit Kunden wird oft Hochdeutsch gesprochen.\nSie müssen den Dialekt nicht selbst sprechen. Sprechen Sie ruhig Hochdeutsch — das versteht man überall. Wenn Sie etwas im Dialekt nicht verstehen, fragen Sie einfach nach.",
+      "question": "Was ist laut dem Merkblatt am Arbeitsplatz meistens auf Hochdeutsch?",
+      "options": [
+        "Schriftliche Dinge wie E-Mails und Sicherheitshinweise",
+        "Nur die Pausengespräche",
+        "Gar nichts",
+        "Nur der Dialekt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

@@ -3174,5 +3174,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Information im Museum: Sonderausstellung",
+    "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag und willkommen. Nur ein kurzer Hinweis für Ihren Besuch: Im ersten Stock zeigen wir zurzeit eine Sonderausstellung über alte Uhren. Der Eintritt dazu ist im normalen Ticket enthalten. Die Sonderausstellung dauert noch bis Ende Monat. Fotos ohne Blitz sind erlaubt. Wir wünschen Ihnen einen schönen Besuch.",
+      "question": "Was gilt für die Sonderausstellung?",
+      "options": [
+        "Der Eintritt ist im normalen Ticket enthalten",
+        "Man muss extra bezahlen",
+        "Sie ist schon zu Ende",
+        "Fotos sind ganz verboten"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: Ferienbetreuung organisieren",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Frau Ott: In den Herbstferien muss ich arbeiten. Weisst du, wo die Kinder betreut werden?\nHerr Sen: Ja, die Gemeinde bietet ein Ferienprogramm an, eine Woche lang, mit Ausflügen und Basteln.\nFrau Ott: Das klingt gut. Muss man sich anmelden?\nHerr Sen: Ja, und zwar früh, die Plätze sind schnell weg. Es kostet etwas, aber nicht viel.\nFrau Ott: Wo melde ich mich an?\nHerr Sen: Auf der Webseite der Gemeinde oder direkt im Schulhaus. Ich schicke dir den Link.\nFrau Ott: Super, danke dir!",
+      "question": "Was rät Herr Sen Frau Ott?",
+      "options": [
+        "Ihre Kinder früh für das Ferienprogramm der Gemeinde anzumelden",
+        "Die Kinder allein zu Hause zu lassen",
+        "In den Ferien nicht zu arbeiten",
+        "Ein eigenes Ferienlager zu machen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: ein Abo kündigen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Kundendienst: Guten Tag, was kann ich für Sie tun?\nFrau Rahimi: Guten Tag, ich möchte mein Zeitungsabo kündigen.\nKundendienst: Das ist schade. Darf ich fragen, warum?\nFrau Rahimi: Ich habe zu wenig Zeit zum Lesen.\nKundendienst: Verstehe. Die Kündigungsfrist ist ein Monat. Ihr Abo läuft dann Ende nächsten Monats aus. Ich schicke Ihnen eine Bestätigung per E-Mail.\nFrau Rahimi: Gut, danke. Bekomme ich Geld zurück?\nKundendienst: Den Betrag für die restliche Zeit schreiben wir Ihnen gut.\nFrau Rahimi: In Ordnung, vielen Dank.",
+      "question": "Was sagt der Kundendienst über die Kündigung?",
+      "options": [
+        "Die Kündigungsfrist ist ein Monat; das Abo läuft dann aus",
+        "Das Abo endet sofort heute",
+        "Man kann nicht kündigen",
+        "Es kostet extra zu kündigen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Zug: Halt entfällt",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sehr geehrte Fahrgäste, wegen der Verspätung entfällt heute der Halt in Grüningen. Reisende nach Grüningen fahren bitte bis zur nächsten Station Weberdorf und nehmen von dort den Bus zurück. Wir entschuldigen uns für die Unannehmlichkeiten.",
+      "question": "Was sollen Reisende nach Grüningen tun?",
+      "options": [
+        "Bis Weberdorf fahren und von dort den Bus zurück nehmen",
+        "In Grüningen aussteigen",
+        "Im Zug bleiben bis zur Endstation",
+        "Zu Fuss nach Grüningen gehen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht vom Zahnarzt: Termin",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Guten Tag Frau Lima, hier ist die Zahnarztpraxis am Park. Wir erinnern Sie an Ihren Termin morgen, am Mittwoch, um 9.30 Uhr. Bitte kommen Sie fünf Minuten früher und bringen Sie Ihre Versichertenkarte mit. Falls Sie nicht können, melden Sie sich bitte heute noch. Danke und bis morgen.",
+      "question": "Aussage: Laut der Nachricht soll Frau Lima die Versichertenkarte mitbringen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

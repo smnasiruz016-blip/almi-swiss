@@ -2789,5 +2789,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Sich telefonisch über die Einbürgerung erkundigen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten mehr über die Einbürgerung wissen. Rufen Sie bei Ihrer Gemeinde an: Erklären Sie Ihr Anliegen, fragen Sie, wie das Verfahren abläuft, welche Sprachkenntnisse man braucht und wo Sie das Gesuch stellen. Fragen Sie höflich nach, wenn eine Antwort unklar ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt das Anliegen klar (Interesse an der Einbürgerung)",
+        "Fragt nach dem Ablauf und den Sprachkenntnissen",
+        "Fragt, wo man das Gesuch stellt",
+        "Fragt höflich nach, wenn etwas unklar ist"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Von einem Ausflug erzählen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Erzählen Sie von einem Ausflug oder einer Reise, die Ihnen gefallen hat. Sagen Sie, wohin Sie gegangen sind, mit wem, was Sie gemacht haben und warum es schön war.",
+      "minSeconds": 60,
+      "criteria": [
+        "Erzählt zusammenhängend von einem Ausflug",
+        "Sagt, wohin und mit wem",
+        "Sagt, was Sie gemacht haben",
+        "Erklärt, warum es schön war"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Im Elternrat mehr Aktivitäten vorschlagen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Im Elternrat möchten Sie vorschlagen, dass die Schule mehr gemeinsame Aktivitäten für Familien anbietet, zum Beispiel ein Fest oder einen Spielnachmittag. Bringen Sie den Vorschlag vor, begründen Sie ihn und gehen Sie auf mögliche Einwände (Zeit, Kosten) ein.",
+      "minSeconds": 75,
+      "criteria": [
+        "Bringt den Vorschlag klar vor",
+        "Begründet ihn nachvollziehbar",
+        "Geht auf einen Einwand (Zeit oder Kosten) ein",
+        "Bleibt sachlich und höflich",
+        "Strukturiert den Beitrag"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Am Kiosk eine Zeitung und ein Billett kaufen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind an einem Kiosk. Kaufen Sie eine Zeitung und fragen Sie, ob man dort auch ein Busbillett kaufen kann. Sagen Sie, wohin Sie fahren möchten, und fragen Sie nach dem Preis.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt, was Sie kaufen möchten (Zeitung)",
+        "Fragt nach einem Busbillett und dem Ziel",
+        "Fragt nach dem Preis und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die gemeinsame Waschmaschine",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus teilen sich mehrere Parteien eine Waschmaschine. Eine Partei sagt, die Maschine werde oft schmutzig hinterlassen und sei einmal wegen Überladung kaputtgegangen; eine andere fühlt sich zu Unrecht beschuldigt. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer fairen Lösung, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine faire Lösung hin (z. B. klare Regeln zur Nutzung)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

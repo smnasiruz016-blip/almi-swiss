@@ -3159,5 +3159,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Einladung zum Kaffee",
+    "prompt": "Schreiben Sie eine kurze Einladung. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind vor Kurzem in Ihre Wohnung eingezogen und möchten die Nachbarin näher kennenlernen. Schreiben Sie ihr eine kurze Einladung: Laden Sie sie am Sonntagnachmittag zu einem Kaffee zu Ihnen ein und fragen Sie, ob ihr die Zeit passt.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Lädt die Nachbarin zum Kaffee ein",
+        "Nennt Tag und Zeit",
+        "Fragt, ob die Zeit passt",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an die Vermieterin: Heizung kalt",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Seit gestern wird Ihre Heizung nicht mehr warm, und es ist kalt in der Wohnung. Schreiben Sie Ihrer Vermieterin eine kurze SMS: Beschreiben Sie das Problem, sagen Sie, seit wann es ist, und fragen Sie, ob bald jemand vorbeikommen kann.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Beschreibt das Problem (Heizung wird nicht warm)",
+        "Sagt, seit wann",
+        "Fragt, ob jemand vorbeikommen kann",
+        "Kurz und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an den Sportverein: das Kind anmelden",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind möchte Fussball spielen. Schreiben Sie dem Sportverein eine kurze E-Mail: Melden Sie Ihr Kind an, nennen Sie das Alter, und fragen Sie, wann das Training ist und was es kostet.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Meldet das Kind für Fussball an",
+        "Nennt das Alter des Kindes",
+        "Fragt nach Trainingszeit und Kosten",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Notiz an den Partner: Abendessen",
+    "prompt": "Schreiben Sie eine kurze Notiz. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie kommen heute später nach Hause und möchten, dass Ihr Partner mit dem Abendessen beginnt. Schreiben Sie eine kurze Notiz: Sagen Sie, was gekocht werden soll, wo die Zutaten sind, und wann Sie kommen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, was gekocht werden soll",
+        "Sagt, wo die Zutaten sind",
+        "Sagt, wann Sie kommen",
+        "Kurz und klar"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Bibliothek: verlängern und reservieren",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben ein Buch aus der Bibliothek, das Sie noch länger brauchen. Ausserdem möchten Sie ein anderes Buch reservieren, das gerade ausgeliehen ist. Schreiben Sie der Bibliothek eine E-Mail: Bitten Sie um eine Verlängerung des ersten Buches, fragen Sie nach dem zweiten Buch und wie Sie benachrichtigt werden, wenn es frei ist.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Bittet um die Verlängerung des ersten Buches (mit Angaben)",
+        "Fragt nach dem zweiten, ausgeliehenen Buch",
+        "Fragt, wie man benachrichtigt wird",
+        "Bleibt höflich und klar",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
