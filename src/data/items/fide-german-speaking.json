@@ -2325,5 +2325,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ihren Wohnort beschreiben",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie Ihren Wohnort — Ihr Quartier oder Ihr Dorf. Sagen Sie, wo es liegt, was es dort gibt (Geschäfte, Schulen, Parks), was Ihnen gefällt und was Sie vermissen.",
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt, wo der Wohnort liegt und was es dort gibt",
+        "Sagt, was Ihnen gefällt",
+        "Sagt, was Sie vermissen",
+        "Spricht zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Zu einer Aussage Stellung nehmen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Jemand sagt: 'In der Stadt zu leben ist besser als auf dem Land.' Sagen Sie, ob Sie einverstanden sind oder nicht. Begründen Sie Ihre Meinung mit Beispielen und nennen Sie auch ein Argument der anderen Seite.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt klar, ob Sie einverstanden sind",
+        "Begründet mit Beispielen",
+        "Nennt ein Argument der anderen Seite",
+        "Spricht zusammenhängend und höflich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Einen gemeinsamen Ausflug planen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten mit einer Freundin einen Ausflug machen. Sprechen Sie darüber: Schlagen Sie ein Ziel vor, einigen Sie sich auf Tag und Zeit, klären Sie, wie Sie hinkommen, und wer was mitbringt.",
+      "minSeconds": 75,
+      "criteria": [
+        "Schlägt ein Ziel vor und reagiert auf Vorschläge",
+        "Einigt sich auf Tag und Zeit",
+        "Klärt die Anreise",
+        "Klärt, wer was mitbringt",
+        "Strukturiert das Gespräch"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Im Kleidergeschäft nach Hilfe fragen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind in einem Kleidergeschäft und suchen einen Pullover in Ihrer Grösse. Fragen Sie die Verkäuferin: Sagen Sie, was Sie suchen, welche Farbe und Grösse, und fragen Sie, wo Sie ihn anprobieren können.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt, was Sie suchen (Pullover, Farbe, Grösse)",
+        "Fragt nach Hilfe",
+        "Fragt, wo man anprobieren kann, und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die gemeinsame Küche",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "In einer Wohngemeinschaft gibt es Streit über die gemeinsame Küche: Eine Person lässt oft schmutziges Geschirr stehen; die anderen ärgern sich. Die eine Seite sagt, sie habe zu wenig Zeit, die andere findet das keine Entschuldigung. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer fairen Regel, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine faire Regel hin (z. B. ein Ämtliplan)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

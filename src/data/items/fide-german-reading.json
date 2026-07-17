@@ -3377,5 +3377,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Stellenanzeige: Aushilfe gesucht",
+    "prompt": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Wir suchen eine Aushilfe\n\nFür unseren Quartierladen suchen wir eine freundliche Aushilfe für den Samstag, jeweils von 8 bis 13 Uhr.\nSie helfen an der Kasse und beim Einräumen der Regale. Erfahrung ist nicht nötig, wir arbeiten Sie ein. Gute Deutschkenntnisse sind von Vorteil.\nInteressiert? Melden Sie sich bei Frau Studer, per Telefon oder im Laden.",
+      "question": "Wann soll die Aushilfe arbeiten?",
+      "options": [
+        "Am Samstag von 8 bis 13 Uhr",
+        "Jeden Tag am Abend",
+        "Nur am Sonntag",
+        "Von Montag bis Freitag"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Garantiekarte",
+    "prompt": "Lesen Sie die Garantiekarte. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Garantie\n\nFür dieses Gerät gilt eine Garantie von zwei Jahren ab dem Kaufdatum.\nBewahren Sie die Quittung als Kaufbeleg auf. Ohne Beleg können wir die Garantie nicht gewähren.\nDie Garantie gilt nicht für Schäden, die durch falsche Benutzung entstehen. Bei Problemen bringen Sie das Gerät in den Laden.",
+      "question": "Aussage: Laut der Garantiekarte braucht man die Quittung nicht.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Information: Ausflug mit dem Verein",
+    "prompt": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Vereinsausflug\n\nLiebe Mitglieder\nAm Sonntag, 15. Juni, machen wir unseren Jahresausflug an den Vierwaldstättersee. Wir treffen uns um 8.30 Uhr beim Bahnhof, beim Kiosk.\nBitte bringen Sie gutes Schuhwerk und etwas zu trinken mit. Für das Mittagessen ist gesorgt.\nAnmeldung bis 8. Juni bei Herrn Frei. Die Fahrt kostet 20 Franken.",
+      "question": "Wo trifft sich der Verein?",
+      "options": [
+        "Beim Bahnhof, beim Kiosk",
+        "Am See",
+        "Im Vereinslokal",
+        "Bei Herrn Frei zu Hause"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Kursbeschreibung: Schwimmen für Anfänger",
+    "prompt": "Lesen Sie die Kursbeschreibung und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Schwimmkurs für Anfänger\n\nIn diesem Kurs lernen Erwachsene, die noch nicht schwimmen können, die ersten {{1}} im Wasser. Wir üben in einer kleinen {{2}} mit einer erfahrenen Lehrerin.\nDer Kurs findet im Hallenbad statt, jeden Dienstag von 19 bis 20 Uhr, während zehn {{3}}.\nBitte bringen Sie Badekleidung und ein {{4}} mit. Anmeldung an der Kasse.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "Schritte",
+            "Wörter",
+            "Rechnungen"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "Gruppe",
+            "Stadt",
+            "Firma"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "Wochen",
+            "Jahren",
+            "Minuten"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "Handtuch",
+            "Auto",
+            "Formular"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Häufige Fragen zur Einbürgerung",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Häufige Fragen zur Einbürgerung\n\nMuss ich Deutsch können?\nJa. Sie weisen eine Landessprache nach: mündlich mindestens B1, schriftlich mindestens A2. Nachgewiesen wird Standarddeutsch.\n\nWo stelle ich das Gesuch?\nBei der ordentlichen Einbürgerung bei Ihrer Gemeinde. Sind Sie mit einer Schweizerin oder einem Schweizer verheiratet, kommt oft die erleichterte Einbürgerung infrage; dann stellen Sie das Gesuch beim Bund (SEM).\n\nWie lange dauert es?\nDas ist unterschiedlich und kann länger dauern. Erkundigen Sie sich bei Ihrer Gemeinde.",
+      "question": "Wo stellt man laut dem Merkblatt das Gesuch für die ordentliche Einbürgerung?",
+      "options": [
+        "Bei der Gemeinde",
+        "Beim Bund (SEM)",
+        "Bei der Krankenkasse",
+        "Bei keiner Stelle"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
