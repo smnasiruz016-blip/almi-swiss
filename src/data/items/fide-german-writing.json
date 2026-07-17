@@ -2897,5 +2897,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Genesungswünsche an einen Kollegen",
+    "prompt": "Schreiben Sie eine kurze Karte. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ein Kollege ist krank und schon eine Woche nicht bei der Arbeit. Schreiben Sie ihm eine kurze Karte: Wünschen Sie ihm gute Besserung, sagen Sie, dass Sie ihn im Team vermissen, und bieten Sie Hilfe an.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Wünscht gute Besserung",
+        "Sagt, dass Sie ihn vermissen",
+        "Bietet Hilfe an",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an die Freundin: Kind abholen",
+    "prompt": "Schreiben Sie eine kurze SMS. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie stecken bei der Arbeit fest und können Ihr Kind heute nicht rechtzeitig von der Schule abholen. Schreiben Sie Ihrer Freundin eine kurze SMS: Fragen Sie, ob sie Ihr Kind abholen kann, sagen Sie wann und wo, und bedanken Sie sich.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Fragt, ob die Freundin das Kind abholen kann",
+        "Nennt Zeit und Ort",
+        "Bedankt sich",
+        "Kurz und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an den Verein: einen Vorschlag",
+    "prompt": "Schreiben Sie eine E-Mail. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind in einem Verein. Sie möchten vorschlagen, dass der Verein einmal im Jahr einen Ausflug macht. Schreiben Sie eine kurze E-Mail an den Vorstand: Machen Sie den Vorschlag, nennen Sie einen Grund und fragen Sie, was die anderen davon halten.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Macht den Vorschlag klar (jährlicher Ausflug)",
+        "Nennt einen Grund",
+        "Fragt nach der Meinung der anderen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Wohnung gesucht",
+    "prompt": "Schreiben Sie einen Aushang. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie suchen eine grössere Wohnung im Quartier. Schreiben Sie einen kurzen Aushang für das schwarze Brett: Sagen Sie, was Sie suchen (Zimmer, ungefähre Miete), ab wann, und wie man Sie erreicht.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt klar, was Sie suchen (Zimmer, Miete)",
+        "Sagt, ab wann Sie die Wohnung brauchen",
+        "Gibt an, wie man Sie erreicht",
+        "Übersichtlich und freundlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an die Gemeinde: Frage zum Abfallkalender",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind neu in die Gemeinde gezogen und kennen die Abfuhrtage nicht. Schreiben Sie den Einwohnerdiensten eine E-Mail: Fragen Sie, wann Kehricht, Karton und Grüngut abgeholt werden, wo Sie die offiziellen Gebührensäcke bekommen und ob es einen Abfallkalender gibt.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Erklärt kurz die Situation (neu zugezogen)",
+        "Fragt nach den Abfuhrtagen für die verschiedenen Abfälle",
+        "Fragt nach den Gebührensäcken und dem Abfallkalender",
+        "Bleibt höflich und klar",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
