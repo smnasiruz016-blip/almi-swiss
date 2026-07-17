@@ -2406,5 +2406,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Information beim Elternabend",
+    "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Abend zusammen. Kurz zwei Informationen: Erstens ändert sich ab nächster Woche der Stundenplan — der Sport ist neu am Montag statt am Freitag. Bitte denken Sie am Montag an die Sportsachen. Zweitens machen wir Ende Monat einen Ausflug; die Kinder bringen dafür ein Zwanzigernötli für den Eintritt mit. Den genauen Tag sage ich Ihnen noch. Bei Fragen kommen Sie gern nach dem Elternabend zu mir.",
+      "question": "Was ändert sich ab nächster Woche?",
+      "options": [
+        "Der Sport ist neu am Montag statt am Freitag",
+        "Der Ausflug fällt aus",
+        "Die Kinder brauchen keine Sportsachen mehr",
+        "Der Elternabend wird verschoben"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Verkehrsmeldung im Radio",
+    "prompt": "Hören Sie die Verkehrsmeldung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Und nun die Verkehrsmeldung: Auf der Hauptstrasse zwischen Neudorf und Altstetten ist wegen eines Unfalls eine Spur gesperrt. Es bildet sich ein Stau von rund zwei Kilometern. Wenn möglich, fahren Sie über die Dorfstrasse oder nehmen Sie den Zug. Die Feuerwehr ist vor Ort; die Strasse ist voraussichtlich in einer Stunde wieder frei.",
+      "question": "Was wird den Autofahrern empfohlen?",
+      "options": [
+        "Über die Dorfstrasse fahren oder den Zug nehmen",
+        "Auf der Hauptstrasse im Stau warten",
+        "Die Feuerwehr zu rufen",
+        "Nach Altstetten zu Fuss zu gehen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf: einen Kurs abmelden",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Sekretariat: Sprachschule Lingua, guten Tag.\nFrau Popovic: Guten Tag, ich habe mich für den Abendkurs angemeldet, kann aber doch nicht kommen. Ich möchte mich abmelden.\nSekretariat: Das ist schade. Wann beginnt der Kurs?\nFrau Popovic: Erst in drei Wochen.\nSekretariat: Gut, dann geht das ohne Kosten. Ich streiche Sie von der Liste. Wenn Sie wollen, informieren wir Sie über den nächsten Kurs.\nFrau Popovic: Ja, gern. Vielen Dank.",
+      "question": "Was passiert, weil der Kurs erst in drei Wochen beginnt?",
+      "options": [
+        "Die Abmeldung ist ohne Kosten",
+        "Frau Popovic muss den ganzen Kurs bezahlen",
+        "Sie kann sich nicht abmelden",
+        "Der Kurs fällt aus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Sprachnachricht von einem Freund",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hey, hier ist Deniz. Ich koche heute Abend für ein paar Leute, so um sieben. Hast du Lust zu kommen? Es gibt Pasta. Wenn du magst, bring einen Nachtisch mit, dann müssen wir nicht alles selber machen. Sag mir kurz Bescheid, ob du kommst. Bis später!",
+      "question": "Was soll der Freund mitbringen, wenn er kommt?",
+      "options": [
+        "Einen Nachtisch",
+        "Pasta",
+        "Getränke für alle",
+        "Nichts"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Hallenbad: bald Schliessung",
+    "prompt": "Hören Sie die Durchsage. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Liebe Gäste, das Hallenbad schliesst in zwanzig Minuten. Bitte verlassen Sie das Wasser in zehn Minuten und gehen Sie dann in die Garderoben. Denken Sie an Ihre Sachen im Schrank. Morgen sind wir ab sieben Uhr wieder für Sie da. Wir wünschen Ihnen einen schönen Abend.",
+      "question": "Aussage: Laut der Durchsage soll man das Wasser in zehn Minuten verlassen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

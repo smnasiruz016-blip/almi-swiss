@@ -2373,5 +2373,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Absage einer Einladung",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Freundin hat Sie zu ihrem Geburtstagsfest am Samstag eingeladen. Sie können leider nicht kommen, weil Sie arbeiten müssen. Schreiben Sie ihr eine kurze Nachricht: Sagen Sie höflich ab, nennen Sie den Grund und wünschen Sie ihr etwas Schönes.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt höflich ab",
+        "Nennt den Grund (arbeiten)",
+        "Wünscht etwas Schönes oder schlägt ein anderes Treffen vor",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Entschuldigung: Das Kind hat die Aufgaben vergessen",
+    "prompt": "Schreiben Sie eine kurze Entschuldigung. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind hat gestern die Hausaufgaben zu Hause vergessen. Schreiben Sie der Lehrperson eine kurze Entschuldigung: Erklären Sie, was passiert ist, und sagen Sie, dass Ihr Kind die Aufgaben heute mitbringt.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Entschuldigt sich für das Vergessen",
+        "Erklärt kurz, was passiert ist",
+        "Sagt, dass die Aufgaben heute mitkommen",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Bericht: unser Quartierfest",
+    "prompt": "Schreiben Sie einen kurzen Bericht. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "In Ihrem Quartier war letztes Wochenende ein Fest. Schreiben Sie einen kurzen Bericht für die Quartierzeitung: Sagen Sie, was es gab, wie viele Leute kamen, was gut war, und danken Sie den Helfern.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, was es am Fest gab",
+        "Sagt etwas zur Stimmung oder wie viele kamen",
+        "Nennt, was gut war",
+        "Dankt den Helfern"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Eine Erinnerung schreiben",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kollege hat vergessen, dass morgen um 9 Uhr eine wichtige Besprechung ist. Schreiben Sie ihm eine kurze Nachricht: Erinnern Sie ihn an die Besprechung, nennen Sie Zeit und Ort und sagen Sie, was er mitbringen soll.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Erinnert freundlich an die Besprechung",
+        "Nennt Zeit und Ort",
+        "Sagt, was er mitbringen soll",
+        "Kurz und klar"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an den Arbeitgeber: um eine Bescheinigung bitten",
+    "prompt": "Schreiben Sie eine E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie brauchen für eine Anmeldung eine Bescheinigung Ihres Arbeitgebers, dass Sie dort arbeiten. Schreiben Sie der Personalabteilung eine E-Mail: Erklären Sie, wofür Sie die Bescheinigung brauchen, was darauf stehen soll (seit wann, Pensum) und bis wann Sie sie benötigen.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Erklärt, wofür Sie die Bescheinigung brauchen",
+        "Sagt, was darauf stehen soll (seit wann, Pensum)",
+        "Nennt, bis wann Sie sie brauchen",
+        "Bleibt höflich und klar",
+        "Passende Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

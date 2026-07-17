@@ -2093,5 +2093,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ihren typischen Tag beschreiben",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Beschreiben Sie einen typischen Tag in Ihrem Leben: Wann stehen Sie auf, was machen Sie am Morgen, am Nachmittag und am Abend? Sagen Sie auch, was Ihnen am Tag gefällt und was anstrengend ist.",
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt den Tagesablauf (Morgen, Nachmittag, Abend)",
+        "Nennt, was gefällt und was anstrengend ist",
+        "Verwendet Zeitangaben (um … Uhr, danach)",
+        "Spricht zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Wohnen: Haus oder Wohnung?",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Manche Menschen wohnen lieber in einem Haus, andere in einer Wohnung. Sagen Sie, was Sie bevorzugen. Nennen Sie zwei Gründe und gehen Sie auch auf einen Nachteil Ihrer Wahl ein.",
+      "minSeconds": 60,
+      "criteria": [
+        "Sagt klar, was Sie bevorzugen",
+        "Nennt zwei Gründe",
+        "Geht auf einen Nachteil ein",
+        "Spricht zusammenhängend und begründet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Ein Fest gemeinsam planen",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Sie planen mit einer Nachbarin ein kleines Sommerfest für das Haus. Sprechen Sie darüber: Machen Sie Vorschläge (wann, wo, Essen), reagieren Sie auf ihre Ideen und einigen Sie sich auf die wichtigsten Punkte.",
+      "minSeconds": 75,
+      "criteria": [
+        "Macht konkrete Vorschläge (wann, wo, Essen)",
+        "Reagiert auf die Ideen der anderen Person",
+        "Einigt sich auf die wichtigsten Punkte",
+        "Bleibt freundlich und kooperativ",
+        "Strukturiert das Gespräch"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Am Schalter ein Zugbillett kaufen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie möchten mit dem Zug in eine andere Stadt fahren. Kaufen Sie am Schalter ein Billett: Sagen Sie, wohin Sie fahren möchten, ob hin und zurück, und fragen Sie nach dem Preis und dem Gleis.",
+      "minSeconds": 45,
+      "criteria": [
+        "Sagt klar, wohin Sie fahren möchten (und hin/zurück)",
+        "Fragt nach dem Preis",
+        "Fragt nach dem Gleis und bedankt sich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit über die Temperatur im Büro",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Büro gibt es Streit: Die einen finden es zu warm und wollen das Fenster öffnen, die anderen frieren und wollen es geschlossen. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie das Gespräch zu einer Lösung, mit der alle leben können, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf einen tragbaren Kompromiss hin (z. B. Lüften nach Plan)",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
