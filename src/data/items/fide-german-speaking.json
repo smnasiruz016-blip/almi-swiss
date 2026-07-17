@@ -357,5 +357,465 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Sich beim Verein anmelden",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "minSeconds": 40,
+      "criteria": [
+        "Sagt, wer man ist und worum es geht",
+        "Nennt das Kind oder sich selbst und das Alter",
+        "Stellt mindestens eine Frage (Zeiten, Kosten)",
+        "Verständlich, auch mit Akzent"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Eine Auskunft am Telefon erfragen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "minSeconds": 40,
+      "criteria": [
+        "Nennt Namen und Anliegen zu Beginn",
+        "Stellt die Frage klar",
+        "Fragt nach, wenn man etwas nicht versteht",
+        "Höflichkeitsformen am Telefon"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Über Ihr Wochenende sprechen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "minSeconds": 40,
+      "criteria": [
+        "Erzählt in einer nachvollziehbaren Reihenfolge",
+        "Nennt Zeitangaben (am Morgen, danach, am Abend)",
+        "Spricht in ganzen Sätzen",
+        "Ohne lange Pausen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Etwas im Restaurant bestellen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "minSeconds": 40,
+      "criteria": [
+        "Bestellt klar",
+        "Fragt nach etwas (Preis, Zutaten)",
+        "Reagiert auf eine Rückfrage",
+        "Freundlich und verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Sagen, wo Sie wohnen",
+    "prompt": "Sprechen Sie mindestens 40 Sekunden.",
+    "payload": {
+      "minSeconds": 40,
+      "criteria": [
+        "Nennt Ort und Quartier",
+        "Beschreibt die Wohnung kurz",
+        "Sagt, was in der Nähe ist",
+        "Ganze Sätze, verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Beim Elternabend etwas fragen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Bringt die Frage ohne Umwege auf den Punkt",
+        "Sagt, warum sie einem wichtig ist",
+        "Reagiert auf die Antwort, statt die Frage zu wiederholen",
+        "Angemessener Ton vor einer Gruppe",
+        "Spricht zusammenhängend über eine Minute"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Eine Reparatur am Telefon melden",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt das Problem konkret genug, um es einzuordnen",
+        "Sagt, seit wann und was schon versucht wurde",
+        "Nennt die eigene Erreichbarkeit",
+        "Formuliert eine klare Erwartung",
+        "Bleibt sachlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Am Schalter: Unterlagen nachreichen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt, welches Dokument fehlt und warum",
+        "Fragt konkret nach Frist und Form (Post, Schalter, Mail)",
+        "Gibt die nötigen Angaben unaufgefordert",
+        "Sie-Form durchgehend korrekt",
+        "Kann eine Rückfrage aufnehmen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Mit dem Hauswart etwas klären",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Spricht das Problem direkt, aber freundlich an",
+        "Erklärt, warum es ein Problem ist",
+        "Schlägt selbst eine Lösung vor",
+        "Lässt Raum für die andere Sicht",
+        "Ton bleibt nachbarschaftlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über den Deutschkurs sprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt konkret, was hilft und was nicht",
+        "Begründet die Einschätzungen",
+        "Nennt ein Beispiel aus dem Alltag",
+        "Spricht zusammenhängend über eine Minute",
+        "Umschreibt bei Wortsuche, statt abzubrechen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Eine Rechnung reklamieren",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Nennt die Rechnung so, dass sie auffindbar ist",
+        "Erklärt sachlich, was nicht stimmt",
+        "Formuliert eine klare Forderung",
+        "Bleibt bestimmt, ohne unhöflich zu werden",
+        "Kann auf einen Einwand reagieren"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Im Verein einen Vorschlag machen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Macht einen konkreten, umsetzbaren Vorschlag",
+        "Begründet ihn",
+        "Sagt, was man selbst beitragen würde",
+        "Nimmt einen Einwand vorweg",
+        "Ton passend für eine Gruppe, die man noch nicht gut kennt"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Beim Arzt: Behandlung besprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Fragt nach, was die Behandlung bedeutet",
+        "Nennt eigene Bedenken oder Umstände (Arbeit, Kinder)",
+        "Fragt nach Alternativen",
+        "Kann eine Rückfrage beantworten",
+        "Traut sich nachzufragen, statt nur zu nicken"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Über das Leben im Quartier sprechen",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt konkret, nicht allgemein",
+        "Nennt Positives und Schwieriges",
+        "Begründet die Einschätzungen",
+        "Spricht zusammenhängend über eine Minute",
+        "Nennt ein konkretes Beispiel"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Eine Meinung begründen: Abfallgebühren",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Bezieht klar Stellung",
+        "Begründet mit mindestens zwei Argumenten",
+        "Nennt und entkräftet ein Gegenargument",
+        "Verknüpft mit Konnektoren (weil, deshalb, obwohl, trotzdem)",
+        "Spricht zusammenhängend über 90 Sekunden",
+        "Bleibt respektvoll gegenüber der anderen Position"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Etwas erklären: der Weg zur Einbürgerung",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Nennt mehrere Schritte in sinnvoller Reihenfolge",
+        "Begründet, warum sie wichtig sind",
+        "Erklärt so, dass eine neu zugezogene Person es umsetzen kann",
+        "Sagt ehrlich, dass vieles je nach Kanton und Gemeinde unterschiedlich ist, und verweist auf die Wohngemeinde",
+        "Gibt keine Auskunft, die man selbst nicht sicher weiss",
+        "Spricht 90 Sekunden strukturiert"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Auf eine Mahnung reagieren",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Schildert den Sachverhalt geordnet",
+        "Widerspricht mit Begründung, nicht mit Emotion",
+        "Belegt die eigene Darstellung mit konkreten Angaben",
+        "Formuliert eine klare, realistische Erwartung",
+        "Bleibt unter Druck sachlich",
+        "Kann auf Einwände reagieren, ohne den Faden zu verlieren"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Über eine Veränderung im Quartier sprechen",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Beschreibt die Veränderung konkret",
+        "Nennt Vorher und Nachher nebeneinander",
+        "Verwendet Vergangenheit und Gegenwart korrekt genug",
+        "Bewertet begründet, nicht nur gefühlsmässig",
+        "Spricht 90 Sekunden zusammenhängend"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Eine Position an der Versammlung vertreten",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Nennt die eigene Position gleich zu Beginn",
+        "Begründet mit mindestens zwei Argumenten",
+        "Nimmt den wahrscheinlichsten Einwand vorweg",
+        "Spricht laut und klar genug für eine Gruppe",
+        "Kommt zu einem erkennbaren Schluss",
+        "Spricht 90 Sekunden ohne Zusammenbruch"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Moderieren: eine Diskussion im Verein",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "minSeconds": 90,
+      "criteria": [
+        "Führt in das Thema ein, ohne die eigene Meinung vorwegzunehmen",
+        "Gibt beiden Seiten fair das Wort und fasst sie korrekt zusammen",
+        "Steuert die Diskussion, ohne sie zu dominieren",
+        "Bleibt neutral, auch wenn es persönlich wird",
+        "Fasst am Schluss zusammen und benennt, was offen bleibt",
+        "Verwendet Redemittel des Moderierens (dazu höre ich gern, halten wir fest, damit wir vorankommen)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

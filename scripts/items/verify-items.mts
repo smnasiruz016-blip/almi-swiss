@@ -86,6 +86,38 @@ function checkItem(it: SwissItemSeed) {
   }
 }
 
+// Payload keys the renderers actually read. A key outside this set is almost always a
+// typo, and a typo'd key is INVISIBLE: nothing throws, the item loads, every answer key
+// still self-grades — the content just never reaches the page.
+//
+// Caught for real on 2026-07-17: 20 new writing tasks were authored with
+// `prompt_context` instead of `stimulus`. ProductiveComposer reads `p.stimulus`, so all
+// 20 would have rendered as a bare instruction ("Schreiben Sie eine E-Mail. 60 bis 80
+// Wörter.") with the scenario missing — a task that cannot be answered, shipped behind
+// a paid gate. verify-items was GREEN throughout, because productive tasks have no key
+// to self-grade. Absence again: it does not fail, it just quietly serves less.
+const KNOWN_PAYLOAD_KEYS = new Set([
+  "passage", "transcript", "stimulus", "question", "options", "instructions",
+  "left", "right", "items", "gaps", "criteria", "charBand", "minSeconds",
+]);
+
+function checkPayloadKeys(it: SwissItemSeed) {
+  const p = it.payload as Record<string, unknown>;
+  if (!p || typeof p !== "object") return note(it, "payload is not an object");
+  for (const k of Object.keys(p)) {
+    if (!KNOWN_PAYLOAD_KEYS.has(k)) {
+      note(it, `payload key "${k}" is not read by any renderer — typo? (content would silently not render)`);
+    }
+  }
+  // A productive task with no stimulus is an instruction with nothing to respond to.
+  if (it.taskType === "WRITING_PROMPT" && !p.stimulus) {
+    note(it, "WRITING_PROMPT has no stimulus — the learner would see only the instruction");
+  }
+  if (!isObjectiveTask(it.taskType) && !(p.criteria as unknown[])?.length) {
+    note(it, "productive task has no criteria — nothing to grade it against");
+  }
+}
+
 // ---- per-item integrity ----
 const allSeen: SwissItemSeed[] = [];
 for (const e of ALL_EXAMS) {
@@ -112,6 +144,8 @@ for (const e of ALL_EXAMS) {
       if (goal && !isCefrLevel(it.cefr)) {
         note(it, `on ${e.slug}/${skill}, which has goal ${goal}, but declares no cefr level`);
       }
+
+      checkPayloadKeys(it);
 
       allSeen.push(it);
     }

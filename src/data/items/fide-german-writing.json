@@ -399,5 +399,538 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS: Ich hole das Kind später",
+    "prompt": "Schreiben Sie eine kurze Nachricht an die Kita. 30 bis 50 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Zug hat Verspätung. Sie kommen etwa eine halbe Stunde später zur Kita.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Sagt, dass es später wird, und nennt ungefähr wie viel",
+        "Nennt den Grund",
+        "Fragt, ob das in Ordnung ist",
+        "Kurz, höflich, mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Notiz: Schlüssel abgeben",
+    "prompt": "Schreiben Sie eine kurze Notiz. 30 bis 50 Wörter.",
+    "payload": {
+      "stimulus": "Sie geben dem Hauswart einen Schlüssel, weil am Dienstag der Servicemann für die Heizung kommt. Sie sind an diesem Tag bei der Arbeit.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Sagt, für wen der Schlüssel ist und warum",
+        "Nennt den Tag",
+        "Sagt, wie man Sie erreichen kann",
+        "Ganze Sätze, nicht nur Stichworte"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Zettel: Velo gefunden",
+    "prompt": "Schreiben Sie einen kurzen Zettel für das Schwarze Brett. 30 bis 50 Wörter.",
+    "payload": {
+      "stimulus": "Vor dem Haus steht seit zwei Wochen ein Kindervelo, das niemandem im Haus gehört.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Beschreibt das Velo kurz",
+        "Sagt, wo und seit wann es steht",
+        "Sagt, was die Besitzerin oder der Besitzer tun soll",
+        "Für alle im Haus verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Formular: Angaben zur Wohnung",
+    "prompt": "Füllen Sie das freie Feld in ganzen Sätzen aus. 30 bis 50 Wörter.",
+    "payload": {
+      "stimulus": "Formular der Gemeinde. Freies Feld: «Angaben zu Ihrer Wohnung — Adresse, seit wann Sie dort wohnen, wie viele Zimmer, wer sonst noch dort wohnt.»",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Nennt die Adresse und seit wann",
+        "Nennt die Zahl der Zimmer",
+        "Nennt die weiteren Personen im Haushalt",
+        "Ganze Sätze, nicht Stichworte"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS an die Nachbarin: Paket",
+    "prompt": "Schreiben Sie eine kurze Nachricht. 30 bis 50 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Nachbarin hat ein Paket für Sie angenommen. Sie möchten es abholen.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Bedankt sich",
+        "Schlägt eine konkrete Zeit vor",
+        "Fragt, ob die Zeit passt",
+        "Freundlicher Ton für eine Nachbarin"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Mail: Kurs absagen",
+    "prompt": "Schreiben Sie eine kurze E-Mail. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind für einen Deutschkurs angemeldet, können aber nicht anfangen, weil sich Ihre Arbeitszeiten geändert haben.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt klar ab und nennt den Kurs",
+        "Nennt den Grund",
+        "Fragt nach einem späteren Kurs oder einem anderen Termin",
+        "Anrede und Gruss passend für eine unbekannte Person"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Gemeinde: Unterlagen nachfragen",
+    "prompt": "Schreiben Sie eine E-Mail. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Sie wollen ein Gesuch einreichen und wissen nicht, welche Unterlagen dazugehören. Auf der Website finden Sie zwei verschiedene Listen.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Nennt das Anliegen klar",
+        "Sagt, dass zwei Listen widersprüchlich sind — konkret",
+        "Stellt eine klare Frage",
+        "Gibt genug Angaben zur eigenen Person, damit man antworten kann",
+        "Formelle Anrede und Gruss, wie eine Behörde sie erwartet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an die Krankenkasse: Ratenzahlung",
+    "prompt": "Schreiben Sie eine E-Mail. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Mahnung über 340 Franken erhalten. Sie können den Betrag im Moment nicht auf einmal bezahlen, aber in drei Raten.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Nennt die Rechnung so, dass sie auffindbar ist (Datum oder Betrag)",
+        "Sagt offen, dass es im Moment nicht auf einmal geht",
+        "Macht einen konkreten Vorschlag (drei Raten)",
+        "Bleibt sachlich — bittet, entschuldigt sich nicht endlos",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Waschküche defekt",
+    "prompt": "Schreiben Sie einen Aushang für die Waschküche. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Der Tumbler ist kaputt. Sie haben es der Verwaltung gemeldet; die Reparatur dauert bis Ende Woche. Die Waschmaschine läuft normal.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, was kaputt ist und was funktioniert",
+        "Sagt, dass es gemeldet ist und wie lange es dauert",
+        "Informiert — bittet nicht um Erlaubnis",
+        "Für alle im Haus verständlich, freundlicher Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail an den Verein: mitmachen",
+    "prompt": "Schreiben Sie eine E-Mail. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben gelesen, dass der Quartierverein Freiwillige für das Fest sucht. Sie können am Samstagvormittag helfen, aber nicht am Nachmittag.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Bezieht sich auf den Aufruf",
+        "Bietet die Hilfe konkret an und nennt die Zeit",
+        "Sagt klar, wann es nicht geht",
+        "Fragt, was gebraucht wird",
+        "Freundlich, aber nicht übertrieben formell"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Mail an die Verwaltung: Wasser abgestellt",
+    "prompt": "Schreiben Sie eine E-Mail. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Das Wasser war ohne Ankündigung einen halben Tag abgestellt. Sie arbeiten von zu Hause aus und hätten das gerne vorher gewusst.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Beschreibt sachlich, was passiert ist, mit Tag und Zeit",
+        "Sagt, warum eine Ankündigung wichtig gewesen wäre",
+        "Formuliert eine klare Bitte für das nächste Mal",
+        "Bleibt sachlich, obwohl man verärgert ist",
+        "Anrede, Gruss, für eine Verwaltung passender Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Nachricht an die Kita: Betreuung",
+    "prompt": "Schreiben Sie eine Nachricht. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Sie brauchen ab August einen zusätzlichen Betreuungstag, am liebsten Donnerstag. Sie wissen, dass die Plätze knapp sind.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Nennt das Anliegen und ab wann",
+        "Nennt den Wunschtag und eine Alternative",
+        "Fragt nach dem weiteren Vorgehen",
+        "Zeigt, dass man die Lage kennt, ohne zu betteln",
+        "Klar gegliedert und verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "E-Mail: Wohnsitzbestätigung bestellen",
+    "prompt": "Schreiben Sie eine E-Mail an die Einwohnerdienste. 60 bis 80 Wörter.",
+    "payload": {
+      "stimulus": "Ihre Arbeitgeberin verlangt eine Wohnsitzbestätigung. Sie können unter der Woche nicht an den Schalter kommen.",
+      "charBand": {
+        "min": 320,
+        "max": 620
+      },
+      "criteria": [
+        "Sagt genau, welches Dokument gebraucht wird",
+        "Sagt, wofür es ist",
+        "Gibt Name, Adresse und Geburtsdatum an",
+        "Fragt, ob es per Post geschickt werden kann, und nach den Kosten",
+        "Formelle Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Antwort auf eine Mahnung",
+    "prompt": "Schreiben Sie eine E-Mail. 60 bis 90 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Mahnung für eine Rechnung bekommen, die Sie vor drei Wochen bezahlt haben. Sie haben den Beleg.",
+      "charBand": {
+        "min": 320,
+        "max": 680
+      },
+      "criteria": [
+        "Nennt die Rechnung (Datum oder Betrag)",
+        "Sagt, wann und wie bezahlt wurde",
+        "Bietet den Beleg an",
+        "Bleibt bestimmt, ohne unhöflich zu werden",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Aushang: Suche Mitfahrgelegenheit",
+    "prompt": "Schreiben Sie einen Aushang. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie arbeiten in einem Dorf, das schlecht mit dem Bus erreichbar ist, und suchen jemanden zum Mitfahren.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, wohin und zu welchen Zeiten",
+        "Bietet etwas an (Beteiligung an den Kosten)",
+        "Gibt einen Kontakt an",
+        "Kurz und für Fremde sofort verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Leserbrief: Kurszeiten in der Gemeinde",
+    "prompt": "Schreiben Sie einen kurzen Leserbrief. 90 bis 120 Wörter.",
+    "payload": {
+      "stimulus": "Im Gemeindeblatt stand: «Wer Deutsch lernen will, findet auch Zeit dafür.» In Ihrer Gemeinde finden alle Kurse am Vormittag statt.",
+      "charBand": {
+        "min": 500,
+        "max": 900
+      },
+      "criteria": [
+        "Bezieht sich klar auf die Aussage im Blatt",
+        "Begründet die Meinung mit mindestens zwei Argumenten",
+        "Verknüpft mit Konnektoren (weil, deshalb, trotzdem, obwohl)",
+        "Bleibt sachlich und greift niemanden persönlich an",
+        "Erkennbarer Aufbau: Bezug, Argumente, Schluss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Stellungnahme zur Wohnungsabnahme",
+    "prompt": "Schreiben Sie eine sachliche Stellungnahme. 90 bis 120 Wörter.",
+    "payload": {
+      "stimulus": "Nach der Wohnungsabgabe verlangt die Verwaltung 400 Franken für Löcher in der Wand. Im Protokoll steht, die Löcher seien fachgerecht verschlossen worden.",
+      "charBand": {
+        "min": 500,
+        "max": 900
+      },
+      "criteria": [
+        "Nimmt Bezug auf das Protokoll und sein Datum",
+        "Zitiert oder nennt, was dort festgehalten wurde",
+        "Widerspricht mit einer nachvollziehbaren Begründung",
+        "Bleibt durchgehend sachlich — kein Vorwurf, keine Emotion",
+        "Sagt klar, was man erwartet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Leserbrief: Der Termin der Gemeindeversammlung",
+    "prompt": "Schreiben Sie einen kurzen Leserbrief. 90 bis 120 Wörter.",
+    "payload": {
+      "stimulus": "Zwei Meinungen stehen im Gemeindeblatt: die eine sagt, der Termin am Dienstagabend sei schuld an der tiefen Beteiligung; die andere sagt, es liege an den unverständlichen Unterlagen.",
+      "charBand": {
+        "min": 500,
+        "max": 900
+      },
+      "criteria": [
+        "Gibt beide Positionen kurz und fair wieder, bevor die eigene kommt",
+        "Bezieht klar Stellung",
+        "Begründet mit mindestens zwei Argumenten",
+        "Macht einen konkreten Vorschlag",
+        "Erkennbarer Aufbau und respektvoller Ton"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Bewerbung: Teilzeit im Quartierladen",
+    "prompt": "Schreiben Sie ein kurzes Bewerbungsschreiben. 90 bis 120 Wörter.",
+    "payload": {
+      "stimulus": "Der Quartierladen sucht eine Aushilfe für zwei Nachmittage pro Woche. Sie haben früher in einem Laden gearbeitet, allerdings nicht in der Schweiz.",
+      "charBand": {
+        "min": 500,
+        "max": 900
+      },
+      "criteria": [
+        "Nennt die Stelle und woher man von ihr weiss",
+        "Verbindet die eigene Erfahrung mit dem, was verlangt wird",
+        "Geht offen mit der Erfahrung im Ausland um, statt sie zu verstecken",
+        "Sagt konkret, was man mitbringt — nicht nur, dass man motiviert ist",
+        "Formelle Bewerbungsform mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Einsprache gegen eine Gebühr",
+    "prompt": "Schreiben Sie eine sachliche Einsprache. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Rechnung für eine Sperrgutabfuhr bekommen, die Sie nicht bestellt haben. Am selben Tag hat auch Ihr Nachbar Sperrgut hinausgestellt.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Nimmt Bezug auf die Rechnung und ihr Datum",
+        "Widerspricht mit einer nachvollziehbaren Begründung",
+        "Beschreibt, was tatsächlich war, ohne den Nachbarn zu beschuldigen",
+        "Bleibt durchgehend sachlich",
+        "Formuliert klar, was man von der Behörde erwartet",
+        "Formeller Aufbau, wie ihn eine Behörde erwartet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

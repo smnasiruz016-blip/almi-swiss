@@ -507,5 +507,639 @@
       ]
     },
     "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Anschlag am Schwarzen Brett",
+    "prompt": "Lesen Sie den Anschlag und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Reparatur-Treff im Gemeindesaal\n\nSamstag, 8. März, 13.00 bis 17.00 Uhr\n\nBringen Sie kaputte Geräte, Kleider oder Velos mit. Freiwillige helfen Ihnen beim Reparieren. Sie reparieren selbst mit — wir machen es nicht für Sie. Der Eintritt ist frei; Ersatzteile bezahlen Sie selbst.\n\nEine Anmeldung ist nicht nötig.",
+      "question": "Was ist beim Reparatur-Treff wichtig?",
+      "options": [
+        "Man repariert selbst mit",
+        "Man muss sich vorher anmelden",
+        "Man bezahlt einen Eintritt",
+        "Man bekommt neue Geräte"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Merkblatt: Gebührensack",
+    "prompt": "Lesen Sie das Merkblatt der Gemeinde. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Abfall\n\nHauskehricht gehört in den offiziellen Gebührensack unserer Gemeinde. Säcke aus anderen Gemeinden werden nicht abgeführt. Sie erhalten die Säcke im Laden oder am Schalter.\n\nPapier, Karton, Glas, PET und Metall gehören nicht in den Gebührensack. Diese Sammlungen sind kostenlos.\n\nWelche Säcke gelten, ist von Gemeinde zu Gemeinde verschieden. Fragen Sie im Zweifel bei Ihrer Gemeinde nach.",
+      "question": "Aussage: Laut dem Merkblatt kostet auch die Papiersammlung etwas.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Einladung zum Quartierfest",
+    "prompt": "Lesen Sie die Einladung und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Nachbarinnen und Nachbarn\n\nAm Sonntag, 15. Juni, feiern wir das Quartierfest auf dem Spielplatz. Beginn ist um 11.00 Uhr.\n\nGetränke und Wurst gibt es vor Ort. Wir freuen uns, wenn jede Familie einen Salat oder einen Kuchen mitbringt.\n\nBei Regen findet das Fest im Gemeindesaal statt.\n\nDas Quartierteam",
+      "question": "Was passiert, wenn es regnet?",
+      "options": [
+        "Das Fest fällt aus",
+        "Das Fest ist im Gemeindesaal",
+        "Das Fest ist eine Woche später",
+        "Das Fest beginnt später"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Hinweis in der Bibliothek",
+    "prompt": "Lesen Sie den Hinweis und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Gemeindebibliothek\n\nBücher können Sie vier Wochen ausleihen. Danach verlängern Sie die Frist am Schalter oder im Internet — das geht zweimal.\n\nWer ein Buch zu spät zurückbringt, bezahlt eine kleine Gebühr pro Tag.\n\nDie Benutzung der Computer ist für alle gratis.",
+      "question": "Wie lange kann man ein Buch zuerst behalten?",
+      "options": [
+        "Zwei Wochen",
+        "Vier Wochen",
+        "Zweimal vier Wochen",
+        "Bis man es zurückbringt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Anmeldung zum Elternabend",
+    "prompt": "Lesen Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Liebe Eltern\n\nAm Donnerstag, 6. November, um 19.30 Uhr findet der Elternabend der Klasse 4b statt.\n\nBitte melden Sie sich bis Montag mit dem Talon an. Wenn Sie an diesem Abend nicht können, melden Sie sich bitte trotzdem — wir bieten Ihnen dann ein Einzelgespräch an.\n\nFür kleine Kinder ist eine Betreuung vor Ort organisiert.",
+      "question": "Aussage: Wer am Elternabend nicht kommen kann, soll sich trotzdem melden.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Aushang: Wasser abgestellt",
+    "prompt": "Lesen Sie den Aushang und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Liebe Bewohnerinnen und Bewohner\n\nAm Dienstag, 4. Februar, ist von 8.00 bis etwa 12.00 Uhr das Wasser im ganzen Haus abgestellt. Grund ist eine Reparatur an der Leitung im Keller.\n\nBitte füllen Sie am Vorabend Wasser ab. Nach der Reparatur kann das Wasser kurz braun sein. Lassen Sie es dann einige Minuten laufen.\n\nDie Hausverwaltung",
+      "question": "Was soll man tun, wenn das Wasser danach braun ist?",
+      "options": [
+        "Die Verwaltung anrufen",
+        "Das Wasser einige Minuten laufen lassen",
+        "Kein Wasser mehr trinken",
+        "Einen Handwerker rufen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Preisliste im Hallenbad",
+    "prompt": "Lesen Sie die Preisliste und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Hallenbad — Eintritt\n\nErwachsene: 8 Franken\nKinder bis 16 Jahre: 4 Franken\nFamilienkarte (2 Erwachsene, eigene Kinder): 18 Franken\n\nEinwohnerinnen und Einwohner der Gemeinde bezahlen mit der Gemeindekarte 2 Franken weniger pro Person.\n\nAm Montag ist das Hallenbad geschlossen.",
+      "question": "Frau Ilunga wohnt in der Gemeinde und geht allein schwimmen. Was bezahlt sie mit der Gemeindekarte?",
+      "options": [
+        "4 Franken",
+        "6 Franken",
+        "8 Franken",
+        "18 Franken"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Mahnung der Krankenkasse",
+    "prompt": "Lesen Sie das Schreiben und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Sehr geehrter Herr Fofana\n\nUnsere Prämienrechnung vom 5. Januar über CHF 340.00 ist noch offen. Wir bitten Sie, den Betrag innert 30 Tagen zu bezahlen.\n\nWenn Sie die Prämie im Moment nicht bezahlen können, melden Sie sich bitte bei uns. Wir suchen gemeinsam eine Lösung, zum Beispiel eine Ratenzahlung.\n\nHaben Sie den Betrag bereits überwiesen, betrachten Sie dieses Schreiben als gegenstandslos.\n\nFreundliche Grüsse\nKranken AG",
+      "question": "Was soll Herr Fofana tun, wenn er im Moment nicht bezahlen kann?",
+      "options": [
+        "Die Krankenkasse wechseln",
+        "Sich bei der Kasse melden",
+        "Nichts tun und warten",
+        "Die Rechnung zurückschicken"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Merkblatt: Umzug in der Gemeinde",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Wenn Sie innerhalb der Gemeinde umziehen, müssen Sie Ihre neue Adresse den Einwohnerdiensten {{1}}. Sie haben dafür in der Regel vierzehn Tage {{2}} dem Umzug Zeit. Bringen Sie Ihren Ausweis mit. Die Gemeinde ändert die Adresse dann im Register. Denken Sie auch {{3}}, die Post und Ihre Krankenkasse zu informieren.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "melden",
+            "mieten",
+            "holen",
+            "zahlen"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "nach",
+            "vor",
+            "ohne",
+            "statt"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "daran",
+            "damit",
+            "dazu",
+            "davon"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "ORDERING",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Ein Gesuch bei der Gemeinde einreichen",
+    "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
+    "payload": {
+      "instructions": "Herr Camara möchte ein Gesuch einreichen. Ordnen Sie die Schritte vom ersten bis zum letzten.",
+      "items": [
+        "Auf der Website der Gemeinde nachsehen, welche Unterlagen verlangt werden",
+        "Die fehlenden Dokumente bestellen und sammeln",
+        "Das Formular ausfüllen und unterschreiben",
+        "Das Gesuch mit den Unterlagen am Schalter abgeben",
+        "Die Empfangsbestätigung aufbewahren"
+      ]
+    },
+    "answer": {
+      "type": "ORDERING",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Information zur Nachbarschaftshilfe",
+    "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Nachbarschaftshilfe im Quartier\n\nWer Hilfe braucht — beim Einkaufen, beim Ausfüllen eines Formulars oder bei einem Weg zum Arzt —, kann sich bei uns melden. Freiwillige aus dem Quartier helfen gerne.\n\nDie Hilfe ist kostenlos. Wir sind keine Behörde und geben keine amtlichen Auskünfte. Bei Fragen zu Bewilligungen oder zur Einbürgerung wenden Sie sich bitte an Ihre Gemeinde.\n\nTelefon: Montag bis Freitag, 9.00 bis 11.00 Uhr",
+      "question": "Aussage: Laut dem Text kann man bei der Nachbarschaftshilfe auch amtliche Auskünfte zur Einbürgerung bekommen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Merkblatt: Velo im Verkehr",
+    "prompt": "Lesen Sie das Merkblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt: Mit dem Velo unterwegs\n\nSobald es dunkel ist, braucht Ihr Velo vorne ein weisses und hinten ein rotes Licht.\n\nEin Helm ist für Erwachsene auf dem normalen Velo nicht vorgeschrieben. Wir empfehlen ihn trotzdem.\n\nAuf dem Trottoir dürfen Sie nicht fahren. Stellen Sie Ihr Velo so ab, dass niemand behindert wird.\n\nDieses Merkblatt ist eine Information der Gemeinde und ersetzt keine Rechtsauskunft.",
+      "question": "Was sagt das Merkblatt über den Helm für Erwachsene?",
+      "options": [
+        "Er ist vorgeschrieben",
+        "Er ist nur nachts vorgeschrieben",
+        "Er ist nicht vorgeschrieben, wird aber empfohlen",
+        "Er ist nur für Kinder erlaubt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 2
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Welches Formular brauche ich?",
+    "prompt": "Ordnen Sie jedem Anliegen das passende Formular zu.",
+    "payload": {
+      "instructions": "Am Schalter liegen verschiedene Formulare. Ordnen Sie zu.",
+      "left": [
+        "Frau Tadesse zieht in eine andere Gemeinde und meldet sich hier ab.",
+        "Herr Novak braucht eine Bestätigung, dass er hier wohnt.",
+        "Familie Reis meldet ihr Kind für den Kindergarten an.",
+        "Frau Bianchi will für ein Fest die Strasse kurz sperren lassen."
+      ],
+      "right": [
+        "Abmeldung",
+        "Wohnsitzbestätigung",
+        "Anmeldung Kindergarten",
+        "Gesuch für eine Veranstaltung",
+        "Steuererklärung"
+      ]
+    },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Protokoll der Wohnungsabnahme",
+    "prompt": "Lesen Sie den Auszug aus dem Protokoll und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Protokoll der Wohnungsabnahme vom 30. September\n\nKüche: Backofen sauber. Dichtung am Kühlschrank porös — normale Abnützung, geht zulasten der Vermieterin.\n\nWohnzimmer: Zwei Dübellöcher, fachgerecht verschlossen. In Ordnung.\n\nBad: Spiegelschrank gesprungen. Nicht Abnützung; der Betrag wird von der Kaution abgezogen.\n\nDie Mieterin ist nicht verpflichtet, das Protokoll sofort zu unterschreiben.",
+      "question": "Was gilt laut dem Protokoll für den gesprungenen Spiegelschrank?",
+      "options": [
+        "Er ist normale Abnützung",
+        "Der Betrag wird von der Kaution abgezogen",
+        "Die Vermieterin bezahlt ihn",
+        "Er muss nicht ins Protokoll"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Anschlag: Sperrgutabfuhr",
+    "prompt": "Lesen Sie den Anschlag. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "passage": "Sperrgutabfuhr\n\nAm Freitag, 21. März, holen wir Sperrgut ab: alte Möbel, Teppiche, Matratzen.\n\nStellen Sie das Sperrgut bis 7.00 Uhr an den Strassenrand. Elektrogeräte nehmen wir nicht mit — diese geben Sie dort zurück, wo Sie solche Geräte kaufen können.\n\nDie Abfuhr ist im Gebührensack nicht enthalten; sie wird separat verrechnet.",
+      "question": "Aussage: Laut dem Anschlag kann man am 21. März auch einen alten Kühlschrank an den Strassenrand stellen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Merkblatt: Das Einbürgerungsgespräch",
+    "prompt": "Lesen Sie das Merkblatt Ihrer Gemeinde und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Merkblatt der Gemeinde: Wie geht es nach dem Gesuch weiter?\n\nNach der Prüfung Ihrer Unterlagen laden viele Gemeinden zu einem persönlichen Gespräch ein. Ob ein solches Gespräch stattfindet, wie es abläuft und wer daran teilnimmt, ist nicht überall gleich — das regelt jede Gemeinde selbst, im Rahmen des kantonalen Rechts.\n\nEin Gespräch ist kein Sprachtest. Ihre Sprachkenntnisse weisen Sie mit einem anerkannten Nachweis nach.\n\nErkundigen Sie sich frühzeitig bei uns, was in unserer Gemeinde gilt.",
+      "question": "Was sagt das Merkblatt über das Einbürgerungsgespräch?",
+      "options": [
+        "Es läuft in der ganzen Schweiz gleich ab",
+        "Ob und wie es stattfindet, entscheidet die Gemeinde",
+        "Es ersetzt den Sprachnachweis",
+        "Es findet immer vor der Prüfung der Unterlagen statt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Zwei Stimmen zur Gemeindeversammlung",
+    "prompt": "Lesen Sie die beiden Beiträge aus dem Gemeindeblatt und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Ariana (29): «An der Gemeindeversammlung sitzen fast nur ältere Leute. Das liegt nicht am Interesse — der Termin am Dienstagabend passt einfach niemandem, der Kinder hat oder Schicht arbeitet. Wer etwas ändern will, muss beim Termin anfangen, nicht bei den Leuten.»\n\nBeat (62): «Der Termin ist nicht das Problem. Wir haben ihn schon zweimal verschoben, und es kamen nicht mehr Leute. Man muss erklären, worüber überhaupt abgestimmt wird — das Traktandenblatt versteht ja kaum jemand. Am Termin liegt es nicht.»",
+      "question": "Worin sind sich Ariana und Beat NICHT einig?",
+      "options": [
+        "Ob zu wenige junge Leute kommen",
+        "Ob der Termin die Ursache ist",
+        "Ob die Gemeindeversammlung nützlich ist",
+        "Ob das Traktandenblatt schwer zu verstehen ist"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "STRETCH",
+    "cefr": "A2",
+    "title": "Auszug aus dem Mietvertrag",
+    "prompt": "Lesen Sie den Auszug und wählen Sie für jede Lücke das passende Wort.",
+    "payload": {
+      "passage": "Der Mietzins ist jeweils bis zum letzten Tag des Vormonats zu {{1}}. Die Mietkaution wird auf ein Konto einbezahlt, das auf den Namen der Mieterin {{2}}. Kleine Reparaturen gehen zulasten der Mieterin, {{3}} sie einen im Vertrag festgelegten Betrag nicht übersteigen.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "bezahlen",
+            "verlangen",
+            "erhalten",
+            "kündigen"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "lautet",
+            "gehört",
+            "bleibt",
+            "steht"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "soweit",
+            "obwohl",
+            "damit",
+            "seitdem"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 3
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MATCHING",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Wer entscheidet worüber?",
+    "prompt": "Ordnen Sie jede Frage der Stelle zu, die laut dem Merkblatt darüber entscheidet.",
+    "payload": {
+      "instructions": "Auszug aus einem Merkblatt zur ordentlichen Einbürgerung. Ordnen Sie zu.",
+      "left": [
+        "Welche Sprachniveaus als Minimum gelten",
+        "Ob in Ihrer Gemeinde mehr verlangt wird als das Minimum",
+        "Ob Sie den Sprachnachweis bestanden haben",
+        "Ob Ihr Gesuch am Ende angenommen wird"
+      ],
+      "right": [
+        "Der Bund",
+        "Kanton und Gemeinde",
+        "Die anerkannte Prüfungsstelle",
+        "Ihre Wohngemeinde und der Kanton",
+        "Der Sprachkurs, den Sie besuchen"
+      ]
+    },
+    "answer": {
+      "type": "MATCHING",
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Leserbrief: Deutsch am Arbeitsplatz",
+    "prompt": "Lesen Sie den Leserbrief und wählen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Man liest oft, Zugezogene müssten «einfach mehr Deutsch reden». Ich arbeite seit elf Jahren auf dem Bau. Auf der Baustelle wird Mundart gesprochen, im Kurs Hochdeutsch, und in den Briefen der Gemeinde steht eine Sprache, die auch meine Schweizer Kollegen zweimal lesen.\n\nIch sage nicht, dass Sprache unwichtig ist — im Gegenteil. Aber wer nach acht Stunden Arbeit in den Kurs geht, braucht keinen Rat, sondern einen Kurs, der abends stattfindet und den er bezahlen kann. Den gibt es in unserer Gemeinde nicht.\n\nHamid B.",
+      "question": "Was ist Hamids Hauptaussage?",
+      "options": [
+        "Sprache ist für die Arbeit auf dem Bau unwichtig",
+        "Es fehlt nicht am Willen, sondern an einem passenden Kursangebot",
+        "Auf der Baustelle sollte man Hochdeutsch sprechen",
+        "Die Briefe der Gemeinde sind unnötig"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
