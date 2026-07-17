@@ -2150,5 +2150,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Auskunft: Wo stelle ich das Einbürgerungsgesuch?",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag. Sie möchten wissen, wo Sie das Gesuch für die ordentliche Einbürgerung stellen. Das machen Sie bei uns, bei der Gemeinde. Wir prüfen die Unterlagen, dann sind auch der Kanton und der Bund beteiligt: Der Bund gibt die Bewilligung, und über die Einbürgerung selbst entscheiden Gemeinde und Kanton. Wichtig ist, dass Sie zuerst zu uns kommen. Bringen Sie einen Ausweis mit und Ihren Sprachnachweis, dann sagen wir Ihnen, wie es weitergeht.",
+      "question": "Wo stellt man laut der Auskunft das Gesuch für die ordentliche Einbürgerung?",
+      "options": [
+        "Bei der Gemeinde",
+        "Direkt beim Bund (SEM)",
+        "Bei der Krankenkasse",
+        "Beim Arbeitgeber"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Nachricht des Sportvereins: Training verschoben",
+    "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Hallo zusammen, hier ist Marco vom Turnverein. Ich muss euch leider mitteilen: Das Training heute Abend fällt aus, weil die Halle kurzfristig gesperrt ist. Wir treffen uns stattdessen am Donnerstag zur gleichen Zeit, also um 19 Uhr. Wer am Donnerstag nicht kann, meldet sich bitte bei mir. Bis dann und einen schönen Tag.",
+      "question": "Was ist die wichtigste Information in der Nachricht?",
+      "options": [
+        "Das heutige Training fällt aus; das nächste ist am Donnerstag um 19 Uhr",
+        "Das Training findet heute wie immer statt",
+        "Der Turnverein wird aufgelöst",
+        "Die Halle wird neu gebaut"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Radiobeitrag: das neue Hallenbad",
+    "prompt": "Hören Sie den Radiobeitrag und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Und nun zu einer guten Nachricht aus der Region: Das Hallenbad in Neudorf ist nach dem Umbau wieder offen. Es gibt neu ein grösseres Becken und einen Bereich für Kinder. Geöffnet ist es täglich von 8 bis 21 Uhr, montags erst ab 12 Uhr. Der Eintritt bleibt gleich wie vorher. Am ersten Wochenende ist der Eintritt für Kinder gratis.",
+      "question": "Was ist am Hallenbad neu?",
+      "options": [
+        "Ein grösseres Becken und ein Bereich für Kinder",
+        "Es ist jetzt teurer",
+        "Es ist nur am Wochenende offen",
+        "Es ist für immer geschlossen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Der Wetterbericht",
+    "prompt": "Hören Sie den Wetterbericht und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Und hier das Wetter für morgen: Am Morgen ist es noch bewölkt und kühl, am Nachmittag kommt die Sonne. Es bleibt trocken. Die Temperaturen steigen auf etwa 18 Grad. Am Abend wird es wieder frischer, nehmen Sie also eine Jacke mit, wenn Sie länger draussen sind.",
+      "question": "Wie wird das Wetter morgen Nachmittag?",
+      "options": [
+        "Sonnig und trocken",
+        "Regnerisch",
+        "Sehr heiss",
+        "Es schneit"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Ansage auf dem Wochenmarkt",
+    "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, an unserem Stand gibt es heute frische Erdbeeren im Angebot: zwei Schalen zum Preis von einer. Und wer einen Salat kauft, bekommt einen Bund Radieschen dazu. Das Angebot gilt nur heute, solange der Vorrat reicht. Kommen Sie vorbei!",
+      "question": "Aussage: Laut der Ansage gilt das Angebot für die Erdbeeren die ganze Woche.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

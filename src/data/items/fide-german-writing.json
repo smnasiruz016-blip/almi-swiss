@@ -2111,5 +2111,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Postkarte aus den Ferien",
+    "prompt": "Schreiben Sie eine kurze Postkarte. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie sind in den Ferien in den Bergen. Schreiben Sie Ihrer Freundin Lena eine kurze Postkarte: Sagen Sie, wo Sie sind, was Sie machen, wie das Wetter ist, und dass Sie sich freuen, sie bald wiederzusehen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Sagt, wo Sie sind und was Sie machen",
+        "Sagt etwas zum Wetter",
+        "Freut sich auf das Wiedersehen",
+        "Passende Anrede und Gruss für eine Postkarte"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Formular: Angaben für den Sportverein",
+    "prompt": "Füllen Sie die Angaben in ganzen Sätzen aus. 40 bis 60 Wörter.",
+    "payload": {
+      "stimulus": "Sie melden sich bei einem Sportverein an. Füllen Sie die fehlenden Angaben in ganzen Sätzen aus: Ihr Name, welche Sportart Sie machen möchten, wie oft Sie Zeit haben und eine Telefonnummer für Rückfragen.",
+      "charBand": {
+        "min": 200,
+        "max": 420
+      },
+      "criteria": [
+        "Nennt Name und gewünschte Sportart",
+        "Sagt, wie oft/wann Sie Zeit haben",
+        "Gibt eine Telefonnummer an",
+        "Schreibt in ganzen, verständlichen Sätzen"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Einladung zum Geburtstag",
+    "prompt": "Schreiben Sie eine Einladung. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Ihr Kind hat bald Geburtstag und Sie machen ein kleines Fest. Schreiben Sie eine Einladung an die Eltern eines Freundes: Nennen Sie den Anlass, Datum und Zeit, den Ort und bitten Sie um eine kurze Antwort, ob das Kind kommt.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Nennt den Anlass (Geburtstag) und das Kind",
+        "Nennt Datum, Zeit und Ort",
+        "Bittet um eine Antwort",
+        "Freundlicher Ton, Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Eine kurze Bewertung schreiben",
+    "prompt": "Schreiben Sie eine kurze Bewertung. 50 bis 70 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben einen Deutschkurs besucht und waren zufrieden. Schreiben Sie eine kurze Bewertung für die Webseite der Sprachschule: Sagen Sie, was Ihnen gefallen hat, was man verbessern könnte, und ob Sie den Kurs weiterempfehlen.",
+      "charBand": {
+        "min": 260,
+        "max": 520
+      },
+      "criteria": [
+        "Sagt, was Ihnen am Kurs gefallen hat",
+        "Nennt einen Verbesserungsvorschlag",
+        "Sagt, ob Sie den Kurs weiterempfehlen",
+        "Klar und freundlich formuliert"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "E-Mail an das Kundencenter: eine falsche Rechnung",
+    "prompt": "Schreiben Sie eine sachliche E-Mail. 90 bis 130 Wörter.",
+    "payload": {
+      "stimulus": "Sie haben eine Rechnung für Ihr Handyabo bekommen, die viel höher ist als sonst. Sie haben nichts anders gemacht als sonst. Schreiben Sie dem Kundencenter eine sachliche E-Mail: Schildern Sie das Problem, nennen Sie Ihre Kundennummer und die Beträge und bitten Sie um Prüfung und Korrektur.",
+      "charBand": {
+        "min": 520,
+        "max": 950
+      },
+      "criteria": [
+        "Schildert das Problem klar (Rechnung viel höher als sonst)",
+        "Nennt Kundennummer und die Beträge",
+        "Bittet um Prüfung und Korrektur",
+        "Bleibt sachlich und höflich",
+        "Formeller Aufbau mit Anrede und Gruss"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
