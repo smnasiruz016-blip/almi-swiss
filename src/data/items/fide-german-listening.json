@@ -1254,5 +1254,133 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Auskunft: der Gebührensack in der neuen Gemeinde",
+    "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, willkommen in unserer Gemeinde. Sie fragen wegen der Abfallsäcke. Ja, bei uns brauchen Sie die offiziellen Gebührensäcke unserer Gemeinde. Säcke aus Ihrer alten Gemeinde nehmen wir hier nicht mit — das ist von Gemeinde zu Gemeinde verschieden. Die Säcke bekommen Sie im Laden oder am Schalter. Papier, Karton, Glas und Metall sammeln wir getrennt; dafür brauchen Sie keinen Gebührensack. Wenn Sie unsicher sind, was wohin gehört, fragen Sie einfach nach.",
+      "question": "Was ist laut der Auskunft richtig?",
+      "options": [
+        "In dieser Gemeinde gelten nur die eigenen Gebührensäcke",
+        "Die Säcke aus der alten Gemeinde gelten auch hier",
+        "In der ganzen Schweiz gelten dieselben Säcke",
+        "Für Papier und Glas braucht man einen Gebührensack"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Gespräch: einen Handwerkertermin abmachen",
+    "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Herr Kaya: Guten Tag, Sanitär Bühler? Bei mir tropft der Wasserhahn in der Küche.\nFrau Bühler: Guten Tag. Das schauen wir uns an. Passt Ihnen Donnerstagmorgen zwischen 8 und 10 Uhr?\nHerr Kaya: Donnerstagmorgen arbeite ich. Geht auch der Nachmittag?\nFrau Bühler: Ja, ich komme um 14 Uhr. Sind Sie dann zu Hause?\nHerr Kaya: Ja, das passt. Was kostet der Besuch ungefähr?\nFrau Bühler: Die Anfahrt und die erste halbe Stunde kosten 120 Franken, das Material kommt dazu.\nHerr Kaya: Gut, dann bis Donnerstag um 14 Uhr.",
+      "question": "Was ist am Ende abgemacht?",
+      "options": [
+        "Der Handwerker kommt am Donnerstag um 14 Uhr",
+        "Der Handwerker kommt am Donnerstagmorgen",
+        "Herr Kaya bringt den Wasserhahn vorbei",
+        "Es wird kein Termin gemacht"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Anruf von der Schule: Ihr Kind ist krank geworden",
+    "prompt": "Hören Sie den Anruf und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Guten Tag, hier ist die Schule Feldrain, ich rufe wegen Ihres Sohnes Elias an. Ihm ist es im Unterricht nicht gut geworden, er hat Bauchweh und etwas Fieber. Es ist nichts Schlimmes, aber er sollte nach Hause. Können Sie ihn abholen oder jemanden schicken? Wenn wir Sie in einer halben Stunde nicht erreichen, rufen wir die Notfallnummer an, die Sie uns angegeben haben. Bitte melden Sie sich kurz.",
+      "question": "Was soll die angerufene Person tun?",
+      "options": [
+        "Das Kind abholen oder jemanden schicken und sich melden",
+        "Warten, bis die Schule wieder anruft",
+        "Das Kind mit Fieber im Unterricht lassen",
+        "Direkt die Notfallnummer wählen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Durchsage im Supermarkt",
+    "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
+    "payload": {
+      "transcript": "Liebe Kundinnen und Kunden, in zehn Minuten schliessen wir. Bitte gehen Sie langsam zur Kasse. Die Kasse ganz rechts bleibt bis zum Schluss offen. Denken Sie an Ihre Tasche und Ihren Einkaufszettel. Morgen sind wir ab 8 Uhr wieder für Sie da. Vielen Dank für Ihren Einkauf.",
+      "question": "Welche Kasse bleibt bis zum Schluss offen?",
+      "options": [
+        "Die Kasse ganz rechts",
+        "Alle Kassen",
+        "Die Kasse beim Eingang",
+        "Keine Kasse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Nachricht vom Kollegen",
+    "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
+    "payload": {
+      "transcript": "Hallo, hier ist Marco. Du, unser Treffen morgen müssen wir leider verschieben. Der Chef hat für 10 Uhr eine Sitzung angesetzt, da müssen alle hin. Können wir uns stattdessen um 14 Uhr treffen? Schreib mir kurz, ob das für dich geht. Danke und bis morgen.",
+      "question": "Aussage: Laut der Nachricht möchte Marco das Treffen ganz absagen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

@@ -1049,5 +1049,121 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Telefonisch einen Arzttermin vereinbaren",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie fühlen sich seit ein paar Tagen nicht gut: Husten und leichtes Fieber. Rufen Sie in der Arztpraxis an: Beschreiben Sie kurz Ihre Beschwerden, bitten Sie um einen Termin und sagen Sie, wann Sie Zeit haben.",
+      "minSeconds": 60,
+      "criteria": [
+        "Beschreibt die Beschwerden verständlich",
+        "Bittet klar um einen Termin",
+        "Nennt, wann Sie Zeit haben",
+        "Höfliche Telefonsprache und Rückfragen, wenn nötig"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Ein defektes Gerät reklamieren",
+    "prompt": "Sprechen Sie mindestens 60 Sekunden.",
+    "payload": {
+      "stimulus": "Sie haben vor einer Woche einen Wasserkocher gekauft, der schon nicht mehr funktioniert. Gehen Sie in den Laden: Erklären Sie das Problem, zeigen Sie den Beleg und sagen Sie, was Sie möchten (Umtausch oder Geld zurück).",
+      "minSeconds": 60,
+      "criteria": [
+        "Erklärt das Problem klar (Gerät defekt, seit wann)",
+        "Verweist auf den Kaufbeleg",
+        "Sagt deutlich, was Sie möchten (Umtausch oder Rückerstattung)",
+        "Bleibt höflich, auch wenn es Diskussionen gibt"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Eine Nachbarin um Rücksicht bitten",
+    "prompt": "Sprechen Sie mindestens 75 Sekunden.",
+    "payload": {
+      "stimulus": "Die Kinder Ihrer Nachbarin spielen abends oft laut im Treppenhaus, und Ihr Kind kann nicht schlafen. Sprechen Sie die Nachbarin freundlich an: Schildern Sie das Problem, ohne Vorwürfe, und schlagen Sie gemeinsam eine Lösung vor.",
+      "minSeconds": 75,
+      "criteria": [
+        "Spricht das Problem ruhig und ohne Vorwürfe an",
+        "Schildert die Folgen (Kind kann nicht schlafen)",
+        "Schlägt eine konkrete Lösung vor",
+        "Bleibt freundlich und sucht das Einvernehmen",
+        "Strukturiert das Gespräch verständlich"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Im Café etwas bestellen und bezahlen",
+    "prompt": "Sprechen Sie mindestens 45 Sekunden.",
+    "payload": {
+      "stimulus": "Sie sind in einem Café. Bestellen Sie etwas zu trinken und ein Stück Kuchen, fragen Sie, ob man mit Karte zahlen kann, und bitten Sie am Schluss um die Rechnung.",
+      "minSeconds": 45,
+      "criteria": [
+        "Bestellt klar und höflich",
+        "Fragt, ob man mit Karte zahlen kann",
+        "Bittet um die Rechnung"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "DE",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B2",
+    "title": "Vermitteln: Streit um die Besucherparkplätze",
+    "prompt": "Sprechen Sie mindestens 90 Sekunden.",
+    "payload": {
+      "stimulus": "Im Haus gibt es Streit um die zwei Besucherparkplätze: Eine Partei stellt dort oft ihr eigenes Zweitauto ab, andere finden, die Plätze seien nur für Gäste. Sie werden gebeten zu vermitteln. Fassen Sie beide Sichten fair zusammen und führen Sie zu einer gemeinsamen Regel, ohne Partei zu ergreifen.",
+      "minSeconds": 90,
+      "criteria": [
+        "Fasst beide Positionen fair und korrekt zusammen",
+        "Bleibt neutral und ergreift für keine Seite Partei",
+        "Führt das Gespräch auf eine gemeinsame, faire Regel hin",
+        "Reagiert angemessen, auch wenn es emotional wird",
+        "Verwendet Redemittel des Vermittelns (ich verstehe, dass …; auf der anderen Seite …; wie wäre es, wenn …)"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
