@@ -6,6 +6,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Formulaire : annonce d'arrivée",
     "prompt": "Complétez le champ libre en faisant des phrases entières. Écrivez 30 à 50 mots.",
     "payload": {
@@ -16,7 +17,10 @@
         "Écrit des phrases entières, pas des mots-clés",
         "Compréhensible, même si des fautes simples subsistent"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -28,6 +32,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "SMS : annuler un rendez-vous",
     "prompt": "Écrivez un message court. 30 à 50 mots.",
     "payload": {
@@ -38,7 +43,10 @@
         "Demande un nouveau rendez-vous",
         "Formule d'adresse et de salutation polies"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -50,6 +58,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Mot à l'enseignant",
     "prompt": "Écrivez un mot court. 30 à 50 mots.",
     "payload": {
@@ -60,7 +69,10 @@
         "Termine par une formule de politesse et une signature",
         "Compréhensible, même si des fautes simples subsistent"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -72,6 +84,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Petite annonce dans l'entrée",
     "prompt": "Rédigez une annonce courte. 30 à 50 mots.",
     "payload": {
@@ -82,7 +95,10 @@
         "Donne un moyen de contact",
         "Court et lisible"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -94,6 +110,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Message à une voisine",
     "prompt": "Écrivez un message court. 30 à 50 mots.",
     "payload": {
@@ -104,7 +121,10 @@
         "Remercie ou propose quelque chose en retour",
         "Ton amical et poli"
       ],
-      "charBand": { "min": 150, "max": 350 }
+      "charBand": {
+        "min": 150,
+        "max": 350
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -116,6 +136,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel à la régie : le chauffage",
     "prompt": "Rédigez un courriel. 50 à 80 mots.",
     "payload": {
@@ -127,7 +148,10 @@
         "Formule d'adresse, salutation, nom",
         "Reste poli et factuel"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -139,6 +163,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel à la commune : demander un document",
     "prompt": "Rédigez un courriel. 50 à 80 mots.",
     "payload": {
@@ -150,7 +175,10 @@
         "Demande comment recevoir le document ou combien il coûte",
         "Formule d'adresse et salutation"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -162,6 +190,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Répondre à une invitation",
     "prompt": "Répondez à l'invitation. 50 à 80 mots.",
     "payload": {
@@ -173,7 +202,10 @@
         "Propose autre chose (par exemple se voir un autre jour)",
         "Ton amical"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -185,6 +217,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Mot au secrétariat de l'école",
     "prompt": "Rédigez un message. 50 à 80 mots.",
     "payload": {
@@ -196,7 +229,10 @@
         "Reste poli ; ne s'excuse pas de manière excessive",
         "Salutation et nom"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -208,6 +244,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Message à l'employeur : enfant malade",
     "prompt": "Écrivez un message. 50 à 80 mots.",
     "payload": {
@@ -219,7 +256,10 @@
         "Indique quand vous pensez revenir",
         "Ton professionnel"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -231,6 +271,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Résiliation du bail",
     "prompt": "Rédigez la lettre. 50 à 80 mots.",
     "payload": {
@@ -242,7 +283,10 @@
         "Propose de convenir d'un état des lieux",
         "Forme de lettre : adresse, date, salutation, signature"
       ],
-      "charBand": { "min": 250, "max": 550 }
+      "charBand": {
+        "min": 250,
+        "max": 550
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -254,6 +298,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Contester une facture",
     "prompt": "Rédigez le courriel. 80 à 120 mots.",
     "payload": {
@@ -266,7 +311,10 @@
         "Ferme sur le fond, poli dans le ton",
         "Indique un délai ou demande une réponse"
       ],
-      "charBand": { "min": 400, "max": 800 }
+      "charBand": {
+        "min": 400,
+        "max": 800
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -278,6 +326,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Courrier au journal communal",
     "prompt": "Rédigez la lettre de lecteur. 80 à 120 mots.",
     "payload": {
@@ -290,7 +339,10 @@
         "Termine par une demande ou une proposition",
         "Texte structuré, pas une simple liste"
       ],
-      "charBand": { "min": 400, "max": 800 }
+      "charBand": {
+        "min": 400,
+        "max": 800
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -302,6 +354,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Lettre de motivation, court passage",
     "prompt": "Rédigez le passage. 80 à 120 mots.",
     "payload": {
@@ -314,7 +367,10 @@
         "Ton assuré, sans exagération",
         "Enchaînement fluide, pas une liste de puces"
       ],
-      "charBand": { "min": 400, "max": 800 }
+      "charBand": {
+        "min": 400,
+        "max": 800
+      }
     },
     "answer": null,
     "maxPoints": 0
@@ -326,6 +382,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Répondre à la régie après l'état des lieux",
     "prompt": "Rédigez le courriel. 80 à 120 mots.",
     "payload": {
@@ -338,7 +395,10 @@
         "Reste objectif, sans reproches personnels",
         "Mentionne une suite possible (par ex. autorité de conciliation) sans menacer"
       ],
-      "charBand": { "min": 400, "max": 800 }
+      "charBand": {
+        "min": 400,
+        "max": 800
+      }
     },
     "answer": null,
     "maxPoints": 0

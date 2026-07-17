@@ -6,6 +6,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Se présenter",
     "prompt": "Parlez pendant au moins 40 secondes.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Prendre un rendez-vous",
     "prompt": "Parlez pendant au moins 40 secondes.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Décrire le chemin",
     "prompt": "Parlez pendant au moins 40 secondes.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Faire les courses",
     "prompt": "Parlez pendant au moins 40 secondes.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Parler de sa journée",
     "prompt": "Parlez pendant au moins 40 secondes.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Signaler un défaut à la régie",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -139,6 +145,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Au guichet de la commune",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -162,6 +169,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Parler à l'enseignante",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -185,6 +193,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Chez le médecin",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -208,6 +217,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Un malentendu avec un voisin",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -231,6 +241,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Expliquer son parcours",
     "prompt": "Parlez pendant au moins 60 secondes.",
     "payload": {
@@ -254,6 +265,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Défendre une position à la séance",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -278,6 +290,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Expliquer une facture contestée",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -302,6 +315,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Parler de son intégration",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Comparer deux options",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
