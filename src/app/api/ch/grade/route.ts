@@ -15,7 +15,7 @@ import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
 import { examBySlug } from "@/lib/ch/registry";
-import { LANGUAGE_LABEL, isCefrLevel } from "@/lib/ch/types";
+import { LANGUAGE_LABEL, isCefrLevel, levelInstruction } from "@/lib/ch/types";
 import type { SwissSkill, SwissTaskType, CefrLevel } from "@/lib/ch/types";
 
 export const runtime = "nodejs";
@@ -134,9 +134,9 @@ export async function POST(req: Request): Promise<NextResponse> {
 
   const system = [
     `You are an experienced ${examLanguage}-language examiner for ${examName}.`,
-    cefr
-      ? `This task is pitched at CEFR ${cefr}. Judge it at ${cefr} — not above it and not below it.`
-      : `This task does not declare a CEFR level, so judge it against its own criteria only and do not assume a level.`,
+    // Shared, so no fork can drift back to handing the model an exam LABEL. The
+    // labels are ranges ("A1–B1") and a range is not a standard.
+    levelInstruction(cefr ?? undefined),
     `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official result, and you never claim otherwise.`,
     isSpeaking
       ? `This is a SPEAKING task; the learner has typed the answer they would say aloud, so judge content, structure, range and appropriacy, not pronunciation.`

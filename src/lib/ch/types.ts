@@ -64,28 +64,34 @@ export type SwissTaskType =
 
 export type SwissDifficulty = "FOUNDATION" | "CORE" | "STRETCH";
 
-/** The CEFR level a task is actually pitched at.
- *
- *  DIFFICULTY IS NOT A LEVEL. `SwissDifficulty` is a ladder *within* a module
- *  (relative: FOUNDATION → CORE → STRETCH); `CefrLevel` is an absolute claim about
- *  the task itself. They cross: fide-german reading #13 is STRETCH but sits at A2,
- *  and every listening STRETCH sits at B1 — the module's own goal. Treating
- *  "STRETCH" as "above the goal" would have thrown away tasks that ARE the goal.
- *  So the level-crossing rule below keys on this field vs the module's goal, and
- *  never on difficulty. */
-export type CefrLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
-
-export const CEFR_ORDER: CefrLevel[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
-
-/** Compare two CEFR levels: <0 a below b, 0 equal, >0 a above b. */
-export function compareCefr(a: CefrLevel, b: CefrLevel): number {
-  return CEFR_ORDER.indexOf(a) - CEFR_ORDER.indexOf(b);
-}
-
-export function isCefrLevel(v: unknown): v is CefrLevel {
-  return typeof v === "string" && (CEFR_ORDER as string[]).includes(v);
-}
-
+// The CEFR types and the level-crossing rule live in @smnasiruz016-blip/almi-data,
+// re-exported here so every call site in this repo keeps its `@/lib/ch/types` import.
+//
+// WHY NOT HERE: every language fork ships a COPY of the runner and grader, and all
+// seven carried the identical bug this rule fixes. A local copy of the rule would
+// freeze on fork day exactly like the family list did — and the next fork
+// (AlmiChinese) would inherit the frozen one. See src/cefr.ts in the almi-data repo.
+//
+// ➜ DO NOT re-add these definitions to this file. A second copy will not throw when
+//   it drifts; it will just quietly band learners differently from its siblings.
+//
+// DIFFICULTY IS NOT A LEVEL. `SwissDifficulty` above is a ladder WITHIN a module
+// (FOUNDATION → CORE → STRETCH, relative); `CefrLevel` is an absolute claim about the
+// task. They cross: fide-german reading #13 is STRETCH but sits at A2, and every
+// listening STRETCH sits at B1 — the goal itself. So the rule keys on level vs goal,
+// never on difficulty.
+export {
+  CEFR_ORDER,
+  compareCefr,
+  isCefrLevel,
+  levelRole,
+  splitByLevel,
+  levelInstruction,
+  type CefrLevel,
+  type LevelRole,
+  type LevelScored,
+  type LevelSplit,
+} from "@smnasiruz016-blip/almi-data";
 export const OBJECTIVE_TASK_TYPES: SwissTaskType[] = [
   "MCQ_SINGLE",
   "MATCHING",
