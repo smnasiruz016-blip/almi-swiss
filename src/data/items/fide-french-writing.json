@@ -402,5 +402,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS à un ami : arriver plus tard",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous avez rendez-vous avec votre ami Karim à 15h, mais vous serez en retard d'environ une demi-heure à cause du travail. Écrivez-lui un court SMS : prévenez-le, excusez-vous et proposez un lieu de rendez-vous.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Dit qu'il/elle arrivera plus tard et de combien",
+        "S'excuse brièvement",
+        "Propose un lieu de rendez-vous",
+        "Ton amical, formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Mot au voisin : emprunter une échelle",
+    "prompt": "Écrivez un mot court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous voulez accrocher un tableau et vous avez besoin d'une échelle. Écrivez un court mot à votre voisin, Monsieur Aebi : demandez poliment si vous pouvez emprunter son échelle et dites quand vous la rendrez.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Explique la raison (accrocher un tableau)",
+        "Demande poliment d'emprunter l'échelle",
+        "Dit quand il/elle la rendra",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la crèche : jours de vacances",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre enfant va à la crèche. Dans deux semaines, vous partez une semaine en vacances et votre enfant ne viendra pas. Écrivez un court courriel à la crèche : indiquez les jours exacts et demandez si vous devez quand même payer cette semaine-là.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Indique les jours exacts des vacances",
+        "Dit que l'enfant ne viendra pas",
+        "Demande s'il faut payer cette semaine",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : meuble à donner",
+    "prompt": "Rédigez une annonce courte. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez un canapé et une petite table dont vous n'avez plus besoin et que vous souhaitez donner. Rédigez une courte annonce pour le panneau de l'immeuble : décrivez les meubles, dites qu'ils sont gratuits et comment vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Décrit brièvement les meubles (canapé, table, état)",
+        "Dit clairement qu'ils sont gratuits",
+        "Indique comment vous joindre",
+        "Clair et bien présenté"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à la régie : réparation non faite",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Il y a trois semaines, vous avez signalé à votre régie que votre fenêtre ne ferme plus bien. On vous a promis une réparation, mais rien n'a été fait, et il commence à faire froid. Rédigez un courriel objectif : rappelez votre signalement, décrivez les conséquences et demandez un rendez-vous précis.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Rappelle le signalement précédent avec la date",
+        "Décrit les conséquences de façon objective (fenêtre, froid)",
+        "Demande un rendez-vous de réparation précis",
+        "Reste courtois mais ferme",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

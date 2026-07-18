@@ -507,5 +507,177 @@
       ]
     },
     "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaires de la déchetterie",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Déchetterie communale — horaires\n\nLundi au vendredi : 8h00–12h00 et 14h00–18h00\nSamedi : 9h00–16h00 (sans interruption)\nDimanche et jours fériés : fermé\n\nVous pouvez y apporter le papier, le carton, le verre, la ferraille et les déchets verts. Merci de trier avant de venir.",
+      "question": "Quand la déchetterie est-elle ouverte le samedi ?",
+      "options": [
+        "De 9h00 à 16h00 sans interruption",
+        "De 8h00 à 12h00 seulement",
+        "Elle est fermée le samedi",
+        "De 14h00 à 18h00"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Règlement de la buanderie",
+    "prompt": "Lisez le règlement. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Règlement de la buanderie\n\nChaque appartement dispose de la buanderie selon le plan affiché. Merci de respecter votre créneau.\nAprès la lessive, nettoyez le filtre du sèche-linge et passez un coup de chiffon sur les machines.\nLa buanderie est disponible jusqu'à 22h00. Après cette heure, par respect pour les voisins, elle est fermée.\nEn cas de panne, prévenez la régie.",
+      "question": "Affirmation : selon le règlement, on peut utiliser la buanderie après 22h00.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Lettre de l'école : sortie scolaire",
+    "prompt": "Lisez la lettre et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chers parents,\n\nLe mardi 20 mai, la classe fera une sortie au zoo. Nous partirons en train à 8h15 depuis la gare et rentrerons vers 17h00.\nMerci de donner à votre enfant de bonnes chaussures, un pique-nique et une gourde. Le train et l'entrée sont payés par la caisse de classe.\nEn cas de mauvais temps, la sortie sera reportée ; vous recevrez alors un message la veille.\n\nMeilleures salutations,\nL'enseignante",
+      "question": "Que doivent préparer les parents pour la sortie ?",
+      "options": [
+        "De bonnes chaussures, un pique-nique et une gourde",
+        "De l'argent pour l'entrée",
+        "Un billet de train",
+        "Une autorisation écrite"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Affiche : vide-grenier du quartier",
+    "prompt": "Lisez l'affiche et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Vide-grenier du quartier\n\nLe samedi 14 juin, venez au vide-grenier sur la {{1}} de la maison de quartier, de 9h à 15h.\nVous pouvez vendre ce dont vous n'avez plus {{2}} : vêtements, jouets, livres. Une table coûte dix {{3}}.\nPour réserver une place, inscrivez-vous jusqu'au 7 juin au secrétariat. En cas de {{4}}, le vide-grenier aura lieu dans la salle.\nNous nous réjouissons de vous voir !",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "place",
+            "cave",
+            "voiture"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "besoin",
+            "faim",
+            "peur"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "francs",
+            "mètres",
+            "kilos"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "pluie",
+            "soleil",
+            "chance"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : le subside à l'assurance maladie",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : le subside à l'assurance maladie\n\nSi votre revenu est modeste, vous pouvez recevoir une aide pour payer une partie de votre prime d'assurance maladie. On appelle cela le subside.\nC'est votre canton qui s'en occupe, et non la caisse maladie. Le droit au subside et son montant dépendent du revenu, et les règles varient d'un canton à l'autre.\nVous déposez la demande auprès du service cantonal compétent. Dans certains cantons, vous recevez un formulaire automatiquement ; dans d'autres, vous devez vous annoncer. Renseignez-vous auprès de votre canton pour savoir ce qui s'applique chez vous.",
+      "question": "Qui s'occupe du subside à l'assurance maladie, selon la notice ?",
+      "options": [
+        "Le canton",
+        "La caisse maladie",
+        "La commune seule",
+        "L'employeur"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

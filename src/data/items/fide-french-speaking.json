@@ -357,5 +357,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Prendre rendez-vous chez le médecin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous ne vous sentez pas bien depuis quelques jours : toux et un peu de fièvre. Appelez le cabinet médical : décrivez brièvement vos symptômes, demandez un rendez-vous et dites quand vous êtes disponible. Posez une question si quelque chose n'est pas clair.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit les symptômes de façon compréhensible",
+        "Demande clairement un rendez-vous",
+        "Dit quand il/elle est disponible",
+        "Langue téléphonique polie, pose une question si besoin"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Réclamer un article défectueux",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez acheté une bouilloire il y a une semaine et elle ne fonctionne déjà plus. Retournez au magasin : expliquez le problème, montrez le ticket de caisse et dites ce que vous souhaitez (un échange ou le remboursement).",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement le problème (appareil défectueux, depuis quand)",
+        "Fait référence au ticket de caisse",
+        "Dit clairement ce qu'il/elle souhaite (échange ou remboursement)",
+        "Reste poli même en cas de discussion"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer une idée au conseil des parents",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Au conseil des parents de l'école, vous voulez proposer que les entretiens avec les enseignants aient aussi lieu le soir, pour les parents qui travaillent. Présentez votre proposition, justifiez-la et répondez à une objection possible (par exemple le temps ou l'organisation).",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente clairement la proposition",
+        "La justifie de façon convaincante",
+        "Répond à une objection possible",
+        "Reste courtois et constructif",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Acheter des légumes au marché",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au marché et vous voulez acheter des légumes. Dites à la vendeuse ce que vous voulez et en quelle quantité (par exemple un kilo de tomates et deux carottes), demandez le prix et payez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement ce qu'il/elle veut et en quelle quantité",
+        "Demande le prix",
+        "Paie et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander le chemin de la poste",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez la poste et vous ne connaissez pas le chemin. Demandez à une passante : saluez, demandez poliment le chemin, répétez brièvement pour être sûr(e), et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande poliment le chemin",
+        "Répète brièvement pour confirmer",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
