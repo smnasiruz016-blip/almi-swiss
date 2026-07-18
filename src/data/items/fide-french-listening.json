@@ -1430,5 +1430,391 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : mariée à un Suisse — quelle voie ?",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Dis, comme tu es mariée à un Suisse, tu dois aussi déposer ta demande à la commune, comme moi ?\n— Non, pour toi c'est sûrement différent. Quand on est marié à une personne suisse, il y a la naturalisation facilitée. Là, c'est la Confédération, le SEM, qui décide, et la demande se dépose directement au SEM.\n— Ah, donc pas à la commune ?\n— Exactement, pas comme pour la naturalisation ordinaire. Mais renseigne-toi quand même sur les conditions qui s'appliquent à toi. Et il te faut aussi une attestation de langue.\n— D'accord, merci pour le conseil.",
+      "question": "Que conseille la deuxième personne ?",
+      "options": [
+        "Pour la naturalisation facilitée, on dépose la demande au SEM, pas à la commune",
+        "Même mariée, on dépose la demande à la commune",
+        "Les personnes mariées n'ont pas besoin d'attestation de langue",
+        "On ne peut pas se faire naturaliser"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : reporter un rendez-vous à la commune",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Contrôle des habitants, bonjour.\n— Bonjour, j'ai un rendez-vous demain à 10h, mais je dois travailler. Puis-je le reporter ?\n— Bien sûr. Jeudi à 14h, cela vous convient ?\n— Jeudi 14h, c'est bon. Dois-je apporter quelque chose ?\n— Oui, votre pièce d'identité et la lettre que nous vous avons envoyée. Je vous inscris donc pour jeudi 14h.\n— Merci, à jeudi.",
+      "question": "Qu'est-ce qui est convenu à la fin ?",
+      "options": [
+        "Un nouveau rendez-vous jeudi à 14h",
+        "Le rendez-vous de demain à 10h est maintenu",
+        "La personne n'a besoin d'aucun document",
+        "Le rendez-vous est annulé"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Bulletin : ouverture de la piscine",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Et voici une bonne nouvelle de la région : la piscine couverte de Neuville a rouvert après les travaux. Il y a maintenant un plus grand bassin et un espace pour les enfants. Elle est ouverte tous les jours de 8h à 21h, mais le lundi seulement dès midi. Le prix d'entrée reste le même. Le premier week-end, l'entrée est gratuite pour les enfants.",
+      "question": "Qu'est-ce qui est nouveau à la piscine ?",
+      "options": [
+        "Un plus grand bassin et un espace pour les enfants",
+        "Elle est plus chère",
+        "Elle n'ouvre que le week-end",
+        "Elle est fermée pour toujours"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : signaler une fuite d'eau à la régie",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Régie, bonjour.\n— Bonjour, il y a une fuite d'eau sous mon évier, ça coule sur le sol.\n— D'accord. Avez-vous pu couper l'eau sous l'évier ?\n— Oui, j'ai fermé le robinet.\n— Très bien. J'envoie un plombier aujourd'hui. En attendant, mettez un seau et une serpillière. Il vous appelle avant de passer.\n— Merci beaucoup.",
+      "question": "Que va faire la régie ?",
+      "options": [
+        "Envoyer un plombier aujourd'hui",
+        "Dire à la personne de réparer elle-même",
+        "Ne rien faire avant la semaine prochaine",
+        "Couper l'eau de tout l'immeuble"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : préparer un repas de fête",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On reçoit huit personnes samedi. Qu'est-ce qu'on prépare ?\n— On pourrait faire une grande salade et une soupe pour commencer, puis un gratin.\n— Bonne idée, le gratin, on peut le préparer à l'avance. Et le dessert ?\n— Je fais une tarte aux fruits. Toi, tu t'occupes des boissons ?\n— D'accord. Et on demande à chacun d'apporter quelque chose ?\n— Oui, comme ça c'est plus simple. Je fais une liste et je l'envoie.",
+      "question": "Comment les deux se répartissent-ils le travail ?",
+      "options": [
+        "L'un fait la tarte, l'autre s'occupe des boissons, et chacun apporte quelque chose",
+        "Une seule personne fait tout",
+        "Ils commandent tout au restaurant",
+        "Ils annulent le repas"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel au service clientèle : colis non reçu",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Service clientèle, bonjour.\n— Bonjour, j'ai commandé un colis il y a une semaine et je ne l'ai toujours pas reçu.\n— Je suis désolé. Avez-vous votre numéro de commande ?\n— Oui, c'est le 3391.\n— Merci… je vois que le colis est bloqué au dépôt. Je le relance aujourd'hui ; vous devriez le recevoir dans deux jours. Je vous envoie une confirmation par courriel.\n— Parfait, merci.",
+      "question": "Que fait le collaborateur ?",
+      "options": [
+        "Il relance le colis et envoie une confirmation",
+        "Il dit que le colis est perdu",
+        "Il demande de repayer",
+        "Il ne peut rien faire"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Entretien : un habitant parle de son quartier",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Vous habitez ce quartier depuis longtemps. Qu'est-ce que vous aimez ici ?\n— J'aime que tout soit proche : l'école, les magasins, le parc. Et on connaît ses voisins.\n— Et qu'est-ce qui pourrait être mieux ?\n— Il manque un peu de verdure et des bancs. Mais dans l'ensemble, je me sens bien ici.\n— Merci pour votre témoignage.",
+      "question": "Qu'est-ce que cet habitant aime dans son quartier ?",
+      "options": [
+        "Que tout soit proche et qu'on connaisse ses voisins",
+        "Qu'il y ait beaucoup de circulation",
+        "Qu'il n'y ait pas d'école",
+        "Qu'il soit loin de tout"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message de l'employeur : changement d'horaire",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, c'est le bureau du personnel. Une information pour la semaine prochaine : à cause d'une formation, votre équipe commence lundi à 9h au lieu de 8h. Les autres jours ne changent pas. Merci d'en tenir compte et de prévenir vos collègues si vous les voyez avant. Bonne journée.",
+      "question": "Qu'est-ce qui change lundi prochain ?",
+      "options": [
+        "L'équipe commence à 9h au lieu de 8h",
+        "L'équipe ne travaille pas",
+        "Toute la semaine change",
+        "La formation est annulée"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : inscrire un enfant au foot",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Mon fils voudrait jouer au foot. Tu connais le club du quartier ?\n— Oui, mon fils y va. Les entraînements sont le mercredi après-midi.\n— Il faut s'inscrire comment ?\n— Il y a un formulaire sur le site du club, ou tu peux passer à l'entraînement et parler à l'entraîneur. Il y a aussi un essai gratuit.\n— Super, on va faire l'essai d'abord.\n— Bonne idée.",
+      "question": "Que vont faire les deux d'abord ?",
+      "options": [
+        "Faire l'essai gratuit à l'entraînement",
+        "Payer tout de suite l'année",
+        "Chercher un club dans une autre ville",
+        "Renoncer au foot"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : résilier un abonnement",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Service clientèle, bonjour.\n— Bonjour, je voudrais résilier mon abonnement de journal.\n— C'est dommage. Puis-je vous demander pourquoi ?\n— Je n'ai plus le temps de lire.\n— Je comprends. Le délai de résiliation est d'un mois. Votre abonnement se termine donc à la fin du mois prochain. Je vous envoie une confirmation par courriel.\n— Très bien, merci.",
+      "question": "Que dit le collaborateur au sujet de la résiliation ?",
+      "options": [
+        "Le délai est d'un mois ; l'abonnement se termine ensuite",
+        "L'abonnement se termine aujourd'hui",
+        "On ne peut pas résilier",
+        "Il faut payer un supplément pour résilier"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le train : wagon-restaurant",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Mesdames et Messieurs, prochain arrêt : Morges. Les voyageurs pour Nyon changent ici ; le train pour Nyon part de la voie 2, en face. Le wagon-restaurant se trouve au milieu du train. Nous vous souhaitons un bon voyage.",
+      "question": "Que doivent faire les voyageurs pour Nyon à Morges ?",
+      "options": [
+        "Changer de train ; le train pour Nyon part de la voie 2",
+        "Rester dans le train",
+        "Aller au wagon-restaurant",
+        "Descendre et rester à Morges"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la voisine : colis",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Allô, c'est Madame Perret, votre voisine du dessous. Le facteur est passé et j'ai pris un colis pour vous. Vous pouvez venir le chercher le soir chez moi, je suis là dès six heures. Sonnez simplement. À bientôt !",
+      "question": "Affirmation : selon le message, on peut chercher le colis le matin.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce à la piscine : fermeture",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chers visiteurs, la piscine ferme dans vingt minutes. Merci de sortir de l'eau dans dix minutes et de vous diriger ensuite vers les vestiaires. Pensez à vos affaires dans les casiers. Demain, nous vous accueillons dès 8h. Bonne soirée.",
+      "question": "Que doivent faire les visiteurs dans dix minutes ?",
+      "options": [
+        "Sortir de l'eau",
+        "Entrer dans l'eau",
+        "Payer l'entrée",
+        "Rentrer chez eux tout de suite"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message : rappel de rendez-vous chez le dentiste",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Madame Costa, ici le cabinet dentaire du centre. Nous vous rappelons votre rendez-vous demain, mercredi, à 9h30. Merci d'arriver cinq minutes en avance et d'apporter votre carte d'assuré. Si vous ne pouvez pas venir, prévenez-nous aujourd'hui. À demain.",
+      "question": "Que doit apporter Madame Costa au rendez-vous ?",
+      "options": [
+        "Sa carte d'assuré",
+        "Une ordonnance",
+        "Un formulaire",
+        "Rien"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message d'un collègue : changement de salle",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Salut, c'est Sami. Petit changement pour la réunion de demain : on ne se retrouve plus dans la salle 2, mais dans la grande salle au rez-de-chaussée. L'heure ne change pas, c'est toujours à 14h. Passe le mot aux autres si tu les vois. À demain !",
+      "question": "Affirmation : selon le message, l'heure de la réunion a changé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

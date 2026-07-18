@@ -1883,5 +1883,477 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaire des trains vers Lausanne",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Trains Renens – Lausanne (du lundi au vendredi)\n\nDépart Renens :    6h42 | 7h12 | 7h42 | 8h12\nArrivée Lausanne : 7h00 | 7h30 | 8h00 | 8h30\n\nLes trains partent de la voie 1. Le week-end, l'horaire est différent.",
+      "question": "Monsieur Ali a un rendez-vous à Lausanne à 8h. Quel est le dernier train qu'il peut prendre à Renens pour être à l'heure ?",
+      "options": [
+        "Le train de 7h42",
+        "Le train de 8h12",
+        "Le train de 6h42",
+        "Il ne peut prendre aucun train"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte du menu, restaurant",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Menu de midi (du lundi au vendredi)\n\nSoupe du jour ................. 6.–\nAssiette de salade ........... 12.–\nPlat du jour avec viande ..... 18.50\nPlat du jour végétarien ...... 16.–\nDessert ...................... 6.50\n\nUne boisson est comprise dans le menu de midi. Le week-end, c'est la carte normale.",
+      "question": "Affirmation : selon la carte, une boisson est comprise dans le menu de midi le week-end.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Mode d'emploi : machine à laver",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Mode d'emploi de la machine à laver\n\n1. Mettez le linge, sans trop remplir le tambour.\n2. Mettez la lessive dans le bac de gauche.\n3. Choisissez le programme : « Couleurs 40 degrés » pour les habits normaux.\n4. Fermez la porte et appuyez sur « Départ ».\n\nQuand la machine sonne, le linge est prêt. N'ouvrez la porte que lorsque le verrou est libre.",
+      "question": "Quel programme choisit-on pour les habits normaux, selon le mode d'emploi ?",
+      "options": [
+        "Couleurs 40 degrés",
+        "90 degrés",
+        "Lavage à la main",
+        "Essorage"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Annonce : poussette à vendre",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "À vendre : poussette\n\nJe vends une poussette bleue, en bon {{1}}, peu {{2}}. Elle est facile à plier et légère.\nPrix : 90 francs. Si vous êtes intéressé, écrivez-moi un {{3}} ou téléphonez le soir.\nÀ prendre sur {{4}} dans le quartier.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "état",
+            "prix",
+            "jour"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "utilisée",
+            "chère",
+            "fermée"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "message",
+            "repas",
+            "voyage"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "place",
+            "table",
+            "toit"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Affiche : peinture de la cage d'escalier",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Affiche de la régie\n\nDu lundi 5 au mercredi 7 mai, la cage d'escalier sera repeinte.\nMerci de ne rien laisser dans le couloir pendant ce temps et de garder chaussures et poussettes dans l'appartement.\nL'ascenseur peut être utilisé normalement. Merci de patienter jusqu'à ce que la peinture soit sèche.\n\nLa régie",
+      "question": "Que peut-on faire, selon l'affiche, pendant les travaux de peinture ?",
+      "options": [
+        "Utiliser l'ascenseur normalement",
+        "Laisser ses chaussures dans le couloir",
+        "Repeindre soi-même",
+        "Utiliser le couloir comme dépôt"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS de l'atelier : vélo prêt",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Bonjour Monsieur Nguyen, ici l'atelier de vélos. Votre vélo est prêt : nous avons changé la chambre à air et réglé les freins. Vous pouvez venir le chercher dès demain, au mieux avant vendredi. La réparation coûte 65 francs, à payer sur place. Bonne journée.",
+      "question": "Affirmation : selon le SMS, Monsieur Nguyen doit venir chercher le vélo aujourd'hui.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Lettre de l'école : course d'école",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chers parents,\n\nLe mardi 20 mai, la classe fera sa course d'école annuelle. Nous irons en train au zoo et rentrerons vers 17h.\nMerci de donner à votre enfant de bonnes chaussures, un pique-nique et une gourde. Le train et l'entrée sont payés par la caisse de classe.\nEn cas de mauvais temps, la course est reportée ; vous recevrez alors un message la veille.\n\nMeilleures salutations,\nL'enseignante",
+      "question": "Que doivent préparer les parents pour la course d'école ?",
+      "options": [
+        "De bonnes chaussures, un pique-nique et une gourde",
+        "De l'argent pour l'entrée",
+        "Un billet de train",
+        "Une autorisation écrite"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Consignes de tri au point de collecte",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Point de collecte du quartier\n\nMerci de trier vos déchets avant de venir. Le papier et le {{1}} vont dans les bacs bleus. Le verre va dans le conteneur à {{2}}.\nLe point de collecte est ouvert du lundi au samedi. Le dimanche, il est {{3}}.\nCe qui va où peut varier d'une {{4}} à l'autre : en cas de doute, renseignez-vous.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "carton",
+            "pain",
+            "sucre"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "verre",
+            "musique",
+            "lumière"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "fermé",
+            "ouvert",
+            "gratuit"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "commune",
+            "voiture",
+            "école"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaires de la piscine",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Piscine du quartier — horaires\n\nLundi au vendredi : 7h–21h\nSamedi : 8h–19h\nDimanche : 8h–17h\nLe lundi matin, la piscine est réservée aux cours jusqu'à 10h.\n\nLes enfants de moins de 8 ans doivent être accompagnés.",
+      "question": "Que se passe-t-il le lundi matin, selon les horaires ?",
+      "options": [
+        "La piscine est réservée aux cours jusqu'à 10h",
+        "La piscine est fermée toute la journée",
+        "L'entrée est gratuite",
+        "La piscine ouvre à 6h"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Note du concierge : chauffage",
+    "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Chères habitantes, chers habitants,\n\nLe chauffage de l'immeuble sera contrôlé jeudi matin. Il se peut que les radiateurs soient froids pendant une heure ou deux.\nDans l'après-midi, tout fonctionnera de nouveau normalement. Si un radiateur reste froid le soir, prévenez-moi.\n\nLe concierge",
+      "question": "Affirmation : selon la note, les radiateurs resteront froids toute la journée de jeudi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Recette : croûte au fromage",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Recette : croûte au fromage\n\nFaites griller une tranche de pain. Posez-la dans un plat et versez un peu de vin blanc ou de bouillon dessus.\nRecouvrez de fromage râpé et mettez au four à 200 degrés, jusqu'à ce que le fromage soit doré, environ dix minutes.\nServez chaud, avec un cornichon. Bon appétit !",
+      "question": "Combien de temps faut-il mettre la croûte au four, selon la recette ?",
+      "options": [
+        "Environ dix minutes",
+        "Une heure",
+        "Toute la nuit",
+        "Deux minutes"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note dans l'ascenseur : hors service",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Avis\n\nL'ascenseur est momentanément hors service à la suite d'une panne. Un technicien a été appelé et devrait passer aujourd'hui.\nMerci d'utiliser l'escalier en attendant. Si vous avez besoin d'aide pour porter quelque chose, adressez-vous au concierge.\nNous vous remercions de votre patience.",
+      "question": "Que faut-il faire, selon l'avis, pendant que l'ascenseur est en panne ?",
+      "options": [
+        "Utiliser l'escalier",
+        "Réparer soi-même l'ascenseur",
+        "Attendre dans l'ascenseur",
+        "Appeler la police"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Extrait du règlement de maison : heures de repos",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Extrait du règlement de maison\n\nPour que tout le monde vive bien dans l'immeuble, les heures de repos sont : la nuit de 22h à 6h, ainsi qu'à midi de 12h à 13h. Le dimanche et les jours fériés, le calme est demandé toute la journée.\nLes travaux bruyants, comme percer ou passer l'aspirateur, sont permis en dehors de ces heures. Qui organise une fête prévient les voisins à l'avance.\nLa buanderie est à disposition jusqu'à 21h ; après, elle est fermée par respect pour les voisins.",
+      "question": "Quand peut-on passer l'aspirateur, selon le règlement ?",
+      "options": [
+        "Le samedi à 15h",
+        "Le dimanche à 10h",
+        "À 12h30, à midi",
+        "À 22h30, la nuit"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : qui décide de la naturalisation ?",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : qui décide de la naturalisation ?\n\nPour la naturalisation ordinaire, ce sont votre commune et votre canton qui décident. La Confédération donne d'abord l'autorisation fédérale. Vous déposez la demande auprès de votre commune.\nC'est différent pour la naturalisation facilitée, par exemple si vous êtes marié(e) à une personne suisse : là, c'est la Confédération (le Secrétariat d'État aux migrations, SEM) qui décide.\nLa voie qui s'applique dépend de votre situation. Renseignez-vous suffisamment tôt auprès de votre commune.",
+      "question": "Qui décide d'une naturalisation ordinaire, selon la notice ?",
+      "options": [
+        "La commune et le canton ; la Confédération donne l'autorisation",
+        "La Confédération seule (SEM)",
+        "La commune seule",
+        "Une entreprise privée"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : l'assurance maladie dès l'arrivée",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : l'assurance maladie dès l'arrivée\n\nL'assurance maladie de base est obligatoire pour toute personne domiciliée en Suisse. Vous devez vous assurer dans les trois mois qui suivent votre arrivée.\nSi vous vous assurez à temps, l'assurance vaut rétroactivement depuis le premier jour. Vous choisissez librement votre caisse ; les prestations de base sont les mêmes partout.\nPour les primes et une éventuelle réduction, c'est votre canton qui vous renseigne.",
+      "question": "Que se passe-t-il, selon la notice, si l'on s'assure à temps ?",
+      "options": [
+        "L'assurance vaut rétroactivement depuis le premier jour",
+        "On ne doit s'assurer qu'après un an",
+        "L'assurance de base est facultative",
+        "Chaque caisse offre d'autres prestations de base"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
