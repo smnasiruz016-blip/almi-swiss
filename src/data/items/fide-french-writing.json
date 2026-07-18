@@ -533,5 +533,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte de remerciement à une voisine",
+    "prompt": "Écrivez une carte courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Votre voisine vous a aidé(e) quand vous étiez malade : elle a fait vos courses. Écrivez-lui une courte carte de remerciement : remerciez-la, dites pour quoi, et proposez de lui rendre service à votre tour.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Remercie chaleureusement",
+        "Dit pour quoi (les courses, pendant la maladie)",
+        "Propose de rendre service à son tour",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au chef : retard à cause du train",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Ce matin, votre train a du retard et vous arriverez au travail environ vingt minutes plus tard. Écrivez un court SMS à votre chef : excusez-vous, expliquez la raison et dites à quelle heure vous arrivez.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "S'excuse et explique la raison (retard du train)",
+        "Dit de combien de temps il/elle sera en retard",
+        "Propose de rattraper le temps ou de prévenir",
+        "Ton correct, court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la bibliothèque : carte perdue",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez perdu votre carte de bibliothèque. Écrivez un court courriel à la bibliothèque : signalez la perte, demandez si vous pouvez obtenir une nouvelle carte et si cela coûte quelque chose.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Signale la perte de la carte",
+        "Demande une nouvelle carte",
+        "Demande si cela a un coût",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Message à l'école : absence d'un jour",
+    "prompt": "Écrivez un message. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vendredi prochain, votre enfant ne pourra pas aller à l'école parce que vous partez à une fête de famille. Écrivez un court message à l'enseignant(e) : annoncez l'absence et demandez si votre enfant devra rattraper quelque chose.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Annonce l'absence pour le jour indiqué",
+        "Donne brièvement la raison",
+        "Demande s'il y a quelque chose à rattraper",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courrier au journal : une place de jeux",
+    "prompt": "Rédigez la lettre de lecteur. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Dans votre quartier, il y a beaucoup d'enfants mais pas de bonne place de jeux. Le journal communal en discute. Rédigez une lettre de lecteur : expliquez pourquoi une place de jeux serait importante, faites une proposition et restez objectif(ve). Tenez compte du fait que c'est la commune qui décide.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Expose clairement le besoin (pas de place de jeux)",
+        "Justifie pourquoi ce serait important",
+        "Fait une proposition concrète (lieu, équipement)",
+        "Reconnaît que la commune décide et reste objectif",
+        "Structure claire d'une lettre de lecteur"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
