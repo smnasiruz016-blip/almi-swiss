@@ -1174,5 +1174,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : planifier le week-end",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Qu'est-ce qu'on fait ce week-end ? Il paraît qu'il fera beau.\n— On pourrait faire une randonnée ou aller au zoo.\n— Avec les enfants, le zoo est peut-être mieux, c'est moins fatigant.\n— D'accord. Alors on va au zoo samedi et on se repose dimanche.\n— Parfait. Je regarde les horaires et je prépare un pique-nique.\n— Super, c'est décidé.",
+      "question": "Qu'est-ce que les deux prévoient pour samedi ?",
+      "options": [
+        "Aller au zoo avec les enfants",
+        "Faire une longue randonnée",
+        "Rester à la maison",
+        "Aller faire les courses"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : signaler une panne d'ascenseur",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Régie, bonjour.\n— Bonjour, l'ascenseur de notre immeuble est en panne depuis ce matin. Il reste bloqué au rez.\n— Merci de nous prévenir. Personne n'est coincé à l'intérieur ?\n— Non, personne, heureusement.\n— D'accord, j'appelle tout de suite le technicien. Il devrait passer aujourd'hui. En attendant, merci d'utiliser les escaliers.\n— Très bien, merci.",
+      "question": "Que fait la personne à la régie ?",
+      "options": [
+        "Elle appelle tout de suite le technicien",
+        "Elle dit qu'elle ne peut rien faire",
+        "Elle demande de réparer soi-même l'ascenseur",
+        "Elle passe elle-même dans l'immeuble"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Entretien : un boulanger raconte",
+    "prompt": "Écoutez l'entretien et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Vous vous levez très tôt chaque jour. À quelle heure commence votre journée ?\n— À trois heures du matin. J'allume le four et je commence le pain.\n— C'est vraiment tôt. Qu'est-ce que vous aimez dans votre métier ?\n— Que les gens se réjouissent du pain frais le matin. Et l'odeur dans le fournil, c'est quelque chose de spécial.\n— Et qu'est-ce qui est difficile ?\n— Les heures très matinales et le travail le week-end. Mais je le fais volontiers.",
+      "question": "Qu'est-ce que le boulanger aime dans son métier ?",
+      "options": [
+        "Que les gens se réjouissent du pain frais",
+        "Qu'il peut dormir longtemps",
+        "Qu'il a congé le week-end",
+        "Qu'il travaille peu"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce en gare : changement de voie",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Information pour les voyageurs à destination de Genève : le train de 14h20 ne part pas de la voie 3, mais de la voie 7. Nous répétons : le train pour Genève part de la voie 7. Merci de suivre les affichages.",
+      "question": "De quelle voie part le train pour Genève ?",
+      "options": [
+        "De la voie 7",
+        "De la voie 3",
+        "De la voie 14",
+        "Le train est supprimé"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la pharmacie : médicament prêt",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour Madame Weber, ici la pharmacie du marché. Votre médicament commandé est arrivé et vous attend. Vous pouvez venir le chercher cette semaine ; nous sommes ouverts du lundi au vendredi jusqu'à 18h30 et le samedi jusqu'à 16h. Merci d'apporter l'ordonnance. Bonne journée.",
+      "question": "Affirmation : selon le message, la pharmacie est ouverte le dimanche.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

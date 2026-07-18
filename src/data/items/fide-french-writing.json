@@ -1188,5 +1188,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de remerciement à une enseignante",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "L'enseignante de votre enfant a beaucoup aidé votre fils cette année. L'année scolaire se termine. Écrivez-lui un court message : remerciez-la, dites en quoi elle a aidé votre enfant et souhaitez-lui de bonnes vacances.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Remercie l'enseignante",
+        "Dit en quoi elle a aidé l'enfant",
+        "Souhaite de bonnes vacances",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS : reporter un rendez-vous entre amis",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous deviez voir votre ami samedi, mais vous êtes malade et vous préférez reporter. Écrivez-lui un court SMS : dites que vous ne pouvez pas venir, expliquez pourquoi et proposez un autre jour.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Dit qu'il/elle ne peut pas venir samedi",
+        "Explique brièvement pourquoi (malade)",
+        "Propose un autre jour",
+        "Court et amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la commune : nouvelle adresse électronique",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez une nouvelle adresse électronique. Écrivez un court courriel au contrôle des habitants : indiquez votre nouvelle adresse électronique, donnez vos coordonnées (nom, adresse) et demandez de mettre à jour vos données.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Indique la raison (nouvelle adresse électronique)",
+        "Donne les coordonnées nécessaires (nom, adresse, nouvelle adresse électronique)",
+        "Demande de mettre à jour les données",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : donner un lit",
+    "prompt": "Rédigez une annonce courte. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez un lit d'enfant dont vous n'avez plus besoin et que vous voulez donner. Rédigez une courte annonce pour le panneau de l'immeuble : décrivez le lit, dites qu'il est gratuit et comment vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Décrit brièvement le lit (taille, état)",
+        "Dit clairement qu'il est gratuit",
+        "Indique comment vous joindre",
+        "Clair et bien présenté"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courrier au journal : cours de français le soir",
+    "prompt": "Rédigez la lettre de lecteur. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Beaucoup de personnes qui travaillent aimeraient suivre un cours de français, mais les cours ont surtout lieu le matin. Le journal communal en discute. Rédigez une lettre de lecteur : expliquez le problème, proposez des cours le soir et restez objectif(ve). Tenez compte du fait que la commune décide de l'offre.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Expose clairement le problème (cours surtout le matin)",
+        "Propose une solution concrète (cours le soir)",
+        "Justifie la proposition (personnes qui travaillent)",
+        "Reconnaît que la commune décide et reste objectif",
+        "Structure claire d'une lettre de lecteur"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

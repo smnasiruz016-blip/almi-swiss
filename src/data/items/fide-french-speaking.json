@@ -1041,5 +1041,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Réserver une table et poser des questions",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez réserver une table au restaurant pour un anniversaire, avec huit personnes. Téléphonez : dites pour quand et pour combien de personnes, demandez s'il y a un menu de groupe et si on peut apporter un gâteau.",
+      "minSeconds": 60,
+      "criteria": [
+        "Dit le jour, l'heure et le nombre de personnes",
+        "Demande s'il y a un menu de groupe",
+        "Demande si on peut apporter un gâteau",
+        "Langue polie au téléphone"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Expliquer un malentendu à un voisin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Votre voisin pense que vous avez mis vos affaires dans sa cave, mais ce n'est pas vous. Parlez-lui calmement : expliquez que ce n'est pas vous, proposez de l'aider à trouver à qui elles sont et gardez de bonnes relations.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique calmement que ce n'est pas lui/elle",
+        "Propose d'aider à clarifier",
+        "Reste aimable et garde de bonnes relations",
+        "S'exprime de façon compréhensible"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer une amélioration à la séance de quartier",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "À la séance des habitants du quartier, vous voulez proposer d'installer un banc et un peu d'ombre près de l'arrêt de bus. Présentez votre proposition : décrivez l'idée, justifiez-la avec deux arguments et répondez à une objection possible (par exemple les coûts).",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente la proposition clairement",
+        "La justifie avec deux arguments",
+        "Répond à une objection possible",
+        "Reste objectif et poli",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander un renseignement dans un magasin",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes dans un magasin et vous cherchez du café et du sucre, mais vous ne savez pas où c'est. Demandez à un employé : dites ce que vous cherchez et demandez dans quel rayon c'est. Remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement ce qu'il/elle cherche",
+        "Demande dans quel rayon c'est",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Prendre rendez-vous chez le coiffeur",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez prendre rendez-vous chez le coiffeur pour une coupe. Téléphonez : dites ce que vous voulez, proposez un jour et une heure, et demandez combien de temps cela dure.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit ce qu'il/elle veut (une coupe)",
+        "Propose un jour et une heure",
+        "Demande la durée et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

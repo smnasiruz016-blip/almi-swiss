@@ -1539,5 +1539,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Reçu : réparation de vélo",
+    "prompt": "Lisez le reçu et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Reçu\n\nAtelier de vélos\nDate : 14 mars\nPrestation : nouvelle chambre à air arrière, freins réglés\nMontant : 65 francs, payé\n\nNous donnons trois mois de garantie sur la réparation. Merci de conserver ce reçu.",
+      "question": "Que dit le reçu au sujet du montant ?",
+      "options": [
+        "Il a déjà été payé",
+        "Il faut encore le payer",
+        "Il n'est pas indiqué",
+        "Il sera payé plus tard"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Programme : journée portes ouvertes",
+    "prompt": "Lisez le programme. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Journée portes ouvertes au centre communal\nSamedi 7 juin\n\n10h00 : accueil et café\n10h30 : visite de la maison\n12h00 : repas de midi (inscription nécessaire)\n14h00 : jeux pour les enfants\n15h30 : concert du chœur du quartier\n17h00 : fin\n\nL'entrée est libre. Pour le repas de midi, inscrivez-vous jusqu'au 1er juin.",
+      "question": "Affirmation : selon le programme, il faut s'inscrire pour la visite de la maison.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Recette : rösti",
+    "prompt": "Lisez la recette et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Recette : rösti\n\nRâpez 800 grammes de pommes de terre (cuites la veille, c'est plus facile). Salez légèrement.\nFaites chauffer un peu de beurre dans une poêle. Mettez les pommes de terre et formez une galette.\nFaites cuire à feu moyen environ dix minutes de chaque côté, jusqu'à ce que le rösti soit doré.\nServez chaud. Bon appétit !",
+      "question": "Combien de temps faut-il cuire le rösti de chaque côté, selon la recette ?",
+      "options": [
+        "Environ dix minutes",
+        "Une heure",
+        "Deux minutes",
+        "Toute la nuit"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : cherche baby-sitter",
+    "prompt": "Lisez l'annonce et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Cherche baby-sitter\n\nNous cherchons une personne pour garder nos deux {{1}} (4 et 6 ans) le samedi soir, environ deux fois par mois. Chez nous, dans le quartier.\nIl faut être {{2}} et aimer les enfants. Une expérience serait un {{3}}, mais ce n'est pas obligatoire.\nSi vous êtes intéressé(e), écrivez-nous un {{4}} ou téléphonez le soir. Merci !",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "enfants",
+            "voitures",
+            "chiens"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "fiable",
+            "riche",
+            "grand"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "plus",
+            "problème",
+            "danger"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "message",
+            "gâteau",
+            "voyage"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : s'annoncer après un déménagement",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : s'annoncer après un déménagement\n\nQuand vous arrivez dans notre commune, vous devez vous annoncer au contrôle des habitants. Apportez une pièce d'identité valable, votre bail et, si vous venez d'une autre commune, votre attestation de départ.\nLe délai pour s'annoncer n'est pas le même partout ; il dépend de la commune et du canton. N'attendez donc pas trop longtemps et renseignez-vous chez nous en cas de doute.\nSi vous êtes nouveau en Suisse, l'assurance maladie en fait aussi partie : vous devez vous assurer dans les trois mois.",
+      "question": "Que dit la notice sur le délai pour s'annoncer ?",
+      "options": [
+        "Il dépend de la commune et du canton ; il n'est pas le même partout",
+        "Il est le même dans toute la Suisse",
+        "Il n'y a aucun délai",
+        "Il est toujours de six mois"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
