@@ -2825,5 +2825,475 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaire du bus de nuit",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Bus de nuit N2 (vendredi et samedi)\n\nGare :   23h30 | 0h30 | 1h30 | 2h30\nCentre : 23h40 | 0h40 | 1h40 | 2h40\nLac :    23h50 | 0h50 | 1h50 | 2h50\n\nLe bus de nuit ne circule que le vendredi et le samedi. Un supplément de nuit s'applique.",
+      "question": "Quand le bus de nuit circule-t-il, selon l'horaire ?",
+      "options": [
+        "Le vendredi et le samedi",
+        "Tous les jours",
+        "Seulement le dimanche",
+        "Du lundi au jeudi"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : offre de midi au tea-room",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Tea-room du coin — offre de midi\n\nDu lundi au vendredi : une boisson chaude et une part de tarte pour 8 francs.\nLe samedi, l'offre ne s'applique pas. Places limitées, service jusqu'à 14h.",
+      "question": "Affirmation : selon la carte, l'offre de midi s'applique aussi le samedi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Mode d'emploi : le lave-vaisselle",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Mode d'emploi du lave-vaisselle\n\n1. Rangez la vaisselle, sans bloquer les bras qui tournent.\n2. Mettez une pastille dans le compartiment fermé.\n3. Choisissez le programme « Normal » pour la vaisselle de tous les jours.\n4. Fermez la porte et appuyez sur « Marche ».\n\nQuand le voyant « sel » s'allume, ajoutez du sel régénérant.",
+      "question": "Que faut-il faire quand le voyant « sel » s'allume, selon le mode d'emploi ?",
+      "options": [
+        "Ajouter du sel régénérant",
+        "Ouvrir la porte tout de suite",
+        "Changer de programme",
+        "Rien"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Petite annonce : cours de guitare",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Cours de guitare\n\nMusicien expérimenté donne des cours de guitare pour débutants, à domicile ou au studio du quartier.\nUne leçon par semaine, le soir ou le mercredi après-midi. Première leçon d'essai gratuite.\nPour tout renseignement, écrivez-moi ou téléphonez.",
+      "question": "Que propose l'annonce pour commencer ?",
+      "options": [
+        "Une leçon d'essai gratuite",
+        "Un instrument gratuit",
+        "Un concert",
+        "Un diplôme"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Affiche : fête des voisins",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Fête des voisins\n\nVendredi 30 mai, dès 18h, dans la cour de l'immeuble.\nChacun apporte quelque chose à manger ou à boire à partager. Les boissons sans alcool sont offertes par le comité.\nEn cas de pluie, la fête a lieu dans la buanderie. Venez nombreux !",
+      "question": "Affirmation : selon l'affiche, il faut payer un billet d'entrée pour la fête.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Reçu du garage",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Garage du quartier — reçu\n\nDate : 8 avril\nService : vidange, changement du filtre à air\nMontant : 180 francs, payé\n\nProchain service recommandé dans un an ou après 15 000 km. Merci de conserver ce reçu.",
+      "question": "Affirmation : selon le reçu, le montant de 180 francs doit encore être payé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Consignes : utiliser le local à vélos",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Local à vélos\n\nLe local à vélos est réservé aux {{1}} de l'immeuble. Merci d'accrocher votre vélo et de ne pas {{2}} le passage.\nFermez toujours la {{3}} à clé après votre passage.\nLes objets qui ne sont pas des vélos ne sont pas {{4}} dans le local. Merci de votre collaboration.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "habitants",
+            "voitures",
+            "chiens"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "bloquer",
+            "ouvrir",
+            "nettoyer"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "porte",
+            "fenêtre",
+            "lumière"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "autorisés",
+            "gratuits",
+            "chers"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note : relevé des compteurs",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Chers habitants,\n\nMercredi matin, une personne relèvera les compteurs d'eau dans les appartements, entre 8h et 12h.\nMerci de faire en sorte que quelqu'un soit présent. Si ce n'est pas possible, déposez la clé chez la concierge ou prenez un autre rendez-vous.\n\nLa régie",
+      "question": "Que faut-il faire si personne ne peut être présent, selon la note ?",
+      "options": [
+        "Déposer la clé chez la concierge ou prendre un autre rendez-vous",
+        "Relever soi-même le compteur",
+        "Ne rien faire",
+        "Couper l'eau"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Recette : fondue",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Recette : fondue au fromage\n\nFrottez le {{1}} avec une gousse d'ail. Versez un peu de vin blanc et faites {{2}} doucement.\nAjoutez le fromage râpé peu à peu, en {{3}} sans arrêt, jusqu'à ce que ce soit lisse.\nServez avec des morceaux de {{4}}. Bon appétit !",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "caquelon",
+            "frigo",
+            "balcon"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "chauffer",
+            "dormir",
+            "laver"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "remuant",
+            "chantant",
+            "courant"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "pain",
+            "papier",
+            "savon"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Programme : marché de Noël",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Marché de Noël du quartier\n\nSamedi 14 et dimanche 15 décembre, sur la place, de 11h à 19h.\nStands d'artisanat, vin chaud et soupe. Concert de l'école le samedi à 17h.\nL'entrée est libre. Une partie des recettes va à une œuvre d'entraide.",
+      "question": "À quelle heure a lieu le concert de l'école, selon le programme ?",
+      "options": [
+        "Le samedi à 17h",
+        "Le dimanche à 11h",
+        "Tous les jours à midi",
+        "Il n'y a pas de concert"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Panneau : consignes à la patinoire",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Patinoire — consignes\n\nLe port de gants est obligatoire pour patiner. Un casque est recommandé pour les enfants.\nMerci de ne pas manger sur la glace. La buvette est ouverte à côté.\nLes patins peuvent être loués à l'entrée.",
+      "question": "Affirmation : selon le panneau, le port de gants est obligatoire pour patiner.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Lettre : rappel du dentiste",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Cabinet dentaire du centre\n\nBonjour Madame Haldar,\nVotre dernier contrôle date d'environ un an. Nous vous recommandons un contrôle une fois par an.\nMerci de nous appeler ou de nous écrire pour convenir d'un rendez-vous. Le matin, il reste souvent des places.\n\nMeilleures salutations,\nL'équipe du cabinet",
+      "question": "Pourquoi le cabinet écrit-il à Madame Haldar ?",
+      "options": [
+        "Pour qu'elle prenne rendez-vous pour un contrôle",
+        "Parce qu'elle n'a pas payé une facture",
+        "Parce que le cabinet déménage",
+        "Pour confirmer son adresse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Extrait du contrat : abonnement de fitness",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Extrait de votre abonnement\n\nPrix mensuel : 69 francs. Durée minimale : 12 mois.\nRésiliation : l'abonnement peut être résilié pour la fin de la durée, moyennant un préavis de deux mois. Sans résiliation, il se renouvelle d'une année.\nEn cas de maladie longue avec certificat médical, l'abonnement peut être suspendu.",
+      "question": "Selon l'extrait, que se passe-t-il si l'on ne résilie pas à temps ?",
+      "options": [
+        "L'abonnement se renouvelle d'une année",
+        "L'abonnement s'arrête tout seul",
+        "Le prix double",
+        "On est remboursé"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : combien de temps dure la naturalisation ?",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : combien de temps dure la naturalisation ?\n\nLa durée de la procédure de naturalisation ordinaire n'est pas la même partout. Elle dépend de votre commune et de votre canton, du nombre d'étapes et de votre dossier.\nComptez en général sur plusieurs mois, parfois plus. Vous ne pouvez pas savoir à l'avance la date exacte.\nLe mieux est de commencer tôt, de préparer vos documents et de vous renseigner auprès de votre commune sur le déroulement.",
+      "question": "Que dit la notice sur la durée de la naturalisation ordinaire ?",
+      "options": [
+        "Elle n'est pas la même partout et dépend de la commune et du canton",
+        "Elle est la même dans toute la Suisse",
+        "Elle dure toujours quelques jours",
+        "On connaît la date exacte à l'avance"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : assurance de base et assurance complémentaire",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : assurance de base et assurance complémentaire\n\nL'assurance de base est obligatoire. Ses prestations sont fixées par la loi et sont les mêmes dans toutes les caisses ; seules les primes changent.\nL'assurance complémentaire, elle, est facultative. Chaque caisse propose ses propres offres et ses propres conditions.\nAvant de signer une complémentaire, comparez et renseignez-vous. Ne résiliez pas votre assurance de base sans savoir ce qui s'applique.",
+      "question": "Quelle différence la notice fait-elle entre les deux assurances ?",
+      "options": [
+        "La base est obligatoire et fixée par la loi ; la complémentaire est facultative, avec ses propres conditions",
+        "Les deux sont obligatoires et identiques",
+        "La complémentaire est obligatoire",
+        "La base change d'une caisse à l'autre"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
