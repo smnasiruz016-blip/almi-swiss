@@ -790,5 +790,133 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Annonce avant le concert",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bienvenue au concert de ce soir. Deux petites informations : merci d'éteindre complètement vos téléphones, pas seulement de les mettre en silencieux. Et pendant le concert, les photos et les vidéos ne sont pas autorisées. À la pause, après environ une heure, vous pourrez boire quelque chose au foyer. Nous vous souhaitons une belle soirée et beaucoup de plaisir avec la musique.",
+      "question": "Que doivent faire les spectateurs avec leur téléphone ?",
+      "options": [
+        "L'éteindre complètement",
+        "Le mettre en silencieux",
+        "Prendre des photos",
+        "Le donner à l'entrée"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : une courte enquête",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, je m'appelle Madame Kraft. Nous faisons une courte enquête sur les achats dans le quartier. Avez-vous deux minutes ?\n— Oui, deux minutes ça va.\n— Merci. Faites-vous vos courses surtout dans le quartier ou allez-vous dans un grand centre ?\n— Surtout dans le quartier, c'est pratique et je connais les gens.\n— Et qu'est-ce qui vous manque dans le quartier ?\n— Un bon magasin de légumes. Sinon, je suis contente.\n— Merci beaucoup pour vos réponses !",
+      "question": "Qu'est-ce qui manque à cette personne dans le quartier ?",
+      "options": [
+        "Un bon magasin de légumes",
+        "Un grand centre",
+        "Des gens sympathiques",
+        "Rien du tout"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : recommander un artisan",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Dis, tu connais un bon électricien ? Chez moi, une prise ne marche plus.\n— Oui, j'en ai eu un l'an dernier. Il était rapide et pas trop cher. Je te donne son numéro.\n— Super, merci. Faut-il attendre longtemps ?\n— Chez moi, il est venu en deux jours. Appelle plutôt le matin.\n— D'accord, merci du conseil.",
+      "question": "Que dit la personne au sujet de l'électricien ?",
+      "options": [
+        "Il était rapide et pas trop cher",
+        "Il était cher et lent",
+        "Il ne vient jamais",
+        "Il ne travaille que le week-end"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le train : retard",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Mesdames et Messieurs, en raison d'un incident, notre train a environ quinze minutes de retard. La correspondance à Lausanne pour Sion attend notre train. Les voyageurs pour Fribourg prennent à Lausanne le prochain train, à 16h40. Nous vous prions de nous excuser.",
+      "question": "Que doivent faire les voyageurs pour Fribourg ?",
+      "options": [
+        "Prendre à Lausanne le prochain train, à 16h40",
+        "Leur correspondance attend le train",
+        "Descendre à Sion",
+        "Le train ne roule plus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la pharmacie : jour férié",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici la pharmacie du centre. Nous vous informons : lundi prochain est un jour férié, la pharmacie sera donc fermée. Mardi, nous serons de nouveau là normalement, de 8h à 18h30. En cas d'urgence, vous trouverez la pharmacie de garde près de l'hôpital. Merci et bonnes fêtes.",
+      "question": "Affirmation : selon le message, la pharmacie est ouverte lundi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

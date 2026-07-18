@@ -1023,5 +1023,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Programme du cinéma",
+    "prompt": "Lisez le programme et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Cinéma du quartier — séances d'aujourd'hui\n\nLe petit dragon (pour enfants) : 14h00 et 16h00\nVoyage dans l'espace : 18h30\nLa longue nuit (dès 16 ans) : 20h45\n\nLes enfants jusqu'à 12 ans paient moitié prix. Le mardi, toutes les séances sont moins chères.",
+      "question": "À quelle heure passe le film pour enfants ?",
+      "options": [
+        "À 14h00 et 16h00",
+        "À 18h30",
+        "À 20h45",
+        "Seulement le mardi"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Affiche : ascenseur en révision",
+    "prompt": "Lisez l'affiche. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Affiche de la régie\n\nChères habitantes, chers habitants,\nDe lundi à mercredi la semaine prochaine, l'ascenseur sera révisé. Pendant ce temps, il ne sera pas disponible.\nMerci d'utiliser les escaliers. Si vous avez besoin d'aide pour porter des affaires, annoncez-vous auprès du concierge.\nDès jeudi, l'ascenseur fonctionnera de nouveau.\n\nLa régie",
+      "question": "Affirmation : selon l'affiche, on peut utiliser l'ascenseur le mardi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Recette : salade de pommes de terre",
+    "prompt": "Lisez la recette et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Recette : salade de pommes de terre\n\nFaites cuire 800 grammes de pommes de terre avec la peau, jusqu'à ce qu'elles soient tendres. Laissez-les un peu refroidir, puis coupez-les en tranches.\nAjoutez un oignon, un peu de bouillon, du vinaigre, de l'huile, du sel et du poivre, et mélangez bien.\nLaissez reposer la salade une demi-heure : elle est alors meilleure. Bon appétit !",
+      "question": "Combien de temps faut-il laisser reposer la salade, selon la recette ?",
+      "options": [
+        "Une demi-heure",
+        "Une journée entière",
+        "Cinq minutes",
+        "Il ne faut pas la laisser reposer"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Affiche : marché aux puces",
+    "prompt": "Lisez l'affiche et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Marché aux puces du quartier\n\nLe dimanche 19 octobre, il y a un marché aux puces à la maison de quartier, de 9h à 15h. Apportez des habits, des jouets et des {{1}} en bon état.\nTout est à petits {{2}}. Ce qui reste à la fin, nous le donnons à une {{3}}.\nVenez fouiller tranquillement. Pour le café et le gâteau, c'est {{4}}. Nous nous réjouissons de vous voir !",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "livres",
+            "voitures",
+            "maisons"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "prix",
+            "mètres",
+            "kilos"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "œuvre d'entraide",
+            "usine",
+            "gare"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "prévu",
+            "cher",
+            "fermé"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : où déposer la demande de naturalisation ?",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : où déposer la demande de naturalisation ?\n\nPour la naturalisation ordinaire, vous déposez la demande auprès de votre commune. La Confédération donne d'abord l'autorisation fédérale, puis le canton et la commune décident.\nSi vous êtes marié(e) à une personne suisse, c'est en général la naturalisation facilitée : là, c'est la Confédération (le Secrétariat d'État aux migrations, SEM) qui décide, et la demande se dépose directement auprès du SEM.\nLa voie qui s'applique dépend de votre situation. Renseignez-vous suffisamment tôt auprès de votre commune.",
+      "question": "Où dépose-t-on la demande pour une naturalisation ordinaire, selon la notice ?",
+      "options": [
+        "Auprès de la commune",
+        "Directement auprès de la Confédération (SEM)",
+        "Auprès de la caisse maladie",
+        "Auprès de l'employeur"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

@@ -795,5 +795,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de remerciement après une visite",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous avez passé le week-end chez des amis dans une autre ville. Écrivez-leur un court message : remerciez-les pour leur accueil, dites ce qui vous a particulièrement plu et invitez-les chez vous.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Remercie pour l'accueil",
+        "Dit ce qui a particulièrement plu",
+        "Invite les amis chez soi",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au propriétaire : enfermé dehors",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous avez tiré la porte de votre appartement derrière vous et vous avez oublié la clé à l'intérieur. Vous ne pouvez plus entrer. Écrivez un court SMS au propriétaire : expliquez le problème, dites que c'est urgent et demandez s'il a une clé de secours.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Explique le problème (enfermé dehors, clé à l'intérieur)",
+        "Dit que c'est urgent",
+        "Demande une clé de secours",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à l'école : payer une sortie",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre enfant part en sortie avec la classe ; cela coûte 30 francs. Écrivez un court courriel à l'enseignant(e) : demandez comment et jusqu'à quand payer, et si vous pouvez donner l'argent à votre enfant.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Mentionne la sortie et le montant",
+        "Demande comment et jusqu'à quand payer",
+        "Demande si on peut donner l'argent à l'enfant",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note à la famille : consignes",
+    "prompt": "Écrivez une note. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous rentrerez plus tard aujourd'hui. Écrivez une courte note à votre famille : dites à quelle heure vous rentrez, ce qu'il y a à manger et ce qu'il reste à faire à la maison (par exemple faire les courses ou ranger).",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit à quelle heure vous rentrez",
+        "Dit ce qu'il y a à manger",
+        "Indique ce qu'il reste à faire",
+        "Court et clair"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à la régie : ascenseur souvent en panne",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Dans votre immeuble, l'ascenseur est tombé en panne plusieurs fois ces dernières semaines. Pour les personnes âgées, c'est un problème. Rédigez un courriel objectif à la régie : décrivez la situation, nommez les conséquences et demandez une solution durable.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit le problème (ascenseur en panne à plusieurs reprises)",
+        "Nomme les conséquences (surtout pour les personnes âgées)",
+        "Demande clairement une solution durable",
+        "Reste objectif et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
