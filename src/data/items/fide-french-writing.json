@@ -926,5 +926,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : bon rétablissement à un collègue",
+    "prompt": "Écrivez une carte courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Un collègue est malade et absent depuis une semaine. Écrivez-lui une courte carte : souhaitez-lui un bon rétablissement, dites qu'il/elle vous manque dans l'équipe et proposez votre aide.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Souhaite un bon rétablissement",
+        "Dit qu'il/elle manque à l'équipe",
+        "Propose son aide",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS à une amie : aller au cinéma",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous voulez aller au cinéma vendredi soir avec votre amie Mira. Écrivez-lui un court SMS : demandez si elle a le temps, proposez un film et une heure, et dites où vous vous retrouvez.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Demande si l'amie a le temps",
+        "Propose un film et une heure",
+        "Indique un lieu de rendez-vous",
+        "Court et amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel au patron : rendez-vous médical",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Mardi prochain à 10h, vous avez un rendez-vous médical important et vous devez vous absenter un moment du travail. Écrivez un court courriel à votre patron : informez-le, dites combien de temps vous serez absent(e) et proposez de rattraper le temps.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Mentionne le rendez-vous et la raison (médecin)",
+        "Dit combien de temps environ vous serez absent(e)",
+        "Propose de rattraper le temps",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la crèche : enfant malade",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre enfant est malade et ne peut pas aller à la crèche aujourd'hui. Écrivez un court courriel à la crèche : annoncez l'absence, donnez brièvement la raison et dites que vous préviendrez quand il/elle sera de nouveau en forme.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Annonce l'absence pour aujourd'hui",
+        "Donne brièvement la raison (malade)",
+        "Dit qu'il/elle préviendra au rétablissement",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à la commune : trop peu de places de parc pour vélos",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Dans votre immeuble, il y a trop peu de places pour les vélos, et vous n'en avez pas. Écrivez un courriel à la régie : décrivez la situation, demandez poliment une place ou une solution et demandez s'il existe une liste d'attente.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit clairement la situation (pas de place pour le vélo)",
+        "Demande poliment une place ou une solution",
+        "Demande s'il existe une liste d'attente",
+        "Reste objectif et aimable",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
