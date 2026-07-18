@@ -1269,5 +1269,349 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner sur un cours par téléphone",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous vous intéressez à un cours d'informatique. Téléphonez : demandez quand commence le prochain cours, combien il coûte, quelles connaissances préalables il faut, et s'il y a des cours le soir.",
+      "minSeconds": 60,
+      "criteria": [
+        "Dit son intérêt (cours d'informatique)",
+        "Demande la date de début et le prix",
+        "Demande les connaissances préalables",
+        "Demande s'il y a des cours le soir"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Demander un remboursement",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez payé deux fois par erreur une facture. Téléphonez au fournisseur : expliquez calmement la situation, dites quand et comment vous avez payé, et demandez comment vous serez remboursé(e).",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement le problème (payé deux fois)",
+        "Donne des détails (quand et comment)",
+        "Demande le remboursement",
+        "Reste calme et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer une activité au conseil des parents",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Au conseil des parents, vous voulez proposer que l'école organise une fête de fin d'année pour les familles. Présentez votre proposition : décrivez l'idée, justifiez-la et proposez d'aider. Répondez à une objection possible (temps, coûts).",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente l'idée clairement (fête de fin d'année)",
+        "La justifie de façon convaincante",
+        "Répond à une objection possible",
+        "Propose d'aider",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Négocier un délai de paiement",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez reçu une facture que vous ne pouvez pas payer en une fois ce mois-ci. Téléphonez au fournisseur : expliquez votre situation, proposez de payer en deux fois et demandez si c'est possible.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique la situation calmement",
+        "Propose une solution (payer en deux fois)",
+        "Demande si c'est possible",
+        "Reste poli et coopératif"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Signaler un bruit répété à la régie",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Depuis des semaines, il y a du bruit de chantier le week-end dans votre immeuble. Téléphonez à la régie : décrivez le problème de façon objective, dites comment cela vous gêne et demandez ce que la régie peut faire.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit le problème objectivement (bruit de chantier le week-end)",
+        "Dit comment cela le/la gêne",
+        "Demande ce que la régie peut faire",
+        "Reste poli mais ferme"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Expliquer pourquoi on arrive en retard au travail",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "À cause d'une panne de bus, vous arrivez en retard au travail. Parlez à votre supérieure : expliquez ce qui s'est passé, dites de combien de temps vous êtes en retard et proposez de rattraper le temps.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique la raison (panne de bus)",
+        "Dit de combien de temps il/elle est en retard",
+        "Propose de rattraper le temps",
+        "Reste correct et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Convaincre un ami de participer à une fête",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez aller à une fête de quartier ce week-end et vous aimeriez qu'un ami vienne. Il n'a pas très envie. Convainquez-le : dites pourquoi ce sera bien, répondez à ses objections et faites une proposition qui l'arrange.",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit pourquoi la fête sera bien",
+        "Répond aux objections de l'ami",
+        "Fait une proposition qui l'arrange",
+        "Reste amical et convaincant",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Acheter du pain à la boulangerie",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes à la boulangerie. Vous voulez acheter du pain et deux croissants. Dites à la vendeuse ce que vous voulez, demandez le prix et demandez si vous pouvez payer par carte.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement ce qu'il/elle veut acheter",
+        "Demande le prix",
+        "Demande si on peut payer par carte et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander le prix d'un article",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Dans un magasin, vous voyez une veste sans étiquette de prix. Demandez à un employé : dites ce qui vous intéresse, demandez le prix et demandez s'il y a une autre couleur. Remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit ce qui l'intéresse (la veste)",
+        "Demande le prix",
+        "Demande s'il y a une autre couleur et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Prendre rendez-vous au garage par téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Votre voiture fait un bruit bizarre. Téléphonez au garage : dites quel est le problème, demandez un rendez-vous et demandez combien de temps cela peut prendre.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit quel est le problème",
+        "Demande un rendez-vous",
+        "Demande la durée et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner sur un appartement à louer",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez vu une annonce pour un appartement de trois pièces. Téléphonez : présentez-vous, demandez le loyer et les charges, demandez une visite et dites brièvement qui vous êtes.",
+      "minSeconds": 60,
+      "criteria": [
+        "Se présente et dit le motif de l'appel",
+        "Demande le loyer et les charges",
+        "Demande une visite",
+        "Dit brièvement qui il/elle est"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Rapporter un appareil défectueux",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez acheté un grille-pain qui ne marche plus après une semaine. Retournez au magasin : expliquez le problème, montrez le ticket de caisse et dites ce que vous souhaitez (échange ou remboursement).",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement le problème (appareil défectueux, depuis quand)",
+        "Fait référence au ticket de caisse",
+        "Dit ce qu'il/elle souhaite",
+        "Reste poli même en cas de discussion"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Donner son avis sur les transports du quartier",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Dans votre quartier, on discute d'améliorer les transports publics. Donnez votre avis : dites ce qui manque, justifiez avec deux arguments et répondez à une objection possible (par exemple le coût).",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit clairement ce qui manque",
+        "Justifie avec deux arguments",
+        "Répond à une objection possible",
+        "Reste objectif et poli",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander de l'aide dans un magasin",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez le rayon des produits pour bébés dans un grand magasin. Demandez à un employé : dites ce que vous cherchez et demandez où c'est. Remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit ce qu'il/elle cherche",
+        "Demande où c'est",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Prendre rendez-vous et décrire un symptôme",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous toussez depuis plusieurs jours. Téléphonez au cabinet médical : décrivez brièvement votre problème, demandez un rendez-vous et dites quand vous êtes disponible.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit brièvement le problème (toux depuis quelques jours)",
+        "Demande un rendez-vous",
+        "Dit quand il/elle est disponible",
+        "Langue téléphonique polie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
