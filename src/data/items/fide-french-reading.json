@@ -851,5 +851,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaire du bus, ligne 3",
+    "prompt": "Lisez l'horaire et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Horaire — Bus ligne 3, direction Hôpital (du lundi au vendredi)\n\nGare :     7h05 | 7h35 | 8h05 | 8h35\nPlace :    7h12 | 7h42 | 8h12 | 8h42\nHôpital :  7h25 | 7h55 | 8h25 | 8h55\n\nLe week-end, le bus passe seulement une fois par heure.",
+      "question": "Madame Sane doit être à l'hôpital au plus tard à 8h20. Quel bus prend-elle à la gare ?",
+      "options": [
+        "Le bus de 7h35",
+        "Le bus de 8h05",
+        "Le bus de 8h35",
+        "Elle ne peut prendre aucun bus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Menu de la semaine, cantine",
+    "prompt": "Lisez le menu. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Menu de la semaine — cantine\n\nLundi : spaghettis à la sauce tomate\nMardi : escalope de poulet et riz\nMercredi : gratin de légumes\nJeudi : filets de poisson et pommes de terre\nVendredi : soupe et buffet de salades\n\nChaque menu coûte 12 francs. Le vendredi, la cantine est ouverte seulement jusqu'à 14h.",
+      "question": "Affirmation : selon le menu, il y a de la viande le mercredi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Consignes à la piscine",
+    "prompt": "Lisez les consignes et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "À l'attention des visiteurs\n\nMerci de vous doucher avant de vous baigner. Il est permis de sauter uniquement dans le bassin profond.\nLes enfants de moins de six ans ne peuvent aller dans l'eau qu'accompagnés d'un adulte.\nManger et boire sont autorisés seulement au restaurant, pas au bord du bassin. Merci.",
+      "question": "Que faut-il faire, selon les consignes, avant de se baigner ?",
+      "options": [
+        "Se doucher",
+        "Sauter dans le bassin",
+        "Manger au bord du bassin",
+        "Payer une amende"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : vélo à vendre",
+    "prompt": "Lisez l'annonce et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "À vendre : vélo\n\nJe vends un vélo de dame, bleu, en bon {{1}}, avec sept vitesses. Il a deux ans et a peu {{2}}. Les pneus sont {{3}}.\nPrix : 180 francs. Si vous êtes intéressé, écrivez-moi un {{4}} ou téléphonez le soir.\nÀ prendre sur place à Renens.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "état",
+            "prix",
+            "jour"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "servi",
+            "plu",
+            "neigé"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "neufs",
+            "vieux",
+            "cassés"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "message",
+            "repas",
+            "voyage"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : l'assurance maladie pour toute la famille",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : l'assurance maladie pour toute la famille\n\nL'assurance maladie de base est obligatoire pour toute personne domiciliée en Suisse — y compris les enfants et les bébés. Assurez chaque membre de la famille dans les trois mois qui suivent l'arrivée ou la naissance. L'assurance vaut alors depuis le premier jour.\nPour les enfants, les primes sont souvent plus basses. Vous pouvez choisir une caisse différente pour chaque membre de la famille, mais ce n'est pas obligatoire.\nPour le subside qui aide à payer les primes, c'est votre canton qui décide.",
+      "question": "Que dit la notice au sujet des enfants ?",
+      "options": [
+        "Ils doivent aussi être assurés dans les trois mois",
+        "Ils n'ont pas besoin d'assurance maladie",
+        "Toute la famille doit être à la même caisse",
+        "C'est la caisse maladie qui décide du subside"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

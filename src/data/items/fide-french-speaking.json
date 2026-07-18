@@ -585,5 +585,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Décrire des douleurs persistantes chez le médecin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez mal à la tête depuis deux semaines et ça ne passe pas. Vous êtes chez le médecin. Décrivez vos douleurs précisément : depuis quand, à quelle fréquence, à quel point, ce que vous avez déjà essayé, et demandez ce que vous pouvez faire.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit les douleurs précisément (depuis quand, fréquence, intensité)",
+        "Dit ce qu'il/elle a déjà essayé",
+        "Demande ce qu'il/elle peut faire",
+        "Langue polie, pose des questions si besoin"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner sur un appartement par téléphone",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez vu une annonce pour un appartement de trois pièces. Téléphonez : présentez-vous, demandez le loyer, les charges et un rendez-vous pour visiter, et dites brièvement qui vous êtes (profession, nombre de personnes).",
+      "minSeconds": 60,
+      "criteria": [
+        "Se présente et dit le motif de l'appel",
+        "Demande le loyer et les charges",
+        "Demande une visite",
+        "Dit brièvement qui il/elle est"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Présenter une proposition au comité du club",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes dans un club de quartier. Vous voulez proposer d'organiser une fois par an une sortie pour les membres. Présentez votre proposition au comité : décrivez l'idée, justifiez-la et proposez de participer à l'organisation.",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente l'idée clairement (sortie annuelle)",
+        "Justifie la proposition",
+        "Propose d'aider à l'organisation",
+        "Reste courtois et concret",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Commander à la boulangerie",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes à la boulangerie et vous voulez acheter du pain et deux croissants. Dites à la vendeuse ce que vous voulez, demandez le prix et demandez si vous pouvez payer par carte.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement ce qu'il/elle veut acheter",
+        "Demande le prix",
+        "Demande si on peut payer par carte et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander les horaires par téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez aller à la bibliothèque mais vous ne connaissez pas les horaires. Téléphonez : saluez, demandez les horaires d'ouverture et s'il faut une carte pour emprunter des livres, et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande les horaires d'ouverture",
+        "Demande s'il faut une carte pour emprunter",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

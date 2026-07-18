@@ -664,5 +664,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte de vœux pour un mariage",
+    "prompt": "Écrivez une carte courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Des amis vont bientôt se marier. Écrivez-leur une courte carte : félicitez-les pour le mariage, souhaitez-leur quelque chose de beau pour l'avenir et dites que vous vous réjouissez de la fête.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Félicite pour le mariage",
+        "Souhaite quelque chose de beau pour l'avenir",
+        "Dit qu'il/elle se réjouit de la fête",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS à une amie : chercher l'enfant",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous êtes bloqué(e) au travail et vous ne pouvez pas aller chercher votre enfant à l'école à temps. Écrivez un court SMS à votre amie : demandez si elle peut chercher votre enfant, dites à quelle heure et où, et remerciez.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Demande si l'amie peut chercher l'enfant",
+        "Indique l'heure et le lieu",
+        "Remercie",
+        "Court et amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel au concierge : ampoule cassée",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Dans la cage d'escalier de votre immeuble, une ampoule est grillée et il fait sombre le soir. Écrivez un court courriel au concierge : signalez le problème, dites où c'est exactement et demandez de la remplacer bientôt.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Signale le problème (ampoule grillée)",
+        "Dit où c'est exactement",
+        "Demande de la remplacer bientôt",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Annonce : cherche appartement",
+    "prompt": "Rédigez une annonce courte. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous cherchez un appartement plus grand dans le quartier. Rédigez une courte annonce pour le panneau : dites ce que vous cherchez (nombre de pièces, loyer approximatif), à partir de quand, et comment vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit ce qu'il/elle cherche (pièces, loyer)",
+        "Indique à partir de quand",
+        "Indique comment vous joindre",
+        "Clair et bien présenté"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel au service clientèle : facture trop élevée",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous avez reçu une facture pour votre abonnement de téléphone qui est bien plus élevée que d'habitude. Vous n'avez rien fait de différent. Rédigez un courriel objectif au service clientèle : décrivez le problème, donnez votre numéro de client et les montants, et demandez une vérification et une correction.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit clairement le problème (facture bien plus élevée)",
+        "Donne le numéro de client et les montants",
+        "Demande une vérification et une correction",
+        "Reste objectif et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

@@ -662,5 +662,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message au répondeur : le résultat",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Madame Berisha, c'est le cabinet du docteur Lang. Vos analyses de sang sont arrivées et tout est en ordre. Vous n'avez rien à faire de particulier et vous n'avez pas besoin d'un nouveau rendez-vous. Si vous avez tout de même des questions, appelez-nous. Bonne journée.",
+      "question": "Que doit faire Madame Berisha ?",
+      "options": [
+        "Rien de particulier ; pas besoin de nouveau rendez-vous",
+        "Reprendre un rendez-vous tout de suite",
+        "Refaire une analyse de sang",
+        "Aller à l'hôpital"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : choisir un cours",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Je voudrais faire un cours de français cet automne. Tu sais lequel est bien ?\n— Il y en a deux au quartier. L'un le matin, l'autre le soir.\n— Le soir, ce serait mieux, à cause du travail. C'est cher ?\n— Pas trop. Et on peut assister à une leçon d'essai gratuite.\n— Je vais faire ça. Comme ça, je vois si le niveau me convient.\n— Bonne idée. Mais inscris-toi avant, les places partent vite.",
+      "question": "Que va faire la personne d'abord ?",
+      "options": [
+        "Assister à une leçon d'essai gratuite du cours du soir",
+        "Payer tout de suite le cours du matin",
+        "Ne faire aucun cours",
+        "Chercher un cours dans une autre ville"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : changer une commande",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Le magasin de meubles, bonjour.\n— Bonjour, j'ai commandé hier une étagère, mais je voudrais changer la couleur — du blanc au brun.\n— Pas de problème, si la commande n'est pas encore partie. Votre numéro de commande ?\n— C'est le 4457.\n— Merci… oui, elle est encore là. Je change la couleur en brun. Le prix reste le même. La livraison prend environ une semaine.\n— Très bien, merci beaucoup.",
+      "question": "Que change la collaboratrice ?",
+      "options": [
+        "La couleur de l'étagère, du blanc au brun",
+        "L'adresse de livraison",
+        "Le prix de la commande",
+        "Le numéro de commande"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au supermarché",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, nous fermons dans dix minutes. Merci de vous diriger vers les caisses. La caisse tout à droite reste ouverte jusqu'à la fin. Pensez à votre sac et à votre liste de courses. Demain, nous vous accueillons dès 8h. Merci de votre visite.",
+      "question": "Quelle caisse reste ouverte jusqu'à la fin ?",
+      "options": [
+        "La caisse tout à droite",
+        "Toutes les caisses",
+        "La caisse à l'entrée",
+        "Aucune caisse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message d'un collègue : manger à midi",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Salut, c'est Marco. Dis, on mange ensemble à midi ? J'ai ma pause à midi et quart. On se retrouve à l'entrée et on va au tea-room du coin ? Réponds-moi vite si ça te va. À tout à l'heure.",
+      "question": "Affirmation : selon le message, Marco propose de se retrouver à midi et quart à l'entrée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]
