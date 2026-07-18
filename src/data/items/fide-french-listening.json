@@ -2974,5 +2974,261 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Renseignement : l'entretien de naturalisation",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour. Vous demandez comment se passe l'entretien pour la naturalisation ordinaire. Alors : c'est la commune qui l'organise, et le contenu peut être un peu différent d'une commune à l'autre. En général, on parle de votre vie ici, de votre quotidien et de vos connaissances de base sur la vie en Suisse. La commune et le canton examinent votre demande ; c'est ensuite la Confédération qui donne l'autorisation fédérale. Le mieux, c'est de demander à votre commune comment cela se passe exactement chez vous.",
+      "question": "Qui organise l'entretien de naturalisation, selon le renseignement ?",
+      "options": [
+        "La commune",
+        "L'employeur",
+        "La caisse maladie",
+        "Le magasin"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : reporter un rendez-vous chez le coiffeur",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Salon de coiffure, bonjour.\n— Bonjour, j'ai rendez-vous demain à 10h, mais je ne peux plus. Est-ce possible de déplacer ?\n— Bien sûr. Jeudi à 14h, ça irait ?\n— Jeudi 14h, c'est parfait.\n— Très bien, je note. À jeudi alors.\n— Merci beaucoup, à jeudi.",
+      "question": "Quand aura lieu le nouveau rendez-vous ?",
+      "options": [
+        "Jeudi à 14h",
+        "Demain à 10h",
+        "Il est annulé",
+        "Lundi matin"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : organiser un anniversaire d'enfant",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On organise l'anniversaire de Léa samedi. Tu peux m'aider ?\n— Avec plaisir. Il faut faire quoi ?\n— Moi je m'occupe du gâteau et des boissons. Toi, tu pourrais préparer quelques jeux ?\n— D'accord. Combien d'enfants viennent ?\n— Une dizaine. On commence à 14h.\n— Parfait, je prépare des jeux pour dix enfants.",
+      "question": "De quoi s'occupe la deuxième personne ?",
+      "options": [
+        "De préparer quelques jeux",
+        "Du gâteau",
+        "Des boissons",
+        "Des invitations"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message du garage : voiture prête",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, ici le garage. Votre voiture est prête, le service est terminé et tout est en ordre. Vous pouvez venir la chercher dès aujourd'hui, jusqu'à 18h, ou demain matin. Pensez à apporter un moyen de paiement. Si vous avez une question, rappelez-nous. Bonne journée.",
+      "question": "Que doit apporter le client, selon le message ?",
+      "options": [
+        "Un moyen de paiement",
+        "Une nouvelle voiture",
+        "Un certificat",
+        "Rien"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : renseignement à la bibliothèque",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bibliothèque, bonjour.\n— Bonjour, je voudrais savoir combien de temps on peut garder un livre.\n— Trois semaines, et vous pouvez prolonger une fois si personne ne l'a réservé.\n— Et si je le rends en retard ?\n— Il y a une petite amende par jour de retard. Mais vous pouvez prolonger en ligne pour éviter ça.\n— D'accord, merci beaucoup.",
+      "question": "Que peut-on faire pour éviter une amende, selon l'appel ?",
+      "options": [
+        "Prolonger le prêt en ligne",
+        "Ne jamais rendre le livre",
+        "Payer à l'avance",
+        "Acheter le livre"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : choisir des vacances en famille",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Cet été, on part à la montagne ou au bord d'un lac ?\n— Les enfants adorent nager, donc plutôt le lac, non ?\n— Bonne idée. Et à la montagne, on pourrait faire des balades faciles.\n— Alors faisons les deux : quelques jours au lac, puis quelques jours à la montagne.\n— Parfait, je regarde pour un logement.",
+      "question": "Que décide finalement la famille ?",
+      "options": [
+        "Aller au lac puis à la montagne",
+        "Rester à la maison",
+        "Aller seulement à la montagne",
+        "Partir à l'étranger"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message de l'école : sortie à la piscine",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, ici l'école. Jeudi, la classe ira à la piscine. Merci de préparer un sac avec un maillot, une serviette et un bonnet de bain. Le pique-nique est aussi à prévoir. Nous rentrons vers 16h, comme d'habitude. En cas de question, appelez le secrétariat. Bonne journée.",
+      "question": "Que doit préparer l'enfant pour jeudi, selon le message ?",
+      "options": [
+        "Un maillot, une serviette et un bonnet de bain",
+        "Un vélo",
+        "Un livre de lecture",
+        "Rien de spécial"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au supermarché : fermeture",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, notre magasin va bientôt fermer. Il est 18h50 et nous fermons à 19h. Merci de vous diriger vers les caisses. Nous vous remercions de votre visite et vous souhaitons une bonne soirée.",
+      "question": "À quelle heure ferme le magasin, selon l'annonce ?",
+      "options": [
+        "À 19h",
+        "À 18h",
+        "À 20h",
+        "À midi"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la crèche : fermeture exceptionnelle",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici la crèche. Nous vous informons que la crèche sera fermée vendredi prochain pour une journée de formation de l'équipe. Elle rouvrira normalement lundi. Merci de prévoir une solution de garde pour vendredi. Bonne journée.",
+      "question": "Affirmation : selon le message, la crèche est ouverte vendredi prochain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce à la gare : train supprimé",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Information aux voyageurs : le train de 16h20 à destination de Neuchâtel est supprimé. Le prochain train part à 16h50, du quai 2. Nous nous excusons pour ce contretemps et vous remercions de votre compréhension.",
+      "question": "Affirmation : selon l'annonce, le train de 16h20 pour Neuchâtel circule normalement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

@@ -2645,5 +2645,234 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se plaindre d'un voisin bruyant",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Depuis quelques semaines, un voisin fait beaucoup de bruit tard le soir. Parlez-en au concierge : décrivez le problème, dites ce que vous avez déjà essayé et demandez ce qu'on peut faire.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit le problème (bruit tard le soir)",
+        "Dit ce qu'il/elle a déjà essayé",
+        "Demande ce qu'on peut faire",
+        "Reste calme et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Prévenir son responsable d'un retard",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous arrivez en retard au travail à cause d'un bus supprimé. Expliquez la situation à votre responsable : dites ce qui s'est passé, présentez vos excuses et proposez de rattraper le temps.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique ce qui s'est passé",
+        "Présente ses excuses",
+        "Propose de rattraper le temps",
+        "Reste professionnel"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Inscrire son enfant à l'école",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous venez d'arriver dans la commune et devez inscrire votre enfant à l'école. Au guichet, expliquez la situation, demandez quels documents il faut et comment se passe l'inscription.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique la situation (nouvel arrivant)",
+        "Demande quels documents il faut",
+        "Demande comment se passe l'inscription",
+        "Langue polie au guichet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Rendre un vêtement trop petit",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez acheté un pull, mais il est trop petit. Retournez au magasin : expliquez le problème, montrez le ticket et demandez un échange ou un remboursement.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique le problème (trop petit)",
+        "Montre le ticket",
+        "Demande un échange ou un remboursement",
+        "Reste poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Organiser un covoiturage avec un collègue",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous et un collègue habitez le même quartier et travaillez au même endroit. Proposez-lui un covoiturage : expliquez l'avantage, proposez une organisation et demandez son avis.",
+      "minSeconds": 60,
+      "criteria": [
+        "Propose le covoiturage",
+        "Explique l'avantage",
+        "Propose une organisation et demande l'avis",
+        "Reste amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Demander un délai de paiement",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous avez reçu une facture que vous ne pouvez pas payer tout de suite. Téléphonez au service concerné : expliquez calmement votre situation, demandez un délai ou un paiement en plusieurs fois, et restez poli et honnête.",
+      "minSeconds": 90,
+      "criteria": [
+        "Explique la situation calmement",
+        "Demande un délai ou un paiement en plusieurs fois",
+        "Reste honnête et poli",
+        "Propose une solution concrète",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer une activité pour la fête du quartier",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "On prépare la fête du quartier et chacun peut proposer une idée. Présentez la vôtre : décrivez l'activité, dites pourquoi elle plairait, proposez d'aider et répondez à une objection possible.",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente l'activité clairement",
+        "Dit pourquoi elle plairait",
+        "Propose d'aider",
+        "Répond à une objection possible",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Réserver une table pour le soir",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez réserver une table pour ce soir. Téléphonez au restaurant : dites pour combien de personnes, à quelle heure et donnez votre nom.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit pour combien de personnes et à quelle heure",
+        "Donne son nom",
+        "Remercie poliment"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander où se trouve la pharmacie",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez une pharmacie dans le quartier. Demandez à un passant : saluez, demandez poliment où elle se trouve et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande poliment le chemin",
+        "Écoute et confirme brièvement",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Prendre un billet de train au guichet",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez acheter un billet de train. Au guichet, dites où vous voulez aller, si c'est un aller simple ou un aller-retour, et demandez le prix.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit la destination",
+        "Précise aller simple ou aller-retour",
+        "Demande le prix et paie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
