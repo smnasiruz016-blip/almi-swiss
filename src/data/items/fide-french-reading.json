@@ -3765,5 +3765,349 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Horaire de la déchetterie",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Déchetterie communale — horaires\n\nMardi et jeudi : 14h – 18h\nSamedi : 9h – 16h\nFermée le dimanche et les jours fériés.\n\nApportez une pièce d'identité. Le verre, le papier et le carton se trient sur place. Les gros objets sont acceptés le samedi seulement.",
+      "question": "Quand peut-on apporter de gros objets, selon l'horaire ?",
+      "options": [
+        "Le samedi seulement",
+        "Tous les jours",
+        "Le dimanche",
+        "Jamais"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Annonce : cours de natation pour enfants",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Cours de natation pour enfants\n\nÀ la piscine couverte, le mercredi après-midi.\nGroupes dès 5 ans. Dix leçons de 45 minutes.\nPrix : 120 francs. Inscription à l'accueil de la piscine jusqu'au 15 du mois.\nUn maillot et un bonnet de bain sont obligatoires.",
+      "question": "Qu'est-ce qui est obligatoire pour le cours, selon l'annonce ?",
+      "options": [
+        "Un maillot et un bonnet de bain",
+        "Des lunettes de soleil",
+        "Un vélo",
+        "Rien de particulier"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Étiquette : conserver un sirop",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Sirop contre la toux\n\nÀ conserver au réfrigérateur, entre 2 et 8 degrés.\nNe pas congeler. Bien refermer le flacon après usage.\nÀ utiliser dans les deux semaines après ouverture.",
+      "question": "Affirmation : selon l'étiquette, on peut congeler ce sirop.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Panneau : travaux sur la route",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Attention, travaux\n\nLa rue du Collège est fermée à la circulation du 5 au 12 mai.\nLes piétons peuvent passer. Une déviation est indiquée pour les voitures.\nLes bus s'arrêtent provisoirement à la place du Marché.\nMerci de votre compréhension.",
+      "question": "Où s'arrêtent les bus pendant les travaux, selon le panneau ?",
+      "options": [
+        "À la place du Marché",
+        "Devant le collège",
+        "À la gare",
+        "Ils ne circulent plus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note de la crèche : liste pour la sieste",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Chers parents,\n\nPour la {{1}} de l'après-midi, merci d'apporter une petite {{2}} et un doudou si votre enfant en a un.\nÉcrivez le {{3}} de votre enfant sur ses affaires, pour ne rien perdre.\nNous {{4}} les enfants vers 15h30.\n\nMerci et bonne journée !",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "sieste",
+            "fête",
+            "sortie"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "couverture",
+            "voiture",
+            "télévision"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "nom",
+            "prix",
+            "numéro de rue"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "réveillons",
+            "vendons",
+            "oublions"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Petite annonce : vélo d'adulte à céder",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "À céder : vélo de ville\n\nVélo pour adulte, en bon état, peu utilisé. Sept vitesses, avec panier et lumière.\nPrix : 150 francs, à discuter. À prendre sur place.\nÉcrivez-moi pour venir l'essayer en fin de journée.",
+      "question": "Que peut-on faire avant d'acheter le vélo, selon l'annonce ?",
+      "options": [
+        "Venir l'essayer en fin de journée",
+        "Le faire livrer",
+        "Le payer en douze fois",
+        "Le louer pour un jour"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Consignes : machine à laver commune",
+    "prompt": "Lisez et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Buanderie de l'immeuble\n\nRéservez la machine sur le {{1}} affiché près de la porte.\nMettez la lessive dans le bon {{2}} et choisissez le programme.\nAprès le lavage, {{3}} le filtre et laissez la porte ouverte.\nRespectez votre {{4}} pour que chacun puisse laver.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "tableau",
+            "lit",
+            "frigo"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "bac",
+            "four",
+            "jardin"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "nettoyez",
+            "cassez",
+            "peignez"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "horaire",
+            "voiture",
+            "salaire"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS groupé : sortie annulée",
+    "prompt": "Lisez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Message du groupe des parents :\n\n« Bonjour à tous ! La sortie à la ferme prévue demain est annulée à cause de la pluie. Nous la reportons à mercredi prochain, même heure, même endroit. Merci de confirmer votre présence. »",
+      "question": "Affirmation : selon le message, la sortie à la ferme a bien lieu demain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : la preuve de langue (voie ordinaire)",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : la preuve de langue (naturalisation ordinaire)\n\nPour la naturalisation ordinaire, vous devez prouver que vous parlez une langue nationale. Au niveau fédéral, le minimum demandé est B1 à l'oral et A2 à l'écrit.\nUn canton peut demander un niveau plus élevé ; renseignez-vous sur ce qui s'applique chez vous.\nVous prouvez votre niveau avec un certificat reconnu ou un test de langue. Si vous avez été scolarisé(e) en français, cela peut aussi compter.",
+      "question": "Quel est le niveau minimum fédéral, selon la notice ?",
+      "options": [
+        "B1 à l'oral et A2 à l'écrit",
+        "C1 partout",
+        "Aucun niveau n'est demandé",
+        "B2 à l'écrit obligatoire"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Extrait du règlement de l'immeuble : le balcon",
+    "prompt": "Lisez et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Extrait du règlement de l'immeuble\n\nLe balcon fait partie du logement, mais quelques règles s'appliquent. Vous pouvez y mettre des plantes et des meubles légers.\nIl est interdit d'y faire un barbecue et de secouer des tapis par-dessus la rambarde, par respect pour les voisins du dessous.\nArrosez vos plantes avec modération, pour ne pas mouiller le balcon d'en dessous.",
+      "question": "Qu'est-ce qui est interdit sur le balcon, selon le règlement ?",
+      "options": [
+        "Faire un barbecue",
+        "Mettre des plantes",
+        "Poser des meubles légers",
+        "Ouvrir la fenêtre"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

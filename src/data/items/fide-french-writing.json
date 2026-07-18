@@ -3022,5 +3022,267 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au voisin : prendre un colis pour moi",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous attendez un colis mais vous serez absent(e) demain. Écrivez un court SMS à un voisin : demandez s'il peut le prendre pour vous, dites quand il arrive et remerciez-le.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Demande de prendre le colis",
+        "Dit quand il arrive",
+        "Remercie",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la crèche : enfant malade aujourd'hui",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre enfant est malade et ne peut pas aller à la crèche aujourd'hui. Écrivez un court courriel : dites que votre enfant est malade, qu'il ne viendra pas et donnez un numéro pour vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit que l'enfant est malade et ne viendra pas",
+        "Précise le nom de l'enfant",
+        "Donne un numéro pour vous joindre",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : féliciter pour une nouvelle place",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Un ami vient de trouver un nouvel emploi. Écrivez-lui une courte carte : félicitez-le, dites que vous êtes content(e) pour lui et proposez de fêter cela.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Félicite pour le nouvel emploi",
+        "Dit qu'il/elle est content(e)",
+        "Propose de fêter cela",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Mot à la concierge : ampoule grillée dans l'escalier",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Une ampoule est grillée dans la cage d'escalier et il fait sombre le soir. Écrivez un court mot à la concierge : signalez le problème, dites où c'est et demandez de la changer.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Signale l'ampoule grillée",
+        "Dit à quel étage / où c'est",
+        "Demande de la changer",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : donner des habits de bébé",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous voulez donner gratuitement des habits de bébé en bon état. Rédigez une courte annonce : dites ce que vous donnez, l'âge des habits et comment vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit ce qu'il/elle donne (habits de bébé)",
+        "Précise l'âge / la taille",
+        "Indique comment vous joindre",
+        "Clair et bien présenté"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS à un ami : proposer d'aller au marché",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "C'est samedi et vous voulez aller au marché. Écrivez un court SMS à un ami : proposez d'y aller ensemble, dites à quelle heure et où vous retrouver.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Propose d'aller au marché ensemble",
+        "Dit l'heure",
+        "Dit où se retrouver",
+        "Court et amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la commune : demander les dates de la déchetterie",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous voulez connaître les jours d'ouverture de la déchetterie et ce qu'on peut y apporter. Écrivez un court courriel à la commune : posez vos questions poliment.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Demande les jours d'ouverture de la déchetterie",
+        "Demande ce qu'on peut y apporter",
+        "Reste poli",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Formulaire : inscription à un cours de français",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous vous inscrivez à un cours de français pour adultes. Complétez avec des phrases entières : votre nom, votre niveau actuel et les jours où vous êtes libre.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Indique le nom",
+        "Indique le niveau actuel",
+        "Dit les jours de disponibilité",
+        "Écrit des phrases entières et claires"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à l'employeur : demander un certificat de travail",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'une attestation de travail (par exemple pour un dossier). Rédigez un courriel à votre employeur : expliquez pourquoi vous en avez besoin, ce qui doit y figurer et pour quand, et remerciez.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Explique pourquoi vous en avez besoin",
+        "Dit ce qui doit y figurer",
+        "Dit pour quand",
+        "Reste poli et professionnel",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à la régie : demander une place de parc",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous cherchez une place de parc dans votre immeuble. Rédigez un courriel à la régie : demandez s'il y a une place libre, le prix, comment la louer, et depuis quand elle serait disponible.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Demande s'il y a une place libre",
+        "Demande le prix et comment la louer",
+        "Demande depuis quand elle serait disponible",
+        "Reste clair et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
