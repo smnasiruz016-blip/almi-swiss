@@ -1046,5 +1046,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Appel : commander un artisan",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, chez moi le robinet de la cuisine goutte sans arrêt.\n— D'accord, on va regarder. Avez-vous fermé l'arrivée d'eau sous l'évier ?\n— Oui, j'ai déjà fermé le robinet.\n— Bien. Je peux passer jeudi entre 14h et 16h. Ça vous convient ?\n— Jeudi après-midi, oui, je serai là.\n— Parfait. Je vous rappelle si je suis en avance.\n— Merci, à jeudi.",
+      "question": "Qu'est-ce qui est convenu ?",
+      "options": [
+        "L'artisan passe jeudi entre 14h et 16h",
+        "La cliente répare elle-même le robinet",
+        "L'artisan passe la semaine prochaine",
+        "Aucun rendez-vous n'est pris"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : organiser la garde des enfants",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Dis, mercredi j'ai un rendez-vous et je ne peux pas aller chercher Léo à l'école. Tu pourrais le prendre ?\n— Bien sûr, je vais chercher ma fille de toute façon. Il peut rester chez nous jusqu'au soir.\n— Ce serait super. Je viens le chercher vers six heures.\n— Ça marche. Et la prochaine fois, si je ne peux pas, tu me dépannes.\n— Avec plaisir. Merci beaucoup !",
+      "question": "Qu'est-ce que les deux décident pour mercredi ?",
+      "options": [
+        "L'amie prend Léo et le garde jusqu'au soir",
+        "Léo rentre seul à la maison",
+        "La mère annule son rendez-vous",
+        "Léo reste à l'école"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Bulletin radio : nouvelle ligne de bus",
+    "prompt": "Écoutez le bulletin et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Et encore une information de la commune : dès le premier septembre, une nouvelle ligne de bus, la ligne 8, sera mise en service. Elle relie directement le nouveau quartier au nord avec la gare et l'hôpital. Le bus passe en semaine toutes les quinze minutes, et le week-end toutes les demi-heures. Ainsi, il sera plus facile pour beaucoup de gens d'aller travailler sans voiture.",
+      "question": "Qu'est-ce qui est nouveau dès le premier septembre ?",
+      "options": [
+        "Une nouvelle ligne de bus entre le quartier, la gare et l'hôpital",
+        "Une nouvelle gare",
+        "Un nouvel hôpital",
+        "Qu'il n'y a plus de bus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le bus : arrêt déplacé",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chers voyageurs, en raison de travaux, l'arrêt « Église » n'est pas desservi aujourd'hui. Veuillez descendre à l'arrêt suivant, « École », à deux minutes à pied. Les horaires restent les mêmes. Merci de votre compréhension.",
+      "question": "Que doivent faire les voyageurs qui veulent descendre à « Église » ?",
+      "options": [
+        "Descendre à l'arrêt suivant, « École »",
+        "Rester dans le bus jusqu'au terminus",
+        "Attendre à l'arrêt « Église »",
+        "Prendre un autre bus"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de l'école : sortie reportée",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici l'école du Parc. Nous devons vous informer : la sortie de demain est reportée à cause de la météo. La nouvelle date est le mardi suivant, à la même heure. Merci de noter le nouveau jour. Nous vous prions de nous excuser et vous remercions de votre compréhension.",
+      "question": "Affirmation : selon le message, la sortie a lieu demain comme prévu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

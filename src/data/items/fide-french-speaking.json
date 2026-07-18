@@ -927,5 +927,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Prendre un rendez-vous et expliquer un problème",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Depuis quelques jours, vous avez mal au dos. Téléphonez au cabinet médical : décrivez brièvement votre problème, demandez un rendez-vous et dites quand vous êtes disponible. Posez une question si quelque chose n'est pas clair.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit brièvement le problème (mal au dos)",
+        "Demande un rendez-vous",
+        "Dit quand il/elle est disponible",
+        "Langue polie, pose une question si besoin"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner à la commune sur une démarche",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous devez faire une démarche à la commune (par exemple annoncer un changement d'adresse), mais vous ne savez pas comment. Téléphonez au guichet : expliquez votre situation, demandez comment faire, quels documents apporter et les horaires du guichet.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement la situation",
+        "Demande comment faire la démarche",
+        "Demande quels documents apporter",
+        "Demande les horaires et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer une activité au comité du club",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes membre d'un club de quartier. Vous voulez proposer d'organiser un après-midi de jeux pour les familles. Présentez votre proposition au comité : décrivez l'idée, justifiez-la et proposez d'aider à l'organisation. Répondez à une objection possible.",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente l'idée clairement",
+        "La justifie de façon convaincante",
+        "Répond à une objection possible",
+        "Propose d'aider à l'organisation",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Poster un colis à la poste",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez envoyer un colis. Allez au guichet de la poste : dites que vous voulez poster un colis, dites où il va, et demandez le prix et le temps de livraison.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement qu'il/elle veut poster un colis, et où",
+        "Demande le prix",
+        "Demande le délai de livraison et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander les horaires d'un service",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez aller à la piscine mais vous ne connaissez pas les horaires. Téléphonez : saluez, demandez les horaires d'ouverture et le prix de l'entrée, et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande les horaires d'ouverture",
+        "Demande le prix de l'entrée",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
