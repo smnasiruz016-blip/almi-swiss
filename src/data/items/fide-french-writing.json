@@ -2629,5 +2629,398 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : bon courage pour un examen",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Une amie passe bientôt un examen important. Écrivez-lui une courte carte : souhaitez-lui bon courage, dites que vous croyez en elle et proposez de fêter cela après.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Souhaite bon courage pour l'examen",
+        "Encourage l'amie",
+        "Propose de fêter cela après",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au collègue : remplacer à une réunion",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous ne pouvez pas aller à une réunion demain. Écrivez un court SMS à un collègue : demandez s'il peut vous remplacer, dites de quoi il s'agit et proposez de lui rendre service en retour.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Demande d'être remplacé(e) à la réunion",
+        "Dit de quoi il s'agit",
+        "Propose de rendre service en retour",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la régie : sonnette cassée",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "La sonnette de votre appartement ne fonctionne plus. Écrivez un court courriel à la régie : signalez le problème et demandez une réparation.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Signale le problème (sonnette cassée)",
+        "Précise de quel appartement il s'agit",
+        "Demande une réparation",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite annonce : cherche un lit d'enfant",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous cherchez un lit d'enfant d'occasion. Rédigez une courte annonce : dites ce que vous cherchez, le prix approximatif et comment vous joindre.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit ce qu'il/elle cherche (lit d'enfant)",
+        "Indique le prix approximatif",
+        "Indique comment vous joindre",
+        "Clair et bien présenté"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Mot à la voisine : bruit tard le soir",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Le soir, la musique de votre voisine est souvent forte et vous n'arrivez pas à dormir. Écrivez-lui un mot poli : expliquez gentiment le problème et demandez de baisser un peu le soir.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Explique le problème gentiment",
+        "Demande de baisser le soir",
+        "Reste poli et amical",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS à un ami : annuler le sport",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous deviez faire du sport avec un ami ce soir, mais vous êtes trop fatigué(e). Écrivez un court SMS : annulez, expliquez pourquoi et proposez un autre jour.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Annule le sport de ce soir",
+        "Explique brièvement pourquoi",
+        "Propose un autre jour",
+        "Court et amical"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la commune : demander une attestation de domicile",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'une attestation de domicile pour votre employeur. Écrivez un court courriel au contrôle des habitants : expliquez de quoi vous avez besoin et pour quand, et demandez comment l'obtenir.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Explique de quoi vous avez besoin (attestation de domicile)",
+        "Dit pour quand vous en avez besoin",
+        "Demande comment l'obtenir",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Formulaire : inscription à la ludothèque",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous vous inscrivez à la ludothèque. Complétez les informations en faisant des phrases entières : votre nom, votre adresse, le nom et l'âge de votre enfant.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Indique nom et adresse",
+        "Indique le nom et l'âge de l'enfant",
+        "Écrit des phrases entières et compréhensibles",
+        "Clair et complet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note à l'équipe : nettoyage de la cuisine",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "La cuisine commune du travail est souvent laissée sale. Écrivez une courte note à l'équipe : rappelez gentiment de nettoyer après usage et proposez un petit tour de rôle.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Rappelle gentiment de nettoyer après usage",
+        "Propose un tour de rôle",
+        "Reste aimable",
+        "Court et clair"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à l'école : autoriser une sortie",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "L'école demande une autorisation pour une sortie de votre enfant. Écrivez un court courriel : donnez votre autorisation, indiquez le nom de votre enfant et un numéro pour vous joindre pendant la sortie.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Donne l'autorisation pour la sortie",
+        "Indique le nom de l'enfant",
+        "Donne un numéro pour vous joindre",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au propriétaire : fuite au plafond",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Une tache d'eau apparaît au plafond de votre salle de bain et grandit. Écrivez un court SMS au propriétaire : décrivez le problème, dites que c'est urgent et demandez que quelqu'un vienne.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Décrit le problème (tache d'eau au plafond)",
+        "Dit que c'est urgent",
+        "Demande que quelqu'un vienne",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : remercier pour un service rendu",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Un voisin vous a beaucoup aidé pendant votre déménagement. Écrivez-lui une courte carte : remerciez-le, dites ce que cela a représenté et proposez de l'inviter.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Remercie pour l'aide au déménagement",
+        "Dit ce que cela a représenté",
+        "Propose de l'inviter",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à la régie : moisissure dans la salle de bain",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "De la moisissure apparaît sur le mur de votre salle de bain, malgré une bonne aération. Rédigez un courriel objectif à la régie : décrivez le problème, dites ce que vous avez déjà fait et demandez qu'une personne vienne voir et propose une solution.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit le problème (moisissure malgré l'aération)",
+        "Dit ce que vous avez déjà fait",
+        "Demande qu'une personne vienne voir",
+        "Reste objectif et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courrier au journal : passage piéton dangereux",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Près de l'école de votre quartier, un passage piéton est peu visible et dangereux. Le journal communal en discute. Rédigez une lettre de lecteur : décrivez le problème, proposez une solution et restez objectif(ve). Tenez compte du fait que la commune décide.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit le problème (passage piéton dangereux)",
+        "Propose une solution concrète",
+        "Justifie (sécurité, surtout des enfants)",
+        "Reconnaît que la commune décide et reste objectif",
+        "Structure claire d'une lettre de lecteur"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel à l'assurance : déclarer un dégât d'eau",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Un dégât d'eau a abîmé le sol et des meubles dans votre appartement. Rédigez un courriel à votre assurance : décrivez ce qui s'est passé et ce qui est abîmé, et demandez comment déclarer le sinistre et quels documents fournir.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit ce qui s'est passé et ce qui est abîmé",
+        "Demande comment déclarer le sinistre",
+        "Demande quels documents fournir",
+        "Reste clair et objectif",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

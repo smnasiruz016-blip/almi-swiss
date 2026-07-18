@@ -2588,5 +2588,391 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Renseignement : le subside — où faire la demande",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour. Vous demandez pour le subside à l'assurance maladie. Alors : ce n'est pas la caisse maladie qui s'en occupe, c'est votre canton. Le droit et le montant dépendent de votre revenu, et les règles ne sont pas les mêmes d'un canton à l'autre. La demande, vous la déposez auprès du service cantonal compétent. Dans certains cantons, vous recevez un formulaire automatiquement ; dans d'autres, vous devez vous annoncer. Renseignez-vous directement auprès de votre canton pour savoir ce qui s'applique chez vous.",
+      "question": "Qui s'occupe du subside, selon le renseignement ?",
+      "options": [
+        "Le canton, pas la caisse maladie",
+        "La caisse maladie",
+        "La commune seule",
+        "L'employeur"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : demander un devis à un électricien",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Électricité, bonjour.\n— Bonjour, je voudrais faire installer quelques prises et j'aimerais un devis.\n— Volontiers. C'est dans un appartement ?\n— Oui, trois prises dans le salon.\n— Le mieux, c'est que je passe voir, puis je vous fais un prix précis. Lundi à 17h, ça vous va ?\n— Oui. Le devis coûte quelque chose ?\n— Non, le devis est gratuit.\n— Parfait, à lundi.",
+      "question": "Que fait l'électricien avant de donner un prix ?",
+      "options": [
+        "Il passe voir sur place lundi",
+        "Il commence les travaux tout de suite",
+        "Il envoie une facture",
+        "Il refuse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : organiser un covoiturage scolaire",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Nos enfants vont à la même école. On pourrait s'organiser pour les emmener ?\n— Bonne idée. Toi le matin, moi le soir ?\n— Ça me va. Le matin, je pars à 7h50.\n— Parfait. Et si l'un ne peut pas, on se prévient la veille.\n— D'accord. On essaie une semaine et on voit.\n— Très bien.",
+      "question": "Comment les deux parents s'organisent-ils ?",
+      "options": [
+        "L'un emmène le matin, l'autre ramène le soir",
+        "Un seul parent fait tout",
+        "Les enfants vont seuls",
+        "Ils prennent un taxi"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Entretien : une monitrice de natation raconte",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Vous donnez des cours de natation aux enfants. Qu'est-ce qui vous plaît ?\n— J'aime voir les enfants perdre leur peur de l'eau et progresser. Quand ils réussissent, ils sont fiers.\n— Et qu'est-ce qui est important dans ce métier ?\n— La patience et la sécurité. On garde toujours un œil sur tout le monde.\n— Merci pour cet entretien.",
+      "question": "Qu'est-ce qui plaît à la monitrice dans son travail ?",
+      "options": [
+        "Voir les enfants perdre leur peur de l'eau et progresser",
+        "Rester au bureau",
+        "Travailler seule la nuit",
+        "Ne pas voir d'enfants"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : reporter une réunion",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, c'est au sujet de notre réunion de jeudi. Malheureusement, je ne peux pas ce jour-là.\n— Pas de problème. On peut la faire vendredi à la même heure ?\n— Vendredi, ça m'arrange. À 14h alors ?\n— Oui, 14h vendredi. J'informe les autres.\n— Parfait, merci beaucoup.\n— À vendredi.",
+      "question": "Quand aura lieu la réunion ?",
+      "options": [
+        "Vendredi à 14h",
+        "Jeudi comme prévu",
+        "Elle est annulée",
+        "Lundi matin"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message du secrétariat : formulaire à signer",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, ici le secrétariat de l'école. Pour la sortie de votre enfant la semaine prochaine, il nous manque le formulaire d'autorisation signé. Merci de le rapporter signé d'ici mercredi, sinon votre enfant ne pourra pas participer. Vous pouvez aussi nous l'envoyer par courriel. Bonne journée.",
+      "question": "Que doivent faire les parents, selon le message ?",
+      "options": [
+        "Rapporter ou envoyer le formulaire signé d'ici mercredi",
+        "Payer la sortie",
+        "Reprendre rendez-vous",
+        "Rien"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : choisir un cadeau de départ",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Notre collègue part dans un autre canton. On lui offre quoi ?\n— On pourrait faire une collecte et un bon pour un magasin.\n— Ou quelque chose de plus personnel, une carte signée par tout le monde.\n— Faisons les deux : un bon et une carte.\n— Parfait. Je fais passer la carte et je récolte l'argent.\n— Et moi j'achète le bon.",
+      "question": "Sur quoi les collègues se mettent-ils d'accord ?",
+      "options": [
+        "Un bon et une carte signée par tout le monde",
+        "De l'argent seulement",
+        "Aucun cadeau",
+        "Un voyage"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : signaler une livraison en retard",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Service clientèle, bonjour.\n— Bonjour, ma commande devait arriver mardi et on est jeudi, je n'ai rien reçu.\n— Je suis désolé. Votre numéro de commande ?\n— C'est le 7203.\n— Merci… je vois qu'il y a eu un retard au dépôt. Votre colis part aujourd'hui, livraison demain. Je vous envoie un suivi par courriel.\n— D'accord, merci.",
+      "question": "Que fait le collaborateur ?",
+      "options": [
+        "Il fait partir le colis et envoie un suivi",
+        "Il annule la commande",
+        "Il demande de repayer",
+        "Il ne peut rien faire"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message du club : cotisation à payer",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour à tous, c'est le trésorier du club. Petit rappel : la cotisation annuelle est à payer d'ici la fin du mois. Vous avez reçu le bulletin par courrier. Si vous avez une question ou une difficulté, appelez-moi, on trouve toujours une solution. Merci et bonne journée.",
+      "question": "Que rappelle le trésorier ?",
+      "options": [
+        "Payer la cotisation annuelle d'ici la fin du mois",
+        "Que le club ferme",
+        "Qu'il faut acheter du matériel",
+        "Qu'il y a un match"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : partager la garde des animaux",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On part le week-end. Tu pourrais t'occuper de notre chat ?\n— Bien sûr. Il faut faire quoi ?\n— Juste lui donner à manger une fois par jour et changer l'eau. La litière, une fois suffit.\n— D'accord. Et vous, vous garderez mon lapin quand je partirai ?\n— Avec plaisir, quand tu veux.\n— Super, merci !",
+      "question": "Qu'est-ce qui est convenu ?",
+      "options": [
+        "Chacun gardera l'animal de l'autre quand il part",
+        "Personne ne garde les animaux",
+        "Ils emmènent les animaux",
+        "Ils donnent les animaux"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au marché : légumes du jour",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, à notre stand aujourd'hui, les tomates du pays sont mûres et bon marché : le kilo à trois francs. Nous avons aussi des courgettes et des salades fraîches. C'est valable seulement aujourd'hui. Venez nous voir !",
+      "question": "Combien coûte le kilo de tomates, selon l'annonce ?",
+      "options": [
+        "Trois francs",
+        "Dix francs",
+        "C'est gratuit",
+        "Six francs"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de l'école : réunion d'information",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, ici l'école. Nous vous invitons à une réunion d'information pour les parents, jeudi prochain à 19h, dans la salle de gym. Nous parlerons de l'année scolaire et de la nouvelle organisation. Merci de venir si possible. Si vous avez besoin d'une traduction, dites-le-nous. Bonne journée.",
+      "question": "Où a lieu la réunion d'information, selon le message ?",
+      "options": [
+        "Dans la salle de gym, jeudi à 19h",
+        "À la maison de quartier",
+        "Au parc",
+        "Le message ne le dit pas"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le train : quai",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Information pour les voyageurs à destination de Fribourg : le train de 15h10 part exceptionnellement du quai 4, et non du quai 1. Nous répétons : le train pour Fribourg part du quai 4. Merci de votre attention.",
+      "question": "De quel quai part le train pour Fribourg ?",
+      "options": [
+        "Du quai 4",
+        "Du quai 1",
+        "Du quai 15",
+        "Le train est supprimé"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la voisine : plantes",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Allô, c'est Madame Blanc, votre voisine. Je pars quelques jours et je voulais vous demander : est-ce que vous pourriez arroser mes plantes du balcon, une fois par jour ? La clé est chez vous, comme d'habitude. Merci beaucoup, et dites-moi si ça ne va pas.",
+      "question": "Affirmation : selon le message, il faut arroser les plantes deux fois par jour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message d'un ami : match reporté",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Salut, c'est Yann. Le match de foot de dimanche est reporté à cause du terrain. On rejoue le dimanche suivant, à la même heure. Passe le mot aux autres si tu les vois. À plus !",
+      "question": "Affirmation : selon le message, le match a lieu dimanche comme prévu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
