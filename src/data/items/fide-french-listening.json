@@ -1302,5 +1302,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message au répondeur : résultat d'analyse",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Madame Yilmaz, c'est le cabinet du docteur Meier. Vos analyses sont arrivées et tout est normal. Vous n'avez rien de particulier à faire et il n'est pas nécessaire de reprendre rendez-vous. Si vous avez malgré tout des questions, appelez-nous. Bonne journée.",
+      "question": "Que doit faire Madame Yilmaz ?",
+      "options": [
+        "Rien de particulier ; pas besoin de reprendre rendez-vous",
+        "Reprendre rendez-vous tout de suite",
+        "Refaire des analyses",
+        "Aller à l'hôpital"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : choisir un cadeau",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Notre cheffe part à la retraite. Qu'est-ce qu'on lui offre ?\n— On pourrait faire une collecte et acheter un bon pour un restaurant.\n— Bonne idée. Ou quelque chose de personnel, par exemple un album photo avec des photos de l'équipe.\n— Un album, c'est joli, mais ça prend plus de temps. On fait les deux : un bon et quelques photos ?\n— Parfait. Je demande aux autres s'ils participent.\n— Et moi, je réunis les photos.",
+      "question": "Sur quoi les deux se mettent-ils d'accord ?",
+      "options": [
+        "Sur un bon et quelques photos",
+        "Sur de l'argent seulement",
+        "Sur aucun cadeau",
+        "Sur une nouvelle voiture"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : prendre rendez-vous au garage",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Garage du centre, bonjour.\n— Bonjour, ma voiture fait un bruit bizarre au freinage. Je voudrais la faire vérifier.\n— D'accord. Vous pouvez l'amener jeudi matin ? On regarde ça et on vous appelle avant de faire quoi que ce soit.\n— Jeudi matin, ça va. Ça prend combien de temps ?\n— Si ce sont les freins, on peut souvent faire dans la journée. On vous donne un devis avant.\n— Parfait, merci. À jeudi.",
+      "question": "Que propose le garage ?",
+      "options": [
+        "Vérifier la voiture jeudi matin et donner un devis avant de réparer",
+        "Réparer tout de suite sans prévenir",
+        "Vendre une nouvelle voiture",
+        "Refuser le rendez-vous"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au centre commercial",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, notre centre commercial ferme dans quinze minutes. Merci de terminer vos achats et de vous diriger vers les caisses. Le parking souterrain reste ouvert jusqu'à minuit, vous pouvez donc récupérer votre voiture tranquillement. Merci de votre visite et à demain.",
+      "question": "Que peuvent encore faire les clients jusqu'à minuit, selon l'annonce ?",
+      "options": [
+        "Récupérer leur voiture au parking souterrain",
+        "Continuer leurs achats",
+        "Manger au centre",
+        "Payer à la caisse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message du propriétaire : eau coupée",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici la régie. Nous vous informons : demain, mardi, l'eau sera coupée de 9h à 12h, car on répare une conduite. Merci de fermer vos robinets pendant ce temps. L'après-midi, l'eau coulera de nouveau normalement. Merci de votre compréhension.",
+      "question": "Affirmation : selon le message, l'eau est coupée toute la journée de mardi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
