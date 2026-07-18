@@ -1057,5 +1057,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte : félicitations pour un bébé",
+    "prompt": "Écrivez une carte courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Des amis viennent d'avoir un bébé. Écrivez-leur une courte carte : félicitez-les, souhaitez-leur ainsi qu'au bébé quelque chose de beau, et dites que vous vous réjouissez de leur rendre visite.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Félicite pour la naissance",
+        "Souhaite quelque chose de beau à la famille",
+        "Dit qu'il/elle se réjouit de leur rendre visite",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "SMS au voisin : réceptionner un colis",
+    "prompt": "Écrivez un message court. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous attendez un colis important demain, mais vous serez au travail. Écrivez un court SMS à votre voisine : demandez si elle peut réceptionner le colis pour vous, dites vers quelle heure il arrive et remerciez.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Demande si la voisine peut réceptionner le colis",
+        "Dit vers quelle heure il arrive",
+        "Remercie",
+        "Court et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Courriel à la régie : plaque de nom",
+    "prompt": "Rédigez un courriel. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous venez d'emménager. Sur la boîte aux lettres et sur la porte, votre nom n'est pas encore inscrit. Écrivez un court courriel à la régie : signalez le problème et demandez d'ajouter les plaques avec votre nom.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Mentionne l'emménagement et l'absence de plaque de nom",
+        "Demande clairement d'ajouter les plaques (boîte et porte)",
+        "Indique comment votre nom s'écrit",
+        "Formule d'appel et de clôture adaptées"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Note à un collègue : réunion",
+    "prompt": "Écrivez une note. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre collègue a oublié que demain à 9h il y a une réunion importante. Écrivez-lui une courte note : rappelez-lui la réunion, donnez l'heure et le lieu, et dites ce qu'il doit apporter.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Rappelle aimablement la réunion",
+        "Donne l'heure et le lieu",
+        "Dit ce qu'il doit apporter",
+        "Court et clair"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel au service clientèle : facturé deux fois",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Sur votre facture, vous voyez qu'un montant a été facturé deux fois. Vous n'avez rien commandé en double. Rédigez un courriel objectif au service clientèle : décrivez le problème, donnez votre numéro de client, les montants et les dates, et demandez une correction et un remboursement.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit clairement le problème (montant facturé deux fois)",
+        "Donne le numéro de client, les montants et les dates",
+        "Demande une correction et un remboursement",
+        "Reste objectif et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
