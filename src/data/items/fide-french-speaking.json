@@ -699,5 +699,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Réclamer une facture déjà payée",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez reçu un rappel pour une facture que vous avez déjà payée il y a deux semaines. Téléphonez au fournisseur : expliquez calmement la situation, dites quand et comment vous avez payé, et demandez comment cela va être réglé.",
+      "minSeconds": 60,
+      "criteria": [
+        "Expose clairement la situation (rappel malgré paiement)",
+        "Dit quand et comment il/elle a payé",
+        "Demande comment cela va être réglé",
+        "Reste calme et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "S'excuser auprès d'un voisin pour le bruit",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Hier soir, vous avez fait une fête et il a fini tard et bruyamment. Aujourd'hui, vous croisez votre voisin dans l'escalier. Excusez-vous : dites que vous êtes désolé(e), expliquez brièvement l'occasion et dites que la prochaine fois vous finirez plus tôt ou le préviendrez avant.",
+      "minSeconds": 60,
+      "criteria": [
+        "S'excuse sincèrement",
+        "Explique brièvement l'occasion",
+        "Propose quelque chose pour la prochaine fois",
+        "Reste aimable"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Refuser poliment une tâche supplémentaire",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Votre supérieure vous demande de prendre une tâche supplémentaire cette semaine. Mais vous n'y arrivez pas, car vous avez déjà beaucoup de travail. Refusez poliment : expliquez votre situation, proposez une solution (plus tard ou avec de l'aide) et restez aimable.",
+      "minSeconds": 90,
+      "criteria": [
+        "Refuse poliment et clairement",
+        "Explique la raison de façon compréhensible (charge de travail)",
+        "Propose une solution (plus tard ou avec de l'aide)",
+        "Reste aimable et respectueux",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Prendre rendez-vous à la commune par téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'un rendez-vous à la commune pour faire une démarche. Téléphonez : dites de quoi il s'agit, demandez un rendez-vous et demandez ce que vous devez apporter.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit clairement de quoi il s'agit",
+        "Demande un rendez-vous",
+        "Demande ce qu'il faut apporter et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander une autre taille en magasin",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez acheter une veste, mais votre taille n'est pas en rayon. Demandez à la vendeuse : dites quelle veste et quelle taille vous cherchez, et demandez si elle est encore disponible ou quand elle reviendra.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit quelle veste et quelle taille il/elle cherche",
+        "Demande si elle est encore disponible",
+        "Pose une question si besoin et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
