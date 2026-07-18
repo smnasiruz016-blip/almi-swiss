@@ -2202,5 +2202,391 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Renseignement au contrôle des habitants : s'annoncer",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, bienvenue dans notre commune. Vous venez d'arriver ? Alors annoncez-vous ici, au contrôle des habitants. Apportez une pièce d'identité valable, votre bail et, si vous venez d'une autre commune, votre attestation de départ. D'ici quand vous devez vous annoncer, ce n'est pas partout pareil ; le délai dépend de la commune et du canton. Alors n'attendez pas trop et, en cas de doute, demandez-nous directement. Le permis, lui, est traité par un autre service ; nous vous informerons séparément.",
+      "question": "Que dit la personne sur le délai pour s'annoncer ?",
+      "options": [
+        "Il dépend de la commune et du canton",
+        "Il est le même dans toute la Suisse",
+        "Il n'y a aucun délai",
+        "Il est toujours de trois mois"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : demander un devis à un déménageur",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Déménagements, bonjour.\n— Bonjour, je déménage le mois prochain et j'aimerais un devis.\n— Volontiers. C'est un appartement de combien de pièces ?\n— Trois pièces, au deuxième étage sans ascenseur.\n— Le mieux, c'est que je passe voir le volume, puis je vous fais un prix. Mardi à 18h, ça vous va ?\n— Oui. Le devis est payant ?\n— Non, le devis est gratuit et sans engagement.\n— Parfait, à mardi.",
+      "question": "Que fait le déménageur avant de donner un prix ?",
+      "options": [
+        "Il passe voir le volume mardi",
+        "Il commence tout de suite le déménagement",
+        "Il envoie une facture",
+        "Il refuse le rendez-vous"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : préparer une fête d'anniversaire",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On organise l'anniversaire de Maya samedi. Qu'est-ce qu'on prépare ?\n— Je peux faire le gâteau. Toi, tu t'occupes des décorations ?\n— D'accord. Et pour les jeux, on demande à Sofia, elle est douée pour ça.\n— Bonne idée. On invite combien d'enfants ?\n— Une dizaine. Je fais la liste et j'envoie les invitations aujourd'hui.\n— Parfait, comme ça c'est réglé.",
+      "question": "Comment les deux se répartissent-ils les tâches ?",
+      "options": [
+        "L'un fait le gâteau, l'autre les décorations, et Sofia s'occupe des jeux",
+        "Une seule personne fait tout",
+        "Ils annulent la fête",
+        "Ils commandent tout"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Entretien : un facteur raconte",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Vous commencez très tôt le matin. Qu'est-ce que vous aimez dans votre métier ?\n— J'aime être dehors et connaître les gens de ma tournée. Beaucoup me disent bonjour.\n— Et qu'est-ce qui est difficile ?\n— La pluie, le froid, et parfois les gros colis. Mais bouger toute la journée, ça me plaît.\n— Merci pour cet entretien.",
+      "question": "Qu'est-ce que le facteur aime dans son métier ?",
+      "options": [
+        "Être dehors et connaître les gens de sa tournée",
+        "Rester assis au bureau",
+        "Travailler la nuit uniquement",
+        "Ne voir personne"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : reporter un cours",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— École de langues, bonjour.\n— Bonjour, je suis inscrit au cours d'italien du lundi, mais je ne peux pas venir cette semaine. Puis-je rattraper ?\n— Bien sûr. Il y a un autre groupe le mercredi soir, au même niveau. Vous pouvez y aller cette semaine.\n— Mercredi soir, parfait. Je dois prévenir quelqu'un ?\n— Non, je note juste que vous venez mercredi. Bonne journée.\n— Merci beaucoup.",
+      "question": "Que propose l'école ?",
+      "options": [
+        "Rattraper le cours dans l'autre groupe du mercredi soir",
+        "Rembourser le cours",
+        "Annuler l'inscription",
+        "Recommencer depuis le début"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message du secrétariat : documents manquants",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, c'est le secrétariat de l'école. Pour l'inscription de votre fille, il manque encore deux documents : une copie de sa carte d'assurance et le formulaire signé que nous vous avons envoyé. Merci de les apporter ou de les envoyer d'ici vendredi. Sans cela, nous ne pouvons pas terminer l'inscription. Bonne journée.",
+      "question": "Que doivent faire les parents, selon le message ?",
+      "options": [
+        "Apporter ou envoyer les deux documents manquants d'ici vendredi",
+        "Payer une amende",
+        "Reprendre rendez-vous",
+        "Rien du tout"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : choisir des vacances",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On part où cet été ? La mer ou la montagne ?\n— Avec les enfants, la montagne serait plus simple : moins de monde et de la place pour jouer.\n— C'est vrai. Et il y a des sentiers faciles.\n— On loue un chalet une semaine ?\n— D'accord. Je regarde les prix ce soir et je te montre.\n— Parfait, comme ça on décide demain.",
+      "question": "Que décident les deux personnes pour cet été ?",
+      "options": [
+        "Aller à la montagne, sans doute louer un chalet",
+        "Aller à la mer",
+        "Rester à la maison",
+        "Partir tout de suite"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : signaler un colis abîmé",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Service clientèle, bonjour.\n— Bonjour, j'ai reçu mon colis, mais l'objet à l'intérieur est cassé.\n— Je suis désolé. Vous avez votre numéro de commande ?\n— Oui, c'est le 5120.\n— Merci. Prenez une photo de l'objet abîmé et envoyez-la-nous par courriel. Nous vous renvoyons un article neuf ; vous n'avez rien à payer.\n— Très bien, merci.",
+      "question": "Que demande le collaborateur au client ?",
+      "options": [
+        "D'envoyer une photo de l'objet abîmé",
+        "De payer un nouvel article",
+        "De rapporter le colis au magasin",
+        "De ne rien faire"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message de l'employeur : réunion avancée",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, c'est le bureau. Petit changement : la réunion de demain est avancée d'une heure. Au lieu de 10h, elle commence à 9h, dans la salle habituelle. Merci d'en tenir compte et de prévenir vos collègues si vous les voyez. Bonne journée.",
+      "question": "Qu'est-ce qui change pour la réunion de demain ?",
+      "options": [
+        "Elle commence à 9h au lieu de 10h",
+        "Elle est annulée",
+        "Elle change de salle",
+        "Elle dure deux jours"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : trouver une baby-sitter",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— On a besoin d'une baby-sitter pour vendredi soir. Tu connais quelqu'un ?\n— Oui, la fille des voisins garde souvent des enfants. Elle est sérieuse.\n— Super. Tu as son numéro ?\n— Je te l'envoie. Appelle-la assez tôt, elle est souvent prise le week-end.\n— D'accord, je l'appelle ce soir. Merci !\n— De rien.",
+      "question": "Que conseille l'amie ?",
+      "options": [
+        "Appeler assez tôt la fille des voisins, qui garde des enfants",
+        "De ne pas sortir vendredi",
+        "De laisser les enfants seuls",
+        "De chercher dans une autre ville"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au supermarché : caisse",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, nous fermons dans dix minutes. Merci de vous diriger vers les caisses. La caisse tout au fond reste ouverte jusqu'à la fin. Pensez à votre sac. Demain, nous ouvrons dès 8h. Merci et bonne soirée.",
+      "question": "Quelle caisse reste ouverte jusqu'à la fin ?",
+      "options": [
+        "La caisse tout au fond",
+        "Toutes les caisses",
+        "La caisse à l'entrée",
+        "Aucune caisse"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de l'école : sortie au musée",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, ici l'école. Jeudi, la classe va au musée. Le départ est à 8h30 depuis l'école. Merci de donner à votre enfant un pique-nique et de l'habiller selon la météo. L'entrée est payée par l'école. Retour vers 16h. Bonne journée.",
+      "question": "Que doivent donner les parents à leur enfant pour la sortie ?",
+      "options": [
+        "Un pique-nique",
+        "De l'argent pour l'entrée",
+        "Un billet de bus",
+        "Rien"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le bus : dernier arrêt",
+    "prompt": "Écoutez et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Terminus : Place de la Gare. Merci de descendre, ce bus ne va pas plus loin. Le prochain bus pour le centre part dans dix minutes, du même arrêt. N'oubliez rien dans le bus. Bonne journée.",
+      "question": "Que doivent faire les voyageurs ?",
+      "options": [
+        "Descendre, car le bus ne va pas plus loin",
+        "Rester dans le bus",
+        "Aller à pied jusqu'au centre",
+        "Acheter un billet"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la voisine : clé",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Allô, c'est Madame Roux, votre voisine. J'ai une double clé de votre appartement, comme convenu, au cas où. L'artisan doit passer demain après-midi pour la fenêtre. Si vous voulez, je peux le laisser entrer avec la clé. Dites-moi si c'est d'accord. À bientôt !",
+      "question": "Affirmation : selon le message, la voisine propose de laisser entrer l'artisan avec la clé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message d'un collègue : déjeuner reporté",
+    "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Salut, c'est Karim. Dis, notre repas de midi ensemble, on le reporte ? J'ai une réunion à midi qui va durer. On pourrait plutôt manger ensemble demain, même heure ? Réponds-moi vite. À demain, j'espère !",
+      "question": "Affirmation : selon le message, Karim veut annuler complètement le repas, sans nouvelle date.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
