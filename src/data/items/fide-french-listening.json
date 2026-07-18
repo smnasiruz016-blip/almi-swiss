@@ -918,5 +918,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : reporter une livraison",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, ici l'entreprise de livraison. Nous vous apportons votre canapé demain, entre 9h et 12h.\n— Oh, demain matin je ne serai pas là. Est-ce possible l'après-midi ?\n— Demain après-midi, c'est déjà complet. Mais après-demain, entre 13h et 15h, nous aurions du temps.\n— Après-demain après-midi, c'est bon.\n— Bien, je le note. Vous recevrez un SMS le matin avec l'heure exacte.\n— Merci, ça me va.",
+      "question": "Quand le canapé sera-t-il livré ?",
+      "options": [
+        "Après-demain, entre 13h et 15h",
+        "Demain, entre 9h et 12h",
+        "Demain après-midi",
+        "Ce soir"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Information à la réunion de parents",
+    "prompt": "Écoutez l'information et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonsoir à toutes et à tous. Deux informations rapides : premièrement, dès la semaine prochaine, l'horaire change — le sport sera désormais le lundi au lieu du vendredi. Pensez aux affaires de sport le lundi. Deuxièmement, à la fin du mois, nous ferons une sortie ; les enfants apporteront pour cela vingt francs pour l'entrée. Je vous dirai encore le jour exact. Pour vos questions, venez me voir après la réunion.",
+      "question": "Qu'est-ce qui change dès la semaine prochaine ?",
+      "options": [
+        "Le sport sera le lundi au lieu du vendredi",
+        "La sortie est annulée",
+        "Les enfants n'ont plus besoin d'affaires de sport",
+        "La réunion est reportée"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Visite guidée au musée",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bienvenue à la visite guidée. Nous sommes ici dans la partie la plus ancienne de la maison, elle a plus de 300 ans. Merci de ne pas faire de photos avec flash, cela abîme les vieux tableaux. La visite dure environ une heure. À la fin, vous aurez le temps de visiter la boutique et le café. Si vous avez une question, posez-la quand vous voulez. Passons à la salle suivante.",
+      "question": "Qu'est-ce qui n'est pas autorisé pendant la visite ?",
+      "options": [
+        "Faire des photos avec flash",
+        "Poser des questions",
+        "Visiter le café",
+        "Aller dans la salle suivante"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message du répondeur : cabinet médical",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour, vous êtes bien au cabinet du docteur Roth. Nous sommes actuellement absents. Nos horaires sont du lundi au vendredi, de 8h à 12h et de 14h à 17h. Merci de rappeler pendant ces heures ou de laisser votre nom et votre numéro, nous vous rappellerons. En cas d'urgence, composez le 144. Merci.",
+      "question": "Que faut-il faire en cas d'urgence ?",
+      "options": [
+        "Composer le 144",
+        "Attendre le rappel",
+        "Laisser un message",
+        "Rappeler lundi"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le parking",
+    "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, le parking ferme à 22h. Merci de sortir votre voiture avant cette heure. Payez votre ticket à l'automate près de la sortie, avant d'aller à votre voiture. L'automate accepte les pièces et les cartes. Merci de votre visite.",
+      "question": "Affirmation : selon l'annonce, on paie le ticket directement à la voiture.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

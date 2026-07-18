@@ -813,5 +813,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Signaler un problème dans l'appartement à la régie",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Dans votre appartement, le chauffage ne chauffe plus depuis hier et il fait froid. Téléphonez à la régie : décrivez le problème, dites depuis quand, et demandez si quelqu'un peut passer bientôt.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit clairement le problème (chauffage ne chauffe plus)",
+        "Dit depuis quand",
+        "Demande si quelqu'un peut passer",
+        "Langue téléphonique polie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Échanger un vêtement en magasin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez acheté un pantalon qui, à la maison, ne vous va pas. Retournez au magasin : expliquez ce que vous voulez, montrez le ticket de caisse, dites pourquoi vous voulez l'échanger et demandez s'il existe dans une autre taille.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement le motif (échanger)",
+        "Fait référence au ticket de caisse",
+        "Dit pourquoi (ne va pas)",
+        "Demande une autre taille"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Donner son avis à la réunion de l'école",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "À la réunion des parents, on discute d'organiser plus d'activités communes pour les familles, par exemple une fête ou un après-midi de jeux. Donnez votre avis : dites votre position, justifiez-la avec deux arguments et répondez à une objection possible (par exemple le temps ou les coûts).",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit clairement sa position",
+        "La justifie avec deux arguments",
+        "Répond à une objection possible",
+        "Reste objectif et poli",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Commander au restaurant",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au restaurant avec un ami. Le serveur arrive. Commandez : dites ce que vous voulez boire et manger, demandez s'il y a un menu du jour et demandez le prix.",
+      "minSeconds": 40,
+      "criteria": [
+        "Commande clairement (boisson et plat)",
+        "Demande s'il y a un menu du jour",
+        "Pose une question sur le prix et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander le chemin de la gare",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez la gare et vous ne connaissez pas le chemin. Demandez à un passant : saluez, demandez poliment le chemin, répétez brièvement pour être sûr(e) et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande poliment le chemin",
+        "Répète brièvement pour confirmer",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
