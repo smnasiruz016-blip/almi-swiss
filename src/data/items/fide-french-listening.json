@@ -406,5 +406,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Message de la régie : visite de l'appartement",
+    "prompt": "Écoutez le message et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Bonjour Monsieur Baumann, ici la régie. Comme vous quittez l'appartement à la fin du mois, nous aimerions le faire visiter à de nouveaux intéressés. Nous pensions à mercredi soir, vers 18h. Deux personnes viendraient le voir. Est-ce que cela vous convient ? Vous n'avez rien de spécial à préparer, nous ne resterons pas longtemps. Merci de nous rappeler pour confirmer. Bonne journée.",
+      "question": "Pourquoi la régie appelle-t-elle ?",
+      "options": [
+        "Pour faire visiter l'appartement à de nouveaux intéressés",
+        "Pour augmenter le loyer",
+        "Pour annoncer des travaux",
+        "Pour résilier le bail de Monsieur Baumann"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Conversation : organiser un covoiturage",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Dis, on travaille tous les deux à la zone industrielle. On pourrait faire du covoiturage, non ?\n— Bonne idée, ça fait des économies d'essence. Tu commences à quelle heure ?\n— À sept heures. Je pourrais passer te prendre à sept heures moins le quart.\n— Parfait. Et pour conduire, on alterne ?\n— Oui, une semaine sur deux. Cette semaine je conduis, la prochaine c'est toi.\n— D'accord, alors à demain, sept heures moins le quart.",
+      "question": "Qu'est-ce que les deux personnes décident ?",
+      "options": [
+        "Faire du covoiturage et alterner qui conduit chaque semaine",
+        "Que l'un conduit toujours seul",
+        "De ne faire du covoiturage que cette semaine",
+        "De prendre le bus tous les jours"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : signaler une panne d'internet",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Service clientèle, bonjour.\n— Bonjour, chez moi internet ne fonctionne plus depuis hier soir.\n— Je suis désolé. Avez-vous déjà éteint et rallumé le routeur ?\n— Oui, deux fois. Ça ne change rien.\n— Alors cela vient peut-être de la ligne. Je vous envoie un technicien. Jeudi entre 8h et 12h, est-ce que cela vous convient ?\n— Jeudi matin, d'accord. Est-ce que la visite coûte quelque chose ?\n— Si la panne vient de chez nous, c'est gratuit. Vous recevrez un SMS avant.\n— Très bien, merci.",
+      "question": "Que fait le collaborateur ?",
+      "options": [
+        "Il envoie un technicien jeudi matin",
+        "Il dit d'acheter un nouveau routeur",
+        "Il ne peut pas aider",
+        "Il passe lui-même tout de suite"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce au marché",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Chères clientes, chers clients, aujourd'hui à notre stand, les fraises sont en action : deux barquettes pour le prix d'une. Et pour trois francs nonante, vous avez un beau bouquet de radis. C'est valable seulement aujourd'hui, jusqu'à midi. Profitez-en, venez nous voir !",
+      "question": "Combien coûte le bouquet de radis ?",
+      "options": [
+        "Trois francs nonante",
+        "Deux francs",
+        "Dix francs",
+        "Il est gratuit"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message d'une voisine : arroser les plantes",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Allô, c'est Madame Rey, votre voisine. On part une semaine dès demain. Est-ce que tu pourrais arroser mes plantes sur le balcon, une fois par jour ? La clé est chez toi comme d'habitude. Une fois par jour, ça suffit. Je te ramènerai quelque chose de vacances. Merci beaucoup, et dis-moi si ça ne joue pas !",
+      "question": "Affirmation : selon le message, il faut arroser les plantes deux fois par jour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
