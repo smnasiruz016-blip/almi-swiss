@@ -1319,5 +1319,136 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Carte postale de vacances",
+    "prompt": "Écrivez une carte postale courte. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous êtes en vacances à la montagne. Écrivez une courte carte postale à votre amie Lea : dites où vous êtes, ce que vous faites, quel temps il fait, et que vous vous réjouissez de la revoir bientôt.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Dit où vous êtes et ce que vous faites",
+        "Dit quel temps il fait",
+        "Se réjouit de la revoir",
+        "Formule d'appel et de clôture adaptées à une carte postale"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Formulaire : inscription au club de sport",
+    "prompt": "Complétez les informations en faisant des phrases entières. 30 à 50 mots.",
+    "payload": {
+      "stimulus": "Vous vous inscrivez à un club de sport. Complétez les informations en faisant des phrases entières : votre nom, le sport que vous voulez faire, à quelle fréquence vous êtes disponible et un numéro de téléphone pour vous joindre.",
+      "charBand": {
+        "min": 150,
+        "max": 350
+      },
+      "criteria": [
+        "Indique le nom et le sport souhaité",
+        "Dit à quelle fréquence/quand il/elle est disponible",
+        "Donne un numéro de téléphone",
+        "Écrit des phrases entières et compréhensibles"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Invitation à un anniversaire",
+    "prompt": "Rédigez une invitation. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Votre enfant fête bientôt son anniversaire et vous organisez une petite fête. Écrivez une invitation aux parents d'un ami : indiquez l'occasion, la date et l'heure, le lieu, et demandez une réponse pour savoir si l'enfant vient.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Indique l'occasion (anniversaire) et l'enfant",
+        "Indique la date, l'heure et le lieu",
+        "Demande une réponse",
+        "Ton amical, formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Petite évaluation d'un cours",
+    "prompt": "Rédigez une évaluation courte. 50 à 80 mots.",
+    "payload": {
+      "stimulus": "Vous avez suivi un cours de français et vous étiez satisfait(e). Rédigez une courte évaluation pour le site de l'école : dites ce qui vous a plu, ce qu'on pourrait améliorer, et si vous recommandez le cours.",
+      "charBand": {
+        "min": 250,
+        "max": 550
+      },
+      "criteria": [
+        "Dit ce qui vous a plu dans le cours",
+        "Donne une suggestion d'amélioration",
+        "Dit si vous recommandez le cours",
+        "Clair et aimable"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "WRITING",
+    "taskType": "WRITING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Courriel : contester une facture de téléphone",
+    "prompt": "Rédigez le courriel. 80 à 120 mots.",
+    "payload": {
+      "stimulus": "Vous avez reçu une facture pour votre abonnement de téléphone bien plus élevée que d'habitude. Vous n'avez rien fait de différent. Rédigez un courriel objectif au service clientèle : décrivez le problème, donnez votre numéro de client et les montants, et demandez une vérification et une correction.",
+      "charBand": {
+        "min": 400,
+        "max": 800
+      },
+      "criteria": [
+        "Décrit clairement le problème (facture bien plus élevée)",
+        "Donne le numéro de client et les montants",
+        "Demande une vérification et une correction",
+        "Reste objectif et poli",
+        "Structure formelle avec formule d'appel et de clôture"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
