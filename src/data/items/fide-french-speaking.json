@@ -2301,5 +2301,349 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Réclamer un article non livré",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez commandé et payé un article, mais il n'est jamais arrivé. Téléphonez au service clientèle : expliquez la situation, donnez votre numéro de commande et demandez soit la livraison, soit le remboursement.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique la situation (article non livré)",
+        "Donne le numéro de commande",
+        "Demande la livraison ou le remboursement",
+        "Reste poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Expliquer un changement d'adresse au guichet",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez déménagé dans la commune. Au guichet du contrôle des habitants, annoncez votre changement d'adresse : donnez l'ancienne et la nouvelle adresse, demandez quels documents il faut et si cela a un coût.",
+      "minSeconds": 60,
+      "criteria": [
+        "Annonce le changement d'adresse (ancienne, nouvelle)",
+        "Demande quels documents il faut",
+        "Demande si cela a un coût",
+        "Langue polie au guichet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Proposer un projet au conseil des parents",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Au conseil des parents, vous voulez proposer un projet de jardin partagé à l'école. Présentez votre idée : décrivez le projet, justifiez-le avec deux arguments et proposez d'aider. Répondez à une objection possible.",
+      "minSeconds": 90,
+      "criteria": [
+        "Présente le projet clairement",
+        "Le justifie avec deux arguments",
+        "Propose d'aider",
+        "Répond à une objection possible",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner sur un cours pour adultes",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez suivre un cours du soir. Téléphonez à la maison de quartier : demandez quels cours sont proposés, les horaires, les prix et comment s'inscrire.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique son intérêt",
+        "Demande les cours et les horaires",
+        "Demande les prix",
+        "Demande comment s'inscrire"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Contester un montant sur une facture",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Sur votre facture, il y a un montant que vous ne comprenez pas. Téléphonez : expliquez calmement, demandez à quoi correspond ce montant et demandez une correction si c'est une erreur.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique le problème (montant non compris)",
+        "Demande à quoi il correspond",
+        "Demande une correction si erreur",
+        "Reste calme et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Décrire une douleur au dos chez le médecin",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez mal au dos depuis une semaine. Chez le médecin, décrivez : depuis quand, où, à quel moment ça fait mal, ce que vous avez essayé, et demandez ce que vous pouvez faire.",
+      "minSeconds": 60,
+      "criteria": [
+        "Décrit la douleur (depuis quand, où, quand)",
+        "Dit ce qu'il/elle a essayé",
+        "Demande ce qu'il/elle peut faire",
+        "Langue polie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Convaincre un ami de faire du sport ensemble",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez commencer à faire du sport et vous aimeriez qu'un ami vienne avec vous. Il hésite. Convainquez-le : dites pourquoi ce serait bien, répondez à ses objections et proposez quelque chose de simple pour commencer.",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit pourquoi ce serait bien",
+        "Répond aux objections de l'ami",
+        "Propose quelque chose de simple",
+        "Reste amical et convaincant",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Se renseigner sur les transports scolaires",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Votre enfant doit aller à l'école un peu loin. Téléphonez à la commune : demandez s'il existe un bus scolaire, les horaires, l'arrêt le plus proche et si c'est payant.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique le besoin (transport scolaire)",
+        "Demande les horaires et l'arrêt",
+        "Demande si c'est payant",
+        "Langue polie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Rapporter un appareil sous garantie",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Un appareil que vous avez acheté il y a six mois est tombé en panne. Retournez au magasin : expliquez le problème, dites qu'il est encore sous garantie, montrez le ticket et demandez une réparation ou un échange.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique le problème (appareil en panne)",
+        "Dit qu'il est sous garantie et montre le ticket",
+        "Demande une réparation ou un échange",
+        "Reste poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Donner son avis sur les places de jeux",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Dans votre quartier, on discute des places de jeux pour les enfants. Donnez votre avis : dites ce qui manque ou ce qui pourrait être mieux, justifiez avec deux arguments et répondez à une objection possible.",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit clairement son avis",
+        "Justifie avec deux arguments",
+        "Répond à une objection possible",
+        "Reste objectif et poli",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Prendre rendez-vous pour un service de la voiture",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Votre voiture doit passer un service. Téléphonez au garage : dites ce dont vous avez besoin, demandez un rendez-vous, combien de temps ça prend et si vous pouvez avoir une voiture de remplacement.",
+      "minSeconds": 60,
+      "criteria": [
+        "Dit ce dont il/elle a besoin (service)",
+        "Demande un rendez-vous et la durée",
+        "Demande pour une voiture de remplacement",
+        "Langue polie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Acheter des fruits et légumes",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes au marché. Achetez un kilo de pommes et une salade. Dites ce que vous voulez, demandez le prix et payez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit ce qu'il/elle veut et en quelle quantité",
+        "Demande le prix",
+        "Paie et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander l'horaire du prochain bus",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous êtes à un arrêt et vous ne savez pas quand passe le prochain bus. Demandez à quelqu'un ou au guichet : dites où vous voulez aller et demandez à quelle heure passe le prochain bus.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit où il/elle veut aller",
+        "Demande l'heure du prochain bus",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Commander une pizza au téléphone",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez commander une pizza à emporter. Téléphonez : dites quelle pizza vous voulez, donnez votre nom et demandez quand elle sera prête.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit quelle pizza il/elle veut",
+        "Donne son nom",
+        "Demande quand elle sera prête et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Demander son chemin vers la mairie",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous cherchez la mairie et vous ne connaissez pas le chemin. Demandez à un passant : saluez, demandez poliment le chemin et remerciez.",
+      "minSeconds": 40,
+      "criteria": [
+        "Salue et demande poliment le chemin",
+        "Écoute et confirme brièvement",
+        "Remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]
