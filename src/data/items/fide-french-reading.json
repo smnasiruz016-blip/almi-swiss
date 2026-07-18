@@ -679,5 +679,177 @@
       "correctIndex": 0
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Programme de la fête de quartier",
+    "prompt": "Lisez le programme et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Programme — Fête de quartier\nSamedi 6 septembre, place du Marché\n\n11h00 : Ouverture et apéritif\n12h00 : Grillades (inscription pour le repas)\n14h00 : Jeux pour les enfants\n16h00 : Concert de la fanfare\n18h00 : Fin de la fête\n\nL'entrée est libre. Pour le repas, inscrivez-vous jusqu'au 1er septembre.",
+      "question": "Pour quoi faut-il s'inscrire, selon le programme ?",
+      "options": [
+        "Pour le repas de midi",
+        "Pour le concert",
+        "Pour les jeux des enfants",
+        "Pour toute la journée"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Ticket de caisse : échange",
+    "prompt": "Lisez le ticket. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "passage": "Merci de votre achat !\n\nÉchange et retour : vous pouvez échanger un article non porté dans les 14 jours. Merci de présenter ce ticket de caisse.\nLes articles soldés ne sont pas repris.\nHoraires : lundi au samedi, 9h–19h.",
+      "question": "Affirmation : selon le ticket, on peut échanger un article soldé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Mode d'emploi : la machine à café",
+    "prompt": "Lisez le mode d'emploi et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Comment faire un café\n\n1. Placez une tasse sous le bec.\n2. Choisissez au bouton un café court ou long.\n3. Appuyez sur « Start ». Le café coule automatiquement.\n4. Attendez le bip, puis retirez la tasse.\n\nQuand le réservoir d'eau est vide, un voyant rouge s'allume. Remplissez alors le réservoir.",
+      "question": "Que signifie le voyant rouge, selon le mode d'emploi ?",
+      "options": [
+        "Le réservoir d'eau est vide et doit être rempli",
+        "Le café est prêt",
+        "La machine est cassée",
+        "Il faut payer"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "CLOZE",
+    "difficulty": "CORE",
+    "cefr": "A2",
+    "title": "Annonce : cours de français au centre",
+    "prompt": "Lisez l'annonce et choisissez le mot qui convient pour chaque espace.",
+    "payload": {
+      "passage": "Cours de français au centre de quartier\n\nVous voulez améliorer votre {{1}} ? Nous proposons un cours de français le mardi et le jeudi, de 9h à 11h.\nLe cours est destiné aux {{2}} qui comprennent déjà un peu le français. Vous pouvez vous inscrire directement au {{3}} ou par courriel.\nLa participation est {{4}} ; vous payez seulement une petite contribution pour le matériel.",
+      "gaps": [
+        {
+          "id": 1,
+          "options": [
+            "français",
+            "voiture",
+            "maison"
+          ]
+        },
+        {
+          "id": 2,
+          "options": [
+            "adultes",
+            "enfants",
+            "entreprises"
+          ]
+        },
+        {
+          "id": 3,
+          "options": [
+            "centre",
+            "hôpital",
+            "stade"
+          ]
+        },
+        {
+          "id": 4,
+          "options": [
+            "gratuite",
+            "chère",
+            "obligatoire"
+          ]
+        }
+      ]
+    },
+    "answer": {
+      "type": "CLOZE",
+      "correct": [
+        {
+          "id": 1,
+          "index": 0
+        },
+        {
+          "id": 2,
+          "index": 0
+        },
+        {
+          "id": 3,
+          "index": 0
+        },
+        {
+          "id": 4,
+          "index": 0
+        }
+      ]
+    },
+    "maxPoints": 4
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Notice : la langue pour la naturalisation",
+    "prompt": "Lisez la notice et choisissez la bonne réponse.",
+    "payload": {
+      "passage": "Notice : la langue pour la naturalisation\n\nPour la naturalisation, vous devez prouver une langue nationale : au moins le niveau B1 à l'oral et au moins A2 à l'écrit. C'est le minimum fixé par la Confédération ; votre canton peut exiger davantage.\nDans notre commune, la langue est le français. C'est donc le français que vous prouvez, avec un certificat reconnu.\nQuels certificats sont acceptés, cela vous est indiqué par le service compétent. Renseignez-vous suffisamment tôt.",
+      "question": "Que dit la notice sur la langue à prouver dans cette commune ?",
+      "options": [
+        "C'est le français, au moins B1 à l'oral et A2 à l'écrit",
+        "N'importe quelle langue du monde",
+        "Seulement l'anglais",
+        "À l'écrit, le niveau B1 est exigé"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   }
 ]

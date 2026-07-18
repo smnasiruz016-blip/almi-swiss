@@ -471,5 +471,119 @@
     },
     "answer": null,
     "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Contester une double facturation",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Sur votre facture, un montant a été prélevé deux fois. Téléphonez au fournisseur : expliquez calmement le problème, donnez les montants et les dates, et demandez comment vous serez remboursé(e).",
+      "minSeconds": 60,
+      "criteria": [
+        "Expose clairement le problème (montant prélevé deux fois)",
+        "Donne des montants et des dates précis",
+        "Demande comment il/elle sera remboursé(e)",
+        "Reste calme et poli"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Demander une attestation au guichet",
+    "prompt": "Parlez pendant au moins 60 secondes.",
+    "payload": {
+      "stimulus": "Vous avez besoin d'une attestation de domicile pour votre employeur. Allez au guichet de la commune : expliquez ce dont vous avez besoin et pourquoi, demandez le prix et le délai, et si vous devez apporter quelque chose.",
+      "minSeconds": 60,
+      "criteria": [
+        "Explique clairement quelle attestation et pourquoi",
+        "Demande le prix et le délai",
+        "Demande quels documents apporter",
+        "Langue polie au guichet"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Donner son avis sur un sujet du quartier",
+    "prompt": "Parlez pendant au moins 90 secondes.",
+    "payload": {
+      "stimulus": "Dans votre quartier, on discute de fermer une rue aux voitures pour en faire une zone de rencontre. Donnez votre avis : dites votre position, justifiez-la avec deux arguments et répondez à une objection possible.",
+      "minSeconds": 90,
+      "criteria": [
+        "Dit clairement sa position",
+        "La justifie avec deux arguments",
+        "Répond à une objection possible",
+        "Reste objectif et poli",
+        "Structure son intervention"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Réserver une table au restaurant",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez aller au restaurant samedi soir avec quatre personnes. Téléphonez : dites pour quand et pour combien de personnes vous voulez une table, et demandez jusqu'à quelle heure vous pouvez arriver.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit le jour, l'heure et le nombre de personnes",
+        "Demande une réservation clairement",
+        "Pose une question et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "SPEAKING",
+    "taskType": "SPEAKING_PROMPT",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Acheter un billet de train au guichet",
+    "prompt": "Parlez pendant au moins 40 secondes.",
+    "payload": {
+      "stimulus": "Vous voulez voyager en train vers une autre ville. Au guichet, achetez un billet : dites où vous allez, si c'est un aller simple ou un aller-retour, et demandez le prix et la voie.",
+      "minSeconds": 40,
+      "criteria": [
+        "Dit où il/elle va (et aller simple ou aller-retour)",
+        "Demande le prix",
+        "Demande la voie et remercie"
+      ]
+    },
+    "answer": null,
+    "maxPoints": 0
   }
 ]

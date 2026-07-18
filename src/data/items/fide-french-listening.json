@@ -534,5 +534,133 @@
       "correctIndex": 1
     },
     "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "cefr": "B1",
+    "title": "Conversation : reporter un rendez-vous médical",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Cabinet du docteur Perret, bonjour.\n— Bonjour, j'ai un rendez-vous demain à 9h, mais mon enfant est malade. Je voudrais le reporter.\n— Bien sûr. Mardi prochain à 11h, cela vous convient ?\n— Mardi 11h, parfait. Dois-je apporter quelque chose ?\n— Apportez la liste de vos médicaments. Et si votre enfant ne va pas mieux d'ici là, appelez plus tôt.\n— Merci, à mardi.",
+      "question": "Qu'est-ce qui est décidé à la fin ?",
+      "options": [
+        "Un nouveau rendez-vous mardi à 11h",
+        "Le rendez-vous de demain à 9h est maintenu",
+        "Le rendez-vous est annulé sans nouveau",
+        "La patiente viendra sans rendez-vous"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Appel : commander un dépannage",
+    "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Bonjour, chez moi ça fuit sous l'évier de la cuisine, je crois qu'un tuyau est percé.\n— On va regarder ça. Pouvez-vous couper l'eau sous l'évier ?\n— Oui, j'ai déjà fermé le robinet.\n— Bien. Je peux passer aujourd'hui entre 16h et 18h. Ça vous va ?\n— Oui, je suis à la maison.\n— Alors à tout à l'heure. Mettez un seau dessous, au cas où ça goutte encore.\n— D'accord, merci.",
+      "question": "Qu'est-ce qui est convenu ?",
+      "options": [
+        "Le dépanneur passe aujourd'hui entre 16h et 18h",
+        "La cliente répare elle-même le tuyau",
+        "Le dépanneur passe la semaine prochaine",
+        "Aucun rendez-vous n'est pris"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "STRETCH",
+    "cefr": "B1",
+    "title": "Entretien : une bénévole raconte",
+    "prompt": "Écoutez l'entretien et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "— Vous aidez chaque semaine à la maison de quartier. Que faites-vous exactement ?\n— Le mercredi, je cuisine pour des personnes âgées qui vivent seules. On mange ensemble et on discute.\n— Et pourquoi faites-vous cela ?\n— Quand je suis arrivée ici, quelqu'un m'a aidée aussi. Maintenant, je rends un peu. Ça me fait plaisir et je rencontre beaucoup de gens.\n— Faut-il une formation ?\n— Non, il faut être fiable et aimer le contact. De nouveaux bénévoles sont toujours les bienvenus.",
+      "question": "Pourquoi cette personne fait-elle du bénévolat ?",
+      "options": [
+        "Elle veut rendre ce qu'on a fait pour elle et aime le contact",
+        "Elle gagne beaucoup d'argent",
+        "Elle y est obligée",
+        "Elle cherche un logement"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Annonce dans le train : correspondance",
+    "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
+    "payload": {
+      "transcript": "Mesdames et Messieurs, prochain arrêt : Renens. Les voyageurs pour Genève changent ici ; le train pour Genève part de la voie 3, en face. Le wagon-restaurant se trouve au milieu du train. Nous vous souhaitons un bon voyage.",
+      "question": "Que doivent faire les voyageurs pour Genève à Renens ?",
+      "options": [
+        "Changer de train ; le train pour Genève part de la voie 3",
+        "Rester dans le train",
+        "Aller au wagon-restaurant",
+        "Descendre et attendre à Renens"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "FR",
+    "track": "CITIZENSHIP",
+    "exam": "FIDE",
+    "skill": "LISTENING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "cefr": "A2",
+    "title": "Message de la crèche : fermeture plus tôt",
+    "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
+    "payload": {
+      "transcript": "Bonjour, ici la crèche des Tilleuls. Nous vous informons : demain, nous fermons déjà à 14h, car l'équipe a une formation continue. Merci de venir chercher votre enfant avant 14h. Si ce n'est pas possible pour vous, annoncez-vous aujourd'hui, nous chercherons une solution. Merci de votre compréhension.",
+      "question": "Affirmation : selon le message, la crèche ferme demain seulement le soir.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]
