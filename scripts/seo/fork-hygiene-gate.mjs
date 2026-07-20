@@ -201,6 +201,68 @@ for (const n of SELF_NAMES) {
 // boundaries are what make banning it safe in a product that teaches German.
 const BANNED_WORD = ["UDI", "SIRI", "UHR"];
 
+// ── What gets scanned ────────────────────────────────────────────────────────────
+//
+// COMMENTS ARE NOT SCANNED. A comment naming an ancestor is documentation, not a
+// leak — usually the opposite, since it exists to stop a duplication being mistaken
+// for original work. Scanning them made the gate red for two provenance notes and
+// invited a third allowlist entry, and this gate's own header calls every allowlist
+// entry a hole. Stripping comments closes the class instead of widening the hole.
+//
+// STRING LITERALS ARE SCANNED. They are the copy that ships. The leaks in the header
+// above were all strings: "other Norwegian universities", "the Norwegian Patient
+// Safety Authority", a fabricated "University of Southern Norway". Dropping them to
+// scan only item JSON would blind the gate to exactly what it was built for.
+//
+// The stripper tracks string state so a `//` inside "https://…" is not mistaken for
+// a comment — the common way a naive stripper eats real copy.
+function stripComments(text) {
+  let out = "";
+  let i = 0;
+  let quote = null;      // ' " ` when inside a string
+  let inLine = false;    // //
+  let inBlock = false;   // /* */
+  while (i < text.length) {
+    const c = text[i];
+    const n = text[i + 1];
+    if (inLine) {
+      if (c === "\n") { inLine = false; out += c; }
+      else out += " ";           // keep length so line numbers survive
+      i++; continue;
+    }
+    if (inBlock) {
+      if (c === "*" && n === "/") { inBlock = false; out += "  "; i += 2; continue; }
+      out += c === "\n" ? c : " ";
+      i++; continue;
+    }
+    if (quote) {
+      if (c === "\\") { out += text.slice(i, i + 2); i += 2; continue; }
+      if (c === quote) quote = null;
+      out += c; i++; continue;
+    }
+    if (c === '"' || c === "'" || c === "`") { quote = c; out += c; i++; continue; }
+    if (c === "/" && n === "/") { inLine = true; out += "  "; i += 2; continue; }
+    if (c === "/" && n === "*") { inBlock = true; out += "  "; i += 2; continue; }
+    out += c; i++;
+  }
+  return out;
+}
+
+// Prisma and CSS use their own comment syntax; # is prisma's.
+function stripHashComments(text) {
+  return text.split(/\r?\n/).map((l) => l.replace(/#.*$/, "")).join("\n");
+}
+
+// JSON is scanned as PARSED STRING VALUES, the real-entity-gate design: scanning raw
+// JSON text matches escape sequences rather than content, and a gate that scans the
+// wrong thing is a gate that has never truly been red.
+function jsonStrings(node, out = []) {
+  if (typeof node === "string") out.push(node);
+  else if (Array.isArray(node)) for (const v of node) jsonStrings(v, out);
+  else if (node && typeof node === "object") for (const v of Object.values(node)) jsonStrings(v, out);
+  return out;
+}
+
 function walk(dir, out = []) {
   let entries;
   try { entries = readdirSync(dir); } catch { return out; }
@@ -219,11 +281,25 @@ for (const dir of SCAN_DIRS) {
   for (const file of walk(join(ROOT, dir))) {
     const rel = relative(ROOT, file).replace(/\\/g, "/");
     if (ALLOWLIST.has(rel)) continue;
-    const text = readFileSync(file, "utf8");
+    const raw = readFileSync(file, "utf8");
+    let text;
+    if (rel.endsWith(".json")) {
+      // parsed values only — never the raw JSON text
+      try { text = jsonStrings(JSON.parse(raw)).join("\n"); }
+      catch { text = raw; }   // malformed JSON: fall back rather than skip silently
+    } else if (rel.endsWith(".prisma")) {
+      text = stripHashComments(raw);
+    } else {
+      text = stripComments(raw);
+    }
     const lines = text.split(/\r?\n/);
+    // The per-line escape lives in a TRAILING COMMENT, so it must be read from the
+    // RAW line, not the stripped one. Stripping comments removed the marker along
+    // with them, which silently disarmed every escaped CODE line.
+    const rawLines = raw.split(/\r?\n/);
 
     lines.forEach((line, i) => {
-      if (line.includes(LINE_ESCAPE)) return;
+      if ((rawLines[i] ?? "").includes(LINE_ESCAPE)) return;
       for (const term of BANNED) {
         if (line.includes(term)) {
           violations.push(`${rel}:${i + 1}  banned ancestor noun "${term}"\n      ${line.trim().slice(0, 120)}`);
