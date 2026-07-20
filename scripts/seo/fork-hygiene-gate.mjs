@@ -360,8 +360,12 @@ try {
 
 if (violations.length) {
   console.error("\n✗ FORK HYGIENE GATE FAILED — ancestor-country content found.\n");
-  console.error("  Sweden must read as Sweden. These are leaks from the fork lineage");
-  console.error("  (celpip → goethe → icelandic → danish → norwegian → swedish).\n");
+  // Was "Sweden must read as Sweden", with the lineage stopping at swedish — this
+  // file was copied from almi-swedish and never re-cut. Cosmetic, and also the
+  // exact failure this gate exists to catch: a label carried across a fork while
+  // the fact moved on.
+  console.error("  Switzerland must read as Switzerland. These are leaks from the fork lineage");
+  console.error("  (celpip → goethe → icelandic → danish → norwegian → swedish → swiss).\n");
   for (const v of violations) console.error(`  ${v}`);
   console.error(`\n  ${violations.length} violation(s). Fix the FACT, not just the label —`);
   console.error("  the worst leaks are the ones where only the country word was swapped.\n");
