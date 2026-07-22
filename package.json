@@ -5,7 +5,7 @@
   "description": "AlmiSwiss — AI-powered Swiss integration-exam practice in the AlmiWorld family. fide (German and French) for naturalisation and the C permit, canton civic knowledge, and SEM-recognised certificate routes (telc/Goethe-Zertifikat, DELF/TCF), with honest per-skill readiness bands and AI feedback — no fabricated composite. Separate product (almiswiss.almiworld.com). Original content — never copied from official exam material. Naturalisation language requirements are a FEDERAL minimum and vary by canton — every surface says so.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/seo/countries-axis-gate.mjs && node scripts/seo/fork-hygiene-gate.mjs && node scripts/seo/real-entity-gate.mjs && node scripts/seo/uniqueness-gate.mjs && tsx scripts/items/verify-items.mts && prisma generate && prisma migrate deploy && next build",
+    "build": "node scripts/seo/countries-axis-gate.mjs && node scripts/seo/fork-hygiene-gate.mjs && node scripts/seo/real-entity-gate.mjs && node scripts/seo/uniqueness-gate.mjs && tsx scripts/items/verify-items.mts && tsx scripts/items/conformance-gate.mts && prisma generate && prisma migrate deploy && next build",
     "start": "next start",
     "postinstall": "prisma generate",
     "gate:hygiene": "node scripts/seo/fork-hygiene-gate.mjs",
@@ -13,7 +13,8 @@
     "verify:items": "tsx scripts/items/verify-items.mts",
     "gate:real-entity": "node scripts/seo/real-entity-gate.mjs",
     "gate:real-entity:test": "node scripts/seo/real-entity-gate.test.mjs",
-    "proof:reachability": "tsx scripts/items/reachability-proof.mts"
+    "proof:reachability": "tsx scripts/items/reachability-proof.mts",
+    "gate:conformance": "tsx scripts/items/conformance-gate.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",

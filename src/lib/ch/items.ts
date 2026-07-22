@@ -49,6 +49,19 @@ export interface SwissItemSeed {
    *  declares a goal (goalCefrFor), so a module gets levels the moment it gets a goal
    *  — and a task with no level can never be silently counted as proof of one. */
   cefr?: CefrLevel;
+  /** WHICH exam this item is written for, on a surface that bundles two.
+   *
+   *  Only the CERTIFICATE surfaces need it, and today only telc-goethe enforces it:
+   *  that bundle is telc AND Goethe — two exams whose papers differ (Goethe B1
+   *  Schreiben has three tasks, telc B1 has one; their Sprechen parts differ too).
+   *  Without this field an item is "telc-ish or Goethe-ish", which is precisely how
+   *  the surface came to hold 60 translated DELF/TCF tasks: nothing could say what
+   *  any item was supposed to be, so nothing could notice they were the wrong shape.
+   *
+   *  Optional on the type because fide, canton-civic and getting-started have no
+   *  such split; REQUIRED by the conformance gate on telc-goethe. Scoped enforcement,
+   *  not a field everyone must fill in with a guess. */
+  variant?: "GOETHE" | "TELC";
   title: string;
   prompt: string;
   payload: unknown;
