@@ -85,6 +85,44 @@ const ALLOWLIST = new Map([
 // review: a line carrying this marker is asserting "I mean this on purpose".
 const LINE_ESCAPE = "hygiene-allow";
 
+// ── EXPIRING ESCAPES — a dated, auditable hole ───────────────────────────────
+// The blanket LINE_ESCAPE above is right for DOCUMENTATION: the comments that
+// explain the is-IS voice bug or the Swedish-examiner persona must name an ancestor
+// to make their point, and they are permanent. It is WRONG for a temporary
+// compatibility shim, because nothing makes it expire: a marker with "delete after
+// <date>" in the prose beside it is a promise, not a mechanism, and the gate can
+// never tell the difference between a shim that is still needed and one everybody
+// forgot.
+//
+// So a shim goes in this registry instead. An entry must match on THREE things — the
+// file, the exact term, and an id marker on that one line — so it covers exactly one
+// occurrence and nothing else in the same file. Once the date passes, the gate FAILS.
+// Escapes are printed on every green run: a hole nobody is reminded of is a hole
+// nobody closes.
+const EXPIRING_ESCAPES = [
+  {
+    id: "legacy-cookie-almi_norwegian",
+    file: "src/lib/auth.ts",
+    term: "almi_norwegian_session",
+    reason:
+      "read-only legacy session cookie inherited from the almi-norwegian fork; the " +
+      "current cookie is almi_swiss_session. Sessions resolve by tokenHash, so the " +
+      "name on the envelope does not affect the lookup — reading the old one costs " +
+      "nothing and keeps the rename provably zero-logout.",
+    // Legacy cookies were issued with a 30-day life (SESSION_DURATION_MS), so any
+    // still valid on this date was issued before the rename shipped. Same date as
+    // the 🔴 REMOVAL note in src/lib/auth.ts — deliberately identical so the two
+    // cannot drift apart.
+    expires: "2026-08-16",
+  },
+];
+
+const escapeMarker = (id) => `hygiene-allow: ${id}`;
+
+/** Build-time "today", compared as YYYY-MM-DD strings (which sort lexicographically). */
+const TODAY = new Date().toISOString().slice(0, 10);
+
+
 // Ancestor proper nouns. A Swiss product naming any of these is a fork leak.
 // ⚠️ THIS LIST IS PRODUCT-SPECIFIC AND MUST BE RE-CUT AT EVERY FORK — IN BOTH
 // DIRECTIONS. Inheriting it unchanged is itself a fork bug, and AlmiSwiss proved it
@@ -291,6 +329,9 @@ function walk(dir, out = []) {
 }
 
 const violations = [];
+/** Expiring escapes actually used, so they can be surfaced on success. */
+const escapesUsed = new Map();
+const expiredEscapes = [];
 
 /** Every file to scan: the source trees, plus the named root identity files. */
 const targets = [
@@ -326,7 +367,27 @@ const targets = [
     const rawLines = raw.split(/\r?\n/);
 
     lines.forEach((line, i) => {
-      if ((rawLines[i] ?? "").includes(LINE_ESCAPE)) return;
+      const rawLine = rawLines[i] ?? "";
+
+      // A registry entry OUTRANKS the blanket marker. Without this, someone could
+      // quietly downgrade a dated shim to a plain `hygiene-allow` and the expiry
+      // would never fire again — the exact failure the registry exists to prevent.
+      const dated = EXPIRING_ESCAPES.find((e) => e.file === rel && rawLine.includes(e.term));
+      if (dated) {
+        if (!rawLine.includes(escapeMarker(dated.id))) {
+          violations.push(
+            `${rel}:${i + 1}  "${dated.term}" is covered by expiring escape "${dated.id}"` +
+              `\n      but the line does not carry its marker (${escapeMarker(dated.id)}).`,
+          );
+        } else if (TODAY > dated.expires) {
+          expiredEscapes.push({ ...dated, where: `${rel}:${i + 1}` });
+        } else {
+          escapesUsed.set(dated.id, { ...dated, where: `${rel}:${i + 1}` });
+        }
+        return;
+      }
+
+      if (rawLine.includes(LINE_ESCAPE)) return;
       for (const term of BANNED) {
         if (line.includes(term)) {
           violations.push(`${rel}:${i + 1}  banned ancestor noun "${term}"\n      ${line.trim().slice(0, 120)}`);
@@ -385,6 +446,17 @@ try {
   violations.push(`countries.json: could not audit — ${e.message}`);
 }
 
+if (expiredEscapes.length) {
+  console.error("\n✗ FORK HYGIENE GATE FAILED — an escape has EXPIRED.\n");
+  for (const e of expiredEscapes) {
+    console.error(`  ${e.where}  "${e.term}"  escape "${e.id}" expired ${e.expires} (today ${TODAY})`);
+    console.error(`      ${e.reason}`);
+  }
+  console.error("\n  The deadline was the point. Remove the ancestor reference, then delete");
+  console.error("  its entry from EXPIRING_ESCAPES. Extending the date is not the fix.\n");
+  process.exit(1);
+}
+
 if (violations.length) {
   console.error("\n✗ FORK HYGIENE GATE FAILED — ancestor-country content found.\n");
   // Was "Sweden must read as Sweden", with the lineage stopping at swedish — this
@@ -400,3 +472,9 @@ if (violations.length) {
 }
 
 console.log(`✓ Fork hygiene gate: clean (no ancestor-country nouns across ${SCAN_DIRS.join(", ")} + ${SCAN_ROOT_FILES.join(", ")}).`);
+if (escapesUsed.size) {
+  console.log(`  ${escapesUsed.size} expiring escape(s), each on a deadline:`);
+  for (const e of escapesUsed.values()) {
+    console.log(`    • ${e.where} → "${e.term}" (${e.id}), expires ${e.expires}`);
+  }
+}

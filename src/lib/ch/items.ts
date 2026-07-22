@@ -49,6 +49,19 @@ export interface SwissItemSeed {
    *  declares a goal (goalCefrFor), so a module gets levels the moment it gets a goal
    *  — and a task with no level can never be silently counted as proof of one. */
   cefr?: CefrLevel;
+  /** WHICH exam this item is written for, on a surface that bundles two.
+   *
+   *  Only the CERTIFICATE surfaces need it, and today only telc-goethe enforces it:
+   *  that bundle is telc AND Goethe — two exams whose papers differ (Goethe B1
+   *  Schreiben has three tasks, telc B1 has one; their Sprechen parts differ too).
+   *  Without this field an item is "telc-ish or Goethe-ish", which is precisely how
+   *  the surface came to hold 60 translated DELF/TCF tasks: nothing could say what
+   *  any item was supposed to be, so nothing could notice they were the wrong shape.
+   *
+   *  Optional on the type because fide, canton-civic and getting-started have no
+   *  such split; REQUIRED by the conformance gate on telc-goethe. Scoped enforcement,
+   *  not a field everyone must fill in with a guess. */
+  variant?: "GOETHE" | "TELC";
   title: string;
   prompt: string;
   payload: unknown;
@@ -164,9 +177,46 @@ function stableShuffle<T>(arr: T[], seed: number): T[] {
 }
 
 /**
+ * A seed for ONE practice run: stable while the run renders, different on the next.
+ *
+ * ── WHY THIS EXISTS ──
+ * pickPractice() has always supported a seeded reshuffle, and NO CALL SITE EVER
+ * PASSED ONE. Without a seed it returns pool.slice(0, n) — the same first 8 objective
+ * or 4 productive items, in authored order, for every learner, forever. Measured
+ * across the bank that meant 208 of 1390 items reachable (15%); the fide pools, 125
+ * items each, exposed 8. The shuffle was written for exactly this and never called.
+ *
+ * ── WHY A TIMESTAMP, AND NOT AN ID ──
+ * There is no per-run identifier to key on. SwissSession exists in the schema but no
+ * code reads or writes it, and SwissAttempt.itemId is a required FK to SwissItem — a
+ * table nothing populates, because items are served from JSON bundles and have no DB
+ * id at all. The AUTH session id would be stable for its full 30-day life, which
+ * would freeze one learner's eight items for a month: variety between users, none for
+ * the user. So the seed is per-request, mixed with the user id so two learners
+ * starting in the same millisecond still diverge.
+ *
+ * ── THE TRADE-OFF, STATED RATHER THAN IMPLIED ──
+ * This gives full reachability (every item can be served), variety across runs, and
+ * zero repeats WITHIN a run — the same standard almi-celpip and almi-goethe meet.
+ * What it does NOT give is a guaranteed per-learner sweep: nothing records what you
+ * saw last time, so a later run may repeat an earlier item before showing everything.
+ * Guaranteeing that needs persisted per-run state (a plan column and a migration),
+ * which this product deliberately avoids — it serves from bundles and keeps no item
+ * rows. For practice, occasional cross-run review is acceptable; a learner never
+ * seeing 94% of the bank was not.
+ */
+export function runSeed(userId: string): number {
+  return (Date.now() ^ hashSeed(userId)) >>> 0;
+}
+
+/**
  * Deterministically pick up to n practice items for a language + exam + skill. With
  * no seed the natural (authored) order is preserved; a numeric seed produces a
  * stable reshuffle for variety. Never uses Math.random.
+ *
+ * CALLERS MUST PASS A SEED — use runSeed(user.id). Omitting it is what left 85% of
+ * the bank unreachable; the parameter stays optional only so the proof and the
+ * selftest can request a fixed, reproducible order.
  */
 export function pickPractice(
   e: ExamMeta,

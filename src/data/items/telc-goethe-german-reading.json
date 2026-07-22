@@ -6,14 +6,23 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
-    "title": "Kurznachricht: Verabredung",
-    "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
+    "variant": "GOETHE",
+    "title": "Aushang: Reinigung des Treppenhauses",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Hallo Nina,\n\nam Samstag gehe ich ins Schwimmbad. Kommst du mit? Wir treffen uns um zwei Uhr am Eingang. Der Eintritt kostet acht Euro.\n\nSchreib mir bitte bis Freitag.\n\nLiebe Grüsse\nJonas",
-      "question": "Wo treffen sich Nina und Jonas?",
-      "options": ["Am Eingang vom Schwimmbad", "Bei Jonas zu Hause", "Am Bahnhof", "Im Restaurant"]
+      "passage": "Liebe Mieterinnen und Mieter\n\nam Mittwoch, 14. Mai, wird das Treppenhaus gereinigt. Bitte stellen Sie an diesem Tag keine Schuhe und keine Kinderwagen vor die Wohnungstuer.\n\nDie Reinigung dauert von 8 bis etwa 12 Uhr.\n\nBesten Dank\nDie Hausverwaltung",
+      "question": "Was sollen die Mieter am 14. Mai tun?",
+      "options": [
+        "Nichts vor die Wohnungstuer stellen",
+        "Das Treppenhaus selber putzen",
+        "Zwischen 8 und 12 Uhr zu Hause bleiben",
+        "Den Kinderwagen in den Keller bringen"
+      ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -22,20 +31,74 @@
     "exam": "TELC_GOETHE",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "FOUNDATION",
-    "title": "Schild im Museum",
-    "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
+    "difficulty": "CORE",
+    "variant": "GOETHE",
+    "title": "Fahrplanhinweis am Bahnhof",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Museum für Naturkunde\n\nDienstag–Sonntag: 10.00–17.00\nMontag: geschlossen\n\nErwachsene: 12.00\nKinder bis 16 Jahre: gratis\n\nFotografieren ohne Blitz ist erlaubt.",
-      "question": "Was ist erlaubt?",
+      "passage": "Wegen Bauarbeiten faehrt zwischen Aarau und Olten vom 3. bis 7. Juni kein Zug. Zwischen den beiden Bahnhoefen verkehren Busse. Die Fahrt dauert rund 20 Minuten laenger. Bitte planen Sie mehr Zeit ein.",
+      "question": "Was gilt vom 3. bis 7. Juni?",
       "options": [
-        "Fotografieren mit Blitz",
-        "Fotografieren ohne Blitz",
-        "Der Besuch am Montag",
-        "Kinder nur mit Ticket"
+        "Die Zuege fahren haeufiger",
+        "Busse ersetzen den Zug auf dieser Strecke",
+        "Die Strecke ist ganz gesperrt",
+        "Die Fahrt ist 20 Minuten kuerzer"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "variant": "GOETHE",
+    "title": "Brief der Krankenkasse",
+    "prompt": "Richtig oder falsch?",
+    "payload": {
+      "passage": "Sehr geehrte Frau Baumann\n\nIhre neue Police gilt ab dem 1. Januar. Die Franchise bleibt unveraendert bei 500 Franken. Die Praemie steigt um 12 Franken pro Monat.\n\nBei Fragen rufen Sie uns an.\n\nFreundliche Gruesse",
+      "question": "Aussage: Die Franchise wird erhoeht.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "variant": "GOETHE",
+    "title": "Anschlag im Quartierladen",
+    "prompt": "Waehlen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Suche Nachhilfe in Mathematik fuer meinen Sohn, 8. Klasse. Einmal pro Woche, am liebsten am Dienstag oder Donnerstag nach 17 Uhr. 30 Franken pro Stunde. Bei Interesse melden unter der Nummer im Laden.",
+      "question": "Wann soll der Unterricht stattfinden?",
+      "options": [
+        "Jeden Tag nach 17 Uhr",
+        "Einmal pro Woche am spaeten Nachmittag",
+        "Am Wochenende",
+        "Zweimal pro Woche am Morgen"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -45,82 +108,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
-    "title": "E-Mail aus dem Urlaub",
-    "prompt": "Lesen Sie die E-Mail. Ist die Aussage richtig oder falsch?",
+    "variant": "GOETHE",
+    "title": "E-Mail vom Sportverein",
+    "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Liebe Oma,\n\nwir sind gut angekommen. Das Hotel ist klein, aber sehr schön, und das Meer ist nur fünf Minuten zu Fuss.\n\nGestern hat es geregnet, deshalb waren wir im Museum. Heute scheint die Sonne und wir gehen an den Strand.\n\nBis bald!\nElif",
-      "question": "Aussage: Elif war gestern am Strand.",
-      "options": ["Richtig", "Falsch"]
-    },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "language": "DE",
-    "track": "CERTIFICATE",
-    "exam": "TELC_GOETHE",
-    "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "FOUNDATION",
-    "title": "Anzeigen und Personen",
-    "prompt": "Ordnen Sie jeder Person die passende Anzeige zu.",
-    "payload": {
-      "instructions": "Vier Personen suchen etwas. Ordnen Sie zu. Nicht alle Anzeigen werden gebraucht.",
-      "left": [
-        "Tom sucht einen Sprachkurs am Wochenende.",
-        "Lea möchte ein günstiges Fahrrad kaufen.",
-        "Ali sucht eine Wohnung für zwei Personen.",
-        "Mia möchte ihren Hund am Ferienwochenende abgeben."
-      ],
-      "right": [
-        "Deutschkurs, samstags 9–12 Uhr, Anfänger willkommen",
-        "Fahrrad, gebraucht, 80 Euro, guter Zustand",
-        "2-Zimmer-Wohnung, 55 m², ab Juli frei",
-        "Tierbetreuung: wir passen auf Ihren Hund auf",
-        "Klavierunterricht für Kinder",
-        "Suche Mitfahrgelegenheit nach Hamburg"
-      ]
-    },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
-    "maxPoints": 4
-  },
-  {
-    "language": "DE",
-    "track": "CERTIFICATE",
-    "exam": "TELC_GOETHE",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "FOUNDATION",
-    "title": "Rezept: Kartoffelsuppe",
-    "prompt": "Lesen Sie das Rezept und wählen Sie die richtige Antwort.",
-    "payload": {
-      "passage": "Kartoffelsuppe für vier Personen\n\nSie brauchen: 1 kg Kartoffeln, 2 Zwiebeln, 1 Liter Wasser, Salz und Pfeffer.\n\nKartoffeln und Zwiebeln klein schneiden. Alles zusammen 20 Minuten kochen. Dann mixen. Mit Salz und Pfeffer abschmecken.\n\nDie Suppe schmeckt am nächsten Tag noch besser.",
-      "question": "Wie lange muss die Suppe kochen?",
-      "options": ["4 Minuten", "20 Minuten", "1 Stunde", "Einen Tag"]
-    },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "language": "DE",
-    "track": "CERTIFICATE",
-    "exam": "TELC_GOETHE",
-    "skill": "READING",
-    "taskType": "MCQ_SINGLE",
-    "difficulty": "CORE",
-    "title": "Zeitungstext: Weniger Autos in der Stadt",
-    "prompt": "Lesen Sie den Text und wählen Sie die richtige Antwort.",
-    "payload": {
-      "passage": "In vielen europäischen Städten fahren immer weniger Menschen mit dem eigenen Auto. Die Gründe sind unterschiedlich: Parkplätze sind teuer, die Städte bauen mehr Radwege, und junge Leute machen den Führerschein oft später als früher.\n\nEine Studie zeigt: Wer in der Stadt wohnt und gute öffentliche Verkehrsmittel hat, braucht das Auto meistens nur am Wochenende. Viele verkaufen es deshalb und mieten bei Bedarf eines.",
-      "question": "Was ist ein Grund dafür, dass weniger Menschen ein eigenes Auto haben?",
+      "passage": "Hallo zusammen\n\ndas Training am Freitag faellt aus, weil die Halle belegt ist. Dafuer trainieren wir am Sonntag um 10 Uhr. Wer nicht kann, meldet sich bitte bis Samstagmittag.\n\nSportliche Gruesse\nMarco",
+      "question": "Aussage: Das Training am Freitag findet statt.",
       "options": [
-        "Autos sind verboten",
-        "Parkplätze sind teuer und es gibt mehr Radwege",
-        "Junge Leute dürfen keinen Führerschein machen",
-        "Öffentliche Verkehrsmittel sind teurer geworden"
+        "Richtig",
+        "Falsch"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -128,20 +130,52 @@
     "track": "CERTIFICATE",
     "exam": "TELC_GOETHE",
     "skill": "READING",
-    "taskType": "CLOZE",
+    "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "E-Mail: Zimmer reservieren",
-    "prompt": "Lesen Sie die E-Mail und wählen Sie für jede Lücke das passende Wort.",
+    "variant": "TELC",
+    "title": "Hinweis in der Bibliothek",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Sehr geehrte Damen und Herren,\n\nich möchte ein Doppelzimmer {{1}} zwei Nächte reservieren, vom 3. bis zum 5. Juni. Bitte teilen Sie mir mit, {{2}} das Frühstück im Preis inbegriffen ist. Wir kommen {{3}} dem Zug an und suchen ein Hotel in der Nähe des Bahnhofs.\n\nMit freundlichen Grüssen\nS. Kravitz",
-      "gaps": [
-        { "id": 1, "options": ["für", "seit", "bei", "aus"] },
-        { "id": 2, "options": ["ob", "dass", "wenn", "als"] },
-        { "id": 3, "options": ["mit", "auf", "von", "in"] }
+      "passage": "Ausleihe: 28 Tage. Verlaengerung einmal moeglich, wenn das Buch nicht reserviert ist. Bei verspaeteter Rueckgabe verrechnen wir 50 Rappen pro Tag und Medium.",
+      "question": "Was passiert bei zu spaeter Rueckgabe?",
+      "options": [
+        "Man darf nichts mehr ausleihen",
+        "Es kostet 50 Rappen pro Tag und Medium",
+        "Die Ausleihe verlaengert sich automatisch",
+        "Man zahlt einmalig 50 Rappen"
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
-    "maxPoints": 3
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "READING",
+    "taskType": "MCQ_SINGLE",
+    "difficulty": "CORE",
+    "variant": "TELC",
+    "title": "Stellenanzeige: Aushilfe im Gartencenter",
+    "prompt": "Waehlen Sie die richtige Antwort.",
+    "payload": {
+      "passage": "Fuer die Fruehlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent, von Maerz bis Juni. Erfahrung ist keine Bedingung, gute Deutschkenntnisse und Freude am Kundenkontakt sind wichtig. Bewerbung bitte per E-Mail.",
+      "question": "Was wird von der Aushilfe erwartet?",
+      "options": [
+        "Mehrjaehrige Erfahrung im Gartenbau",
+        "Gute Deutschkenntnisse und Freude am Kundenkontakt",
+        "Eine abgeschlossene Lehre",
+        "Arbeit das ganze Jahr"
+      ]
+    },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   },
   {
     "language": "DE",
@@ -150,36 +184,21 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
-    "title": "Aus einem Blog: Mein erstes Jahr allein",
-    "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
+    "variant": "TELC",
+    "title": "Information der Gemeinde: Gruenabfuhr",
+    "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Mit neunzehn bin ich von zu Hause ausgezogen. Ich dachte, das Schwierigste wäre das Kochen. Das war es nicht.\n\nDas Schwierigste war, allein Entscheidungen zu treffen. Vorher hat meine Mutter gesagt, was wichtig ist. Plötzlich musste ich selber wissen, ob ich eine Versicherung brauche oder nicht. Kochen habe ich in zwei Wochen gelernt. Für den Rest habe ich länger gebraucht.",
-      "question": "Aussage: Für die Autorin war das Kochen das grösste Problem.",
-      "options": ["Richtig", "Falsch"]
-    },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
-    "maxPoints": 1
-  },
-  {
-    "language": "DE",
-    "track": "CERTIFICATE",
-    "exam": "TELC_GOETHE",
-    "skill": "READING",
-    "taskType": "ORDERING",
-    "difficulty": "CORE",
-    "title": "Eine Reise planen",
-    "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
-    "payload": {
-      "instructions": "Ordnen Sie von zuerst bis zuletzt.",
-      "items": [
-        "Sich für ein Reiseziel entscheiden",
-        "Die Preise für Zug und Hotel vergleichen",
-        "Zug und Hotel buchen",
-        "Den Koffer packen",
-        "Abreisen"
+      "passage": "Die Gruenabfuhr findet ab April jeden zweiten Dienstag statt. Bitte stellen Sie die Behaelter bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.",
+      "question": "Aussage: Die Behaelter muessen bis 7 Uhr bereitstehen.",
+      "options": [
+        "Richtig",
+        "Falsch"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
     "maxPoints": 1
   },
   {
@@ -189,19 +208,47 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Information: Fahrrad mitnehmen",
-    "prompt": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
+    "variant": "TELC",
+    "title": "Mitteilung der Schule",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Fahrrad im Zug\n\nIn Regionalzügen können Sie Ihr Fahrrad ohne Reservierung mitnehmen. Sie brauchen aber ein Velobillett.\n\nIn Fernzügen ist eine Reservierung nötig. Die Plätze sind begrenzt und im Sommer schnell ausgebucht.\n\nFalträder gelten als Gepäck und sind immer gratis.",
-      "question": "Was gilt für Falträder?",
+      "passage": "Am Elternabend vom 19. September stellen die Lehrpersonen das Schuljahr vor. Beginn ist um 19.30 Uhr im Singsaal. Eine Kinderbetreuung ist vorhanden. Wir bitten um Anmeldung bis am 12. September.",
+      "question": "Was muss man vor dem Elternabend tun?",
       "options": [
-        "Sie brauchen eine Reservierung",
-        "Sie brauchen ein Velobillett",
-        "Sie gelten als Gepäck und kosten nichts",
-        "Sie sind in Fernzügen verboten"
+        "Ein Formular ausfuellen",
+        "Sich bis am 12. September anmelden",
+        "Die Kinder zu Hause lassen",
+        "Um 19.30 Uhr im Singsaal sein"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
+  },
+  {
+    "language": "DE",
+    "track": "CERTIFICATE",
+    "exam": "TELC_GOETHE",
+    "skill": "READING",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "FOUNDATION",
+    "variant": "TELC",
+    "title": "Aushang im Waschraum",
+    "prompt": "Richtig oder falsch?",
+    "payload": {
+      "passage": "Die Waschmaschine Nummer 2 ist defekt. Die Reparatur ist bestellt und erfolgt voraussichtlich am Montag. Bitte benutzen Sie bis dahin die Maschinen 1 und 3.",
+      "question": "Aussage: Alle Maschinen sind defekt.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ]
+    },
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -211,19 +258,23 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
-    "title": "Kursbeschreibung lesen",
-    "prompt": "Lesen Sie die Beschreibung und wählen Sie die richtige Antwort.",
+    "variant": "GOETHE",
+    "title": "Kursbeschreibung: Deutsch am Abend",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Kurs: Sprechen und Diskutieren (B1)\n\nDieser Kurs ist für Teilnehmende, die schon Grundkenntnisse haben und flüssiger sprechen möchten. Wir üben Diskussionen, Präsentationen und Alltagsgespräche.\n\nVoraussetzung: abgeschlossener A2-Kurs oder ein Einstufungstest.\n\nDer Kurs ist kein Prüfungstraining. Wer eine Prüfung vorbereiten möchte, besucht bitte den Kurs «Prüfungstraining B1».",
-      "question": "Für wen ist dieser Kurs nicht gedacht?",
+      "passage": "Der Kurs richtet sich an Personen mit Vorkenntnissen auf Niveau A2. Wir ueben vor allem Sprechen und Schreiben fuer den Alltag: Behoerden, Arbeit, Schule. Der Kurs dauert 12 Wochen, jeweils Montag und Mittwoch von 18.30 bis 20 Uhr.",
+      "question": "Fuer wen ist der Kurs gedacht?",
       "options": [
-        "Für Leute, die flüssiger sprechen möchten",
-        "Für Leute, die einen A2-Kurs abgeschlossen haben",
-        "Für Leute, die gezielt eine Prüfung vorbereiten wollen",
-        "Für Leute, die Alltagsgespräche üben möchten"
+        "Fuer Anfaenger ohne Vorkenntnisse",
+        "Fuer Personen mit Niveau A2",
+        "Nur fuer Berufstaetige",
+        "Fuer Kinder und Jugendliche"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -232,20 +283,24 @@
     "exam": "TELC_GOETHE",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Kommentar: Homeoffice",
-    "prompt": "Lesen Sie den Kommentar und wählen Sie die richtige Antwort.",
+    "difficulty": "FOUNDATION",
+    "variant": "GOETHE",
+    "title": "Notiz an die Nachbarin",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Seit einigen Jahren arbeiten viele Menschen einen Teil der Woche zu Hause. Die Vorteile sind bekannt: kein Arbeitsweg, weniger Lärm, mehr Zeit für die Familie.\n\nWas seltener gesagt wird: Homeoffice ist nicht für alle gleich gut. Wer eine grosse Wohnung hat und allein arbeitet, profitiert. Wer zu dritt in zwei Zimmern wohnt, sitzt am Küchentisch, während die Kinder Hausaufgaben machen.\n\nHomeoffice ist also kein Vorteil an sich. Es ist ein Vorteil für jene, die den Platz dafür haben. Wer darüber entscheidet, sollte das mitdenken.",
-      "question": "Was ist die Hauptaussage des Kommentars?",
+      "passage": "Liebe Frau Meier\n\nich bin bis Freitag nicht zu Hause. Koennten Sie bitte meine Post hereinnehmen? Der Schluessel liegt wie immer bei Ihnen. Ich bringe Ihnen etwas aus den Ferien mit.\n\nHerzlich\nSonja",
+      "question": "Worum bittet Sonja?",
       "options": [
-        "Homeoffice sollte abgeschafft werden",
-        "Homeoffice nützt vor allem denen, die genug Platz haben — es ist kein Vorteil für alle",
-        "Homeoffice ist für alle Beschäftigten ein Vorteil",
-        "Der Arbeitsweg ist das grösste Problem im Berufsleben"
+        "Die Blumen zu giessen",
+        "Die Post hereinzunehmen",
+        "Den Schluessel abzugeben",
+        "Sie am Freitag abzuholen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -253,20 +308,24 @@
     "track": "CERTIFICATE",
     "exam": "TELC_GOETHE",
     "skill": "READING",
-    "taskType": "CLOZE",
-    "difficulty": "STRETCH",
-    "title": "Text: Warum wir Dinge aufschieben",
-    "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "variant": "GOETHE",
+    "title": "Hinweis im Schwimmbad",
+    "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Fast alle kennen es: Eine Aufgabe ist wichtig, {{1}} man macht sie trotzdem nicht. Forscher sagen, das hat weniger mit Faulheit zu tun {{2}} mit Gefühlen. Wir schieben Dinge auf, weil sie uns unangenehm sind. Ein einfacher Trick hilft: Man nimmt sich vor, nur fünf Minuten {{3}} arbeiten. Meistens macht man dann doch weiter.",
-      "gaps": [
-        { "id": 1, "options": ["aber", "denn", "weil", "dass"] },
-        { "id": 2, "options": ["als", "wie", "so", "dann"] },
-        { "id": 3, "options": ["zu", "um", "für", "an"] }
+      "passage": "Das Hallenbad bleibt vom 1. bis 15. August wegen Revision geschlossen. Das Freibad ist in dieser Zeit taeglich von 9 bis 20 Uhr geoeffnet.",
+      "question": "Aussage: Im August kann man im Freibad schwimmen.",
+      "options": [
+        "Richtig",
+        "Falsch"
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
-    "maxPoints": 3
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 0
+    },
+    "maxPoints": 1
   },
   {
     "language": "DE",
@@ -274,20 +333,24 @@
     "exam": "TELC_GOETHE",
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
-    "difficulty": "STRETCH",
-    "title": "Zwei Leserbriefe: Handys in der Schule",
-    "prompt": "Lesen Sie die beiden Briefe und wählen Sie die richtige Antwort.",
+    "difficulty": "CORE",
+    "variant": "TELC",
+    "title": "Rechnung vom Elektriker",
+    "prompt": "Waehlen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Frau K.: «Handys gehören nicht in den Unterricht. Die Kinder sind abgelenkt, und in der Pause redet niemand mehr miteinander. Ein Verbot ist die einfachste Lösung — und sie wirkt.»\n\nHerr M.: «Ich bin auch für weniger Handys im Unterricht. Aber ein Verbot allein löst nichts. Die Kinder lernen dann nicht, wie man damit umgeht — sie machen es einfach heimlich. Besser wäre, den Umgang zu üben: wann brauche ich das Gerät, wann lege ich es weg. Das ist anstrengender als ein Verbot, aber es hält länger.»",
-      "question": "Worin sind sich Frau K. und Herr M. einig?",
+      "passage": "Fuer die Reparatur der Steckdose in der Kueche verrechnen wir 145 Franken. Der Betrag ist innert 30 Tagen zu bezahlen. Bei Fragen zur Rechnung wenden Sie sich bitte an unser Buero.",
+      "question": "Bis wann muss bezahlt werden?",
       "options": [
-        "Dass ein Verbot die beste Lösung ist",
-        "Dass Handys im Unterricht weniger benutzt werden sollten",
-        "Dass Kinder den Umgang mit dem Handy üben müssen",
-        "Dass Handys in der Pause verboten werden sollten"
+        "Sofort",
+        "Innert 30 Tagen",
+        "Innert 14 Tagen",
+        "Erst nach einer Mahnung"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": {
+      "type": "MCQ_SINGLE",
+      "correctIndex": 1
+    },
     "maxPoints": 1
   },
   {
@@ -295,28 +358,23 @@
     "track": "CERTIFICATE",
     "exam": "TELC_GOETHE",
     "skill": "READING",
-    "taskType": "MATCHING",
-    "difficulty": "STRETCH",
-    "title": "Überschriften zu Abschnitten",
-    "prompt": "Ordnen Sie jedem Abschnitt die passende Überschrift zu.",
+    "taskType": "TRUE_FALSE",
+    "difficulty": "CORE",
+    "variant": "TELC",
+    "title": "Aushang: Lift ausser Betrieb",
+    "prompt": "Richtig oder falsch?",
     "payload": {
-      "instructions": "Vier Abschnitte aus einem Artikel über Schlaf. Ordnen Sie zu. Nicht alle Überschriften werden gebraucht.",
-      "left": [
-        "Erwachsene brauchen im Durchschnitt sieben bis acht Stunden. Es gibt aber Menschen, die mit sechs auskommen, und andere, die neun brauchen. Wichtiger als die Zahl ist, wie man sich am Tag fühlt.",
-        "Licht am Abend, besonders von Bildschirmen, verschiebt die innere Uhr nach hinten. Wer schlecht einschläft, sollte das Handy eine Stunde vorher weglegen.",
-        "Wer immer zur gleichen Zeit ins Bett geht und aufsteht, schläft besser. Auch am Wochenende. Der Körper mag Regelmässigkeit.",
-        "Wer nachts wach liegt und sich ärgert, macht es schlimmer. Fachleute raten: aufstehen, in einem anderen Zimmer etwas Ruhiges tun, und erst zurückgehen, wenn man müde ist."
-      ],
-      "right": [
-        "Wie viel Schlaf ist normal?",
-        "Bildschirme und die innere Uhr",
-        "Feste Zeiten helfen",
-        "Was tun, wenn man nicht einschläft?",
-        "Schlafmittel und ihre Wirkung",
-        "Schlaf bei Kindern"
+      "passage": "Der Lift ist am Donnerstag von 8 bis 16 Uhr ausser Betrieb. Wir bitten um Verstaendnis. Wer Hilfe beim Tragen braucht, meldet sich beim Hauswart.",
+      "question": "Aussage: Der Lift funktioniert am Donnerstag den ganzen Tag nicht.",
+      "options": [
+        "Richtig",
+        "Falsch"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
-    "maxPoints": 4
+    "answer": {
+      "type": "TRUE_FALSE",
+      "correctIndex": 1
+    },
+    "maxPoints": 1
   }
 ]

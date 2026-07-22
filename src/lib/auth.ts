@@ -21,7 +21,11 @@ const SESSION_COOKIE_NAME = "almi_swiss_session";
  *  exactly what the fork-hygiene gate exists to stop. Delete it then; do not let it
  *  become permanent furniture. */
 const LEGACY_SESSION_COOKIE_NAMES = [
-  "almi_norwegian_session", // hygiene-allow — legacy read-only, delete after 2026-08-16
+  // The expiry is ENFORCED, not promised: the fork-hygiene gate's EXPIRING_ESCAPES
+  // registry carries this id and fails the build once 2026-08-16 passes. A plain
+  // `hygiene-allow` here would be honoured forever, which is why the registry
+  // outranks it.
+  "almi_norwegian_session", // hygiene-allow: legacy-cookie-almi_norwegian
 ];
 
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;

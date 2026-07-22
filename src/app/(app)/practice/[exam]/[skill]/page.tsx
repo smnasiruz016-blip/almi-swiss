@@ -9,7 +9,7 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug, SKILL_LABELS, goalCefrFor } from "@/lib/ch/registry";
 import { isFreeSkill } from "@/lib/ch/types";
 import type { SwissSkill } from "@/lib/ch/types";
-import { pickPractice } from "@/lib/ch/items";
+import { pickPractice, runSeed } from "@/lib/ch/items";
 import { PracticeRunner } from "@/components/ch/PracticeRunner";
 import { ProductiveComposer } from "@/components/ch/ProductiveComposer";
 
@@ -37,7 +37,8 @@ export default async function SkillRunnerPage({
 
   const label = SKILL_LABELS[skill];
   const objective = isFreeSkill(skill);
-  const items = pickPractice(exam, skill, objective ? 8 : 4);
+  // Seeded per run: without a seed this returns the same first N items forever.
+  const items = pickPractice(exam, skill, objective ? 8 : 4, runSeed(user.id));
 
   return (
     <div className="mx-auto max-w-3xl space-y-6">

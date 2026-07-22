@@ -8,7 +8,7 @@ import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug } from "@/lib/ch/registry";
 import { isFreeSkill } from "@/lib/ch/types";
-import { pickPractice } from "@/lib/ch/items";
+import { pickPractice, runSeed } from "@/lib/ch/items";
 import { MockRunner, type MockSection } from "@/components/ch/MockRunner";
 
 export default async function MockPage({
@@ -38,9 +38,14 @@ export default async function MockPage({
     redirect("/account");
   }
 
+  // ONE seed for the whole mock, so a single sitting is internally coherent.
+  // pickPractice mixes `exam:skill` into the shuffle, so each section still draws a
+  // different slice from the same run.
+  const seed = runSeed(user.id);
+
   const sections: MockSection[] = exam.skills.map((skill) => {
     const objective = isFreeSkill(skill);
-    const items = pickPractice(exam, skill, objective ? 6 : 2);
+    const items = pickPractice(exam, skill, objective ? 6 : 2, seed);
     return {
       skill,
       objective,
