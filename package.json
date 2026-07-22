@@ -12,7 +12,8 @@
     "selftest:engine": "tsx src/lib/ch/selftest.ts",
     "verify:items": "tsx scripts/items/verify-items.mts",
     "gate:real-entity": "node scripts/seo/real-entity-gate.mjs",
-    "gate:real-entity:test": "node scripts/seo/real-entity-gate.test.mjs"
+    "gate:real-entity:test": "node scripts/seo/real-entity-gate.test.mjs",
+    "proof:reachability": "tsx scripts/items/reachability-proof.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
