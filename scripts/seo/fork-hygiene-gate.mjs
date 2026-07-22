@@ -35,6 +35,20 @@ const ROOT = process.cwd();
 const SCAN_DIRS = ["src", "scripts", "prisma"];
 const SCAN_EXT = /\.(ts|tsx|js|mjs|json|prisma|css|md)$/;
 
+// ── ROOT IDENTITY FILES — a network-wide blind spot ──────────────────────────
+// Every fork-hygiene gate in the network scanned only src/scripts/prisma, so the
+// repo's own IDENTITY files were never checked. A 2026-07-21 sweep found six repos
+// misdescribing themselves at the root; THIS repo was among the worst — package.json
+// described it as "AlmiSwedish — AI-powered Swedish exam practice … Medborgarskapsprovet
+// … UHR" and README.md was titled "# AlmiSwedish". Every one of those nouns was
+// already in BANNED below; the gate simply never looked at the files.
+//
+// NAMED FILES ONLY, not the whole root: the root also holds package-lock.json and
+// other generated files, and scanning those would drown the gate in noise and invite
+// someone to switch it off. These two are the identity surface — what the repo says
+// it IS, to GitHub and to every tool that reads package.json.
+const SCAN_ROOT_FILES = ["package.json", "README.md"];
+
 // Files allowed to mention an ancestor noun, with the reason. Kept deliberately
 // tiny — every entry is a hole in the gate.
 const ALLOWLIST = new Map([
@@ -278,8 +292,16 @@ function walk(dir, out = []) {
 
 const violations = [];
 
-for (const dir of SCAN_DIRS) {
-  for (const file of walk(join(ROOT, dir))) {
+/** Every file to scan: the source trees, plus the named root identity files. */
+const targets = [
+  ...SCAN_DIRS.flatMap((dir) => walk(join(ROOT, dir))),
+  ...SCAN_ROOT_FILES.map((f) => join(ROOT, f)).filter((f) => {
+    try { return statSync(f).isFile(); } catch { return false; }
+  }),
+];
+
+{
+  for (const file of targets) {
     const rel = relative(ROOT, file).replace(/\\/g, "/");
     if (ALLOWLIST.has(rel)) continue;
     const raw = readFileSync(file, "utf8");
@@ -288,10 +310,14 @@ for (const dir of SCAN_DIRS) {
       // parsed values only — never the raw JSON text
       try { text = jsonStrings(JSON.parse(raw)).join("\n"); }
       catch { text = raw; }   // malformed JSON: fall back rather than skip silently
-    } else if (rel.endsWith(".prisma")) {
-      text = stripComments(raw);   // prisma comments are // — see note above
+    } else if (rel.endsWith(".md")) {
+      // Markdown is scanned RAW. It has no code comments, and running it through
+      // stripComments would treat the // in every https:// URL as the start of a
+      // line comment and blank the rest of the line — silently HIDING a leak in
+      // exactly the file most likely to carry one.
+      text = raw;
     } else {
-      text = stripComments(raw);
+      text = stripComments(raw);   // .ts/.tsx/.js/.mjs/.css, and .prisma (also //)
     }
     const lines = text.split(/\r?\n/);
     // The per-line escape lives in a TRAILING COMMENT, so it must be read from the
@@ -373,4 +399,4 @@ if (violations.length) {
   process.exit(1);
 }
 
-console.log(`✓ Fork hygiene gate: clean (no ancestor-country nouns across ${SCAN_DIRS.join(", ")}).`);
+console.log(`✓ Fork hygiene gate: clean (no ancestor-country nouns across ${SCAN_DIRS.join(", ")} + ${SCAN_ROOT_FILES.join(", ")}).`);
