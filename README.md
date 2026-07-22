@@ -1,68 +1,82 @@
-# AlmiSwedish
+# AlmiSwiss
 
-AI-powered **Swedish exam and civic practice** — a **separate** product in the AlmiWorld family, on its own
-subdomain **almiswedish.almiworld.com**.
+AI-powered **Swiss integration-exam practice** — a **separate** product in the AlmiWorld family, on its own
+subdomain **almiswiss.almiworld.com**.
 
-Forked from AlmiNorwegian's app chassis. The practice layer is an item-bank (`SwedishItem ↔ SwedishAttempt`,
-data-driven task registry — no if-chains), with a **fork-hygiene gate** wired into `build` (see below).
+The practice layer is a bundled item bank: items are authored as JSON under `src/data/items/*.json`, one file
+per (language × exam × skill), and served straight from disk. **Nothing writes `SwissItem`** — the Prisma
+table exists but is never populated, so `/api/status` counts the bundles, not the database.
 
 ## Tracks
 
-| Track | Exam(s) | Level |
+| Track | Exam(s) | Languages |
 |---|---|---|
-| **Citizenship** (lead) | Medborgarskapsprovet — the society component | Knowledge test |
-| **University** | Tisus (Stockholms universitet) | ≈C1 — accepted as equivalent to Svenska 3 |
-| **Getting started** | SFI Courses A–B | ≈A1–A2 |
-| **Proficiency** | SFI Courses C–D → Swedish B1–B2 | ≈A2–B1+ → B1–B2 |
+| **Naturalisation** (lead) | `fide` | German, French |
+| **C permit** | `fide-c-permit` | German, French |
+| **Certificate** | `telc-goethe` (German), `delf-tcf` (French) | German, French |
+| **Canton civic** | `canton-civic` — knowledge only | German, French |
+| **Getting started** | `getting-started` | German, French |
 
-`src/lib/sv/registry.ts` is the single source of truth for the tree, and carries a dated fact-base comment.
-Read it before changing any claim.
+`src/lib/ch/registry.ts` is the single source of truth for the tree. Read it before changing any claim.
+
+**Italian is declared in the type system but does not ship.** `SHIPPING_LANGUAGES = ["DE", "FR"]`, so no
+Italian surface materialises. That is a documented scope decision, not an oversight — Romansh is likewise not
+modelled, deliberately.
 
 ## Honesty doctrine
 
-Results are **per-skill readiness bands** (Clear / Borderline) against each exam's real criteria — never an
-official result. All content is **original**, never copied from UHR, Skolverket or Stockholms universitet
-material. 25% of proceeds fund the Shamool Foundation.
+Results are **per-skill readiness bands** (Clear / Borderline / Below) against each exam's real criteria —
+never an official result. All content is **original**, never copied from official exam material.
 
-Three rules specific to this product, because Sweden's citizenship test is brand new:
+The rule that governs every claim on this site:
 
-1. **Never state a pass mark for Medborgarskapsprovet.** UHR has not published one. Anyone quoting a number is
-   guessing, and we say so rather than joining them.
-2. **Never imply the citizenship language test exists.** UHR indicates autumn 2028 at the earliest and has set
-   no CEFR level. We ship no practice for it — there is nothing published to practise against.
-3. **We are not affiliated with UHR, and we say so on the page.** UHR has stated publicly that it does not
-   stand behind unofficial practice tests found online and that their quality is not checked by UHR. That
-   includes ours. The site points users at UHR's free *Sverige i fokus* as the source of truth.
+> **Naturalisation language requirements are a FEDERAL MINIMUM — oral B1, written A2 — and cantons may set
+> higher bars.** No surface may present those levels as universally sufficient. Every page that names a level
+> also tells the reader to confirm with their canton.
 
-The 15 Aug 2026 first sitting is an **utprövningsprov** (pilot), free of charge — not a general launch.
+Because the requirement genuinely varies by canton and commune, "it depends where you live" is the honest
+answer, and the product says so rather than picking a number that looks tidier.
 
-## Deliberate omissions
+`language` is a **required** argument on every item lookup, not an optional filter. `fide-german` and
+`fide-french` are different exams; an optional filter would let a caller silently serve a French candidate
+German items — nothing would throw, and wrong items just look like content.
 
-- **No Swedex.** It cannot be taken after 31 Dec 2026.
-- **No permanent-residence track.** Sweden imposes no language or knowledge test for PR; the Norwegian
-  ancestor's track does not transfer.
-- **No citizenship language exam.** See rule 2.
+## What the build enforces
 
-## Fork hygiene gate
+`build` runs these in order, and any failure blocks the deploy:
 
-`npm run gate:hygiene` (also the first step of `build`) fails the build on any ancestor-country proper noun.
+| gate | asserts |
+|---|---|
+| `countries-axis` | the origin-country axis is complete and excludes Switzerland itself |
+| `fork-hygiene` | no ancestor-country noun anywhere in `src`, `scripts`, `prisma` — **or in this README and package.json** |
+| `real-entity` | no invented business or misattributed real organisation in item content |
+| `uniqueness` | per-origin pSEO content is not a name-swap of another origin |
+| `verify-items` | every answer key self-grades and agrees with its payload; Rule #7 (≥15 per module per language track) |
 
-This exists because the lineage `celpip → goethe → icelandic → danish → norwegian → swedish` leaked at **every**
-hop, and shipped to production:
+## Fork hygiene
 
-- `DK_UNIS = "the University of Copenhagen, Aarhus University and other **Norwegian** universities"`
-- healthcare copy citing *"the Norwegian Patient Safety Authority, Styrelsen for Patientsikkerhed"* — Denmark's
-  regulator, on the pages of a Norwegian product
-- *"the University of Southern Norway"* — a **fabricated** institution, from find-replacing Denmark→Norway
-- `ttsLang() → "is-IS"` — Norwegian transcripts read aloud in an **Icelandic** voice
+Lineage: `celpip → goethe → icelandic → danish → norwegian → swedish → swiss`. Every hop leaked the previous
+country's facts into user-facing copy, and the gate exists because those leaks reached production — Danish <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
+universities asserted as Norwegian, a fabricated "University of Southern Norway" produced by find-replacing a <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
+country name, Norwegian transcripts read aloud in an Icelandic voice. <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
 
-The lesson encoded in the gate: grepping the previous country's nouns is not enough, because the dangerous
-leaks are the ones where the *label* was localized and the *fact* was not. Fix the fact, not the label.
+Two rules the list encodes, both learned here:
+
+1. **Add the immediate ancestor.** Swedish was absent from the inherited list because in `almi-swedish` <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
+   Swedish was the *subject*. The gate is always weakest against the fork that just happened. <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
+2. **Remove what this country legitimately owns.** The inherited list banned `Schreiben`, `Sprechen` and
+   `Goethe-Institut` — correct for a Nordic product, wrong here: German is a Swiss national language and
+   Goethe is an SEM-recognised certificate this product offers. A gate that fails on correct content trains
+   you to ignore it.
+
+Note one deliberate absence: **`UHR` is not banned.** It is Sweden's exam authority *and* the German word for <!-- hygiene-allow: names the ancestors to document the leaks this gate prevents -->
+o'clock — it appears in every German item that names a time. A brand that is also a common word cannot be
+caught by name.
 
 ## Billing
 
 Routed through the **central billing router** — no per-product Stripe webhook slot.
-`session.metadata.product = "almi-swedish"`, per-product `ROUTER_WEBHOOK_SECRET`, price IDs from env
+`session.metadata.product = "almi-swiss"`, per-product `ROUTER_WEBHOOK_SECRET`, price IDs from env
 (`STRIPE_PRICE_ID_MONTHLY`). `/api/billing/health` must report `ok:true`. $12/month with a 7-day trial (the
 trial lives in `subscription_data`, not on the price).
 
@@ -70,11 +84,10 @@ trial lives in `subscription_data`, not on the price).
 
 Next.js 16 (App Router) · React 19 · Prisma 6 + Neon · Tailwind v4 (CSS-first, tokens in `globals.css`) ·
 Stripe · Resend · Anthropic (productive-skill feedback) · browser SpeechSynthesis for listening audio
-(`sv-SE`, no Blob storage).
+(`de-CH` / `fr-CH`, no Blob storage).
 
 ## pSEO
 
 Study and jobs matrices on the cost-optimised path (`revalidate: false`, constant `lastModified`, taught-gate
 on real curriculum data). Axes live in `src/data/seo/*.json`; totals are computed from array lengths at
-runtime — **re-derive them, never copy the figure from a comment**. (The Norwegian base's comment said "512
-roles" while `roles.json` held 518, and the wrong number propagated into planning docs.)
+runtime — **re-derive them, never copy the figure from a comment**.
