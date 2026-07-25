@@ -13,15 +13,15 @@
       "transcript": "Guten Tag, Frau Haddad. Hier ist die Praxis Dr. Lang. Ihr Termin am Donnerstag um 14 Uhr ist leider nicht möglich, die Ärztin ist krank. Wir haben einen neuen Termin für Sie: Freitag um 9 Uhr 30. Wenn das nicht geht, rufen Sie uns bitte zurück. Auf Wiederhören.",
       "question": "Warum ruft die Praxis an?",
       "options": [
-        "Der Termin wird verschoben",
         "Frau Haddad muss eine Rechnung bezahlen",
+        "Der Termin wird verschoben",
         "Die Praxis ist umgezogen",
         "Frau Haddad hat etwas vergessen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -165,15 +165,15 @@
       "transcript": "Mitarbeiter: Guten Tag, was kann ich für Sie tun?\n\nHerr Ndiaye: Guten Tag. Ich bin letzte Woche in diese Gemeinde gezogen und möchte mich anmelden.\n\nMitarbeiter: Sehr gut. Haben Sie Ihren Ausweis und den Mietvertrag dabei?\n\nHerr Ndiaye: Ja, beides. Aber der Versicherungsnachweis fehlt mir noch, den bekomme ich erst nächste Woche.\n\nMitarbeiter: Das ist kein Problem. Wir nehmen die Anmeldung heute auf, und Sie reichen den Nachweis später nach. Sie können ihn auch per Post schicken oder in den Briefkasten unten werfen.\n\nHerr Ndiaye: Gut, das mache ich. Vielen Dank.",
       "question": "Was passiert mit dem fehlenden Versicherungsnachweis?",
       "options": [
+        "Er kann ihn später nachreichen, auch per Post",
         "Herr Ndiaye muss noch einmal an den Schalter kommen",
         "Die Anmeldung ist ohne ihn nicht möglich",
-        "Er kann ihn später nachreichen, auch per Post",
         "Die Gemeinde holt ihn bei der Versicherung"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 2
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -275,14 +275,14 @@
       "question": "Was wird am Ende entschieden?",
       "options": [
         "Herr Yilmaz arbeitet immer in der Frühschicht",
-        "Herr Yilmaz arbeitet fest in der Spätschicht",
         "Herr Yilmaz wechselt jede Woche die Schicht",
+        "Herr Yilmaz arbeitet fest in der Spätschicht",
         "Die Kita öffnet für ihn früher"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -326,15 +326,15 @@
       "transcript": "Guten Tag. Sie fragen nach den Sprachanforderungen für die Einbürgerung. Ich erkläre es Ihnen gerne. Der Bund verlangt mündlich mindestens Niveau B1 und schriftlich mindestens Niveau A2 in einer Landessprache. Das ist aber nur die Mindestanforderung. Über Ihr Gesuch entscheiden bei der ordentlichen Einbürgerung der Kanton und Ihre Wohngemeinde, und die können zusätzliche Anforderungen stellen — manche Gemeinden verlangen zum Beispiel ein höheres Niveau oder ein Gespräch. Deshalb mein Rat: Fragen Sie zuerst bei Ihrer Wohngemeinde nach, was konkret für Sie gilt, bevor Sie einen Sprachkurs buchen.",
       "question": "Welchen Rat gibt die Auskunftsperson?",
       "options": [
+        "Zuerst bei der Wohngemeinde fragen, was konkret gilt",
         "Zuerst einen Sprachkurs auf Niveau B1 buchen",
         "Sich beim Bund über die Anforderungen erkundigen",
-        "Zuerst bei der Wohngemeinde fragen, was konkret gilt",
         "Auf die Einbürgerung verzichten, wenn das Niveau fehlt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 2
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -353,14 +353,14 @@
       "question": "Was ist Aminas Hauptargument?",
       "options": [
         "Beatrice sollte den Kurs wechseln und Dialekt lernen",
-        "Standarddeutsch ist nicht umsonst — Prüfung und Schriftliches laufen darauf",
         "Dialekt ist wichtiger als Standarddeutsch",
-        "Beatrice sollte am Arbeitsplatz weniger sprechen"
+        "Beatrice sollte am Arbeitsplatz weniger sprechen",
+        "Standarddeutsch ist nicht umsonst — Prüfung und Schriftliches laufen darauf"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -453,15 +453,15 @@
       "transcript": "Liebe Gäste. Wir schliessen heute um 20 Uhr. Bitte verlassen Sie die Becken um Viertel vor acht. Die Duschen bleiben bis zehn nach acht offen. Wir wünschen Ihnen einen schönen Abend.",
       "question": "Wann soll man aus dem Becken kommen?",
       "options": [
-        "Um 19.45 Uhr",
         "Um 20.00 Uhr",
         "Um 20.10 Uhr",
+        "Um 19.45 Uhr",
         "Um 21.00 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -479,15 +479,15 @@
       "transcript": "Guten Tag, Frau Adeyemi, hier ist die Kita Sonnenblume. Nur eine kurze Information: Morgen machen wir mit den Kindern einen Ausflug in den Wald. Bitte ziehen Sie Ihrer Tochter feste Schuhe an und geben Sie ihr eine Jacke mit. Das Essen bekommen die Kinder von uns. Danke und bis morgen.",
       "question": "Was sollen die Eltern mitgeben?",
       "options": [
-        "Das Essen",
         "Feste Schuhe und eine Jacke",
+        "Das Essen",
         "Geld für den Ausflug",
         "Ein Spielzeug"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -530,14 +530,14 @@
       "question": "Was soll Herr Salihu mitbringen?",
       "options": [
         "Die Versichertenkarte",
-        "Die Packung seines Medikaments",
         "Eine Überweisung",
+        "Die Packung seines Medikaments",
         "Bargeld"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -556,14 +556,14 @@
       "question": "Was passiert, wenn Frau Duarte das Buch nicht abholt?",
       "options": [
         "Sie bezahlt eine Gebühr",
-        "Es geht an die nächste Person",
         "Es wird nach Hause geschickt",
+        "Es geht an die nächste Person",
         "Die Bibliothek ruft noch einmal an"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -658,14 +658,14 @@
       "question": "Was ist das Ergebnis des Gesprächs?",
       "options": [
         "Frau Rahimi soll die Heizung noch einmal entlüften",
-        "Der Servicemann kommt morgen; die Tochter lässt ihn hinein",
         "Frau Rahimi muss morgen freinehmen",
+        "Der Servicemann kommt morgen; die Tochter lässt ihn hinein",
         "Die Verwaltung schickt niemanden"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -707,15 +707,15 @@
       "transcript": "Guten Tag, hier ist der Turnverein. Sie haben wegen des Trainings für Ihre Tochter angerufen. Also: Die Gruppe für Zehnjährige trainiert am Mittwoch von 17 bis 18.30 Uhr in der Turnhalle. Zwei Schnuppertrainings sind gratis, danach entscheiden Sie in Ruhe. Der Jahresbeitrag ist hundertzwanzig Franken. Und noch etwas, das oft gefragt wird: Wenn der Beitrag für eine Familie schwierig ist, melden Sie sich bitte bei uns — wir finden eine Lösung, und das bleibt unter uns.",
       "question": "Was sagt der Verein über den Beitrag?",
       "options": [
-        "Er muss vor dem ersten Training bezahlt werden",
         "Wer ihn nicht bezahlen kann, soll sich melden",
+        "Er muss vor dem ersten Training bezahlt werden",
         "Er ist für Kinder gratis",
         "Er wird von der Gemeinde bezahlt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -760,14 +760,14 @@
       "question": "Was rät Frau Widmer den Eltern?",
       "options": [
         "Zu Hause nur noch Deutsch zu sprechen",
-        "Weiter Suaheli zu sprechen und täglich auf Deutsch zu lesen",
         "Den Sohn in eine andere Klasse zu geben",
-        "Einen Nachhilfelehrer zu bezahlen"
+        "Einen Nachhilfelehrer zu bezahlen",
+        "Weiter Suaheli zu sprechen und täglich auf Deutsch zu lesen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -835,15 +835,15 @@
       "transcript": "Frau Kaya: Guten Tag, ich habe eine Rechnung über achtzig Franken für einen Termin, den ich abgesagt habe.\nMitarbeiter: Einen Moment. Ja, ich sehe es. Sie haben am Vortag um 17 Uhr abgesagt.\nFrau Kaya: Genau, per Telefon.\nMitarbeiter: Das Problem ist die Frist: Wir verrechnen, wenn weniger als vierundzwanzig Stunden vorher abgesagt wird. Ihr Termin war am Morgen um neun.\nFrau Kaya: Das habe ich nicht gewusst. Es steht auch nicht auf der Terminkarte.\nMitarbeiter: Da haben Sie recht, das steht wirklich nicht drauf. Ich streiche die Rechnung dieses Mal. Aber jetzt wissen Sie es.",
       "question": "Warum streicht der Mitarbeiter die Rechnung?",
       "options": [
-        "Weil Frau Kaya rechtzeitig abgesagt hat",
         "Weil die Frist nicht auf der Terminkarte stand",
+        "Weil Frau Kaya rechtzeitig abgesagt hat",
         "Weil Frau Kaya sich beschwert hat",
         "Weil die Praxis einen Fehler im Datum gemacht hat"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -862,14 +862,14 @@
       "question": "Was ist die Hauptaussage der Auskunftsperson?",
       "options": [
         "Das Gespräch läuft überall gleich ab",
-        "Was sie beschreibt, gilt nur für ihre Gemeinde",
         "Das Gespräch ersetzt den Sprachnachweis",
+        "Was sie beschreibt, gilt nur für ihre Gemeinde",
         "Die Nachbarin hat falsche Informationen bekommen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1039,15 +1039,15 @@
       "transcript": "Guten Tag, Sie fragen wegen der Krankenversicherung. Also: Die Grundversicherung ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie müssen sich innerhalb von drei Monaten nach Ihrer Ankunft versichern. Wenn Sie das rechtzeitig tun, gilt die Versicherung rückwirkend ab dem ersten Tag. Welche Kasse Sie wählen, ist Ihnen überlassen; die Leistungen der Grundversicherung sind überall dieselben. Über die Prämien und mögliche Verbilligungen gibt Ihnen Ihr Kanton Auskunft.",
       "question": "Was ist laut der Auskunft richtig?",
       "options": [
-        "Wer sich rechtzeitig versichert, ist ab dem ersten Tag gedeckt",
         "Man muss sich erst nach einem Jahr versichern",
+        "Wer sich rechtzeitig versichert, ist ab dem ersten Tag gedeckt",
         "Die Grundversicherung ist freiwillig",
         "Jede Kasse bietet andere Grundleistungen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1091,15 +1091,15 @@
       "transcript": "Liebe Besucherinnen und Besucher, wir schliessen in fünfzehn Minuten. Bitte bringen Sie die Bücher, die Sie ausleihen möchten, jetzt zur Theke. Medien, die Sie zurückgeben, legen Sie bitte in die Box beim Ausgang. Morgen sind wir ab neun Uhr wieder für Sie da. Wir danken Ihnen und wünschen einen schönen Abend.",
       "question": "Was sollen Besucher tun, wenn sie ein Buch ausleihen möchten?",
       "options": [
-        "Es jetzt zur Theke bringen",
         "Es in die Box beim Ausgang legen",
         "Bis morgen um neun Uhr warten",
+        "Es jetzt zur Theke bringen",
         "Es wieder ins Regal stellen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1295,15 +1295,15 @@
       "transcript": "Herr Kaya: Guten Tag, Sanitär Bühler? Bei mir tropft der Wasserhahn in der Küche.\nFrau Bühler: Guten Tag. Das schauen wir uns an. Passt Ihnen Donnerstagmorgen zwischen 8 und 10 Uhr?\nHerr Kaya: Donnerstagmorgen arbeite ich. Geht auch der Nachmittag?\nFrau Bühler: Ja, ich komme um 14 Uhr. Sind Sie dann zu Hause?\nHerr Kaya: Ja, das passt. Was kostet der Besuch ungefähr?\nFrau Bühler: Die Anfahrt und die erste halbe Stunde kosten 120 Franken, das Material kommt dazu.\nHerr Kaya: Gut, dann bis Donnerstag um 14 Uhr.",
       "question": "Was ist am Ende abgemacht?",
       "options": [
-        "Der Handwerker kommt am Donnerstag um 14 Uhr",
         "Der Handwerker kommt am Donnerstagmorgen",
         "Herr Kaya bringt den Wasserhahn vorbei",
-        "Es wird kein Termin gemacht"
+        "Es wird kein Termin gemacht",
+        "Der Handwerker kommt am Donnerstag um 14 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1321,15 +1321,15 @@
       "transcript": "Guten Tag, hier ist die Schule Feldrain, ich rufe wegen Ihres Sohnes Elias an. Ihm ist es im Unterricht nicht gut geworden, er hat Bauchweh und etwas Fieber. Es ist nichts Schlimmes, aber er sollte nach Hause. Können Sie ihn abholen oder jemanden schicken? Wenn wir Sie in einer halben Stunde nicht erreichen, rufen wir die Notfallnummer an, die Sie uns angegeben haben. Bitte melden Sie sich kurz.",
       "question": "Was soll die angerufene Person tun?",
       "options": [
-        "Das Kind abholen oder jemanden schicken und sich melden",
         "Warten, bis die Schule wieder anruft",
         "Das Kind mit Fieber im Unterricht lassen",
-        "Direkt die Notfallnummer wählen"
+        "Direkt die Notfallnummer wählen",
+        "Das Kind abholen oder jemanden schicken und sich melden"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1397,15 +1397,15 @@
       "transcript": "Guten Tag. Sie fragen, wie Sie Ihre Deutschkenntnisse für die Einbürgerung nachweisen. Wichtig ist zuerst: Das Einbürgerungsgespräch, falls bei uns eines stattfindet, ist kein Sprachtest. Den Sprachnachweis bringen Sie separat mit — zum Beispiel ein anerkanntes Zertifikat. Verlangt wird mündlich mindestens B1, schriftlich mindestens A2; nachgewiesen wird Standarddeutsch, nicht der Dialekt. Welche Zertifikate genau anerkannt sind, legen nicht wir am Empfang fest — das erfahren Sie verbindlich bei der zuständigen Stelle Ihres Kantons oder Ihrer Gemeinde. Erkundigen Sie sich also dort frühzeitig.",
       "question": "Was ist laut der Beratung richtig?",
       "options": [
-        "Den Sprachnachweis bringt man separat mit; das Gespräch ist kein Sprachtest",
         "Das Einbürgerungsgespräch ist der Sprachtest",
         "Man braucht keinen Sprachnachweis",
+        "Den Sprachnachweis bringt man separat mit; das Gespräch ist kein Sprachtest",
         "Der Empfang entscheidet, welche Zertifikate gelten"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1449,15 +1449,15 @@
       "transcript": "Kundin: Guten Tag, ich habe gestern eine Lieferung bekommen, aber es ist der falsche Artikel. Ich habe eine blaue Jacke in Grösse M bestellt, geliefert wurde eine rote in L.\nMitarbeiter: Das tut mir leid. Haben Sie die Bestellnummer zur Hand?\nKundin: Ja, sie steht auf dem Lieferschein.\nMitarbeiter: Danke. Wir schicken Ihnen die richtige Jacke, und für die falsche legen wir ein Retourenetikett bei. Sie brauchen nichts zu bezahlen.\nKundin: Und wann kommt die richtige?\nMitarbeiter: In zwei bis drei Werktagen. Sie bekommen eine Bestätigung per E-Mail.",
       "question": "Was macht der Mitarbeiter?",
       "options": [
-        "Er schickt die richtige Jacke und legt ein Retourenetikett bei",
         "Er sagt, die Kundin müsse die falsche Jacke behalten",
         "Er verlangt eine neue Bezahlung",
-        "Er kann nicht helfen"
+        "Er kann nicht helfen",
+        "Er schickt die richtige Jacke und legt ein Retourenetikett bei"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1475,15 +1475,15 @@
       "transcript": "Sehr geehrte Fahrgäste, wir erreichen Bern mit etwa zehn Minuten Verspätung. Reisende nach Thun verpassen den Anschluss um 15.10 Uhr. Der nächste Zug nach Thun fährt um 15.40 Uhr ab Gleis 5. Wir entschuldigen uns für die Unannehmlichkeiten.",
       "question": "Was sollen Reisende nach Thun tun?",
       "options": [
-        "Den nächsten Zug um 15.40 Uhr ab Gleis 5 nehmen",
         "In Bern aussteigen und ein Taxi nehmen",
+        "Den nächsten Zug um 15.40 Uhr ab Gleis 5 nehmen",
         "Den Zug um 15.10 Uhr nehmen",
         "Im Zug nach Bern sitzen bleiben"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1525,15 +1525,15 @@
       "transcript": "Praxis: Praxis Dr. Sommer, guten Tag.\nFrau Adem: Guten Tag, ich habe morgen um 9 Uhr einen Termin, aber mein Kind ist krank. Kann ich verschieben?\nPraxis: Natürlich. Nächste Woche Dienstag um 11 Uhr wäre frei.\nFrau Adem: Dienstag 11 Uhr passt. Muss ich etwas mitbringen?\nPraxis: Bringen Sie die Liste Ihrer Medikamente mit. Und wenn es dem Kind bis dahin nicht besser geht, melden Sie sich früher.\nFrau Adem: Danke, bis Dienstag.",
       "question": "Was ist am Ende abgemacht?",
       "options": [
-        "Ein neuer Termin am Dienstag um 11 Uhr",
         "Der Termin morgen um 9 Uhr bleibt",
         "Der Termin wird ganz abgesagt",
-        "Frau Adem kommt ohne Termin vorbei"
+        "Frau Adem kommt ohne Termin vorbei",
+        "Ein neuer Termin am Dienstag um 11 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1551,15 +1551,15 @@
       "transcript": "Vermieter: Guten Tag Herr Baumann. Da Sie ja Ende Monat ausziehen, möchte ich die Wohnung neuen Interessenten zeigen.\nHerr Baumann: Ja, das ist in Ordnung. Wann möchten Sie kommen?\nVermieter: Ich dachte an Mittwochabend um 18 Uhr. Zwei Personen würden die Wohnung anschauen. Passt Ihnen das?\nHerr Baumann: Mittwoch geht. Soll ich etwas vorbereiten?\nVermieter: Nein, es muss nicht aufgeräumt sein. Ich klingle kurz und wir bleiben nicht lange.\nHerr Baumann: Gut, dann bis Mittwoch.",
       "question": "Warum ruft der Vermieter an?",
       "options": [
-        "Er möchte die Wohnung neuen Interessenten zeigen",
         "Er möchte die Miete erhöhen",
+        "Er möchte die Wohnung neuen Interessenten zeigen",
         "Er will die Wohnung selbst renovieren",
         "Er kündigt Herrn Baumann die Wohnung"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1577,15 +1577,15 @@
       "transcript": "Lehrerin: Schön, dass Sie da sind. Ihr Sohn Amir macht gute Fortschritte, vor allem im Rechnen.\nHerr Nasser: Das freut mich. Beim Lesen tut er sich noch schwer.\nLehrerin: Das stimmt, aber es wird besser. Wenn Sie zu Hause zehn Minuten am Tag mit ihm lesen, hilft das sehr.\nHerr Nasser: Das machen wir gern. Gibt es passende Bücher?\nLehrerin: Ja, ich gebe Ihnen eine Liste mit. Und die Bibliothek im Quartier hat viele einfache Bücher.\nHerr Nasser: Danke, das probieren wir.",
       "question": "Was rät die Lehrerin Herrn Nasser?",
       "options": [
-        "Täglich zehn Minuten mit dem Kind zu lesen",
         "Das Kind in eine andere Klasse zu geben",
+        "Täglich zehn Minuten mit dem Kind zu lesen",
         "Weniger zu rechnen",
         "Nichts zu tun, es wird von selbst besser"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1603,15 +1603,15 @@
       "transcript": "Liebe Gäste, wegen eines Gewitters müssen wir das Freibad schliessen. Bitte verlassen Sie das Wasser sofort und gehen Sie in die Garderoben. Sobald das Wetter besser ist, öffnen wir wieder; hören Sie auf die Durchsagen. Ihr Eintritt gilt auch, wenn wir heute wieder aufmachen. Danke für Ihr Verständnis.",
       "question": "Was sollen die Gäste jetzt tun?",
       "options": [
-        "Sofort aus dem Wasser gehen und in die Garderoben",
         "Im Wasser bleiben",
+        "Sofort aus dem Wasser gehen und in die Garderoben",
         "Nach Hause fahren und morgen wiederkommen",
         "Einen neuen Eintritt kaufen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1653,15 +1653,15 @@
       "transcript": "Kundin: Guten Tag, ich habe letzte Woche meine Waschmaschine zur Reparatur gebracht. Ist sie schon fertig?\nMitarbeiter: Einen Moment, wie ist Ihr Name? … Ah ja, Frau Torres. Das Ersatzteil ist gestern gekommen, wir bauen es heute ein.\nKundin: Und wann kann ich sie abholen?\nMitarbeiter: Ab morgen Nachmittag. Wir rufen Sie an, sobald sie bereit ist.\nKundin: Gut. Wissen Sie schon, was es kostet?\nMitarbeiter: Etwa 150 Franken mit dem Teil. Den genauen Betrag sehen Sie auf der Rechnung.\nKundin: Danke, dann warte ich auf Ihren Anruf.",
       "question": "Was sagt der Mitarbeiter über die Waschmaschine?",
       "options": [
-        "Sie ist ab morgen Nachmittag abholbereit; er ruft an",
         "Sie ist schon fertig und kann sofort geholt werden",
+        "Sie ist ab morgen Nachmittag abholbereit; er ruft an",
         "Sie kann nicht repariert werden",
         "Das Ersatzteil fehlt noch"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1705,15 +1705,15 @@
       "transcript": "Mitarbeiterin: Möbelhaus am Ring, guten Tag.\nHerr Ferreira: Guten Tag, ich habe gestern ein Regal bestellt, möchte aber die Farbe ändern — statt Weiss lieber Braun.\nMitarbeiterin: Kein Problem, wenn die Bestellung noch nicht versandt ist. Ihre Bestellnummer?\nHerr Ferreira: Sie ist 4457.\nMitarbeiterin: Danke … ja, sie ist noch hier. Ich ändere die Farbe auf Braun. Der Preis bleibt gleich. Die Lieferung dauert etwa eine Woche.\nHerr Ferreira: Sehr gut, vielen Dank.",
       "question": "Was ändert die Mitarbeiterin?",
       "options": [
-        "Die Farbe des Regals von Weiss auf Braun",
         "Die Lieferadresse",
         "Den Preis der Bestellung",
+        "Die Farbe des Regals von Weiss auf Braun",
         "Die Bestellnummer"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1731,15 +1731,15 @@
       "transcript": "Liebe Kundinnen und Kunden, wir haben an der Information ein kleines Mädchen. Sie heisst Lea und ist etwa vier Jahre alt und sucht ihre Mama. Die Mutter von Lea kommt bitte zur Information im Erdgeschoss beim Haupteingang. Vielen Dank.",
       "question": "Was soll Leas Mutter tun?",
       "options": [
-        "Zur Information im Erdgeschoss kommen",
         "Das Kaufhaus verlassen",
         "An der Kasse warten",
+        "Zur Information im Erdgeschoss kommen",
         "Die Polizei rufen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1781,15 +1781,15 @@
       "transcript": "Mitarbeiter: Kundendienst, guten Tag. Wie kann ich helfen?\nHerr Sahin: Guten Tag, bei mir geht das Internet seit gestern Abend nicht mehr.\nMitarbeiter: Das tut mir leid. Haben Sie den Router schon einmal aus- und wieder eingeschaltet?\nHerr Sahin: Ja, zweimal. Es ändert nichts.\nMitarbeiter: Dann liegt es vielleicht an der Leitung. Ich schicke Ihnen einen Techniker. Passt Ihnen Donnerstag zwischen 8 und 12 Uhr?\nHerr Sahin: Donnerstagvormittag geht. Kostet der Besuch etwas?\nMitarbeiter: Wenn der Fehler bei uns liegt, ist er gratis. Sie bekommen vorher eine SMS.\nHerr Sahin: Gut, danke.",
       "question": "Was macht der Mitarbeiter?",
       "options": [
-        "Er schickt am Donnerstagvormittag einen Techniker",
         "Er sagt, Herr Sahin müsse einen neuen Router kaufen",
         "Er kann nicht helfen",
-        "Er kommt selbst sofort vorbei"
+        "Er kommt selbst sofort vorbei",
+        "Er schickt am Donnerstagvormittag einen Techniker"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1807,15 +1807,15 @@
       "transcript": "Frau Costa: Du, wir arbeiten ja beide im Gewerbegebiet. Sollen wir zusammen fahren?\nHerr Meier: Gern, das spart Benzin. Wann fängst du an?\nFrau Costa: Um sieben. Ich könnte dich um Viertel vor sieben abholen.\nHerr Meier: Perfekt. Und wer fährt, wechseln wir ab?\nFrau Costa: Ja, machen wir wochenweise. Diese Woche fahre ich, nächste du.\nHerr Meier: Abgemacht. Dann bis morgen um Viertel vor sieben.",
       "question": "Was haben die beiden abgemacht?",
       "options": [
-        "Sie fahren zusammen zur Arbeit und wechseln sich wochenweise ab",
         "Herr Meier fährt immer allein",
         "Sie fahren nur diese Woche zusammen",
+        "Sie fahren zusammen zur Arbeit und wechseln sich wochenweise ab",
         "Sie nehmen jeden Tag den Bus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1859,15 +1859,15 @@
       "transcript": "Information für die Reisenden nach Luzern: Der Zug um 14.20 Uhr fährt heute nicht von Gleis 3, sondern von Gleis 7. Wir wiederholen: Der Zug nach Luzern fährt von Gleis 7. Bitte beachten Sie die Anzeigen. Danke.",
       "question": "Von welchem Gleis fährt der Zug nach Luzern?",
       "options": [
-        "Von Gleis 7",
         "Von Gleis 3",
         "Von Gleis 14",
+        "Von Gleis 7",
         "Der Zug fällt aus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1909,15 +1909,15 @@
       "transcript": "Guten Tag. Sie fragen, welcher Weg zur Einbürgerung für Sie gilt. Kurz gesagt: Es gibt zwei. Bei der ordentlichen Einbürgerung entscheiden Ihre Gemeinde und Ihr Kanton; der Bund gibt dazu die Bewilligung. Das Gesuch reichen Sie bei der Gemeinde ein. Wenn Sie dagegen mit einer Schweizerin oder einem Schweizer verheiratet sind, kommt oft die erleichterte Einbürgerung infrage — da entscheidet der Bund, also das SEM, und das Gesuch stellen Sie direkt beim SEM. Welcher Weg bei Ihnen gilt, hängt von Ihrer Situation ab; erkundigen Sie sich am besten frühzeitig.",
       "question": "Was ist laut der Beratung richtig?",
       "options": [
-        "Bei der ordentlichen Einbürgerung entscheiden Gemeinde und Kanton; bei der erleichterten der Bund",
         "Immer entscheidet nur die Gemeinde",
         "Immer entscheidet nur der Bund",
-        "Verheiratete können sich gar nicht einbürgern lassen"
+        "Verheiratete können sich gar nicht einbürgern lassen",
+        "Bei der ordentlichen Einbürgerung entscheiden Gemeinde und Kanton; bei der erleichterten der Bund"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1935,15 +1935,15 @@
       "transcript": "Frau Diallo: Ich möchte im Herbst einen Deutschkurs machen. Weisst du, welcher gut ist?\nHerr Kurt: Es gibt zwei im Quartier. Der eine ist am Morgen, der andere am Abend.\nFrau Diallo: Am Abend wäre besser, wegen der Arbeit. Ist er teuer?\nHerr Kurt: Nicht so. Und man kann eine Probelektion gratis besuchen.\nFrau Diallo: Das mache ich. Dann sehe ich, ob das Niveau passt.\nHerr Kurt: Gute Idee. Melde dich vorher an, die Plätze sind schnell weg.",
       "question": "Was will Frau Diallo zuerst tun?",
       "options": [
-        "Eine gratis Probelektion des Abendkurses besuchen",
         "Sofort den Morgenkurs bezahlen",
+        "Eine gratis Probelektion des Abendkurses besuchen",
         "Keinen Kurs machen",
         "Den Kurs in einer anderen Stadt suchen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1961,15 +1961,15 @@
       "transcript": "Mitarbeiter: Guten Tag, hier ist die Lieferfirma. Wir bringen Ihr Sofa morgen zwischen 9 und 12 Uhr.\nFrau Roth: Oh, morgen Vormittag bin ich leider nicht da. Geht es auch am Nachmittag?\nMitarbeiter: Morgen Nachmittag ist schon voll. Aber übermorgen zwischen 13 und 15 Uhr hätten wir Zeit.\nFrau Roth: Übermorgen Nachmittag ist gut.\nMitarbeiter: Gut, ich trage das ein. Sie bekommen am Morgen eine SMS mit der genauen Zeit.\nFrau Roth: Danke, das passt.",
       "question": "Wann wird das Sofa geliefert?",
       "options": [
-        "Übermorgen zwischen 13 und 15 Uhr",
         "Morgen zwischen 9 und 12 Uhr",
         "Morgen Nachmittag",
-        "Heute Abend"
+        "Heute Abend",
+        "Übermorgen zwischen 13 und 15 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1987,15 +1987,15 @@
       "transcript": "Endstation Marktplatz. Bitte steigen Sie alle aus, dieser Bus fährt nicht weiter. Der nächste Bus in die Stadt fährt in zehn Minuten von der gleichen Haltestelle. Bitte vergessen Sie nichts im Bus. Wir wünschen Ihnen einen schönen Tag.",
       "question": "Was sollen die Fahrgäste tun?",
       "options": [
-        "Aussteigen, weil der Bus nicht weiterfährt",
         "Im Bus sitzen bleiben",
         "Zum nächsten Marktplatz laufen",
-        "Ein Billett kaufen"
+        "Ein Billett kaufen",
+        "Aussteigen, weil der Bus nicht weiterfährt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2037,15 +2037,15 @@
       "transcript": "Frau Amaru: Ich verstehe im Laden oft fast nichts — sprechen alle Dialekt?\nHerr Widmer: Im Alltag ja, das ist normal hier. Aber keine Sorge: Im Deutschkurs, in der Prüfung und in den Briefen der Behörden ist es Hochdeutsch, also Standarddeutsch.\nFrau Amaru: Und muss ich selber Dialekt lernen?\nHerr Widmer: Nein, das müssen Sie nicht. Sprechen Sie ruhig Hochdeutsch, das versteht man überall. Mit der Zeit verstehen Sie den Dialekt dann von selbst besser.\nFrau Amaru: Das beruhigt mich.",
       "question": "Was sagt Herr Widmer über die Sprache?",
       "options": [
-        "Im Alltag Dialekt, aber in Kurs, Prüfung und Ämtern Hochdeutsch; Dialekt sprechen muss man nicht",
         "Man muss den Dialekt sprechen können",
+        "Im Alltag Dialekt, aber in Kurs, Prüfung und Ämtern Hochdeutsch; Dialekt sprechen muss man nicht",
         "In den Ämtern spricht man nur Dialekt",
         "Hochdeutsch versteht hier niemand"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2063,15 +2063,15 @@
       "transcript": "Frau Nowak: Guten Tag, bei mir tropft es unter dem Küchenschrank, ich glaube, ein Rohr ist undicht.\nSanitär: Das schauen wir uns an. Können Sie das Wasser unter dem Schrank abstellen?\nFrau Nowak: Ja, den Hahn habe ich schon zugedreht.\nSanitär: Gut. Ich kann heute zwischen 16 und 18 Uhr kommen. Passt das?\nFrau Nowak: Ja, ich bin zu Hause.\nSanitär: Dann bis später. Stellen Sie einen Eimer darunter, falls es noch tropft.\nFrau Nowak: Mache ich, danke.",
       "question": "Was ist abgemacht?",
       "options": [
-        "Der Handwerker kommt heute zwischen 16 und 18 Uhr",
         "Frau Nowak repariert das Rohr selbst",
+        "Der Handwerker kommt heute zwischen 16 und 18 Uhr",
         "Der Handwerker kommt erst nächste Woche",
         "Es wird kein Termin gemacht"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2165,15 +2165,15 @@
       "transcript": "Guten Tag. Sie möchten wissen, wo Sie das Gesuch für die ordentliche Einbürgerung stellen. Das machen Sie bei uns, bei der Gemeinde. Wir prüfen die Unterlagen, dann sind auch der Kanton und der Bund beteiligt: Der Bund gibt die Bewilligung, und über die Einbürgerung selbst entscheiden Gemeinde und Kanton. Wichtig ist, dass Sie zuerst zu uns kommen. Bringen Sie einen Ausweis mit und Ihren Sprachnachweis, dann sagen wir Ihnen, wie es weitergeht.",
       "question": "Wo stellt man laut der Auskunft das Gesuch für die ordentliche Einbürgerung?",
       "options": [
-        "Bei der Gemeinde",
         "Direkt beim Bund (SEM)",
         "Bei der Krankenkasse",
-        "Beim Arbeitgeber"
+        "Beim Arbeitgeber",
+        "Bei der Gemeinde"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2191,15 +2191,15 @@
       "transcript": "Hallo zusammen, hier ist Marco vom Turnverein. Ich muss euch leider mitteilen: Das Training heute Abend fällt aus, weil die Halle kurzfristig gesperrt ist. Wir treffen uns stattdessen am Donnerstag zur gleichen Zeit, also um 19 Uhr. Wer am Donnerstag nicht kann, meldet sich bitte bei mir. Bis dann und einen schönen Tag.",
       "question": "Was ist die wichtigste Information in der Nachricht?",
       "options": [
-        "Das heutige Training fällt aus; das nächste ist am Donnerstag um 19 Uhr",
         "Das Training findet heute wie immer statt",
         "Der Turnverein wird aufgelöst",
-        "Die Halle wird neu gebaut"
+        "Die Halle wird neu gebaut",
+        "Das heutige Training fällt aus; das nächste ist am Donnerstag um 19 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2217,15 +2217,15 @@
       "transcript": "Und nun zu einer guten Nachricht aus der Region: Das Hallenbad in Neudorf ist nach dem Umbau wieder offen. Es gibt neu ein grösseres Becken und einen Bereich für Kinder. Geöffnet ist es täglich von 8 bis 21 Uhr, montags erst ab 12 Uhr. Der Eintritt bleibt gleich wie vorher. Am ersten Wochenende ist der Eintritt für Kinder gratis.",
       "question": "Was ist am Hallenbad neu?",
       "options": [
-        "Ein grösseres Becken und ein Bereich für Kinder",
         "Es ist jetzt teurer",
         "Es ist nur am Wochenende offen",
-        "Es ist für immer geschlossen"
+        "Es ist für immer geschlossen",
+        "Ein grösseres Becken und ein Bereich für Kinder"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2345,15 +2345,15 @@
       "transcript": "Willkommen zur Führung. Wir sind hier im ältesten Teil des Hauses, er ist über 300 Jahre alt. Bitte machen Sie keine Fotos mit Blitz, das schadet den alten Bildern. Die Führung dauert etwa eine Stunde. Am Schluss haben Sie Zeit, den Shop und das Café zu besuchen. Wenn Sie eine Frage haben, stellen Sie sie gern jederzeit. Gehen wir weiter in den nächsten Raum.",
       "question": "Was ist bei der Führung nicht erlaubt?",
       "options": [
-        "Fotos mit Blitz zu machen",
         "Fragen zu stellen",
+        "Fotos mit Blitz zu machen",
         "Das Café zu besuchen",
         "In den nächsten Raum zu gehen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2447,15 +2447,15 @@
       "transcript": "Und nun die Verkehrsmeldung: Auf der Hauptstrasse zwischen Neudorf und Altstetten ist wegen eines Unfalls eine Spur gesperrt. Es bildet sich ein Stau von rund zwei Kilometern. Wenn möglich, fahren Sie über die Dorfstrasse oder nehmen Sie den Zug. Die Feuerwehr ist vor Ort; die Strasse ist voraussichtlich in einer Stunde wieder frei.",
       "question": "Was wird den Autofahrern empfohlen?",
       "options": [
-        "Über die Dorfstrasse fahren oder den Zug nehmen",
         "Auf der Hauptstrasse im Stau warten",
         "Die Feuerwehr zu rufen",
+        "Über die Dorfstrasse fahren oder den Zug nehmen",
         "Nach Altstetten zu Fuss zu gehen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2473,15 +2473,15 @@
       "transcript": "Sekretariat: Sprachschule Lingua, guten Tag.\nFrau Popovic: Guten Tag, ich habe mich für den Abendkurs angemeldet, kann aber doch nicht kommen. Ich möchte mich abmelden.\nSekretariat: Das ist schade. Wann beginnt der Kurs?\nFrau Popovic: Erst in drei Wochen.\nSekretariat: Gut, dann geht das ohne Kosten. Ich streiche Sie von der Liste. Wenn Sie wollen, informieren wir Sie über den nächsten Kurs.\nFrau Popovic: Ja, gern. Vielen Dank.",
       "question": "Was passiert, weil der Kurs erst in drei Wochen beginnt?",
       "options": [
-        "Die Abmeldung ist ohne Kosten",
         "Frau Popovic muss den ganzen Kurs bezahlen",
         "Sie kann sich nicht abmelden",
-        "Der Kurs fällt aus"
+        "Der Kurs fällt aus",
+        "Die Abmeldung ist ohne Kosten"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2549,15 +2549,15 @@
       "transcript": "Willkommen zum Alltagstipp. Heute geht es ums Sparen beim Einkaufen. Mein erster Tipp: Machen Sie vorher eine Liste und halten Sie sich daran — so kaufen Sie weniger, das Sie nicht brauchen. Zweitens: Gehen Sie nicht hungrig einkaufen, sonst landet mehr im Wagen. Und drittens: Vergleichen Sie die Preise pro Kilo, nicht pro Packung; die grosse Packung ist nicht immer günstiger. Probieren Sie es aus!",
       "question": "Was ist der erste Tipp im Podcast?",
       "options": [
-        "Vorher eine Einkaufsliste machen und sich daran halten",
         "Immer die grösste Packung kaufen",
         "Hungrig einkaufen gehen",
+        "Vorher eine Einkaufsliste machen und sich daran halten",
         "Nie eine Liste machen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2627,15 +2627,15 @@
       "transcript": "Sehr geehrte Kundinnen und Kunden, das Parkhaus schliesst um 22 Uhr. Bitte fahren Sie Ihr Auto vorher hinaus. Bezahlen Sie das Parkticket am Automaten beim Ausgang, bevor Sie zum Auto gehen. Der Automat nimmt Münzen und Karten. Wir danken für Ihren Besuch.",
       "question": "Wo bezahlt man laut der Durchsage das Parkticket?",
       "options": [
-        "Am Automaten beim Ausgang",
         "Direkt beim Auto",
         "An der Kasse im Geschäft",
-        "Man muss nicht bezahlen"
+        "Man muss nicht bezahlen",
+        "Am Automaten beim Ausgang"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2703,15 +2703,15 @@
       "transcript": "Frau Lang: Was machen wir am Wochenende? Das Wetter soll gut sein.\nHerr Kern: Wir könnten wandern gehen oder in den Zoo.\nFrau Lang: Mit den Kindern ist der Zoo vielleicht besser, das ist weniger anstrengend.\nHerr Kern: Stimmt. Dann gehen wir am Samstag in den Zoo und ruhen uns am Sonntag aus.\nFrau Lang: Gut. Ich schaue noch, wann er offen ist, und packe etwas zu essen ein.\nHerr Kern: Super, dann ist das abgemacht.",
       "question": "Was planen die beiden für den Samstag?",
       "options": [
-        "Mit den Kindern in den Zoo zu gehen",
         "Eine lange Wanderung",
         "Zu Hause zu bleiben",
+        "Mit den Kindern in den Zoo zu gehen",
         "Einkaufen zu gehen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2729,15 +2729,15 @@
       "transcript": "Restaurant: Restaurant Sonne, guten Tag.\nFrau Aziz: Guten Tag, ich habe für heute Abend einen Tisch für vier Personen reserviert, auf den Namen Aziz. Wir sind aber jetzt zu sechst. Geht das noch?\nRestaurant: Einen Moment … ja, das geht. Ich ändere die Reservation auf sechs Personen. Um wie viel Uhr waren Sie noch mal?\nFrau Aziz: Um 19 Uhr.\nRestaurant: Gut, sechs Personen um 19 Uhr, auf den Namen Aziz. Bis heute Abend.\nFrau Aziz: Vielen Dank.",
       "question": "Was ändert das Restaurant?",
       "options": [
-        "Die Reservation von vier auf sechs Personen",
         "Die Uhrzeit auf 20 Uhr",
         "Den Namen der Reservation",
+        "Die Reservation von vier auf sechs Personen",
         "Den Tag der Reservation"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2755,15 +2755,15 @@
       "transcript": "Liebe Kundinnen und Kunden, wir haben ein Sonderangebot für Sie: Heute gibt es alle Jacken zum halben Preis. Sie finden die Jacken im zweiten Stock bei der Rolltreppe. Das Angebot gilt nur bis Ladenschluss um 19 Uhr. Wir wünschen Ihnen viel Freude beim Einkaufen.",
       "question": "Wo findet man die Jacken im Angebot?",
       "options": [
-        "Im zweiten Stock bei der Rolltreppe",
         "Im Erdgeschoss",
+        "Im zweiten Stock bei der Rolltreppe",
         "Beim Eingang",
         "Im Keller"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2857,15 +2857,15 @@
       "transcript": "Frau Meier: Du, kennst du einen guten Elektriker? Bei mir funktioniert eine Steckdose nicht.\nHerr Tanner: Ja, ich hatte letztes Jahr einen. Er war schnell und nicht zu teuer. Ich gebe dir seine Nummer.\nFrau Meier: Super, danke. Muss man lange warten?\nHerr Tanner: Bei mir kam er innerhalb von zwei Tagen. Ruf am besten am Morgen an.\nFrau Meier: Mache ich. Danke für den Tipp.",
       "question": "Was sagt Herr Tanner über den Elektriker?",
       "options": [
-        "Er war schnell und nicht zu teuer",
         "Er war teuer und langsam",
         "Er kommt nie",
+        "Er war schnell und nicht zu teuer",
         "Er arbeitet nur am Wochenende"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2883,15 +2883,15 @@
       "transcript": "Sehr geehrte Fahrgäste, wegen einer Störung hat unser Zug etwa fünfzehn Minuten Verspätung. Der Anschluss in Zürich nach St. Gallen wartet auf uns. Reisende nach Bern nehmen bitte in Zürich den nächsten Zug um 16.40 Uhr. Wir bitten um Entschuldigung.",
       "question": "Was gilt für Reisende nach Bern?",
       "options": [
-        "Sie nehmen in Zürich den nächsten Zug um 16.40 Uhr",
         "Ihr Anschluss wartet auf den Zug",
         "Sie steigen in St. Gallen aus",
-        "Der Zug fährt nicht mehr"
+        "Der Zug fährt nicht mehr",
+        "Sie nehmen in Zürich den nächsten Zug um 16.40 Uhr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2933,15 +2933,15 @@
       "transcript": "Reporterin: Sie stehen jeden Tag sehr früh auf. Wann beginnt Ihr Tag?\nHerr Frei: Um drei Uhr morgens. Dann heize ich den Ofen und beginne mit dem Brot.\nReporterin: Das ist wirklich früh. Was mögen Sie an Ihrem Beruf?\nHerr Frei: Dass die Leute sich am Morgen über frisches Brot freuen. Und der Duft in der Backstube am Morgen ist etwas Besonderes.\nReporterin: Und was ist schwierig?\nHerr Frei: Die frühen Stunden und dass ich am Wochenende arbeite. Aber ich mache es gern.",
       "question": "Was mag Herr Frei an seinem Beruf?",
       "options": [
-        "Dass sich die Leute über frisches Brot freuen",
         "Dass er lange schlafen kann",
         "Dass er am Wochenende frei hat",
-        "Dass er wenig arbeiten muss"
+        "Dass er wenig arbeiten muss",
+        "Dass sich die Leute über frisches Brot freuen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2959,15 +2959,15 @@
       "transcript": "Frau Reto: Unsere Chefin geht in Pension. Was schenken wir ihr?\nHerr Alba: Wir könnten Geld sammeln und einen Gutschein für ein Restaurant kaufen.\nFrau Reto: Gute Idee. Oder etwas Persönliches, zum Beispiel ein Fotobuch mit Bildern aus dem Team.\nHerr Alba: Ein Fotobuch ist schön, aber es braucht mehr Zeit. Machen wir beides: einen Gutschein und ein paar Fotos?\nFrau Reto: Perfekt. Ich frage die anderen, ob alle etwas dazugeben.\nHerr Alba: Und ich sammle die Fotos.",
       "question": "Worauf einigen sich die beiden?",
       "options": [
-        "Auf einen Gutschein und ein paar Fotos",
         "Nur auf Geld",
         "Auf gar kein Geschenk",
-        "Auf ein neues Auto"
+        "Auf ein neues Auto",
+        "Auf einen Gutschein und ein paar Fotos"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2985,15 +2985,15 @@
       "transcript": "Sachbearbeiter: Gemeindeverwaltung, guten Tag.\nFrau Kaya: Guten Tag, ich brauche eine Wohnsitzbestätigung. Kann ich die einfach am Schalter holen?\nSachbearbeiter: Ja, kommen Sie mit einem gültigen Ausweis vorbei. Sie bekommen die Bestätigung gleich mit.\nFrau Kaya: Und was kostet das?\nSachbearbeiter: Zwanzig Franken, bar oder mit Karte. Unser Schalter ist bis 16 Uhr offen.\nFrau Kaya: Gut, dann komme ich heute Nachmittag. Danke.",
       "question": "Was muss Frau Kaya mitbringen?",
       "options": [
-        "Einen gültigen Ausweis",
         "Ein Foto",
+        "Einen gültigen Ausweis",
         "Einen Mietvertrag",
         "Nichts"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3061,15 +3061,15 @@
       "transcript": "Herzlich willkommen im Kino. Bevor der Film beginnt, ein paar Hinweise: Bitte schalten Sie Ihre Handys aus. Essen und Getränke dürfen Sie mit in den Saal nehmen, aber räumen Sie den Abfall nach dem Film in die Behälter beim Ausgang. Der Notausgang ist rechts vorne, bitte beachten Sie das grüne Schild. Wir wünschen Ihnen viel Vergnügen.",
       "question": "Was sollen die Gäste laut der Ansage nach dem Film tun?",
       "options": [
-        "Den Abfall in die Behälter beim Ausgang räumen",
         "Die Handys einschalten",
         "Im Saal bleiben",
-        "Das Essen mit nach Hause nehmen"
+        "Das Essen mit nach Hause nehmen",
+        "Den Abfall in die Behälter beim Ausgang räumen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3087,15 +3087,15 @@
       "transcript": "Frau Weiss: Wir sollten das Wohnzimmer neu streichen. Welche Farbe magst du?\nHerr Roth: Ich hätte gern etwas Helles, vielleicht ein warmes Gelb.\nFrau Weiss: Gelb ist mir zu kräftig. Wie wäre ein helles Beige? Das passt zu allem.\nHerr Roth: Beige ist gut, das ist ruhig. Und eine Wand könnten wir etwas dunkler machen, als Akzent.\nFrau Weiss: Ja, das gefällt mir. Dann kaufen wir Beige und für eine Wand ein dunkleres Braun.\nHerr Roth: Abgemacht. Ich hole die Farbe am Samstag.",
       "question": "Worauf einigen sich die beiden?",
       "options": [
-        "Auf Beige und für eine Wand ein dunkleres Braun",
         "Auf ein kräftiges Gelb",
+        "Auf Beige und für eine Wand ein dunkleres Braun",
         "Auf Weiss überall",
         "Sie streichen doch nicht"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3113,15 +3113,15 @@
       "transcript": "Malerin: Malergeschäft Bunt, guten Tag.\nHerr Sila: Guten Tag, ich möchte mein Wohnzimmer streichen lassen und hätte gern eine Offerte.\nMalerin: Gern. Wie gross ist der Raum ungefähr?\nHerr Sila: Etwa zwanzig Quadratmeter, mit einer hohen Wand.\nMalerin: Am besten schaue ich es mir kurz an, dann kann ich Ihnen einen genauen Preis geben. Passt Ihnen Donnerstag um 17 Uhr?\nHerr Sila: Ja, das passt. Kostet die Offerte etwas?\nMalerin: Nein, die Offerte ist gratis und unverbindlich.\nHerr Sila: Sehr gut, dann bis Donnerstag.",
       "question": "Was macht die Malerin, bevor sie einen Preis nennt?",
       "options": [
-        "Sie schaut sich den Raum am Donnerstag an",
         "Sie beginnt sofort mit dem Streichen",
         "Sie schickt eine Rechnung",
+        "Sie schaut sich den Raum am Donnerstag an",
         "Sie sagt den Termin ab"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3189,15 +3189,15 @@
       "transcript": "Guten Tag und willkommen. Nur ein kurzer Hinweis für Ihren Besuch: Im ersten Stock zeigen wir zurzeit eine Sonderausstellung über alte Uhren. Der Eintritt dazu ist im normalen Ticket enthalten. Die Sonderausstellung dauert noch bis Ende Monat. Fotos ohne Blitz sind erlaubt. Wir wünschen Ihnen einen schönen Besuch.",
       "question": "Was gilt für die Sonderausstellung?",
       "options": [
-        "Der Eintritt ist im normalen Ticket enthalten",
         "Man muss extra bezahlen",
         "Sie ist schon zu Ende",
+        "Der Eintritt ist im normalen Ticket enthalten",
         "Fotos sind ganz verboten"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3215,15 +3215,15 @@
       "transcript": "Frau Ott: In den Herbstferien muss ich arbeiten. Weisst du, wo die Kinder betreut werden?\nHerr Sen: Ja, die Gemeinde bietet ein Ferienprogramm an, eine Woche lang, mit Ausflügen und Basteln.\nFrau Ott: Das klingt gut. Muss man sich anmelden?\nHerr Sen: Ja, und zwar früh, die Plätze sind schnell weg. Es kostet etwas, aber nicht viel.\nFrau Ott: Wo melde ich mich an?\nHerr Sen: Auf der Webseite der Gemeinde oder direkt im Schulhaus. Ich schicke dir den Link.\nFrau Ott: Super, danke dir!",
       "question": "Was rät Herr Sen Frau Ott?",
       "options": [
-        "Ihre Kinder früh für das Ferienprogramm der Gemeinde anzumelden",
         "Die Kinder allein zu Hause zu lassen",
         "In den Ferien nicht zu arbeiten",
-        "Ein eigenes Ferienlager zu machen"
+        "Ein eigenes Ferienlager zu machen",
+        "Ihre Kinder früh für das Ferienprogramm der Gemeinde anzumelden"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3267,15 +3267,15 @@
       "transcript": "Sehr geehrte Fahrgäste, wegen der Verspätung entfällt heute der Halt in Grüningen. Reisende nach Grüningen fahren bitte bis zur nächsten Station Weberdorf und nehmen von dort den Bus zurück. Wir entschuldigen uns für die Unannehmlichkeiten.",
       "question": "Was sollen Reisende nach Grüningen tun?",
       "options": [
-        "Bis Weberdorf fahren und von dort den Bus zurück nehmen",
         "In Grüningen aussteigen",
         "Im Zug bleiben bis zur Endstation",
+        "Bis Weberdorf fahren und von dort den Bus zurück nehmen",
         "Zu Fuss nach Grüningen gehen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },

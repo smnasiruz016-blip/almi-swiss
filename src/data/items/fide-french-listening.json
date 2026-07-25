@@ -116,14 +116,14 @@
       "question": "Combien coûtent les achats ?",
       "options": [
         "7,19 francs",
-        "7,90 francs",
         "9,70 francs",
+        "7,90 francs",
         "17,90 francs"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -167,15 +167,15 @@
       "transcript": "Alors, pour annoncer votre arrivée dans la commune, il me faut trois choses : votre pièce d'identité, votre contrat de bail et votre attestation d'assurance maladie. Vous avez le bail et la pièce d'identité, très bien. L'attestation d'assurance, vous pouvez nous l'envoyer par courriel dans les prochains jours — ce n'est pas la peine de revenir au guichet pour ça. Je vous prépare déjà le reste.",
       "question": "Que manque-t-il à cette personne, et comment peut-elle le fournir ?",
       "options": [
-        "Le bail — elle doit revenir au guichet",
         "L'attestation d'assurance maladie — elle peut l'envoyer par courriel",
+        "Le bail — elle doit revenir au guichet",
         "La pièce d'identité — elle doit la demander à sa commune",
         "Rien : le dossier est complet"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -218,14 +218,14 @@
       "question": "Que demande Aline à sa collègue ?",
       "options": [
         "De repousser la séance de vingt minutes",
-        "De prévenir Monsieur Bettex et de commencer sans elle",
         "De faire sa partie à sa place",
+        "De prévenir Monsieur Bettex et de commencer sans elle",
         "De venir la chercher en voiture"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -293,15 +293,15 @@
       "transcript": "Encore un point avant de terminer. Le camp de ski a lieu en février. Il coûte deux cents francs par enfant. Je sais que pour certaines familles, c'est beaucoup. Il existe un fonds communal qui prend en charge une partie du montant — mais il faut le demander, personne ne le propose automatiquement. Venez me voir après la séance, ou écrivez-moi. Cela reste entre nous.",
       "question": "Que dit l'enseignante au sujet de l'aide financière ?",
       "options": [
-        "Elle est accordée automatiquement aux familles concernées",
         "Il faut la demander soi-même",
+        "Elle est accordée automatiquement aux familles concernées",
         "Elle couvre la totalité du camp",
         "Elle n'existe que pour les enfants du village"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -346,14 +346,14 @@
       "question": "Que dit le représentant au sujet des trous dans le mur ?",
       "options": [
         "Ils seront retenus sur la garantie",
-        "Ils comptent comme de l'usure normale et ne sont pas facturés",
         "Ils doivent être réparés avant la remise des clés",
+        "Ils comptent comme de l'usure normale et ne sont pas facturés",
         "Ils ne figureront pas au procès-verbal"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -396,14 +396,14 @@
       "question": "Quelle est la position du deuxième voisin ?",
       "options": [
         "Il est opposé à la fermeture de la rue",
-        "Il n'est pas opposé au principe, mais veut être consulté sur les modalités",
         "Il estime que les enfants ne devraient pas aller à pied à l'école",
+        "Il n'est pas opposé au principe, mais veut être consulté sur les modalités",
         "Il pense que le journal communal s'est trompé"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -421,15 +421,15 @@
       "transcript": "Bonjour Monsieur Baumann, ici la régie. Comme vous quittez l'appartement à la fin du mois, nous aimerions le faire visiter à de nouveaux intéressés. Nous pensions à mercredi soir, vers 18h. Deux personnes viendraient le voir. Est-ce que cela vous convient ? Vous n'avez rien de spécial à préparer, nous ne resterons pas longtemps. Merci de nous rappeler pour confirmer. Bonne journée.",
       "question": "Pourquoi la régie appelle-t-elle ?",
       "options": [
-        "Pour faire visiter l'appartement à de nouveaux intéressés",
         "Pour augmenter le loyer",
         "Pour annoncer des travaux",
+        "Pour faire visiter l'appartement à de nouveaux intéressés",
         "Pour résilier le bail de Monsieur Baumann"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -447,15 +447,15 @@
       "transcript": "— Dis, on travaille tous les deux à la zone industrielle. On pourrait faire du covoiturage, non ?\n— Bonne idée, ça fait des économies d'essence. Tu commences à quelle heure ?\n— À sept heures. Je pourrais passer te prendre à sept heures moins le quart.\n— Parfait. Et pour conduire, on alterne ?\n— Oui, une semaine sur deux. Cette semaine je conduis, la prochaine c'est toi.\n— D'accord, alors à demain, sept heures moins le quart.",
       "question": "Qu'est-ce que les deux personnes décident ?",
       "options": [
-        "Faire du covoiturage et alterner qui conduit chaque semaine",
         "Que l'un conduit toujours seul",
         "De ne faire du covoiturage que cette semaine",
+        "Faire du covoiturage et alterner qui conduit chaque semaine",
         "De prendre le bus tous les jours"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -473,15 +473,15 @@
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, chez moi internet ne fonctionne plus depuis hier soir.\n— Je suis désolé. Avez-vous déjà éteint et rallumé le routeur ?\n— Oui, deux fois. Ça ne change rien.\n— Alors cela vient peut-être de la ligne. Je vous envoie un technicien. Jeudi entre 8h et 12h, est-ce que cela vous convient ?\n— Jeudi matin, d'accord. Est-ce que la visite coûte quelque chose ?\n— Si la panne vient de chez nous, c'est gratuit. Vous recevrez un SMS avant.\n— Très bien, merci.",
       "question": "Que fait le collaborateur ?",
       "options": [
-        "Il envoie un technicien jeudi matin",
         "Il dit d'acheter un nouveau routeur",
+        "Il envoie un technicien jeudi matin",
         "Il ne peut pas aider",
         "Il passe lui-même tout de suite"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -499,15 +499,15 @@
       "transcript": "Chères clientes, chers clients, aujourd'hui à notre stand, les fraises sont en action : deux barquettes pour le prix d'une. Et pour trois francs nonante, vous avez un beau bouquet de radis. C'est valable seulement aujourd'hui, jusqu'à midi. Profitez-en, venez nous voir !",
       "question": "Combien coûte le bouquet de radis ?",
       "options": [
-        "Trois francs nonante",
         "Deux francs",
+        "Trois francs nonante",
         "Dix francs",
         "Il est gratuit"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -549,15 +549,15 @@
       "transcript": "— Cabinet du docteur Perret, bonjour.\n— Bonjour, j'ai un rendez-vous demain à 9h, mais mon enfant est malade. Je voudrais le reporter.\n— Bien sûr. Mardi prochain à 11h, cela vous convient ?\n— Mardi 11h, parfait. Dois-je apporter quelque chose ?\n— Apportez la liste de vos médicaments. Et si votre enfant ne va pas mieux d'ici là, appelez plus tôt.\n— Merci, à mardi.",
       "question": "Qu'est-ce qui est décidé à la fin ?",
       "options": [
-        "Un nouveau rendez-vous mardi à 11h",
         "Le rendez-vous de demain à 9h est maintenu",
         "Le rendez-vous est annulé sans nouveau",
-        "La patiente viendra sans rendez-vous"
+        "La patiente viendra sans rendez-vous",
+        "Un nouveau rendez-vous mardi à 11h"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -601,15 +601,15 @@
       "transcript": "— Vous aidez chaque semaine à la maison de quartier. Que faites-vous exactement ?\n— Le mercredi, je cuisine pour des personnes âgées qui vivent seules. On mange ensemble et on discute.\n— Et pourquoi faites-vous cela ?\n— Quand je suis arrivée ici, quelqu'un m'a aidée aussi. Maintenant, je rends un peu. Ça me fait plaisir et je rencontre beaucoup de gens.\n— Faut-il une formation ?\n— Non, il faut être fiable et aimer le contact. De nouveaux bénévoles sont toujours les bienvenus.",
       "question": "Pourquoi cette personne fait-elle du bénévolat ?",
       "options": [
-        "Elle veut rendre ce qu'on a fait pour elle et aime le contact",
         "Elle gagne beaucoup d'argent",
         "Elle y est obligée",
+        "Elle veut rendre ce qu'on a fait pour elle et aime le contact",
         "Elle cherche un logement"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -729,15 +729,15 @@
       "transcript": "— Le magasin de meubles, bonjour.\n— Bonjour, j'ai commandé hier une étagère, mais je voudrais changer la couleur — du blanc au brun.\n— Pas de problème, si la commande n'est pas encore partie. Votre numéro de commande ?\n— C'est le 4457.\n— Merci… oui, elle est encore là. Je change la couleur en brun. Le prix reste le même. La livraison prend environ une semaine.\n— Très bien, merci beaucoup.",
       "question": "Que change la collaboratrice ?",
       "options": [
-        "La couleur de l'étagère, du blanc au brun",
         "L'adresse de livraison",
+        "La couleur de l'étagère, du blanc au brun",
         "Le prix de la commande",
         "Le numéro de commande"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -805,15 +805,15 @@
       "transcript": "Bienvenue au concert de ce soir. Deux petites informations : merci d'éteindre complètement vos téléphones, pas seulement de les mettre en silencieux. Et pendant le concert, les photos et les vidéos ne sont pas autorisées. À la pause, après environ une heure, vous pourrez boire quelque chose au foyer. Nous vous souhaitons une belle soirée et beaucoup de plaisir avec la musique.",
       "question": "Que doivent faire les spectateurs avec leur téléphone ?",
       "options": [
-        "L'éteindre complètement",
         "Le mettre en silencieux",
+        "L'éteindre complètement",
         "Prendre des photos",
         "Le donner à l'entrée"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -831,15 +831,15 @@
       "transcript": "— Bonjour, je m'appelle Madame Kraft. Nous faisons une courte enquête sur les achats dans le quartier. Avez-vous deux minutes ?\n— Oui, deux minutes ça va.\n— Merci. Faites-vous vos courses surtout dans le quartier ou allez-vous dans un grand centre ?\n— Surtout dans le quartier, c'est pratique et je connais les gens.\n— Et qu'est-ce qui vous manque dans le quartier ?\n— Un bon magasin de légumes. Sinon, je suis contente.\n— Merci beaucoup pour vos réponses !",
       "question": "Qu'est-ce qui manque à cette personne dans le quartier ?",
       "options": [
-        "Un bon magasin de légumes",
         "Un grand centre",
         "Des gens sympathiques",
+        "Un bon magasin de légumes",
         "Rien du tout"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -857,15 +857,15 @@
       "transcript": "— Dis, tu connais un bon électricien ? Chez moi, une prise ne marche plus.\n— Oui, j'en ai eu un l'an dernier. Il était rapide et pas trop cher. Je te donne son numéro.\n— Super, merci. Faut-il attendre longtemps ?\n— Chez moi, il est venu en deux jours. Appelle plutôt le matin.\n— D'accord, merci du conseil.",
       "question": "Que dit la personne au sujet de l'électricien ?",
       "options": [
-        "Il était rapide et pas trop cher",
         "Il était cher et lent",
         "Il ne vient jamais",
+        "Il était rapide et pas trop cher",
         "Il ne travaille que le week-end"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -883,15 +883,15 @@
       "transcript": "Mesdames et Messieurs, en raison d'un incident, notre train a environ quinze minutes de retard. La correspondance à Lausanne pour Sion attend notre train. Les voyageurs pour Fribourg prennent à Lausanne le prochain train, à 16h40. Nous vous prions de nous excuser.",
       "question": "Que doivent faire les voyageurs pour Fribourg ?",
       "options": [
-        "Prendre à Lausanne le prochain train, à 16h40",
         "Leur correspondance attend le train",
         "Descendre à Sion",
+        "Prendre à Lausanne le prochain train, à 16h40",
         "Le train ne roule plus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -959,15 +959,15 @@
       "transcript": "Bonsoir à toutes et à tous. Deux informations rapides : premièrement, dès la semaine prochaine, l'horaire change — le sport sera désormais le lundi au lieu du vendredi. Pensez aux affaires de sport le lundi. Deuxièmement, à la fin du mois, nous ferons une sortie ; les enfants apporteront pour cela vingt francs pour l'entrée. Je vous dirai encore le jour exact. Pour vos questions, venez me voir après la réunion.",
       "question": "Qu'est-ce qui change dès la semaine prochaine ?",
       "options": [
-        "Le sport sera le lundi au lieu du vendredi",
         "La sortie est annulée",
+        "Le sport sera le lundi au lieu du vendredi",
         "Les enfants n'ont plus besoin d'affaires de sport",
         "La réunion est reportée"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1011,15 +1011,15 @@
       "transcript": "Bonjour, vous êtes bien au cabinet du docteur Roth. Nous sommes actuellement absents. Nos horaires sont du lundi au vendredi, de 8h à 12h et de 14h à 17h. Merci de rappeler pendant ces heures ou de laisser votre nom et votre numéro, nous vous rappellerons. En cas d'urgence, composez le 144. Merci.",
       "question": "Que faut-il faire en cas d'urgence ?",
       "options": [
-        "Composer le 144",
         "Attendre le rappel",
         "Laisser un message",
+        "Composer le 144",
         "Rappeler lundi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1113,15 +1113,15 @@
       "transcript": "Et encore une information de la commune : dès le premier septembre, une nouvelle ligne de bus, la ligne 8, sera mise en service. Elle relie directement le nouveau quartier au nord avec la gare et l'hôpital. Le bus passe en semaine toutes les quinze minutes, et le week-end toutes les demi-heures. Ainsi, il sera plus facile pour beaucoup de gens d'aller travailler sans voiture.",
       "question": "Qu'est-ce qui est nouveau dès le premier septembre ?",
       "options": [
-        "Une nouvelle ligne de bus entre le quartier, la gare et l'hôpital",
         "Une nouvelle gare",
         "Un nouvel hôpital",
+        "Une nouvelle ligne de bus entre le quartier, la gare et l'hôpital",
         "Qu'il n'y a plus de bus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1139,15 +1139,15 @@
       "transcript": "Chers voyageurs, en raison de travaux, l'arrêt « Église » n'est pas desservi aujourd'hui. Veuillez descendre à l'arrêt suivant, « École », à deux minutes à pied. Les horaires restent les mêmes. Merci de votre compréhension.",
       "question": "Que doivent faire les voyageurs qui veulent descendre à « Église » ?",
       "options": [
-        "Descendre à l'arrêt suivant, « École »",
         "Rester dans le bus jusqu'au terminus",
         "Attendre à l'arrêt « Église »",
+        "Descendre à l'arrêt suivant, « École »",
         "Prendre un autre bus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1189,15 +1189,15 @@
       "transcript": "— Qu'est-ce qu'on fait ce week-end ? Il paraît qu'il fera beau.\n— On pourrait faire une randonnée ou aller au zoo.\n— Avec les enfants, le zoo est peut-être mieux, c'est moins fatigant.\n— D'accord. Alors on va au zoo samedi et on se repose dimanche.\n— Parfait. Je regarde les horaires et je prépare un pique-nique.\n— Super, c'est décidé.",
       "question": "Qu'est-ce que les deux prévoient pour samedi ?",
       "options": [
-        "Aller au zoo avec les enfants",
         "Faire une longue randonnée",
         "Rester à la maison",
-        "Aller faire les courses"
+        "Aller faire les courses",
+        "Aller au zoo avec les enfants"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1241,15 +1241,15 @@
       "transcript": "— Vous vous levez très tôt chaque jour. À quelle heure commence votre journée ?\n— À trois heures du matin. J'allume le four et je commence le pain.\n— C'est vraiment tôt. Qu'est-ce que vous aimez dans votre métier ?\n— Que les gens se réjouissent du pain frais le matin. Et l'odeur dans le fournil, c'est quelque chose de spécial.\n— Et qu'est-ce qui est difficile ?\n— Les heures très matinales et le travail le week-end. Mais je le fais volontiers.",
       "question": "Qu'est-ce que le boulanger aime dans son métier ?",
       "options": [
-        "Que les gens se réjouissent du pain frais",
         "Qu'il peut dormir longtemps",
         "Qu'il a congé le week-end",
-        "Qu'il travaille peu"
+        "Qu'il travaille peu",
+        "Que les gens se réjouissent du pain frais"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1267,15 +1267,15 @@
       "transcript": "Information pour les voyageurs à destination de Genève : le train de 14h20 ne part pas de la voie 3, mais de la voie 7. Nous répétons : le train pour Genève part de la voie 7. Merci de suivre les affichages.",
       "question": "De quelle voie part le train pour Genève ?",
       "options": [
-        "De la voie 7",
         "De la voie 3",
         "De la voie 14",
+        "De la voie 7",
         "Le train est supprimé"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1317,15 +1317,15 @@
       "transcript": "Bonjour Madame Yilmaz, c'est le cabinet du docteur Meier. Vos analyses sont arrivées et tout est normal. Vous n'avez rien de particulier à faire et il n'est pas nécessaire de reprendre rendez-vous. Si vous avez malgré tout des questions, appelez-nous. Bonne journée.",
       "question": "Que doit faire Madame Yilmaz ?",
       "options": [
-        "Rien de particulier ; pas besoin de reprendre rendez-vous",
         "Reprendre rendez-vous tout de suite",
+        "Rien de particulier ; pas besoin de reprendre rendez-vous",
         "Refaire des analyses",
         "Aller à l'hôpital"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1369,15 +1369,15 @@
       "transcript": "— Garage du centre, bonjour.\n— Bonjour, ma voiture fait un bruit bizarre au freinage. Je voudrais la faire vérifier.\n— D'accord. Vous pouvez l'amener jeudi matin ? On regarde ça et on vous appelle avant de faire quoi que ce soit.\n— Jeudi matin, ça va. Ça prend combien de temps ?\n— Si ce sont les freins, on peut souvent faire dans la journée. On vous donne un devis avant.\n— Parfait, merci. À jeudi.",
       "question": "Que propose le garage ?",
       "options": [
-        "Vérifier la voiture jeudi matin et donner un devis avant de réparer",
         "Réparer tout de suite sans prévenir",
+        "Vérifier la voiture jeudi matin et donner un devis avant de réparer",
         "Vendre une nouvelle voiture",
         "Refuser le rendez-vous"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1445,15 +1445,15 @@
       "transcript": "— Dis, comme tu es mariée à un Suisse, tu dois aussi déposer ta demande à la commune, comme moi ?\n— Non, pour toi c'est sûrement différent. Quand on est marié à une personne suisse, il y a la naturalisation facilitée. Là, c'est la Confédération, le SEM, qui décide, et la demande se dépose directement au SEM.\n— Ah, donc pas à la commune ?\n— Exactement, pas comme pour la naturalisation ordinaire. Mais renseigne-toi quand même sur les conditions qui s'appliquent à toi. Et il te faut aussi une attestation de langue.\n— D'accord, merci pour le conseil.",
       "question": "Que conseille la deuxième personne ?",
       "options": [
-        "Pour la naturalisation facilitée, on dépose la demande au SEM, pas à la commune",
         "Même mariée, on dépose la demande à la commune",
         "Les personnes mariées n'ont pas besoin d'attestation de langue",
-        "On ne peut pas se faire naturaliser"
+        "On ne peut pas se faire naturaliser",
+        "Pour la naturalisation facilitée, on dépose la demande au SEM, pas à la commune"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1497,15 +1497,15 @@
       "transcript": "Et voici une bonne nouvelle de la région : la piscine couverte de Neuville a rouvert après les travaux. Il y a maintenant un plus grand bassin et un espace pour les enfants. Elle est ouverte tous les jours de 8h à 21h, mais le lundi seulement dès midi. Le prix d'entrée reste le même. Le premier week-end, l'entrée est gratuite pour les enfants.",
       "question": "Qu'est-ce qui est nouveau à la piscine ?",
       "options": [
-        "Un plus grand bassin et un espace pour les enfants",
         "Elle est plus chère",
+        "Un plus grand bassin et un espace pour les enfants",
         "Elle n'ouvre que le week-end",
         "Elle est fermée pour toujours"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1523,15 +1523,15 @@
       "transcript": "— Régie, bonjour.\n— Bonjour, il y a une fuite d'eau sous mon évier, ça coule sur le sol.\n— D'accord. Avez-vous pu couper l'eau sous l'évier ?\n— Oui, j'ai fermé le robinet.\n— Très bien. J'envoie un plombier aujourd'hui. En attendant, mettez un seau et une serpillière. Il vous appelle avant de passer.\n— Merci beaucoup.",
       "question": "Que va faire la régie ?",
       "options": [
-        "Envoyer un plombier aujourd'hui",
         "Dire à la personne de réparer elle-même",
         "Ne rien faire avant la semaine prochaine",
+        "Envoyer un plombier aujourd'hui",
         "Couper l'eau de tout l'immeuble"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1575,15 +1575,15 @@
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, j'ai commandé un colis il y a une semaine et je ne l'ai toujours pas reçu.\n— Je suis désolé. Avez-vous votre numéro de commande ?\n— Oui, c'est le 3391.\n— Merci… je vois que le colis est bloqué au dépôt. Je le relance aujourd'hui ; vous devriez le recevoir dans deux jours. Je vous envoie une confirmation par courriel.\n— Parfait, merci.",
       "question": "Que fait le collaborateur ?",
       "options": [
-        "Il relance le colis et envoie une confirmation",
         "Il dit que le colis est perdu",
         "Il demande de repayer",
-        "Il ne peut rien faire"
+        "Il ne peut rien faire",
+        "Il relance le colis et envoie une confirmation"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1601,15 +1601,15 @@
       "transcript": "— Vous habitez ce quartier depuis longtemps. Qu'est-ce que vous aimez ici ?\n— J'aime que tout soit proche : l'école, les magasins, le parc. Et on connaît ses voisins.\n— Et qu'est-ce qui pourrait être mieux ?\n— Il manque un peu de verdure et des bancs. Mais dans l'ensemble, je me sens bien ici.\n— Merci pour votre témoignage.",
       "question": "Qu'est-ce que cet habitant aime dans son quartier ?",
       "options": [
-        "Que tout soit proche et qu'on connaisse ses voisins",
         "Qu'il y ait beaucoup de circulation",
+        "Que tout soit proche et qu'on connaisse ses voisins",
         "Qu'il n'y ait pas d'école",
         "Qu'il soit loin de tout"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1653,15 +1653,15 @@
       "transcript": "— Mon fils voudrait jouer au foot. Tu connais le club du quartier ?\n— Oui, mon fils y va. Les entraînements sont le mercredi après-midi.\n— Il faut s'inscrire comment ?\n— Il y a un formulaire sur le site du club, ou tu peux passer à l'entraînement et parler à l'entraîneur. Il y a aussi un essai gratuit.\n— Super, on va faire l'essai d'abord.\n— Bonne idée.",
       "question": "Que vont faire les deux d'abord ?",
       "options": [
-        "Faire l'essai gratuit à l'entraînement",
         "Payer tout de suite l'année",
         "Chercher un club dans une autre ville",
+        "Faire l'essai gratuit à l'entraînement",
         "Renoncer au foot"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1679,15 +1679,15 @@
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, je voudrais résilier mon abonnement de journal.\n— C'est dommage. Puis-je vous demander pourquoi ?\n— Je n'ai plus le temps de lire.\n— Je comprends. Le délai de résiliation est d'un mois. Votre abonnement se termine donc à la fin du mois prochain. Je vous envoie une confirmation par courriel.\n— Très bien, merci.",
       "question": "Que dit le collaborateur au sujet de la résiliation ?",
       "options": [
-        "Le délai est d'un mois ; l'abonnement se termine ensuite",
         "L'abonnement se termine aujourd'hui",
         "On ne peut pas résilier",
-        "Il faut payer un supplément pour résilier"
+        "Il faut payer un supplément pour résilier",
+        "Le délai est d'un mois ; l'abonnement se termine ensuite"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1705,15 +1705,15 @@
       "transcript": "Mesdames et Messieurs, prochain arrêt : Morges. Les voyageurs pour Nyon changent ici ; le train pour Nyon part de la voie 2, en face. Le wagon-restaurant se trouve au milieu du train. Nous vous souhaitons un bon voyage.",
       "question": "Que doivent faire les voyageurs pour Nyon à Morges ?",
       "options": [
-        "Changer de train ; le train pour Nyon part de la voie 2",
         "Rester dans le train",
         "Aller au wagon-restaurant",
-        "Descendre et rester à Morges"
+        "Descendre et rester à Morges",
+        "Changer de train ; le train pour Nyon part de la voie 2"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1755,15 +1755,15 @@
       "transcript": "Chers visiteurs, la piscine ferme dans vingt minutes. Merci de sortir de l'eau dans dix minutes et de vous diriger ensuite vers les vestiaires. Pensez à vos affaires dans les casiers. Demain, nous vous accueillons dès 8h. Bonne soirée.",
       "question": "Que doivent faire les visiteurs dans dix minutes ?",
       "options": [
-        "Sortir de l'eau",
         "Entrer dans l'eau",
         "Payer l'entrée",
-        "Rentrer chez eux tout de suite"
+        "Rentrer chez eux tout de suite",
+        "Sortir de l'eau"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1781,15 +1781,15 @@
       "transcript": "Bonjour Madame Costa, ici le cabinet dentaire du centre. Nous vous rappelons votre rendez-vous demain, mercredi, à 9h30. Merci d'arriver cinq minutes en avance et d'apporter votre carte d'assuré. Si vous ne pouvez pas venir, prévenez-nous aujourd'hui. À demain.",
       "question": "Que doit apporter Madame Costa au rendez-vous ?",
       "options": [
-        "Sa carte d'assuré",
         "Une ordonnance",
         "Un formulaire",
-        "Rien"
+        "Rien",
+        "Sa carte d'assuré"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1831,15 +1831,15 @@
       "transcript": "Bonjour. Vous demandez comment prouver votre français pour la naturalisation. D'abord, une chose importante : l'entretien, s'il y en a un dans notre commune, n'est pas un test de langue. L'attestation de langue, vous l'apportez séparément, par exemple un certificat reconnu. On demande au moins B1 à l'oral et A2 à l'écrit. Quels certificats sont acceptés exactement, ce n'est pas nous, à l'accueil, qui le décidons : c'est le service compétent de votre canton ou de votre commune. Renseignez-vous donc là-bas, suffisamment tôt.",
       "question": "Que dit la personne au sujet des certificats acceptés ?",
       "options": [
-        "C'est le service compétent qui décide, pas l'accueil",
         "L'entretien est le test de langue",
         "On n'a pas besoin d'attestation de langue",
-        "L'accueil décide de tout"
+        "L'accueil décide de tout",
+        "C'est le service compétent qui décide, pas l'accueil"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1857,15 +1857,15 @@
       "transcript": "— Bonjour, ici l'entreprise de livraison. Nous vous apportons votre armoire demain matin.\n— Ah, demain matin je travaille. Ce serait possible un autre jour ?\n— Vendredi après-midi, entre 14h et 17h, cela vous irait ?\n— Vendredi après-midi, parfait.\n— Très bien, je note. Vous recevrez un message avec l'heure exacte.\n— Merci beaucoup.",
       "question": "Quand l'armoire sera-t-elle livrée ?",
       "options": [
-        "Vendredi après-midi, entre 14h et 17h",
         "Demain matin",
+        "Vendredi après-midi, entre 14h et 17h",
         "Demain après-midi",
         "Ce soir"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1883,15 +1883,15 @@
       "transcript": "— On travaille tous les deux à l'hôpital. On pourrait partager la voiture ?\n— Bonne idée, ça coûte moins cher. Tu commences à quelle heure ?\n— À sept heures. Je pourrais passer te prendre à sept heures moins le quart.\n— Parfait. On alterne qui conduit ?\n— Oui, une semaine sur deux.\n— D'accord, à demain.",
       "question": "Que décident les deux personnes ?",
       "options": [
-        "Partager la voiture et alterner qui conduit",
         "Que l'un conduit toujours seul",
         "De prendre le train",
+        "Partager la voiture et alterner qui conduit",
         "De ne rien changer"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1935,15 +1935,15 @@
       "transcript": "— Peinture, bonjour.\n— Bonjour, je voudrais faire repeindre mon salon et j'aimerais un devis.\n— Volontiers. Quelle est la taille de la pièce ?\n— Environ vingt mètres carrés, avec un mur haut.\n— Le mieux, c'est que je passe voir, puis je vous donne un prix précis. Jeudi à 17h, ça vous va ?\n— Oui. Le devis coûte quelque chose ?\n— Non, le devis est gratuit et sans engagement.\n— Parfait, à jeudi.",
       "question": "Que fait le peintre avant de donner un prix ?",
       "options": [
-        "Il passe voir la pièce jeudi",
         "Il commence tout de suite",
         "Il envoie une facture",
-        "Il refuse le rendez-vous"
+        "Il refuse le rendez-vous",
+        "Il passe voir la pièce jeudi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1987,15 +1987,15 @@
       "transcript": "— Qu'est-ce qu'on propose aux enfants cet automne ?\n— Il y a le foot, mais aussi un cours de musique au centre.\n— La musique, ça pourrait plaire à Nora. C'est quand ?\n— Le mercredi après-midi. Et on peut essayer une fois avant de s'inscrire.\n— Super, on fait l'essai d'abord.\n— D'accord, je regarde comment s'inscrire à l'essai.",
       "question": "Que décident les parents ?",
       "options": [
-        "Faire un essai du cours de musique avant de s'inscrire",
         "Inscrire l'enfant au foot tout de suite",
+        "Faire un essai du cours de musique avant de s'inscrire",
         "Ne rien faire cet automne",
         "Changer d'école"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2013,15 +2013,15 @@
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, sur ma facture, il y a un montant que je ne comprends pas. On me facture un service que je n'ai pas commandé.\n— Je regarde. Votre numéro de client ?\n— C'est le 8842.\n— Merci… en effet, il y a une erreur. Je la corrige et je vous envoie une nouvelle facture. Vous n'avez rien à payer pour ce service.\n— Merci beaucoup.",
       "question": "Que fait le collaborateur ?",
       "options": [
-        "Il corrige l'erreur et envoie une nouvelle facture",
         "Il dit que la facture est juste",
+        "Il corrige l'erreur et envoie une nouvelle facture",
         "Il demande de payer quand même",
         "Il ne peut pas aider"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2091,15 +2091,15 @@
       "transcript": "Chères clientes, chers clients, à notre stand aujourd'hui, les pommes du pays sont en action : le kilo à deux francs cinquante. Et pour ceux qui aiment, nous avons aussi des poires bien mûres. C'est valable seulement aujourd'hui. Venez nous voir !",
       "question": "Combien coûte le kilo de pommes, selon l'annonce ?",
       "options": [
-        "Deux francs cinquante",
         "Dix francs",
         "C'est gratuit",
+        "Deux francs cinquante",
         "Cinq francs"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2243,15 +2243,15 @@
       "transcript": "— Déménagements, bonjour.\n— Bonjour, je déménage le mois prochain et j'aimerais un devis.\n— Volontiers. C'est un appartement de combien de pièces ?\n— Trois pièces, au deuxième étage sans ascenseur.\n— Le mieux, c'est que je passe voir le volume, puis je vous fais un prix. Mardi à 18h, ça vous va ?\n— Oui. Le devis est payant ?\n— Non, le devis est gratuit et sans engagement.\n— Parfait, à mardi.",
       "question": "Que fait le déménageur avant de donner un prix ?",
       "options": [
-        "Il passe voir le volume mardi",
         "Il commence tout de suite le déménagement",
         "Il envoie une facture",
+        "Il passe voir le volume mardi",
         "Il refuse le rendez-vous"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2269,15 +2269,15 @@
       "transcript": "— On organise l'anniversaire de Maya samedi. Qu'est-ce qu'on prépare ?\n— Je peux faire le gâteau. Toi, tu t'occupes des décorations ?\n— D'accord. Et pour les jeux, on demande à Sofia, elle est douée pour ça.\n— Bonne idée. On invite combien d'enfants ?\n— Une dizaine. Je fais la liste et j'envoie les invitations aujourd'hui.\n— Parfait, comme ça c'est réglé.",
       "question": "Comment les deux se répartissent-ils les tâches ?",
       "options": [
-        "L'un fait le gâteau, l'autre les décorations, et Sofia s'occupe des jeux",
         "Une seule personne fait tout",
+        "L'un fait le gâteau, l'autre les décorations, et Sofia s'occupe des jeux",
         "Ils annulent la fête",
         "Ils commandent tout"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2321,15 +2321,15 @@
       "transcript": "— École de langues, bonjour.\n— Bonjour, je suis inscrit au cours d'italien du lundi, mais je ne peux pas venir cette semaine. Puis-je rattraper ?\n— Bien sûr. Il y a un autre groupe le mercredi soir, au même niveau. Vous pouvez y aller cette semaine.\n— Mercredi soir, parfait. Je dois prévenir quelqu'un ?\n— Non, je note juste que vous venez mercredi. Bonne journée.\n— Merci beaucoup.",
       "question": "Que propose l'école ?",
       "options": [
-        "Rattraper le cours dans l'autre groupe du mercredi soir",
         "Rembourser le cours",
         "Annuler l'inscription",
-        "Recommencer depuis le début"
+        "Recommencer depuis le début",
+        "Rattraper le cours dans l'autre groupe du mercredi soir"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2373,15 +2373,15 @@
       "transcript": "— On part où cet été ? La mer ou la montagne ?\n— Avec les enfants, la montagne serait plus simple : moins de monde et de la place pour jouer.\n— C'est vrai. Et il y a des sentiers faciles.\n— On loue un chalet une semaine ?\n— D'accord. Je regarde les prix ce soir et je te montre.\n— Parfait, comme ça on décide demain.",
       "question": "Que décident les deux personnes pour cet été ?",
       "options": [
-        "Aller à la montagne, sans doute louer un chalet",
         "Aller à la mer",
         "Rester à la maison",
-        "Partir tout de suite"
+        "Partir tout de suite",
+        "Aller à la montagne, sans doute louer un chalet"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2425,15 +2425,15 @@
       "transcript": "Bonjour, c'est le bureau. Petit changement : la réunion de demain est avancée d'une heure. Au lieu de 10h, elle commence à 9h, dans la salle habituelle. Merci d'en tenir compte et de prévenir vos collègues si vous les voyez. Bonne journée.",
       "question": "Qu'est-ce qui change pour la réunion de demain ?",
       "options": [
-        "Elle commence à 9h au lieu de 10h",
         "Elle est annulée",
         "Elle change de salle",
-        "Elle dure deux jours"
+        "Elle dure deux jours",
+        "Elle commence à 9h au lieu de 10h"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2451,15 +2451,15 @@
       "transcript": "— On a besoin d'une baby-sitter pour vendredi soir. Tu connais quelqu'un ?\n— Oui, la fille des voisins garde souvent des enfants. Elle est sérieuse.\n— Super. Tu as son numéro ?\n— Je te l'envoie. Appelle-la assez tôt, elle est souvent prise le week-end.\n— D'accord, je l'appelle ce soir. Merci !\n— De rien.",
       "question": "Que conseille l'amie ?",
       "options": [
-        "Appeler assez tôt la fille des voisins, qui garde des enfants",
         "De ne pas sortir vendredi",
+        "Appeler assez tôt la fille des voisins, qui garde des enfants",
         "De laisser les enfants seuls",
         "De chercher dans une autre ville"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2503,15 +2503,15 @@
       "transcript": "Bonjour, ici l'école. Jeudi, la classe va au musée. Le départ est à 8h30 depuis l'école. Merci de donner à votre enfant un pique-nique et de l'habiller selon la météo. L'entrée est payée par l'école. Retour vers 16h. Bonne journée.",
       "question": "Que doivent donner les parents à leur enfant pour la sortie ?",
       "options": [
-        "Un pique-nique",
         "De l'argent pour l'entrée",
         "Un billet de bus",
+        "Un pique-nique",
         "Rien"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2529,15 +2529,15 @@
       "transcript": "Terminus : Place de la Gare. Merci de descendre, ce bus ne va pas plus loin. Le prochain bus pour le centre part dans dix minutes, du même arrêt. N'oubliez rien dans le bus. Bonne journée.",
       "question": "Que doivent faire les voyageurs ?",
       "options": [
-        "Descendre, car le bus ne va pas plus loin",
         "Rester dans le bus",
         "Aller à pied jusqu'au centre",
-        "Acheter un billet"
+        "Acheter un billet",
+        "Descendre, car le bus ne va pas plus loin"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2603,15 +2603,15 @@
       "transcript": "Bonjour. Vous demandez pour le subside à l'assurance maladie. Alors : ce n'est pas la caisse maladie qui s'en occupe, c'est votre canton. Le droit et le montant dépendent de votre revenu, et les règles ne sont pas les mêmes d'un canton à l'autre. La demande, vous la déposez auprès du service cantonal compétent. Dans certains cantons, vous recevez un formulaire automatiquement ; dans d'autres, vous devez vous annoncer. Renseignez-vous directement auprès de votre canton pour savoir ce qui s'applique chez vous.",
       "question": "Qui s'occupe du subside, selon le renseignement ?",
       "options": [
-        "Le canton, pas la caisse maladie",
         "La caisse maladie",
         "La commune seule",
+        "Le canton, pas la caisse maladie",
         "L'employeur"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2655,15 +2655,15 @@
       "transcript": "— Nos enfants vont à la même école. On pourrait s'organiser pour les emmener ?\n— Bonne idée. Toi le matin, moi le soir ?\n— Ça me va. Le matin, je pars à 7h50.\n— Parfait. Et si l'un ne peut pas, on se prévient la veille.\n— D'accord. On essaie une semaine et on voit.\n— Très bien.",
       "question": "Comment les deux parents s'organisent-ils ?",
       "options": [
-        "L'un emmène le matin, l'autre ramène le soir",
         "Un seul parent fait tout",
         "Les enfants vont seuls",
-        "Ils prennent un taxi"
+        "Ils prennent un taxi",
+        "L'un emmène le matin, l'autre ramène le soir"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2681,15 +2681,15 @@
       "transcript": "— Vous donnez des cours de natation aux enfants. Qu'est-ce qui vous plaît ?\n— J'aime voir les enfants perdre leur peur de l'eau et progresser. Quand ils réussissent, ils sont fiers.\n— Et qu'est-ce qui est important dans ce métier ?\n— La patience et la sécurité. On garde toujours un œil sur tout le monde.\n— Merci pour cet entretien.",
       "question": "Qu'est-ce qui plaît à la monitrice dans son travail ?",
       "options": [
-        "Voir les enfants perdre leur peur de l'eau et progresser",
         "Rester au bureau",
         "Travailler seule la nuit",
-        "Ne pas voir d'enfants"
+        "Ne pas voir d'enfants",
+        "Voir les enfants perdre leur peur de l'eau et progresser"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2707,15 +2707,15 @@
       "transcript": "— Bonjour, c'est au sujet de notre réunion de jeudi. Malheureusement, je ne peux pas ce jour-là.\n— Pas de problème. On peut la faire vendredi à la même heure ?\n— Vendredi, ça m'arrange. À 14h alors ?\n— Oui, 14h vendredi. J'informe les autres.\n— Parfait, merci beaucoup.\n— À vendredi.",
       "question": "Quand aura lieu la réunion ?",
       "options": [
-        "Vendredi à 14h",
         "Jeudi comme prévu",
         "Elle est annulée",
+        "Vendredi à 14h",
         "Lundi matin"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2733,15 +2733,15 @@
       "transcript": "Bonjour, ici le secrétariat de l'école. Pour la sortie de votre enfant la semaine prochaine, il nous manque le formulaire d'autorisation signé. Merci de le rapporter signé d'ici mercredi, sinon votre enfant ne pourra pas participer. Vous pouvez aussi nous l'envoyer par courriel. Bonne journée.",
       "question": "Que doivent faire les parents, selon le message ?",
       "options": [
-        "Rapporter ou envoyer le formulaire signé d'ici mercredi",
         "Payer la sortie",
         "Reprendre rendez-vous",
-        "Rien"
+        "Rien",
+        "Rapporter ou envoyer le formulaire signé d'ici mercredi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2785,15 +2785,15 @@
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, ma commande devait arriver mardi et on est jeudi, je n'ai rien reçu.\n— Je suis désolé. Votre numéro de commande ?\n— C'est le 7203.\n— Merci… je vois qu'il y a eu un retard au dépôt. Votre colis part aujourd'hui, livraison demain. Je vous envoie un suivi par courriel.\n— D'accord, merci.",
       "question": "Que fait le collaborateur ?",
       "options": [
-        "Il fait partir le colis et envoie un suivi",
         "Il annule la commande",
         "Il demande de repayer",
-        "Il ne peut rien faire"
+        "Il ne peut rien faire",
+        "Il fait partir le colis et envoie un suivi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2811,15 +2811,15 @@
       "transcript": "Bonjour à tous, c'est le trésorier du club. Petit rappel : la cotisation annuelle est à payer d'ici la fin du mois. Vous avez reçu le bulletin par courrier. Si vous avez une question ou une difficulté, appelez-moi, on trouve toujours une solution. Merci et bonne journée.",
       "question": "Que rappelle le trésorier ?",
       "options": [
-        "Payer la cotisation annuelle d'ici la fin du mois",
         "Que le club ferme",
         "Qu'il faut acheter du matériel",
-        "Qu'il y a un match"
+        "Qu'il y a un match",
+        "Payer la cotisation annuelle d'ici la fin du mois"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2837,15 +2837,15 @@
       "transcript": "— On part le week-end. Tu pourrais t'occuper de notre chat ?\n— Bien sûr. Il faut faire quoi ?\n— Juste lui donner à manger une fois par jour et changer l'eau. La litière, une fois suffit.\n— D'accord. Et vous, vous garderez mon lapin quand je partirai ?\n— Avec plaisir, quand tu veux.\n— Super, merci !",
       "question": "Qu'est-ce qui est convenu ?",
       "options": [
-        "Chacun gardera l'animal de l'autre quand il part",
         "Personne ne garde les animaux",
+        "Chacun gardera l'animal de l'autre quand il part",
         "Ils emmènent les animaux",
         "Ils donnent les animaux"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2863,15 +2863,15 @@
       "transcript": "Chères clientes, chers clients, à notre stand aujourd'hui, les tomates du pays sont mûres et bon marché : le kilo à trois francs. Nous avons aussi des courgettes et des salades fraîches. C'est valable seulement aujourd'hui. Venez nous voir !",
       "question": "Combien coûte le kilo de tomates, selon l'annonce ?",
       "options": [
-        "Trois francs",
         "Dix francs",
         "C'est gratuit",
-        "Six francs"
+        "Six francs",
+        "Trois francs"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2889,15 +2889,15 @@
       "transcript": "Bonjour, ici l'école. Nous vous invitons à une réunion d'information pour les parents, jeudi prochain à 19h, dans la salle de gym. Nous parlerons de l'année scolaire et de la nouvelle organisation. Merci de venir si possible. Si vous avez besoin d'une traduction, dites-le-nous. Bonne journée.",
       "question": "Où a lieu la réunion d'information, selon le message ?",
       "options": [
-        "Dans la salle de gym, jeudi à 19h",
         "À la maison de quartier",
+        "Dans la salle de gym, jeudi à 19h",
         "Au parc",
         "Le message ne le dit pas"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2915,15 +2915,15 @@
       "transcript": "Information pour les voyageurs à destination de Fribourg : le train de 15h10 part exceptionnellement du quai 4, et non du quai 1. Nous répétons : le train pour Fribourg part du quai 4. Merci de votre attention.",
       "question": "De quel quai part le train pour Fribourg ?",
       "options": [
-        "Du quai 4",
         "Du quai 1",
+        "Du quai 4",
         "Du quai 15",
         "Le train est supprimé"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2989,15 +2989,15 @@
       "transcript": "Bonjour. Vous demandez comment se passe l'entretien pour la naturalisation ordinaire. Alors : c'est la commune qui l'organise, et le contenu peut être un peu différent d'une commune à l'autre. En général, on parle de votre vie ici, de votre quotidien et de vos connaissances de base sur la vie en Suisse. La commune et le canton examinent votre demande ; c'est ensuite la Confédération qui donne l'autorisation fédérale. Le mieux, c'est de demander à votre commune comment cela se passe exactement chez vous.",
       "question": "Qui organise l'entretien de naturalisation, selon le renseignement ?",
       "options": [
-        "La commune",
         "L'employeur",
+        "La commune",
         "La caisse maladie",
         "Le magasin"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3041,15 +3041,15 @@
       "transcript": "— On organise l'anniversaire de Léa samedi. Tu peux m'aider ?\n— Avec plaisir. Il faut faire quoi ?\n— Moi je m'occupe du gâteau et des boissons. Toi, tu pourrais préparer quelques jeux ?\n— D'accord. Combien d'enfants viennent ?\n— Une dizaine. On commence à 14h.\n— Parfait, je prépare des jeux pour dix enfants.",
       "question": "De quoi s'occupe la deuxième personne ?",
       "options": [
-        "De préparer quelques jeux",
         "Du gâteau",
+        "De préparer quelques jeux",
         "Des boissons",
         "Des invitations"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3067,15 +3067,15 @@
       "transcript": "Bonjour, ici le garage. Votre voiture est prête, le service est terminé et tout est en ordre. Vous pouvez venir la chercher dès aujourd'hui, jusqu'à 18h, ou demain matin. Pensez à apporter un moyen de paiement. Si vous avez une question, rappelez-nous. Bonne journée.",
       "question": "Que doit apporter le client, selon le message ?",
       "options": [
-        "Un moyen de paiement",
         "Une nouvelle voiture",
+        "Un moyen de paiement",
         "Un certificat",
         "Rien"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3093,15 +3093,15 @@
       "transcript": "— Bibliothèque, bonjour.\n— Bonjour, je voudrais savoir combien de temps on peut garder un livre.\n— Trois semaines, et vous pouvez prolonger une fois si personne ne l'a réservé.\n— Et si je le rends en retard ?\n— Il y a une petite amende par jour de retard. Mais vous pouvez prolonger en ligne pour éviter ça.\n— D'accord, merci beaucoup.",
       "question": "Que peut-on faire pour éviter une amende, selon l'appel ?",
       "options": [
-        "Prolonger le prêt en ligne",
         "Ne jamais rendre le livre",
         "Payer à l'avance",
+        "Prolonger le prêt en ligne",
         "Acheter le livre"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3145,15 +3145,15 @@
       "transcript": "Bonjour, ici l'école. Jeudi, la classe ira à la piscine. Merci de préparer un sac avec un maillot, une serviette et un bonnet de bain. Le pique-nique est aussi à prévoir. Nous rentrons vers 16h, comme d'habitude. En cas de question, appelez le secrétariat. Bonne journée.",
       "question": "Que doit préparer l'enfant pour jeudi, selon le message ?",
       "options": [
-        "Un maillot, une serviette et un bonnet de bain",
         "Un vélo",
         "Un livre de lecture",
-        "Rien de spécial"
+        "Rien de spécial",
+        "Un maillot, une serviette et un bonnet de bain"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },

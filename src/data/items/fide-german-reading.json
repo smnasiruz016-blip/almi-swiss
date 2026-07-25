@@ -13,15 +13,15 @@
       "passage": "Liebe Nachbarinnen und Nachbarn\n\nAm Samstag, 12. April, reinigen wir gemeinsam den Innenhof. Wir treffen uns um 9.00 Uhr beim Veloständer. Bitte bringen Sie Handschuhe mit. Für Kaffee und Brot ist gesorgt.\n\nDie Hausverwaltung",
       "question": "Was sollen die Bewohnerinnen und Bewohner mitbringen?",
       "options": [
-        "Handschuhe",
         "Kaffee und Brot",
+        "Handschuhe",
         "Ein Velo",
         "Einen Besen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -39,15 +39,15 @@
       "passage": "Einwohnerdienste — Schalteröffnungszeiten\n\nMontag bis Mittwoch: 8.00–11.30 und 14.00–16.30\nDonnerstag: 8.00–11.30 und 14.00–18.30\nFreitag: 8.00–14.00 durchgehend\nSamstag und Sonntag: geschlossen\n\nAusserhalb der Schalterzeiten erreichen Sie uns per E-Mail.",
       "question": "Frau Ayad kann erst nach 17.00 Uhr zum Schalter kommen. An welchem Tag ist das möglich?",
       "options": [
-        "Am Montag",
         "Am Donnerstag",
+        "Am Montag",
         "Am Freitag",
         "Am Samstag"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -89,15 +89,15 @@
       "passage": "Guten Morgen Herr Osei\n\nLeo hat Fieber (38.9°). Bitte holen Sie ihn heute Vormittag ab. Wenn Sie nicht können, rufen Sie uns bitte an, damit wir eine andere Lösung suchen.\n\nFreundliche Grüsse\nKrippe Sonnenblume",
       "question": "Was soll Herr Osei tun, wenn er Leo nicht abholen kann?",
       "options": [
-        "Am Nachmittag kommen",
         "Bei der Krippe anrufen",
+        "Am Nachmittag kommen",
         "Einen Arzt suchen",
         "Eine SMS an Leo schreiben"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -165,14 +165,14 @@
       "question": "Warum muss Frau Kovač einen Teil der Rechnung selbst bezahlen?",
       "options": [
         "Weil die Behandlung nicht versichert ist",
-        "Weil sie ihre Franchise noch nicht erreicht hat",
         "Weil sie die Rechnung zu spät eingereicht hat",
+        "Weil sie ihre Franchise noch nicht erreicht hat",
         "Weil die Notfallstation nicht anerkannt ist"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -192,13 +192,13 @@
       "options": [
         "Das ist erlaubt, weil es am Nachmittag ist",
         "Das ist nur bis 22.00 Uhr erlaubt",
-        "Das ist nicht erlaubt, weil sonntags ganztags Ruhe gilt",
-        "Das muss er zuerst im Waschplan eintragen"
+        "Das muss er zuerst im Waschplan eintragen",
+        "Das ist nicht erlaubt, weil sonntags ganztags Ruhe gilt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 2
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -227,8 +227,8 @@
         {
           "id": 2,
           "options": [
-            "mit",
             "nach",
+            "mit",
             "ohne",
             "gegen"
           ]
@@ -237,8 +237,8 @@
           "id": 3,
           "options": [
             "anmelden",
-            "abmelden",
             "aufschreiben",
+            "abmelden",
             "ausruhen"
           ]
         }
@@ -253,11 +253,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 1
+          "index": 2
         }
       ]
     },
@@ -333,15 +333,15 @@
       "passage": "Deutsch am Mittwoch — Konversationsgruppe\n\nJeden Mittwoch von 14.00 bis 15.30 Uhr treffen wir uns im Quartiertreff und sprechen Deutsch. Wir üben Situationen aus dem Alltag: beim Arzt, auf der Gemeinde, am Elternabend.\n\nDie Gruppe ist kostenlos. Eine Anmeldung ist nicht nötig — kommen Sie einfach vorbei. Kinderbetreuung ist vorhanden.\n\nWichtig: Wir sprechen Standarddeutsch, damit alle mitmachen können.",
       "question": "Was ist an dieser Gruppe besonders?",
       "options": [
+        "Es wird Standarddeutsch und nicht Dialekt gesprochen",
         "Man muss sich vorher anmelden",
         "Man bezahlt einen kleinen Beitrag",
-        "Es wird Standarddeutsch und nicht Dialekt gesprochen",
         "Sie findet nur für Eltern statt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 2
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -387,10 +387,10 @@
         {
           "id": 1,
           "options": [
-            "beträgt",
             "bekommt",
             "gehört",
-            "bedeutet"
+            "bedeutet",
+            "beträgt"
           ]
         },
         {
@@ -405,8 +405,8 @@
         {
           "id": 3,
           "options": [
-            "auf",
             "für",
+            "auf",
             "an",
             "über"
           ]
@@ -418,7 +418,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 3
         },
         {
           "id": 2,
@@ -426,7 +426,7 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -522,15 +522,15 @@
       "passage": "Reparatur-Treff im Gemeindesaal\n\nSamstag, 8. März, 13.00 bis 17.00 Uhr\n\nBringen Sie kaputte Geräte, Kleider oder Velos mit. Freiwillige helfen Ihnen beim Reparieren. Sie reparieren selbst mit — wir machen es nicht für Sie. Der Eintritt ist frei; Ersatzteile bezahlen Sie selbst.\n\nEine Anmeldung ist nicht nötig.",
       "question": "Was ist beim Reparatur-Treff wichtig?",
       "options": [
-        "Man repariert selbst mit",
         "Man muss sich vorher anmelden",
         "Man bezahlt einen Eintritt",
+        "Man repariert selbst mit",
         "Man bekommt neue Geräte"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -573,14 +573,14 @@
       "question": "Was passiert, wenn es regnet?",
       "options": [
         "Das Fest fällt aus",
-        "Das Fest ist im Gemeindesaal",
         "Das Fest ist eine Woche später",
-        "Das Fest beginnt später"
+        "Das Fest beginnt später",
+        "Das Fest ist im Gemeindesaal"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -598,15 +598,15 @@
       "passage": "Gemeindebibliothek\n\nBücher können Sie vier Wochen ausleihen. Danach verlängern Sie die Frist am Schalter oder im Internet — das geht zweimal.\n\nWer ein Buch zu spät zurückbringt, bezahlt eine kleine Gebühr pro Tag.\n\nDie Benutzung der Computer ist für alle gratis.",
       "question": "Wie lange kann man ein Buch zuerst behalten?",
       "options": [
-        "Zwei Wochen",
         "Vier Wochen",
+        "Zwei Wochen",
         "Zweimal vier Wochen",
         "Bis man es zurückbringt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -649,14 +649,14 @@
       "question": "Was soll man tun, wenn das Wasser danach braun ist?",
       "options": [
         "Die Verwaltung anrufen",
-        "Das Wasser einige Minuten laufen lassen",
         "Kein Wasser mehr trinken",
+        "Das Wasser einige Minuten laufen lassen",
         "Einen Handwerker rufen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -675,14 +675,14 @@
       "question": "Frau Ilunga wohnt in der Gemeinde und geht allein schwimmen. Was bezahlt sie mit der Gemeindekarte?",
       "options": [
         "4 Franken",
-        "6 Franken",
         "8 Franken",
+        "6 Franken",
         "18 Franken"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -701,14 +701,14 @@
       "question": "Was soll Herr Fofana tun, wenn er im Moment nicht bezahlen kann?",
       "options": [
         "Die Krankenkasse wechseln",
-        "Sich bei der Kasse melden",
         "Nichts tun und warten",
+        "Sich bei der Kasse melden",
         "Die Rechnung zurückschicken"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -728,8 +728,8 @@
         {
           "id": 1,
           "options": [
-            "melden",
             "mieten",
+            "melden",
             "holen",
             "zahlen"
           ]
@@ -737,19 +737,19 @@
         {
           "id": 2,
           "options": [
-            "nach",
             "vor",
             "ohne",
+            "nach",
             "statt"
           ]
         },
         {
           "id": 3,
           "options": [
-            "daran",
             "damit",
             "dazu",
-            "davon"
+            "davon",
+            "daran"
           ]
         }
       ]
@@ -759,15 +759,15 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
-          "index": 0
+          "index": 3
         }
       ]
     },
@@ -845,13 +845,13 @@
       "options": [
         "Er ist vorgeschrieben",
         "Er ist nur nachts vorgeschrieben",
-        "Er ist nicht vorgeschrieben, wird aber empfohlen",
-        "Er ist nur für Kinder erlaubt"
+        "Er ist nur für Kinder erlaubt",
+        "Er ist nicht vorgeschrieben, wird aber empfohlen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 2
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -969,14 +969,14 @@
       "question": "Was sagt das Merkblatt über das Einbürgerungsgespräch?",
       "options": [
         "Es läuft in der ganzen Schweiz gleich ab",
-        "Ob und wie es stattfindet, entscheidet die Gemeinde",
         "Es ersetzt den Sprachnachweis",
-        "Es findet immer vor der Prüfung der Unterlagen statt"
+        "Es findet immer vor der Prüfung der Unterlagen statt",
+        "Ob und wie es stattfindet, entscheidet die Gemeinde"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -995,14 +995,14 @@
       "question": "Worin sind sich Ariana und Beat NICHT einig?",
       "options": [
         "Ob zu wenige junge Leute kommen",
-        "Ob der Termin die Ursache ist",
         "Ob die Gemeindeversammlung nützlich ist",
-        "Ob das Traktandenblatt schwer zu verstehen ist"
+        "Ob das Traktandenblatt schwer zu verstehen ist",
+        "Ob der Termin die Ursache ist"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1022,19 +1022,19 @@
         {
           "id": 1,
           "options": [
-            "bezahlen",
             "verlangen",
             "erhalten",
+            "bezahlen",
             "kündigen"
           ]
         },
         {
           "id": 2,
           "options": [
-            "lautet",
             "gehört",
             "bleibt",
-            "steht"
+            "steht",
+            "lautet"
           ]
         },
         {
@@ -1053,11 +1053,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
-          "index": 0
+          "index": 3
         },
         {
           "id": 3,
@@ -1156,15 +1156,15 @@
       "passage": "Praxis Dr. Meier – Terminerinnerung\n\nGuten Tag Frau Osei\nWir erinnern Sie an Ihren Termin am Dienstag, 6. Mai, um 14.00 Uhr.\nBitte bringen Sie Ihre Versichertenkarte mit.\nWenn Sie nicht kommen können, sagen Sie bitte mindestens 24 Stunden vorher telefonisch ab. Sonst müssen wir den Termin verrechnen.\n\nFreundliche Grüsse\nIhre Praxis",
       "question": "Was sollen Sie tun, wenn Sie den Termin nicht wahrnehmen können?",
       "options": [
-        "Mindestens 24 Stunden vorher telefonisch absagen",
         "Am selben Tag eine E-Mail schreiben",
         "Ohne Nachricht einen neuen Termin nehmen",
-        "Die Versichertenkarte zurückschicken"
+        "Die Versichertenkarte zurückschicken",
+        "Mindestens 24 Stunden vorher telefonisch absagen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1208,17 +1208,17 @@
         {
           "id": 1,
           "options": [
-            "Sammelstelle",
             "Haltestelle",
+            "Sammelstelle",
             "Baustelle"
           ]
         },
         {
           "id": 2,
           "options": [
-            "falten",
             "fahren",
-            "fallen"
+            "fallen",
+            "falten"
           ]
         },
         {
@@ -1232,8 +1232,8 @@
         {
           "id": 4,
           "options": [
-            "verschieden",
             "gleich",
+            "verschieden",
             "kostenlos"
           ]
         }
@@ -1244,11 +1244,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -1256,7 +1256,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -1276,15 +1276,15 @@
       "passage": "Merkblatt der Gemeinde: Grünabfuhr\n\nWir holen den Grünabfall in unserer Gemeinde alle zwei Wochen am Mittwoch ab, jeweils ab 7.00 Uhr.\nIn die Grünabfuhr gehören Rasenschnitt, Laub und Zweige. Speisereste gehören nicht dazu.\nStellen Sie die Behälter am Vorabend oder bis 7.00 Uhr an den Strassenrand.\nDie genauen Daten für dieses Jahr finden Sie auf dem Abfallkalender Ihrer Gemeinde.",
       "question": "Was dürfen Sie laut dem Merkblatt in die Grünabfuhr geben?",
       "options": [
-        "Laub und Zweige",
         "Speisereste aus der Küche",
         "Alte Möbel",
+        "Laub und Zweige",
         "Karton und Papier"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1328,15 +1328,15 @@
       "passage": "Zahnarztpraxis am Lindenplatz – Rechnung\n\nGuten Tag Herr Nguyen\nFür die Behandlung vom 3. April stellen wir Ihnen 240 Franken in Rechnung.\nBitte bezahlen Sie den Betrag innerhalb von 30 Tagen.\nWenn Ihnen das schwerfällt, melden Sie sich bei uns. Eine Zahlung in Raten ist nach Absprache möglich.\n\nFreundliche Grüsse\nDas Praxisteam",
       "question": "Was können Sie tun, wenn Sie den Betrag nicht auf einmal bezahlen können?",
       "options": [
-        "Sich bei der Praxis melden und Raten vereinbaren",
         "Die Rechnung ohne Antwort liegen lassen",
         "Nur die Hälfte bezahlen und nichts sagen",
+        "Sich bei der Praxis melden und Raten vereinbaren",
         "Einen neuen Termin verlangen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1414,17 +1414,17 @@
         {
           "id": 2,
           "options": [
-            "Monaten",
             "Tagen",
+            "Monaten",
             "Jahren"
           ]
         },
         {
           "id": 3,
           "options": [
-            "wählen",
             "verlieren",
-            "vergessen"
+            "vergessen",
+            "wählen"
           ]
         },
         {
@@ -1446,11 +1446,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -1550,15 +1550,15 @@
       "passage": "Liebe Eltern\n\nZum Halbjahr laden wir Sie zu einem kurzen Gespräch über die Leistungen Ihres Kindes ein.\nDie Gespräche finden vom 3. bis 7. März statt, jeweils am Nachmittag. Bitte wählen Sie auf dem beiliegenden Blatt zwei mögliche Zeiten und geben Sie es bis 24. Februar zurück.\nWenn Sie eine Übersetzung brauchen, teilen Sie uns das bitte mit.\n\nFreundliche Grüsse\nDie Schulleitung",
       "question": "Was sollen die Eltern bis zum 24. Februar tun?",
       "options": [
-        "Zwei mögliche Zeiten wählen und das Blatt zurückgeben",
         "Am Nachmittag in die Schule kommen",
         "Eine Übersetzung bezahlen",
-        "Das Zeugnis unterschreiben"
+        "Das Zeugnis unterschreiben",
+        "Zwei mögliche Zeiten wählen und das Blatt zurückgeben"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1578,9 +1578,9 @@
         {
           "id": 1,
           "options": [
-            "Morgen",
             "Abend",
-            "Mittag"
+            "Mittag",
+            "Morgen"
           ]
         },
         {
@@ -1594,17 +1594,17 @@
         {
           "id": 3,
           "options": [
-            "Quartiertreff",
             "Bahnhof",
+            "Quartiertreff",
             "Spital"
           ]
         },
         {
           "id": 4,
           "options": [
-            "kostenlos",
             "teuer",
-            "obligatorisch"
+            "obligatorisch",
+            "kostenlos"
           ]
         }
       ]
@@ -1614,7 +1614,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -1622,11 +1622,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -1672,15 +1672,15 @@
       "passage": "Anschlag im Quartier: Gemeinschaftsgrill\n\nLiebe Nachbarinnen und Nachbarn\nDer Grillplatz beim Spielplatz kann von allen benutzt werden. Bitte tragen Sie sich vorher in die Liste im Quartiertreff ein, damit es keine Doppelbelegung gibt.\nNach dem Grillieren räumen Sie bitte auf und nehmen Ihren Abfall mit. Ab 22 Uhr gilt Ruhe.\nHolz und Kohle bringen Sie selbst mit.\n\nDas Quartierteam",
       "question": "Was sollen Sie tun, bevor Sie den Grillplatz benutzen?",
       "options": [
-        "Sich in die Liste im Quartiertreff eintragen",
         "Holz und Kohle im Quartiertreff abholen",
         "Eine Gebühr bezahlen",
-        "Beim Quartierteam anrufen"
+        "Beim Quartierteam anrufen",
+        "Sich in die Liste im Quartiertreff eintragen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1750,17 +1750,17 @@
         {
           "id": 1,
           "options": [
-            "Platz",
             "Balkon",
+            "Platz",
             "Dach"
           ]
         },
         {
           "id": 2,
           "options": [
-            "an",
             "ab",
-            "auf"
+            "auf",
+            "an"
           ]
         },
         {
@@ -1774,8 +1774,8 @@
         {
           "id": 4,
           "options": [
-            "gesorgt",
             "gefragt",
+            "gesorgt",
             "geschlossen"
           ]
         }
@@ -1786,11 +1786,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -1798,7 +1798,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -1844,15 +1844,15 @@
       "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Donnerstag, 6. November, liest eine Fachperson die Wasserzähler in allen Wohnungen ab. Sie kommt zwischen 8 und 12 Uhr.\nBitte sorgen Sie dafür, dass jemand zu Hause ist. Wenn das nicht geht, geben Sie den Schlüssel bei der Hauswartin ab oder melden Sie sich für einen anderen Termin.\n\nDie Hausverwaltung",
       "question": "Was sollen Bewohner tun, wenn am 6. November niemand zu Hause ist?",
       "options": [
-        "Den Schlüssel bei der Hauswartin abgeben oder einen anderen Termin abmachen",
         "Den Wasserzähler selbst ablesen",
         "Nichts tun, die Fachperson kommt später",
-        "Das Wasser abstellen"
+        "Das Wasser abstellen",
+        "Den Schlüssel bei der Hauswartin abgeben oder einen anderen Termin abmachen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1894,15 +1894,15 @@
       "passage": "Liebe Eltern\n\nIn der Klasse Ihres Kindes wurden Kopfläuse festgestellt. Das ist unangenehm, aber nicht gefährlich und kein Zeichen von mangelnder Hygiene.\nBitte kontrollieren Sie den Kopf Ihres Kindes heute Abend genau. Wenn Sie Läuse finden, behandeln Sie die Haare mit einem Mittel aus der Apotheke und melden Sie sich bei uns.\nKontrollieren Sie am besten auch die anderen Familienmitglieder.\n\nFreundliche Grüsse\nDie Klassenlehrerin",
       "question": "Was sollen die Eltern zuerst tun?",
       "options": [
-        "Den Kopf des Kindes am Abend genau kontrollieren",
         "Das Kind zu Hause lassen",
+        "Den Kopf des Kindes am Abend genau kontrollieren",
         "Sofort die Schule wechseln",
         "Nichts unternehmen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1930,17 +1930,17 @@
         {
           "id": 2,
           "options": [
-            "Liste",
             "Zeitung",
+            "Liste",
             "Kasse"
           ]
         },
         {
           "id": 3,
           "options": [
-            "beleuchtet",
             "geschlossen",
-            "verkauft"
+            "verkauft",
+            "beleuchtet"
           ]
         },
         {
@@ -1962,11 +1962,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -2016,15 +2016,15 @@
       "passage": "Aushang der Verkehrsbetriebe\n\nLiebe Fahrgäste\nWegen Bauarbeiten fährt die Buslinie 12 vom 2. bis 20. September eine andere Route. Die Haltestelle 'Kirchweg' wird in dieser Zeit nicht bedient.\nBitte benutzen Sie die Ersatzhaltestelle beim Schulhaus, rund zwei Minuten zu Fuss entfernt.\nDie Fahrzeiten bleiben gleich. Danke für Ihr Verständnis.",
       "question": "Was sollen Fahrgäste während der Bauarbeiten tun?",
       "options": [
-        "Die Ersatzhaltestelle beim Schulhaus benutzen",
         "An der Haltestelle Kirchweg warten",
         "Zu Fuss ins Zentrum gehen",
-        "Eine andere Buslinie kaufen"
+        "Eine andere Buslinie kaufen",
+        "Die Ersatzhaltestelle beim Schulhaus benutzen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2066,15 +2066,15 @@
       "passage": "Kinderarztpraxis Sonnenhof\n\nGuten Tag Frau Kone\nIhr Sohn Adam ist bald zwei Jahre alt. Für diese Zeit ist eine Impfung vorgesehen.\nBitte rufen Sie uns an, um einen Termin abzumachen. Bringen Sie zum Termin das Impfbüchlein mit.\nWenn Sie Fragen zur Impfung haben, besprechen wir diese gern vorher.\n\nFreundliche Grüsse\nDas Praxisteam",
       "question": "Was sollen die Eltern zum Termin mitbringen?",
       "options": [
-        "Das Impfbüchlein",
         "Eine Überweisung vom Spital",
+        "Das Impfbüchlein",
         "Die Krankenkassenkarte des Nachbarn",
         "Ein ärztliches Zeugnis"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2102,17 +2102,17 @@
         {
           "id": 2,
           "options": [
-            "Strassenrand",
             "Balkon",
+            "Strassenrand",
             "Estrich"
           ]
         },
         {
           "id": 3,
           "options": [
-            "nicht",
             "gern",
-            "immer"
+            "immer",
+            "nicht"
           ]
         },
         {
@@ -2134,11 +2134,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -2188,15 +2188,15 @@
       "passage": "Aushang der Hausverwaltung\n\nLiebe Mieterinnen und Mieter\nAm Samstag, 25. Oktober, wird der Estrich (Dachboden) gereinigt und aufgeräumt.\nBitte holen Sie bis dann alle Gegenstände, die Ihnen gehören, aus dem Estrich. Was nachher noch dort steht und nicht angeschrieben ist, wird entsorgt.\nWenn Sie einen abgeschlossenen Abteil haben, lassen Sie ihn bitte offen oder geben Sie den Schlüssel bei der Hauswartin ab.\n\nDie Hausverwaltung",
       "question": "Was sollen die Mieter bis zum 25. Oktober tun?",
       "options": [
-        "Ihre Sachen aus dem Estrich holen",
         "Den Estrich selbst putzen",
         "Neue Möbel in den Estrich stellen",
+        "Ihre Sachen aus dem Estrich holen",
         "Die Miete bar bezahlen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2238,15 +2238,15 @@
       "passage": "Liebe Eltern\n\nAm Dienstag, 20. Mai, macht die Klasse die jährliche Schulreise. Wir fahren mit dem Zug an den Zoo und sind am Abend um etwa 17.30 Uhr zurück.\nBitte geben Sie Ihrem Kind gutes Schuhwerk, ein Picknick und eine Trinkflasche mit. Der Zug und der Eintritt werden aus der Klassenkasse bezahlt.\nBei sehr schlechtem Wetter verschieben wir die Reise; Sie erhalten in diesem Fall am Vortag eine Nachricht.\n\nFreundliche Grüsse\nDie Klassenlehrerin",
       "question": "Was müssen die Eltern für die Schulreise mitgeben?",
       "options": [
-        "Gutes Schuhwerk, ein Picknick und eine Trinkflasche",
         "Geld für den Eintritt",
         "Ein Zugbillett",
+        "Gutes Schuhwerk, ein Picknick und eine Trinkflasche",
         "Eine schriftliche Erlaubnis"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2266,17 +2266,17 @@
         {
           "id": 1,
           "options": [
-            "später",
             "nie",
+            "später",
             "sofort"
           ]
         },
         {
           "id": 2,
           "options": [
-            "Strassenrand",
             "Fenster",
-            "Balkon"
+            "Balkon",
+            "Strassenrand"
           ]
         },
         {
@@ -2290,8 +2290,8 @@
         {
           "id": 4,
           "options": [
-            "Bewohner",
             "Kinder",
+            "Bewohner",
             "Gäste"
           ]
         }
@@ -2302,11 +2302,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -2314,7 +2314,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -2410,15 +2410,15 @@
       "passage": "Gemeindebibliothek\n\nGuten Tag Herr Silva\nZwei Bücher, die Sie ausgeliehen haben, sind seit zehn Tagen überfällig.\nBitte bringen Sie die Bücher bald zurück oder verlängern Sie die Ausleihe online oder per Telefon. Für überfällige Bücher verrechnen wir eine kleine Gebühr pro Tag.\nBei Fragen sind wir gern für Sie da.\n\nFreundliche Grüsse\nIhre Bibliothek",
       "question": "Was kann Herr Silva tun, wenn er die Bücher noch länger braucht?",
       "options": [
-        "Die Ausleihe online oder per Telefon verlängern",
         "Die Bücher behalten, ohne etwas zu tun",
         "Neue Bücher kaufen",
+        "Die Ausleihe online oder per Telefon verlängern",
         "Die Bibliothek wechseln"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2438,9 +2438,9 @@
         {
           "id": 1,
           "options": [
-            "Platz",
             "Estrich",
-            "Keller"
+            "Keller",
+            "Platz"
           ]
         },
         {
@@ -2454,17 +2454,17 @@
         {
           "id": 3,
           "options": [
-            "Teilen",
             "Verkaufen",
+            "Teilen",
             "Wegwerfen"
           ]
         },
         {
           "id": 4,
           "options": [
-            "Saal",
             "Wald",
-            "Wasser"
+            "Wasser",
+            "Saal"
           ]
         }
       ]
@@ -2474,7 +2474,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -2482,11 +2482,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -2506,15 +2506,15 @@
       "passage": "Merkblatt der Gemeinde: Wer entscheidet über die Einbürgerung?\n\nBei der ordentlichen Einbürgerung entscheiden Ihre Gemeinde und Ihr Kanton. Der Bund gibt vorher die eidgenössische Bewilligung. Sie reichen das Gesuch bei uns in der Gemeinde ein.\nAnders ist es bei der erleichterten Einbürgerung, zum Beispiel wenn Sie mit einer Schweizerin oder einem Schweizer verheiratet sind: Dann entscheidet der Bund, das Staatssekretariat für Migration (SEM). Das Gesuch stellen Sie in diesem Fall direkt beim SEM.\nWelcher Weg für Sie gilt, hängt von Ihrer Situation ab. Erkundigen Sie sich frühzeitig bei uns.",
       "question": "Wer entscheidet laut dem Merkblatt über eine ordentliche Einbürgerung?",
       "options": [
-        "Die Gemeinde und der Kanton; der Bund gibt die Bewilligung",
         "Nur der Bund (SEM)",
+        "Die Gemeinde und der Kanton; der Bund gibt die Bewilligung",
         "Nur die Gemeinde allein",
         "Eine private Firma"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2532,15 +2532,15 @@
       "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Samstag, 3. Mai, zieht eine Familie in die Wohnung im 2. Stock ein. Der Lift wird an diesem Tag von 8 bis 12 Uhr für den Umzug gebraucht.\nBitte benutzen Sie in dieser Zeit die Treppe oder warten Sie kurz. Am Nachmittag steht der Lift wieder allen zur Verfügung.\nDanke für Ihr Verständnis.\n\nDie Hausverwaltung",
       "question": "Warum ist der Lift am 3. Mai am Vormittag nicht frei?",
       "options": [
-        "Weil eine Familie einzieht und den Lift für den Umzug braucht",
         "Weil der Lift repariert wird",
+        "Weil eine Familie einzieht und den Lift für den Umzug braucht",
         "Weil er gereinigt wird",
         "Weil er kaputt ist"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2610,9 +2610,9 @@
         {
           "id": 1,
           "options": [
-            "Börse",
             "Baustelle",
-            "Prüfung"
+            "Prüfung",
+            "Börse"
           ]
         },
         {
@@ -2626,17 +2626,17 @@
         {
           "id": 3,
           "options": [
-            "gratis",
             "teuer",
+            "gratis",
             "verboten"
           ]
         },
         {
           "id": 4,
           "options": [
-            "Hilfswerk",
             "Amt",
-            "Automaten"
+            "Automaten",
+            "Hilfswerk"
           ]
         }
       ]
@@ -2646,7 +2646,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -2654,11 +2654,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -2678,15 +2678,15 @@
       "passage": "Merkblatt: Die erleichterte Einbürgerung\n\nDie erleichterte Einbürgerung ist ein besonderer Weg. Sie kommt zum Beispiel infrage, wenn Sie mit einer Schweizerin oder einem Schweizer verheiratet sind und die Bedingungen erfüllen.\nÜber die erleichterte Einbürgerung entscheidet der Bund, das Staatssekretariat für Migration (SEM). Das Gesuch stellen Sie deshalb direkt beim SEM, nicht bei der Gemeinde.\nBei der ordentlichen Einbürgerung ist es anders: Dort entscheiden Ihre Gemeinde und Ihr Kanton, und der Bund gibt die Bewilligung.\nWelcher Weg für Sie gilt, hängt von Ihrer Situation ab. Auch beim erleichterten Weg müssen Sie eine Landessprache nachweisen.",
       "question": "Wer entscheidet laut dem Merkblatt über die erleichterte Einbürgerung?",
       "options": [
-        "Der Bund (das SEM)",
         "Die Gemeinde allein",
+        "Der Bund (das SEM)",
         "Der Kanton allein",
         "Der Arbeitgeber"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2704,15 +2704,15 @@
       "passage": "So finden Sie das Impfzentrum\n\nVom Bahnhof aus gehen Sie geradeaus die Bahnhofstrasse hinunter bis zur Post. Bei der Post biegen Sie rechts ab in die Feldstrasse.\nNach etwa 200 Metern sehen Sie links ein grosses graues Gebäude, das ist das Gemeindezentrum. Das Impfzentrum ist im ersten Stock; nehmen Sie den Lift oder die Treppe.\nZu Fuss dauert es vom Bahnhof rund zehn Minuten. Parkplätze gibt es nur wenige.",
       "question": "Wie kommt man vom Bahnhof zum Impfzentrum?",
       "options": [
-        "Geradeaus bis zur Post, dann rechts in die Feldstrasse",
         "Links am Bahnhof vorbei zum See",
         "Mit dem Lift direkt vom Bahnhof",
-        "Immer geradeaus bis zum Spital"
+        "Immer geradeaus bis zum Spital",
+        "Geradeaus bis zur Post, dann rechts in die Feldstrasse"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2754,15 +2754,15 @@
       "passage": "Antrag auf einen Bibliotheksausweis\n\nBitte in Blockschrift ausfüllen.\nName / Vorname: ____\nAdresse: ____\nGeburtsdatum: ____\nFür Kinder unter 16 Jahren unterschreibt ein Elternteil.\nDer Ausweis ist gratis und ein Jahr gültig. Bei Verlust kostet ein neuer Ausweis 10 Franken.\nBringen Sie das Formular mit einem Ausweis an den Schalter.",
       "question": "Was gilt laut dem Formular für Kinder unter 16 Jahren?",
       "options": [
-        "Ein Elternteil muss unterschreiben",
         "Sie bekommen keinen Ausweis",
+        "Ein Elternteil muss unterschreiben",
         "Der Ausweis kostet 10 Franken",
         "Sie brauchen kein Formular"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2782,17 +2782,17 @@
         {
           "id": 1,
           "options": [
-            "Schale",
             "Uhr",
+            "Schale",
             "Karte"
           ]
         },
         {
           "id": 2,
           "options": [
-            "Scheiben",
             "Flaschen",
-            "Wörter"
+            "Wörter",
+            "Scheiben"
           ]
         },
         {
@@ -2806,8 +2806,8 @@
         {
           "id": 4,
           "options": [
-            "ziehen",
             "laufen",
+            "ziehen",
             "schlafen"
           ]
         }
@@ -2818,11 +2818,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -2830,7 +2830,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -2850,15 +2850,15 @@
       "passage": "Merkblatt: Prämienverbilligung\n\nWenn Ihr Einkommen tief ist, können Sie einen Teil Ihrer Krankenkassenprämie zurückbekommen. Das heisst Prämienverbilligung.\nZuständig ist Ihr Kanton, nicht die Krankenkasse. Ob Sie Anspruch haben und wie viel, hängt vom Einkommen ab, und die Regeln sind von Kanton zu Kanton verschieden.\nDen Antrag stellen Sie bei der zuständigen Stelle Ihres Kantons. In manchen Kantonen bekommen Sie von selbst ein Formular, in anderen müssen Sie sich melden. Erkundigen Sie sich bei Ihrem Kanton, was bei Ihnen gilt.",
       "question": "Wer ist laut dem Merkblatt für die Prämienverbilligung zuständig?",
       "options": [
-        "Der Kanton",
         "Die Krankenkasse",
+        "Der Kanton",
         "Die Gemeinde allein",
         "Der Arbeitgeber"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2926,15 +2926,15 @@
       "passage": "Kurzanleitung Waschmaschine\n\n1. Wäsche einfüllen, aber die Trommel nicht zu voll machen.\n2. Waschmittel in das Fach links geben.\n3. Programm wählen: 'Buntwäsche 40 Grad' für normale Kleidung.\n4. Tür schliessen und die Taste 'Start' drücken.\n\nWenn die Maschine piept, ist die Wäsche fertig. Öffnen Sie die Tür erst, wenn das Schloss frei ist.",
       "question": "Welches Programm wählt man laut der Anleitung für normale Kleidung?",
       "options": [
-        "Buntwäsche 40 Grad",
         "Kochwäsche 90 Grad",
         "Handwäsche",
+        "Buntwäsche 40 Grad",
         "Schleudern"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2954,17 +2954,17 @@
         {
           "id": 1,
           "options": [
-            "Gängen",
             "Türen",
+            "Gängen",
             "Tagen"
           ]
         },
         {
           "id": 2,
           "options": [
-            "Einsatz",
             "Wasser",
-            "Buch"
+            "Buch",
+            "Einsatz"
           ]
         },
         {
@@ -2978,8 +2978,8 @@
         {
           "id": 4,
           "options": [
-            "Nachricht",
             "Suppe",
+            "Nachricht",
             "Reise"
           ]
         }
@@ -2990,11 +2990,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -3002,7 +3002,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -3098,15 +3098,15 @@
       "passage": "Stromrechnung\n\nKundennummer: 55123\nVerbrauch (3 Monate): 850 kWh\nBetrag: 210 Franken\nZahlbar bis: 30. April\n\nBezahlen Sie bitte mit dem beiliegenden Einzahlungsschein oder per E-Banking. Bei Fragen zur Rechnung rufen Sie uns an. Eine Ratenzahlung ist auf Anfrage möglich.",
       "question": "Was kann man laut der Rechnung tun, wenn man nicht alles auf einmal zahlen kann?",
       "options": [
-        "Eine Ratenzahlung anfragen",
         "Die Rechnung ignorieren",
         "Weniger Strom brauchen",
-        "Die Kundennummer ändern"
+        "Die Kundennummer ändern",
+        "Eine Ratenzahlung anfragen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3126,9 +3126,9 @@
         {
           "id": 1,
           "options": [
-            "duschen",
             "schlafen",
-            "kochen"
+            "kochen",
+            "duschen"
           ]
         },
         {
@@ -3142,17 +3142,17 @@
         {
           "id": 3,
           "options": [
-            "Begleitung",
             "Farbe",
+            "Begleitung",
             "Sprache"
           ]
         },
         {
           "id": 4,
           "options": [
-            "Restaurant",
             "Wasser",
-            "Keller"
+            "Keller",
+            "Restaurant"
           ]
         }
       ]
@@ -3162,7 +3162,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -3170,11 +3170,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -3194,15 +3194,15 @@
       "passage": "Merkblatt: Sprachnachweis bei der Einbürgerung\n\nEgal, ob Sie den ordentlichen Weg gehen (über Gemeinde und Kanton) oder den erleichterten (über den Bund, das SEM): In beiden Fällen weisen Sie eine Landessprache nach.\nVerlangt wird mündlich mindestens das Niveau B1 und schriftlich mindestens A2. Ihr Kanton kann höhere Anforderungen stellen. Nachgewiesen wird die Standardsprache, bei uns also Standarddeutsch, nicht der Dialekt.\nDen Nachweis erbringen Sie mit einem anerkannten Zertifikat. Welche Belege gelten, erfahren Sie bei der zuständigen Stelle.",
       "question": "Was ist laut dem Merkblatt richtig?",
       "options": [
-        "Der Sprachnachweis wird bei beiden Wegen verlangt",
         "Nur beim ordentlichen Weg braucht man einen Sprachnachweis",
+        "Der Sprachnachweis wird bei beiden Wegen verlangt",
         "Man kann jeden Dialekt nachweisen",
         "Schriftlich wird B1 verlangt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3220,15 +3220,15 @@
       "passage": "Preisliste — Coiffeur Salon Welle\n\nHaare schneiden (Damen) ........ 55.–\nHaare schneiden (Herren) ....... 38.–\nKinder bis 12 Jahre ............ 25.–\nWaschen und Föhnen ............. 30.–\nFärben ......................... ab 70.–\n\nTermine nach Vereinbarung. Kinder am Mittwochnachmittag ohne Voranmeldung.",
       "question": "Was kostet der Haarschnitt für ein zehnjähriges Kind?",
       "options": [
-        "25 Franken",
         "38 Franken",
         "55 Franken",
-        "70 Franken"
+        "70 Franken",
+        "25 Franken"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3270,15 +3270,15 @@
       "passage": "Hinweise\n\nErwachsene und Kinder ab 12 Jahren: dreimal täglich eine Tablette mit etwas Wasser einnehmen, am besten nach dem Essen.\nNehmen Sie nicht mehr als drei Tabletten pro Tag. Wenn die Beschwerden nach drei Tagen nicht besser sind, gehen Sie zum Arzt.\nFür Kinder unter 12 Jahren fragen Sie in der Apotheke.",
       "question": "Was soll man laut den Hinweisen tun, wenn es nach drei Tagen nicht besser ist?",
       "options": [
-        "Zum Arzt gehen",
         "Mehr Tabletten nehmen",
+        "Zum Arzt gehen",
         "Die Tabletten wegwerfen",
         "Nichts tun"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3298,9 +3298,9 @@
         {
           "id": 1,
           "options": [
-            "Elterncafé",
             "Bahnhof",
-            "Spital"
+            "Spital",
+            "Elterncafé"
           ]
         },
         {
@@ -3314,17 +3314,17 @@
         {
           "id": 3,
           "options": [
-            "kennenlernen",
             "verkaufen",
+            "kennenlernen",
             "vergessen"
           ]
         },
         {
           "id": 4,
           "options": [
-            "nötig",
             "gratis",
-            "offen"
+            "offen",
+            "nötig"
           ]
         }
       ]
@@ -3334,7 +3334,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -3342,11 +3342,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -3366,15 +3366,15 @@
       "passage": "Merkblatt: Sprachen in der Schweiz\n\nDie Schweiz hat vier Landessprachen: Deutsch, Französisch, Italienisch und Rätoromanisch. Welche Sprache im Alltag und bei den Behörden gilt, hängt vom Kanton und von der Gemeinde ab.\nIn unserer Gemeinde ist die Amtssprache Deutsch. Briefe der Behörden, Formulare und Kurse sind auf Deutsch. Im Alltag hören Sie oft Dialekt; die Behördensprache aber ist Standarddeutsch.\nWenn Sie in einen anderen Kanton ziehen, kann dort eine andere Amtssprache gelten. Erkundigen Sie sich, was am neuen Wohnort gilt.",
       "question": "Wovon hängt laut dem Merkblatt die Amtssprache ab?",
       "options": [
-        "Vom Kanton und von der Gemeinde",
         "Vom Alter der Person",
         "Von der Krankenkasse",
+        "Vom Kanton und von der Gemeinde",
         "Sie ist überall gleich"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3392,15 +3392,15 @@
       "passage": "Wir suchen eine Aushilfe\n\nFür unseren Quartierladen suchen wir eine freundliche Aushilfe für den Samstag, jeweils von 8 bis 13 Uhr.\nSie helfen an der Kasse und beim Einräumen der Regale. Erfahrung ist nicht nötig, wir arbeiten Sie ein. Gute Deutschkenntnisse sind von Vorteil.\nInteressiert? Melden Sie sich bei Frau Studer, per Telefon oder im Laden.",
       "question": "Wann soll die Aushilfe arbeiten?",
       "options": [
-        "Am Samstag von 8 bis 13 Uhr",
         "Jeden Tag am Abend",
         "Nur am Sonntag",
+        "Am Samstag von 8 bis 13 Uhr",
         "Von Montag bis Freitag"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3442,15 +3442,15 @@
       "passage": "Vereinsausflug\n\nLiebe Mitglieder\nAm Sonntag, 15. Juni, machen wir unseren Jahresausflug an den Vierwaldstättersee. Wir treffen uns um 8.30 Uhr beim Bahnhof, beim Kiosk.\nBitte bringen Sie gutes Schuhwerk und etwas zu trinken mit. Für das Mittagessen ist gesorgt.\nAnmeldung bis 8. Juni bei Herrn Frei. Die Fahrt kostet 20 Franken.",
       "question": "Wo trifft sich der Verein?",
       "options": [
-        "Beim Bahnhof, beim Kiosk",
         "Am See",
         "Im Vereinslokal",
-        "Bei Herrn Frei zu Hause"
+        "Bei Herrn Frei zu Hause",
+        "Beim Bahnhof, beim Kiosk"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3470,9 +3470,9 @@
         {
           "id": 1,
           "options": [
-            "Schritte",
             "Wörter",
-            "Rechnungen"
+            "Rechnungen",
+            "Schritte"
           ]
         },
         {
@@ -3486,17 +3486,17 @@
         {
           "id": 3,
           "options": [
-            "Wochen",
             "Jahren",
+            "Wochen",
             "Minuten"
           ]
         },
         {
           "id": 4,
           "options": [
-            "Handtuch",
             "Auto",
-            "Formular"
+            "Formular",
+            "Handtuch"
           ]
         }
       ]
@@ -3506,7 +3506,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -3514,11 +3514,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -3538,15 +3538,15 @@
       "passage": "Merkblatt: Häufige Fragen zur Einbürgerung\n\nMuss ich Deutsch können?\nJa. Sie weisen eine Landessprache nach: mündlich mindestens B1, schriftlich mindestens A2. Nachgewiesen wird Standarddeutsch.\n\nWo stelle ich das Gesuch?\nBei der ordentlichen Einbürgerung bei Ihrer Gemeinde. Sind Sie mit einer Schweizerin oder einem Schweizer verheiratet, kommt oft die erleichterte Einbürgerung infrage; dann stellen Sie das Gesuch beim Bund (SEM).\n\nWie lange dauert es?\nDas ist unterschiedlich und kann länger dauern. Erkundigen Sie sich bei Ihrer Gemeinde.",
       "question": "Wo stellt man laut dem Merkblatt das Gesuch für die ordentliche Einbürgerung?",
       "options": [
-        "Bei der Gemeinde",
         "Beim Bund (SEM)",
         "Bei der Krankenkasse",
-        "Bei keiner Stelle"
+        "Bei keiner Stelle",
+        "Bei der Gemeinde"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3642,17 +3642,17 @@
         {
           "id": 1,
           "options": [
-            "Garten",
             "Estrich",
+            "Garten",
             "Keller"
           ]
         },
         {
           "id": 2,
           "options": [
-            "gesorgt",
             "verboten",
-            "teuer"
+            "teuer",
+            "gesorgt"
           ]
         },
         {
@@ -3666,8 +3666,8 @@
         {
           "id": 4,
           "options": [
-            "an",
             "aus",
+            "an",
             "auf"
           ]
         }
@@ -3678,11 +3678,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -3690,7 +3690,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -3736,15 +3736,15 @@
       "passage": "Neuer Spielplatz im Quartier\n\nIm Quartier Feld gibt es seit letzter Woche einen neuen Spielplatz. Er hat eine grosse Rutschbahn, Schaukeln und einen Sandkasten. Auch für kleine Kinder gibt es sichere Geräte.\nDer Spielplatz ist jeden Tag von morgens bis abends offen und gratis. Für die Eltern gibt es Bänke und einen Brunnen.\nDie Gemeinde freut sich über den neuen Treffpunkt für Familien.",
       "question": "Was gibt es laut der Notiz auf dem neuen Spielplatz?",
       "options": [
-        "Eine Rutschbahn, Schaukeln und einen Sandkasten",
         "Ein Restaurant",
+        "Eine Rutschbahn, Schaukeln und einen Sandkasten",
         "Ein Schwimmbad",
         "Einen Parkplatz"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3786,15 +3786,15 @@
       "passage": "Nachhilfe gesucht\n\nWir suchen für unseren Sohn (12 Jahre) Nachhilfe in Mathematik. Er hat Mühe mit dem Rechnen und braucht ein bisschen Unterstützung.\nGewünscht: einmal pro Woche am Nachmittag, bei uns zu Hause. Geduld und Freude an Kindern sind wichtiger als eine Ausbildung.\nBei Interesse melden Sie sich bei Familie Berg, per Telefon am Abend.",
       "question": "In welchem Fach wird Nachhilfe gesucht?",
       "options": [
-        "In Mathematik",
         "In Deutsch",
+        "In Mathematik",
         "In Sport",
         "In Musik"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3822,17 +3822,17 @@
         {
           "id": 2,
           "options": [
-            "zurückgeben",
             "kaufen",
+            "zurückgeben",
             "reparieren"
           ]
         },
         {
           "id": 3,
           "options": [
-            "abgeben",
             "kochen",
-            "malen"
+            "malen",
+            "abgeben"
           ]
         },
         {
@@ -3854,11 +3854,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -3882,15 +3882,15 @@
       "passage": "Merkblatt: Die Einwohnerdienste\n\nDie Einwohnerdienste Ihrer Gemeinde sind für viele Dinge des Alltags da. Hier melden Sie sich an, wenn Sie neu zuziehen, und ab, wenn Sie wegziehen. Sie melden auch eine neue Adresse innerhalb der Gemeinde.\nBei den Einwohnerdiensten bekommen Sie zum Beispiel eine Wohnsitzbestätigung, die Sie manchmal für den Arbeitgeber oder eine Anmeldung brauchen.\nWas genau Sie mitbringen müssen und wie lange etwas dauert, ist je nach Gemeinde verschieden. Fragen Sie vorher nach oder schauen Sie auf der Webseite Ihrer Gemeinde.",
       "question": "Was können Sie laut dem Merkblatt bei den Einwohnerdiensten erledigen?",
       "options": [
-        "Sich anmelden und eine Wohnsitzbestätigung holen",
         "Ein Auto kaufen",
         "Die Krankenkasse wechseln",
-        "Einen Deutschkurs besuchen"
+        "Einen Deutschkurs besuchen",
+        "Sich anmelden und eine Wohnsitzbestätigung holen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3908,15 +3908,15 @@
       "passage": "Zugverbindungen Neudorf – Zürich (Montag bis Freitag)\n\nAbfahrt Neudorf: 6.42 | 7.12 | 7.42 | 8.12\nAnkunft Zürich:  7.20 | 7.50 | 8.20 | 8.50\n\nDie Züge fahren von Gleis 1. Am Wochenende gilt ein anderer Fahrplan.",
       "question": "Herr Ali muss spätestens um 8 Uhr in Zürich sein. Welchen Zug nimmt er in Neudorf?",
       "options": [
-        "Den Zug um 7.12 Uhr",
         "Den Zug um 7.42 Uhr",
         "Den Zug um 8.12 Uhr",
+        "Den Zug um 7.12 Uhr",
         "Er kann keinen Zug nehmen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3958,15 +3958,15 @@
       "passage": "So machen Sie einen Kaffee\n\n1. Stellen Sie eine Tasse unter den Auslauf.\n2. Wählen Sie am Knopf, ob Sie einen kleinen oder grossen Kaffee möchten.\n3. Drücken Sie 'Start'. Der Kaffee läuft automatisch in die Tasse.\n4. Warten Sie, bis der Automat piept, und nehmen Sie die Tasse heraus.\n\nIst der Wasserbehälter leer, leuchtet ein rotes Licht. Füllen Sie dann Wasser nach.",
       "question": "Was bedeutet es laut der Anleitung, wenn ein rotes Licht leuchtet?",
       "options": [
-        "Der Wasserbehälter ist leer und muss aufgefüllt werden",
         "Der Kaffee ist fertig",
+        "Der Wasserbehälter ist leer und muss aufgefüllt werden",
         "Der Automat ist kaputt",
         "Man muss bezahlen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3994,17 +3994,17 @@
         {
           "id": 2,
           "options": [
-            "helfen",
             "schlafen",
+            "helfen",
             "verkaufen"
           ]
         },
         {
           "id": 3,
           "options": [
-            "gratis",
             "teuer",
-            "verboten"
+            "verboten",
+            "gratis"
           ]
         },
         {
@@ -4026,11 +4026,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -4130,15 +4130,15 @@
       "passage": "Einfache Muffins\n\nVerrühren Sie 200 Gramm Mehl, 100 Gramm Zucker und ein Päckchen Backpulver. Geben Sie zwei Eier, 100 Milliliter Öl und 150 Milliliter Milch dazu und mischen Sie alles kurz.\nFüllen Sie den Teig in die Förmchen, aber nur zu zwei Dritteln.\nBacken Sie die Muffins bei 180 Grad etwa 20 Minuten. Sie sind fertig, wenn sie goldbraun sind.",
       "question": "Wie voll soll man die Förmchen laut der Anleitung füllen?",
       "options": [
-        "Nur zu zwei Dritteln",
         "Ganz voll",
+        "Nur zu zwei Dritteln",
         "Nur zur Hälfte mit Milch",
         "Gar nicht"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -4166,17 +4166,17 @@
         {
           "id": 2,
           "options": [
-            "Franken",
             "Meter",
+            "Franken",
             "Kilo"
           ]
         },
         {
           "id": 3,
           "options": [
-            "kaufen",
             "werfen",
-            "verbrennen"
+            "verbrennen",
+            "kaufen"
           ]
         },
         {
@@ -4198,11 +4198,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -4226,15 +4226,15 @@
       "passage": "Merkblatt: Deutsch am Arbeitsplatz — Mundart oder Hochdeutsch?\n\nAm Arbeitsplatz hören Sie in der Deutschschweiz oft Dialekt, vor allem in Gesprächen unter Kolleginnen und Kollegen. Das ist normal.\nWichtig ist: Schriftliche Dinge wie E-Mails, Anleitungen und Sicherheitshinweise sind fast immer auf Hochdeutsch, also auf Standarddeutsch. Auch bei einer Schulung oder mit Kunden wird oft Hochdeutsch gesprochen.\nSie müssen den Dialekt nicht selbst sprechen. Sprechen Sie ruhig Hochdeutsch — das versteht man überall. Wenn Sie etwas im Dialekt nicht verstehen, fragen Sie einfach nach.",
       "question": "Was ist laut dem Merkblatt am Arbeitsplatz meistens auf Hochdeutsch?",
       "options": [
-        "Schriftliche Dinge wie E-Mails und Sicherheitshinweise",
         "Nur die Pausengespräche",
         "Gar nichts",
+        "Schriftliche Dinge wie E-Mails und Sicherheitshinweise",
         "Nur der Dialekt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   }
