@@ -275,7 +275,7 @@
     "prompt": "Lesen Sie den Brief. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Liebe Eltern\n\nAm Dienstag, 6. Mai, findet der Elternabend der Klasse 4b statt. Beginn ist um 19.30 Uhr im Zimmer 12.\n\nWir sprechen über das Schullager im Juni und über den Übertritt in die Sekundarstufe. Es ist wichtig, dass mindestens ein Elternteil teilnimmt. Falls Sie eine Übersetzerin oder einen Übersetzer brauchen, melden Sie sich bitte bis am 29. April im Sekretariat. Wir organisieren das gerne für Sie.\n\nFreundliche Grüsse\nM. Iten, Klassenlehrerin",
-      "question": "Aussage: Wer eine Übersetzung braucht, muss selbst jemanden mitbringen.",
+      "question": "Aussage: Der Elternabend beginnt um 19.30 Uhr.",
       "options": [
         "Richtig",
         "Falsch"
@@ -283,7 +283,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -546,7 +546,7 @@
     "prompt": "Lesen Sie das Merkblatt der Gemeinde. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Merkblatt der Gemeinde: Abfall\n\nHauskehricht gehört in den offiziellen Gebührensack unserer Gemeinde. Säcke aus anderen Gemeinden werden nicht abgeführt. Sie erhalten die Säcke im Laden oder am Schalter.\n\nPapier, Karton, Glas, PET und Metall gehören nicht in den Gebührensack. Diese Sammlungen sind kostenlos.\n\nWelche Säcke gelten, ist von Gemeinde zu Gemeinde verschieden. Fragen Sie im Zweifel bei Ihrer Gemeinde nach.",
-      "question": "Aussage: Laut dem Merkblatt kostet auch die Papiersammlung etwas.",
+      "question": "Aussage: Laut dem Merkblatt werden Säcke aus anderen Gemeinden nicht abgeführt.",
       "options": [
         "Richtig",
         "Falsch"
@@ -554,7 +554,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -817,7 +817,7 @@
     "prompt": "Lesen Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Nachbarschaftshilfe im Quartier\n\nWer Hilfe braucht — beim Einkaufen, beim Ausfüllen eines Formulars oder bei einem Weg zum Arzt —, kann sich bei uns melden. Freiwillige aus dem Quartier helfen gerne.\n\nDie Hilfe ist kostenlos. Wir sind keine Behörde und geben keine amtlichen Auskünfte. Bei Fragen zu Bewilligungen oder zur Einbürgerung wenden Sie sich bitte an Ihre Gemeinde.\n\nTelefon: Montag bis Freitag, 9.00 bis 11.00 Uhr",
-      "question": "Aussage: Laut dem Text kann man bei der Nachbarschaftshilfe auch amtliche Auskünfte zur Einbürgerung bekommen.",
+      "question": "Aussage: Laut dem Text hilft die Nachbarschaftshilfe beim Einkaufen.",
       "options": [
         "Richtig",
         "Falsch"
@@ -825,7 +825,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -942,7 +942,7 @@
     "prompt": "Lesen Sie den Anschlag. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Sperrgutabfuhr\n\nAm Freitag, 21. März, holen wir Sperrgut ab: alte Möbel, Teppiche, Matratzen.\n\nStellen Sie das Sperrgut bis 7.00 Uhr an den Strassenrand. Elektrogeräte nehmen wir nicht mit — diese geben Sie dort zurück, wo Sie solche Geräte kaufen können.\n\nDie Abfuhr ist im Gebührensack nicht enthalten; sie wird separat verrechnet.",
-      "question": "Aussage: Laut dem Anschlag kann man am 21. März auch einen alten Kühlschrank an den Strassenrand stellen.",
+      "question": "Aussage: Laut dem Anschlag muss das Sperrgut bis 7.00 Uhr am Strassenrand stehen.",
       "options": [
         "Richtig",
         "Falsch"
@@ -950,7 +950,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1180,7 +1180,7 @@
     "prompt": "Lesen Sie den Anschlag. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Anschlag der Hausverwaltung\n\nLiebe Mieterinnen und Mieter\nAb April reinigt jede Wohnung das Treppenhaus eine Woche lang, nach dem Plan am schwarzen Brett. Die Woche beginnt jeweils am Montag.\nWer an der Reihe ist, wischt den Boden und leert den Abfalleimer beim Eingang.\nWenn Sie in den Ferien sind, tauschen Sie die Woche bitte selbst mit einer anderen Partei.\n\nDie Hausverwaltung",
-      "question": "Aussage: Laut dem Anschlag sucht die Hausverwaltung einen Ersatz, wenn man in den Ferien ist.",
+      "question": "Aussage: Laut dem Anschlag reinigt jede Wohnung das Treppenhaus eine Woche lang.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1188,7 +1188,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1352,7 +1352,7 @@
     "prompt": "Lesen Sie den Aushang. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nAm Dienstag, 8. Oktober, wird der Lift gewartet. Von 8.00 bis etwa 12.00 Uhr steht er nicht zur Verfügung.\nBitte benutzen Sie in dieser Zeit das Treppenhaus. Ab dem Mittag fährt der Lift wieder normal.\nDanke für Ihr Verständnis.\n\nDie Hausverwaltung",
-      "question": "Aussage: Laut dem Aushang fällt der Lift den ganzen Dienstag aus.",
+      "question": "Aussage: Laut dem Aushang wird der Lift am Dienstag gewartet.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1360,7 +1360,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1524,7 +1524,7 @@
     "prompt": "Lesen Sie den Aushang. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Aushang der Hausverwaltung\n\nLiebe Bewohnerinnen und Bewohner\nVon Montag, 5., bis Mittwoch, 7. Mai, wird das Treppenhaus neu gestrichen.\nBitte stellen Sie in dieser Zeit nichts in den Gang und halten Sie Schuhe und Kinderwagen in der Wohnung.\nDer Lift kann normal benutzt werden. Wir bitten um etwas Geduld, bis die Farbe trocken ist.\n\nDie Hausverwaltung",
-      "question": "Aussage: Laut dem Aushang darf man den Lift während der Malerarbeiten nicht benutzen.",
+      "question": "Aussage: Laut dem Aushang wird das Treppenhaus neu gestrichen.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1532,7 +1532,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1696,7 +1696,7 @@
     "prompt": "Lesen Sie den Kassenbon. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Vielen Dank für Ihren Einkauf!\n\nUmtausch und Rückgabe: Sie können nicht getragene Artikel innerhalb von 14 Tagen umtauschen. Bitte bringen Sie diesen Kassenbon mit.\nReduzierte Artikel sind vom Umtausch ausgeschlossen.\nÖffnungszeiten: Mo–Sa 9–19 Uhr.",
-      "question": "Aussage: Laut dem Kassenbon kann man auch reduzierte Artikel umtauschen.",
+      "question": "Aussage: Laut dem Kassenbon kann man nicht getragene Artikel innerhalb von 14 Tagen umtauschen.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1704,7 +1704,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1868,7 +1868,7 @@
     "prompt": "Lesen Sie die SMS. Ist die Aussage richtig oder falsch?",
     "payload": {
       "passage": "Guten Tag Herr Osei, hier die Garage Zürcherstrasse. Ihr Auto ist fertig, der Service ist gemacht und die Bremsen sind neu. Sie können es ab morgen abholen, wir haben bis 18 Uhr offen. Der Betrag von 480 Franken ist bei der Abholung fällig. Bitte bringen Sie den Fahrzeugausweis mit.",
-      "question": "Aussage: Laut der SMS muss Herr Osei erst nächste Woche bezahlen.",
+      "question": "Aussage: Laut der SMS ist der Service gemacht.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1876,7 +1876,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },

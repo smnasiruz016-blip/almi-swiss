@@ -62,9 +62,9 @@
     "payload": {
       "transcript": "Also, das Paket nach Portugal: normal dauert es fünf bis sieben Tage und kostet dreissig Franken. Express ist in zwei Tagen dort, aber das kostet fünfundfünfzig. Was möchten Sie?",
       "question": "Wie viel kostet Express?",
-      "options": ["30 Franken", "55 Franken", "5 Franken", "7 Franken"]
+      "options": ["30 Franken", "5 Franken", "55 Franken", "7 Franken"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -79,9 +79,9 @@
     "payload": {
       "transcript": "Hoi, hier ist Reto. Du, morgen musst du nicht um sieben kommen, sondern erst um neun. Die Maschine wird am Morgen repariert. Bis dann!",
       "question": "Wann soll die Person morgen kommen?",
-      "options": ["Um sieben", "Um neun", "Gar nicht", "Wie immer"]
+      "options": ["Um sieben", "Wie immer", "Gar nicht", "Um neun"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -97,13 +97,13 @@
       "transcript": "Ja, Ihre Prämie steigt nächstes Jahr, das stimmt. Sie können die Kasse wechseln, aber nur bis Ende November — nachher geht es erst wieder ein Jahr später. Und noch etwas: Sie können auch die Franchise erhöhen, dann sinkt die Prämie. Überlegen Sie das gut, dann zahlen Sie beim Arzt mehr selber.",
       "question": "Was sagt die Mitarbeiterin über den Wechsel der Kasse?",
       "options": [
-        "Er ist jederzeit möglich",
         "Er ist nur bis Ende November möglich",
+        "Er ist jederzeit möglich",
         "Er ist nicht mehr möglich",
         "Er ist nur mit einer höheren Franchise möglich"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -183,12 +183,12 @@
       "question": "Wovon hängt es ab, ob eine Kontrollfahrt nötig ist?",
       "options": [
         "Vom Alter der Person",
-        "Vom Land, in dem der Ausweis ausgestellt wurde",
         "Davon, wie lange man schon hier wohnt",
+        "Vom Land, in dem der Ausweis ausgestellt wurde",
         "Vom Kanton"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -205,12 +205,12 @@
       "question": "Was bietet der Kollege an?",
       "options": [
         "Geld für die Hilfe",
-        "Das Mittagessen und später den Anhänger",
+        "Er bietet nichts an",
         "Einen freien Tag",
-        "Er bietet nichts an"
+        "Das Mittagessen und später den Anhänger"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -226,13 +226,13 @@
       "transcript": "Also, ich schaue mir das an. Sie haben die Fahrkosten nicht eingetragen, und die Weiterbildung auch nicht. Beides dürfen Sie abziehen, das senkt Ihr steuerbares Einkommen. Was Sie nicht abziehen dürfen, sind die Kosten fürs Mittagessen zu Hause. Und noch etwas: Heben Sie die Belege auf. Wenn das Amt nachfragt und Sie haben nichts, streichen sie den Abzug wieder.",
       "question": "Was rät die Beraterin zu den Belegen?",
       "options": [
-        "Man muss sie immer mitschicken",
         "Man soll sie aufbewahren, weil das Amt den Abzug sonst streichen kann",
+        "Man muss sie immer mitschicken",
         "Man braucht sie nicht, wenn der Abzug klein ist",
         "Man soll sie erst nach drei Jahren wegwerfen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -288,12 +288,12 @@
       "question": "Was möchte der erste Nachbar vor allem?",
       "options": [
         "Dass keine Feste mehr stattfinden",
-        "Dass man ihn vorher informiert",
         "Dass die Feste früher aufhören müssen",
+        "Dass man ihn vorher informiert",
         "Dass die Verwaltung eingreift"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   }
 ]

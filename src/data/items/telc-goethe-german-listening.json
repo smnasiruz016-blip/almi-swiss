@@ -13,15 +13,15 @@
       "transcript": "Naechster Halt: Zuerich Hardbruecke. Reisende nach Winterthur steigen bitte hier um. Der Anschlusszug faehrt auf Gleis 3 in acht Minuten.",
       "question": "Was sollen Reisende nach Winterthur tun?",
       "options": [
-        "Im Zug bleiben",
         "In Hardbruecke umsteigen",
+        "Im Zug bleiben",
         "Acht Minuten warten und zurueckfahren",
         "Auf Gleis 8 gehen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -39,15 +39,15 @@
       "transcript": "Guten Tag, hier ist die Praxis Dr. Ammann. Ihr Termin von Donnerstag muss leider verschoben werden. Wir koennen Ihnen Freitag um 10 Uhr oder Montag um 14 Uhr anbieten. Bitte rufen Sie kurz zurueck.",
       "question": "Was ist das Problem?",
       "options": [
-        "Der Termin am Donnerstag muss verschoben werden",
         "Die Praxis ist geschlossen",
+        "Der Termin am Donnerstag muss verschoben werden",
         "Der Arzt ist krank",
         "Der Termin kostet mehr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -90,14 +90,14 @@
       "question": "Warum ruft die Schule an?",
       "options": [
         "Der Sohn ist krank",
-        "Der Sohn hat sein Sportzeug vergessen",
         "Der Sportunterricht faellt aus",
+        "Der Sohn hat sein Sportzeug vergessen",
         "Der Sohn kommt spaeter nach Hause"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -140,14 +140,14 @@
       "question": "Was gilt fuer das Billett?",
       "options": [
         "Es muss neu geloest werden",
-        "Es bleibt gueltig",
+        "Es kostet heute weniger",
         "Es gilt nur bis zum Bahnhof",
-        "Es kostet heute weniger"
+        "Es bleibt gueltig"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -165,15 +165,15 @@
       "transcript": "Guten Tag, Sie haben eine Waschmaschine bei uns bestellt. Die Lieferung ist fuer Dienstag zwischen 8 und 12 Uhr geplant. Bitte sorgen Sie dafuer, dass jemand zu Hause ist.",
       "question": "Was soll die Kundin tun?",
       "options": [
-        "Die Maschine abholen",
         "Am Dienstagvormittag zu Hause sein",
+        "Die Maschine abholen",
         "Einen neuen Termin abmachen",
         "Die Rechnung bezahlen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -265,15 +265,15 @@
       "transcript": "Gruezi, hier ist der Hauswart. Am Montag kommt der Sanitaer wegen des Wasserhahns. Er kommt zwischen 13 und 15 Uhr. Passt Ihnen das, oder soll ich einen anderen Termin abmachen?",
       "question": "Was moechte der Hauswart wissen?",
       "options": [
-        "Ob der Termin passt",
-        "Wo der Wasserhahn ist",
         "Wer bezahlt",
+        "Wo der Wasserhahn ist",
+        "Ob der Termin passt",
         "Ob der Sanitaer kommen soll"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -292,14 +292,14 @@
       "question": "Wohin kann man Buecher jederzeit zurueckgeben?",
       "options": [
         "An die Ausleihe",
-        "In die Box vor dem Eingang",
+        "Zur Information",
         "In den Lesesaal",
-        "Zur Information"
+        "In die Box vor dem Eingang"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -341,15 +341,15 @@
       "transcript": "Der Intercity nach Basel hat heute rund zehn Minuten Verspaetung. Grund dafuer ist eine Stoerung im Betriebsablauf. Wir bitten um Entschuldigung.",
       "question": "Warum hat der Zug Verspaetung?",
       "options": [
-        "Wegen des Wetters",
         "Wegen einer Stoerung im Betriebsablauf",
+        "Wegen des Wetters",
         "Wegen Bauarbeiten",
         "Wegen zu vieler Reisender"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },

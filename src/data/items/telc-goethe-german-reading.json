@@ -90,14 +90,14 @@
       "question": "Wann soll der Unterricht stattfinden?",
       "options": [
         "Jeden Tag nach 17 Uhr",
-        "Einmal pro Woche am spaeten Nachmittag",
         "Am Wochenende",
+        "Einmal pro Woche am spaeten Nachmittag",
         "Zweimal pro Woche am Morgen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -140,14 +140,14 @@
       "question": "Was passiert bei zu spaeter Rueckgabe?",
       "options": [
         "Man darf nichts mehr ausleihen",
-        "Es kostet 50 Rappen pro Tag und Medium",
+        "Man zahlt einmalig 50 Rappen",
         "Die Ausleihe verlaengert sich automatisch",
-        "Man zahlt einmalig 50 Rappen"
+        "Es kostet 50 Rappen pro Tag und Medium"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -165,15 +165,15 @@
       "passage": "Fuer die Fruehlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent, von Maerz bis Juni. Erfahrung ist keine Bedingung, gute Deutschkenntnisse und Freude am Kundenkontakt sind wichtig. Bewerbung bitte per E-Mail.",
       "question": "Was wird von der Aushilfe erwartet?",
       "options": [
-        "Mehrjaehrige Erfahrung im Gartenbau",
         "Gute Deutschkenntnisse und Freude am Kundenkontakt",
+        "Mehrjaehrige Erfahrung im Gartenbau",
         "Eine abgeschlossene Lehre",
         "Arbeit das ganze Jahr"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -266,14 +266,14 @@
       "question": "Fuer wen ist der Kurs gedacht?",
       "options": [
         "Fuer Anfaenger ohne Vorkenntnisse",
-        "Fuer Personen mit Niveau A2",
         "Nur fuer Berufstaetige",
+        "Fuer Personen mit Niveau A2",
         "Fuer Kinder und Jugendliche"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -292,14 +292,14 @@
       "question": "Worum bittet Sonja?",
       "options": [
         "Die Blumen zu giessen",
-        "Die Post hereinzunehmen",
+        "Sie am Freitag abzuholen",
         "Den Schluessel abzugeben",
-        "Sie am Freitag abzuholen"
+        "Die Post hereinzunehmen"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -341,15 +341,15 @@
       "passage": "Fuer die Reparatur der Steckdose in der Kueche verrechnen wir 145 Franken. Der Betrag ist innert 30 Tagen zu bezahlen. Bei Fragen zur Rechnung wenden Sie sich bitte an unser Buero.",
       "question": "Bis wann muss bezahlt werden?",
       "options": [
-        "Sofort",
         "Innert 30 Tagen",
+        "Sofort",
         "Innert 14 Tagen",
         "Erst nach einer Mahnung"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },

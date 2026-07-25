@@ -62,9 +62,9 @@
     "payload": {
       "transcript": "So, das macht zusammen zwölf Franken vierzig. Zahlen Sie bar oder mit Karte? … Mit Karte, gut. Bitte hier eingeben. Danke vielmal, schönen Tag!",
       "question": "Wie viel kostet es?",
-      "options": ["2.40", "12.40", "12.14", "20.40"]
+      "options": ["2.40", "12.14", "12.40", "20.40"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -79,9 +79,9 @@
     "payload": {
       "transcript": "Guten Tag! Entschuldigung, ich bin Frau Lehmann von nebenan. Ich habe kein Salz mehr. Haben Sie vielleicht ein bisschen Salz für mich? Ich gebe es Ihnen morgen zurück.",
       "question": "Was möchte Frau Lehmann?",
-      "options": ["Salz", "Zucker", "Milch", "Einen Schlüssel"]
+      "options": ["Einen Schlüssel", "Zucker", "Milch", "Salz"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -178,12 +178,12 @@
       "question": "Wo ist die Post?",
       "options": [
         "Bei der Ampel links",
-        "Neben der Apotheke, auf der linken Seite",
         "Geradeaus nach fünf Minuten auf der rechten Seite",
+        "Neben der Apotheke, auf der linken Seite",
         "Zweihundert Meter vor der Ampel"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -199,13 +199,13 @@
       "transcript": "Noch eine Information zum Kurs: Nächste Woche ist am Montag Feiertag. Wir haben also keinen Unterricht. Dafür treffen wir uns am Mittwoch, gleiche Zeit, gleiches Zimmer. Bitte schreiben Sie das auf.",
       "question": "Was ändert sich nächste Woche?",
       "options": [
-        "Der Unterricht ist am Mittwoch statt am Montag",
+        "Es gibt nächste Woche keinen Unterricht",
         "Der Unterricht ist in einem anderen Zimmer",
         "Der Unterricht beginnt später",
-        "Es gibt nächste Woche keinen Unterricht"
+        "Der Unterricht ist am Mittwoch statt am Montag"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -221,13 +221,13 @@
       "transcript": "Also, gegen die Erkältung nehmen Sie das hier: morgens und abends eine Tablette, immer nach dem Essen. Nicht mehr als zwei pro Tag. Trinken Sie viel Wasser. Wenn es nach fünf Tagen nicht besser ist, gehen Sie bitte zum Arzt.",
       "question": "Was soll die Person tun, wenn es nach fünf Tagen nicht besser ist?",
       "options": [
-        "Mehr Tabletten nehmen",
         "Zum Arzt gehen",
+        "Mehr Tabletten nehmen",
         "Noch fünf Tage warten",
         "Wieder in die Apotheke kommen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -283,12 +283,12 @@
       "question": "Was schlägt die erste Kollegin vor?",
       "options": [
         "Den Bus früher zu nehmen",
-        "Im Frühling eine Woche mit dem Velo zu fahren",
         "Näher bei der Arbeit zu wohnen",
+        "Im Frühling eine Woche mit dem Velo zu fahren",
         "Im Winter zu Fuss zu gehen"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   }
 ]

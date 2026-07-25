@@ -11,9 +11,9 @@
     "payload": {
       "passage": "Bäckerei Meier\n\nMontag bis Freitag: 6.00–18.30\nSamstag: 6.00–16.00\nSonntag: geschlossen",
       "question": "Wann ist die Bäckerei zu?",
-      "options": ["Am Samstag", "Am Sonntag", "Am Montag", "Am Freitag"]
+      "options": ["Am Sonntag", "Am Samstag", "Am Montag", "Am Freitag"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -28,9 +28,9 @@
     "payload": {
       "passage": "Hallo! Wir treffen uns um 14 Uhr vor dem Bahnhof. Bring bitte einen Regenschirm mit, es regnet. Bis später!",
       "question": "Was sollen Sie mitbringen?",
-      "options": ["Einen Regenschirm", "Ein Buch", "Kaffee", "Ein Ticket"]
+      "options": ["Ein Buch", "Einen Regenschirm", "Kaffee", "Ein Ticket"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -80,13 +80,13 @@
       "passage": "Liebe Nachbarn\n\nAm Samstag kommt ein neuer Kühlschrank. Die Männer brauchen den Lift von 9 bis 11 Uhr.\n\nEntschuldigung und danke!\nFamilie Bühler, Wohnung 5",
       "question": "Was passiert am Samstag von 9 bis 11 Uhr?",
       "options": [
-        "Der Lift wird gebraucht",
-        "Die Waschküche ist zu",
         "Es gibt ein Fest",
+        "Die Waschküche ist zu",
+        "Der Lift wird gebraucht",
         "Der Strom ist weg"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -101,9 +101,9 @@
     "payload": {
       "passage": "Bus 12 — Richtung Spital\n\nab Dorfplatz: 7.05 · 7.35 · 8.05 · 8.35\nFahrzeit bis Spital: 20 Minuten\n\nAm Wochenende fährt der Bus jede Stunde.",
       "question": "Sie haben um 8.00 Uhr einen Termin im Spital. Welchen Bus nehmen Sie?",
-      "options": ["7.05", "7.35", "8.05", "8.35"]
+      "options": ["7.05", "8.35", "8.05", "7.35"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -119,11 +119,11 @@
       "passage": "Guten Morgen Frau Studer\n\nIch bin krank und kann heute nicht {{1}}. Ich gehe um 10 Uhr zum {{2}}. Morgen bin ich hoffentlich wieder da.\n\nFreundliche {{3}}\nAmina",
       "gaps": [
         { "id": 1, "options": ["arbeiten", "essen", "schlafen", "kaufen"] },
-        { "id": 2, "options": ["Arzt", "Bahnhof", "Nachbarn", "Markt"] },
-        { "id": 3, "options": ["Grüsse", "Tage", "Wochen", "Namen"] }
+        { "id": 2, "options": ["Bahnhof", "Arzt", "Nachbarn", "Markt"] },
+        { "id": 3, "options": ["Wochen", "Tage", "Grüsse", "Namen"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }, { "id": 3, "index": 2 }] },
     "maxPoints": 3
   },
   {
@@ -138,9 +138,9 @@
     "payload": {
       "passage": "AKTION diese Woche\n\nÄpfel, 1 kg: statt 4.50 nur 3.20\nMilch, 1 Liter: 1.60\nKäse, 200 g: 4.80\n\nGültig bis Samstag.",
       "question": "Wie viel kosten die Äpfel jetzt?",
-      "options": ["4.50", "3.20", "1.60", "4.80"]
+      "options": ["3.20", "4.50", "1.60", "4.80"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -195,13 +195,13 @@
       "passage": "Abfall\n\nDer Kehricht kommt am Dienstag und am Freitag, immer am Morgen früh.\nBitte stellen Sie die Säcke erst am Abend vorher hinaus.\n\nPapier: jeden ersten Donnerstag im Monat.",
       "question": "Wann stellen Sie den Sack für Dienstag hinaus?",
       "options": [
-        "Am Montagabend",
         "Am Dienstagabend",
+        "Am Montagabend",
         "Am Sonntagmorgen",
         "Am ersten Donnerstag im Monat"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -238,12 +238,12 @@
     "payload": {
       "passage": "Sie arbeiten diese Woche von Montag {{1}} Donnerstag. Am Montag fangen Sie um 7 Uhr {{2}}. Am Donnerstag haben Sie {{3}} 16 Uhr Feierabend. Der Freitag ist frei.",
       "gaps": [
-        { "id": 1, "options": ["bis", "seit", "für", "ohne"] },
+        { "id": 1, "options": ["ohne", "seit", "für", "bis"] },
         { "id": 2, "options": ["an", "auf", "aus", "ab"] },
-        { "id": 3, "options": ["um", "in", "am", "zu"] }
+        { "id": 3, "options": ["in", "um", "am", "zu"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 3 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
     "maxPoints": 3
   },
   {

@@ -11,9 +11,9 @@
     "payload": {
       "passage": "Boulangerie Perret\n\nDu lundi au vendredi : 6h00–18h30\nSamedi : 6h00–16h00\nDimanche : fermé",
       "question": "Quand la boulangerie est-elle fermée ?",
-      "options": ["Le samedi", "Le dimanche", "Le lundi", "Le vendredi"]
+      "options": ["Le dimanche", "Le samedi", "Le lundi", "Le vendredi"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -28,9 +28,9 @@
     "payload": {
       "passage": "Salut ! On se retrouve à 14h devant la gare. Prends un parapluie, il pleut. À tout à l'heure !",
       "question": "Que devez-vous prendre ?",
-      "options": ["Un parapluie", "Un livre", "Du café", "Un billet"]
+      "options": ["Un livre", "Un parapluie", "Du café", "Un billet"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -80,13 +80,13 @@
       "passage": "Chers voisins,\n\nSamedi, on nous livre un nouveau frigo. Les livreurs ont besoin de l'ascenseur de 9h à 11h.\n\nDésolés et merci !\nFamille Rochat, appartement 5",
       "question": "Que se passe-t-il samedi de 9h à 11h ?",
       "options": [
-        "L'ascenseur est utilisé",
-        "La buanderie est fermée",
         "Il y a une fête",
+        "La buanderie est fermée",
+        "L'ascenseur est utilisé",
         "Il n'y a pas d'électricité"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -101,9 +101,9 @@
     "payload": {
       "passage": "Bus 12 — direction Hôpital\n\ndépart Place du Village : 7h05 · 7h35 · 8h05 · 8h35\nDurée jusqu'à l'hôpital : 20 minutes\n\nLe week-end, le bus passe toutes les heures.",
       "question": "Vous avez rendez-vous à 8h00 à l'hôpital. Quel bus prenez-vous ?",
-      "options": ["7h05", "7h35", "8h05", "8h35"]
+      "options": ["7h05", "8h35", "8h05", "7h35"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -119,11 +119,11 @@
       "passage": "Bonjour Madame Bovay,\n\nJe suis malade et je ne peux pas {{1}} aujourd'hui. Je vais chez le {{2}} à 10h. Demain, je serai là, j'espère.\n\nMeilleures {{3}}\nAmina",
       "gaps": [
         { "id": 1, "options": ["travailler", "manger", "dormir", "acheter"] },
-        { "id": 2, "options": ["médecin", "voisin", "marché", "train"] },
-        { "id": 3, "options": ["salutations", "journées", "semaines", "années"] }
+        { "id": 2, "options": ["voisin", "médecin", "marché", "train"] },
+        { "id": 3, "options": ["semaines", "journées", "salutations", "années"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }, { "id": 3, "index": 2 }] },
     "maxPoints": 3
   },
   {
@@ -138,9 +138,9 @@
     "payload": {
       "passage": "ACTION cette semaine\n\nPommes, 1 kg : au lieu de 4.50, seulement 3.20\nLait, 1 litre : 1.60\nFromage, 200 g : 4.80\n\nValable jusqu'à samedi.",
       "question": "Combien coûtent les pommes maintenant ?",
-      "options": ["4.50", "3.20", "1.60", "4.80"]
+      "options": ["3.20", "4.50", "1.60", "4.80"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -195,13 +195,13 @@
       "passage": "Déchets\n\nLes ordures sont ramassées le mardi et le vendredi, tôt le matin.\nMerci de sortir les sacs seulement la veille au soir.\n\nPapier : le premier jeudi du mois.",
       "question": "Quand sortez-vous le sac pour le mardi ?",
       "options": [
-        "Le lundi soir",
         "Le mardi soir",
+        "Le lundi soir",
         "Le dimanche matin",
         "Le premier jeudi du mois"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -238,12 +238,12 @@
     "payload": {
       "passage": "Cette semaine, vous travaillez du lundi {{1}} jeudi. Le lundi, vous commencez {{2}} 7h. Le jeudi, vous terminez {{3}} 16h. Le vendredi est libre.",
       "gaps": [
-        { "id": 1, "options": ["au", "depuis", "pour", "sans"] },
+        { "id": 1, "options": ["sans", "depuis", "pour", "au"] },
         { "id": 2, "options": ["à", "en", "de", "par"] },
-        { "id": 3, "options": ["à", "dans", "sur", "vers le"] }
+        { "id": 3, "options": ["dans", "à", "sur", "vers le"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 3 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
     "maxPoints": 3
   },
   {

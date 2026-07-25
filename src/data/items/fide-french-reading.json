@@ -890,7 +890,7 @@
     "prompt": "Lisez le menu. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Menu de la semaine — cantine\n\nLundi : spaghettis à la sauce tomate\nMardi : escalope de poulet et riz\nMercredi : gratin de légumes\nJeudi : filets de poisson et pommes de terre\nVendredi : soupe et buffet de salades\n\nChaque menu coûte 12 francs. Le vendredi, la cantine est ouverte seulement jusqu'à 14h.",
-      "question": "Affirmation : selon le menu, il y a du poulet le mardi.",
+      "question": "Affirmation : selon le menu, le mardi on sert de l’escalope de poulet.",
       "options": [
         "Vrai",
         "Faux"
@@ -1062,7 +1062,7 @@
     "prompt": "Lisez l'affiche. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Affiche de la régie\n\nChères habitantes, chers habitants,\nDe lundi à mercredi la semaine prochaine, l'ascenseur sera révisé. Pendant ce temps, il ne sera pas disponible.\nMerci d'utiliser les escaliers. Si vous avez besoin d'aide pour porter des affaires, annoncez-vous auprès du concierge.\nDès jeudi, l'ascenseur fonctionnera de nouveau.\n\nLa régie",
-      "question": "Affirmation : selon l’affiche, l’ascenseur ne fonctionnera pas le lundi.",
+      "question": "Affirmation : selon l’affiche, l’ascenseur ne sera pas disponible le lundi.",
       "options": [
         "Vrai",
         "Faux"
@@ -1234,7 +1234,7 @@
     "prompt": "Lisez le calendrier. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Manifestations du quartier — juin\n\nSa 7 juin : marché aux puces à la maison de quartier, 9h–15h\nMe 11 juin : conférence « bien manger », 19h\nSa 21 juin : fête des enfants au parc, 14h\nVe 27 juin : concert dans la salle, 20h\n\nToutes les manifestations sont gratuites. En cas de mauvais temps, les activités en plein air ont lieu dans la salle.",
-      "question": "Affirmation : selon le calendrier, la fête des enfants a lieu un samedi.",
+      "question": "Affirmation : selon le calendrier, la fête des enfants a lieu au parc.",
       "options": [
         "Vrai",
         "Faux"
@@ -1922,7 +1922,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Menu de midi (du lundi au vendredi)\n\nSoupe du jour ................. 6.–\nAssiette de salade ........... 12.–\nPlat du jour avec viande ..... 18.50\nPlat du jour végétarien ...... 16.–\nDessert ...................... 6.50\n\nUne boisson est comprise dans le menu de midi. Le week-end, c'est la carte normale.",
-      "question": "Affirmation : selon la carte, le plat du jour avec viande coûte 18.50 francs.",
+      "question": "Affirmation : selon la carte, le plat du jour avec viande coûte 18.50.",
       "options": [
         "Vrai",
         "Faux"

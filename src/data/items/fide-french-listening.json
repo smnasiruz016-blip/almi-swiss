@@ -63,7 +63,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici le secrétariat de l'école des Vergers. Demain, la sortie à la piscine est annulée : le car est en panne. Les élèves ont donc cours normalement en classe, aux heures habituelles. Il n'est pas nécessaire d'apporter les affaires de bain. Merci d'en informer votre enfant.",
-      "question": "Affirmation : demain, les cours commencent plus tard que d'habitude.",
+      "question": "Affirmation : selon le message, la sortie à la piscine de demain est annulée.",
       "options": [
         "Vrai",
         "Faux"
@@ -71,7 +71,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -191,7 +191,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Madame Kovač, ici le service clientèle de votre caisse maladie. Nous avons bien reçu votre facture. Une partie reste toutefois à votre charge, car votre franchise n'est pas encore atteinte cette année. Ce n'est pas une erreur de notre part et ce n'est pas la peine de renvoyer le document. Si vous souhaitez des explications, notre ligne est ouverte du lundi au vendredi. Bonne journée.",
-      "question": "Affirmation : Madame Kovač doit renvoyer la facture une deuxième fois.",
+      "question": "Affirmation : selon le message, une partie de la facture reste à la charge de Madame Kovač.",
       "options": [
         "Vrai",
         "Faux"
@@ -199,7 +199,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -523,7 +523,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Allô, c'est Madame Rey, votre voisine. On part une semaine dès demain. Est-ce que tu pourrais arroser mes plantes sur le balcon, une fois par jour ? La clé est chez toi comme d'habitude. Une fois par jour, ça suffit. Je te ramènerai quelque chose de vacances. Merci beaucoup, et dis-moi si ça ne joue pas !",
-      "question": "Affirmation : selon le message, il faut arroser les plantes deux fois par jour.",
+      "question": "Affirmation : selon le message, il faut arroser les plantes une fois par jour.",
       "options": [
         "Vrai",
         "Faux"
@@ -531,7 +531,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -651,7 +651,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la crèche des Tilleuls. Nous vous informons : demain, nous fermons déjà à 14h, car l'équipe a une formation continue. Merci de venir chercher votre enfant avant 14h. Si ce n'est pas possible pour vous, annoncez-vous aujourd'hui, nous chercherons une solution. Merci de votre compréhension.",
-      "question": "Affirmation : selon le message, la crèche ferme demain seulement le soir.",
+      "question": "Affirmation : selon le message, la crèche ferme demain à 14h.",
       "options": [
         "Vrai",
         "Faux"
@@ -659,7 +659,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -907,7 +907,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la pharmacie du centre. Nous vous informons : lundi prochain est un jour férié, la pharmacie sera donc fermée. Mardi, nous serons de nouveau là normalement, de 8h à 18h30. En cas d'urgence, vous trouverez la pharmacie de garde près de l'hôpital. Merci et bonnes fêtes.",
-      "question": "Affirmation : selon le message, la pharmacie est ouverte lundi.",
+      "question": "Affirmation : selon le message, la pharmacie est fermée lundi.",
       "options": [
         "Vrai",
         "Faux"
@@ -915,7 +915,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1035,7 +1035,7 @@
     "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Chères clientes, chers clients, le parking ferme à 22h. Merci de sortir votre voiture avant cette heure. Payez votre ticket à l'automate près de la sortie, avant d'aller à votre voiture. L'automate accepte les pièces et les cartes. Merci de votre visite.",
-      "question": "Affirmation : selon l'annonce, on paie le ticket directement à la voiture.",
+      "question": "Affirmation : selon l’annonce, le parking ferme à 22h.",
       "options": [
         "Vrai",
         "Faux"
@@ -1043,7 +1043,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1163,7 +1163,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici l'école du Parc. Nous devons vous informer : la sortie de demain est reportée à cause de la météo. La nouvelle date est le mardi suivant, à la même heure. Merci de noter le nouveau jour. Nous vous prions de nous excuser et vous remercions de votre compréhension.",
-      "question": "Affirmation : selon le message, la sortie a lieu demain comme prévu.",
+      "question": "Affirmation : selon le message, la sortie de demain est reportée.",
       "options": [
         "Vrai",
         "Faux"
@@ -1171,7 +1171,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1291,7 +1291,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Madame Weber, ici la pharmacie du marché. Votre médicament commandé est arrivé et vous attend. Vous pouvez venir le chercher cette semaine ; nous sommes ouverts du lundi au vendredi jusqu'à 18h30 et le samedi jusqu'à 16h. Merci d'apporter l'ordonnance. Bonne journée.",
-      "question": "Affirmation : selon le message, la pharmacie est ouverte le dimanche.",
+      "question": "Affirmation : selon le message, le médicament de Madame Weber est arrivé.",
       "options": [
         "Vrai",
         "Faux"
@@ -1299,7 +1299,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1419,7 +1419,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la régie. Nous vous informons : demain, mardi, l'eau sera coupée de 9h à 12h, car on répare une conduite. Merci de fermer vos robinets pendant ce temps. L'après-midi, l'eau coulera de nouveau normalement. Merci de votre compréhension.",
-      "question": "Affirmation : selon le message, l'eau est coupée toute la journée de mardi.",
+      "question": "Affirmation : selon le message, l’eau sera coupée de 9h à 12h mardi.",
       "options": [
         "Vrai",
         "Faux"
@@ -1427,7 +1427,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },

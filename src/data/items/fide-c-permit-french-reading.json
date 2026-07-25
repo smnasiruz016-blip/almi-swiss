@@ -11,9 +11,9 @@
     "payload": {
       "passage": "Abonnement mobile — facture de juin\n\nAbonnement de base : 29.00\nDonnées supplémentaires : 5.00\nTotal : 34.00\n\nPayable jusqu'au 15 juillet",
       "question": "Combien devez-vous payer ?",
-      "options": ["29.00", "5.00", "34.00", "15.00"]
+      "options": ["34.00", "5.00", "29.00", "15.00"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -30,12 +30,12 @@
       "question": "Vous voulez retirer de l'argent le samedi. Qu'est-ce qui est possible ?",
       "options": [
         "Le guichet le matin",
-        "Le guichet l'après-midi",
         "Le bancomat",
+        "Le guichet l'après-midi",
         "Rien, la banque est complètement fermée"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -95,9 +95,9 @@
     "payload": {
       "passage": "Salut,\n\nJ'ai échangé ton horaire aujourd'hui. Tu travailles maintenant le vendredi et non le jeudi. Le chef est déjà au courant.\n\nÀ demain\nLuca",
       "question": "Quand la personne travaille-t-elle maintenant ?",
-      "options": ["Le jeudi", "Le vendredi", "Le samedi", "Aujourd'hui"]
+      "options": ["Le jeudi", "Le samedi", "Le vendredi", "Aujourd'hui"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -112,9 +112,9 @@
     "payload": {
       "passage": "Fiche de salaire — avril\n\nSalaire brut : 4 200.00\nDéductions (AVS, caisse de pension, accident) : 620.00\nSalaire net : 3 580.00\n\nLe montant est versé le 25 du mois.",
       "question": "Combien la personne reçoit-elle sur son compte ?",
-      "options": ["4 200.00", "620.00", "3 580.00", "25.00"]
+      "options": ["4 200.00", "620.00", "25.00", "3 580.00"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -130,13 +130,13 @@
       "passage": "Madame,\n\nNous n'avons pas encore reçu votre déclaration d'impôt. Merci de nous la faire parvenir jusqu'au 31 mars.\n\nSi vous avez besoin de plus de temps, vous pouvez demander une prolongation de délai. C'est gratuit, mais vous devez le faire avant le 31 mars.\n\nAvec nos meilleures salutations\nAdministration fiscale de la commune",
       "question": "Que peut faire Madame Yilmaz si elle a besoin de plus de temps ?",
       "options": [
-        "Rien — le 31 mars s'applique toujours",
         "Demander une prolongation de délai avant le 31 mars",
+        "Rien — le 31 mars s'applique toujours",
         "Téléphoner après le 31 mars pour expliquer",
         "Payer une amende et envoyer plus tard"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -152,11 +152,11 @@
       "passage": "Vous souhaitez vous {{1}} au cours. Remplissez le formulaire et envoyez-le {{2}} secrétariat. Le cours commence {{3}} septembre et dure dix semaines.",
       "gaps": [
         { "id": 1, "options": ["inscrire", "désinscrire", "ouvrir", "accepter"] },
-        { "id": 2, "options": ["au", "sur", "de", "hors"] },
-        { "id": 3, "options": ["en", "à", "vers", "pour"] }
+        { "id": 2, "options": ["sur", "au", "de", "hors"] },
+        { "id": 3, "options": ["vers", "à", "en", "pour"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }, { "id": 3, "index": 2 }] },
     "maxPoints": 3
   },
   {
@@ -212,12 +212,12 @@
       "question": "Qu'est-ce qui est exact ?",
       "options": [
         "Les locataires doivent être chez eux pendant les travaux",
-        "On travaille aussi le week-end",
+        "Les travaux ne concernent que la cage d'escalier et seulement les jours ouvrables",
         "Les fenêtres des appartements sont remplacées",
-        "Les travaux ne concernent que la cage d'escalier et seulement les jours ouvrables"
+        "On travaille aussi le week-end"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
     "maxPoints": 1
   },
   {
@@ -234,12 +234,12 @@
       "question": "Pourquoi Monsieur Mehta quitte-t-il l'entreprise ?",
       "options": [
         "L'entreprise l'a licencié",
-        "Il a démissionné lui-même",
         "Son contrat a pris fin automatiquement après cinq ans",
+        "Il a démissionné lui-même",
         "Ce n'est pas indiqué dans le certificat"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -254,12 +254,12 @@
     "payload": {
       "passage": "Avant un traitement important, vous recevez un devis. Il indique ce que le traitement {{1}} à peu près. En général, l'assurance de base ne paie {{2}} chez le dentiste. Renseignez-vous donc {{3}} avant d'accepter.",
       "gaps": [
-        { "id": 1, "options": ["coûte", "reçoit", "paie", "demande"] },
+        { "id": 1, "options": ["demande", "reçoit", "paie", "coûte"] },
         { "id": 2, "options": ["rien", "tout", "la moitié", "toujours"] },
-        { "id": 3, "options": ["avant", "après", "pendant", "sans"] }
+        { "id": 3, "options": ["après", "avant", "pendant", "sans"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 3 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
     "maxPoints": 3
   },
   {
@@ -277,11 +277,11 @@
       "options": [
         "Tout le monde doit en faire une",
         "Personne ne doit en faire une",
-        "Cela dépend du pays où le permis a été délivré — le service des automobiles vous le dira",
-        "La course de contrôle remplace le permis suisse"
+        "La course de contrôle remplace le permis suisse",
+        "Cela dépend du pays où le permis a été délivré — le service des automobiles vous le dira"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {

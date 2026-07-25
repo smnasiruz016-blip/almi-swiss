@@ -96,9 +96,9 @@
     "payload": {
       "passage": "Soupe de pommes de terre pour quatre personnes\n\nIl vous faut : 1 kg de pommes de terre, 2 oignons, 1 litre d'eau, du sel et du poivre.\n\nCoupez les pommes de terre et les oignons en petits morceaux. Faites cuire le tout pendant 20 minutes. Mixez. Salez et poivrez.\n\nLa soupe est encore meilleure le lendemain.",
       "question": "Combien de temps la soupe doit-elle cuire ?",
-      "options": ["4 minutes", "20 minutes", "1 heure", "Une journée"]
+      "options": ["4 minutes", "1 heure", "20 minutes", "Une journée"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -115,12 +115,12 @@
       "question": "Quelle est une raison pour laquelle moins de gens ont leur propre voiture ?",
       "options": [
         "Les voitures sont interdites",
-        "Les places de parc sont chères et il y a plus de pistes cyclables",
+        "Les transports publics sont devenus plus chers",
         "Les jeunes n'ont pas le droit de passer le permis",
-        "Les transports publics sont devenus plus chers"
+        "Les places de parc sont chères et il y a plus de pistes cyclables"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -136,11 +136,11 @@
       "passage": "Madame, Monsieur,\n\nJe souhaiterais réserver une chambre double {{1}} deux nuits, du 3 au 5 juin. Merci de me dire {{2}} le petit-déjeuner est compris dans le prix. Nous arrivons {{3}} train et cherchons un hôtel près de la gare.\n\nAvec mes meilleures salutations\nS. Kravitz",
       "gaps": [
         { "id": 1, "options": ["pour", "depuis", "chez", "hors"] },
-        { "id": 2, "options": ["si", "que", "quand", "comme"] },
-        { "id": 3, "options": ["en", "sur", "de", "dans"] }
+        { "id": 2, "options": ["que", "si", "quand", "comme"] },
+        { "id": 3, "options": ["de", "sur", "en", "dans"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 1 }, { "id": 3, "index": 2 }] },
     "maxPoints": 3
   },
   {
@@ -195,13 +195,13 @@
       "passage": "Le vélo dans le train\n\nDans les trains régionaux, vous pouvez emporter votre vélo sans réservation. Il vous faut toutefois un billet vélo.\n\nDans les trains grandes lignes, une réservation est nécessaire. Les places sont limitées et vite complètes en été.\n\nLes vélos pliables comptent comme bagage et sont toujours gratuits.",
       "question": "Que dit le texte des vélos pliables ?",
       "options": [
-        "Ils nécessitent une réservation",
-        "Ils nécessitent un billet vélo",
         "Ils comptent comme bagage et ne coûtent rien",
+        "Ils nécessitent un billet vélo",
+        "Ils nécessitent une réservation",
         "Ils sont interdits dans les trains grandes lignes"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -260,12 +260,12 @@
     "payload": {
       "passage": "Presque tout le monde connaît ça : une tâche est importante, {{1}} on ne la fait quand même pas. Les chercheurs disent que cela a moins à voir avec la paresse {{2}} avec les émotions. Nous remettons les choses à plus tard parce qu'elles nous sont désagréables. Une astuce simple aide : on décide de travailler seulement cinq minutes. La plupart du temps, on continue {{3}}.",
       "gaps": [
-        { "id": 1, "options": ["mais", "car", "parce que", "que"] },
+        { "id": 1, "options": ["que", "car", "parce que", "mais"] },
         { "id": 2, "options": ["qu'", "comme", "si", "alors"] },
-        { "id": 3, "options": ["ensuite", "avant", "jamais", "hier"] }
+        { "id": 3, "options": ["avant", "ensuite", "jamais", "hier"] }
       ]
     },
-    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 0 }, { "id": 2, "index": 0 }, { "id": 3, "index": 0 }] },
+    "answer": { "type": "CLOZE", "correct": [{ "id": 1, "index": 3 }, { "id": 2, "index": 0 }, { "id": 3, "index": 1 }] },
     "maxPoints": 3
   },
   {
