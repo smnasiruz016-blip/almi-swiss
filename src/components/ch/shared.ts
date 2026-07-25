@@ -12,6 +12,9 @@ import type {
 import { LANGUAGE_TTS } from "@/lib/ch/types";
 
 export interface RunnerItem {
+  /** Stable server id (hash of language|track|exam|skill|title). Posted back so the
+   *  server re-loads the item and grades against its OWN key — the answer never ships. */
+  id: string;
   /** Which national language this item is set in. Required: the runner cannot pick a
    *  TTS voice, or label a skill, without it — and guessing is the is-IS bug.  hygiene-allow
    */
@@ -27,17 +30,19 @@ export interface RunnerItem {
    *  passed at A1. A task is judged at ITS level or not at all. */
   cefr?: CefrLevel;
   payload: unknown;
-  answer: ObjectiveAnswer | null;
   maxPoints: number;
 }
 
-export type ProductiveItem = Omit<RunnerItem, "answer" | "maxPoints">;
+export type ProductiveItem = Omit<RunnerItem, "maxPoints">;
 
 export interface SubmitResult {
   ok: boolean;
   points: number;
   maxPoints: number;
   correct: boolean;
+  /** The correct answer, returned by the server ONLY on the practice path (for the
+   *  post-submit reveal). The mock path leaves this undefined — no key. */
+  answer?: ObjectiveAnswer | null;
 }
 
 /** The BCP-47 voice tag for listening audio, for the language the item is SET IN.
@@ -57,10 +62,15 @@ export function ttsLang(language: SwissLanguage): string {
   return LANGUAGE_TTS[language];
 }
 
-/** POST a graded/echoed attempt to the submit API. DB-optional, never throws. */
-export async function submitAttempt(body: unknown): Promise<SubmitResult | null> {
+/** POST a graded/echoed attempt to the submit API. DB-optional, never throws. The
+ *  endpoint chooses the reveal policy server-side: "/api/ch/submit" (practice) returns
+ *  the correct answer post-submit; "/api/ch/mock/submit" withholds it. */
+export async function submitAttempt(
+  body: unknown,
+  endpoint: "/api/ch/submit" | "/api/ch/mock/submit" = "/api/ch/submit",
+): Promise<SubmitResult | null> {
   try {
-    const res = await fetch("/api/ch/submit", {
+    const res = await fetch(endpoint, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),

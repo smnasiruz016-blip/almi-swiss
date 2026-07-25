@@ -8,7 +8,7 @@ import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug } from "@/lib/ch/registry";
 import { isFreeSkill } from "@/lib/ch/types";
-import { pickPractice } from "@/lib/ch/items";
+import { pickPractice, stableItemId } from "@/lib/ch/items";
 import { MockRunner, type MockSection } from "@/components/ch/MockRunner";
 
 export default async function MockPage({
@@ -45,6 +45,7 @@ export default async function MockPage({
       skill,
       objective,
       items: items.map((it) => ({
+        id: stableItemId(it),
         language: it.language,
         title: it.title,
         prompt: it.prompt,
@@ -52,7 +53,6 @@ export default async function MockPage({
         skill: it.skill,
         taskType: it.taskType,
         payload: it.payload,
-        answer: it.answer,
         maxPoints: it.maxPoints,
       })),
     };

@@ -9,7 +9,7 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug, SKILL_LABELS, goalCefrFor } from "@/lib/ch/registry";
 import { isFreeSkill } from "@/lib/ch/types";
 import type { SwissSkill } from "@/lib/ch/types";
-import { pickPractice } from "@/lib/ch/items";
+import { pickPractice, stableItemId } from "@/lib/ch/items";
 import { PracticeRunner } from "@/components/ch/PracticeRunner";
 import { ProductiveComposer } from "@/components/ch/ProductiveComposer";
 
@@ -66,6 +66,7 @@ export default async function SkillRunnerPage({
           skill={skill}
           goalCefr={goalCefrFor(exam, skill)}
           items={items.map((it) => ({
+            id: stableItemId(it),
             language: it.language,
             title: it.title,
             prompt: it.prompt,
@@ -74,7 +75,6 @@ export default async function SkillRunnerPage({
             taskType: it.taskType,
             cefr: it.cefr,
             payload: it.payload,
-            answer: it.answer,
             maxPoints: it.maxPoints,
           }))}
         />
@@ -83,6 +83,7 @@ export default async function SkillRunnerPage({
           examName={exam.name}
           skill={skill}
           items={items.map((it) => ({
+            id: stableItemId(it),
             language: it.language,
             title: it.title,
             prompt: it.prompt,
