@@ -141,6 +141,48 @@ export function getItems(
   );
 }
 
+// ── SERVER-SIDE ITEM IDENTITY ───────────────────────────────────────────────
+// Items are bundle-served with NO database id, but grading must be
+// server-authoritative: the submit route re-loads the item by id and grades against
+// the SERVER-held answer key, so the key never ships in the served payload and a
+// client-supplied answer is never trusted. The id hashes the FULL identifying tuple —
+// language|track|exam|skill|title — because titles are only unique within a surface and
+// the same title can recur across languages/tracks. assertNoIdCollisions() proves the
+// tuple is unique at build time; a collision would silently grade against the wrong key.
+
+/** Stable, content-derived id for a bundle item — the handle the client posts back. */
+export function stableItemId(
+  it: Pick<SwissItemSeed, "language" | "track" | "exam" | "skill" | "title">,
+): string {
+  return hashSeed(`${it.language}|${it.track}|${it.exam}|${it.skill}|${it.title}`).toString(36);
+}
+
+/** Re-load the full item (INCLUDING its answer key) by its stable id, server-side. */
+export function getItemById(id: string): SwissItemSeed | undefined {
+  return allItems().find((it) => stableItemId(it) === id);
+}
+
+/**
+ * Build-time guard: no two bundle items may share a stable id. A collision would make
+ * getItemById() return the wrong item, so the submit route would grade a learner's
+ * answer against a DIFFERENT item's key — silently. Proven RED-first: duplicate a
+ * (language,track,exam,skill,title) tuple in a bundle and this throws.
+ */
+export function assertNoIdCollisions(): void {
+  const seen = new Map<string, string>();
+  for (const it of allItems()) {
+    const id = stableItemId(it);
+    const key = `${it.language}|${it.track}|${it.exam}|${it.skill}|${it.title}`;
+    const prior = seen.get(id);
+    if (prior) {
+      throw new Error(
+        `stableItemId collision: "${key}" and "${prior}" both hash to ${id} — grading would key against the wrong item`,
+      );
+    }
+    seen.set(id, key);
+  }
+}
+
 /**
  * Deterministic stable string hash → 32-bit int. Used as a fallback seed so the
  * pick is varied but reproducible without Math.random at module/build scope.

@@ -82,14 +82,11 @@ export function MockRunner({
 
     for (const f of flat) {
       if (f.objective) {
-        const g = await submitAttempt({
-          exam: f.item.exam,
-          skill: f.item.skill,
-          taskType: f.item.taskType,
-          answer: f.item.answer,
-          maxPoints: f.item.maxPoints,
-          response: responses[f.index] ?? null,
-        });
+        // Mock path: server-authoritative grading with NO key in the response.
+        const g = await submitAttempt(
+          { itemId: f.item.id, response: responses[f.index] ?? null },
+          "/api/ch/mock/submit",
+        );
         const points = g?.points ?? 0;
         const max = g?.maxPoints ?? f.item.maxPoints ?? 1;
         const acc = perSkill[f.skill] ?? { points: 0, max: 0 };
@@ -100,13 +97,10 @@ export function MockRunner({
           (prodPct[f.skill] ??= []).push(RATING_PCT[r] ?? 40);
         }
         // Persist the productive attempt (best-effort, gated server-side).
-        await submitAttempt({
-          exam: f.item.exam,
-          skill: f.item.skill,
-          taskType: f.item.taskType,
-          response: { text: texts[f.index] ?? "" },
-          selfScore: r ?? null,
-        });
+        await submitAttempt(
+          { itemId: f.item.id, response: { text: texts[f.index] ?? "" }, selfScore: r ?? null },
+          "/api/ch/mock/submit",
+        );
       }
     }
 

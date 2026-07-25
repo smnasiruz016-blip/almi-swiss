@@ -45,14 +45,9 @@ export function PracticeRunner({
   async function submit() {
     if (result || busy) return;
     setBusy(true);
-    const graded = await submitAttempt({
-      exam: item.exam,
-      skill: item.skill,
-      taskType: item.taskType,
-      answer: item.answer,
-      maxPoints: item.maxPoints,
-      response,
-    });
+    // Server-authoritative: post only the item id + our response. The server re-loads
+    // the item and grades against its own key; the answer is never sent from here.
+    const graded = await submitAttempt({ itemId: item.id, response });
     setBusy(false);
     const r: SubmitResult =
       graded ?? { ok: false, points: 0, maxPoints: item.maxPoints || 1, correct: false };

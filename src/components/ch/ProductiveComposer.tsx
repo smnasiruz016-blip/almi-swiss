@@ -115,9 +115,7 @@ export function ProductiveComposer({
     if (saved || busy || rating === null) return;
     setBusy(true);
     await submitAttempt({
-      exam: item.exam,
-      skill: item.skill,
-      taskType: item.taskType,
+      itemId: item.id,
       response: { text },
       selfScore: rating,
     });
