@@ -13,15 +13,15 @@
       "passage": "Chères habitantes, chers habitants,\n\nLa fête des voisins aura lieu le vendredi 23 mai dès 18h00 dans la cour. Chacun apporte quelque chose à manger ou à boire. Les boissons sans alcool sont offertes par la régie.\n\nEn cas de pluie, la fête est annulée.\n\nLe comité des locataires",
       "question": "Que doivent apporter les habitants ?",
       "options": [
-        "Quelque chose à manger ou à boire",
         "Des tables et des chaises",
+        "Quelque chose à manger ou à boire",
         "Rien du tout",
         "Uniquement des boissons sans alcool"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -165,14 +165,14 @@
       "question": "Pourquoi Madame Kovač doit-elle payer une partie de la facture elle-même ?",
       "options": [
         "Parce que le traitement n'est pas assuré",
-        "Parce qu'elle n'a pas encore atteint sa franchise",
         "Parce qu'elle a envoyé la facture trop tard",
-        "Parce que le service des urgences n'est pas reconnu"
+        "Parce que le service des urgences n'est pas reconnu",
+        "Parce qu'elle n'a pas encore atteint sa franchise"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -227,8 +227,8 @@
         {
           "id": 2,
           "options": [
-            "avec",
             "après",
+            "avec",
             "sans",
             "contre"
           ]
@@ -237,8 +237,8 @@
           "id": 3,
           "options": [
             "annoncer",
-            "désinscrire",
             "inscrire",
+            "désinscrire",
             "reposer"
           ]
         }
@@ -253,11 +253,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 1
+          "index": 2
         }
       ]
     },
@@ -275,7 +275,7 @@
     "prompt": "Lisez la lettre. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Chers parents,\n\nLa réunion de parents de la classe 6P aura lieu le mardi 6 mai à 19h30, salle 12.\n\nNous parlerons du camp de juin et du passage au cycle d'orientation. Il est important qu'au moins un parent soit présent. Si vous avez besoin d'une traductrice ou d'un traducteur, annoncez-le au secrétariat jusqu'au 29 avril. Nous l'organisons volontiers pour vous.\n\nMeilleures salutations\nM. Iten, enseignante",
-      "question": "Affirmation : les personnes qui ont besoin d'une traduction doivent amener quelqu'un elles-mêmes.",
+      "question": "Affirmation : la réunion de parents a lieu un mardi.",
       "options": [
         "Vrai",
         "Faux"
@@ -283,7 +283,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -334,14 +334,14 @@
       "question": "Que dit l'affiche à propos de « septante », « nonante » et « huitante » ?",
       "options": [
         "Ce sont des fautes à corriger",
-        "Ce sont des mots du français d'ici, et « huitante » ne se dit pas partout",
         "Ils ne s'utilisent qu'à Genève",
+        "Ce sont des mots du français d'ici, et « huitante » ne se dit pas partout",
         "Ils ne s'emploient qu'à l'écrit"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -387,10 +387,10 @@
         {
           "id": 1,
           "options": [
-            "est de",
             "reçoit",
             "appartient",
-            "signifie"
+            "signifie",
+            "est de"
           ]
         },
         {
@@ -405,8 +405,8 @@
         {
           "id": 3,
           "options": [
-            "à",
             "pour",
+            "à",
             "sur",
             "de"
           ]
@@ -418,7 +418,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 3
         },
         {
           "id": 2,
@@ -426,7 +426,7 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -447,14 +447,14 @@
       "question": "Sur quel point Dilan et Marco ne sont-ils PAS d'accord ?",
       "options": [
         "Sur le fait que les associations permettent de créer des contacts",
-        "Sur le fait qu'une association soit une voie réaliste pour tout le monde",
         "Sur le fait qu'il faille parler un français parfait pour y aller",
+        "Sur le fait qu'une association soit une voie réaliste pour tout le monde",
         "Sur le fait que les cours de français soient trop chers"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 1
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -546,7 +546,7 @@
     "prompt": "Lisez le règlement. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Règlement de la buanderie\n\nChaque appartement dispose de la buanderie selon le plan affiché. Merci de respecter votre créneau.\nAprès la lessive, nettoyez le filtre du sèche-linge et passez un coup de chiffon sur les machines.\nLa buanderie est disponible jusqu'à 22h00. Après cette heure, par respect pour les voisins, elle est fermée.\nEn cas de panne, prévenez la régie.",
-      "question": "Affirmation : selon le règlement, on peut utiliser la buanderie après 22h00.",
+      "question": "Affirmation : selon le règlement, il faut nettoyer le filtre du sèche-linge après la lessive.",
       "options": [
         "Vrai",
         "Faux"
@@ -554,7 +554,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -572,15 +572,15 @@
       "passage": "Chers parents,\n\nLe mardi 20 mai, la classe fera une sortie au zoo. Nous partirons en train à 8h15 depuis la gare et rentrerons vers 17h00.\nMerci de donner à votre enfant de bonnes chaussures, un pique-nique et une gourde. Le train et l'entrée sont payés par la caisse de classe.\nEn cas de mauvais temps, la sortie sera reportée ; vous recevrez alors un message la veille.\n\nMeilleures salutations,\nL'enseignante",
       "question": "Que doivent préparer les parents pour la sortie ?",
       "options": [
-        "De bonnes chaussures, un pique-nique et une gourde",
         "De l'argent pour l'entrée",
         "Un billet de train",
+        "De bonnes chaussures, un pique-nique et une gourde",
         "Une autorisation écrite"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -600,9 +600,9 @@
         {
           "id": 1,
           "options": [
-            "place",
             "cave",
-            "voiture"
+            "voiture",
+            "place"
           ]
         },
         {
@@ -616,17 +616,17 @@
         {
           "id": 3,
           "options": [
-            "francs",
             "mètres",
+            "francs",
             "kilos"
           ]
         },
         {
           "id": 4,
           "options": [
-            "pluie",
             "soleil",
-            "chance"
+            "chance",
+            "pluie"
           ]
         }
       ]
@@ -636,7 +636,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -644,11 +644,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -668,15 +668,15 @@
       "passage": "Notice : le subside à l'assurance maladie\n\nSi votre revenu est modeste, vous pouvez recevoir une aide pour payer une partie de votre prime d'assurance maladie. On appelle cela le subside.\nC'est votre canton qui s'en occupe, et non la caisse maladie. Le droit au subside et son montant dépendent du revenu, et les règles varient d'un canton à l'autre.\nVous déposez la demande auprès du service cantonal compétent. Dans certains cantons, vous recevez un formulaire automatiquement ; dans d'autres, vous devez vous annoncer. Renseignez-vous auprès de votre canton pour savoir ce qui s'applique chez vous.",
       "question": "Qui s'occupe du subside à l'assurance maladie, selon la notice ?",
       "options": [
-        "Le canton",
         "La caisse maladie",
+        "Le canton",
         "La commune seule",
         "L'employeur"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -718,7 +718,7 @@
     "prompt": "Lisez le ticket. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Merci de votre achat !\n\nÉchange et retour : vous pouvez échanger un article non porté dans les 14 jours. Merci de présenter ce ticket de caisse.\nLes articles soldés ne sont pas repris.\nHoraires : lundi au samedi, 9h–19h.",
-      "question": "Affirmation : selon le ticket, on peut échanger un article soldé.",
+      "question": "Affirmation : selon le ticket, un article non porté peut être échangé dans les 14 jours.",
       "options": [
         "Vrai",
         "Faux"
@@ -726,7 +726,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -744,15 +744,15 @@
       "passage": "Comment faire un café\n\n1. Placez une tasse sous le bec.\n2. Choisissez au bouton un café court ou long.\n3. Appuyez sur « Start ». Le café coule automatiquement.\n4. Attendez le bip, puis retirez la tasse.\n\nQuand le réservoir d'eau est vide, un voyant rouge s'allume. Remplissez alors le réservoir.",
       "question": "Que signifie le voyant rouge, selon le mode d'emploi ?",
       "options": [
-        "Le réservoir d'eau est vide et doit être rempli",
         "Le café est prêt",
         "La machine est cassée",
-        "Il faut payer"
+        "Il faut payer",
+        "Le réservoir d'eau est vide et doit être rempli"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -780,17 +780,17 @@
         {
           "id": 2,
           "options": [
-            "adultes",
             "enfants",
+            "adultes",
             "entreprises"
           ]
         },
         {
           "id": 3,
           "options": [
-            "centre",
             "hôpital",
-            "stade"
+            "stade",
+            "centre"
           ]
         },
         {
@@ -812,11 +812,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -840,15 +840,15 @@
       "passage": "Notice : la langue pour la naturalisation\n\nPour la naturalisation, vous devez prouver une langue nationale : au moins le niveau B1 à l'oral et au moins A2 à l'écrit. C'est le minimum fixé par la Confédération ; votre canton peut exiger davantage.\nDans notre commune, la langue est le français. C'est donc le français que vous prouvez, avec un certificat reconnu.\nQuels certificats sont acceptés, cela vous est indiqué par le service compétent. Renseignez-vous suffisamment tôt.",
       "question": "Que dit la notice sur la langue à prouver dans cette commune ?",
       "options": [
-        "C'est le français, au moins B1 à l'oral et A2 à l'écrit",
         "N'importe quelle langue du monde",
         "Seulement l'anglais",
+        "C'est le français, au moins B1 à l'oral et A2 à l'écrit",
         "À l'écrit, le niveau B1 est exigé"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -890,7 +890,7 @@
     "prompt": "Lisez le menu. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Menu de la semaine — cantine\n\nLundi : spaghettis à la sauce tomate\nMardi : escalope de poulet et riz\nMercredi : gratin de légumes\nJeudi : filets de poisson et pommes de terre\nVendredi : soupe et buffet de salades\n\nChaque menu coûte 12 francs. Le vendredi, la cantine est ouverte seulement jusqu'à 14h.",
-      "question": "Affirmation : selon le menu, il y a de la viande le mercredi.",
+      "question": "Affirmation : selon le menu, le mardi on sert de l’escalope de poulet.",
       "options": [
         "Vrai",
         "Faux"
@@ -898,7 +898,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -916,15 +916,15 @@
       "passage": "À l'attention des visiteurs\n\nMerci de vous doucher avant de vous baigner. Il est permis de sauter uniquement dans le bassin profond.\nLes enfants de moins de six ans ne peuvent aller dans l'eau qu'accompagnés d'un adulte.\nManger et boire sont autorisés seulement au restaurant, pas au bord du bassin. Merci.",
       "question": "Que faut-il faire, selon les consignes, avant de se baigner ?",
       "options": [
-        "Se doucher",
         "Sauter dans le bassin",
+        "Se doucher",
         "Manger au bord du bassin",
         "Payer une amende"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -944,9 +944,9 @@
         {
           "id": 1,
           "options": [
-            "état",
             "prix",
-            "jour"
+            "jour",
+            "état"
           ]
         },
         {
@@ -960,17 +960,17 @@
         {
           "id": 3,
           "options": [
-            "neufs",
             "vieux",
+            "neufs",
             "cassés"
           ]
         },
         {
           "id": 4,
           "options": [
-            "message",
             "repas",
-            "voyage"
+            "voyage",
+            "message"
           ]
         }
       ]
@@ -980,7 +980,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -988,11 +988,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -1038,15 +1038,15 @@
       "passage": "Cinéma du quartier — séances d'aujourd'hui\n\nLe petit dragon (pour enfants) : 14h00 et 16h00\nVoyage dans l'espace : 18h30\nLa longue nuit (dès 16 ans) : 20h45\n\nLes enfants jusqu'à 12 ans paient moitié prix. Le mardi, toutes les séances sont moins chères.",
       "question": "À quelle heure passe le film pour enfants ?",
       "options": [
-        "À 14h00 et 16h00",
         "À 18h30",
         "À 20h45",
-        "Seulement le mardi"
+        "Seulement le mardi",
+        "À 14h00 et 16h00"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1062,7 +1062,7 @@
     "prompt": "Lisez l'affiche. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Affiche de la régie\n\nChères habitantes, chers habitants,\nDe lundi à mercredi la semaine prochaine, l'ascenseur sera révisé. Pendant ce temps, il ne sera pas disponible.\nMerci d'utiliser les escaliers. Si vous avez besoin d'aide pour porter des affaires, annoncez-vous auprès du concierge.\nDès jeudi, l'ascenseur fonctionnera de nouveau.\n\nLa régie",
-      "question": "Affirmation : selon l'affiche, on peut utiliser l'ascenseur le mardi.",
+      "question": "Affirmation : selon l’affiche, l’ascenseur ne sera pas disponible le lundi.",
       "options": [
         "Vrai",
         "Faux"
@@ -1070,7 +1070,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1116,17 +1116,17 @@
         {
           "id": 1,
           "options": [
-            "livres",
             "voitures",
+            "livres",
             "maisons"
           ]
         },
         {
           "id": 2,
           "options": [
-            "prix",
             "mètres",
-            "kilos"
+            "kilos",
+            "prix"
           ]
         },
         {
@@ -1140,8 +1140,8 @@
         {
           "id": 4,
           "options": [
-            "prévu",
             "cher",
+            "prévu",
             "fermé"
           ]
         }
@@ -1152,11 +1152,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -1164,7 +1164,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -1184,15 +1184,15 @@
       "passage": "Notice : où déposer la demande de naturalisation ?\n\nPour la naturalisation ordinaire, vous déposez la demande auprès de votre commune. La Confédération donne d'abord l'autorisation fédérale, puis le canton et la commune décident.\nSi vous êtes marié(e) à une personne suisse, c'est en général la naturalisation facilitée : là, c'est la Confédération (le Secrétariat d'État aux migrations, SEM) qui décide, et la demande se dépose directement auprès du SEM.\nLa voie qui s'applique dépend de votre situation. Renseignez-vous suffisamment tôt auprès de votre commune.",
       "question": "Où dépose-t-on la demande pour une naturalisation ordinaire, selon la notice ?",
       "options": [
-        "Auprès de la commune",
         "Directement auprès de la Confédération (SEM)",
         "Auprès de la caisse maladie",
+        "Auprès de la commune",
         "Auprès de l'employeur"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1234,7 +1234,7 @@
     "prompt": "Lisez le calendrier. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Manifestations du quartier — juin\n\nSa 7 juin : marché aux puces à la maison de quartier, 9h–15h\nMe 11 juin : conférence « bien manger », 19h\nSa 21 juin : fête des enfants au parc, 14h\nVe 27 juin : concert dans la salle, 20h\n\nToutes les manifestations sont gratuites. En cas de mauvais temps, les activités en plein air ont lieu dans la salle.",
-      "question": "Affirmation : selon le calendrier, le concert du 27 juin est payant.",
+      "question": "Affirmation : selon le calendrier, la fête des enfants a lieu au parc.",
       "options": [
         "Vrai",
         "Faux"
@@ -1242,7 +1242,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1288,17 +1288,17 @@
         {
           "id": 1,
           "options": [
-            "café",
             "aéroport",
+            "café",
             "hôpital"
           ]
         },
         {
           "id": 2,
           "options": [
-            "gâteau",
             "voiture",
-            "impôt"
+            "impôt",
+            "gâteau"
           ]
         },
         {
@@ -1312,8 +1312,8 @@
         {
           "id": 4,
           "options": [
-            "nécessaire",
             "gratuite",
+            "nécessaire",
             "ouverte"
           ]
         }
@@ -1324,11 +1324,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -1336,7 +1336,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -1382,15 +1382,15 @@
       "passage": "Magasin d'alimentation — horaires\n\nLundi au jeudi : 8h–19h\nVendredi : 8h–21h\nSamedi : 8h–18h\nDimanche : fermé\n\nLe vendredi soir, le magasin est ouvert plus tard pour vos achats de la semaine.",
       "question": "Quel jour le magasin est-il ouvert le plus tard ?",
       "options": [
-        "Le vendredi",
         "Le lundi",
         "Le samedi",
-        "Le dimanche"
+        "Le dimanche",
+        "Le vendredi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1406,7 +1406,7 @@
     "prompt": "Lisez le règlement. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Règlement intérieur\n\nMerci d'apporter des chaussures de sport propres. L'entraînement avec des chaussures de ville n'est pas autorisé.\nAprès l'usage, essuyez les appareils avec le chiffon.\nLes boissons sont permises, mais seulement dans des bouteilles fermées. Manger n'est pas autorisé dans la salle d'entraînement.\nLes casiers du vestiaire ne s'utilisent que pendant l'entraînement.",
-      "question": "Affirmation : selon le règlement, on peut s'entraîner avec des chaussures de ville.",
+      "question": "Affirmation : selon le règlement, il faut essuyer les appareils après l’usage.",
       "options": [
         "Vrai",
         "Faux"
@@ -1414,7 +1414,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1432,15 +1432,15 @@
       "passage": "Comment acheter un billet à l'automate\n\n1. Choisissez votre destination sur l'écran.\n2. Choisissez si vous voulez un aller simple ou un aller-retour.\n3. Choisissez la classe : 1re ou 2e classe.\n4. Payez avec des pièces, des billets ou une carte.\n5. Prenez votre billet et votre monnaie en bas.\n\nLe billet est valable tout de suite. Gardez-le jusqu'à la fin du voyage.",
       "question": "Quelle est la première étape, selon le mode d'emploi ?",
       "options": [
-        "Choisir la destination sur l'écran",
         "Payer",
         "Choisir la classe",
+        "Choisir la destination sur l'écran",
         "Prendre le billet"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1468,17 +1468,17 @@
         {
           "id": 2,
           "options": [
-            "d'autres",
             "personne",
+            "d'autres",
             "argent"
           ]
         },
         {
           "id": 3,
           "options": [
-            "gratuit",
             "cher",
-            "interdit"
+            "interdit",
+            "gratuit"
           ]
         },
         {
@@ -1500,11 +1500,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -1528,15 +1528,15 @@
       "passage": "Notice : changer de caisse maladie\n\nPour l'assurance de base, les prestations sont les mêmes dans toutes les caisses maladie — elles sont fixées par la loi. Ce qui change surtout, ce sont les primes. Il vaut donc la peine de comparer les primes.\nVous avez le droit de changer de caisse pour l'assurance de base. Jusqu'à quand et comment résilier dépend de certains délais ; les dates exactes vous sont indiquées par votre caisse.\nLes assurances complémentaires sont différentes de l'assurance de base ; là, d'autres conditions s'appliquent. Renseignez-vous avant de résilier quoi que ce soit.",
       "question": "Que dit la notice sur l'assurance de base ?",
       "options": [
-        "Les prestations sont les mêmes partout ; ce sont surtout les primes qui changent",
         "Chaque caisse offre d'autres prestations de base",
         "On ne peut jamais changer de caisse",
-        "L'assurance complémentaire et l'assurance de base sont la même chose"
+        "L'assurance complémentaire et l'assurance de base sont la même chose",
+        "Les prestations sont les mêmes partout ; ce sont surtout les primes qui changent"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -1554,15 +1554,15 @@
       "passage": "Reçu\n\nAtelier de vélos\nDate : 14 mars\nPrestation : nouvelle chambre à air arrière, freins réglés\nMontant : 65 francs, payé\n\nNous donnons trois mois de garantie sur la réparation. Merci de conserver ce reçu.",
       "question": "Que dit le reçu au sujet du montant ?",
       "options": [
-        "Il a déjà été payé",
         "Il faut encore le payer",
+        "Il a déjà été payé",
         "Il n'est pas indiqué",
         "Il sera payé plus tard"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -1578,7 +1578,7 @@
     "prompt": "Lisez le programme. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Journée portes ouvertes au centre communal\nSamedi 7 juin\n\n10h00 : accueil et café\n10h30 : visite de la maison\n12h00 : repas de midi (inscription nécessaire)\n14h00 : jeux pour les enfants\n15h30 : concert du chœur du quartier\n17h00 : fin\n\nL'entrée est libre. Pour le repas de midi, inscrivez-vous jusqu'au 1er juin.",
-      "question": "Affirmation : selon le programme, il faut s'inscrire pour la visite de la maison.",
+      "question": "Affirmation : selon le programme, il faut s’inscrire pour le repas de midi.",
       "options": [
         "Vrai",
         "Faux"
@@ -1586,7 +1586,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1632,17 +1632,17 @@
         {
           "id": 1,
           "options": [
-            "enfants",
             "voitures",
+            "enfants",
             "chiens"
           ]
         },
         {
           "id": 2,
           "options": [
-            "fiable",
             "riche",
-            "grand"
+            "grand",
+            "fiable"
           ]
         },
         {
@@ -1656,8 +1656,8 @@
         {
           "id": 4,
           "options": [
-            "message",
             "gâteau",
+            "message",
             "voyage"
           ]
         }
@@ -1668,11 +1668,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -1680,7 +1680,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -1726,15 +1726,15 @@
       "passage": "Nous cherchons une auxiliaire\n\nPour notre magasin de quartier, nous cherchons une auxiliaire aimable pour le samedi, de 8h à 13h.\nVous aidez à la caisse et au rangement des rayons. L'expérience n'est pas nécessaire, nous vous formons. De bonnes connaissances de français sont un avantage.\nIntéressé(e) ? Contactez Madame Studer, par téléphone ou au magasin.",
       "question": "Quand l'auxiliaire doit-elle travailler ?",
       "options": [
-        "Le samedi, de 8h à 13h",
         "Tous les soirs",
         "Seulement le dimanche",
+        "Le samedi, de 8h à 13h",
         "Du lundi au vendredi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1750,7 +1750,7 @@
     "prompt": "Lisez le bon de garantie. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Garantie\n\nCet appareil est garanti deux ans à partir de la date d'achat.\nConservez le ticket de caisse comme preuve d'achat. Sans preuve, nous ne pouvons pas accorder la garantie.\nLa garantie ne couvre pas les dommages dus à une mauvaise utilisation. En cas de problème, rapportez l'appareil au magasin.",
-      "question": "Affirmation : selon le bon de garantie, on n'a pas besoin du ticket de caisse.",
+      "question": "Affirmation : selon le bon de garantie, il faut conserver le ticket de caisse.",
       "options": [
         "Vrai",
         "Faux"
@@ -1758,7 +1758,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1776,15 +1776,15 @@
       "passage": "Sortie annuelle\n\nChers membres,\nLe dimanche 15 juin, nous faisons notre sortie annuelle au bord du lac. Rendez-vous à 8h30 à la gare, près du kiosque.\nMerci d'apporter de bonnes chaussures et de quoi boire. Le repas de midi est prévu.\nInscription jusqu'au 8 juin auprès de Monsieur Frei. Le trajet coûte 20 francs.",
       "question": "Où le club se retrouve-t-il ?",
       "options": [
-        "À la gare, près du kiosque",
         "Au bord du lac",
         "Au local du club",
+        "À la gare, près du kiosque",
         "Chez Monsieur Frei"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1804,9 +1804,9 @@
         {
           "id": 1,
           "options": [
-            "adultes",
             "voitures",
-            "maisons"
+            "maisons",
+            "adultes"
           ]
         },
         {
@@ -1820,17 +1820,17 @@
         {
           "id": 3,
           "options": [
-            "semaines",
             "années",
+            "semaines",
             "minutes"
           ]
         },
         {
           "id": 4,
           "options": [
-            "serviette",
             "voiture",
-            "facture"
+            "facture",
+            "serviette"
           ]
         }
       ]
@@ -1840,7 +1840,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -1848,11 +1848,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -1922,7 +1922,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Menu de midi (du lundi au vendredi)\n\nSoupe du jour ................. 6.–\nAssiette de salade ........... 12.–\nPlat du jour avec viande ..... 18.50\nPlat du jour végétarien ...... 16.–\nDessert ...................... 6.50\n\nUne boisson est comprise dans le menu de midi. Le week-end, c'est la carte normale.",
-      "question": "Affirmation : selon la carte, une boisson est comprise dans le menu de midi le week-end.",
+      "question": "Affirmation : selon la carte, le plat du jour avec viande coûte 18.50.",
       "options": [
         "Vrai",
         "Faux"
@@ -1930,7 +1930,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1948,15 +1948,15 @@
       "passage": "Mode d'emploi de la machine à laver\n\n1. Mettez le linge, sans trop remplir le tambour.\n2. Mettez la lessive dans le bac de gauche.\n3. Choisissez le programme : « Couleurs 40 degrés » pour les habits normaux.\n4. Fermez la porte et appuyez sur « Départ ».\n\nQuand la machine sonne, le linge est prêt. N'ouvrez la porte que lorsque le verrou est libre.",
       "question": "Quel programme choisit-on pour les habits normaux, selon le mode d'emploi ?",
       "options": [
-        "Couleurs 40 degrés",
         "90 degrés",
         "Lavage à la main",
+        "Couleurs 40 degrés",
         "Essorage"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -1976,17 +1976,17 @@
         {
           "id": 1,
           "options": [
-            "état",
             "prix",
+            "état",
             "jour"
           ]
         },
         {
           "id": 2,
           "options": [
-            "utilisée",
             "chère",
-            "fermée"
+            "fermée",
+            "utilisée"
           ]
         },
         {
@@ -2000,8 +2000,8 @@
         {
           "id": 4,
           "options": [
-            "place",
             "table",
+            "place",
             "toit"
           ]
         }
@@ -2012,11 +2012,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -2024,7 +2024,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -2044,15 +2044,15 @@
       "passage": "Affiche de la régie\n\nDu lundi 5 au mercredi 7 mai, la cage d'escalier sera repeinte.\nMerci de ne rien laisser dans le couloir pendant ce temps et de garder chaussures et poussettes dans l'appartement.\nL'ascenseur peut être utilisé normalement. Merci de patienter jusqu'à ce que la peinture soit sèche.\n\nLa régie",
       "question": "Que peut-on faire, selon l'affiche, pendant les travaux de peinture ?",
       "options": [
-        "Utiliser l'ascenseur normalement",
         "Laisser ses chaussures dans le couloir",
+        "Utiliser l'ascenseur normalement",
         "Repeindre soi-même",
         "Utiliser le couloir comme dépôt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2068,7 +2068,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Bonjour Monsieur Nguyen, ici l'atelier de vélos. Votre vélo est prêt : nous avons changé la chambre à air et réglé les freins. Vous pouvez venir le chercher dès demain, au mieux avant vendredi. La réparation coûte 65 francs, à payer sur place. Bonne journée.",
-      "question": "Affirmation : selon le SMS, Monsieur Nguyen doit venir chercher le vélo aujourd'hui.",
+      "question": "Affirmation : selon le SMS, la réparation coûte 65 francs.",
       "options": [
         "Vrai",
         "Faux"
@@ -2076,7 +2076,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -2094,15 +2094,15 @@
       "passage": "Chers parents,\n\nLe mardi 20 mai, la classe fera sa course d'école annuelle. Nous irons en train au zoo et rentrerons vers 17h.\nMerci de donner à votre enfant de bonnes chaussures, un pique-nique et une gourde. Le train et l'entrée sont payés par la caisse de classe.\nEn cas de mauvais temps, la course est reportée ; vous recevrez alors un message la veille.\n\nMeilleures salutations,\nL'enseignante",
       "question": "Que doivent préparer les parents pour la course d'école ?",
       "options": [
-        "De bonnes chaussures, un pique-nique et une gourde",
         "De l'argent pour l'entrée",
+        "De bonnes chaussures, un pique-nique et une gourde",
         "Un billet de train",
         "Une autorisation écrite"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2122,9 +2122,9 @@
         {
           "id": 1,
           "options": [
-            "carton",
             "pain",
-            "sucre"
+            "sucre",
+            "carton"
           ]
         },
         {
@@ -2138,17 +2138,17 @@
         {
           "id": 3,
           "options": [
-            "fermé",
             "ouvert",
+            "fermé",
             "gratuit"
           ]
         },
         {
           "id": 4,
           "options": [
-            "commune",
             "voiture",
-            "école"
+            "école",
+            "commune"
           ]
         }
       ]
@@ -2158,7 +2158,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -2166,11 +2166,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -2214,7 +2214,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "passage": "Chères habitantes, chers habitants,\n\nLe chauffage de l'immeuble sera contrôlé jeudi matin. Il se peut que les radiateurs soient froids pendant une heure ou deux.\nDans l'après-midi, tout fonctionnera de nouveau normalement. Si un radiateur reste froid le soir, prévenez-moi.\n\nLe concierge",
-      "question": "Affirmation : selon la note, les radiateurs resteront froids toute la journée de jeudi.",
+      "question": "Affirmation : selon la note, le chauffage fonctionnera de nouveau l’après-midi.",
       "options": [
         "Vrai",
         "Faux"
@@ -2222,7 +2222,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -2292,15 +2292,15 @@
       "passage": "Extrait du règlement de maison\n\nPour que tout le monde vive bien dans l'immeuble, les heures de repos sont : la nuit de 22h à 6h, ainsi qu'à midi de 12h à 13h. Le dimanche et les jours fériés, le calme est demandé toute la journée.\nLes travaux bruyants, comme percer ou passer l'aspirateur, sont permis en dehors de ces heures. Qui organise une fête prévient les voisins à l'avance.\nLa buanderie est à disposition jusqu'à 21h ; après, elle est fermée par respect pour les voisins.",
       "question": "Quand peut-on passer l'aspirateur, selon le règlement ?",
       "options": [
-        "Le samedi à 15h",
         "Le dimanche à 10h",
         "À 12h30, à midi",
-        "À 22h30, la nuit"
+        "À 22h30, la nuit",
+        "Le samedi à 15h"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2318,15 +2318,15 @@
       "passage": "Notice : qui décide de la naturalisation ?\n\nPour la naturalisation ordinaire, ce sont votre commune et votre canton qui décident. La Confédération donne d'abord l'autorisation fédérale. Vous déposez la demande auprès de votre commune.\nC'est différent pour la naturalisation facilitée, par exemple si vous êtes marié(e) à une personne suisse : là, c'est la Confédération (le Secrétariat d'État aux migrations, SEM) qui décide.\nLa voie qui s'applique dépend de votre situation. Renseignez-vous suffisamment tôt auprès de votre commune.",
       "question": "Qui décide d'une naturalisation ordinaire, selon la notice ?",
       "options": [
-        "La commune et le canton ; la Confédération donne l'autorisation",
         "La Confédération seule (SEM)",
         "La commune seule",
-        "Une entreprise privée"
+        "Une entreprise privée",
+        "La commune et le canton ; la Confédération donne l'autorisation"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2344,15 +2344,15 @@
       "passage": "Notice : l'assurance maladie dès l'arrivée\n\nL'assurance maladie de base est obligatoire pour toute personne domiciliée en Suisse. Vous devez vous assurer dans les trois mois qui suivent votre arrivée.\nSi vous vous assurez à temps, l'assurance vaut rétroactivement depuis le premier jour. Vous choisissez librement votre caisse ; les prestations de base sont les mêmes partout.\nPour les primes et une éventuelle réduction, c'est votre canton qui vous renseigne.",
       "question": "Que se passe-t-il, selon la notice, si l'on s'assure à temps ?",
       "options": [
-        "L'assurance vaut rétroactivement depuis le premier jour",
         "On ne doit s'assurer qu'après un an",
+        "L'assurance vaut rétroactivement depuis le premier jour",
         "L'assurance de base est facultative",
         "Chaque caisse offre d'autres prestations de base"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2530,17 +2530,17 @@
         {
           "id": 2,
           "options": [
-            "pas",
             "toujours",
+            "pas",
             "souvent"
           ]
         },
         {
           "id": 3,
           "options": [
-            "couvercle",
             "frigo",
-            "four"
+            "four",
+            "couvercle"
           ]
         },
         {
@@ -2562,11 +2562,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -2590,15 +2590,15 @@
       "passage": "Covoiturage\n\nJe pars chaque matin vers la gare, du lundi au vendredi, départ à 7h15 du quartier. Je peux prendre deux personnes.\nPartage des frais d'essence. Si cela vous intéresse, écrivez-moi ou téléphonez le soir.",
       "question": "À quelle heure part le covoiturage, selon l'annonce ?",
       "options": [
-        "À 7h15, du lundi au vendredi",
         "À midi",
+        "À 7h15, du lundi au vendredi",
         "Seulement le week-end",
         "À 8h le samedi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2640,15 +2640,15 @@
       "passage": "Ludothèque du quartier\n\nEmpruntez des jeux et des jouets pour vos enfants, comme à la bibliothèque.\nHoraires : mardi et jeudi, 15h–18h ; samedi, 9h–12h.\nLe prêt dure quatre semaines. La première inscription est gratuite ; ensuite, une petite cotisation par année.",
       "question": "Combien de temps dure le prêt à la ludothèque, selon le programme ?",
       "options": [
-        "Quatre semaines",
         "Un jour",
         "Une année",
+        "Quatre semaines",
         "Il n'y a pas de prêt"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2668,9 +2668,9 @@
         {
           "id": 1,
           "options": [
-            "courge",
             "voiture",
-            "maison"
+            "maison",
+            "courge"
           ]
         },
         {
@@ -2684,17 +2684,17 @@
         {
           "id": 3,
           "options": [
-            "eau",
             "huile",
+            "eau",
             "essence"
           ]
         },
         {
           "id": 4,
           "options": [
-            "pain",
             "papier",
-            "savon"
+            "savon",
+            "pain"
           ]
         }
       ]
@@ -2704,7 +2704,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -2712,11 +2712,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -2736,15 +2736,15 @@
       "passage": "Règles du parc\n\nLes chiens sont les bienvenus, mais doivent être tenus en laisse près de la place de jeux.\nMerci de ramasser les crottes et de les jeter dans les poubelles prévues.\nL'eau de la fontaine est aussi pour les chiens. Merci de respecter les autres visiteurs.",
       "question": "Que doivent faire les propriétaires de chiens, selon le panneau ?",
       "options": [
-        "Tenir le chien en laisse près de la place de jeux et ramasser les crottes",
         "Laisser le chien courir partout",
         "Donner à manger aux autres chiens",
+        "Tenir le chien en laisse près de la place de jeux et ramasser les crottes",
         "Ne pas entrer dans le parc"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -2762,15 +2762,15 @@
       "passage": "Extrait de votre bail\n\nLe présent bail peut être résilié pour la fin d'un mois, moyennant un préavis de trois mois, au moyen d'une lettre signée.\nÀ la fin du bail, l'appartement est rendu propre et vide, et un état des lieux de sortie est établi.\nSi vous trouvez un locataire de remplacement solvable qui reprend le bail aux mêmes conditions, vous pouvez partir plus tôt.",
       "question": "Selon l'extrait, comment peut-on partir avant la fin du préavis ?",
       "options": [
-        "En proposant un locataire de remplacement solvable",
         "En partant sans rien dire",
         "En cessant de payer le loyer",
-        "En changeant les serrures"
+        "En changeant les serrures",
+        "En proposant un locataire de remplacement solvable"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -2840,15 +2840,15 @@
       "passage": "Bus de nuit N2 (vendredi et samedi)\n\nGare :   23h30 | 0h30 | 1h30 | 2h30\nCentre : 23h40 | 0h40 | 1h40 | 2h40\nLac :    23h50 | 0h50 | 1h50 | 2h50\n\nLe bus de nuit ne circule que le vendredi et le samedi. Un supplément de nuit s'applique.",
       "question": "Quand le bus de nuit circule-t-il, selon l'horaire ?",
       "options": [
-        "Le vendredi et le samedi",
         "Tous les jours",
+        "Le vendredi et le samedi",
         "Seulement le dimanche",
         "Du lundi au jeudi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2890,15 +2890,15 @@
       "passage": "Mode d'emploi du lave-vaisselle\n\n1. Rangez la vaisselle, sans bloquer les bras qui tournent.\n2. Mettez une pastille dans le compartiment fermé.\n3. Choisissez le programme « Normal » pour la vaisselle de tous les jours.\n4. Fermez la porte et appuyez sur « Marche ».\n\nQuand le voyant « sel » s'allume, ajoutez du sel régénérant.",
       "question": "Que faut-il faire quand le voyant « sel » s'allume, selon le mode d'emploi ?",
       "options": [
-        "Ajouter du sel régénérant",
         "Ouvrir la porte tout de suite",
+        "Ajouter du sel régénérant",
         "Changer de programme",
         "Rien"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -2992,17 +2992,17 @@
         {
           "id": 1,
           "options": [
-            "habitants",
             "voitures",
+            "habitants",
             "chiens"
           ]
         },
         {
           "id": 2,
           "options": [
-            "bloquer",
             "ouvrir",
-            "nettoyer"
+            "nettoyer",
+            "bloquer"
           ]
         },
         {
@@ -3016,8 +3016,8 @@
         {
           "id": 4,
           "options": [
-            "autorisés",
             "gratuits",
+            "autorisés",
             "chers"
           ]
         }
@@ -3028,11 +3028,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -3040,7 +3040,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -3060,15 +3060,15 @@
       "passage": "Chers habitants,\n\nMercredi matin, une personne relèvera les compteurs d'eau dans les appartements, entre 8h et 12h.\nMerci de faire en sorte que quelqu'un soit présent. Si ce n'est pas possible, déposez la clé chez la concierge ou prenez un autre rendez-vous.\n\nLa régie",
       "question": "Que faut-il faire si personne ne peut être présent, selon la note ?",
       "options": [
-        "Déposer la clé chez la concierge ou prendre un autre rendez-vous",
         "Relever soi-même le compteur",
         "Ne rien faire",
-        "Couper l'eau"
+        "Couper l'eau",
+        "Déposer la clé chez la concierge ou prendre un autre rendez-vous"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3096,17 +3096,17 @@
         {
           "id": 2,
           "options": [
-            "chauffer",
             "dormir",
+            "chauffer",
             "laver"
           ]
         },
         {
           "id": 3,
           "options": [
-            "remuant",
             "chantant",
-            "courant"
+            "courant",
+            "remuant"
           ]
         },
         {
@@ -3128,11 +3128,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -3156,15 +3156,15 @@
       "passage": "Marché de Noël du quartier\n\nSamedi 14 et dimanche 15 décembre, sur la place, de 11h à 19h.\nStands d'artisanat, vin chaud et soupe. Concert de l'école le samedi à 17h.\nL'entrée est libre. Une partie des recettes va à une œuvre d'entraide.",
       "question": "À quelle heure a lieu le concert de l'école, selon le programme ?",
       "options": [
-        "Le samedi à 17h",
         "Le dimanche à 11h",
+        "Le samedi à 17h",
         "Tous les jours à midi",
         "Il n'y a pas de concert"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3310,15 +3310,15 @@
       "passage": "Funiculaire (tous les jours)\n\nDépart en bas : chaque quart d'heure, de 7h à 20h\nAprès 20h : chaque demi-heure, jusqu'à 23h\nDurée du trajet : 5 minutes\n\nLes billets s'achètent à l'automate en bas ou en haut. Les abonnements de bus sont valables.",
       "question": "À quelle fréquence part le funiculaire l'après-midi, selon l'horaire ?",
       "options": [
-        "Chaque quart d'heure",
         "Chaque heure",
         "Deux fois par jour",
+        "Chaque quart d'heure",
         "Il ne circule pas l'après-midi"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3386,15 +3386,15 @@
       "passage": "Cherche colocataire\n\nChambre libre dans un appartement de quatre pièces, proche de la gare. Loyer : 600 francs par mois, charges comprises.\nNous sommes deux personnes calmes et non-fumeuses. Disponible dès le 1er septembre.\nSi cela vous intéresse, écrivez-nous pour une visite.",
       "question": "Quand la chambre est-elle disponible, selon l'annonce ?",
       "options": [
-        "Dès le 1er septembre",
         "Tout de suite",
         "Seulement en hiver",
-        "Dans un an"
+        "Dans un an",
+        "Dès le 1er septembre"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3462,9 +3462,9 @@
         {
           "id": 1,
           "options": [
-            "réservée",
             "vendue",
-            "détruite"
+            "détruite",
+            "réservée"
           ]
         },
         {
@@ -3478,17 +3478,17 @@
         {
           "id": 3,
           "options": [
-            "minuit",
             "midi",
+            "minuit",
             "6h"
           ]
         },
         {
           "id": 4,
           "options": [
-            "clé",
             "voiture",
-            "facture"
+            "facture",
+            "clé"
           ]
         }
       ]
@@ -3498,7 +3498,7 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 2
         },
         {
           "id": 2,
@@ -3506,11 +3506,11 @@
         },
         {
           "id": 3,
-          "index": 0
+          "index": 1
         },
         {
           "id": 4,
-          "index": 0
+          "index": 2
         }
       ]
     },
@@ -3558,17 +3558,17 @@
         {
           "id": 1,
           "options": [
-            "carottes",
             "voitures",
+            "carottes",
             "livres"
           ]
         },
         {
           "id": 2,
           "options": [
-            "levure",
             "sable",
-            "essence"
+            "essence",
+            "levure"
           ]
         },
         {
@@ -3582,8 +3582,8 @@
         {
           "id": 4,
           "options": [
-            "refroidir",
             "courir",
+            "refroidir",
             "chanter"
           ]
         }
@@ -3594,11 +3594,11 @@
       "correct": [
         {
           "id": 1,
-          "index": 0
+          "index": 1
         },
         {
           "id": 2,
-          "index": 0
+          "index": 2
         },
         {
           "id": 3,
@@ -3606,7 +3606,7 @@
         },
         {
           "id": 4,
-          "index": 0
+          "index": 1
         }
       ]
     },
@@ -3676,15 +3676,15 @@
       "passage": "Cabinet de pédiatrie du centre\n\nBonjour Madame Sow,\nVotre fils aura bientôt deux ans. À cet âge, un vaccin est prévu.\nMerci de nous appeler pour convenir d'un rendez-vous. Apportez le carnet de vaccination.\nSi vous avez des questions, nous en parlons volontiers avant.\n\nL'équipe du cabinet",
       "question": "Que doivent apporter les parents au rendez-vous, selon la lettre ?",
       "options": [
-        "Le carnet de vaccination",
         "Une ordonnance du spécialiste",
         "La carte d'un voisin",
-        "Un certificat médical"
+        "Un certificat médical",
+        "Le carnet de vaccination"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3702,15 +3702,15 @@
       "passage": "Extrait de votre contrat de travail\n\nVous avez droit à cinq semaines de vacances par année. Les dates sont fixées d'entente avec l'employeur, en tenant compte des besoins de l'entreprise.\nLes vacances non prises ne sont en principe pas payées en argent, mais reportées d'entente.\nUne demande de vacances se fait par écrit, au moins un mois à l'avance.",
       "question": "Selon l'extrait, comment demande-t-on des vacances ?",
       "options": [
-        "Par écrit, au moins un mois à l'avance",
         "Le jour même, oralement",
+        "Par écrit, au moins un mois à l'avance",
         "Sans rien dire à l'employeur",
         "Seulement en décembre"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3728,15 +3728,15 @@
       "passage": "Notice : assurer un nouveau-né\n\nUn bébé doit lui aussi avoir l'assurance maladie de base. Annoncez votre enfant à une caisse maladie dans les trois mois qui suivent sa naissance.\nSi vous le faites à temps, l'assurance vaut depuis le jour de la naissance. Vous choisissez librement la caisse ; les prestations de base sont les mêmes partout, et pour les enfants les primes sont souvent plus basses.\nPour une éventuelle réduction de prime, c'est votre canton qui vous renseigne.",
       "question": "Dans quel délai faut-il assurer un nouveau-né, selon la notice ?",
       "options": [
-        "Dans les trois mois qui suivent la naissance",
         "Après un an",
         "Il n'a pas besoin d'assurance",
+        "Dans les trois mois qui suivent la naissance",
         "Seulement à l'école"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   },
@@ -3754,15 +3754,15 @@
       "passage": "Notice : la naturalisation facilitée\n\nLa naturalisation facilitée est une voie particulière. Elle peut entrer en ligne de compte, par exemple, si vous êtes marié(e) à une personne suisse et que vous remplissez les conditions.\nC'est la Confédération, le Secrétariat d'État aux migrations (SEM), qui décide de la naturalisation facilitée. La demande se dépose donc directement auprès du SEM, et non à la commune.\nComme pour la voie ordinaire, vous devez prouver une langue nationale. La voie qui s'applique dépend de votre situation.",
       "question": "Qui décide de la naturalisation facilitée, selon la notice ?",
       "options": [
-        "La Confédération (le SEM)",
         "La commune seule",
         "Le canton seul",
-        "L'employeur"
+        "L'employeur",
+        "La Confédération (le SEM)"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3806,15 +3806,15 @@
       "passage": "Cours de natation pour enfants\n\nÀ la piscine couverte, le mercredi après-midi.\nGroupes dès 5 ans. Dix leçons de 45 minutes.\nPrix : 120 francs. Inscription à l'accueil de la piscine jusqu'au 15 du mois.\nUn maillot et un bonnet de bain sont obligatoires.",
       "question": "Qu'est-ce qui est obligatoire pour le cours, selon l'annonce ?",
       "options": [
-        "Un maillot et un bonnet de bain",
         "Des lunettes de soleil",
         "Un vélo",
-        "Rien de particulier"
+        "Rien de particulier",
+        "Un maillot et un bonnet de bain"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3856,15 +3856,15 @@
       "passage": "Attention, travaux\n\nLa rue du Collège est fermée à la circulation du 5 au 12 mai.\nLes piétons peuvent passer. Une déviation est indiquée pour les voitures.\nLes bus s'arrêtent provisoirement à la place du Marché.\nMerci de votre compréhension.",
       "question": "Où s'arrêtent les bus pendant les travaux, selon le panneau ?",
       "options": [
-        "À la place du Marché",
         "Devant le collège",
+        "À la place du Marché",
         "À la gare",
         "Ils ne circulent plus"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   },
@@ -3892,17 +3892,17 @@
         {
           "id": 2,
           "options": [
-            "couverture",
             "voiture",
+            "couverture",
             "télévision"
           ]
         },
         {
           "id": 3,
           "options": [
-            "nom",
             "prix",
-            "numéro de rue"
+            "numéro de rue",
+            "nom"
           ]
         },
         {
@@ -3924,11 +3924,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -3952,15 +3952,15 @@
       "passage": "À céder : vélo de ville\n\nVélo pour adulte, en bon état, peu utilisé. Sept vitesses, avec panier et lumière.\nPrix : 150 francs, à discuter. À prendre sur place.\nÉcrivez-moi pour venir l'essayer en fin de journée.",
       "question": "Que peut-on faire avant d'acheter le vélo, selon l'annonce ?",
       "options": [
-        "Venir l'essayer en fin de journée",
         "Le faire livrer",
         "Le payer en douze fois",
-        "Le louer pour un jour"
+        "Le louer pour un jour",
+        "Venir l'essayer en fin de journée"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 3
     },
     "maxPoints": 1
   },
@@ -3988,17 +3988,17 @@
         {
           "id": 2,
           "options": [
-            "bac",
             "four",
+            "bac",
             "jardin"
           ]
         },
         {
           "id": 3,
           "options": [
-            "nettoyez",
             "cassez",
-            "peignez"
+            "peignez",
+            "nettoyez"
           ]
         },
         {
@@ -4020,11 +4020,11 @@
         },
         {
           "id": 2,
-          "index": 0
+          "index": 1
         },
         {
           "id": 3,
-          "index": 0
+          "index": 2
         },
         {
           "id": 4,
@@ -4098,15 +4098,15 @@
       "passage": "Extrait du règlement de l'immeuble\n\nLe balcon fait partie du logement, mais quelques règles s'appliquent. Vous pouvez y mettre des plantes et des meubles légers.\nIl est interdit d'y faire un barbecue et de secouer des tapis par-dessus la rambarde, par respect pour les voisins du dessous.\nArrosez vos plantes avec modération, pour ne pas mouiller le balcon d'en dessous.",
       "question": "Qu'est-ce qui est interdit sur le balcon, selon le règlement ?",
       "options": [
-        "Faire un barbecue",
         "Mettre des plantes",
         "Poser des meubles légers",
+        "Faire un barbecue",
         "Ouvrir la fenêtre"
       ]
     },
     "answer": {
       "type": "MCQ_SINGLE",
-      "correctIndex": 0
+      "correctIndex": 2
     },
     "maxPoints": 1
   }

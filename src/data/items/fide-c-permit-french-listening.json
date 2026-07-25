@@ -62,9 +62,9 @@
     "payload": {
       "transcript": "Alors, le colis pour le Portugal : en courrier normal, ça met cinq à sept jours et ça coûte trente francs. En express, il arrive en deux jours, mais ça coûte cinquante-cinq. Qu'est-ce que vous préférez ?",
       "question": "Combien coûte l'express ?",
-      "options": ["30 francs", "55 francs", "5 francs", "7 francs"]
+      "options": ["30 francs", "5 francs", "55 francs", "7 francs"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -79,9 +79,9 @@
     "payload": {
       "transcript": "Salut, c'est Reto. Écoute, demain tu ne dois pas venir à sept heures, mais seulement à neuf heures. La machine est réparée le matin. À demain !",
       "question": "Quand la personne doit-elle venir demain ?",
-      "options": ["À sept heures", "À neuf heures", "Pas du tout", "Comme d'habitude"]
+      "options": ["À sept heures", "Comme d'habitude", "Pas du tout", "À neuf heures"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -97,13 +97,13 @@
       "transcript": "Oui, votre prime augmente l'année prochaine, c'est exact. Vous pouvez changer de caisse, mais seulement jusqu'à fin novembre — après, il faudra attendre une année de plus. Et autre chose : vous pouvez aussi augmenter votre franchise, la prime baisse alors. Réfléchissez bien, parce que vous paierez davantage vous-même chez le médecin.",
       "question": "Que dit la collaboratrice au sujet du changement de caisse ?",
       "options": [
-        "C'est possible n'importe quand",
         "C'est possible seulement jusqu'à fin novembre",
+        "C'est possible n'importe quand",
         "Ce n'est plus possible",
         "C'est possible seulement avec une franchise plus élevée"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -183,12 +183,12 @@
       "question": "De quoi dépend la nécessité d'une course de contrôle ?",
       "options": [
         "De l'âge de la personne",
-        "Du pays où le permis a été délivré",
         "De la durée pendant laquelle on habite ici",
+        "Du pays où le permis a été délivré",
         "Du canton"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -205,12 +205,12 @@
       "question": "Qu'est-ce que le collègue propose ?",
       "options": [
         "De l'argent pour l'aide",
-        "Le repas de midi et la remorque plus tard",
+        "Il ne propose rien",
         "Un jour de congé",
-        "Il ne propose rien"
+        "Le repas de midi et la remorque plus tard"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -226,13 +226,13 @@
       "transcript": "Alors, je regarde. Vous n'avez pas indiqué vos frais de déplacement, ni la formation continue. Vous avez le droit de déduire les deux, ça baisse votre revenu imposable. Ce que vous ne pouvez pas déduire, ce sont les repas pris à la maison. Et encore une chose : gardez les justificatifs. Si l'administration pose une question et que vous n'avez rien, elle supprime la déduction.",
       "question": "Que conseille la conseillère au sujet des justificatifs ?",
       "options": [
-        "Il faut toujours les envoyer avec la déclaration",
         "Il faut les garder, sinon l'administration peut supprimer la déduction",
+        "Il faut toujours les envoyer avec la déclaration",
         "On n'en a pas besoin si la déduction est petite",
         "Il faut les jeter après trois ans seulement"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -288,12 +288,12 @@
       "question": "Que veut surtout le premier voisin ?",
       "options": [
         "Qu'il n'y ait plus de fêtes",
-        "Qu'on le prévienne à l'avance",
         "Que les fêtes se terminent plus tôt",
+        "Qu'on le prévienne à l'avance",
         "Que la régie intervienne"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   }
 ]

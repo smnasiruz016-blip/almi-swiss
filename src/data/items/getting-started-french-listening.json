@@ -62,9 +62,9 @@
     "payload": {
       "transcript": "Voilà, ça vous fait douze francs quarante. Vous payez comment, en espèces ou avec la carte ? … Avec la carte, très bien. Tapez votre code ici, s'il vous plaît. Merci beaucoup, bonne journée !",
       "question": "Combien coûtent les achats ?",
-      "options": ["2.40", "12.40", "12.14", "20.40"]
+      "options": ["2.40", "12.14", "12.40", "20.40"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -79,9 +79,9 @@
     "payload": {
       "transcript": "Bonjour ! Excusez-moi, je suis Madame Grand, votre voisine d'à côté. Je n'ai plus de sel. Vous auriez peut-être un peu de sel pour moi ? Je vous le rends demain.",
       "question": "Que veut Madame Grand ?",
-      "options": ["Du sel", "Du sucre", "Du lait", "Une clé"]
+      "options": ["Une clé", "Du sucre", "Du lait", "Du sel"]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -173,12 +173,12 @@
       "question": "Où se trouve la poste ?",
       "options": [
         "À gauche au feu",
-        "À côté de la pharmacie, sur le côté gauche",
         "Tout droit, après cinq minutes, sur le côté droit",
+        "À côté de la pharmacie, sur le côté gauche",
         "Deux cents mètres avant le feu"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   },
   {
@@ -194,13 +194,13 @@
       "transcript": "Encore une information sur le cours : la semaine prochaine, lundi est férié. Il n'y a donc pas de cours. À la place, nous nous retrouvons le mercredi, même heure, même salle. Notez-le, s'il vous plaît.",
       "question": "Qu'est-ce qui change la semaine prochaine ?",
       "options": [
-        "Le cours a lieu le mercredi au lieu du lundi",
+        "Il n'y a pas de cours la semaine prochaine",
         "Le cours a lieu dans une autre salle",
         "Le cours commence plus tard",
-        "Il n'y a pas de cours la semaine prochaine"
+        "Le cours a lieu le mercredi au lieu du lundi"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 3 },
     "maxPoints": 1
   },
   {
@@ -216,13 +216,13 @@
       "transcript": "Alors, contre le rhume, prenez ceci : un comprimé le matin et un le soir, toujours après le repas. Pas plus de deux par jour. Buvez beaucoup d'eau. Si dans cinq jours ça ne va pas mieux, allez voir le médecin, s'il vous plaît.",
       "question": "Que doit faire la personne si ça ne va pas mieux après cinq jours ?",
       "options": [
-        "Prendre plus de comprimés",
         "Aller chez le médecin",
+        "Prendre plus de comprimés",
         "Attendre encore cinq jours",
         "Revenir à la pharmacie"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
@@ -278,12 +278,12 @@
       "question": "Que propose la première collègue ?",
       "options": [
         "De prendre le bus plus tôt",
-        "D'essayer le vélo une semaine au printemps",
         "D'habiter plus près du travail",
+        "D'essayer le vélo une semaine au printemps",
         "D'aller à pied en hiver"
       ]
     },
-    "answer": { "type": "MCQ_SINGLE", "correctIndex": 1 },
+    "answer": { "type": "MCQ_SINGLE", "correctIndex": 2 },
     "maxPoints": 1
   }
 ]
