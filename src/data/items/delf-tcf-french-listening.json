@@ -44,10 +44,10 @@
     "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Une information pour notre clientèle : aujourd'hui, toutes les vestes d'hiver sont à moitié prix. L'offre est valable aujourd'hui seulement et uniquement au deuxième étage.",
-      "question": "Affirmation : l'offre est valable toute la semaine.",
+      "question": "Affirmation : l'offre est valable aujourd'hui seulement.",
       "options": ["Vrai", "Faux"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {

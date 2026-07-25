@@ -6,8 +6,11 @@
 // French. No gate caught it — this is that gate. It is type-aware, mirroring the sibling
 // goethe gate:
 //   MULTI  (MCQ_SINGLE, CLOZE)   — POSITION CLUSTERING. No option index may hold more
-//                                  than CLUSTER of the section's answers.
-//   BINARY (TRUE_FALSE)          — BALANCE. Neither value (true/false) past BINARY_SKEW.
+//                                  than CLUSTER of the section's answers (needs MIN_N).
+//   BINARY (TRUE_FALSE)          — BALANCE. Neither value past BINARY_SKEW (needs MIN_N).
+//   EXTREME SKEW (any type)      — one value at/above EXTREME_SKEW (incl. all-same) fires
+//                                  at any n ≥ EXTREME_MIN_N; catches small skewed sections
+//                                  MIN_N was hiding (see the constant block below).
 // MATCHING and ORDERING are not single-index gameable and are excluded.
 //
 // Scope = one served surface × taskType (`${exam.slug}::${skill}::${taskType}`) — the
@@ -19,11 +22,20 @@
 import { ALL_EXAMS } from "../../src/lib/ch/registry";
 import { itemsForSurface } from "../../src/lib/ch/items";
 
-const CLUSTER = 0.6; // a MULTI option index past this share is clustered
-const BINARY_SKEW = 0.75; // a TRUE_FALSE value past this share is skewed
-const MIN_N = 6; // too few answers below this to tell a pattern from chance
+// TWO rules, because a small section can be gameable in a way a spread threshold misses:
+//   1. SPREAD (needs volume) — the top index holds more than its type's fair share.
+//      Requires n ≥ MIN_N: below that a 4/6 lean is as likely chance as design.
+//   2. EXTREME SKEW (needs almost none) — one value holds ≥ EXTREME_SKEW of the section,
+//      including the all-same case. Fires at any n ≥ EXTREME_MIN_N: a 3/3 all-"Falsch"
+//      section is gameable on 3 answers, and MIN_N was hiding exactly these — a learner
+//      picking that one value scores 80–100% knowing no German or French.
+const CLUSTER = 0.6; // a MULTI option index past this share is clustered (spread rule)
+const BINARY_SKEW = 0.75; // a TRUE_FALSE value past this share is skewed (spread rule)
+const MIN_N = 6; // spread rule: too few answers below this to tell a pattern from chance
+const EXTREME_SKEW = 0.8; // extreme-skew rule: one value at/above this share is gameable…
+const EXTREME_MIN_N = 3; // …at any section of at least this many answers (incl. all-same)
 
-type Row = { section: string; taskType: string; n: number; share: number; top: string; binary: boolean };
+type Row = { section: string; taskType: string; n: number; share: number; top: string; binary: boolean; reason: "spread" | "extreme" | null };
 
 const rows: Row[] = [];
 
@@ -44,23 +56,29 @@ for (const e of ALL_EXAMS) {
     }
     for (const [taskType, positions] of byTask) {
       const n = positions.length;
-      if (n < MIN_N) continue;
+      if (n < EXTREME_MIN_N) continue; // even the extreme rule needs 3 answers to mean anything
       const count = new Map<number, number>();
       for (const p of positions) count.set(p, (count.get(p) ?? 0) + 1);
       let topKey = 0;
       let topN = 0;
       for (const [k, v] of count) if (v > topN) [topKey, topN] = [k, v];
-      rows.push({ section: `${e.slug}::${skill}`, taskType, n, share: topN / n, top: `idx ${topKey}`, binary: taskType === "TRUE_FALSE" });
+      const share = topN / n;
+      const binary = taskType === "TRUE_FALSE";
+      const spread = n >= MIN_N && share > (binary ? BINARY_SKEW : CLUSTER);
+      const extreme = share >= EXTREME_SKEW;
+      const reason = spread ? "spread" : extreme ? "extreme" : null;
+      rows.push({ section: `${e.slug}::${skill}`, taskType, n, share, top: `idx ${topKey}`, binary, reason });
     }
   }
 }
 
-const flagged = rows.filter((r) => r.share > (r.binary ? BINARY_SKEW : CLUSTER)).sort((a, b) => b.share - a.share);
+const flagged = rows.filter((r) => r.reason !== null).sort((a, b) => b.share - a.share);
 
 if (flagged.length > 0) {
   console.error(`\n✗ ANSWER-DISTRIBUTION GATE FAILED — ${flagged.length} of ${rows.length} objective sections are gameable from position.\n`);
   for (const r of flagged) {
-    console.error(`  ${Math.round(r.share * 100)}% → ${r.top}   ${r.section}::${r.taskType}  (n=${r.n}, ${r.binary ? "binary >75%" : "multi >60%"})`);
+    const rule = r.reason === "extreme" ? `extreme ≥80% @ n≥3` : r.binary ? "spread binary >75%" : "spread multi >60%";
+    console.error(`  ${Math.round(r.share * 100)}% → ${r.top}   ${r.section}::${r.taskType}  (n=${r.n}, ${rule})`);
   }
   console.error(`\n  Fix: permute order-independent MCQ (deterministic, by title+index), author-balance CLOZE/TRUE_FALSE — preserve single-answer and decidability, never make an item wrong to satisfy a count.\n`);
   process.exit(1);

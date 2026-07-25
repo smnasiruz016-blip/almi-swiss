@@ -129,10 +129,10 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici le concierge. Mercredi matin, le peintre vient dans la cage d'escalier. De huit heures à midi, vous ne pouvez pas utiliser l'ascenseur. L'escalier fonctionne normalement, bien sûr. L'après-midi, tout est de nouveau normal. Merci de votre compréhension.",
-      "question": "Affirmation : mercredi matin, on ne peut pas utiliser l'escalier.",
+      "question": "Affirmation : mercredi matin, on ne peut pas utiliser l'ascenseur.",
       "options": ["Vrai", "Faux"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {

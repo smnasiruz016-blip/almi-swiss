@@ -139,10 +139,10 @@
     "prompt": "Écoutez l'information. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Encore une information : l'entreprise paie la moitié du cours. L'autre moitié, c'est vous. Ce qui est important : le cours a lieu le soir, pas pendant les heures de travail. Vous ne recevrez donc pas d'heures en compensation. Les personnes intéressées s'annoncent chez moi d'ici la fin du mois.",
-      "question": "Affirmation : le cours a lieu pendant les heures de travail.",
+      "question": "Affirmation : le cours a lieu le soir.",
       "options": ["Vrai", "Faux"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {

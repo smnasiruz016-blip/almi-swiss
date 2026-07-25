@@ -44,10 +44,10 @@
     "prompt": "Hören Sie den Wetterbericht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Und jetzt das Wetter. Heute Nachmittag regnet es im ganzen Land. Es ist kühl, nur zwölf Grad. Am Abend hört der Regen auf. Morgen scheint die Sonne.",
-      "question": "Aussage: Morgen regnet es wieder.",
+      "question": "Aussage: Morgen scheint die Sonne.",
       "options": ["Richtig", "Falsch"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {

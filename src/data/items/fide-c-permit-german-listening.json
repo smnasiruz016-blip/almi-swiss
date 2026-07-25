@@ -139,10 +139,10 @@
     "prompt": "Hören Sie die Information. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Noch eine Information: Die Firma zahlt die Hälfte des Kurses. Die andere Hälfte zahlen Sie selber. Wichtig ist: Der Kurs findet am Abend statt, nicht während der Arbeitszeit. Sie bekommen dafür also keine Stunden gutgeschrieben. Wer Interesse hat, meldet sich bis Ende Monat bei mir.",
-      "question": "Aussage: Der Kurs findet während der Arbeitszeit statt.",
+      "question": "Aussage: Der Kurs findet am Abend statt.",
       "options": ["Richtig", "Falsch"]
     },
-    "answer": { "type": "TRUE_FALSE", "correctIndex": 1 },
+    "answer": { "type": "TRUE_FALSE", "correctIndex": 0 },
     "maxPoints": 1
   },
   {
