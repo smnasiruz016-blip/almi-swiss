@@ -11,6 +11,7 @@
     "gate:hygiene": "node scripts/seo/fork-hygiene-gate.mjs",
     "selftest:engine": "tsx src/lib/ch/selftest.ts",
     "verify:items": "tsx scripts/items/verify-items.mts",
+    "gate:answer-distribution": "tsx scripts/items/answer-distribution-gate.mts",
     "gate:item-id": "tsx scripts/items/item-id-collision-gate.mts",
     "gate:real-entity": "node scripts/seo/real-entity-gate.mjs",
     "gate:real-entity:test": "node scripts/seo/real-entity-gate.test.mjs",
