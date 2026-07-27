@@ -1,0 +1,126 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+transcribing 340 clip(s) locally — base, then small on anything flagged
+
+  … loading small to confirm
+  FAIL  83.3%  FR  Annonce à l'aéroport
+           not heard: cent, heures, quarante, seize
+  FAIL  73.3%  FR  Message : je viens te chercher
+           not heard: heures, prends, quart, tes
+  FAIL  75.0%  FR  Météo du week-end
+           not heard: degrés, est, mais, nuageux, quinze
+  FAIL  63.0%  FR  Quatre personnes parlent de leur loisir
+           not heard: aime, amusant, après, cinquante, cours, cuisiner, end, journée
+  FAIL  70.7%  FR  Téléphone : une réclamation
+           not heard: abîmée, bonjour, carton, celle, chez, commandé, livrée, ouvert
+  FAIL  81.0%  FR  Annonce à l'atelier
+           not heard: demie, heures, onze, treize
+  FAIL  78.9%  FR  Au guichet de la poste
+           not heard: cinquante, colis, portugal, trente
+  FAIL  65.3%  FR  Deux voisins parlent du bruit
+           not heard: avez, chose, comme, contre, dimanche, dis, dois, heures
+  FAIL  70.5%  FR  Quatre appels au travail
+           not heard: adresse, arrive, entreprise, heure, keller, livraison, luca, manque
+  FAIL  76.2%  FR  Annonce à la gare : train supprimé
+           not heard: 16h20, aux, information, quai, voyageurs
+  FAIL  76.0%  FR  Annonce dans le parking
+           not heard: cette, chers, chères, clientes, clients, heure
+  FAIL  82.4%  FR  Annonce dans le train : quai
+           not heard: 15h10, part, quai
+  FAIL  52.8%  FR  Appel au service clientèle : colis non reçu
+           not heard: aujourd, bloqué, commande, confirmation, courriel, dans, dépôt, désolé
+  FAIL  57.1%  FR  Appel : changer une commande
+           not heard: change, commande, elle, encore, environ, livraison, meubles, même
+  FAIL  74.3%  FR  Appel : commander un artisan
+           not heard: 14h, 16h, arrêt, eau, entre, goutte, passer, sans
+  FAIL  63.6%  FR  Appel : demander un devis à un déménageur
+           not heard: 18h, combien, déménagements, engagement, fais, mieux, non, puis
+  FAIL  78.1%  FR  Appel : demander un devis à un électricien
+           not heard: 17h, mieux, non, puis, voir, volontiers, électricité
+  FAIL  70.0%  FR  Appel : demander un devis à un peintre
+           not heard: 17h, engagement, haut, mieux, non, peinture, pièce, prix
+  FAIL  64.9%  FR  Appel : prendre rendez-vous au garage
+           not heard: appelle, centre, dans, devis, donne, freins, journée, peut
+  FAIL  55.2%  FR  Appel : renseignement à la bibliothèque
+           not heard: amende, bibliothèque, fois, jour, ligne, par, personne, pour
+  FAIL  65.0%  FR  Appel : reporter un cours
+           not heard: autre, bonne, groupe, journée, juste, langues, non, note
+  FAIL  62.2%  FR  Appel : reporter un rendez-vous à la commune
+           not heard: 10h, 14h, avons, cela, contrôle, convient, donc, envoyée
+  FAIL  79.2%  FR  Appel : reporter un rendez-vous chez le coiffeur
+           not heard: alors, coiffure, irait, note, salon
+  FAIL  40.0%  FR  Appel : reporter une livraison de meubles
+           not heard: 14h, 17h, apportons, armoire, bien, bonjour, cela, entre
+  FAIL  57.7%  FR  Appel : reporter une réunion
+           not heard: 14h, alors, arrange, bonjour, jeudi, jour, malheureusement, parfait
+  FAIL  54.5%  FR  Appel : résilier un abonnement
+           not heard: comprends, confirmation, courriel, demander, dommage, donc, délai, envoie
+  FAIL  64.7%  FR  Appel : signaler un colis abîmé
+           not heard: 5120, abîmé, article, avez, clientèle, commande, courriel, envoyez
+  FAIL  64.3%  FR  Appel : signaler une erreur sur une facture
+           not heard: 8842, avez, corrige, envoie, nouvelle, payer, pour, regarde
+  FAIL  62.5%  FR  Appel : signaler une fuite d'eau à la régie
+           not heard: appelle, aujourd, couper, envoie, hui, mon, passer, plombier
+  FAIL  53.1%  FR  Appel : signaler une livraison en retard
+           not heard: aujourd, colis, courriel, demain, dépôt, désolé, envoie, hui
+  FAIL  68.6%  FR  Appel : signaler une panne d'ascenseur
+           not heard: attendant, aujourd, coincé, hui, passer, rez, régie, suite
+  FAIL  73.1%  FR  Appel : signaler une panne d'internet
+           not heard: 12h, avant, cela, convient, entre, envoie, jeudi, ligne
+  FAIL  79.3%  FR  Conversation : choisir des vacances en famille
+           not heard: cet, faisons, jours, nager, puis, quelques
+  FAIL  81.8%  FR  Conversation : choisir des vacances
+           not heard: cet, montre, part, prix, soir, été
+  FAIL  48.5%  FR  Conversation : choisir un cadeau de départ
+           not heard: argent, autre, canton, collecte, fais, lui, notre, offre
+  FAIL  74.4%  FR  Conversation : choisir un cadeau
+           not heard: autres, aux, cheffe, collecte, demande, ils, notre, part
+  FAIL  78.0%  FR  Conversation : choisir un cours
+           not heard: automne, cet, convient, cours, français, lequel, quartier, serait
+  FAIL  74.2%  FR  Conversation : choisir une activité pour les enfants
+           not heard: automne, aux, cet, enfants, fait, nora, propose, quand
+  FAIL  79.4%  FR  Conversation : inscrire un enfant au foot
+           not heard: comment, faut, foot, inscrire, quartier, super, voudrait
+  FAIL  67.7%  FR  Conversation : organiser un anniversaire d'enfant
+           not heard: 14h, boissons, gâteau, léa, organise, parfait, pourrais, quelques
+  FAIL  69.0%  FR  Conversation : organiser un covoiturage scolaire
+           not heard: 7h50, emmener, enfants, même, nos, pourrait, voit, vont
+  FAIL  60.0%  FR  Conversation : organiser un covoiturage
+           not heard: conduis, covoiturage, dis, heures, les, moins, non, pourrais
+  FAIL  58.8%  FR  Conversation : organiser un déménagement
+           not heard: aider, aurais, camionnette, cartons, des, déjà, est, foot
+  FAIL  51.4%  FR  Conversation : partager la garde des animaux
+           not heard: changer, chat, eau, end, fois, jour, juste, litière
+  FAIL  75.9%  FR  Conversation : partager une voiture pour le travail
+           not heard: heures, les, pourrais, pourrait, prendre, quart, tous
+  FAIL  63.6%  FR  Conversation : planifier le week-end
+           not heard: beau, end, fatigant, fera, horaires, mieux, moins, nique
+  FAIL  77.5%  FR  Conversation : préparer un repas de fête
+           not heard: aux, avance, demande, dessert, fruits, liste, personnes, reçoit
+  FAIL  72.2%  FR  Conversation : préparer une fête d'anniversaire
+           not heard: aujourd, demande, douée, envoie, hui, jeux, maya, organise
+  FAIL  73.7%  FR  Conversation : reporter un rendez-vous médical
+           not heard: appelez, apportez, cabinet, cela, convient, ici, perret, plus
+  FAIL  48.6%  FR  Conversation : reporter une livraison
+           not heard: 12h, 13h, 15h, apportons, aurions, bonjour, canapé, entre
+  FAIL  71.0%  FR  Conversation : trouver une baby-sitter
+           not heard: baby, garde, numéro, pour, sitter, soir, son, super
+  FAIL  80.0%  FR  Entretien : un boulanger raconte
+           not heard: chaque, jour, journée, levez, odeur, qui, tôt, vraiment
+  FAIL  78.4%  FR  Entretien : un facteur raconte
+           not heard: aime, bonjour, bouger, colis, connaître, disent, gros, être
+  FAIL  81.6%  FR  Entretien : un habitant parle de son quartier
+           not heard: bancs, dans, magasins, manque, peu, ses, verdure
+  FAIL  78.4%  FR  Entretien : une bénévole raconte
+           not heard: aidez, aidée, arrivée, cela, chaque, mercredi, pourquoi, quartier
+  FAIL  84.2%  FR  Message d'un collègue : manger à midi
+           not heard: pause, room, tea
+  FAIL  84.4%  FR  Message de l'école : sortie à la piscine
+           not heard: 16h, jeudi, nique, pique, secrétariat
+  FAIL  84.0%  FR  Message de la voisine : colis
+           not heard: dès, heures, madame, perret
+  FAIL  66.7%  FR  Quatre messages sur le répondeur
+           not heard: 16h30, arrivé, attestation, avance, avertir, bonsoir, cabinet, cas
+  FAIL  83.9%  DE  Anruf: ein Abo kündigen
+           not heard: danke, dann, frau, kundendienst, kündigen, kündigungsfrist, mein, rahimi
+  FAIL  83.3%  DE  Anruf: eine Lieferung verschieben
+           not heard: danke, frau, mitarbeiter, passt, roth, vormittag, übermorgen
