@@ -11,6 +11,7 @@
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Frau Haddad. Hier ist die Praxis Dr. Lang. Ihr Termin am Donnerstag um 14 Uhr ist leider nicht möglich, die Ärztin ist krank. Wir haben einen neuen Termin für Sie: Freitag um 9 Uhr 30. Wenn das nicht geht, rufen Sie uns bitte zurück. Auf Wiederhören.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-auf-dem-anrufbeantworter.wav",
       "question": "Warum ruft die Praxis an?",
       "options": [
         "Frau Haddad muss eine Rechnung bezahlen",
@@ -37,6 +38,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Information für die Reisenden nach Bern: Der Intercity 728, Abfahrt 10 Uhr 04, fährt heute nicht von Gleis 7, sondern von Gleis 12. Ich wiederhole: Der Intercity nach Bern fährt heute von Gleis 12. Wir bitten um Entschuldigung.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-am-bahnhof.wav",
       "question": "Was hat sich geändert?",
       "options": [
         "Die Abfahrtszeit",
@@ -63,6 +65,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Morgen, hier ist das Schulsekretariat. Morgen fällt der Sportunterricht aus, weil die Turnhalle repariert wird. Der Unterricht beginnt deshalb erst um 9 Uhr 45 statt um 8 Uhr. Bitte informieren Sie Ihr Kind. Danke und einen schönen Tag.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-schule.wav",
       "question": "Aussage: Der Unterricht beginnt morgen später als sonst.",
       "options": [
         "Richtig",
@@ -87,6 +90,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, wir schliessen in zwanzig Minuten. Bitte bringen Sie Ihre Einkäufe zur Kasse. Wir öffnen morgen wieder um 8 Uhr. An diesem Sonntag bleibt das Einkaufszentrum geschlossen. Vielen Dank für Ihren Besuch.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-im-einkaufszentrum.wav",
       "question": "Wann ist das Einkaufszentrum geschlossen?",
       "options": [
         "Morgen früh",
@@ -113,6 +117,7 @@
     "prompt": "Hören Sie die vier Mitteilungen und ordnen Sie jeder das passende Thema zu.",
     "payload": {
       "transcript": "Mitteilung eins: Hallo Sara, ich stehe im Stau und komme etwa zwanzig Minuten später. Fang schon mal an.\n\nMitteilung zwei: Guten Tag, Ihr Paket konnte nicht zugestellt werden. Sie können es ab morgen auf der Poststelle abholen.\n\nMitteilung drei: Hier ist die Autogarage Frei. Ihr Auto ist fertig, Sie können es heute bis 18 Uhr abholen.\n\nMitteilung vier: Liebe Mieterinnen und Mieter, am Montag wird zwischen 8 und 12 Uhr das Wasser abgestellt.",
+      "audioUrl": "/audio/ch/fide-german-listening--vier-kurze-mitteilungen.wav",
       "instructions": "Ordnen Sie jeder Mitteilung das passende Thema zu.",
       "left": [
         "Mitteilung eins",
@@ -163,6 +168,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Mitarbeiter: Guten Tag, was kann ich für Sie tun?\n\nHerr Ndiaye: Guten Tag. Ich bin letzte Woche in diese Gemeinde gezogen und möchte mich anmelden.\n\nMitarbeiter: Sehr gut. Haben Sie Ihren Ausweis und den Mietvertrag dabei?\n\nHerr Ndiaye: Ja, beides. Aber der Versicherungsnachweis fehlt mir noch, den bekomme ich erst nächste Woche.\n\nMitarbeiter: Das ist kein Problem. Wir nehmen die Anmeldung heute auf, und Sie reichen den Nachweis später nach. Sie können ihn auch per Post schicken oder in den Briefkasten unten werfen.\n\nHerr Ndiaye: Gut, das mache ich. Vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--am-schalter-der-einwohnerdienste.wav",
       "question": "Was passiert mit dem fehlenden Versicherungsnachweis?",
       "options": [
         "Er kann ihn später nachreichen, auch per Post",
@@ -189,6 +195,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Beraterin: Kranken AG, Sie sprechen mit Frau Roth, guten Tag.\n\nFrau Mensah: Guten Tag. Ich habe eine Rechnung erhalten und verstehe nicht, warum ich alles selbst bezahlen muss.\n\nBeraterin: Einen Moment, ich schaue nach. Frau Mensah, Sie haben eine Franchise von zweitausendfünfhundert Franken gewählt. Das bedeutet: Bis zu diesem Betrag bezahlen Sie die Kosten selbst. Erst danach beteiligen wir uns.\n\nFrau Mensah: Ach so. Und kann ich das ändern?\n\nBeraterin: Die Franchise können Sie auf Ende Jahr anpassen, nicht mitten im Jahr. Wenn Sie eine tiefere Franchise wählen, steigt allerdings Ihre monatliche Prämie.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-bei-der-krankenkasse.wav",
       "question": "Was erklärt die Beraterin über die Franchise?",
       "options": [
         "Frau Mensah kann sie sofort ändern",
@@ -215,6 +222,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, Frau Petrović, hier ist Herr Studer von der Verwaltung. Es geht um die Wohnungsabgabe am dreissigsten. Wichtig: Die Wohnung muss komplett leer und gereinigt sein, bevor wir sie abnehmen. Auch der Keller und der Estrich. Wir gehen dann gemeinsam durch und schreiben ein Protokoll. Die Schlüssel geben Sie erst nach der Abnahme ab, nicht vorher. Bei Fragen melden Sie sich. Danke, auf Wiederhören.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-der-hausverwaltung.wav",
       "question": "Aussage: Frau Petrović soll die Schlüssel vor der Abnahme abgeben.",
       "options": [
         "Richtig",
@@ -239,6 +247,7 @@
     "prompt": "Hören Sie die Wegbeschreibung und bringen Sie die Schritte in die richtige Reihenfolge.",
     "payload": {
       "transcript": "Also, vom Bahnhof aus ist es ganz einfach. Sie gehen zuerst durch die Unterführung auf die andere Seite. Dann nehmen Sie den Bus Nummer 4 bis zur Haltestelle Dorfplatz. Dort steigen Sie aus und gehen geradeaus weiter bis zur Kirche. Bei der Kirche biegen Sie links ab, und nach etwa hundert Metern sehen Sie das Gemeindehaus auf der rechten Seite. Es ist das gelbe Gebäude.",
+      "audioUrl": "/audio/ch/fide-german-listening--wegbeschreibung-zum-gemeindehaus.wav",
       "instructions": "Ordnen Sie die Schritte vom ersten bis zum letzten.",
       "items": [
         "Bei der Kirche links abbiegen",
@@ -272,6 +281,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Vorgesetzte: Herr Yilmaz, haben Sie kurz Zeit? Es geht um den neuen Einsatzplan.\n\nHerr Yilmaz: Ja, gerne.\n\nVorgesetzte: Ab Mai arbeiten wir in zwei Schichten. Die Frühschicht beginnt um 6 Uhr, die Spätschicht um 14 Uhr. Sie haben gesagt, Sie bringen Ihre Tochter morgens in die Kita — passt die Frühschicht dann überhaupt?\n\nHerr Yilmaz: Ehrlich gesagt nicht. Die Kita öffnet erst um 7.\n\nVorgesetzte: Gut, dass Sie das sagen. Dann teile ich Sie fest für die Spätschicht ein. Sagen Sie mir aber bitte Bescheid, wenn sich das ändert.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-uber-die-arbeitszeit.wav",
       "question": "Was wird am Ende entschieden?",
       "options": [
         "Herr Yilmaz arbeitet immer in der Frühschicht",
@@ -298,6 +308,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Apothekerin: So, hier ist Ihr Medikament. Nehmen Sie bitte dreimal täglich eine Tablette, jeweils nach dem Essen.\n\nHerr Cardoso: Nach dem Essen, gut. Und wie lange?\n\nApothekerin: Sieben Tage lang, auch wenn es Ihnen vorher besser geht. Das ist wichtig — bitte hören Sie nicht früher auf.\n\nHerr Cardoso: Verstanden. Und darf ich damit Auto fahren?\n\nApothekerin: Ja, das ist kein Problem. Aber trinken Sie keinen Alkohol, solange Sie das Medikament nehmen.",
+      "audioUrl": "/audio/ch/fide-german-listening--in-der-apotheke.wav",
       "question": "Was sagt die Apothekerin über die Dauer der Behandlung?",
       "options": [
         "Man kann aufhören, sobald es besser geht",
@@ -324,6 +335,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen nach den Sprachanforderungen für die Einbürgerung. Ich erkläre es Ihnen gerne. Der Bund verlangt mündlich mindestens Niveau B1 und schriftlich mindestens Niveau A2 in einer Landessprache. Das ist aber nur die Mindestanforderung. Über Ihr Gesuch entscheiden bei der ordentlichen Einbürgerung der Kanton und Ihre Wohngemeinde, und die können zusätzliche Anforderungen stellen — manche Gemeinden verlangen zum Beispiel ein höheres Niveau oder ein Gespräch. Deshalb mein Rat: Fragen Sie zuerst bei Ihrer Wohngemeinde nach, was konkret für Sie gilt, bevor Sie einen Sprachkurs buchen.",
+      "audioUrl": "/audio/ch/fide-german-listening--telefonische-auskunft-zur-einburgerung.wav",
       "question": "Welchen Rat gibt die Auskunftsperson?",
       "options": [
         "Zuerst bei der Wohngemeinde fragen, was konkret gilt",
@@ -350,6 +362,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Amina: Und, wie läuft dein Kurs?\n\nBeatrice: Gut eigentlich. Aber weisst du, was mich stört? Im Kurs sprechen wir Standarddeutsch, und dann komme ich zur Arbeit und verstehe kein Wort. Alle reden Dialekt.\n\nAmina: Das kenne ich. Am Anfang dachte ich, ich hätte umsonst gelernt.\n\nBeatrice: Genau so fühlt es sich an.\n\nAmina: Aber es ist nicht umsonst. Die Prüfung ist auf Standarddeutsch, alles Schriftliche auch — Briefe, Formulare, die Zeitung. Den Dialekt verstehst du mit der Zeit von allein, einfach vom Zuhören. Aber niemand schreibt dir einen Brief von der Gemeinde auf Dialekt.\n\nBeatrice: Da hast du recht. Ich muss einfach geduldiger sein.",
+      "audioUrl": "/audio/ch/fide-german-listening--zwei-kolleginnen-uber-den-deutschkurs.wav",
       "question": "Was ist Aminas Hauptargument?",
       "options": [
         "Beatrice sollte den Kurs wechseln und Dialekt lernen",
@@ -376,6 +389,7 @@
     "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Einwohnerinnen und Einwohner. Am Dienstag, dem elften November, findet um 20 Uhr die Gemeindeversammlung in der Mehrzweckhalle statt. Traktandiert sind das Budget für das kommende Jahr und der Umbau des Schulhauses. Stimmberechtigt sind alle Schweizerinnen und Schweizer mit Wohnsitz in der Gemeinde. Interessierte ohne Stimmrecht sind als Zuhörerinnen und Zuhörer herzlich willkommen — die Versammlung ist öffentlich. Im Anschluss offeriert die Gemeinde einen Apéro.",
+      "audioUrl": "/audio/ch/fide-german-listening--einladung-zur-gemeindeversammlung.wav",
       "question": "Laut der Ansage: Wer nicht stimmberechtigt ist, darf trotzdem an der Versammlung teilnehmen und zuhören.",
       "options": [
         "Richtig",
@@ -400,6 +414,7 @@
     "prompt": "Hören Sie die vier Beiträge und ordnen Sie jeder Person ihre Aussage zu.",
     "payload": {
       "transcript": "Tomas: Für mich war die Sprache nie das grösste Problem. Das Schwierigste war, dass alles im Voraus geplant werden muss. Spontan bei jemandem vorbeigehen — das macht man hier nicht.\n\nRoxana: Ich habe zwei Jahre gebraucht, bis ich im Haus jemanden richtig kannte. Und dann bin ich dem Quartierverein beigetreten, und plötzlich ging alles schnell.\n\nJelena: Mir hat niemand gesagt, dass ich mich innerhalb von drei Monaten versichern muss. Das habe ich zufällig von einer Kollegin erfahren. Solche Informationen sollte man bekommen, wenn man ankommt.\n\nPavel: Ich verstehe im Büro alles. Aber sobald die Leute in der Pause auf Dialekt wechseln, bin ich raus. Das ist frustrierend, obwohl mein Deutsch eigentlich gut ist.",
+      "audioUrl": "/audio/ch/fide-german-listening--vier-personen-uber-das-ankommen.wav",
       "instructions": "Wer sagt was? Ordnen Sie zu. Nicht alle Aussagen werden gebraucht.",
       "left": [
         "Tomas",
@@ -451,6 +466,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Gäste. Wir schliessen heute um 20 Uhr. Bitte verlassen Sie die Becken um Viertel vor acht. Die Duschen bleiben bis zehn nach acht offen. Wir wünschen Ihnen einen schönen Abend.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-im-hallenbad.wav",
       "question": "Wann soll man aus dem Becken kommen?",
       "options": [
         "Um 20.00 Uhr",
@@ -477,6 +493,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Frau Adeyemi, hier ist die Kita Sonnenblume. Nur eine kurze Information: Morgen machen wir mit den Kindern einen Ausflug in den Wald. Bitte ziehen Sie Ihrer Tochter feste Schuhe an und geben Sie ihr eine Jacke mit. Das Essen bekommen die Kinder von uns. Danke und bis morgen.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-kita.wav",
       "question": "Was sollen die Eltern mitgeben?",
       "options": [
         "Feste Schuhe und eine Jacke",
@@ -503,6 +520,7 @@
     "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Nächster Halt: Dorfplatz. Achtung, die Haltestelle Schulhaus wird heute nicht bedient. Wegen einer Baustelle fährt der Bus direkt zum Spital weiter. Fahrgäste zum Schulhaus steigen bitte am Dorfplatz aus und gehen fünf Minuten zu Fuss.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-bus.wav",
       "question": "Aussage: Der Bus hält heute nicht beim Schulhaus.",
       "options": [
         "Richtig",
@@ -527,6 +545,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Herr Salihu. Hier die Zahnarztpraxis am Park. Ihr Termin am Mittwoch um 14 Uhr bleibt wie abgemacht. Bitte denken Sie daran: Sie haben gesagt, Sie nehmen ein Medikament. Bringen Sie bitte die Packung mit, damit wir den Namen sehen. Bis Mittwoch.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-vom-zahnarzt.wav",
       "question": "Was soll Herr Salihu mitbringen?",
       "options": [
         "Die Versichertenkarte",
@@ -553,6 +572,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Frau Duarte. Hier ist die Gemeindebibliothek. Das Buch, das Sie reserviert haben, ist da. Wir legen es für Sie an die Seite. Bitte holen Sie es innerhalb von einer Woche ab, sonst geben wir es der nächsten Person. Sie brauchen nichts zu bezahlen. Auf Wiederhören.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-aus-der-bibliothek.wav",
       "question": "Was passiert, wenn Frau Duarte das Buch nicht abholt?",
       "options": [
         "Sie bezahlt eine Gebühr",
@@ -579,6 +599,7 @@
     "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Marktbesucherinnen und Marktbesucher. Wegen des starken Windes bauen wir heute früher ab. Die Stände schliessen um 12 Uhr statt um 16 Uhr. Der Markt am nächsten Samstag findet normal statt. Danke für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-auf-dem-markt.wav",
       "question": "Aussage: Der Markt fällt nächsten Samstag aus.",
       "options": [
         "Richtig",
@@ -603,6 +624,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Hallo, hier ist Frau Steiner von unten. Ich sehe, Sie sind nicht zu Hause, und bei Ihnen ist ein Fenster offen. Es soll heute Nacht regnen. Ich habe keinen Schlüssel, ich kann also nichts machen. Rufen Sie mich zurück, wenn Sie das hören, dann sage ich Ihnen, welches Fenster es ist.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-nachbarin.wav",
       "question": "Warum ruft Frau Steiner an?",
       "options": [
         "Sie braucht einen Schlüssel",
@@ -629,6 +651,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Osei: Guten Tag, ich brauche eine Bestätigung, dass ich hier wohne. Für meinen Arbeitgeber.\nMitarbeiterin: Gerne. Eine Wohnsitzbestätigung. Haben Sie einen Ausweis dabei?\nHerr Osei: Ja, hier.\nMitarbeiterin: Danke. Sie bekommen sie direkt mit, das dauert etwa fünf Minuten. Sie kostet zwanzig Franken.\nHerr Osei: Ich habe kein Bargeld dabei.\nMitarbeiterin: Kein Problem, Sie können mit Karte bezahlen. Nur bei Beträgen unter fünf Franken geht das nicht.",
+      "audioUrl": "/audio/ch/fide-german-listening--am-schalter-eine-bestatigung-holen.wav",
       "question": "Was gilt für die Bezahlung?",
       "options": [
         "Herr Osei muss Bargeld holen",
@@ -655,6 +678,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Rahimi: Guten Tag, hier Rahimi, Lindenweg 8. Unsere Heizung wird seit drei Tagen nicht mehr richtig warm.\nMitarbeiter: Haben Sie schon entlüftet?\nFrau Rahimi: Ja, mein Nachbar hat mir gezeigt, wie das geht. Es hat nichts gebracht.\nMitarbeiter: Gut, dann ist es nicht die Luft. Ich schicke den Servicemann. Er kommt morgen zwischen acht und zwölf. Können Sie da jemanden zu Hause haben?\nFrau Rahimi: Morgen früh arbeite ich. Aber meine Tochter ist da, sie ist siebzehn.\nMitarbeiter: Das genügt, sie muss nur die Tür öffnen und ihn hineinlassen.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-bei-der-verwaltung-heizung.wav",
       "question": "Was ist das Ergebnis des Gesprächs?",
       "options": [
         "Frau Rahimi soll die Heizung noch einmal entlüften",
@@ -681,6 +705,7 @@
     "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Herr Bytyqi: Du, ich habe die Säcke aus meiner alten Gemeinde noch. Kann ich die hier brauchen?\nFrau Lehmann: Nein, leider nicht. Jede Gemeinde hat ihre eigenen Säcke, und hier nehmen sie nur die von hier mit. Deine bleiben stehen.\nHerr Bytyqi: Und was mache ich mit den alten?\nFrau Lehmann: Frag am Schalter nach. Manche Gemeinden tauschen sie um, andere nicht — das ist überall anders geregelt.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-uber-den-gebuhrensack.wav",
       "question": "Aussage: Manche Gemeinden tauschen alte Säcke um, andere nicht.",
       "options": [
         "Richtig",
@@ -705,6 +730,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, hier ist der Turnverein. Sie haben wegen des Trainings für Ihre Tochter angerufen. Also: Die Gruppe für Zehnjährige trainiert am Mittwoch von 17 bis 18.30 Uhr in der Turnhalle. Zwei Schnuppertrainings sind gratis, danach entscheiden Sie in Ruhe. Der Jahresbeitrag ist hundertzwanzig Franken. Und noch etwas, das oft gefragt wird: Wenn der Beitrag für eine Familie schwierig ist, melden Sie sich bitte bei uns — wir finden eine Lösung, und das bleibt unter uns.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-beim-sportverein.wav",
       "question": "Was sagt der Verein über den Beitrag?",
       "options": [
         "Wer ihn nicht bezahlen kann, soll sich melden",
@@ -731,6 +757,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen nach einem Deutschkurs am Abend. Wir haben zwei: Montag und Mittwoch von 18.30 bis 20 Uhr auf Niveau A2, und Dienstag auf Niveau B1. Bevor Sie sich anmelden, machen Sie bitte den Einstufungstest — er ist kostenlos und dauert eine halbe Stunde. Es bringt nichts, wenn Sie im falschen Kurs sitzen: Wer zu hoch einsteigt, hört nach drei Wochen auf. Den Test können Sie ohne Anmeldung machen, jeden Donnerstagnachmittag.",
+      "audioUrl": "/audio/ch/fide-german-listening--auskunft-im-kurszentrum.wav",
       "question": "Warum empfiehlt die Mitarbeiterin den Einstufungstest?",
       "options": [
         "Weil er für die Anmeldung vorgeschrieben ist",
@@ -757,6 +784,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Lehrerin Frau Widmer: Danke, dass Sie gekommen sind. Mit dem Rechnen geht es gut. Beim Lesen braucht Ihr Sohn mehr Zeit als die anderen — er versteht den Text, aber er liest langsam.\nHerr Mwangi: Zu Hause sprechen wir Suaheli. Ist das das Problem?\nFrau Widmer: Nein. Bitte hören Sie nicht auf, Suaheli zu sprechen — das hilft ihm sogar. Was ihm fehlt, ist einfach Lesekilometer auf Deutsch. Zwanzig Minuten am Tag, irgendein Buch, das ihn interessiert.",
+      "audioUrl": "/audio/ch/fide-german-listening--elterngesprach-in-der-schule.wav",
       "question": "Was rät Frau Widmer den Eltern?",
       "options": [
         "Zu Hause nur noch Deutsch zu sprechen",
@@ -783,6 +811,7 @@
     "prompt": "Hören Sie die vier Ansagen und ordnen Sie jeder das passende Thema zu.",
     "payload": {
       "transcript": "Ansage eins: Liebe Anwohnerinnen und Anwohner, am Donnerstag wird die Strasse neu geteert. Bitte parkieren Sie Ihr Auto ab Mittwochabend woanders.\n\nAnsage zwei: Die Bibliothek bleibt nächste Woche geschlossen. Wir zügeln in den neuen Raum im Erdgeschoss.\n\nAnsage drei: Der Brunnen auf dem Dorfplatz wird geputzt. Bitte lassen Sie Kinder in dieser Zeit nicht hinein.\n\nAnsage vier: Wir suchen noch Freiwillige für das Quartierfest. Melden Sie sich bitte im Gemeindehaus.",
+      "audioUrl": "/audio/ch/fide-german-listening--vier-ansagen-im-quartier.wav",
       "instructions": "Ordnen Sie zu.",
       "left": [
         "Ansage eins",
@@ -833,6 +862,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Kaya: Guten Tag, ich habe eine Rechnung über achtzig Franken für einen Termin, den ich abgesagt habe.\nMitarbeiter: Einen Moment. Ja, ich sehe es. Sie haben am Vortag um 17 Uhr abgesagt.\nFrau Kaya: Genau, per Telefon.\nMitarbeiter: Das Problem ist die Frist: Wir verrechnen, wenn weniger als vierundzwanzig Stunden vorher abgesagt wird. Ihr Termin war am Morgen um neun.\nFrau Kaya: Das habe ich nicht gewusst. Es steht auch nicht auf der Terminkarte.\nMitarbeiter: Da haben Sie recht, das steht wirklich nicht drauf. Ich streiche die Rechnung dieses Mal. Aber jetzt wissen Sie es.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-rechnung-klaren.wav",
       "question": "Warum streicht der Mitarbeiter die Rechnung?",
       "options": [
         "Weil die Frist nicht auf der Terminkarte stand",
@@ -859,6 +889,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen, wie das Gespräch bei uns abläuft. Ich sage es Ihnen gerne, aber bitte merken Sie sich eines: Das gilt für unsere Gemeinde. In der Nachbargemeinde ist es anders, und in einem anderen Kanton erst recht — jede Gemeinde regelt das selbst, im Rahmen des kantonalen Rechts. Bei uns kommen Sie zu dritt mit der Kommission zusammen, es dauert etwa vierzig Minuten, und wir sprechen über Ihren Alltag hier. Es ist kein Sprachtest. Den Sprachnachweis bringen Sie separat mit. Und Ihre Nachbarin, die vor zwei Jahren in einer anderen Gemeinde eingebürgert wurde, wird Ihnen etwas anderes erzählen — das heisst nicht, dass eine von Ihnen falsch liegt.",
+      "audioUrl": "/audio/ch/fide-german-listening--auskunft-zum-einburgerungsgesprach.wav",
       "question": "Was ist die Hauptaussage der Auskunftsperson?",
       "options": [
         "Das Gespräch läuft überall gleich ab",
@@ -885,6 +916,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Perez: Ich finde, wir sollten das Fest wieder auf dem Spielplatz machen. Da kommen die Familien hin, die Kinder spielen, und die Eltern bleiben sitzen und reden. Im Gemeindesaal sitzt jeder an seinem Tisch und um neun ist Schluss.\n\nHerr Frei: Auf dem Spielplatz waren es letztes Jahr vierzig Leute und die Hälfte ist gegangen, als es geregnet hat. Ich bin nicht gegen den Spielplatz, ich bin gegen den Spielplatz ohne Plan B. Wenn wir einen Unterstand organisieren, mache ich mit.",
+      "audioUrl": "/audio/ch/fide-german-listening--zwei-stimmen-zum-quartierfest.wav",
       "question": "Wie stehen die beiden zueinander?",
       "options": [
         "Sie sind sich völlig uneinig über den Ort",
@@ -911,6 +943,7 @@
     "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Und zum Schluss ein Blick auf die Vereine. Man hört oft, das Vereinsleben sterbe aus. Die Zahlen bei uns sagen etwas anderes — aber sie sagen auch nicht das, was die Vereine gerne hätten. Die Mitgliederzahlen sind stabil. Was fehlt, sind Leute für den Vorstand: Wer heute eintritt, will trainieren oder singen, aber nicht die Kasse führen. Ein Verein ohne Kassierin hört auf, auch wenn er hundert Mitglieder hat. Wer also überlegt, irgendwo mitzumachen: Man muss nicht seit zwanzig Jahren dabei sein, um im Vorstand zu helfen. Im Gegenteil.",
+      "audioUrl": "/audio/ch/fide-german-listening--radiobeitrag-vereine-im-dorf.wav",
       "question": "Aussage: Laut dem Beitrag ist das Hauptproblem der Vereine, dass die Mitgliederzahlen sinken.",
       "options": [
         "Richtig",
@@ -935,6 +968,7 @@
     "prompt": "Hören Sie den Text und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Kern (Verwaltung): So, wir sind durch. Die Wohnung ist sauber, das ist in Ordnung.\nFrau Osmani: Und die Löcher im Wohnzimmer?\nHerr Kern: Verschlossen und gestrichen — dafür ist eine Wohnung da. Das ist normale Abnützung, das geht nicht zu Ihren Lasten.\nFrau Osmani: Und der Riss im Lavabo?\nHerr Kern: Der schon. Ein Riss kommt nicht vom Wohnen. Ich schreibe beides ins Protokoll, auch die Löcher, damit später niemand kommt und sagt, wir hätten das nicht angeschaut.\nFrau Osmani: Und wenn ich mit dem Lavabo nicht einverstanden bin?\nHerr Kern: Dann unterschreiben Sie nicht. Sie müssen heute nicht unterschreiben.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-uber-die-wohnungsabgabe.wav",
       "question": "Was sagt Herr Kern über das Protokoll?",
       "options": [
         "Nur der Riss kommt hinein",
@@ -961,6 +995,7 @@
     "prompt": "Hören Sie die vier Beiträge und ordnen Sie jeder Person ihre Aussage zu.",
     "payload": {
       "transcript": "Ana: Ich war acht Jahre hier, bevor ich zum ersten Mal im Gemeindehaus war. Nicht aus Angst — es hat mir schlicht nie jemand gesagt, dass man dort auch einfach fragen kann.\n\nDrago: Bei uns steht alles auf der Website. Das nützt nur nichts, wenn man nicht weiss, wie das Wort heisst, das man suchen müsste.\n\nLina: Ich habe im Turnverein mehr über die Gemeinde gelernt als in jedem Brief. Nicht weil dort erklärt wird — sondern weil man fragen kann, ohne dass es peinlich ist.\n\nMarco: Ich bin hier aufgewachsen und habe die Hälfte auch nicht gewusst. Das ist kein Problem der Zugezogenen, das ist ein Problem der Sprache in den Briefen.",
+      "audioUrl": "/audio/ch/fide-german-listening--vier-personen-uber-ihre-gemeinde.wav",
       "instructions": "Ordnen Sie zu.",
       "left": [
         "Ana",
@@ -1011,6 +1046,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Willkommen bei den Einwohnerdiensten. Sie sind also neu zugezogen – dann melden Sie sich bei uns an. Bringen Sie einen gültigen Ausweis mit, den Mietvertrag und, falls vorhanden, Ihre bisherige Anmeldebestätigung. Bis wann Sie sich anmelden müssen, ist nicht überall gleich; die genaue Frist hängt von der Gemeinde und vom Kanton ab. Warten Sie darum nicht zu lange und fragen Sie im Zweifel gleich hier nach. Den Ausländerausweis regelt eine andere Stelle; darüber informieren wir Sie separat.",
+      "audioUrl": "/audio/ch/fide-german-listening--auskunft-am-schalter-anmeldung-nach-dem-umzug.wav",
       "question": "Was sagt die Auskunftsperson über die Anmeldefrist?",
       "options": [
         "Sie hängt von der Gemeinde und vom Kanton ab",
@@ -1037,6 +1073,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Sie fragen wegen der Krankenversicherung. Also: Die Grundversicherung ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie müssen sich innerhalb von drei Monaten nach Ihrer Ankunft versichern. Wenn Sie das rechtzeitig tun, gilt die Versicherung rückwirkend ab dem ersten Tag. Welche Kasse Sie wählen, ist Ihnen überlassen; die Leistungen der Grundversicherung sind überall dieselben. Über die Prämien und mögliche Verbilligungen gibt Ihnen Ihr Kanton Auskunft.",
+      "audioUrl": "/audio/ch/fide-german-listening--telefonische-auskunft-zur-grundversicherung.wav",
       "question": "Was ist laut der Auskunft richtig?",
       "options": [
         "Man muss sich erst nach einem Jahr versichern",
@@ -1063,6 +1100,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Keller: Salim, du, ich habe ein Problem mit dem Dienstplan. Am Freitag habe ich Spätschicht, aber mein Sohn hat einen wichtigen Termin. Könntest du mit mir tauschen?\nHerr Osman: Freitag Spätschicht … da habe ich eigentlich frei. Aber ich könnte. Was gibst du mir dafür?\nFrau Keller: Ich nehme deine Frühschicht am Montag. Dann sind wir quitt.\nHerr Osman: Gut, das geht. Aber wir müssen es dem Teamleiter melden, sonst steht der alte Plan.\nFrau Keller: Mache ich noch heute. Danke dir!",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-einen-schichttausch-abmachen.wav",
       "question": "Worauf einigen sich die beiden?",
       "options": [
         "Sie tauschen zwei Schichten und melden es dem Teamleiter",
@@ -1089,6 +1127,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Besucherinnen und Besucher, wir schliessen in fünfzehn Minuten. Bitte bringen Sie die Bücher, die Sie ausleihen möchten, jetzt zur Theke. Medien, die Sie zurückgeben, legen Sie bitte in die Box beim Ausgang. Morgen sind wir ab neun Uhr wieder für Sie da. Wir danken Ihnen und wünschen einen schönen Abend.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-in-der-bibliothek.wav",
       "question": "Was sollen Besucher tun, wenn sie ein Buch ausleihen möchten?",
       "options": [
         "Es in die Box beim Ausgang legen",
@@ -1115,6 +1154,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Herr Prakash, hier ist die Velowerkstatt am Bahnhofplatz. Ihr Velo ist fertig; wir haben die Bremsen und die Kette ersetzt. Sie können es ab morgen abholen, am besten bis Freitag. Die Reparatur kostet hundertzwanzig Franken, bitte bar oder mit Karte. Bringen Sie den Abholschein mit. Danke und bis bald.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-aus-der-velowerkstatt.wav",
       "question": "Aussage: Laut der Nachricht muss Herr Prakash das Velo heute noch abholen.",
       "options": [
         "Richtig",
@@ -1139,6 +1179,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen wegen der Prämienverbilligung. Das läuft nicht über uns, sondern über Ihren Kanton. Ob Sie Anspruch haben, hängt vom Einkommen ab, und die genauen Regeln sind von Kanton zu Kanton verschieden. Sie stellen den Antrag bei der zuständigen kantonalen Stelle; in vielen Kantonen bekommen Sie ein Formular automatisch zugeschickt, in anderen müssen Sie sich selbst melden. Erkundigen Sie sich darum direkt bei Ihrem Kanton, was bei Ihnen gilt.",
+      "audioUrl": "/audio/ch/fide-german-listening--telefonische-auskunft-zur-pramienverbilligung.wav",
       "question": "Was ist laut der Auskunft richtig?",
       "options": [
         "Die Prämienverbilligung regelt der Kanton, nicht die Krankenkasse",
@@ -1165,6 +1206,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Frei: Du, hast du die Nebenkostenabrechnung schon angeschaut? Ich soll nachzahlen, fast dreihundert Franken.\nFrau Abbas: Ja, bei mir ist es ähnlich. Aber schau die Abrechnung genau an – es steht ja aufgeschlüsselt, wofür: Heizung, Wasser, Hauswart.\nHerr Frei: Stimmt. Bei der Heizung ist es diesen Winter mehr geworden.\nFrau Abbas: Genau. Wenn dir etwas nicht klar ist, kannst du bei der Verwaltung nachfragen und die Belege einsehen.\nHerr Frei: Gut, dann frage ich nach, bevor ich einfach zahle.",
+      "audioUrl": "/audio/ch/fide-german-listening--zwei-nachbarn-uber-die-nebenkosten.wav",
       "question": "Was rät Frau Abbas Herrn Frei?",
       "options": [
         "Die Abrechnung prüfen und bei Bedarf die Belege einsehen",
@@ -1191,6 +1233,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sachbearbeiterin: Einwohnerdienste, guten Tag.\nHerr Silva: Guten Tag, ich habe morgen um 10 Uhr einen Termin, aber ich muss arbeiten. Kann ich ihn verschieben?\nSachbearbeiterin: Kein Problem. Passt Ihnen Donnerstag um 14 Uhr?\nHerr Silva: Donnerstag ist gut. Muss ich etwas mitbringen?\nSachbearbeiterin: Ja, Ihren Ausweis und den Brief, den wir Ihnen geschickt haben. Ich trage Sie also für Donnerstag 14 Uhr ein.\nHerr Silva: Danke, bis dann.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-einen-termin-beim-amt-verschieben.wav",
       "question": "Was ist am Ende des Gesprächs abgemacht?",
       "options": [
         "Ein neuer Termin am Donnerstag um 14 Uhr",
@@ -1217,6 +1260,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Nächster Halt: Bahnhofplatz. Achtung, wegen einer Baustelle fährt das Tram heute nicht bis zur Endstation. Bitte steigen Sie am Bahnhofplatz aus. Von dort fährt ein Ersatzbus zur Klinik und zum Zoo. Wir danken für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-tram.wav",
       "question": "Was sollen die Fahrgäste am Bahnhofplatz tun?",
       "options": [
         "Aussteigen und den Ersatzbus nehmen",
@@ -1243,6 +1287,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Frau Costa, hier ist die Apotheke im Zentrum. Ihr Medikament ist da; Sie können es abholen. Bitte bringen Sie das Rezept mit. Wir haben von Montag bis Freitag bis 18.30 Uhr offen, am Samstag bis 16.00 Uhr. Einen schönen Tag.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-aus-der-apotheke.wav",
       "question": "Aussage: Laut der Nachricht muss Frau Costa das Rezept mitbringen.",
       "options": [
         "Richtig",
@@ -1267,6 +1312,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, willkommen in unserer Gemeinde. Sie fragen wegen der Abfallsäcke. Ja, bei uns brauchen Sie die offiziellen Gebührensäcke unserer Gemeinde. Säcke aus Ihrer alten Gemeinde nehmen wir hier nicht mit — das ist von Gemeinde zu Gemeinde verschieden. Die Säcke bekommen Sie im Laden oder am Schalter. Papier, Karton, Glas und Metall sammeln wir getrennt; dafür brauchen Sie keinen Gebührensack. Wenn Sie unsicher sind, was wohin gehört, fragen Sie einfach nach.",
+      "audioUrl": "/audio/ch/fide-german-listening--auskunft-der-gebuhrensack-in-der-neuen-gemeinde.wav",
       "question": "Was ist laut der Auskunft richtig?",
       "options": [
         "In dieser Gemeinde gelten nur die eigenen Gebührensäcke",
@@ -1293,6 +1339,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Kaya: Guten Tag, Sanitär Bühler? Bei mir tropft der Wasserhahn in der Küche.\nFrau Bühler: Guten Tag. Das schauen wir uns an. Passt Ihnen Donnerstagmorgen zwischen 8 und 10 Uhr?\nHerr Kaya: Donnerstagmorgen arbeite ich. Geht auch der Nachmittag?\nFrau Bühler: Ja, ich komme um 14 Uhr. Sind Sie dann zu Hause?\nHerr Kaya: Ja, das passt. Was kostet der Besuch ungefähr?\nFrau Bühler: Die Anfahrt und die erste halbe Stunde kosten 120 Franken, das Material kommt dazu.\nHerr Kaya: Gut, dann bis Donnerstag um 14 Uhr.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-einen-handwerkertermin-abmachen.wav",
       "question": "Was ist am Ende abgemacht?",
       "options": [
         "Der Handwerker kommt am Donnerstagmorgen",
@@ -1319,6 +1366,7 @@
     "prompt": "Hören Sie den Anruf und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, hier ist die Schule Feldrain, ich rufe wegen Ihres Sohnes Elias an. Ihm ist es im Unterricht nicht gut geworden, er hat Bauchweh und etwas Fieber. Es ist nichts Schlimmes, aber er sollte nach Hause. Können Sie ihn abholen oder jemanden schicken? Wenn wir Sie in einer halben Stunde nicht erreichen, rufen wir die Notfallnummer an, die Sie uns angegeben haben. Bitte melden Sie sich kurz.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-von-der-schule-ihr-kind-ist-krank-geworden.wav",
       "question": "Was soll die angerufene Person tun?",
       "options": [
         "Warten, bis die Schule wieder anruft",
@@ -1345,6 +1393,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, in zehn Minuten schliessen wir. Bitte gehen Sie langsam zur Kasse. Die Kasse ganz rechts bleibt bis zum Schluss offen. Denken Sie an Ihre Tasche und Ihren Einkaufszettel. Morgen sind wir ab 8 Uhr wieder für Sie da. Vielen Dank für Ihren Einkauf.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-supermarkt.wav",
       "question": "Welche Kasse bleibt bis zum Schluss offen?",
       "options": [
         "Die Kasse ganz rechts",
@@ -1371,6 +1420,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Marco. Du, unser Treffen morgen müssen wir leider verschieben. Der Chef hat für 10 Uhr eine Sitzung angesetzt, da müssen alle hin. Können wir uns stattdessen um 14 Uhr treffen? Schreib mir kurz, ob das für dich geht. Danke und bis morgen.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-vom-kollegen.wav",
       "question": "Aussage: Laut der Nachricht möchte Marco das Treffen ganz absagen.",
       "options": [
         "Richtig",
@@ -1395,6 +1445,7 @@
     "prompt": "Hören Sie die Beratung und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen, wie Sie Ihre Deutschkenntnisse für die Einbürgerung nachweisen. Wichtig ist zuerst: Das Einbürgerungsgespräch, falls bei uns eines stattfindet, ist kein Sprachtest. Den Sprachnachweis bringen Sie separat mit — zum Beispiel ein anerkanntes Zertifikat. Verlangt wird mündlich mindestens B1, schriftlich mindestens A2; nachgewiesen wird Standarddeutsch, nicht der Dialekt. Welche Zertifikate genau anerkannt sind, legen nicht wir am Empfang fest — das erfahren Sie verbindlich bei der zuständigen Stelle Ihres Kantons oder Ihrer Gemeinde. Erkundigen Sie sich also dort frühzeitig.",
+      "audioUrl": "/audio/ch/fide-german-listening--beratung-der-sprachnachweis.wav",
       "question": "Was ist laut der Beratung richtig?",
       "options": [
         "Das Einbürgerungsgespräch ist der Sprachtest",
@@ -1421,6 +1472,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Ilic: Du, ich ziehe nächsten Samstag um. Hättest du Zeit, mir zu helfen?\nHerr Wenger: Samstag … am Vormittag habe ich Fussball, aber am Nachmittag könnte ich.\nFrau Ilic: Nachmittag wäre super. Es sind vor allem Kartons und ein Sofa. Einen Lieferwagen habe ich schon organisiert.\nHerr Wenger: Gut. Soll ich noch jemanden fragen? Zu zweit ist das Sofa schwer.\nFrau Ilic: Ja, wenn du jemanden kennst, gern. Und ich sorge für Pizza am Abend.\nHerr Wenger: Abgemacht, dann komme ich um 13 Uhr.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-umzugshelfer-organisieren.wav",
       "question": "Was ist am Ende abgemacht?",
       "options": [
         "Herr Wenger hilft am Samstagnachmittag ab 13 Uhr",
@@ -1447,6 +1499,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Kundin: Guten Tag, ich habe gestern eine Lieferung bekommen, aber es ist der falsche Artikel. Ich habe eine blaue Jacke in Grösse M bestellt, geliefert wurde eine rote in L.\nMitarbeiter: Das tut mir leid. Haben Sie die Bestellnummer zur Hand?\nKundin: Ja, sie steht auf dem Lieferschein.\nMitarbeiter: Danke. Wir schicken Ihnen die richtige Jacke, und für die falsche legen wir ein Retourenetikett bei. Sie brauchen nichts zu bezahlen.\nKundin: Und wann kommt die richtige?\nMitarbeiter: In zwei bis drei Werktagen. Sie bekommen eine Bestätigung per E-Mail.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-falsche-lieferung-reklamieren.wav",
       "question": "Was macht der Mitarbeiter?",
       "options": [
         "Er sagt, die Kundin müsse die falsche Jacke behalten",
@@ -1473,6 +1526,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sehr geehrte Fahrgäste, wir erreichen Bern mit etwa zehn Minuten Verspätung. Reisende nach Thun verpassen den Anschluss um 15.10 Uhr. Der nächste Zug nach Thun fährt um 15.40 Uhr ab Gleis 5. Wir entschuldigen uns für die Unannehmlichkeiten.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-zug-verpasster-anschluss.wav",
       "question": "Was sollen Reisende nach Thun tun?",
       "options": [
         "In Bern aussteigen und ein Taxi nehmen",
@@ -1499,6 +1553,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Herr Demir, hier ist die Quartierbibliothek. Wir erinnern Sie daran, dass Ihr Buch am Freitag zurück muss. Sie können es bei uns abgeben oder in den Rückgabekasten beim Eingang legen, auch ausserhalb der Öffnungszeiten. Wenn Sie es länger brauchen, rufen Sie uns an; oft können wir die Frist verlängern. Danke und einen schönen Tag.",
+      "audioUrl": "/audio/ch/fide-german-listening--erinnerung-der-bibliothek-buch-abgeben.wav",
       "question": "Aussage: Herr Demir kann das Buch auch ausserhalb der Öffnungszeiten zurückgeben.",
       "options": [
         "Richtig",
@@ -1523,6 +1578,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Praxis: Praxis Dr. Sommer, guten Tag.\nFrau Adem: Guten Tag, ich habe morgen um 9 Uhr einen Termin, aber mein Kind ist krank. Kann ich verschieben?\nPraxis: Natürlich. Nächste Woche Dienstag um 11 Uhr wäre frei.\nFrau Adem: Dienstag 11 Uhr passt. Muss ich etwas mitbringen?\nPraxis: Bringen Sie die Liste Ihrer Medikamente mit. Und wenn es dem Kind bis dahin nicht besser geht, melden Sie sich früher.\nFrau Adem: Danke, bis Dienstag.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-einen-arzttermin-verschieben.wav",
       "question": "Was ist am Ende abgemacht?",
       "options": [
         "Der Termin morgen um 9 Uhr bleibt",
@@ -1549,6 +1605,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Vermieter: Guten Tag Herr Baumann. Da Sie ja Ende Monat ausziehen, möchte ich die Wohnung neuen Interessenten zeigen.\nHerr Baumann: Ja, das ist in Ordnung. Wann möchten Sie kommen?\nVermieter: Ich dachte an Mittwochabend um 18 Uhr. Zwei Personen würden die Wohnung anschauen. Passt Ihnen das?\nHerr Baumann: Mittwoch geht. Soll ich etwas vorbereiten?\nVermieter: Nein, es muss nicht aufgeräumt sein. Ich klingle kurz und wir bleiben nicht lange.\nHerr Baumann: Gut, dann bis Mittwoch.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-vom-vermieter-besichtigung-angekundigt.wav",
       "question": "Warum ruft der Vermieter an?",
       "options": [
         "Er möchte die Miete erhöhen",
@@ -1575,6 +1632,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Lehrerin: Schön, dass Sie da sind. Ihr Sohn Amir macht gute Fortschritte, vor allem im Rechnen.\nHerr Nasser: Das freut mich. Beim Lesen tut er sich noch schwer.\nLehrerin: Das stimmt, aber es wird besser. Wenn Sie zu Hause zehn Minuten am Tag mit ihm lesen, hilft das sehr.\nHerr Nasser: Das machen wir gern. Gibt es passende Bücher?\nLehrerin: Ja, ich gebe Ihnen eine Liste mit. Und die Bibliothek im Quartier hat viele einfache Bücher.\nHerr Nasser: Danke, das probieren wir.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-am-elternabend.wav",
       "question": "Was rät die Lehrerin Herrn Nasser?",
       "options": [
         "Das Kind in eine andere Klasse zu geben",
@@ -1601,6 +1659,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Gäste, wegen eines Gewitters müssen wir das Freibad schliessen. Bitte verlassen Sie das Wasser sofort und gehen Sie in die Garderoben. Sobald das Wetter besser ist, öffnen wir wieder; hören Sie auf die Durchsagen. Ihr Eintritt gilt auch, wenn wir heute wieder aufmachen. Danke für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-freibad.wav",
       "question": "Was sollen die Gäste jetzt tun?",
       "options": [
         "Im Wasser bleiben",
@@ -1627,6 +1686,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Frau Bianchi von nebenan. Wir fahren morgen für eine Woche weg. Könntest du bitte jeden Tag unsere Katze füttern? Das Futter steht in der Küche, und der Schlüssel ist wie immer bei dir. Einmal am Tag reicht. Ich bringe dir etwas aus den Ferien mit. Vielen Dank und melde dich, wenn es nicht geht.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-der-nachbarin-bitte-die-katze-futtern.wav",
       "question": "Aussage: Laut der Nachricht soll die Katze zweimal am Tag gefüttert werden.",
       "options": [
         "Richtig",
@@ -1651,6 +1711,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Kundin: Guten Tag, ich habe letzte Woche meine Waschmaschine zur Reparatur gebracht. Ist sie schon fertig?\nMitarbeiter: Einen Moment, wie ist Ihr Name? … Ah ja, Frau Torres. Das Ersatzteil ist gestern gekommen, wir bauen es heute ein.\nKundin: Und wann kann ich sie abholen?\nMitarbeiter: Ab morgen Nachmittag. Wir rufen Sie an, sobald sie bereit ist.\nKundin: Gut. Wissen Sie schon, was es kostet?\nMitarbeiter: Etwa 150 Franken mit dem Teil. Den genauen Betrag sehen Sie auf der Rechnung.\nKundin: Danke, dann warte ich auf Ihren Anruf.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-reparatur-nachfragen.wav",
       "question": "Was sagt der Mitarbeiter über die Waschmaschine?",
       "options": [
         "Sie ist schon fertig und kann sofort geholt werden",
@@ -1677,6 +1738,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Blanc: Am Sonntag soll das Wetter schön werden. Sollen wir mit den Kindern wandern?\nFrau Yilmaz: Gute Idee. Aber eine lange Wanderung ist mit den Kleinen schwierig.\nHerr Blanc: Stimmt. Wie wäre der See? Dort gibt es einen kurzen Weg und einen Spielplatz.\nFrau Yilmaz: Perfekt. Nehmen wir den Zug oder das Auto?\nHerr Blanc: Den Zug, dann müssen wir nicht parkieren. Treffen wir uns um neun am Bahnhof?\nFrau Yilmaz: Abgemacht. Ich bringe etwas zu essen mit.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-einen-ausflug-planen.wav",
       "question": "Was haben die beiden für Sonntag geplant?",
       "options": [
         "Mit dem Zug an den See, ein kurzer Weg mit Spielplatz",
@@ -1703,6 +1765,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Mitarbeiterin: Möbelhaus am Ring, guten Tag.\nHerr Ferreira: Guten Tag, ich habe gestern ein Regal bestellt, möchte aber die Farbe ändern — statt Weiss lieber Braun.\nMitarbeiterin: Kein Problem, wenn die Bestellung noch nicht versandt ist. Ihre Bestellnummer?\nHerr Ferreira: Sie ist 4457.\nMitarbeiterin: Danke … ja, sie ist noch hier. Ich ändere die Farbe auf Braun. Der Preis bleibt gleich. Die Lieferung dauert etwa eine Woche.\nHerr Ferreira: Sehr gut, vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-bestellung-andern.wav",
       "question": "Was ändert die Mitarbeiterin?",
       "options": [
         "Die Lieferadresse",
@@ -1729,6 +1792,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, wir haben an der Information ein kleines Mädchen. Sie heisst Lea und ist etwa vier Jahre alt und sucht ihre Mama. Die Mutter von Lea kommt bitte zur Information im Erdgeschoss beim Haupteingang. Vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-kaufhaus-ein-kind-wird-gesucht.wav",
       "question": "Was soll Leas Mutter tun?",
       "options": [
         "Das Kaufhaus verlassen",
@@ -1755,6 +1819,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Tom. Du, gehen wir heute zusammen essen? Ich habe um Viertel nach zwölf Pause. Sollen wir uns am Eingang treffen und zum Imbiss um die Ecke gehen? Schreib mir kurz, ob das passt. Bis später.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-vom-kollegen-mittagessen.wav",
       "question": "Aussage: Laut der Nachricht will Tom sich um 12.15 Uhr am Eingang treffen.",
       "options": [
         "Richtig",
@@ -1779,6 +1844,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Mitarbeiter: Kundendienst, guten Tag. Wie kann ich helfen?\nHerr Sahin: Guten Tag, bei mir geht das Internet seit gestern Abend nicht mehr.\nMitarbeiter: Das tut mir leid. Haben Sie den Router schon einmal aus- und wieder eingeschaltet?\nHerr Sahin: Ja, zweimal. Es ändert nichts.\nMitarbeiter: Dann liegt es vielleicht an der Leitung. Ich schicke Ihnen einen Techniker. Passt Ihnen Donnerstag zwischen 8 und 12 Uhr?\nHerr Sahin: Donnerstagvormittag geht. Kostet der Besuch etwas?\nMitarbeiter: Wenn der Fehler bei uns liegt, ist er gratis. Sie bekommen vorher eine SMS.\nHerr Sahin: Gut, danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-beim-kundendienst-internet-gestort.wav",
       "question": "Was macht der Mitarbeiter?",
       "options": [
         "Er sagt, Herr Sahin müsse einen neuen Router kaufen",
@@ -1805,6 +1871,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Costa: Du, wir arbeiten ja beide im Gewerbegebiet. Sollen wir zusammen fahren?\nHerr Meier: Gern, das spart Benzin. Wann fängst du an?\nFrau Costa: Um sieben. Ich könnte dich um Viertel vor sieben abholen.\nHerr Meier: Perfekt. Und wer fährt, wechseln wir ab?\nFrau Costa: Ja, machen wir wochenweise. Diese Woche fahre ich, nächste du.\nHerr Meier: Abgemacht. Dann bis morgen um Viertel vor sieben.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-eine-fahrgemeinschaft-abmachen.wav",
       "question": "Was haben die beiden abgemacht?",
       "options": [
         "Herr Meier fährt immer allein",
@@ -1831,6 +1898,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Lehrerin: Ihre Tochter Nadia arbeitet gut mit, aber beim Schreiben braucht sie noch Übung.\nFrau Achmed: Das merke ich auch zu Hause. Was können wir tun?\nLehrerin: Es gibt einen Förderkurs am Mittwochnachmittag, freiwillig und gratis. Ich würde ihn empfehlen.\nFrau Achmed: Und passt das neben den Aufgaben?\nLehrerin: Ja, es ist nur eine Stunde. Wenn Sie einverstanden sind, melde ich Nadia an.\nFrau Achmed: Gern, machen wir das.",
+      "audioUrl": "/audio/ch/fide-german-listening--elterngesprach-eine-empfehlung.wav",
       "question": "Was empfiehlt die Lehrerin?",
       "options": [
         "Einen freiwilligen Förderkurs am Mittwochnachmittag",
@@ -1857,6 +1925,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Information für die Reisenden nach Luzern: Der Zug um 14.20 Uhr fährt heute nicht von Gleis 3, sondern von Gleis 7. Wir wiederholen: Der Zug nach Luzern fährt von Gleis 7. Bitte beachten Sie die Anzeigen. Danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-am-bahnhof-gleisanderung.wav",
       "question": "Von welchem Gleis fährt der Zug nach Luzern?",
       "options": [
         "Von Gleis 3",
@@ -1883,6 +1952,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Herr Yusuf, hier ist die Arztpraxis Dr. Frei. Wir bestätigen Ihren Termin am Mittwoch, den 8. Mai, um 10.30 Uhr. Bitte bringen Sie Ihre Versichertenkarte mit. Wenn Sie nicht kommen können, melden Sie sich bitte einen Tag vorher. Danke und bis Mittwoch.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-praxis-termin-bestatigt.wav",
       "question": "Aussage: Laut der Nachricht soll Herr Yusuf die Versichertenkarte mitbringen.",
       "options": [
         "Richtig",
@@ -1907,6 +1977,7 @@
     "prompt": "Hören Sie die Beratung und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie fragen, welcher Weg zur Einbürgerung für Sie gilt. Kurz gesagt: Es gibt zwei. Bei der ordentlichen Einbürgerung entscheiden Ihre Gemeinde und Ihr Kanton; der Bund gibt dazu die Bewilligung. Das Gesuch reichen Sie bei der Gemeinde ein. Wenn Sie dagegen mit einer Schweizerin oder einem Schweizer verheiratet sind, kommt oft die erleichterte Einbürgerung infrage — da entscheidet der Bund, also das SEM, und das Gesuch stellen Sie direkt beim SEM. Welcher Weg bei Ihnen gilt, hängt von Ihrer Situation ab; erkundigen Sie sich am besten frühzeitig.",
+      "audioUrl": "/audio/ch/fide-german-listening--beratung-ordentlich-oder-erleichtert-einburgern.wav",
       "question": "Was ist laut der Beratung richtig?",
       "options": [
         "Immer entscheidet nur die Gemeinde",
@@ -1933,6 +2004,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Diallo: Ich möchte im Herbst einen Deutschkurs machen. Weisst du, welcher gut ist?\nHerr Kurt: Es gibt zwei im Quartier. Der eine ist am Morgen, der andere am Abend.\nFrau Diallo: Am Abend wäre besser, wegen der Arbeit. Ist er teuer?\nHerr Kurt: Nicht so. Und man kann eine Probelektion gratis besuchen.\nFrau Diallo: Das mache ich. Dann sehe ich, ob das Niveau passt.\nHerr Kurt: Gute Idee. Melde dich vorher an, die Plätze sind schnell weg.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-einen-deutschkurs-auswahlen.wav",
       "question": "Was will Frau Diallo zuerst tun?",
       "options": [
         "Sofort den Morgenkurs bezahlen",
@@ -1959,6 +2031,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Mitarbeiter: Guten Tag, hier ist die Lieferfirma. Wir bringen Ihr Sofa morgen zwischen 9 und 12 Uhr.\nFrau Roth: Oh, morgen Vormittag bin ich leider nicht da. Geht es auch am Nachmittag?\nMitarbeiter: Morgen Nachmittag ist schon voll. Aber übermorgen zwischen 13 und 15 Uhr hätten wir Zeit.\nFrau Roth: Übermorgen Nachmittag ist gut.\nMitarbeiter: Gut, ich trage das ein. Sie bekommen am Morgen eine SMS mit der genauen Zeit.\nFrau Roth: Danke, das passt.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-lieferung-verschieben.wav",
       "question": "Wann wird das Sofa geliefert?",
       "options": [
         "Morgen zwischen 9 und 12 Uhr",
@@ -1985,6 +2058,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Endstation Marktplatz. Bitte steigen Sie alle aus, dieser Bus fährt nicht weiter. Der nächste Bus in die Stadt fährt in zehn Minuten von der gleichen Haltestelle. Bitte vergessen Sie nichts im Bus. Wir wünschen Ihnen einen schönen Tag.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-bus-endstation.wav",
       "question": "Was sollen die Fahrgäste tun?",
       "options": [
         "Im Bus sitzen bleiben",
@@ -2011,6 +2085,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, hier ist die Kita Sonnenschein. Wir möchten Sie informieren: Morgen schliessen wir schon um 14 Uhr, weil das Team eine Weiterbildung hat. Bitte holen Sie Ihr Kind bis 14 Uhr ab. Wenn das für Sie nicht geht, melden Sie sich heute bei uns, dann suchen wir eine Lösung. Danke für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-kita-fruher-schliessen.wav",
       "question": "Aussage: Laut der Nachricht schliesst die Kita morgen erst am Abend.",
       "options": [
         "Richtig",
@@ -2035,6 +2110,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Amaru: Ich verstehe im Laden oft fast nichts — sprechen alle Dialekt?\nHerr Widmer: Im Alltag ja, das ist normal hier. Aber keine Sorge: Im Deutschkurs, in der Prüfung und in den Briefen der Behörden ist es Hochdeutsch, also Standarddeutsch.\nFrau Amaru: Und muss ich selber Dialekt lernen?\nHerr Widmer: Nein, das müssen Sie nicht. Sprechen Sie ruhig Hochdeutsch, das versteht man überall. Mit der Zeit verstehen Sie den Dialekt dann von selbst besser.\nFrau Amaru: Das beruhigt mich.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-mundart-oder-hochdeutsch.wav",
       "question": "Was sagt Herr Widmer über die Sprache?",
       "options": [
         "Man muss den Dialekt sprechen können",
@@ -2061,6 +2137,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Nowak: Guten Tag, bei mir tropft es unter dem Küchenschrank, ich glaube, ein Rohr ist undicht.\nSanitär: Das schauen wir uns an. Können Sie das Wasser unter dem Schrank abstellen?\nFrau Nowak: Ja, den Hahn habe ich schon zugedreht.\nSanitär: Gut. Ich kann heute zwischen 16 und 18 Uhr kommen. Passt das?\nFrau Nowak: Ja, ich bin zu Hause.\nSanitär: Dann bis später. Stellen Sie einen Eimer darunter, falls es noch tropft.\nFrau Nowak: Mache ich, danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-einen-handwerker-bestellen.wav",
       "question": "Was ist abgemacht?",
       "options": [
         "Frau Nowak repariert das Rohr selbst",
@@ -2087,6 +2164,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Sari: Du, am Mittwoch habe ich einen Termin und kann Leon nicht von der Schule abholen. Könntest du ihn mitnehmen?\nFrau Brun: Klar, ich hole meine Tochter sowieso ab. Er kann bis am Abend bei uns bleiben.\nFrau Sari: Das wäre super. Ich hole ihn dann um sechs.\nFrau Brun: Passt. Und nächste Woche, wenn ich mal nicht kann, fragst du mich einfach.\nFrau Sari: Machen wir. Danke dir!",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-kinderbetreuung-organisieren.wav",
       "question": "Was machen die beiden am Mittwoch ab?",
       "options": [
         "Frau Brun nimmt Leon mit und betreut ihn bis am Abend",
@@ -2113,6 +2191,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Nächster Halt: Olten. Reisende nach Basel steigen bitte hier um; der Zug nach Basel fährt von Gleis 2, gegenüber. Der Speisewagen befindet sich in der Mitte des Zuges. Wir wünschen eine gute Weiterreise.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-zug-nachster-halt.wav",
       "question": "Was sollen Reisende nach Basel in Olten tun?",
       "options": [
         "Umsteigen; der Zug nach Basel fährt von Gleis 2",
@@ -2139,6 +2218,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Frau Kohli von unten. Der Postbote war da, und ich habe ein Paket für Sie angenommen. Sie können es jederzeit am Abend bei mir abholen, ich bin ab sechs zu Hause. Klingeln Sie einfach. Bis dann!",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-nachbarin-paket-angenommen.wav",
       "question": "Aussage: Laut der Nachricht kann man das Paket am Vormittag abholen.",
       "options": [
         "Richtig",
@@ -2163,6 +2243,7 @@
     "prompt": "Hören Sie die Auskunft und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag. Sie möchten wissen, wo Sie das Gesuch für die ordentliche Einbürgerung stellen. Das machen Sie bei uns, bei der Gemeinde. Wir prüfen die Unterlagen, dann sind auch der Kanton und der Bund beteiligt: Der Bund gibt die Bewilligung, und über die Einbürgerung selbst entscheiden Gemeinde und Kanton. Wichtig ist, dass Sie zuerst zu uns kommen. Bringen Sie einen Ausweis mit und Ihren Sprachnachweis, dann sagen wir Ihnen, wie es weitergeht.",
+      "audioUrl": "/audio/ch/fide-german-listening--auskunft-wo-stelle-ich-das-einburgerungsgesuch.wav",
       "question": "Wo stellt man laut der Auskunft das Gesuch für die ordentliche Einbürgerung?",
       "options": [
         "Direkt beim Bund (SEM)",
@@ -2189,6 +2270,7 @@
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Hallo zusammen, hier ist Marco vom Turnverein. Ich muss euch leider mitteilen: Das Training heute Abend fällt aus, weil die Halle kurzfristig gesperrt ist. Wir treffen uns stattdessen am Donnerstag zur gleichen Zeit, also um 19 Uhr. Wer am Donnerstag nicht kann, meldet sich bitte bei mir. Bis dann und einen schönen Tag.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-des-sportvereins-training-verschoben.wav",
       "question": "Was ist die wichtigste Information in der Nachricht?",
       "options": [
         "Das Training findet heute wie immer statt",
@@ -2215,6 +2297,7 @@
     "prompt": "Hören Sie den Radiobeitrag und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Und nun zu einer guten Nachricht aus der Region: Das Hallenbad in Neudorf ist nach dem Umbau wieder offen. Es gibt neu ein grösseres Becken und einen Bereich für Kinder. Geöffnet ist es täglich von 8 bis 21 Uhr, montags erst ab 12 Uhr. Der Eintritt bleibt gleich wie vorher. Am ersten Wochenende ist der Eintritt für Kinder gratis.",
+      "audioUrl": "/audio/ch/fide-german-listening--radiobeitrag-das-neue-hallenbad.wav",
       "question": "Was ist am Hallenbad neu?",
       "options": [
         "Es ist jetzt teurer",
@@ -2241,6 +2324,7 @@
     "prompt": "Hören Sie den Wetterbericht und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Und hier das Wetter für morgen: Am Morgen ist es noch bewölkt und kühl, am Nachmittag kommt die Sonne. Es bleibt trocken. Die Temperaturen steigen auf etwa 18 Grad. Am Abend wird es wieder frischer, nehmen Sie also eine Jacke mit, wenn Sie länger draussen sind.",
+      "audioUrl": "/audio/ch/fide-german-listening--der-wetterbericht.wav",
       "question": "Wie wird das Wetter morgen Nachmittag?",
       "options": [
         "Sonnig und trocken",
@@ -2267,6 +2351,7 @@
     "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, an unserem Stand gibt es heute frische Erdbeeren im Angebot: zwei Schalen zum Preis von einer. Und wer einen Salat kauft, bekommt einen Bund Radieschen dazu. Das Angebot gilt nur heute, solange der Vorrat reicht. Kommen Sie vorbei!",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-auf-dem-wochenmarkt.wav",
       "question": "Aussage: Das Angebot für die Erdbeeren gilt nur heute.",
       "options": [
         "Richtig",
@@ -2291,6 +2376,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herr Osei: Du, ich bin ja mit Anna verheiratet, sie ist Schweizerin. Muss ich das Gesuch auch bei der Gemeinde stellen wie du?\nHerr Baumann: Nein, bei dir ist es wahrscheinlich anders. Wenn man mit einer Schweizerin verheiratet ist, gibt es die erleichterte Einbürgerung. Da entscheidet der Bund, das SEM, und das Gesuch stellst du direkt beim SEM.\nHerr Osei: Ah, also nicht bei der Gemeinde?\nHerr Baumann: Genau, nicht wie bei der ordentlichen. Aber erkundige dich sicherheitshalber, welche Bedingungen für dich gelten. Und einen Sprachnachweis brauchst du auch.\nHerr Osei: Gut, danke für den Tipp.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-verheiratet-mit-einer-schweizerin-welcher-weg.wav",
       "question": "Was rät Herr Baumann?",
       "options": [
         "Bei der erleichterten Einbürgerung stellt man das Gesuch beim SEM, nicht bei der Gemeinde",
@@ -2317,6 +2403,7 @@
     "prompt": "Hören Sie das Interview und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Reporterin: Sie helfen jede Woche im Quartiertreff. Was machen Sie genau?\nFrau Meli: Ich koche am Mittwoch für ältere Leute, die allein sind. Wir essen zusammen und reden.\nReporterin: Und warum machen Sie das?\nFrau Meli: Als ich neu hier war, hat mir auch jemand geholfen. Jetzt gebe ich etwas zurück. Es macht mir Freude, und ich lerne viele Leute kennen.\nReporterin: Brauchen Sie eine Ausbildung dafür?\nFrau Meli: Nein, man muss nur zuverlässig sein und gern mit Menschen zusammen sein. Neue Helfer sind immer willkommen.",
+      "audioUrl": "/audio/ch/fide-german-listening--interview-eine-freiwillige-erzahlt.wav",
       "question": "Warum hilft Frau Meli im Quartiertreff?",
       "options": [
         "Sie möchte etwas zurückgeben und trifft gern Leute",
@@ -2343,6 +2430,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Willkommen zur Führung. Wir sind hier im ältesten Teil des Hauses, er ist über 300 Jahre alt. Bitte machen Sie keine Fotos mit Blitz, das schadet den alten Bildern. Die Führung dauert etwa eine Stunde. Am Schluss haben Sie Zeit, den Shop und das Café zu besuchen. Wenn Sie eine Frage haben, stellen Sie sie gern jederzeit. Gehen wir weiter in den nächsten Raum.",
+      "audioUrl": "/audio/ch/fide-german-listening--bei-der-fuhrung-im-museum.wav",
       "question": "Was ist bei der Führung nicht erlaubt?",
       "options": [
         "Fragen zu stellen",
@@ -2369,6 +2457,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag und willkommen bei der Gemeindeverwaltung. Für die Einwohnerdienste drücken Sie die Eins. Für das Steueramt drücken Sie die Zwei. Für alle anderen Anliegen bleiben Sie am Apparat, wir verbinden Sie mit dem Empfang. Unsere Öffnungszeiten finden Sie auf unserer Webseite.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-am-telefon-warteschleife.wav",
       "question": "Welche Taste drückt man für die Einwohnerdienste?",
       "options": [
         "Die Eins",
@@ -2395,6 +2484,7 @@
     "prompt": "Hören Sie die Warnung. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Achtung, eine Wetterwarnung: Heute Nachmittag ziehen starke Gewitter auf, mit Sturmböen und Hagel. Bringen Sie lose Gegenstände auf dem Balkon herein und schliessen Sie die Fenster. Fahren Sie wenn möglich nicht mit dem Velo. Die Warnung gilt bis heute Abend um 20 Uhr.",
+      "audioUrl": "/audio/ch/fide-german-listening--wetterwarnung-im-radio.wav",
       "question": "Aussage: Laut der Warnung soll man die Fenster offen lassen.",
       "options": [
         "Richtig",
@@ -2419,6 +2509,7 @@
     "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Abend zusammen. Kurz zwei Informationen: Erstens ändert sich ab nächster Woche der Stundenplan — der Sport ist neu am Montag statt am Freitag. Bitte denken Sie am Montag an die Sportsachen. Zweitens machen wir Ende Monat einen Ausflug; die Kinder bringen dafür ein Zwanzigernötli für den Eintritt mit. Den genauen Tag sage ich Ihnen noch. Bei Fragen kommen Sie gern nach dem Elternabend zu mir.",
+      "audioUrl": "/audio/ch/fide-german-listening--information-beim-elternabend.wav",
       "question": "Was ändert sich ab nächster Woche?",
       "options": [
         "Der Sport ist neu am Montag statt am Freitag",
@@ -2445,6 +2536,7 @@
     "prompt": "Hören Sie die Verkehrsmeldung und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Und nun die Verkehrsmeldung: Auf der Hauptstrasse zwischen Neudorf und Altstetten ist wegen eines Unfalls eine Spur gesperrt. Es bildet sich ein Stau von rund zwei Kilometern. Wenn möglich, fahren Sie über die Dorfstrasse oder nehmen Sie den Zug. Die Feuerwehr ist vor Ort; die Strasse ist voraussichtlich in einer Stunde wieder frei.",
+      "audioUrl": "/audio/ch/fide-german-listening--verkehrsmeldung-im-radio.wav",
       "question": "Was wird den Autofahrern empfohlen?",
       "options": [
         "Auf der Hauptstrasse im Stau warten",
@@ -2471,6 +2563,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sekretariat: Sprachschule Lingua, guten Tag.\nFrau Popovic: Guten Tag, ich habe mich für den Abendkurs angemeldet, kann aber doch nicht kommen. Ich möchte mich abmelden.\nSekretariat: Das ist schade. Wann beginnt der Kurs?\nFrau Popovic: Erst in drei Wochen.\nSekretariat: Gut, dann geht das ohne Kosten. Ich streiche Sie von der Liste. Wenn Sie wollen, informieren wir Sie über den nächsten Kurs.\nFrau Popovic: Ja, gern. Vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-einen-kurs-abmelden.wav",
       "question": "Was passiert, weil der Kurs erst in drei Wochen beginnt?",
       "options": [
         "Frau Popovic muss den ganzen Kurs bezahlen",
@@ -2497,6 +2590,7 @@
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Hey, hier ist Deniz. Ich koche heute Abend für ein paar Leute, so um sieben. Hast du Lust zu kommen? Es gibt Pasta. Wenn du magst, bring einen Nachtisch mit, dann müssen wir nicht alles selber machen. Sag mir kurz Bescheid, ob du kommst. Bis später!",
+      "audioUrl": "/audio/ch/fide-german-listening--sprachnachricht-von-einem-freund.wav",
       "question": "Was soll der Freund mitbringen, wenn er kommt?",
       "options": [
         "Einen Nachtisch",
@@ -2523,6 +2617,7 @@
     "prompt": "Hören Sie die Durchsage. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Gäste, das Hallenbad schliesst in zwanzig Minuten. Bitte verlassen Sie das Wasser in zehn Minuten und gehen Sie dann in die Garderoben. Denken Sie an Ihre Sachen im Schrank. Morgen sind wir ab sieben Uhr wieder für Sie da. Wir wünschen Ihnen einen schönen Abend.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-hallenbad-bald-schliessung.wav",
       "question": "Aussage: Laut der Durchsage soll man das Wasser in zehn Minuten verlassen.",
       "options": [
         "Richtig",
@@ -2547,6 +2642,7 @@
     "prompt": "Hören Sie den Podcast und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Willkommen zum Alltagstipp. Heute geht es ums Sparen beim Einkaufen. Mein erster Tipp: Machen Sie vorher eine Liste und halten Sie sich daran — so kaufen Sie weniger, das Sie nicht brauchen. Zweitens: Gehen Sie nicht hungrig einkaufen, sonst landet mehr im Wagen. Und drittens: Vergleichen Sie die Preise pro Kilo, nicht pro Packung; die grosse Packung ist nicht immer günstiger. Probieren Sie es aus!",
+      "audioUrl": "/audio/ch/fide-german-listening--podcast-tipps-furs-sparen-beim-einkaufen.wav",
       "question": "Was ist der erste Tipp im Podcast?",
       "options": [
         "Immer die grösste Packung kaufen",
@@ -2573,6 +2669,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Berater: Guten Tag, Sie möchten ein Konto eröffnen?\nHerr Diop: Ja, ein normales Konto für den Alltag, für Lohn und Rechnungen.\nBerater: Gern. Bringen Sie einen gültigen Ausweis mit. Sind Sie in der Schweiz angemeldet?\nHerr Diop: Ja, ich habe die Anmeldebestätigung dabei.\nBerater: Sehr gut. Dann können wir das Konto heute eröffnen. Die Karte kommt in etwa einer Woche mit der Post.\nHerr Diop: Und was kostet das Konto?\nBerater: Die Kontoführung ist für den Alltag günstig; die genauen Gebühren zeige ich Ihnen gleich auf dem Blatt.\nHerr Diop: Gut, danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-ein-konto-bei-der-bank-eroffnen.wav",
       "question": "Was braucht Herr Diop laut dem Berater, um das Konto zu eröffnen?",
       "options": [
         "Einen gültigen Ausweis und die Anmeldebestätigung",
@@ -2599,6 +2696,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag, Sie haben die Praxis Dr. Roth erreicht. Wir sind zurzeit nicht da. Unsere Öffnungszeiten sind Montag bis Freitag von 8 bis 12 und von 14 bis 17 Uhr. Bitte rufen Sie während dieser Zeit wieder an oder hinterlassen Sie Ihren Namen und Ihre Nummer, wir rufen zurück. In einem Notfall wählen Sie bitte die 144. Danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--anrufbeantworter-der-praxis.wav",
       "question": "Was soll man in einem Notfall tun?",
       "options": [
         "Die 144 wählen",
@@ -2625,6 +2723,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sehr geehrte Kundinnen und Kunden, das Parkhaus schliesst um 22 Uhr. Bitte fahren Sie Ihr Auto vorher hinaus. Bezahlen Sie das Parkticket am Automaten beim Ausgang, bevor Sie zum Auto gehen. Der Automat nimmt Münzen und Karten. Wir danken für Ihren Besuch.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-parkhaus.wav",
       "question": "Wo bezahlt man laut der Durchsage das Parkticket?",
       "options": [
         "Direkt beim Auto",
@@ -2651,6 +2750,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, hier ist die Schule Feldrain. Wegen der grossen Hitze endet der Unterricht morgen bereits um 12 Uhr. Es gibt am Nachmittag keine Betreuung. Wenn Sie für Ihr Kind eine Betreuung brauchen, melden Sie sich bitte heute im Sekretariat. Danke für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-schule-fruher-schluss.wav",
       "question": "Aussage: Laut der Nachricht endet der Unterricht morgen erst am Nachmittag.",
       "options": [
         "Richtig",
@@ -2675,6 +2775,7 @@
     "prompt": "Hören Sie die Meldung und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Und noch eine Meldung aus der Gemeinde: Ab dem ersten September gibt es eine neue Buslinie, die Linie 8. Sie verbindet das neue Wohnquartier im Norden direkt mit dem Bahnhof und dem Spital. Der Bus fährt werktags alle fünfzehn Minuten, am Wochenende alle dreissig Minuten. Damit wird es für viele Menschen einfacher, ohne Auto zur Arbeit zu kommen.",
+      "audioUrl": "/audio/ch/fide-german-listening--kurznachricht-eine-neue-buslinie.wav",
       "question": "Was ist neu ab dem ersten September?",
       "options": [
         "Eine neue Buslinie zwischen dem Wohnquartier, dem Bahnhof und dem Spital",
@@ -2701,6 +2802,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Lang: Was machen wir am Wochenende? Das Wetter soll gut sein.\nHerr Kern: Wir könnten wandern gehen oder in den Zoo.\nFrau Lang: Mit den Kindern ist der Zoo vielleicht besser, das ist weniger anstrengend.\nHerr Kern: Stimmt. Dann gehen wir am Samstag in den Zoo und ruhen uns am Sonntag aus.\nFrau Lang: Gut. Ich schaue noch, wann er offen ist, und packe etwas zu essen ein.\nHerr Kern: Super, dann ist das abgemacht.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-das-wochenende-planen.wav",
       "question": "Was planen die beiden für den Samstag?",
       "options": [
         "Eine lange Wanderung",
@@ -2727,6 +2829,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Restaurant: Restaurant Sonne, guten Tag.\nFrau Aziz: Guten Tag, ich habe für heute Abend einen Tisch für vier Personen reserviert, auf den Namen Aziz. Wir sind aber jetzt zu sechst. Geht das noch?\nRestaurant: Einen Moment … ja, das geht. Ich ändere die Reservation auf sechs Personen. Um wie viel Uhr waren Sie noch mal?\nFrau Aziz: Um 19 Uhr.\nRestaurant: Gut, sechs Personen um 19 Uhr, auf den Namen Aziz. Bis heute Abend.\nFrau Aziz: Vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-reservation-andern.wav",
       "question": "Was ändert das Restaurant?",
       "options": [
         "Die Uhrzeit auf 20 Uhr",
@@ -2753,6 +2856,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, wir haben ein Sonderangebot für Sie: Heute gibt es alle Jacken zum halben Preis. Sie finden die Jacken im zweiten Stock bei der Rolltreppe. Das Angebot gilt nur bis Ladenschluss um 19 Uhr. Wir wünschen Ihnen viel Freude beim Einkaufen.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-warenhaus-sonderangebot.wav",
       "question": "Wo findet man die Jacken im Angebot?",
       "options": [
         "Im Erdgeschoss",
@@ -2779,6 +2883,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, hier ist die Verwaltung. Wir informieren Sie: Morgen, am Dienstag, ist von 9 bis 12 Uhr das Wasser abgestellt, weil eine Leitung repariert wird. Bitte drehen Sie in dieser Zeit die Hähne zu. Am Nachmittag läuft das Wasser wieder normal. Danke für Ihr Verständnis.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-vom-vermieter-wasser-abgestellt.wav",
       "question": "Aussage: Laut der Nachricht ist das Wasser den ganzen Dienstag abgestellt.",
       "options": [
         "Richtig",
@@ -2803,6 +2908,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herzlich willkommen zum heutigen Konzert. Zwei kurze Hinweise: Bitte schalten Sie Ihre Handys jetzt aus, nicht nur leise. Und während des Konzerts sind keine Fotos und keine Videos erlaubt. In der Pause nach etwa einer Stunde können Sie im Foyer etwas trinken. Wir wünschen Ihnen einen schönen Abend und viel Freude mit der Musik.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-vor-dem-konzert.wav",
       "question": "Was sollen die Gäste laut der Ansage mit dem Handy tun?",
       "options": [
         "Es ganz ausschalten",
@@ -2829,6 +2935,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Anruferin: Guten Tag, mein Name ist Frau Kraft. Wir machen eine kurze Umfrage zum Einkaufen im Quartier. Haben Sie zwei Minuten Zeit?\nHerr Sow: Ja, kurz schon.\nAnruferin: Danke. Kaufen Sie meistens im Quartier ein oder fahren Sie in ein grösseres Zentrum?\nHerr Sow: Meistens im Quartier, das ist praktisch und ich kenne die Leute.\nAnruferin: Und was fehlt Ihnen im Quartier?\nHerr Sow: Ein guter Gemüseladen. Sonst bin ich zufrieden.\nAnruferin: Vielen Dank für Ihre Antworten!",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-kurze-umfrage.wav",
       "question": "Was fehlt Herrn Sow im Quartier?",
       "options": [
         "Ein guter Gemüseladen",
@@ -2855,6 +2962,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Meier: Du, kennst du einen guten Elektriker? Bei mir funktioniert eine Steckdose nicht.\nHerr Tanner: Ja, ich hatte letztes Jahr einen. Er war schnell und nicht zu teuer. Ich gebe dir seine Nummer.\nFrau Meier: Super, danke. Muss man lange warten?\nHerr Tanner: Bei mir kam er innerhalb von zwei Tagen. Ruf am besten am Morgen an.\nFrau Meier: Mache ich. Danke für den Tipp.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-einen-handwerker-empfehlen.wav",
       "question": "Was sagt Herr Tanner über den Elektriker?",
       "options": [
         "Er war teuer und langsam",
@@ -2881,6 +2989,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sehr geehrte Fahrgäste, wegen einer Störung hat unser Zug etwa fünfzehn Minuten Verspätung. Der Anschluss in Zürich nach St. Gallen wartet auf uns. Reisende nach Bern nehmen bitte in Zürich den nächsten Zug um 16.40 Uhr. Wir bitten um Entschuldigung.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-zug-verspatung.wav",
       "question": "Was gilt für Reisende nach Bern?",
       "options": [
         "Ihr Anschluss wartet auf den Zug",
@@ -2907,6 +3016,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, hier ist die Apotheke am Markt. Wir informieren Sie: Am nächsten Montag ist ein Feiertag, darum bleibt die Apotheke geschlossen. Am Dienstag sind wir wieder normal für Sie da, von 8 bis 18.30 Uhr. In einem dringenden Fall finden Sie die Notfallapotheke beim Spital. Danke und schöne Feiertage.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-der-apotheke-feiertag.wav",
       "question": "Aussage: Laut der Nachricht ist die Apotheke am Montag geöffnet.",
       "options": [
         "Richtig",
@@ -2931,6 +3041,7 @@
     "prompt": "Hören Sie das Interview und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Reporterin: Sie stehen jeden Tag sehr früh auf. Wann beginnt Ihr Tag?\nHerr Frei: Um drei Uhr morgens. Dann heize ich den Ofen und beginne mit dem Brot.\nReporterin: Das ist wirklich früh. Was mögen Sie an Ihrem Beruf?\nHerr Frei: Dass die Leute sich am Morgen über frisches Brot freuen. Und der Duft in der Backstube am Morgen ist etwas Besonderes.\nReporterin: Und was ist schwierig?\nHerr Frei: Die frühen Stunden und dass ich am Wochenende arbeite. Aber ich mache es gern.",
+      "audioUrl": "/audio/ch/fide-german-listening--interview-ein-backer-erzahlt.wav",
       "question": "Was mag Herr Frei an seinem Beruf?",
       "options": [
         "Dass er lange schlafen kann",
@@ -2957,6 +3068,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Reto: Unsere Chefin geht in Pension. Was schenken wir ihr?\nHerr Alba: Wir könnten Geld sammeln und einen Gutschein für ein Restaurant kaufen.\nFrau Reto: Gute Idee. Oder etwas Persönliches, zum Beispiel ein Fotobuch mit Bildern aus dem Team.\nHerr Alba: Ein Fotobuch ist schön, aber es braucht mehr Zeit. Machen wir beides: einen Gutschein und ein paar Fotos?\nFrau Reto: Perfekt. Ich frage die anderen, ob alle etwas dazugeben.\nHerr Alba: Und ich sammle die Fotos.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-ein-geschenk-aussuchen.wav",
       "question": "Worauf einigen sich die beiden?",
       "options": [
         "Nur auf Geld",
@@ -2983,6 +3095,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sachbearbeiter: Gemeindeverwaltung, guten Tag.\nFrau Kaya: Guten Tag, ich brauche eine Wohnsitzbestätigung. Kann ich die einfach am Schalter holen?\nSachbearbeiter: Ja, kommen Sie mit einem gültigen Ausweis vorbei. Sie bekommen die Bestätigung gleich mit.\nFrau Kaya: Und was kostet das?\nSachbearbeiter: Zwanzig Franken, bar oder mit Karte. Unser Schalter ist bis 16 Uhr offen.\nFrau Kaya: Gut, dann komme ich heute Nachmittag. Danke.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-eine-auskunft-beim-amt.wav",
       "question": "Was muss Frau Kaya mitbringen?",
       "options": [
         "Ein Foto",
@@ -3009,6 +3122,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sehr geehrte Fluggäste des Fluges nach Lissabon: Das Boarding beginnt jetzt am Gate B12. Bitte halten Sie Ihre Bordkarte und Ihren Ausweis bereit. Passagiere mit kleinen Kindern und Personen, die Hilfe brauchen, dürfen zuerst einsteigen. Wir wünschen Ihnen einen guten Flug.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-am-flughafen.wav",
       "question": "Wer darf laut der Durchsage zuerst einsteigen?",
       "options": [
         "Passagiere mit kleinen Kindern und Personen, die Hilfe brauchen",
@@ -3035,6 +3149,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Sara von oben. Ich wollte nur kurz Bescheid geben: Am Samstag habe ich Geburtstag und feiere mit ein paar Freunden bei mir. Es kann etwas lauter werden, aber wir hören um elf Uhr auf. Ich hoffe, das ist okay für dich. Wenn es stört, sag mir einfach Bescheid. Danke!",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-nachbarin-fest-am-wochenende.wav",
       "question": "Aussage: Sara und ihre Freunde hören um elf Uhr auf.",
       "options": [
         "Richtig",
@@ -3059,6 +3174,7 @@
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Herzlich willkommen im Kino. Bevor der Film beginnt, ein paar Hinweise: Bitte schalten Sie Ihre Handys aus. Essen und Getränke dürfen Sie mit in den Saal nehmen, aber räumen Sie den Abfall nach dem Film in die Behälter beim Ausgang. Der Notausgang ist rechts vorne, bitte beachten Sie das grüne Schild. Wir wünschen Ihnen viel Vergnügen.",
+      "audioUrl": "/audio/ch/fide-german-listening--ansage-im-kino.wav",
       "question": "Was sollen die Gäste laut der Ansage nach dem Film tun?",
       "options": [
         "Die Handys einschalten",
@@ -3085,6 +3201,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Weiss: Wir sollten das Wohnzimmer neu streichen. Welche Farbe magst du?\nHerr Roth: Ich hätte gern etwas Helles, vielleicht ein warmes Gelb.\nFrau Weiss: Gelb ist mir zu kräftig. Wie wäre ein helles Beige? Das passt zu allem.\nHerr Roth: Beige ist gut, das ist ruhig. Und eine Wand könnten wir etwas dunkler machen, als Akzent.\nFrau Weiss: Ja, das gefällt mir. Dann kaufen wir Beige und für eine Wand ein dunkleres Braun.\nHerr Roth: Abgemacht. Ich hole die Farbe am Samstag.",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-ein-zimmer-streichen.wav",
       "question": "Worauf einigen sich die beiden?",
       "options": [
         "Auf ein kräftiges Gelb",
@@ -3111,6 +3228,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Malerin: Malergeschäft Bunt, guten Tag.\nHerr Sila: Guten Tag, ich möchte mein Wohnzimmer streichen lassen und hätte gern eine Offerte.\nMalerin: Gern. Wie gross ist der Raum ungefähr?\nHerr Sila: Etwa zwanzig Quadratmeter, mit einer hohen Wand.\nMalerin: Am besten schaue ich es mir kurz an, dann kann ich Ihnen einen genauen Preis geben. Passt Ihnen Donnerstag um 17 Uhr?\nHerr Sila: Ja, das passt. Kostet die Offerte etwas?\nMalerin: Nein, die Offerte ist gratis und unverbindlich.\nHerr Sila: Sehr gut, dann bis Donnerstag.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-einen-handwerker-um-eine-offerte-bitten.wav",
       "question": "Was macht die Malerin, bevor sie einen Preis nennt?",
       "options": [
         "Sie beginnt sofort mit dem Streichen",
@@ -3137,6 +3255,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, unser Einkaufszentrum schliesst in fünfzehn Minuten. Bitte beenden Sie Ihren Einkauf und gehen Sie zu den Kassen. Die Tiefgarage bleibt bis Mitternacht offen, Sie können Ihr Auto also in Ruhe holen. Wir danken für Ihren Besuch und freuen uns auf morgen.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-einkaufszentrum.wav",
       "question": "Was können die Kunden laut der Durchsage noch bis Mitternacht tun?",
       "options": [
         "Das Auto aus der Tiefgarage holen",
@@ -3163,6 +3282,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag, hier ist die Schule Rosenweg. Wir müssen Ihnen leider mitteilen: Der Elternabend von morgen Abend wird verschoben, weil die Lehrerin krank ist. Der neue Termin ist nächsten Donnerstag, ebenfalls um 19 Uhr. Bitte notieren Sie sich das neue Datum. Wir bitten um Ihr Verständnis und danken Ihnen.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-von-der-schule-elternabend-verschoben.wav",
       "question": "Aussage: Laut der Nachricht findet der Elternabend wie geplant morgen statt.",
       "options": [
         "Richtig",
@@ -3187,6 +3307,7 @@
     "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag und willkommen. Nur ein kurzer Hinweis für Ihren Besuch: Im ersten Stock zeigen wir zurzeit eine Sonderausstellung über alte Uhren. Der Eintritt dazu ist im normalen Ticket enthalten. Die Sonderausstellung dauert noch bis Ende Monat. Fotos ohne Blitz sind erlaubt. Wir wünschen Ihnen einen schönen Besuch.",
+      "audioUrl": "/audio/ch/fide-german-listening--information-im-museum-sonderausstellung.wav",
       "question": "Was gilt für die Sonderausstellung?",
       "options": [
         "Man muss extra bezahlen",
@@ -3213,6 +3334,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Frau Ott: In den Herbstferien muss ich arbeiten. Weisst du, wo die Kinder betreut werden?\nHerr Sen: Ja, die Gemeinde bietet ein Ferienprogramm an, eine Woche lang, mit Ausflügen und Basteln.\nFrau Ott: Das klingt gut. Muss man sich anmelden?\nHerr Sen: Ja, und zwar früh, die Plätze sind schnell weg. Es kostet etwas, aber nicht viel.\nFrau Ott: Wo melde ich mich an?\nHerr Sen: Auf der Webseite der Gemeinde oder direkt im Schulhaus. Ich schicke dir den Link.\nFrau Ott: Super, danke dir!",
+      "audioUrl": "/audio/ch/fide-german-listening--gesprach-ferienbetreuung-organisieren.wav",
       "question": "Was rät Herr Sen Frau Ott?",
       "options": [
         "Die Kinder allein zu Hause zu lassen",
@@ -3239,6 +3361,7 @@
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Kundendienst: Guten Tag, was kann ich für Sie tun?\nFrau Rahimi: Guten Tag, ich möchte mein Zeitungsabo kündigen.\nKundendienst: Das ist schade. Darf ich fragen, warum?\nFrau Rahimi: Ich habe zu wenig Zeit zum Lesen.\nKundendienst: Verstehe. Die Kündigungsfrist ist ein Monat. Ihr Abo läuft dann Ende nächsten Monats aus. Ich schicke Ihnen eine Bestätigung per E-Mail.\nFrau Rahimi: Gut, danke. Bekomme ich Geld zurück?\nKundendienst: Den Betrag für die restliche Zeit schreiben wir Ihnen gut.\nFrau Rahimi: In Ordnung, vielen Dank.",
+      "audioUrl": "/audio/ch/fide-german-listening--anruf-ein-abo-kundigen.wav",
       "question": "Was sagt der Kundendienst über die Kündigung?",
       "options": [
         "Die Kündigungsfrist ist ein Monat; das Abo läuft dann aus",
@@ -3265,6 +3388,7 @@
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Sehr geehrte Fahrgäste, wegen der Verspätung entfällt heute der Halt in Grüningen. Reisende nach Grüningen fahren bitte bis zur nächsten Station Weberdorf und nehmen von dort den Bus zurück. Wir entschuldigen uns für die Unannehmlichkeiten.",
+      "audioUrl": "/audio/ch/fide-german-listening--durchsage-im-zug-halt-entfallt.wav",
       "question": "Was sollen Reisende nach Grüningen tun?",
       "options": [
         "In Grüningen aussteigen",
@@ -3291,6 +3415,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Frau Lima, hier ist die Zahnarztpraxis am Park. Wir erinnern Sie an Ihren Termin morgen, am Mittwoch, um 9.30 Uhr. Bitte kommen Sie fünf Minuten früher und bringen Sie Ihre Versichertenkarte mit. Falls Sie nicht können, melden Sie sich bitte heute noch. Danke und bis morgen.",
+      "audioUrl": "/audio/ch/fide-german-listening--nachricht-vom-zahnarzt-termin.wav",
       "question": "Aussage: Laut der Nachricht soll Frau Lima die Versichertenkarte mitbringen.",
       "options": [
         "Richtig",

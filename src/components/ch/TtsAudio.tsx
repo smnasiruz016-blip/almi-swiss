@@ -12,12 +12,19 @@ import type { SwissLanguage } from "@/lib/ch/types";
 export function TtsAudio({
   transcript,
   language,
+  audioUrl,
 }: {
   transcript: string;
   /** Required, with no default. A default here would be the is-IS bug again: the  hygiene-allow
    *  component would silently speak SOME language, and the wrong one is unnoticeable
    *  in code review. Callers must know what they are playing. */
   language: SwissLanguage;
+  /** A rendered clip. When present it REPLACES speech synthesis — every candidate hears
+   *  the same two-voice recording, checked against its own transcript, instead of
+   *  whatever voice their machine happens to have installed (or none, in which case the
+   *  item quietly became a reading task). Optional only because items without a rendered
+   *  clip must still play something. */
+  audioUrl?: string;
 }) {
   const [supported, setSupported] = useState(false);
   const [speaking, setSpeaking] = useState(false);
@@ -50,6 +57,35 @@ export function TtsAudio({
     if (!supported) return;
     window.speechSynthesis.cancel();
     setSpeaking(false);
+  }
+
+  // A rendered clip wins outright. Native <audio> gives play/pause/seek/replay for free,
+  // works with no voice pack installed, and is the SAME audio for every candidate — which
+  // speech synthesis can never be.
+  if (audioUrl) {
+    return (
+      <div className="rounded-xl border border-almi-bg-peach bg-almi-bg-peach/40 p-4">
+        <div className="flex flex-wrap items-center gap-3">
+          <span aria-hidden className="text-lg">🎧</span>
+          {/* No <track>: the transcript below IS the caption, and it stays hidden until
+              asked for. Showing it by default would turn every listening item into a
+              reading item — the same failure this audio layer exists to end. */}
+          <audio controls preload="none" src={audioUrl} className="min-h-[40px] flex-1">
+            Your browser cannot play audio — read the transcript below.
+          </audio>
+          <button
+            type="button"
+            onClick={() => setShowText((v) => !v)}
+            className="text-sm font-semibold text-almi-coral hover:underline"
+          >
+            {showText ? "Hide transcript" : "Show transcript"}
+          </button>
+        </div>
+        {showText && (
+          <p className="mt-3 whitespace-pre-wrap text-sm text-almi-text">{transcript}</p>
+        )}
+      </div>
+    );
   }
 
   return (

@@ -20,7 +20,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { readBundle, itemSpans, keyValueSpan, indentAt, renderLike, spliceAll, assertFaithful } from "./json-text-edit.mts";
+import { readBundle, itemSpans, keyValueSpan, indentAt, renderLike, spliceAll, assertFaithful } from "./json-text-edit.mjs";
 
 const WRITE = process.argv.includes("--write");
 const DIR = path.join(process.cwd(), "src", "data", "items");

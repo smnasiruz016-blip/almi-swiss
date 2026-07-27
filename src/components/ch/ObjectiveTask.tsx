@@ -46,14 +46,18 @@ function Stimulus({
   passage,
   transcript,
   language,
+  audioUrl,
 }: {
   passage?: string;
   transcript?: string;
   language: SwissLanguage;
+  audioUrl?: string;
 }) {
   return (
     <>
-      {transcript ? <TtsAudio transcript={transcript} language={language} /> : null}
+      {transcript ? (
+        <TtsAudio transcript={transcript} language={language} audioUrl={audioUrl} />
+      ) : null}
       {passage ? (
         <p className="whitespace-pre-wrap rounded-xl border border-almi-bg-peach bg-almi-paper p-4 text-sm text-almi-text">
           {passage}
@@ -76,7 +80,7 @@ function McqTask({
   const [picked, setPicked] = useState<number | null>(null);
   return (
     <div className="space-y-3">
-      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} />
+      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} audioUrl={p.audioUrl} />
       <p className="font-medium text-almi-ink">{p.question}</p>
       <div className="space-y-2">
         {p.options.map((opt, i) => (
@@ -123,7 +127,7 @@ function MatchingTask({
   }
   return (
     <div className="space-y-3">
-      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} />
+      <Stimulus passage={p.passage} transcript={p.transcript} language={item.language} audioUrl={p.audioUrl} />
       <p className="text-sm text-almi-text-muted">{p.instructions}</p>
       <div className="space-y-2">
         {p.left.map((prompt, li) => (

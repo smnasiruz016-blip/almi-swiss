@@ -14,7 +14,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { readBundle, itemSpans, keyValueSpan, indentAt, spliceAll, assertFaithful } from "./json-text-edit.mts";
+import { readBundle, itemSpans, keyValueSpan, indentAt, spliceAll, assertFaithful } from "./json-text-edit.mjs";
 
 const DIR = path.join(process.cwd(), "src", "data", "items");
 const DECIDED = path.join(process.cwd(), "reports", "getting-started-cefr-decided.json");

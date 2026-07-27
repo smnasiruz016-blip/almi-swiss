@@ -10,6 +10,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Duarte, ici votre banque, succursale de Plainpalais. Votre nouvelle carte est arrivée. Vous pouvez la retirer au guichet, du lundi au vendredi de neuf heures à seize heures. Merci d'apporter une pièce d'identité. Au revoir.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--message-de-la-banque.wav",
       "question": "Que doit apporter Madame Duarte ?",
       "options": ["Une pièce d'identité", "L'ancienne carte", "De l'argent", "Une lettre"]
     },
@@ -27,6 +28,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Une information pour tout le monde : aujourd'hui, la pause de midi est de midi à treize heures, et non pas de onze heures et demie à midi et demi comme d'habitude. La raison, c'est la livraison à onze heures et demie. Merci.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--annonce-a-l-atelier.wav",
       "question": "Quand est la pause de midi aujourd'hui ?",
       "options": ["De 11h30 à 12h30", "De 12h00 à 13h00", "De 12h30 à 13h30", "Il n'y a pas de pause aujourd'hui"]
     },
@@ -44,6 +46,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici Électricité Bochud. Nous passons jeudi entre huit et dix heures. Il faut que quelqu'un soit présent. Si cela ne va pas, rappelez-nous s'il vous plaît. Merci.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--message-de-l-electricien.wav",
       "question": "Affirmation : personne ne doit être à la maison.",
       "options": ["Vrai", "Faux"]
     },
@@ -61,6 +64,7 @@
     "prompt": "Écoutez l'employée et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Alors, le colis pour le Portugal : en courrier normal, ça met cinq à sept jours et ça coûte trente francs. En express, il arrive en deux jours, mais ça coûte cinquante-cinq. Qu'est-ce que vous préférez ?",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--au-guichet-de-la-poste.wav",
       "question": "Combien coûte l'express ?",
       "options": ["30 francs", "5 francs", "55 francs", "7 francs"]
     },
@@ -78,6 +82,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Salut, c'est Reto. Écoute, demain tu ne dois pas venir à sept heures, mais seulement à neuf heures. La machine est réparée le matin. À demain !",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--le-superieur-telephone.wav",
       "question": "Quand la personne doit-elle venir demain ?",
       "options": ["À sept heures", "Comme d'habitude", "Pas du tout", "À neuf heures"]
     },
@@ -95,6 +100,7 @@
     "prompt": "Écoutez la collaboratrice et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Oui, votre prime augmente l'année prochaine, c'est exact. Vous pouvez changer de caisse, mais seulement jusqu'à fin novembre — après, il faudra attendre une année de plus. Et autre chose : vous pouvez aussi augmenter votre franchise, la prime baisse alors. Réfléchissez bien, parce que vous paierez davantage vous-même chez le médecin.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--renseignement-sur-la-prime.wav",
       "question": "Que dit la collaboratrice au sujet du changement de caisse ?",
       "options": [
         "C'est possible seulement jusqu'à fin novembre",
@@ -117,6 +123,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Monsieur Osei. Vous vous êtes annoncé pour l'appartement de trois pièces à la rue des Champs. Nous le montrons samedi à dix heures. Plusieurs personnes viennent en même temps. Merci d'apporter un extrait du registre des poursuites et vos trois dernières fiches de salaire. Sans ces documents, nous ne pourrons malheureusement pas examiner votre dossier.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--appel-au-sujet-de-l-appartement.wav",
       "question": "Que se passe-t-il si Monsieur Osei n'apporte pas les documents ?",
       "options": [
         "Il peut quand même visiter et tout envoyer plus tard",
@@ -139,6 +146,7 @@
     "prompt": "Écoutez l'information. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Encore une information : l'entreprise paie la moitié du cours. L'autre moitié, c'est vous. Ce qui est important : le cours a lieu le soir, pas pendant les heures de travail. Vous ne recevrez donc pas d'heures en compensation. Les personnes intéressées s'annoncent chez moi d'ici la fin du mois.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--information-sur-la-formation-continue.wav",
       "question": "Affirmation : le cours a lieu le soir.",
       "options": ["Vrai", "Faux"]
     },
@@ -157,6 +165,7 @@
     "payload": {
       "instructions": "Associez chaque appel au bon sujet. Tous les sujets ne sont pas utilisés.",
       "transcript": "Appel 1 : Bonjour, ici le service du personnel. Il nous manque encore votre nouvelle adresse pour la fiche de salaire.\n\nAppel 2 : Salut, c'est moi, Luca. Je suis malade, tu peux dire au chef que je ne viens pas aujourd'hui ?\n\nAppel 3 : Bonjour, ici l'entreprise Keller. La livraison arrive une heure plus tard que prévu.\n\nAppel 4 : Bonjour, ici le centre de cours. Votre cours de français commence une semaine plus tard, il reste encore des places.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--quatre-appels-au-travail.wav",
       "left": ["Appel 1", "Appel 2", "Appel 3", "Appel 4"],
       "right": [
         "Quelqu'un s'annonce malade",
@@ -180,6 +189,7 @@
     "prompt": "Écoutez le renseignement et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Alors, avec votre permis, vous pouvez conduire douze mois dès votre arrivée. Après, il vous faut le permis suisse. Si vous devez faire une course de contrôle ou non, cela dépend du pays où le permis a été délivré. Le mieux, c'est de passer chez nous avec le permis et une copie de votre pièce d'identité, on vous le dira directement.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--telephoner-au-service-des-automobiles.wav",
       "question": "De quoi dépend la nécessité d'une course de contrôle ?",
       "options": [
         "De l'âge de la personne",
@@ -202,6 +212,7 @@
     "prompt": "Écoutez le collègue et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Dis, tu aurais le temps samedi ? Je déménage et je cherche encore quelqu'un pour aider. Ce ne sont que quelques meubles, on sera trois. Je paie le repas de midi et je te prête ma remorque le mois prochain, si tu en as besoin. Dis non tranquillement si ça ne va pas.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--le-collegue-demande-un-service.wav",
       "question": "Qu'est-ce que le collègue propose ?",
       "options": [
         "De l'argent pour l'aide",
@@ -224,6 +235,7 @@
     "prompt": "Écoutez la conseillère et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Alors, je regarde. Vous n'avez pas indiqué vos frais de déplacement, ni la formation continue. Vous avez le droit de déduire les deux, ça baisse votre revenu imposable. Ce que vous ne pouvez pas déduire, ce sont les repas pris à la maison. Et encore une chose : gardez les justificatifs. Si l'administration pose une question et que vous n'avez rien, elle supprime la déduction.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--entretien-sur-la-declaration-d-impot.wav",
       "question": "Que conseille la conseillère au sujet des justificatifs ?",
       "options": [
         "Il faut les garder, sinon l'administration peut supprimer la déduction",
@@ -246,6 +258,7 @@
     "prompt": "Écoutez la supérieure et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Je suis contente de votre travail, je le dis d'emblée. La qualité est là, et vous êtes fiable. Je voudrais quand même aborder deux points. Premièrement : quand quelque chose n'est pas clair, vous demandez parfois trop tard — demandez plutôt tout de suite. Deuxièmement : vous faites beaucoup toute seule. Ce n'est pas faux, mais en équipe, ce serait parfois plus rapide. Qu'en pensez-vous vous-même ?",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--l-entretien-annuel.wav",
       "question": "Quelle est la position de la supérieure ?",
       "options": [
         "Elle n'est pas contente et menace de conséquences",
@@ -268,6 +281,7 @@
     "prompt": "Écoutez la collaboratrice. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Je vous dis volontiers quels documents nous demandons ici. Mais ce qui sera exigé au final, ce n'est pas moi au guichet qui le décide. Je ne peux donc pas vous promettre que ça suffira. Ce que je peux vous dire : posez la question par écrit, comme ça vous l'aurez noir sur blanc. Un renseignement oral de ma part n'est pas un engagement.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--au-guichet-ce-que-nous-pouvons-dire.wav",
       "question": "Affirmation : la collaboratrice dit que son renseignement oral est un engagement ferme.",
       "options": ["Vrai", "Faux"]
     },
@@ -285,6 +299,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Dis, je dois te parler de quelque chose. Dimanche, vous avez fait la fête jusqu'à minuit. Moi, je me levais à cinq heures le lundi.\n— Oh. Je suis désolé, je ne le savais pas. C'était l'anniversaire de ma mère.\n— Je n'ai rien contre une fête, vraiment rien. Seulement — préviens-moi la prochaine fois. Comme ça je sais ce qui se passe et je ne m'énerve pas la moitié de la nuit.\n— Je le ferai. Et si c'est trop fort, sonne simplement. Je préfère que tu viennes chez moi plutôt que tu ne dormes pas.",
+      "audioUrl": "/audio/ch/fide-c-permit-french-listening--deux-voisins-parlent-du-bruit.wav",
       "question": "Que veut surtout le premier voisin ?",
       "options": [
         "Qu'il n'y ait plus de fêtes",

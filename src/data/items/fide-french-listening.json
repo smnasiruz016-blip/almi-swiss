@@ -11,6 +11,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Sylla, ici la déchetterie communale de Renens. Vous nous avez demandé les horaires pour les encombrants. Nous sommes ouverts du mardi au vendredi de 14h à 18h, et le samedi de 9h à 16h. Le lundi, nous sommes fermés. Vous pouvez venir avec votre carte d'habitant. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-sur-le-repondeur.wav",
       "question": "Quand la déchetterie est-elle fermée ?",
       "options": [
         "Le lundi",
@@ -37,6 +38,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Information aux voyageurs à destination de Genève. Le train InterRegio de 14h12 partira aujourd'hui exceptionnellement de la voie 5, et non de la voie 3. Je répète : le train pour Genève partira de la voie 5. Nous vous prions de nous excuser pour ce changement.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-en-gare.wav",
       "question": "Qu'est-ce qui a changé ?",
       "options": [
         "L'heure de départ",
@@ -63,6 +65,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici le secrétariat de l'école des Vergers. Demain, la sortie à la piscine est annulée : le car est en panne. Les élèves ont donc cours normalement en classe, aux heures habituelles. Il n'est pas nécessaire d'apporter les affaires de bain. Merci d'en informer votre enfant.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-secretariat-de-l-ecole.wav",
       "question": "Affirmation : selon le message, la sortie à la piscine de demain est annulée.",
       "options": [
         "Vrai",
@@ -87,6 +90,7 @@
     "prompt": "Écoutez la pharmacienne et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Alors, voici votre médicament. C'est un comprimé le matin et un le soir, toujours après le repas — jamais l'estomac vide, sinon vous risquez d'avoir mal au ventre. La boîte est pour dix jours. Terminez toute la boîte, même si vous vous sentez mieux avant.",
+      "audioUrl": "/audio/ch/fide-french-listening--a-la-pharmacie.wav",
       "question": "Quand faut-il prendre les comprimés ?",
       "options": [
         "Avant les repas",
@@ -113,6 +117,7 @@
     "prompt": "Écoutez le marchand et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Voilà, madame : un kilo de pommes et une salade. Ça vous fait sept francs nonante. Vous payez comment ? Ah, avec la carte, très bien, tapez votre code s'il vous plaît. Merci et bonne journée !",
+      "audioUrl": "/audio/ch/fide-french-listening--le-prix-au-marche.wav",
       "question": "Combien coûtent les achats ?",
       "options": [
         "7,19 francs",
@@ -139,6 +144,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Monsieur Rahimi, ici Madame Progin de la régie Duval. C'est au sujet de votre demande pour le chauffage. Le chauffagiste peut passer mercredi prochain entre 8h et midi. Il faut que quelqu'un soit présent dans l'appartement : nous n'entrons pas sans locataire. Si ce créneau ne va pas, rappelez-moi avant lundi, sinon nous confirmons le rendez-vous. Merci, au revoir.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-regie.wav",
       "question": "Que doit faire Monsieur Rahimi s'il ne peut pas être là mercredi matin ?",
       "options": [
         "Laisser la clé chez un voisin",
@@ -165,6 +171,7 @@
     "prompt": "Écoutez l'employée et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Alors, pour annoncer votre arrivée dans la commune, il me faut trois choses : votre pièce d'identité, votre contrat de bail et votre attestation d'assurance maladie. Vous avez le bail et la pièce d'identité, très bien. L'attestation d'assurance, vous pouvez nous l'envoyer par courriel dans les prochains jours — ce n'est pas la peine de revenir au guichet pour ça. Je vous prépare déjà le reste.",
+      "audioUrl": "/audio/ch/fide-french-listening--au-guichet-du-controle-des-habitants.wav",
       "question": "Que manque-t-il à cette personne, et comment peut-elle le fournir ?",
       "options": [
         "L'attestation d'assurance maladie — elle peut l'envoyer par courriel",
@@ -191,6 +198,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Madame Kovač, ici le service clientèle de votre caisse maladie. Nous avons bien reçu votre facture. Une partie reste toutefois à votre charge, car votre franchise n'est pas encore atteinte cette année. Ce n'est pas une erreur de notre part et ce n'est pas la peine de renvoyer le document. Si vous souhaitez des explications, notre ligne est ouverte du lundi au vendredi. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-caisse-maladie.wav",
       "question": "Affirmation : selon le message, une partie de la facture reste à la charge de Madame Kovač.",
       "options": [
         "Vrai",
@@ -215,6 +223,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Salut, c'est Aline. Écoute, je suis coincée dans les bouchons, je vais arriver avec vingt minutes de retard à peu près. La séance commence à dix heures. Est-ce que tu peux prévenir Monsieur Bettex et commencer sans moi ? Je ferai ma partie à la fin. Merci beaucoup, à tout à l'heure !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-une-collegue.wav",
       "question": "Que demande Aline à sa collègue ?",
       "options": [
         "De repousser la séance de vingt minutes",
@@ -242,6 +251,7 @@
     "payload": {
       "instructions": "Vous rentrez à la maison et écoutez votre répondeur. Associez chaque message au bon sujet.",
       "transcript": "Message 1 : Bonjour, cabinet dentaire Morand. Nous vous rappelons votre rendez-vous de contrôle de jeudi à 16h30. Merci de nous avertir vingt-quatre heures à l'avance en cas d'empêchement.\n\nMessage 2 : Bonjour, ici la bibliothèque municipale. Deux de vos livres sont à rendre depuis une semaine. Merci de les rapporter afin d'éviter des frais de retard.\n\nMessage 3 : Bonsoir, c'est votre voisin du deuxième. Un colis est arrivé pour vous cet après-midi, je l'ai pris chez moi. Sonnez quand vous voulez, je suis là toute la soirée.\n\nMessage 4 : Bonjour, service des naturalisations de la commune. Il manque une pièce à votre dossier : l'attestation de langue. Merci de nous la faire parvenir d'ici la fin du mois.",
+      "audioUrl": "/audio/ch/fide-french-listening--quatre-messages-sur-le-repondeur.wav",
       "left": [
         "Message 1",
         "Message 2",
@@ -291,6 +301,7 @@
     "prompt": "Écoutez l'enseignante et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Encore un point avant de terminer. Le camp de ski a lieu en février. Il coûte deux cents francs par enfant. Je sais que pour certaines familles, c'est beaucoup. Il existe un fonds communal qui prend en charge une partie du montant — mais il faut le demander, personne ne le propose automatiquement. Venez me voir après la séance, ou écrivez-moi. Cela reste entre nous.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-a-la-reunion-de-parents.wav",
       "question": "Que dit l'enseignante au sujet de l'aide financière ?",
       "options": [
         "Il faut la demander soi-même",
@@ -317,6 +328,7 @@
     "prompt": "Écoutez la collaboratrice et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Je vous explique comment ça fonctionne, parce que les gens confondent souvent. Le minimum fédéral, c'est au moins B1 à l'oral et au moins A2 à l'écrit dans une langue nationale. Mais tout dépend de votre voie. Si vous êtes mariée à un citoyen suisse, c'est la naturalisation facilitée, et là c'est le Secrétariat d'État aux migrations qui décide. Vous, c'est une naturalisation ordinaire : ce sont le canton et la commune qui décident, et ils peuvent exiger davantage que le minimum fédéral. Alors ne vous fiez pas seulement à ce qui est écrit au niveau fédéral : téléphonez à votre commune et demandez ce qui s'applique chez vous, avant de vous inscrire à un examen.",
+      "audioUrl": "/audio/ch/fide-french-listening--information-au-service-des-naturalisations.wav",
       "question": "Pourquoi la collaboratrice conseille-t-elle de téléphoner à la commune ?",
       "options": [
         "Parce que la commune organise elle-même l'examen de langue",
@@ -343,6 +355,7 @@
     "prompt": "Écoutez le représentant de la régie et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bon, on a fait le tour. L'appartement est propre, c'est bien. Deux remarques quand même. Les trous dans le mur du salon, ça, c'est de l'usure normale, on ne vous les compte pas. En revanche, la plaque de cuisson est fêlée : ça, ce n'est pas de l'usure, et ce sera retenu sur la garantie. Je note les deux points au procès-verbal. Vous n'êtes pas obligé de le signer aujourd'hui si vous n'êtes pas d'accord — vous pouvez indiquer votre désaccord par écrit.",
+      "audioUrl": "/audio/ch/fide-french-listening--etat-des-lieux-de-sortie.wav",
       "question": "Que dit le représentant au sujet des trous dans le mur ?",
       "options": [
         "Ils seront retenus sur la garantie",
@@ -369,6 +382,7 @@
     "prompt": "Écoutez la chronique. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Et pour terminer, un mot sur notre français d'ici. On nous écrit souvent pour nous demander s'il faut dire septante ou soixante-dix. La réponse est simple : en Suisse romande, on dit septante et nonante, et c'est du bon français — ce n'est pas une faute à corriger. Pour quatre-vingts, en revanche, ça dépend de l'endroit : on entend huitante dans le canton de Vaud, mais à Genève, on dit quatre-vingts comme en France. Donc si vous arrivez chez nous et qu'on vous corrige d'un village à l'autre, ne vous inquiétez pas : c'est la région qui change, pas votre français.",
+      "audioUrl": "/audio/ch/fide-french-listening--chronique-a-la-radio-locale.wav",
       "question": "Affirmation : selon la chronique, « huitante » s'emploie partout en Suisse romande.",
       "options": [
         "Vrai",
@@ -393,6 +407,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Tu as vu, ils veulent fermer la rue de l'École aux voitures.\n— Oui, j'ai lu ça dans le journal communal. Franchement, je trouve ça bien : les enfants y vont à pied tous les matins.\n— Je ne dis pas le contraire pour les enfants. Mon problème, c'est que je livre du matériel là tous les jours. Si je ne peux plus m'arrêter devant, je fais comment ?\n— Il paraît qu'il y aura des heures de livraison le matin, tôt.\n— Tôt comment ? Parce que si c'est avant six heures, ça ne m'arrange pas du tout. Je ne suis pas contre la rue piétonne, je veux juste qu'on nous demande avant de décider.",
+      "audioUrl": "/audio/ch/fide-french-listening--deux-voisins-parlent-de-la-commune.wav",
       "question": "Quelle est la position du deuxième voisin ?",
       "options": [
         "Il est opposé à la fermeture de la rue",
@@ -419,6 +434,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Monsieur Baumann, ici la régie. Comme vous quittez l'appartement à la fin du mois, nous aimerions le faire visiter à de nouveaux intéressés. Nous pensions à mercredi soir, vers 18h. Deux personnes viendraient le voir. Est-ce que cela vous convient ? Vous n'avez rien de spécial à préparer, nous ne resterons pas longtemps. Merci de nous rappeler pour confirmer. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-regie-visite-de-l-appartement.wav",
       "question": "Pourquoi la régie appelle-t-elle ?",
       "options": [
         "Pour augmenter le loyer",
@@ -445,6 +461,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Dis, on travaille tous les deux à la zone industrielle. On pourrait faire du covoiturage, non ?\n— Bonne idée, ça fait des économies d'essence. Tu commences à quelle heure ?\n— À sept heures. Je pourrais passer te prendre à sept heures moins le quart.\n— Parfait. Et pour conduire, on alterne ?\n— Oui, une semaine sur deux. Cette semaine je conduis, la prochaine c'est toi.\n— D'accord, alors à demain, sept heures moins le quart.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-organiser-un-covoiturage.wav",
       "question": "Qu'est-ce que les deux personnes décident ?",
       "options": [
         "Que l'un conduit toujours seul",
@@ -471,6 +488,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, chez moi internet ne fonctionne plus depuis hier soir.\n— Je suis désolé. Avez-vous déjà éteint et rallumé le routeur ?\n— Oui, deux fois. Ça ne change rien.\n— Alors cela vient peut-être de la ligne. Je vous envoie un technicien. Jeudi entre 8h et 12h, est-ce que cela vous convient ?\n— Jeudi matin, d'accord. Est-ce que la visite coûte quelque chose ?\n— Si la panne vient de chez nous, c'est gratuit. Vous recevrez un SMS avant.\n— Très bien, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-une-panne-d-internet.wav",
       "question": "Que fait le collaborateur ?",
       "options": [
         "Il dit d'acheter un nouveau routeur",
@@ -497,6 +515,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, aujourd'hui à notre stand, les fraises sont en action : deux barquettes pour le prix d'une. Et pour trois francs nonante, vous avez un beau bouquet de radis. C'est valable seulement aujourd'hui, jusqu'à midi. Profitez-en, venez nous voir !",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-marche.wav",
       "question": "Combien coûte le bouquet de radis ?",
       "options": [
         "Deux francs",
@@ -523,6 +542,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Allô, c'est Madame Rey, votre voisine. On part une semaine dès demain. Est-ce que tu pourrais arroser mes plantes sur le balcon, une fois par jour ? La clé est chez toi comme d'habitude. Une fois par jour, ça suffit. Je te ramènerai quelque chose de vacances. Merci beaucoup, et dis-moi si ça ne joue pas !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-une-voisine-arroser-les-plantes.wav",
       "question": "Affirmation : selon le message, il faut arroser les plantes une fois par jour.",
       "options": [
         "Vrai",
@@ -547,6 +567,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Cabinet du docteur Perret, bonjour.\n— Bonjour, j'ai un rendez-vous demain à 9h, mais mon enfant est malade. Je voudrais le reporter.\n— Bien sûr. Mardi prochain à 11h, cela vous convient ?\n— Mardi 11h, parfait. Dois-je apporter quelque chose ?\n— Apportez la liste de vos médicaments. Et si votre enfant ne va pas mieux d'ici là, appelez plus tôt.\n— Merci, à mardi.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-reporter-un-rendez-vous-medical.wav",
       "question": "Qu'est-ce qui est décidé à la fin ?",
       "options": [
         "Le rendez-vous de demain à 9h est maintenu",
@@ -573,6 +594,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, chez moi ça fuit sous l'évier de la cuisine, je crois qu'un tuyau est percé.\n— On va regarder ça. Pouvez-vous couper l'eau sous l'évier ?\n— Oui, j'ai déjà fermé le robinet.\n— Bien. Je peux passer aujourd'hui entre 16h et 18h. Ça vous va ?\n— Oui, je suis à la maison.\n— Alors à tout à l'heure. Mettez un seau dessous, au cas où ça goutte encore.\n— D'accord, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-commander-un-depannage.wav",
       "question": "Qu'est-ce qui est convenu ?",
       "options": [
         "Le dépanneur passe aujourd'hui entre 16h et 18h",
@@ -599,6 +621,7 @@
     "prompt": "Écoutez l'entretien et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous aidez chaque semaine à la maison de quartier. Que faites-vous exactement ?\n— Le mercredi, je cuisine pour des personnes âgées qui vivent seules. On mange ensemble et on discute.\n— Et pourquoi faites-vous cela ?\n— Quand je suis arrivée ici, quelqu'un m'a aidée aussi. Maintenant, je rends un peu. Ça me fait plaisir et je rencontre beaucoup de gens.\n— Faut-il une formation ?\n— Non, il faut être fiable et aimer le contact. De nouveaux bénévoles sont toujours les bienvenus.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-une-benevole-raconte.wav",
       "question": "Pourquoi cette personne fait-elle du bénévolat ?",
       "options": [
         "Elle gagne beaucoup d'argent",
@@ -625,6 +648,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Mesdames et Messieurs, prochain arrêt : Renens. Les voyageurs pour Genève changent ici ; le train pour Genève part de la voie 3, en face. Le wagon-restaurant se trouve au milieu du train. Nous vous souhaitons un bon voyage.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-train-correspondance.wav",
       "question": "Que doivent faire les voyageurs pour Genève à Renens ?",
       "options": [
         "Changer de train ; le train pour Genève part de la voie 3",
@@ -651,6 +675,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la crèche des Tilleuls. Nous vous informons : demain, nous fermons déjà à 14h, car l'équipe a une formation continue. Merci de venir chercher votre enfant avant 14h. Si ce n'est pas possible pour vous, annoncez-vous aujourd'hui, nous chercherons une solution. Merci de votre compréhension.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-creche-fermeture-plus-tot.wav",
       "question": "Affirmation : selon le message, la crèche ferme demain à 14h.",
       "options": [
         "Vrai",
@@ -675,6 +700,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Berisha, c'est le cabinet du docteur Lang. Vos analyses de sang sont arrivées et tout est en ordre. Vous n'avez rien à faire de particulier et vous n'avez pas besoin d'un nouveau rendez-vous. Si vous avez tout de même des questions, appelez-nous. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-au-repondeur-le-resultat.wav",
       "question": "Que doit faire Madame Berisha ?",
       "options": [
         "Rien de particulier ; pas besoin de nouveau rendez-vous",
@@ -701,6 +727,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Je voudrais faire un cours de français cet automne. Tu sais lequel est bien ?\n— Il y en a deux au quartier. L'un le matin, l'autre le soir.\n— Le soir, ce serait mieux, à cause du travail. C'est cher ?\n— Pas trop. Et on peut assister à une leçon d'essai gratuite.\n— Je vais faire ça. Comme ça, je vois si le niveau me convient.\n— Bonne idée. Mais inscris-toi avant, les places partent vite.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-un-cours.wav",
       "question": "Que va faire la personne d'abord ?",
       "options": [
         "Assister à une leçon d'essai gratuite du cours du soir",
@@ -727,6 +754,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Le magasin de meubles, bonjour.\n— Bonjour, j'ai commandé hier une étagère, mais je voudrais changer la couleur — du blanc au brun.\n— Pas de problème, si la commande n'est pas encore partie. Votre numéro de commande ?\n— C'est le 4457.\n— Merci… oui, elle est encore là. Je change la couleur en brun. Le prix reste le même. La livraison prend environ une semaine.\n— Très bien, merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-changer-une-commande.wav",
       "question": "Que change la collaboratrice ?",
       "options": [
         "L'adresse de livraison",
@@ -753,6 +781,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, nous fermons dans dix minutes. Merci de vous diriger vers les caisses. La caisse tout à droite reste ouverte jusqu'à la fin. Pensez à votre sac et à votre liste de courses. Demain, nous vous accueillons dès 8h. Merci de votre visite.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-supermarche.wav",
       "question": "Quelle caisse reste ouverte jusqu'à la fin ?",
       "options": [
         "La caisse tout à droite",
@@ -779,6 +808,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Salut, c'est Marco. Dis, on mange ensemble à midi ? J'ai ma pause à midi et quart. On se retrouve à l'entrée et on va au tea-room du coin ? Réponds-moi vite si ça te va. À tout à l'heure.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-un-collegue-manger-a-midi.wav",
       "question": "Affirmation : selon le message, Marco propose de se retrouver à midi et quart à l'entrée.",
       "options": [
         "Vrai",
@@ -803,6 +833,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bienvenue au concert de ce soir. Deux petites informations : merci d'éteindre complètement vos téléphones, pas seulement de les mettre en silencieux. Et pendant le concert, les photos et les vidéos ne sont pas autorisées. À la pause, après environ une heure, vous pourrez boire quelque chose au foyer. Nous vous souhaitons une belle soirée et beaucoup de plaisir avec la musique.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-avant-le-concert.wav",
       "question": "Que doivent faire les spectateurs avec leur téléphone ?",
       "options": [
         "Le mettre en silencieux",
@@ -829,6 +860,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, je m'appelle Madame Kraft. Nous faisons une courte enquête sur les achats dans le quartier. Avez-vous deux minutes ?\n— Oui, deux minutes ça va.\n— Merci. Faites-vous vos courses surtout dans le quartier ou allez-vous dans un grand centre ?\n— Surtout dans le quartier, c'est pratique et je connais les gens.\n— Et qu'est-ce qui vous manque dans le quartier ?\n— Un bon magasin de légumes. Sinon, je suis contente.\n— Merci beaucoup pour vos réponses !",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-une-courte-enquete.wav",
       "question": "Qu'est-ce qui manque à cette personne dans le quartier ?",
       "options": [
         "Un grand centre",
@@ -855,6 +887,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Dis, tu connais un bon électricien ? Chez moi, une prise ne marche plus.\n— Oui, j'en ai eu un l'an dernier. Il était rapide et pas trop cher. Je te donne son numéro.\n— Super, merci. Faut-il attendre longtemps ?\n— Chez moi, il est venu en deux jours. Appelle plutôt le matin.\n— D'accord, merci du conseil.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-recommander-un-artisan.wav",
       "question": "Que dit la personne au sujet de l'électricien ?",
       "options": [
         "Il était cher et lent",
@@ -881,6 +914,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Mesdames et Messieurs, en raison d'un incident, notre train a environ quinze minutes de retard. La correspondance à Lausanne pour Sion attend notre train. Les voyageurs pour Fribourg prennent à Lausanne le prochain train, à 16h40. Nous vous prions de nous excuser.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-train-retard.wav",
       "question": "Que doivent faire les voyageurs pour Fribourg ?",
       "options": [
         "Leur correspondance attend le train",
@@ -907,6 +941,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la pharmacie du centre. Nous vous informons : lundi prochain est un jour férié, la pharmacie sera donc fermée. Mardi, nous serons de nouveau là normalement, de 8h à 18h30. En cas d'urgence, vous trouverez la pharmacie de garde près de l'hôpital. Merci et bonnes fêtes.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-pharmacie-jour-ferie.wav",
       "question": "Affirmation : selon le message, la pharmacie est fermée lundi.",
       "options": [
         "Vrai",
@@ -931,6 +966,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, ici l'entreprise de livraison. Nous vous apportons votre canapé demain, entre 9h et 12h.\n— Oh, demain matin je ne serai pas là. Est-ce possible l'après-midi ?\n— Demain après-midi, c'est déjà complet. Mais après-demain, entre 13h et 15h, nous aurions du temps.\n— Après-demain après-midi, c'est bon.\n— Bien, je le note. Vous recevrez un SMS le matin avec l'heure exacte.\n— Merci, ça me va.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-reporter-une-livraison.wav",
       "question": "Quand le canapé sera-t-il livré ?",
       "options": [
         "Après-demain, entre 13h et 15h",
@@ -957,6 +993,7 @@
     "prompt": "Écoutez l'information et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonsoir à toutes et à tous. Deux informations rapides : premièrement, dès la semaine prochaine, l'horaire change — le sport sera désormais le lundi au lieu du vendredi. Pensez aux affaires de sport le lundi. Deuxièmement, à la fin du mois, nous ferons une sortie ; les enfants apporteront pour cela vingt francs pour l'entrée. Je vous dirai encore le jour exact. Pour vos questions, venez me voir après la réunion.",
+      "audioUrl": "/audio/ch/fide-french-listening--information-a-la-reunion-de-parents.wav",
       "question": "Qu'est-ce qui change dès la semaine prochaine ?",
       "options": [
         "La sortie est annulée",
@@ -983,6 +1020,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bienvenue à la visite guidée. Nous sommes ici dans la partie la plus ancienne de la maison, elle a plus de 300 ans. Merci de ne pas faire de photos avec flash, cela abîme les vieux tableaux. La visite dure environ une heure. À la fin, vous aurez le temps de visiter la boutique et le café. Si vous avez une question, posez-la quand vous voulez. Passons à la salle suivante.",
+      "audioUrl": "/audio/ch/fide-french-listening--visite-guidee-au-musee.wav",
       "question": "Qu'est-ce qui n'est pas autorisé pendant la visite ?",
       "options": [
         "Faire des photos avec flash",
@@ -1009,6 +1047,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, vous êtes bien au cabinet du docteur Roth. Nous sommes actuellement absents. Nos horaires sont du lundi au vendredi, de 8h à 12h et de 14h à 17h. Merci de rappeler pendant ces heures ou de laisser votre nom et votre numéro, nous vous rappellerons. En cas d'urgence, composez le 144. Merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-repondeur-cabinet-medical.wav",
       "question": "Que faut-il faire en cas d'urgence ?",
       "options": [
         "Attendre le rappel",
@@ -1035,6 +1074,7 @@
     "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Chères clientes, chers clients, le parking ferme à 22h. Merci de sortir votre voiture avant la fermeture. Payez votre ticket à l'automate près de la sortie, avant d'aller à votre voiture. L'automate accepte les pièces et les cartes. Merci de votre visite.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-parking.wav",
       "question": "Affirmation : selon l’annonce, le parking ferme à 22h.",
       "options": [
         "Vrai",
@@ -1059,6 +1099,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, chez moi le robinet de la cuisine goutte sans arrêt.\n— D'accord, on va regarder. Avez-vous fermé l'arrivée d'eau sous l'évier ?\n— Oui, j'ai déjà fermé le robinet.\n— Bien. Je peux passer jeudi entre 14h et 16h. Ça vous convient ?\n— Jeudi après-midi, oui, je serai là.\n— Parfait. Je vous rappelle si je suis en avance.\n— Merci, à jeudi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-commander-un-artisan.wav",
       "question": "Qu'est-ce qui est convenu ?",
       "options": [
         "L'artisan passe jeudi entre 14h et 16h",
@@ -1085,6 +1126,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Dis, mercredi j'ai un rendez-vous et je ne peux pas aller chercher Léo à l'école. Tu pourrais le prendre ?\n— Bien sûr, je vais chercher ma fille de toute façon. Il peut rester chez nous jusqu'au soir.\n— Ce serait super. Je viens le chercher vers six heures.\n— Ça marche. Et la prochaine fois, si je ne peux pas, tu me dépannes.\n— Avec plaisir. Merci beaucoup !",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-organiser-la-garde-des-enfants.wav",
       "question": "Qu'est-ce que les deux décident pour mercredi ?",
       "options": [
         "L'amie prend Léo et le garde jusqu'au soir",
@@ -1111,6 +1153,7 @@
     "prompt": "Écoutez le bulletin et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Et encore une information de la commune : dès le premier septembre, une nouvelle ligne de bus, la ligne 8, sera mise en service. Elle relie directement le nouveau quartier au nord avec la gare et l'hôpital. Le bus passe en semaine toutes les quinze minutes, et le week-end toutes les demi-heures. Ainsi, il sera plus facile pour beaucoup de gens d'aller travailler sans voiture.",
+      "audioUrl": "/audio/ch/fide-french-listening--bulletin-radio-nouvelle-ligne-de-bus.wav",
       "question": "Qu'est-ce qui est nouveau dès le premier septembre ?",
       "options": [
         "Une nouvelle gare",
@@ -1137,6 +1180,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chers voyageurs, en raison de travaux, l'arrêt « Église » n'est pas desservi aujourd'hui. Veuillez descendre à l'arrêt suivant, « École », à deux minutes à pied. Les horaires restent les mêmes. Merci de votre compréhension.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-bus-arret-deplace.wav",
       "question": "Que doivent faire les voyageurs qui veulent descendre à « Église » ?",
       "options": [
         "Rester dans le bus jusqu'au terminus",
@@ -1163,6 +1207,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici l'école du Parc. Nous devons vous informer : la sortie de demain est reportée à cause de la météo. La nouvelle date est le mardi suivant, à la même heure. Merci de noter le nouveau jour. Nous vous prions de nous excuser et vous remercions de votre compréhension.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-ecole-sortie-reportee.wav",
       "question": "Affirmation : selon le message, la sortie de demain est reportée.",
       "options": [
         "Vrai",
@@ -1187,6 +1232,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Qu'est-ce qu'on fait ce week-end ? Il paraît qu'il fera beau.\n— On pourrait faire une randonnée ou aller au zoo.\n— Avec les enfants, le zoo est peut-être mieux, c'est moins fatigant.\n— D'accord. Alors on va au zoo samedi et on se repose dimanche.\n— Parfait. Je regarde les horaires et je prépare un pique-nique.\n— Super, c'est décidé.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-planifier-le-week-end.wav",
       "question": "Qu'est-ce que les deux prévoient pour samedi ?",
       "options": [
         "Faire une longue randonnée",
@@ -1213,6 +1259,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Régie, bonjour.\n— Bonjour, l'ascenseur de notre immeuble est en panne depuis ce matin. Il reste bloqué au rez.\n— Merci de nous prévenir. Personne n'est coincé à l'intérieur ?\n— Non, personne, heureusement.\n— D'accord, j'appelle tout de suite le technicien. Il devrait passer aujourd'hui. En attendant, merci d'utiliser les escaliers.\n— Très bien, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-une-panne-d-ascenseur.wav",
       "question": "Que fait la personne à la régie ?",
       "options": [
         "Elle appelle tout de suite le technicien",
@@ -1239,6 +1286,7 @@
     "prompt": "Écoutez l'entretien et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous vous levez très tôt chaque jour. À quelle heure commence votre journée ?\n— À trois heures du matin. J'allume le four et je commence le pain.\n— C'est vraiment tôt. Qu'est-ce que vous aimez dans votre métier ?\n— Que les gens se réjouissent du pain frais le matin. Et l'odeur dans le fournil, c'est quelque chose de spécial.\n— Et qu'est-ce qui est difficile ?\n— Les heures très matinales et le travail le week-end. Mais je le fais volontiers.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-un-boulanger-raconte.wav",
       "question": "Qu'est-ce que le boulanger aime dans son métier ?",
       "options": [
         "Qu'il peut dormir longtemps",
@@ -1265,6 +1313,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Information pour les voyageurs à destination de Genève : le train de 14h20 ne part pas de la voie 3, mais de la voie 7. Nous répétons : le train pour Genève part de la voie 7. Merci de suivre les affichages.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-en-gare-changement-de-voie.wav",
       "question": "De quelle voie part le train pour Genève ?",
       "options": [
         "De la voie 3",
@@ -1291,6 +1340,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Madame Weber, ici la pharmacie du marché. Votre médicament commandé est arrivé et vous attend. Vous pouvez venir le chercher cette semaine ; nous sommes ouverts du lundi au vendredi jusqu'à 18h30 et le samedi jusqu'à 16h. Merci d'apporter l'ordonnance. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-pharmacie-medicament-pret.wav",
       "question": "Affirmation : selon le message, le médicament de Madame Weber est arrivé.",
       "options": [
         "Vrai",
@@ -1315,6 +1365,7 @@
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Yilmaz, c'est le cabinet du docteur Meier. Vos analyses sont arrivées et tout est normal. Vous n'avez rien de particulier à faire et il n'est pas nécessaire de reprendre rendez-vous. Si vous avez malgré tout des questions, appelez-nous. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-au-repondeur-resultat-d-analyse.wav",
       "question": "Que doit faire Madame Yilmaz ?",
       "options": [
         "Reprendre rendez-vous tout de suite",
@@ -1341,6 +1392,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Notre cheffe part à la retraite. Qu'est-ce qu'on lui offre ?\n— On pourrait faire une collecte et acheter un bon pour un restaurant.\n— Bonne idée. Ou quelque chose de personnel, par exemple un album photo avec des photos de l'équipe.\n— Un album, c'est joli, mais ça prend plus de temps. On fait les deux : un bon et quelques photos ?\n— Parfait. Je demande aux autres s'ils participent.\n— Et moi, je réunis les photos.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-un-cadeau.wav",
       "question": "Sur quoi les deux se mettent-ils d'accord ?",
       "options": [
         "Sur un bon et quelques photos",
@@ -1367,6 +1419,7 @@
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Garage du centre, bonjour.\n— Bonjour, ma voiture fait un bruit bizarre au freinage. Je voudrais la faire vérifier.\n— D'accord. Vous pouvez l'amener jeudi matin ? On regarde ça et on vous appelle avant de faire quoi que ce soit.\n— Jeudi matin, ça va. Ça prend combien de temps ?\n— Si ce sont les freins, on peut souvent faire dans la journée. On vous donne un devis avant.\n— Parfait, merci. À jeudi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-prendre-rendez-vous-au-garage.wav",
       "question": "Que propose le garage ?",
       "options": [
         "Réparer tout de suite sans prévenir",
@@ -1393,6 +1446,7 @@
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, notre centre commercial ferme dans quinze minutes. Merci de terminer vos achats et de vous diriger vers les caisses. Le parking souterrain reste ouvert jusqu'à minuit, vous pouvez donc récupérer votre voiture tranquillement. Merci de votre visite et à demain.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-centre-commercial.wav",
       "question": "Que peuvent encore faire les clients jusqu'à minuit, selon l'annonce ?",
       "options": [
         "Récupérer leur voiture au parking souterrain",
@@ -1419,6 +1473,7 @@
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la régie. Nous vous informons : demain, mardi, l'eau sera coupée de 9h à 12h, car on répare une conduite. Merci de fermer vos robinets pendant ce temps. L'après-midi, l'eau coulera de nouveau normalement. Merci de votre compréhension.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-proprietaire-eau-coupee.wav",
       "question": "Affirmation : selon le message, l’eau sera coupée de 9h à 12h mardi.",
       "options": [
         "Vrai",
@@ -1443,6 +1498,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Dis, comme tu es mariée à un Suisse, tu dois aussi déposer ta demande à la commune, comme moi ?\n— Non, pour toi c'est sûrement différent. Quand on est marié à une personne suisse, il y a la naturalisation facilitée. Là, c'est la Confédération, le SEM, qui décide, et la demande se dépose directement au SEM.\n— Ah, donc pas à la commune ?\n— Exactement, pas comme pour la naturalisation ordinaire. Mais renseigne-toi quand même sur les conditions qui s'appliquent à toi. Et il te faut aussi une attestation de langue.\n— D'accord, merci pour le conseil.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-mariee-a-un-suisse-quelle-voie.wav",
       "question": "Que conseille la deuxième personne ?",
       "options": [
         "Même mariée, on dépose la demande à la commune",
@@ -1469,6 +1525,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Contrôle des habitants, bonjour.\n— Bonjour, j'ai un rendez-vous demain à 10h, mais je dois travailler. Puis-je le reporter ?\n— Bien sûr. Jeudi à 14h, cela vous convient ?\n— Jeudi 14h, c'est bon. Dois-je apporter quelque chose ?\n— Oui, votre pièce d'identité et la lettre que nous vous avons envoyée. Je vous inscris donc pour jeudi 14h.\n— Merci, à jeudi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-reporter-un-rendez-vous-a-la-commune.wav",
       "question": "Qu'est-ce qui est convenu à la fin ?",
       "options": [
         "Un nouveau rendez-vous jeudi à 14h",
@@ -1495,6 +1552,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Et voici une bonne nouvelle de la région : la piscine couverte de Neuville a rouvert après les travaux. Il y a maintenant un plus grand bassin et un espace pour les enfants. Elle est ouverte tous les jours de 8h à 21h, mais le lundi seulement dès midi. Le prix d'entrée reste le même. Le premier week-end, l'entrée est gratuite pour les enfants.",
+      "audioUrl": "/audio/ch/fide-french-listening--bulletin-ouverture-de-la-piscine.wav",
       "question": "Qu'est-ce qui est nouveau à la piscine ?",
       "options": [
         "Elle est plus chère",
@@ -1521,6 +1579,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Régie, bonjour.\n— Bonjour, il y a une fuite d'eau sous mon évier, ça coule sur le sol.\n— D'accord. Avez-vous pu couper l'eau sous l'évier ?\n— Oui, j'ai fermé le robinet.\n— Très bien. J'envoie un plombier aujourd'hui. En attendant, mettez un seau et une serpillière. Il vous appelle avant de passer.\n— Merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-une-fuite-d-eau-a-la-regie.wav",
       "question": "Que va faire la régie ?",
       "options": [
         "Dire à la personne de réparer elle-même",
@@ -1547,6 +1606,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On reçoit huit personnes samedi. Qu'est-ce qu'on prépare ?\n— On pourrait faire une grande salade et une soupe pour commencer, puis un gratin.\n— Bonne idée, le gratin, on peut le préparer à l'avance. Et le dessert ?\n— Je fais une tarte aux fruits. Toi, tu t'occupes des boissons ?\n— D'accord. Et on demande à chacun d'apporter quelque chose ?\n— Oui, comme ça c'est plus simple. Je fais une liste et je l'envoie.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-preparer-un-repas-de-fete.wav",
       "question": "Comment les deux se répartissent-ils le travail ?",
       "options": [
         "L'un fait la tarte, l'autre s'occupe des boissons, et chacun apporte quelque chose",
@@ -1573,6 +1633,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, j'ai commandé un colis il y a une semaine et je ne l'ai toujours pas reçu.\n— Je suis désolé. Avez-vous votre numéro de commande ?\n— Oui, c'est le 3391.\n— Merci… je vois que le colis est bloqué au dépôt. Je le relance aujourd'hui ; vous devriez le recevoir dans deux jours. Je vous envoie une confirmation par courriel.\n— Parfait, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-au-service-clientele-colis-non-recu.wav",
       "question": "Que fait le collaborateur ?",
       "options": [
         "Il dit que le colis est perdu",
@@ -1599,6 +1660,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous habitez ce quartier depuis longtemps. Qu'est-ce que vous aimez ici ?\n— J'aime que tout soit proche : l'école, les magasins, le parc. Et on connaît ses voisins.\n— Et qu'est-ce qui pourrait être mieux ?\n— Il manque un peu de verdure et des bancs. Mais dans l'ensemble, je me sens bien ici.\n— Merci pour votre témoignage.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-un-habitant-parle-de-son-quartier.wav",
       "question": "Qu'est-ce que cet habitant aime dans son quartier ?",
       "options": [
         "Qu'il y ait beaucoup de circulation",
@@ -1625,6 +1687,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, c'est le bureau du personnel. Une information pour la semaine prochaine : à cause d'une formation, votre équipe commence lundi à 9h au lieu de 8h. Les autres jours ne changent pas. Merci d'en tenir compte et de prévenir vos collègues si vous les voyez avant. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-employeur-changement-d-horaire.wav",
       "question": "Qu'est-ce qui change lundi prochain ?",
       "options": [
         "L'équipe commence à 9h au lieu de 8h",
@@ -1651,6 +1714,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Mon fils voudrait jouer au foot. Tu connais le club du quartier ?\n— Oui, mon fils y va. Les entraînements sont le mercredi après-midi.\n— Il faut s'inscrire comment ?\n— Il y a un formulaire sur le site du club, ou tu peux passer à l'entraînement et parler à l'entraîneur. Il y a aussi un essai gratuit.\n— Super, on va faire l'essai d'abord.\n— Bonne idée.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-inscrire-un-enfant-au-foot.wav",
       "question": "Que vont faire les deux d'abord ?",
       "options": [
         "Payer tout de suite l'année",
@@ -1677,6 +1741,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, je voudrais résilier mon abonnement de journal.\n— C'est dommage. Puis-je vous demander pourquoi ?\n— Je n'ai plus le temps de lire.\n— Je comprends. Le délai de résiliation est d'un mois. Votre abonnement se termine donc à la fin du mois prochain. Je vous envoie une confirmation par courriel.\n— Très bien, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-resilier-un-abonnement.wav",
       "question": "Que dit le collaborateur au sujet de la résiliation ?",
       "options": [
         "L'abonnement se termine aujourd'hui",
@@ -1703,6 +1768,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Mesdames et Messieurs, prochain arrêt : Morges. Les voyageurs pour Nyon changent ici ; le train pour Nyon part de la voie 2, en face. Le wagon-restaurant se trouve au milieu du train. Nous vous souhaitons un bon voyage.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-train-wagon-restaurant.wav",
       "question": "Que doivent faire les voyageurs pour Nyon à Morges ?",
       "options": [
         "Rester dans le train",
@@ -1729,6 +1795,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Allô, c'est Madame Perret, votre voisine du dessous. Le facteur est passé et j'ai pris un colis pour vous. Vous pouvez venir le chercher le soir chez moi, je suis là dès six heures. Sonnez simplement. À bientôt !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-voisine-colis.wav",
       "question": "Affirmation : selon le message, on peut chercher le colis le matin.",
       "options": [
         "Vrai",
@@ -1753,6 +1820,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chers visiteurs, la piscine ferme dans vingt minutes. Merci de sortir de l'eau dans dix minutes et de vous diriger ensuite vers les vestiaires. Pensez à vos affaires dans les casiers. Demain, nous vous accueillons dès 8h. Bonne soirée.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-a-la-piscine-fermeture.wav",
       "question": "Que doivent faire les visiteurs dans dix minutes ?",
       "options": [
         "Entrer dans l'eau",
@@ -1779,6 +1847,7 @@
     "prompt": "Lisez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Costa, ici le cabinet dentaire du centre. Nous vous rappelons votre rendez-vous demain, mercredi, à 9h30. Merci d'arriver cinq minutes en avance et d'apporter votre carte d'assuré. Si vous ne pouvez pas venir, prévenez-nous aujourd'hui. À demain.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-rappel-de-rendez-vous-chez-le-dentiste.wav",
       "question": "Que doit apporter Madame Costa au rendez-vous ?",
       "options": [
         "Une ordonnance",
@@ -1805,6 +1874,7 @@
     "prompt": "Lisez le texte. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Salut, c'est Sami. Petit changement pour la réunion de demain : on ne se retrouve plus dans la salle 2, mais dans la grande salle au rez-de-chaussée. L'heure ne change pas, c'est toujours à 14h. Passe le mot aux autres si tu les vois. À demain !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-un-collegue-changement-de-salle.wav",
       "question": "Affirmation : selon le message, l'heure de la réunion a changé.",
       "options": [
         "Vrai",
@@ -1829,6 +1899,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour. Vous demandez comment prouver votre français pour la naturalisation. D'abord, une chose importante : l'entretien, s'il y en a un dans notre commune, n'est pas un test de langue. L'attestation de langue, vous l'apportez séparément, par exemple un certificat reconnu. On demande au moins B1 à l'oral et A2 à l'écrit. Quels certificats sont acceptés exactement, ce n'est pas nous, à l'accueil, qui le décidons : c'est le service compétent de votre canton ou de votre commune. Renseignez-vous donc là-bas, suffisamment tôt.",
+      "audioUrl": "/audio/ch/fide-french-listening--renseignement-quels-certificats-de-langue-sont-acceptes.wav",
       "question": "Que dit la personne au sujet des certificats acceptés ?",
       "options": [
         "L'entretien est le test de langue",
@@ -1855,6 +1926,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, ici l'entreprise de livraison. Nous vous apportons votre armoire demain matin.\n— Ah, demain matin je travaille. Ce serait possible un autre jour ?\n— Vendredi après-midi, entre 14h et 17h, cela vous irait ?\n— Vendredi après-midi, parfait.\n— Très bien, je note. Vous recevrez un message avec l'heure exacte.\n— Merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-reporter-une-livraison-de-meubles.wav",
       "question": "Quand l'armoire sera-t-elle livrée ?",
       "options": [
         "Demain matin",
@@ -1881,6 +1953,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On travaille tous les deux à l'hôpital. On pourrait partager la voiture ?\n— Bonne idée, ça coûte moins cher. Tu commences à quelle heure ?\n— À sept heures. Je pourrais passer te prendre à sept heures moins le quart.\n— Parfait. On alterne qui conduit ?\n— Oui, une semaine sur deux.\n— D'accord, à demain.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-partager-une-voiture-pour-le-travail.wav",
       "question": "Que décident les deux personnes ?",
       "options": [
         "Que l'un conduit toujours seul",
@@ -1907,6 +1980,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous donnez des cours de gym pour les personnes âgées. Qu'est-ce que vous aimez dans ce travail ?\n— J'aime voir les gens bouger et rire ensemble. Beaucoup viennent surtout pour le contact.\n— Faut-il une grande forme pour participer ?\n— Non, chacun va à son rythme. On adapte les exercices.\n— Merci pour cet entretien.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-une-monitrice-de-sport-raconte.wav",
       "question": "Pourquoi beaucoup de participants viennent-ils au cours, selon la monitrice ?",
       "options": [
         "Surtout pour le contact avec les autres",
@@ -1933,6 +2007,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Peinture, bonjour.\n— Bonjour, je voudrais faire repeindre mon salon et j'aimerais un devis.\n— Volontiers. Quelle est la taille de la pièce ?\n— Environ vingt mètres carrés, avec un mur haut.\n— Le mieux, c'est que je passe voir, puis je vous donne un prix précis. Jeudi à 17h, ça vous va ?\n— Oui. Le devis coûte quelque chose ?\n— Non, le devis est gratuit et sans engagement.\n— Parfait, à jeudi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-demander-un-devis-a-un-peintre.wav",
       "question": "Que fait le peintre avant de donner un prix ?",
       "options": [
         "Il commence tout de suite",
@@ -1959,6 +2034,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour Madame Ferreira, c'est votre banque. Votre nouvelle carte est prête. Vous pouvez la retirer au guichet cette semaine, avec une pièce d'identité, ou nous pouvons vous l'envoyer par courrier recommandé. Rappelez-nous pour nous dire ce que vous préférez. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-banque-carte-prete.wav",
       "question": "Que propose la banque à Madame Ferreira ?",
       "options": [
         "Retirer la carte au guichet ou la recevoir par courrier",
@@ -1985,6 +2061,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Qu'est-ce qu'on propose aux enfants cet automne ?\n— Il y a le foot, mais aussi un cours de musique au centre.\n— La musique, ça pourrait plaire à Nora. C'est quand ?\n— Le mercredi après-midi. Et on peut essayer une fois avant de s'inscrire.\n— Super, on fait l'essai d'abord.\n— D'accord, je regarde comment s'inscrire à l'essai.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-une-activite-pour-les-enfants.wav",
       "question": "Que décident les parents ?",
       "options": [
         "Inscrire l'enfant au foot tout de suite",
@@ -2011,6 +2088,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, sur ma facture, il y a un montant que je ne comprends pas. On me facture un service que je n'ai pas commandé.\n— Je regarde. Votre numéro de client ?\n— C'est le 8842.\n— Merci… en effet, il y a une erreur. Je la corrige et je vous envoie une nouvelle facture. Vous n'avez rien à payer pour ce service.\n— Merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-une-erreur-sur-une-facture.wav",
       "question": "Que fait le collaborateur ?",
       "options": [
         "Il dit que la facture est juste",
@@ -2037,6 +2115,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour à toutes et à tous, c'est l'entraîneur. L'entraînement de ce soir est déplacé, car la salle est occupée. On se retrouve plutôt jeudi, à la même heure, à 19h. Qui ne peut pas jeudi me prévient. À jeudi et bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-club-entrainement-deplace.wav",
       "question": "Quelle est l'information principale du message ?",
       "options": [
         "L'entraînement de ce soir est déplacé à jeudi 19h",
@@ -2063,6 +2142,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Je déménage samedi prochain. Tu aurais le temps de m'aider ?\n— Samedi… le matin j'ai le foot, mais l'après-midi je peux.\n— L'après-midi, ce serait super. Surtout des cartons et un canapé. J'ai déjà une camionnette.\n— D'accord. Je demande à un ami de venir aussi, à deux le canapé est lourd.\n— Volontiers. Et je m'occupe de la pizza le soir.\n— Marché conclu, à samedi 13h.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-organiser-un-demenagement.wav",
       "question": "Qu'est-ce qui est convenu ?",
       "options": [
         "L'ami aide samedi après-midi dès 13h",
@@ -2089,6 +2169,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, à notre stand aujourd'hui, les pommes du pays sont en action : le kilo à deux francs cinquante. Et pour ceux qui aiment, nous avons aussi des poires bien mûres. C'est valable seulement aujourd'hui. Venez nous voir !",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-marche-fruits-de-saison.wav",
       "question": "Combien coûte le kilo de pommes, selon l'annonce ?",
       "options": [
         "Dix francs",
@@ -2115,6 +2196,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici l'école. Nous vous informons : jeudi prochain, on prend la photo de classe. Merci d'habiller votre enfant correctement et de le coiffer un peu. La photo est faite le matin. Si vous ne voulez pas que votre enfant soit photographié, dites-le-nous d'ici mercredi. Merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-ecole-photo-de-classe.wav",
       "question": "Que doivent faire les parents qui ne veulent pas de photo de leur enfant ?",
       "options": [
         "Le dire à l'école d'ici mercredi",
@@ -2141,6 +2223,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Prochain arrêt : Place Centrale. Les voyageurs pour l'hôpital changent ici et prennent le bus numéro 5, à l'arrêt juste en face. Le bus part toutes les dix minutes. Nous vous souhaitons un bon trajet.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-tram-correspondance.wav",
       "question": "Que doivent faire les voyageurs pour l'hôpital ?",
       "options": [
         "Changer et prendre le bus numéro 5 en face",
@@ -2167,6 +2250,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour Monsieur Silva, ici la bibliothèque du quartier. Nous vous rappelons que votre livre doit être rendu vendredi. Vous pouvez le rapporter à nos horaires ou le mettre dans la boîte de retour près de l'entrée, même en dehors des heures d'ouverture. Si vous en avez encore besoin, appelez-nous, on peut souvent prolonger. Merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-bibliotheque-livre-a-rendre.wav",
       "question": "Affirmation : selon le message, on ne peut rendre le livre que pendant les heures d'ouverture.",
       "options": [
         "Vrai",
@@ -2191,6 +2275,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Salut, c'est Léo. Dis, on va au cinéma vendredi soir ? La séance est à 20h. On se retrouve à 19h45 devant le cinéma, comme ça on a le temps d'acheter les billets. Réponds-moi vite si ça te va. À vendredi !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-un-ami-rendez-vous-au-cinema.wav",
       "question": "Affirmation : selon le message, on se retrouve à 19h45 devant le cinéma.",
       "options": [
         "Vrai",
@@ -2215,6 +2300,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, bienvenue dans notre commune. Vous venez d'arriver ? Alors annoncez-vous ici, au contrôle des habitants. Apportez une pièce d'identité valable, votre bail et, si vous venez d'une autre commune, votre attestation de départ. D'ici quand vous devez vous annoncer, ce n'est pas partout pareil ; le délai dépend de la commune et du canton. Alors n'attendez pas trop et, en cas de doute, demandez-nous directement. Le permis, lui, est traité par un autre service ; nous vous informerons séparément.",
+      "audioUrl": "/audio/ch/fide-french-listening--renseignement-au-controle-des-habitants-s-annoncer.wav",
       "question": "Que dit la personne sur le délai pour s'annoncer ?",
       "options": [
         "Il dépend de la commune et du canton",
@@ -2241,6 +2327,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Déménagements, bonjour.\n— Bonjour, je déménage le mois prochain et j'aimerais un devis.\n— Volontiers. C'est un appartement de combien de pièces ?\n— Trois pièces, au deuxième étage sans ascenseur.\n— Le mieux, c'est que je passe voir le volume, puis je vous fais un prix. Mardi à 18h, ça vous va ?\n— Oui. Le devis est payant ?\n— Non, le devis est gratuit et sans engagement.\n— Parfait, à mardi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-demander-un-devis-a-un-demenageur.wav",
       "question": "Que fait le déménageur avant de donner un prix ?",
       "options": [
         "Il commence tout de suite le déménagement",
@@ -2267,6 +2354,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On organise l'anniversaire de Maya samedi. Qu'est-ce qu'on prépare ?\n— Je peux faire le gâteau. Toi, tu t'occupes des décorations ?\n— D'accord. Et pour les jeux, on demande à Sofia, elle est douée pour ça.\n— Bonne idée. On invite combien d'enfants ?\n— Une dizaine. Je fais la liste et j'envoie les invitations aujourd'hui.\n— Parfait, comme ça c'est réglé.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-preparer-une-fete-d-anniversaire.wav",
       "question": "Comment les deux se répartissent-ils les tâches ?",
       "options": [
         "Une seule personne fait tout",
@@ -2293,6 +2381,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous commencez très tôt le matin. Qu'est-ce que vous aimez dans votre métier ?\n— J'aime être dehors et connaître les gens de ma tournée. Beaucoup me disent bonjour.\n— Et qu'est-ce qui est difficile ?\n— La pluie, le froid, et parfois les gros colis. Mais bouger toute la journée, ça me plaît.\n— Merci pour cet entretien.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-un-facteur-raconte.wav",
       "question": "Qu'est-ce que le facteur aime dans son métier ?",
       "options": [
         "Être dehors et connaître les gens de sa tournée",
@@ -2319,6 +2408,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— École de langues, bonjour.\n— Bonjour, je suis inscrit au cours d'italien du lundi, mais je ne peux pas venir cette semaine. Puis-je rattraper ?\n— Bien sûr. Il y a un autre groupe le mercredi soir, au même niveau. Vous pouvez y aller cette semaine.\n— Mercredi soir, parfait. Je dois prévenir quelqu'un ?\n— Non, je note juste que vous venez mercredi. Bonne journée.\n— Merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-reporter-un-cours.wav",
       "question": "Que propose l'école ?",
       "options": [
         "Rembourser le cours",
@@ -2345,6 +2435,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, c'est le secrétariat de l'école. Pour l'inscription de votre fille, il manque encore deux documents : une copie de sa carte d'assurance et le formulaire signé que nous vous avons envoyé. Merci de les apporter ou de les envoyer d'ici vendredi. Sans cela, nous ne pouvons pas terminer l'inscription. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-secretariat-documents-manquants.wav",
       "question": "Que doivent faire les parents, selon le message ?",
       "options": [
         "Apporter ou envoyer les deux documents manquants d'ici vendredi",
@@ -2371,6 +2462,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On part où cet été ? La mer ou la montagne ?\n— Avec les enfants, la montagne serait plus simple : moins de monde et de la place pour jouer.\n— C'est vrai. Et il y a des sentiers faciles.\n— On loue un chalet une semaine ?\n— D'accord. Je regarde les prix ce soir et je te montre.\n— Parfait, comme ça on décide demain.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-des-vacances.wav",
       "question": "Que décident les deux personnes pour cet été ?",
       "options": [
         "Aller à la mer",
@@ -2397,6 +2489,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, j'ai reçu mon colis, mais l'objet à l'intérieur est cassé.\n— Je suis désolé. Vous avez votre numéro de commande ?\n— Oui, c'est le 5120.\n— Merci. Prenez une photo de l'objet abîmé et envoyez-la-nous par courriel. Nous vous renvoyons un article neuf ; vous n'avez rien à payer.\n— Très bien, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-un-colis-abime.wav",
       "question": "Que demande le collaborateur au client ?",
       "options": [
         "D'envoyer une photo de l'objet abîmé",
@@ -2423,6 +2516,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, c'est le bureau. Petit changement : la réunion de demain est avancée d'une heure. Au lieu de 10h, elle commence à 9h, dans la salle habituelle. Merci d'en tenir compte et de prévenir vos collègues si vous les voyez. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-employeur-reunion-avancee.wav",
       "question": "Qu'est-ce qui change pour la réunion de demain ?",
       "options": [
         "Elle est annulée",
@@ -2449,6 +2543,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On a besoin d'une baby-sitter pour vendredi soir. Tu connais quelqu'un ?\n— Oui, la fille des voisins garde souvent des enfants. Elle est sérieuse.\n— Super. Tu as son numéro ?\n— Je te l'envoie. Appelle-la assez tôt, elle est souvent prise le week-end.\n— D'accord, je l'appelle ce soir. Merci !\n— De rien.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-trouver-une-baby-sitter.wav",
       "question": "Que conseille l'amie ?",
       "options": [
         "De ne pas sortir vendredi",
@@ -2475,6 +2570,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, nous fermons dans dix minutes. Merci de vous diriger vers les caisses. La caisse tout au fond reste ouverte jusqu'à la fin. Pensez à votre sac. Demain, nous ouvrons dès 8h. Merci et bonne soirée.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-supermarche-caisse.wav",
       "question": "Quelle caisse reste ouverte jusqu'à la fin ?",
       "options": [
         "La caisse tout au fond",
@@ -2501,6 +2597,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici l'école. Jeudi, la classe va au musée. Le départ est à 8h30 depuis l'école. Merci de donner à votre enfant un pique-nique et de l'habiller selon la météo. L'entrée est payée par l'école. Retour vers 16h. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-ecole-sortie-au-musee.wav",
       "question": "Que doivent donner les parents à leur enfant pour la sortie ?",
       "options": [
         "De l'argent pour l'entrée",
@@ -2527,6 +2624,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Terminus : Place de la Gare. Merci de descendre, ce bus ne va pas plus loin. Le prochain bus pour le centre part dans dix minutes, du même arrêt. N'oubliez rien dans le bus. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-bus-dernier-arret.wav",
       "question": "Que doivent faire les voyageurs ?",
       "options": [
         "Rester dans le bus",
@@ -2553,6 +2651,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Allô, c'est Madame Roux, votre voisine. J'ai une double clé de votre appartement, comme convenu, au cas où. L'artisan doit passer demain après-midi pour la fenêtre. Si vous voulez, je peux le laisser entrer avec la clé. Dites-moi si c'est d'accord. À bientôt !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-voisine-cle.wav",
       "question": "Affirmation : selon le message, la voisine propose de laisser entrer l'artisan avec la clé.",
       "options": [
         "Vrai",
@@ -2577,6 +2676,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Salut, c'est Karim. Dis, notre repas de midi ensemble, on le reporte ? J'ai une réunion à midi qui va durer. On pourrait plutôt manger ensemble demain, même heure ? Réponds-moi vite. À demain, j'espère !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-un-collegue-dejeuner-reporte.wav",
       "question": "Affirmation : selon le message, Karim veut annuler complètement le repas, sans nouvelle date.",
       "options": [
         "Vrai",
@@ -2601,6 +2701,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour. Vous demandez pour le subside à l'assurance maladie. Alors : ce n'est pas la caisse maladie qui s'en occupe, c'est votre canton. Le droit et le montant dépendent de votre revenu, et les règles ne sont pas les mêmes d'un canton à l'autre. La demande, vous la déposez auprès du service cantonal compétent. Dans certains cantons, vous recevez un formulaire automatiquement ; dans d'autres, vous devez vous annoncer. Renseignez-vous directement auprès de votre canton pour savoir ce qui s'applique chez vous.",
+      "audioUrl": "/audio/ch/fide-french-listening--renseignement-le-subside-ou-faire-la-demande.wav",
       "question": "Qui s'occupe du subside, selon le renseignement ?",
       "options": [
         "La caisse maladie",
@@ -2627,6 +2728,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Électricité, bonjour.\n— Bonjour, je voudrais faire installer quelques prises et j'aimerais un devis.\n— Volontiers. C'est dans un appartement ?\n— Oui, trois prises dans le salon.\n— Le mieux, c'est que je passe voir, puis je vous fais un prix précis. Lundi à 17h, ça vous va ?\n— Oui. Le devis coûte quelque chose ?\n— Non, le devis est gratuit.\n— Parfait, à lundi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-demander-un-devis-a-un-electricien.wav",
       "question": "Que fait l'électricien avant de donner un prix ?",
       "options": [
         "Il passe voir sur place lundi",
@@ -2653,6 +2755,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Nos enfants vont à la même école. On pourrait s'organiser pour les emmener ?\n— Bonne idée. Toi le matin, moi le soir ?\n— Ça me va. Le matin, je pars à 7h50.\n— Parfait. Et si l'un ne peut pas, on se prévient la veille.\n— D'accord. On essaie une semaine et on voit.\n— Très bien.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-organiser-un-covoiturage-scolaire.wav",
       "question": "Comment les deux parents s'organisent-ils ?",
       "options": [
         "Un seul parent fait tout",
@@ -2679,6 +2782,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Vous donnez des cours de natation aux enfants. Qu'est-ce qui vous plaît ?\n— J'aime voir les enfants perdre leur peur de l'eau et progresser. Quand ils réussissent, ils sont fiers.\n— Et qu'est-ce qui est important dans ce métier ?\n— La patience et la sécurité. On garde toujours un œil sur tout le monde.\n— Merci pour cet entretien.",
+      "audioUrl": "/audio/ch/fide-french-listening--entretien-une-monitrice-de-natation-raconte.wav",
       "question": "Qu'est-ce qui plaît à la monitrice dans son travail ?",
       "options": [
         "Rester au bureau",
@@ -2705,6 +2809,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bonjour, c'est au sujet de notre réunion de jeudi. Malheureusement, je ne peux pas ce jour-là.\n— Pas de problème. On peut la faire vendredi à la même heure ?\n— Vendredi, ça m'arrange. À 14h alors ?\n— Oui, 14h vendredi. J'informe les autres.\n— Parfait, merci beaucoup.\n— À vendredi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-reporter-une-reunion.wav",
       "question": "Quand aura lieu la réunion ?",
       "options": [
         "Jeudi comme prévu",
@@ -2731,6 +2836,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici le secrétariat de l'école. Pour la sortie de votre enfant la semaine prochaine, il nous manque le formulaire d'autorisation signé. Merci de le rapporter signé d'ici mercredi, sinon votre enfant ne pourra pas participer. Vous pouvez aussi nous l'envoyer par courriel. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-secretariat-formulaire-a-signer.wav",
       "question": "Que doivent faire les parents, selon le message ?",
       "options": [
         "Payer la sortie",
@@ -2757,6 +2863,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Notre collègue part dans un autre canton. On lui offre quoi ?\n— On pourrait faire une collecte et un bon pour un magasin.\n— Ou quelque chose de plus personnel, une carte signée par tout le monde.\n— Faisons les deux : un bon et une carte.\n— Parfait. Je fais passer la carte et je récolte l'argent.\n— Et moi j'achète le bon.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-un-cadeau-de-depart.wav",
       "question": "Sur quoi les collègues se mettent-ils d'accord ?",
       "options": [
         "Un bon et une carte signée par tout le monde",
@@ -2783,6 +2890,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Service clientèle, bonjour.\n— Bonjour, ma commande devait arriver mardi et on est jeudi, je n'ai rien reçu.\n— Je suis désolé. Votre numéro de commande ?\n— C'est le 7203.\n— Merci… je vois qu'il y a eu un retard au dépôt. Votre colis part aujourd'hui, livraison demain. Je vous envoie un suivi par courriel.\n— D'accord, merci.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-signaler-une-livraison-en-retard.wav",
       "question": "Que fait le collaborateur ?",
       "options": [
         "Il annule la commande",
@@ -2809,6 +2917,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour à tous, c'est le trésorier du club. Petit rappel : la cotisation annuelle est à payer d'ici la fin du mois. Vous avez reçu le bulletin par courrier. Si vous avez une question ou une difficulté, appelez-moi, on trouve toujours une solution. Merci et bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-club-cotisation-a-payer.wav",
       "question": "Que rappelle le trésorier ?",
       "options": [
         "Que le club ferme",
@@ -2835,6 +2944,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On part le week-end. Tu pourrais t'occuper de notre chat ?\n— Bien sûr. Il faut faire quoi ?\n— Juste lui donner à manger une fois par jour et changer l'eau. La litière, une fois suffit.\n— D'accord. Et vous, vous garderez mon lapin quand je partirai ?\n— Avec plaisir, quand tu veux.\n— Super, merci !",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-partager-la-garde-des-animaux.wav",
       "question": "Qu'est-ce qui est convenu ?",
       "options": [
         "Personne ne garde les animaux",
@@ -2861,6 +2971,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, à notre stand aujourd'hui, les tomates du pays sont mûres et bon marché : le kilo à trois francs. Nous avons aussi des courgettes et des salades fraîches. C'est valable seulement aujourd'hui. Venez nous voir !",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-marche-legumes-du-jour.wav",
       "question": "Combien coûte le kilo de tomates, selon l'annonce ?",
       "options": [
         "Dix francs",
@@ -2887,6 +2998,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici l'école. Nous vous invitons à une réunion d'information pour les parents, jeudi prochain à 19h, dans la salle de gym. Nous parlerons de l'année scolaire et de la nouvelle organisation. Merci de venir si possible. Si vous avez besoin d'une traduction, dites-le-nous. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-ecole-reunion-d-information.wav",
       "question": "Où a lieu la réunion d'information, selon le message ?",
       "options": [
         "À la maison de quartier",
@@ -2913,6 +3025,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Information pour les voyageurs à destination de Fribourg : le train de 15h10 part exceptionnellement du quai 4, et non du quai 1. Nous répétons : le train pour Fribourg part du quai 4. Merci de votre attention.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-dans-le-train-quai.wav",
       "question": "De quel quai part le train pour Fribourg ?",
       "options": [
         "Du quai 1",
@@ -2939,6 +3052,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Allô, c'est Madame Blanc, votre voisine. Je pars quelques jours et je voulais vous demander : est-ce que vous pourriez arroser mes plantes du balcon, une fois par jour ? La clé est chez vous, comme d'habitude. Merci beaucoup, et dites-moi si ça ne va pas.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-voisine-plantes.wav",
       "question": "Affirmation : selon le message, il faut arroser les plantes deux fois par jour.",
       "options": [
         "Vrai",
@@ -2963,6 +3077,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Salut, c'est Yann. Le match de foot de dimanche est reporté à cause du terrain. On rejoue le dimanche suivant, à la même heure. Passe le mot aux autres si tu les vois. À plus !",
+      "audioUrl": "/audio/ch/fide-french-listening--message-d-un-ami-match-reporte.wav",
       "question": "Affirmation : selon le message, le match a lieu dimanche comme prévu.",
       "options": [
         "Vrai",
@@ -2987,6 +3102,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour. Vous demandez comment se passe l'entretien pour la naturalisation ordinaire. Alors : c'est la commune qui l'organise, et le contenu peut être un peu différent d'une commune à l'autre. En général, on parle de votre vie ici, de votre quotidien et de vos connaissances de base sur la vie en Suisse. La commune et le canton examinent votre demande ; c'est ensuite la Confédération qui donne l'autorisation fédérale. Le mieux, c'est de demander à votre commune comment cela se passe exactement chez vous.",
+      "audioUrl": "/audio/ch/fide-french-listening--renseignement-l-entretien-de-naturalisation.wav",
       "question": "Qui organise l'entretien de naturalisation, selon le renseignement ?",
       "options": [
         "L'employeur",
@@ -3013,6 +3129,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Salon de coiffure, bonjour.\n— Bonjour, j'ai rendez-vous demain à 10h, mais je ne peux plus. Est-ce possible de déplacer ?\n— Bien sûr. Jeudi à 14h, ça irait ?\n— Jeudi 14h, c'est parfait.\n— Très bien, je note. À jeudi alors.\n— Merci beaucoup, à jeudi.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-reporter-un-rendez-vous-chez-le-coiffeur.wav",
       "question": "Quand aura lieu le nouveau rendez-vous ?",
       "options": [
         "Jeudi à 14h",
@@ -3039,6 +3156,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— On organise l'anniversaire de Léa samedi. Tu peux m'aider ?\n— Avec plaisir. Il faut faire quoi ?\n— Moi je m'occupe du gâteau et des boissons. Toi, tu pourrais préparer quelques jeux ?\n— D'accord. Combien d'enfants viennent ?\n— Une dizaine. On commence à 14h.\n— Parfait, je prépare des jeux pour dix enfants.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-organiser-un-anniversaire-d-enfant.wav",
       "question": "De quoi s'occupe la deuxième personne ?",
       "options": [
         "Du gâteau",
@@ -3065,6 +3183,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici le garage. Votre voiture est prête, le service est terminé et tout est en ordre. Vous pouvez venir la chercher dès aujourd'hui, jusqu'à 18h, ou demain matin. Pensez à apporter un moyen de paiement. Si vous avez une question, rappelez-nous. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-du-garage-voiture-prete.wav",
       "question": "Que doit apporter le client, selon le message ?",
       "options": [
         "Une nouvelle voiture",
@@ -3091,6 +3210,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Bibliothèque, bonjour.\n— Bonjour, je voudrais savoir combien de temps on peut garder un livre.\n— Trois semaines, et vous pouvez prolonger une fois si personne ne l'a réservé.\n— Et si je le rends en retard ?\n— Il y a une petite amende par jour de retard. Mais vous pouvez prolonger en ligne pour éviter ça.\n— D'accord, merci beaucoup.",
+      "audioUrl": "/audio/ch/fide-french-listening--appel-renseignement-a-la-bibliotheque.wav",
       "question": "Que peut-on faire pour éviter une amende, selon l'appel ?",
       "options": [
         "Ne jamais rendre le livre",
@@ -3117,6 +3237,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "— Cet été, on part à la montagne ou au bord d'un lac ?\n— Les enfants adorent nager, donc plutôt le lac, non ?\n— Bonne idée. Et à la montagne, on pourrait faire des balades faciles.\n— Alors faisons les deux : quelques jours au lac, puis quelques jours à la montagne.\n— Parfait, je regarde pour un logement.",
+      "audioUrl": "/audio/ch/fide-french-listening--conversation-choisir-des-vacances-en-famille.wav",
       "question": "Que décide finalement la famille ?",
       "options": [
         "Aller au lac puis à la montagne",
@@ -3143,6 +3264,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Bonjour, ici l'école. Jeudi, la classe ira à la piscine. Merci de préparer un sac avec un maillot, une serviette et un bonnet de bain. Le pique-nique est aussi à prévoir. Nous rentrons vers 16h, comme d'habitude. En cas de question, appelez le secrétariat. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-l-ecole-sortie-a-la-piscine.wav",
       "question": "Que doit préparer l'enfant pour jeudi, selon le message ?",
       "options": [
         "Un vélo",
@@ -3169,6 +3291,7 @@
     "prompt": "Écoutez et choisissez la bonne réponse.",
     "payload": {
       "transcript": "Chères clientes, chers clients, notre magasin va bientôt fermer. Il est 18h50 et nous fermons à 19h. Merci de vous diriger vers les caisses. Nous vous remercions de votre visite et vous souhaitons une bonne soirée.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-au-supermarche-fermeture.wav",
       "question": "À quelle heure ferme le magasin, selon l'annonce ?",
       "options": [
         "À 19h",
@@ -3195,6 +3318,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Bonjour, ici la crèche. Nous vous informons que la crèche sera fermée vendredi prochain pour une journée de formation de l'équipe. Elle rouvrira normalement lundi. Merci de prévoir une solution de garde pour vendredi. Bonne journée.",
+      "audioUrl": "/audio/ch/fide-french-listening--message-de-la-creche-fermeture-exceptionnelle.wav",
       "question": "Affirmation : selon le message, la crèche est ouverte vendredi prochain.",
       "options": [
         "Vrai",
@@ -3219,6 +3343,7 @@
     "prompt": "Écoutez. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
       "transcript": "Information aux voyageurs : le train de 16h20 à destination de Neuchâtel est supprimé. Le prochain train part à 16h50, du quai 2. Nous nous excusons pour ce contretemps et vous remercions de votre compréhension.",
+      "audioUrl": "/audio/ch/fide-french-listening--annonce-a-la-gare-train-supprime.wav",
       "question": "Affirmation : selon l'annonce, le train de 16h20 pour Neuchâtel circule normalement.",
       "options": [
         "Vrai",

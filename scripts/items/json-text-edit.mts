@@ -153,7 +153,7 @@ export function canonical(v: unknown): string {
 /** The writer's own guard: the edited TEXT must parse to exactly the intended graph, and
  *  it must differ from the original on no more than the lines we meant to touch. A
  *  surgical writer that silently corrupts JSON would be worse than a reformatting one. */
-export function assertFaithful(before: string, after: string, expected: unknown, label: string): { changedLines: number } {
+export function assertFaithful(before: string, after: string, expected: unknown, label: string): { changedLines: number; added: number; removed: number } {
   const parsed = JSON.parse(after);
   if (canonical(parsed) !== canonical(expected)) {
     throw new Error(`${label}: edited text does not parse to the intended items`);
