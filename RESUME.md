@@ -131,8 +131,30 @@ Spot-checks that carried the most risk, all confirmed:
 tests stable structural facts, so it carries no living-content rot risk and needs no
 periodic re-check.
 
-Provenance lives in **`AlmiSwiss_Civic_Reference.md` (beta-g)**. NOTE: that file is not in
-this repo as of 2026-07-27 — do not go looking for it here.
+Provenance lives in **`AlmiSwiss_Civic_Reference.md`** (beta-g), committed at the repo root
+so the 30 verified facts survive independently of any agent's context.
+
+**Two of the highest-consequence facts were re-verified independently** against the
+official sources, rather than taken on the audit's word — they are the two whose error
+would do the most damage to the module:
+
+- **No single national civics test.** SEM, ordinary naturalisation, verbatim: *"The
+  procedure in the canton and in the commune is governed by cantonal law."* and *"The
+  canton may also stipulate additional integration requirements."*, with *"cantonal
+  legislation requires a minimum residence period of between two and five years in the
+  commune and in the canton concerned."* The page describes no national test. **Items 5
+  and 15 (both languages) stand.**
+- **Popular initiative 100,000 / 18 months.** EDA/FDFA, verbatim: *"For such an initiative
+  to come about, the signatures of 100,000 voters who support the proposal must be
+  collected within 18 months."* **Item 8 stands.** The same page also confirms item 9
+  verbatim: *"In order to bring about a national referendum, 50,000 valid signatures must
+  be collected within 100 days of publication of the new legislation."*
+
+⚠ **Four of the six source links in the reference doc are dead.** Every `ch.ch` URL cited
+there now 404s, including the two carrying the initiative and referendum figures. The FACTS
+are confirmed — via `aboutswitzerland.eda.admin.ch/en/direct-democracy`, which is live and
+official — but the doc's citations do not resolve. Re-pin them before anyone relies on the
+doc to re-check a fact. The `sem.admin.ch` link is live.
 
 ### Two open items on canton civic
 
