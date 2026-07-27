@@ -32,13 +32,13 @@ Save point 2026-07-27. Branch `ch-degame-hardened`. **Nothing deployed, nothing 
   1 in `TELC_GOETHE::DE::LISTENING` and 2 in `TELC_GOETHE::DE::READING` (both 67% → 50%).
   In all three pools an absolute word no longer predicts the key.
 
-## Staged scripts — 2 of 3 APPLIED 2026-07-27, 1 still blocked
+## Staged scripts — ALL 3 APPLIED 2026-07-27
 
 | | script | state |
 |---|---|---|
 | 37 de-gamed structural keys | `scripts/items/degame-structural.mts` | **APPLIED — `76b5081`** |
 | 120 getting-started CEFR levels | `scripts/items/apply-cefr.mts` | **APPLIED — `76b5081`** |
-| listening `audioUrl` wiring | `scripts/items/wire-listening-audio.mts` | **STILL BLOCKED — refuses, 8 items would have no audio** |
+| 340 listening `audioUrl` wiring | `scripts/items/wire-listening-audio.mts` | **APPLIED — `eeb2bf1`** · pending pre-ship browser + build checks |
 
 **De-game, measured by state on the WRITTEN bank** — not predicted from a dry run:
 
@@ -64,9 +64,48 @@ line endings are split 29 CRLF / 5 LF with no `.gitattributes`. Any whole-file
 re-serialiser reformats half the bank and buries the key changes. Final footprint: 20
 files, **+282 / −162**.
 
-The audio wiring is the one step left. It refuses because 8 items have no clip; several of
-those are among the accepted-below-threshold clips whose audio is CORRECT (see the Audio
-section) — so the unblock is likely a change to what the wire tool accepts, not new audio.
+**AUDIO WIRING — applied `eeb2bf1`.** All **340** listening items carry an `audioUrl`, and
+the renderer plays it: `TtsAudio` uses a native `<audio>` element when a clip exists
+(play/pause/seek, works with no voice pack installed, the same audio for every candidate)
+and falls back to `SpeechSynthesis` only where there is none.
+
+The refusal was never about missing files. By the time it ran, all 10 held clips existed on
+disk and all 10 carried a written ACCEPTED verdict — the tool was still applying the older
+rule "anything the content check flagged is unexamined". The accept rule now reads:
+
+| | |
+|---|---|
+| file exists AND recall ≥ threshold AND every number heard | wire — **330 clips** |
+| file exists AND below threshold BUT adjudicated with evidence | wire — **10 clips** |
+| below threshold with no written verdict | **REFUSE** |
+| no clip file, or never measured at all | **REFUSE** |
+
+The guarantee is unchanged: every served listening item plays the same audio for every
+candidate. What changed is that "verified" now includes "a human looked and wrote down
+why" — the only thing that can clear a defect the instrument cannot see. Both refusal
+paths were seen RED in a sandbox before applying (delete a clip file; strip a verdict).
+
+**The wiring was inert at first, and `verify-items` caught it** — `payload key "audioUrl"
+is not read by any renderer`. It was right: nothing outside the JSON read the field, so
+340 wired URLs would have left every candidate on device-dependent TTS while the bank
+claimed to have audio. Adding `audioUrl` to `KNOWN_PAYLOAD_KEYS` alone would have made
+that gate a rubber stamp for exactly what it exists to catch, so the renderer was wired
+first and the allowlist second.
+
+By state, **7/7**: all 340 have an `audioUrl`; every URL resolves to a file that exists;
+every wired clip opens as a readable non-empty WAV; all 10 accepted-with-evidence clips are
+wired and playable; only `payload.audioUrl` changed anywhere; no line-ending style altered.
+
+### ⚠ Two verification gaps BEFORE this ships
+
+1. **`npm run build` has never run.** It invokes `prisma migrate deploy`, which needs a
+   live `DATABASE_URL`. What HAS run: `tsc --noEmit` (clean apart from a pre-existing
+   `export-binary-skew` error) and all four item gates. The production build is unverified
+   — run it once wherever a database is reachable.
+2. **Nobody has clicked play.** The `<audio>` path and the "transcript stays hidden until
+   asked for" behaviour are verified by reading code and by types, not by a browser. There
+   is no ESLint config in this repo, so no a11y lint ran either. One manual pass on a
+   listening item — clip plays, transcript hidden until the toggle — closes it.
 
 CV5: the false positives were a fault in the audit check itself (`almi-audit`), not in this
 bank. No change was required here, and none was made.
