@@ -32,15 +32,41 @@ Save point 2026-07-27. Branch `ch-degame-hardened`. **Nothing deployed, nothing 
   1 in `TELC_GOETHE::DE::LISTENING` and 2 in `TELC_GOETHE::DE::READING` (both 67% → 50%).
   In all three pools an absolute word no longer predicts the key.
 
-## What is STAGED BUT NOT APPLIED — dry-run scripts, nothing written to the bank
-
-Each refuses rather than half-applying. Run with `--write` when the batch is triggered.
+## Staged scripts — 2 of 3 APPLIED 2026-07-27, 1 still blocked
 
 | | script | state |
 |---|---|---|
-| 37 de-gamed structural keys | `scripts/items/degame-structural.mts` | proven by `verify-degame.mts`, **not written** |
-| 120 getting-started CEFR levels | `scripts/items/apply-cefr.mts` | reads `reports/getting-started-cefr-decided.json`, **not written** |
-| listening `audioUrl` wiring | `scripts/items/wire-listening-audio.mts` | **refuses** — 8 items would have no audio |
+| 37 de-gamed structural keys | `scripts/items/degame-structural.mts` | **APPLIED — `76b5081`** |
+| 120 getting-started CEFR levels | `scripts/items/apply-cefr.mts` | **APPLIED — `76b5081`** |
+| listening `audioUrl` wiring | `scripts/items/wire-listening-audio.mts` | **STILL BLOCKED — refuses, 8 items would have no audio** |
+
+**De-game, measured by state on the WRITTEN bank** — not predicted from a dry run:
+
+- `verify-degame.mts`: degenerate **37/37 → 0/37**; meaning preserved **37/37** (same
+  strings paired, same steps in sequence); permuted key scores full marks **37/37**
+  through `src/lib/ch/grading` — the product's own grader, not the audit's opinion of it.
+- Independent second detector, `almi-audit` **B1m**, run against this bank: **PASS, 37
+  checked, none is the identity.** The same command at the previous commit reports
+  `✗ 37 of 37` — so B1m has been seen RED and GREEN across exactly this change, which is
+  the only thing that makes the green mean anything.
+- `npm run gate:answer-distribution`: 36 sections, no gameable position pattern.
+
+**CEFR** — 120 items levelled A1×51 / A2×69 from `reports/getting-started-cefr-decided.json`.
+Levels are never re-derived at write time. 10/10 by-state checks: only nulls filled, no
+existing level overwritten, only `getting-started` bundles touched, no field other than
+`payload`/`answer`/`cefr` changed anywhere, and no bundle's line-ending style altered
+(`fide-german-listening.json` is LF-only and stayed LF-only).
+
+Both were written by the surgical writers in `scripts/items/json-text-edit.mts` (`eabef9f`),
+which replace only the character span of a changed value. The bundles are NOT in one
+format — 17 of 34 are hand-formatted and do not round-trip through `JSON.stringify`, and
+line endings are split 29 CRLF / 5 LF with no `.gitattributes`. Any whole-file
+re-serialiser reformats half the bank and buries the key changes. Final footprint: 20
+files, **+282 / −162**.
+
+The audio wiring is the one step left. It refuses because 8 items have no clip; several of
+those are among the accepted-below-threshold clips whose audio is CORRECT (see the Audio
+section) — so the unblock is likely a change to what the wire tool accepts, not new audio.
 
 CV5: the false positives were a fault in the audit check itself (`almi-audit`), not in this
 bank. No change was required here, and none was made.
