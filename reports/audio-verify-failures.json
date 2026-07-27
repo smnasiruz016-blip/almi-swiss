@@ -1,118 +1,220 @@
 [
  {
-  "stem": "delf-tcf-french-listening--message-je-viens-te-chercher",
-  "lang": "FR",
-  "title": "Message : je viens te chercher",
-  "recall": 0.786,
-  "missing": [
-   "prends",
-   "quart",
-   "tes"
-  ],
-  "classification": "ACCEPTED",
-  "reason": "audio correct — PROVEN: medium transcribes 'Prends tes chaussures de marche' exactly. 'prends tes' is a near-homophone of 'trente et' for the small model."
- },
- {
-  "stem": "delf-tcf-french-listening--meteo-du-week-end",
-  "lang": "FR",
-  "title": "Météo du week-end",
-  "recall": 0.789,
-  "missing": [
-   "degrés",
-   "est",
-   "mais",
-   "nuageux"
-  ],
-  "classification": "ACCEPTED",
-  "reason": "audio correct — PROVEN: the medium model transcribes 'nuageux mais il ne pleut pas avec 15 degrés' exactly. The small confirm model mis-heard it."
- },
- {
   "stem": "fide-french-listening--annonce-dans-le-parking",
   "lang": "FR",
   "title": "Annonce dans le parking",
-  "recall": 0.783,
+  "recall": 0.833,
   "missing": [
-   "cette",
    "chers",
    "chères",
    "clientes",
    "clients"
   ],
-  "classification": "SOURCE TEXT",
-  "reason": "audio faithful to the text, but TWO independent models hear 'avant cette heure' as 'avant sept heures'. In an announcement about a closing time that is a real ambiguity a candidate could also mishear. Recommend re-authoring the line, then re-rendering — not an audio fault."
+  "classification": "ACCEPTED",
+  "reason": "sentence-2 competing-time trap re-authored (avant cette heure → avant la fermeture); residual is salutation plural/gender morphology — same known FR-ASR artifact accepted on annonce-au-magasin."
+ },
+ {
+  "stem": "fide-french-listening--annonce-a-la-gare-train-supprime",
+  "lang": "FR",
+  "title": "Annonce à la gare : train supprimé",
+  "recall": 0.87,
+  "missing": [
+   "16",
+   "aux",
+   "voyageurs"
+  ],
+  "numbers_expected": [
+   "16",
+   "20",
+   "16",
+   "50",
+   "2"
+  ],
+  "numbers_missing": [
+   "16",
+   "16"
+  ],
+  "recall_ok": true,
+  "classification": "ACCEPTED",
+  "reason": "audio confirmed by ear; medium AND large-v3 both mishear the French time liaison — documented instrument blind spot, not a defect, no regen, no source-text change. (Re-synthesised once on 2026-07-27 before the ear check: partial improvement, numbers missing went [16,20,16,50]->[16,16], large-v3 recall 82.6%->91.3%. The hour '16' is heard by no model in either render.)"
  },
  {
   "stem": "fide-french-listening--message-d-un-collegue-manger-a-midi",
   "lang": "FR",
   "title": "Message d'un collègue : manger à midi",
-  "recall": 0.833,
+  "recall": 0.889,
   "missing": [
-   "pause",
-   "room",
-   "tea"
+   "15",
+   "pause"
   ],
+  "numbers_expected": [
+   "12",
+   "12",
+   "15"
+  ],
+  "numbers_missing": [
+   "15"
+  ],
+  "recall_ok": true,
   "classification": "ACCEPTED",
-  "reason": "'ma pause'->'ma peau' (near-homophone) and 'tea-room'->'tiroum' (an English loanword read with French phonetics, written back phonetically). Swiss French uses tea-room; the word is correct."
+  "reason": "audio correct — PROVEN: large-v3 transcribes 'J'ai ma pause à midi et quart', numbers [12,12,15], zero missing. medium merges 'et quart' (/e kaʁ/) into the single word 'écart' (/ekaʁ/). Raised by the new et-quart->15 rule, which is correct: the 12:15 is genuinely spoken and was previously unverified.",
+  "superseded_reason": "'ma pause'->'ma peau' (near-homophone) and 'tea-room'->'tiroum' (an English loanword read with French phonetics, written back phonetically). Swiss French uses tea-room; the word is correct."
  },
  {
-  "stem": "fide-german-listening--einladung-zur-gemeindeversammlung",
+  "stem": "fide-german-listening--durchsage-im-zug-verpasster-anschluss",
   "lang": "DE",
-  "title": "Einladung zur Gemeindeversammlung",
-  "recall": 0.848,
+  "title": "Durchsage im Zug: verpasster Anschluss",
+  "recall": 0.9,
   "missing": [
-   "apéro",
-   "elften",
-   "gemeindeversammlung",
-   "mehrzweckhalle",
-   "stimmberechtigt",
-   "stimmrecht",
-   "traktandiert"
+   "5",
+   "gleis",
+   "thun"
   ],
+  "numbers_expected": [
+   "10",
+   "15",
+   "10",
+   "15",
+   "40",
+   "5"
+  ],
+  "numbers_missing": [
+   "5"
+  ],
+  "recall_ok": true,
   "classification": "ACCEPTED",
-  "reason": "Swiss administrative vocabulary and compound splitting: 'Gemeindeversammlung'->'Gemeindever sammlung' (present, spaced), Traktandiert, Mehrzweckhalle, Apero. Nothing missing from the audio."
+  "reason": "audio confirmed by ear; medium near-miss (fünf→fenf, sieben→siegen)."
  },
  {
-  "stem": "fide-german-listening--vier-ansagen-im-quartier",
+  "stem": "fide-german-listening--sprachnachricht-von-einem-freund",
   "lang": "DE",
-  "title": "Vier Ansagen im Quartier",
-  "recall": 0.84,
+  "title": "Sprachnachricht von einem Freund",
+  "recall": 0.921,
   "missing": [
-   "dem",
-   "dieser",
-   "erdgeschoss",
-   "gemeindehaus",
-   "geputzt",
-   "geteert",
-   "melden",
-   "parkieren"
+   "7",
+   "deniz",
+   "hey"
   ],
+  "numbers_expected": [
+   "7"
+  ],
+  "numbers_missing": [
+   "7"
+  ],
+  "recall_ok": true,
   "classification": "ACCEPTED",
-  "reason": "Helvetisms and low-frequency verbs: parkieren->partieren, zuegeln, geteert->getaert, Erdgeschoss->Edgeschoss, geputzt->gepotzt. The vocabulary is right for Switzerland and poorly modelled by a German-German ASR."
+  "reason": "audio confirmed by ear; medium near-miss (fünf→fenf, sieben→siegen)."
  },
  {
-  "stem": "getting-started-french-listening--annonce-au-magasin",
+  "stem": "fide-c-permit-french-listening--annonce-a-l-atelier",
   "lang": "FR",
-  "title": "Annonce au magasin",
-  "recall": 0.812,
+  "title": "Annonce à l'atelier",
+  "recall": 0.95,
   "missing": [
-   "aux",
-   "caisses",
-   "chères"
+   "13"
   ],
+  "numbers_expected": [
+   "12",
+   "12",
+   "13",
+   "11",
+   "30",
+   "12",
+   "30",
+   "11",
+   "30"
+  ],
+  "numbers_missing": [
+   "13"
+  ],
+  "recall_ok": true,
   "classification": "ACCEPTED",
-  "reason": "ASR morphology only: 'Cheres clientes'->'Chers clientes', 'aux caisses'->'au caisse'. Every word is spoken; gender and number are collapsed in transcription."
+  "reason": "audio confirmed by ear; medium AND large-v3 both mishear the French time liaison — documented instrument blind spot, not a defect, no regen, no source-text change. (Re-synthesised once on 2026-07-27 before the ear check: no change, 'treize heures' still transcribed '3 heures' by both models. The same clip's 11h30 and 'midi et demi' transcribe perfectly.)"
  },
  {
-  "stem": "getting-started-french-listening--la-meteo-a-la-radio",
+  "stem": "fide-french-listening--annonce-dans-le-train-quai",
   "lang": "FR",
-  "title": "La météo à la radio",
-  "recall": 0.842,
+  "title": "Annonce dans le train : quai",
+  "recall": 0.95,
   "missing": [
-   "cet",
-   "degrés",
-   "midi"
+   "10"
   ],
+  "numbers_expected": [
+   "15",
+   "10",
+   "4",
+   "1",
+   "4"
+  ],
+  "numbers_missing": [
+   "10"
+  ],
+  "recall_ok": true,
   "classification": "ACCEPTED",
-  "reason": "'douze degres' transcribed as '12 deg' — the degree sign carries no word token, so the word scores as missing. Pure notation."
+  "reason": "audio confirmed by ear AND by large-v3 after re-synthesis (2026-07-27): large-v3 transcribes '15H et 10', zero numbers missing, recall 100%. Pre-regen large-v3 heard '15 à Jéby'; medium still mis-hears the liaison as '15 à Jégui'. ASR artifact, not a defect. NOTE: the prescribed 'medium AND large-v3 both mishear / no regen' wording does NOT apply to this clip — large-v3 hears it, and it was re-synthesised."
+ },
+ {
+  "stem": "fide-french-listening--quatre-messages-sur-le-repondeur",
+  "lang": "FR",
+  "title": "Quatre messages sur le répondeur",
+  "recall": 0.958,
+  "missing": [
+   "16",
+   "dentaire",
+   "morand"
+  ],
+  "numbers_expected": [
+   "1",
+   "16",
+   "30",
+   "24",
+   "2",
+   "2",
+   "3",
+   "4"
+  ],
+  "numbers_missing": [
+   "16"
+  ],
+  "recall_ok": true,
+  "classification": "ACCEPTED",
+  "reason": "audio correct — PROVEN: large-v3 transcribes '16h30' exactly and hears all 8 numbers. medium renders the hour marker as 'ces H30'. ASR artifact, not a defect."
+ },
+ {
+  "stem": "fide-french-listening--conversation-organiser-un-covoiturage-scolaire",
+  "lang": "FR",
+  "title": "Conversation : organiser un covoiturage scolaire",
+  "recall": 0.968,
+  "missing": [
+   "7"
+  ],
+  "numbers_expected": [
+   "7",
+   "50"
+  ],
+  "numbers_missing": [
+   "7"
+  ],
+  "recall_ok": true,
+  "classification": "ACCEPTED",
+  "reason": "audio correct — PROVEN: large-v3 transcribes '7h50' exactly, zero numbers missing. medium mis-hears the French hour liaison as 'cette H50'. ASR artifact, not a defect."
+ },
+ {
+  "stem": "fide-french-listening--message-de-l-ecole-sortie-a-la-piscine",
+  "lang": "FR",
+  "title": "Message de l'école : sortie à la piscine",
+  "recall": 0.97,
+  "missing": [
+   "16"
+  ],
+  "numbers_expected": [
+   "16"
+  ],
+  "numbers_missing": [
+   "16"
+  ],
+  "recall_ok": true,
+  "classification": "ACCEPTED",
+  "reason": "audio correct — PROVEN: large-v3 transcribes '16h' exactly, zero numbers missing. medium renders 'seize heures' (/sɛ.zœʁ/) as the name 'César' (/se.zaʁ/). ASR artifact, not a defect."
  }
 ]

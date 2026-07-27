@@ -4,18 +4,24 @@ Save point 2026-07-27. Branch `ch-degame-hardened`. **Nothing deployed, nothing 
 
 ## Open tomorrow
 
-1. **Re-author `Annonce dans le parking`** (`src/data/items/fide-french-listening.json`) — the line
-   `Merci de sortir votre voiture avant cette heure.` Two independent Whisper models hear
-   *avant cette heure* as **avant sept heures**. The audio is faithful; the text is
-   phonetically ambiguous, and in an announcement about a closing time a candidate could
-   mishear it as a different time. Suggested: `avant 22h` or `avant la fermeture`. Then
-   `python scripts/items/synth-listening.py --only="Annonce dans le parking"` and re-verify
-   that one clip.
-2. **Nasir's decision: promote the Whisper confirm model from `small` to `medium`** across
-   all 340. `medium` demonstrably transcribes correctly what `small` mis-heard on at least
-   two clips, so it would legitimately raise 332/340 — but it also clears failures, so it
-   is a decision to take deliberately rather than a re-measurement to slip in. Cost is
-   local CPU time only. Set via `WHISPER_CONFIRM=medium`.
+1. ~~**Re-author `Annonce dans le parking`**~~ — **DONE 2026-07-27.** Sentence 2 now reads
+   `Merci de sortir votre voiture avant la fermeture.` The clip was re-synthesised under the
+   same filename and re-verified: **78.3% → 82.6%**. Both Whisper models now transcribe the
+   line verbatim — the *avant sept heures* mishearing is gone. The title, sentence 1
+   (`le parking ferme à 22h`), the question, the options and `correctIndex: 0` were not
+   touched, so the key is unchanged. It still sits under the 85% line, but on the salutation
+   alone (`chères clientes, chers clients` — French pronounces the plural identically to the
+   singular, and both models write it back singular). That is the morphology artifact already
+   accepted on `Annonce au magasin`, so the entry is reclassified **ACCEPTED** in
+   `reports/audio-verify-failures.json`. The salutation was deliberately left as written.
+2. ~~**Promote the Whisper confirm model from `small` to `medium`**~~ — **DECIDED AND
+   APPLIED 2026-07-27.** `medium` is now the default confirm model. It is recorded as a
+   deliberate promotion rather than a re-measurement because it clears failures: of the 7
+   clips that left the failure list, only 4 are attributable to the model (`small` still
+   below the line); 3 crossed on the content-set change alone. **`WHISPER_CONFIRM=small`
+   reverts it.** `medium` is not uniformly better — it scored *lower* on several clips
+   (`Zwei Kolleginnen` 100.0% → 90.5%, `Deux amis` 100.0% → 90.9%). Both numbers are kept
+   per clip in `reports/audio-verify-machine.json` (`recall_small`, `recall_medium`).
 
 ## What IS applied to the bank in this commit
 
@@ -41,18 +47,73 @@ bank. No change was required here, and none was made.
 
 ## Audio
 
-340 clips, **332 match their transcript**. The 8 below the 85% line are classified in
-`reports/audio-verify-failures.json`: 7 accepted-below-threshold with evidence, 1 needing
-the authoring fix above, **0 needing re-recording**. The threshold was not moved.
+340 clips, **330 match their transcript** (hardened sweep, 2026-07-27). Threshold **0.85,
+never moved**. All 10 entries in `reports/audio-verify-failures.json` are ACCEPTED with
+written evidence — **0 UNCLASSIFIED, 0 needing re-recording, 0 pending re-authoring**:
+
+- **1 recall failure** — `Annonce dans le parking`, 83.3%, salutation plural/gender
+  morphology (`chères clientes, chers clients`), the artifact already accepted on
+  `Annonce au magasin`.
+- **9 numeric REDs** — every one of them with **passing recall** (88.9% to 97.0%). That is
+  the point of the second check: before it existed, all nine were reported clean. Each is
+  adjudicated in `reports/audio-verify-decided.json` — 6 proven correct by `large-v3`
+  transcribing the number exactly, 3 confirmed by human ear.
+
+Six clips that no longer fail were moved to `reports/audio-verify-resolved.json` with
+their reasons intact. Reasons are never regenerated: the sweep writes only
+`reports/audio-verify-machine.json` (all 340, machine fields plus the ASR text), and
+merging into the human file is a separate step, `scripts/items/reconcile-audio-verify.py`,
+which supersedes rather than overwrites (older text kept in `superseded_reason`).
+
+### GATE-BLIND, HUMAN-VERIFIED — watchlist of 2
+
+**No model in either render hears the keyed time in these two clips.** The audio was
+confirmed correct by human ear (Nasir (abba g), 2026-07-27) and both are ACCEPTED, but the numeric
+gate cannot verify them and a future genuine break would look identical to today's
+accepted state.
+
+| clip | keyed time the gate cannot see | evidence |
+|---|---|---|
+| `Annonce à la gare : train supprimé` | `16h20` / `16h50` | `medium` and `large-v3` both transcribe "CH20"/"CH50"; re-synthesised once, hour still unheard |
+| `Annonce à l'atelier` | `treize heures` | both models transcribe "3 heures"; re-synthesised once, no change. Same clip's `11h30` and `midi et demi` transcribe perfectly |
+
+**Any future regeneration of these two requires a human ear-check.** A green sweep does not
+cover them. (`Annonce dans le train : quai` is NOT on this list — `large-v3` hears
+`15h10` correctly after re-synthesis, so it is a `medium`-only miss, not a blind spot.)
+
+**Numbers are verified as spoken.** `words()` used to rewrite "22h" to "22" and the len>2
+content filter then dropped it, so a keyed time could be garbled and still score 100%.
+Numbers now count in the recall set AND get a separate assertion with its own RED,
+independent of the aggregate. Coverage this sweep: **562/572 numbers asserted spoken across
+252 clips carrying them.** Digit and spelled-out forms fold to the same integer in both
+directions (`22h` = `vingt-deux heures`, `zweiundzwanzig` = `22`, Swiss `nonante` =
+French-French `quatre-vingt-dix`), including `et demie`→30, `et quart`→15 and
+`moins le quart`→ hour−1 :45. Time markers (`heures`/`heure`/`uhr`) end a numeral run and
+are not themselves required content — making them content silently broke 101 clips.
+
+**ONE deliberate exception to that.** A bare standalone "one"
+— `un`, `une`, `ein`, `eine`, `einer` used as a quantity rather than inside a compound — is
+NOT numerically asserted. Those five words appear 464 times in the bank and are the
+indefinite article in nearly all of them, so asserting them would fail every correct clip
+where "une voiture" is heard as "la voiture", and a check that fires on articles is a check
+somebody switches off. They still count as ordinary content words, and "one" INSIDE a
+number is asserted normally (`soixante et un` -> 61, `Mitteilung eins` -> 1). This is the
+right trade, but it is an honest hole in "all numbers are verified": a clip that drops a
+bare spoken "un" will not go red for it.
 
 `public/audio/ch/` (411 MB) and `.piper-voices/` (242 MB) are gitignored — regenerable and
 not repo content. **The files on disk are the only copy.** Do not `git clean -fdx` this
 tree without re-rendering:
 
 ```
-python scripts/items/synth-listening.py       # ~2h, local, free
-python scripts/items/verify-listening-audio.py
+python scripts/items/synth-listening.py            # ~2h, local, free
+python scripts/items/verify-listening-audio.py     # writes reports/audio-verify-machine.json ONLY
+python scripts/items/reconcile-audio-verify.py     # dry run; --write to merge into the human file
 ```
+
+The verify step deliberately does NOT write `audio-verify-failures.json`. That file holds
+hand-written verdicts, and a sweep that regenerates it from scratch deletes every one of
+them while still looking like a valid report.
 
 Superseded pre-fix measurements are kept but renamed so they cannot be read as current:
 `reports/SUPERSEDED-audio-verify-*`.

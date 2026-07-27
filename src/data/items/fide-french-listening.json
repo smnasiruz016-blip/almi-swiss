@@ -1034,7 +1034,7 @@
     "title": "Annonce dans le parking",
     "prompt": "Écoutez l'annonce. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
-      "transcript": "Chères clientes, chers clients, le parking ferme à 22h. Merci de sortir votre voiture avant cette heure. Payez votre ticket à l'automate près de la sortie, avant d'aller à votre voiture. L'automate accepte les pièces et les cartes. Merci de votre visite.",
+      "transcript": "Chères clientes, chers clients, le parking ferme à 22h. Merci de sortir votre voiture avant la fermeture. Payez votre ticket à l'automate près de la sortie, avant d'aller à votre voiture. L'automate accepte les pièces et les cartes. Merci de votre visite.",
       "question": "Affirmation : selon l’annonce, le parking ferme à 22h.",
       "options": [
         "Vrai",

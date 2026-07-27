@@ -1,0 +1,43 @@
+{
+ "decided": "2026-07-27",
+ "by": "Nasir (ear) + large-v3 evidence",
+ "note": "Verdicts for the numeric REDs raised by the 2026-07-27 hardened sweep. Applied by scripts/items/reconcile-audio-verify.py. A decided verdict supersedes an older reason; the older text is kept in `superseded_reason` rather than dropped.",
+ "verdicts": {
+  "fide-french-listening--conversation-organiser-un-covoiturage-scolaire": {
+   "classification": "ACCEPTED",
+   "reason": "audio correct — PROVEN: large-v3 transcribes '7h50' exactly, zero numbers missing. medium mis-hears the French hour liaison as 'cette H50'. ASR artifact, not a defect."
+  },
+  "fide-french-listening--message-de-l-ecole-sortie-a-la-piscine": {
+   "classification": "ACCEPTED",
+   "reason": "audio correct — PROVEN: large-v3 transcribes '16h' exactly, zero numbers missing. medium renders 'seize heures' (/sɛ.zœʁ/) as the name 'César' (/se.zaʁ/). ASR artifact, not a defect."
+  },
+  "fide-french-listening--quatre-messages-sur-le-repondeur": {
+   "classification": "ACCEPTED",
+   "reason": "audio correct — PROVEN: large-v3 transcribes '16h30' exactly and hears all 8 numbers. medium renders the hour marker as 'ces H30'. ASR artifact, not a defect."
+  },
+  "fide-german-listening--durchsage-im-zug-verpasster-anschluss": {
+   "classification": "ACCEPTED",
+   "reason": "audio confirmed by ear; medium near-miss (fünf→fenf, sieben→siegen)."
+  },
+  "fide-german-listening--sprachnachricht-von-einem-freund": {
+   "classification": "ACCEPTED",
+   "reason": "audio confirmed by ear; medium near-miss (fünf→fenf, sieben→siegen)."
+  },
+  "fide-french-listening--annonce-a-la-gare-train-supprime": {
+   "classification": "ACCEPTED",
+   "reason": "audio confirmed by ear; medium AND large-v3 both mishear the French time liaison — documented instrument blind spot, not a defect, no regen, no source-text change. (Re-synthesised once on 2026-07-27 before the ear check: partial improvement, numbers missing went [16,20,16,50]->[16,16], large-v3 recall 82.6%->91.3%. The hour '16' is heard by no model in either render.)"
+  },
+  "fide-c-permit-french-listening--annonce-a-l-atelier": {
+   "classification": "ACCEPTED",
+   "reason": "audio confirmed by ear; medium AND large-v3 both mishear the French time liaison — documented instrument blind spot, not a defect, no regen, no source-text change. (Re-synthesised once on 2026-07-27 before the ear check: no change, 'treize heures' still transcribed '3 heures' by both models. The same clip's 11h30 and 'midi et demi' transcribe perfectly.)"
+  },
+  "fide-french-listening--annonce-dans-le-train-quai": {
+   "classification": "ACCEPTED",
+   "reason": "audio confirmed by ear AND by large-v3 after re-synthesis (2026-07-27): large-v3 transcribes '15H et 10', zero numbers missing, recall 100%. Pre-regen large-v3 heard '15 à Jéby'; medium still mis-hears the liaison as '15 à Jégui'. ASR artifact, not a defect. NOTE: the prescribed 'medium AND large-v3 both mishear / no regen' wording does NOT apply to this clip — large-v3 hears it, and it was re-synthesised."
+  },
+  "fide-french-listening--message-d-un-collegue-manger-a-midi": {
+   "classification": "ACCEPTED",
+   "reason": "audio correct — PROVEN: large-v3 transcribes 'J'ai ma pause à midi et quart', numbers [12,12,15], zero missing. medium merges 'et quart' (/e kaʁ/) into the single word 'écart' (/ekaʁ/). Raised by the new et-quart->15 rule, which is correct: the 12:15 is genuinely spoken and was previously unverified."
+  }
+ }
+}
