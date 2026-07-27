@@ -14,6 +14,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { readBundle, itemSpans, keyValueSpan, indentAt, spliceAll, assertFaithful } from "./json-text-edit.mts";
 
 const DIR = path.join(process.cwd(), "src", "data", "items");
 const DECIDED = path.join(process.cwd(), "reports", "getting-started-cefr-decided.json");
@@ -35,23 +36,51 @@ const changes: string[] = [];
 const missing: string[] = [];
 const files = fs.readdirSync(DIR).filter((f) => f.startsWith("getting-started"));
 
+// The bundles are not written in one style — 17 of 34 are hand-formatted and do not
+// round-trip through JSON.stringify — so re-serialising a whole file reformats it. These
+// items have no `cefr` field at all, so each change is a single INSERTED key, placed
+// after `difficulty` to match the field order every other bundle already uses.
+let totalChangedLines = 0;
+const perFile: Array<[string, number, number, number]> = [];
+
 for (const f of files) {
   const full = path.join(DIR, f);
   const surface = f.replace("getting-started-", "").replace(".json", "");
-  const items: any[] = JSON.parse(fs.readFileSync(full, "utf8"));
+  const { text, eol, items } = readBundle(full);
+  const spans = itemSpans(text);
+  const splices: Array<[number, number, string]> = [];
   let touched = false;
 
-  for (const it of items) {
+  for (const [idx, it] of items.entries()) {
     const key = `${surface}|${it.title}`;
     const d = byKey.get(key);
     if (!d) { missing.push(key); continue; }
     used.add(key);
     if (it.cefr === d.level) continue;
     changes.push(`${surface.padEnd(18)} ${d.level}  ${it.title}`);
+
+    const existing = keyValueSpan(text, spans[idx][0], "cefr");
+    if (existing) {
+      splices.push([existing.valueStart, existing.valueEnd, JSON.stringify(d.level)]);
+    } else {
+      // Insert after `difficulty` if present, else after `taskType`, else as first key.
+      const anchor = keyValueSpan(text, spans[idx][0], "difficulty") ?? keyValueSpan(text, spans[idx][0], "taskType");
+      if (!anchor) throw new Error(`${f} item ${idx}: no anchor key to place cefr after`);
+      const indent = indentAt(text, anchor.keyStart);
+      let at = anchor.valueEnd;
+      if (text[at] === ",") at++;
+      splices.push([at, at, `${eol}${indent}"cefr": ${JSON.stringify(d.level)},`]);
+    }
     it.cefr = d.level;
     touched = true;
   }
-  if (touched && WRITE) fs.writeFileSync(full, `${JSON.stringify(items, null, 2)}\n`, "utf8");
+
+  if (!touched) continue;
+  const out = spliceAll(text, splices);
+  const { changedLines, added, removed } = assertFaithful(text, out, items, f);
+  totalChangedLines += changedLines;
+  perFile.push([f, splices.length, added, removed]);
+  if (WRITE) fs.writeFileSync(full, out, "utf8");
 }
 
 const orphans = decided.filter((d) => !used.has(`${d.surface}|${d.title}`));
@@ -65,5 +94,9 @@ for (const [k, v] of [...tally].sort()) console.log(`  ${k}: ${v}`);
 if (missing.length) { console.log(`\n${missing.length} item(s) in the bank with NO decision:`); for (const m of missing.slice(0, 5)) console.log(`  ${m}`); }
 if (orphans.length) { console.log(`\n${orphans.length} decision(s) with no matching item:`); for (const o of orphans.slice(0, 5)) console.log(`  ${o.surface} · ${o.title}`); }
 if (missing.length || orphans.length) { console.log(`\nREFUSING to write a partial levelling.`); process.exit(1); }
+
+console.log(`\nDIFF FOOTPRINT — surgical, existing formatting and line endings preserved`);
+console.log(`  ${perFile.length} file(s) touched, ${totalChangedLines} line(s) added+removed in total`);
+for (const [f, n, add, rem] of perFile) console.log(`    ${f.padEnd(40)} ${String(n).padStart(3)} insert(s)  +${add} -${rem}`);
 
 if (!WRITE) console.log(`\nDRY — nothing written. Staged for the batch.`);

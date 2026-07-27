@@ -20,6 +20,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { readBundle, itemSpans, keyValueSpan, indentAt, renderLike, spliceAll, assertFaithful } from "./json-text-edit.mts";
 
 const WRITE = process.argv.includes("--write");
 const DIR = path.join(process.cwd(), "src", "data", "items");
@@ -80,12 +81,20 @@ const changed: string[] = [];
 const failed: string[] = [];
 let matching = 0, ordering = 0;
 
+let totalChangedLines = 0;
+const perFile: Array<[string, number, number, number]> = [];
+
 for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith(".json"))) {
   const full = path.join(DIR, file);
-  const items: Item[] = JSON.parse(fs.readFileSync(full, "utf8"));
+  const { text, eol, items } = readBundle(full) as { text: string; eol: "\r\n" | "\n"; items: Item[] };
+  const spans = itemSpans(text);
+  // [itemIndex, key] pairs whose VALUE this run rewrites. Only these spans are touched;
+  // every other byte of the file — including whatever formatting style it is in — is
+  // carried through untouched.
+  const edits: Array<{ idx: number; key: string; container: "payload" | "answer" }> = [];
   let touched = false;
 
-  for (const it of items) {
+  for (const [idx, it] of items.entries()) {
     if (it.taskType === "MATCHING") {
       const right = it.payload.right as string[];
       const pairs = (it.answer as { pairs: [number, number][] }).pairs;
@@ -103,6 +112,7 @@ for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith(".json"))) {
       it.payload.right = perm.map((oldIdx) => right[oldIdx]);
       (it.answer as { pairs: [number, number][] }).pairs = pairs.map(([l, r]) => [l, inverse[r]]);
       changed.push(`${it.title ?? seedOf(it)} MATCHING`);
+      edits.push({ idx, key: "right", container: "payload" }, { idx, key: "pairs", container: "answer" });
       touched = true;
     }
 
@@ -123,14 +133,36 @@ for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith(".json"))) {
       it.payload.items = perm.map((oldIdx) => list[oldIdx]);
       (it.answer as { order: number[] }).order = order.map((o) => inverse[o]);
       changed.push(`${it.title ?? seedOf(it)} ORDERING`);
+      edits.push({ idx, key: "items", container: "payload" }, { idx, key: "order", container: "answer" });
       touched = true;
     }
   }
 
-  if (touched && WRITE) fs.writeFileSync(full, `${JSON.stringify(items, null, 2)}\n`, "utf8");
+  if (!touched) continue;
+
+  // Surgery: replace only the four value spans per item, in their existing style.
+  const splices: Array<[number, number, string]> = [];
+  for (const { idx, key, container } of edits) {
+    const outer = keyValueSpan(text, spans[idx][0], container);
+    if (!outer) throw new Error(`${file} item ${idx}: no ${container} object`);
+    const span = keyValueSpan(text, outer.valueStart, key);
+    if (!span) throw new Error(`${file} item ${idx}: no ${container}.${key}`);
+    const value = (items[idx] as any)[container][key];
+    const original = text.slice(span.valueStart, span.valueEnd);
+    splices.push([span.valueStart, span.valueEnd, renderLike(value, original, indentAt(text, span.keyStart), eol)]);
+  }
+  const out = spliceAll(text, splices);
+  const { changedLines, added, removed } = assertFaithful(text, out, items, file);
+  totalChangedLines += changedLines;
+  perFile.push([file, edits.length / 2, added, removed]);
+
+  if (WRITE) fs.writeFileSync(full, out, "utf8");
 }
 
 console.log(`${matching} matching + ${ordering} ordering item(s) examined`);
 console.log(`${changed.length} permuted${WRITE ? " and written" : ""}`);
+console.log(`\nDIFF FOOTPRINT — surgical, existing formatting and line endings preserved`);
+console.log(`  ${perFile.length} file(s) touched, ${totalChangedLines} line(s) added+removed in total`);
+for (const [f, n, add, rem] of perFile) console.log(`    ${f.padEnd(42)} ${String(n).padStart(2)} item(s)  +${add} -${rem}`);
 if (failed.length) { console.log(`\n${failed.length} could not be permuted:`); for (const f of failed) console.log(`  ${f}`); }
 if (!WRITE) console.log(`\nDRY — nothing written. Pass --write to apply.`);
