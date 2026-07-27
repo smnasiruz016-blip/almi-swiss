@@ -156,19 +156,24 @@ are confirmed — via `aboutswitzerland.eda.admin.ch/en/direct-democracy`, which
 official — but the doc's citations do not resolve. Re-pin them before anyone relies on the
 doc to re-check a fact. The `sem.admin.ch` link is live.
 
-### Two open items on canton civic
+### Canton civic — 1 resolved, 1 open
 
-1. **The bank carries no per-item `source` field.** Every fact is verified but nothing in
-   the data records where it came from. Provenance is deliberately kept in the reference
-   doc rather than added to the schema, per the `audioUrl` lesson: a payload key that no
-   renderer reads is worse than none — `verify-items` rejects it, and adding the key to
-   `KNOWN_PAYLOAD_KEYS` to get past that turns a real gate into a rubber stamp. Add a
-   `source` field only if the product will actually render citations.
-2. **`cefr = null` on all 30 — a pending decision for Nasir, not a gap.** The 120-item
-   CEFR pass covered `getting-started` only. These are KNOWLEDGE items and already carry a
-   difficulty axis (FOUNDATION / CORE / STRETCH); CEFR describes *language* proficiency,
-   which a civic-knowledge question is not obviously measuring. Leaving them CEFR-null may
-   be correct-by-design. Decide it rather than backfilling it.
+1. ~~**`cefr = null` on all 30**~~ — **RESOLVED 2026-07-28 (abba g): correct by design, not
+   a gap.** `difficulty` (FOUNDATION / CORE / STRETCH) is the axis for these items. CEFR is
+   a **language**-proficiency scale and does not describe factual civics knowledge, so a
+   CEFR level on a KNOWLEDGE item would assert something the item does not measure. All
+   four gates pass with `cefr` null — verified: 30/30 null, all three difficulty bands
+   present, `verify:items` · `conformance` · `item-id` · `answer-distribution` PASS.
+   **Do not backfill these.** A future CEFR pass must skip `CANTON_CIVIC::KNOWLEDGE`; a
+   levelling script that treats null as "missing" would undo a decision, not fill a hole.
+2. **The bank carries no per-item `source` field — still open.** Every fact is verified but
+   nothing in the data records where it came from. Provenance is deliberately kept in
+   `AlmiSwiss_Civic_Reference.md` rather than added to the schema, per the `audioUrl`
+   lesson: a payload key that no renderer reads is worse than none — `verify-items` rejects
+   it, and adding the key to `KNOWN_PAYLOAD_KEYS` to get past that turns a real gate into a
+   rubber stamp. Add a `source` field only if the product will actually render citations.
+   Related and still open: four of that doc's six citations are dead (see above) — the
+   provenance record needs re-pinning whether or not it ever moves into the schema.
 
 ## Audio
 
