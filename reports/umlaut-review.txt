@@ -1,0 +1,105 @@
+TELC/GOETHE GERMAN — 33 TOKENS NEEDING A CALL
+
+Mark each RESTORE (the sequence stands in for an umlaut) or LEAVE (real German, the
+letters just meet). The middle column is what the rule would produce — it is a
+suggestion, and on at least three of these it is WRONG. Nothing is applied except what
+comes back marked.
+
+  aehnlichen         → ähnlichen          ×1
+     …ie nach Einzelheiten, erzaehlen Sie von einem aehnlichen Fest, und sagen Sie, was Sie ueberrascht hat.
+
+  Aenderung          → Änderung           ×1
+     …, (2) Ihre heutige Situation, (3) ab wann die Aenderung gelten soll, (4) welche Unterlagen Sie brauch…
+
+  Aeste              → Äste               ×1
+     …die Behaelter bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.
+
+  Bahnhoefen         → Bahnhöfen          ×1
+     …3. bis 7. Juni kein Zug. Zwischen den beiden Bahnhoefen verkehren Busse. Die Fahrt dauert rund 20 Min…
+
+  Begruendungen      → Begründungen       ×3
+     Mindestens zwei Begruendungen
+
+  beruecksichtigen   → berücksichtigen    ×2
+     Einwaende beruecksichtigen
+
+  Betreuerin         → Betreuerin         ×1
+     …chiges Praktikum beendet. Schreiben Sie Ihrer Betreuerin: wofuer Sie sich bedanken, was Sie gelernt ha…
+
+  dreiwoechiges      → dreiwöchiges       ×1
+     Sie haben ein dreiwoechiges Praktikum beendet. Schreiben Sie Ihrer Betreu…
+
+  einbauen           → einbauen           ×3
+     Eigene Erfahrung einbauen
+
+  ergaenzen          → ergänzen           ×3
+     Eigene Sicht ergaenzen
+
+  Fruehlingsmarkt    → Frühlingsmarkt     ×1
+     Am Samstag findet auf dem Dorfplatz der Fruehlingsmarkt statt. Der Platz ist ab 6 Uhr fuer den Verkeh…
+
+  Fruehlingssaison   → Frühlingssaison    ×1
+     Fuer die Fruehlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent,…
+
+  geloest            → gelöst             ×1
+     Es muss neu geloest werden
+
+  Goethe             → Göthe              ×18
+     Goethe B1, Teil 1 — Gemeinsam planen: Ausflug der Kl…
+
+  Gruezi             → Grüzi              ×1
+     Gruezi, hier ist der Hauswart. Am Montag kommt der S…
+
+  haeufiger          → häufiger           ×1
+     Die Zuege fahren haeufiger
+
+  Hardbruecke        → Hardbrücke         ×2
+     Naechster Halt: Zuerich Hardbruecke. Reisende nach Winterthur steigen bitte hier…
+
+  hoechstens         → höchstens          ×1
+     …bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.
+
+  kuerzer            → kürzer             ×1
+     Die Fahrt ist 20 Minuten kuerzer
+
+  Laeden             → Läden              ×2
+     Goethe B1, Teil 2 — Forum: Sollen Laeden am Sonntag oeffnen?
+
+  Maengel            → Mängel             ×1
+     telc B1 — Brief: Wohnung, Maengel melden
+
+  Mehrjaehrige       → Mehrjährige        ×1
+     Mehrjaehrige Erfahrung im Gartenbau
+
+  muehsam            → mühsam             ×1
+     …urs kommen: womit, wie lange, was gut und was muehsam ist — und was Sie aendern wuerden.
+
+  oeffentlicher      → öffentlicher       ×1
+     Goethe B1, Teil 2 — Forum: Velo oder oeffentlicher Verkehr?
+
+  persoenliche       → persönliche        ×2
+     Schreiben Sie eine persoenliche E-Mail (Teil 1).
+
+  Praesentation      → Präsentation       ×9
+     Goethe B1, Teil 2 — Praesentation: Mein Weg zur Arbeit
+
+  Pruefungspartner   → Prüfungspartner    ×1
+     Sie treffen Ihren Pruefungspartner zum ersten Mal. Stellen Sie sich vor und frag…
+
+  Rueckgaben         → Rückgaben          ×1
+     …Bitte bringen Sie Ihre Buecher zur Ausleihe. Rueckgaben koennen Sie jederzeit in die Box vor dem Eing…
+
+  spaeten            → späten             ×1
+     Einmal pro Woche am spaeten Nachmittag
+
+  unveraendert       → unverändert        ×1
+     …e gilt ab dem 1. Januar. Die Franchise bleibt unveraendert bei 500 Franken. Die Praemie steigt um 12 Fra…
+
+  verspaeteter       → verspäteter        ×1
+     …lich, wenn das Buch nicht reserviert ist. Bei verspaeteter Rueckgabe verrechnen wir 50 Rappen pro Tag un…
+
+  vollstaendig       → vollständig        ×3
+     Kurz und vollstaendig
+
+  zurueckfahren      → zurückfahren       ×1
+     Acht Minuten warten und zurueckfahren

@@ -10,11 +10,11 @@
     "title": "Goethe B1, Teil 1 — Gemeinsam planen: Ausflug der Klasse",
     "prompt": "Planen Sie die Sache gemeinsam mit Ihrem Partner (Teil 1).",
     "payload": {
-      "stimulus": "Sie planen mit Ihrem Kurs einen Ausflug. Sprechen Sie ueber Ziel, Datum, Anreise und Kosten — und reagieren Sie darauf, dass eine Person am Samstag arbeitet.",
+      "stimulus": "Sie planen mit Ihrem Kurs einen Ausflug. Sprechen Sie über Ziel, Datum, Anreise und Kosten — und reagieren Sie darauf, dass eine Person am Samstag arbeitet.",
       "criteria": [
-        "Vorschlaege machen",
+        "Vorschläge machen",
         "Auf den Partner eingehen",
-        "Zu einer gemeinsamen Loesung kommen"
+        "Zu einer gemeinsamen Lösung kommen"
       ],
       "minSeconds": 50
     },
@@ -29,14 +29,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 1 — Gemeinsam planen: Geschenk fuer die Kursleiterin",
+    "title": "Goethe B1, Teil 1 — Gemeinsam planen: Geschenk für die Kursleiterin",
     "prompt": "Planen Sie die Sache gemeinsam mit Ihrem Partner (Teil 1).",
     "payload": {
-      "stimulus": "Der Kurs endet und Sie moechten der Kursleiterin etwas schenken. Sprechen Sie ueber Idee, Betrag, wer es besorgt und wann Sie es uebergeben.",
+      "stimulus": "Der Kurs endet und Sie möchten der Kursleiterin etwas schenken. Sprechen Sie über Idee, Betrag, wer es besorgt und wann Sie es übergeben.",
       "criteria": [
-        "Vorschlaege machen",
+        "Vorschläge machen",
         "Auf den Partner eingehen",
-        "Zu einer gemeinsamen Loesung kommen"
+        "Zu einer gemeinsamen Lösung kommen"
       ],
       "minSeconds": 50
     },
@@ -56,9 +56,9 @@
     "payload": {
       "stimulus": "Ein Bekannter zieht um und Sie helfen zu zweit. Planen Sie: Zeit, Transport, Verpflegung und was Sie tun, wenn es regnet.",
       "criteria": [
-        "Vorschlaege machen",
+        "Vorschläge machen",
         "Auf den Partner eingehen",
-        "Zu einer gemeinsamen Loesung kommen"
+        "Zu einer gemeinsamen Lösung kommen"
       ],
       "minSeconds": 50
     },
@@ -73,14 +73,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 2 — Praesentation: Mein Weg zur Arbeit",
+    "title": "Goethe B1, Teil 2 — Präsentation: Mein Weg zur Arbeit",
     "prompt": "Stellen Sie das Thema Ihrem Partner vor (Teil 2).",
     "payload": {
-      "stimulus": "Stellen Sie vor, wie Sie zur Arbeit oder zum Kurs kommen: womit, wie lange, was gut und was muehsam ist — und was Sie aendern wuerden.",
+      "stimulus": "Stellen Sie vor, wie Sie zur Arbeit oder zum Kurs kommen: womit, wie lange, was gut und was mühsam ist — und was Sie ändern würden.",
       "criteria": [
         "Thema klar vorstellen",
         "Eigene Erfahrung einbauen",
-        "Zusammenhaengend sprechen"
+        "Zusammenhängend sprechen"
       ],
       "minSeconds": 90
     },
@@ -95,14 +95,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 2 — Praesentation: Ein Fest in meinem Herkunftsland",
+    "title": "Goethe B1, Teil 2 — Präsentation: Ein Fest in meinem Herkunftsland",
     "prompt": "Stellen Sie das Thema Ihrem Partner vor (Teil 2).",
     "payload": {
       "stimulus": "Stellen Sie ein Fest aus Ihrem Herkunftsland vor: wann es stattfindet, was man macht und isst, und was es Ihnen bedeutet.",
       "criteria": [
         "Thema klar vorstellen",
         "Eigene Erfahrung einbauen",
-        "Zusammenhaengend sprechen"
+        "Zusammenhängend sprechen"
       ],
       "minSeconds": 90
     },
@@ -117,14 +117,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 2 — Praesentation: Sprachen lernen im Alltag",
+    "title": "Goethe B1, Teil 2 — Präsentation: Sprachen lernen im Alltag",
     "prompt": "Stellen Sie das Thema Ihrem Partner vor (Teil 2).",
     "payload": {
       "stimulus": "Stellen Sie vor, wie Sie im Alltag Deutsch lernen: was Ihnen hilft, was schwierig ist, und was Sie anderen empfehlen.",
       "criteria": [
         "Thema klar vorstellen",
         "Eigene Erfahrung einbauen",
-        "Zusammenhaengend sprechen"
+        "Zusammenhängend sprechen"
       ],
       "minSeconds": 90
     },
@@ -139,14 +139,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 3 — Rueckfragen zur Praesentation: Arbeitsweg",
-    "prompt": "Sprechen Sie ueber die Praesentation, die Sie gerade gehoert haben (Teil 3).",
+    "title": "Goethe B1, Teil 3 — Rückfragen zur Präsentation: Arbeitsweg",
+    "prompt": "Sprechen Sie über die Präsentation, die Sie gerade gehört haben (Teil 3).",
     "payload": {
-      "stimulus": "Ihr Partner hat seinen Arbeitsweg vorgestellt. Stellen Sie zwei Rueckfragen, sagen Sie, wie es bei Ihnen ist, und vergleichen Sie.",
+      "stimulus": "Ihr Partner hat seinen Arbeitsweg vorgestellt. Stellen Sie zwei Rückfragen, sagen Sie, wie es bei Ihnen ist, und vergleichen Sie.",
       "criteria": [
-        "Rueckfragen stellen",
-        "Eigene Sicht ergaenzen",
-        "Hoeflich zustimmen oder widersprechen"
+        "Rückfragen stellen",
+        "Eigene Sicht ergänzen",
+        "Höflich zustimmen oder widersprechen"
       ],
       "minSeconds": 50
     },
@@ -161,14 +161,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 3 — Rueckfragen zur Praesentation: Fest",
-    "prompt": "Sprechen Sie ueber die Praesentation, die Sie gerade gehoert haben (Teil 3).",
+    "title": "Goethe B1, Teil 3 — Rückfragen zur Präsentation: Fest",
+    "prompt": "Sprechen Sie über die Präsentation, die Sie gerade gehört haben (Teil 3).",
     "payload": {
-      "stimulus": "Ihr Partner hat ein Fest vorgestellt. Fragen Sie nach Einzelheiten, erzaehlen Sie von einem aehnlichen Fest, und sagen Sie, was Sie ueberrascht hat.",
+      "stimulus": "Ihr Partner hat ein Fest vorgestellt. Fragen Sie nach Einzelheiten, erzählen Sie von einem ähnlichen Fest, und sagen Sie, was Sie überrascht hat.",
       "criteria": [
-        "Rueckfragen stellen",
-        "Eigene Sicht ergaenzen",
-        "Hoeflich zustimmen oder widersprechen"
+        "Rückfragen stellen",
+        "Eigene Sicht ergänzen",
+        "Höflich zustimmen oder widersprechen"
       ],
       "minSeconds": 50
     },
@@ -183,14 +183,14 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 3 — Rueckfragen zur Praesentation: Lernen",
-    "prompt": "Sprechen Sie ueber die Praesentation, die Sie gerade gehoert haben (Teil 3).",
+    "title": "Goethe B1, Teil 3 — Rückfragen zur Präsentation: Lernen",
+    "prompt": "Sprechen Sie über die Präsentation, die Sie gerade gehört haben (Teil 3).",
     "payload": {
-      "stimulus": "Ihr Partner hat erzaehlt, wie er Deutsch lernt. Fragen Sie nach, widersprechen Sie hoeflich an einer Stelle, und nennen Sie Ihre eigene Methode.",
+      "stimulus": "Ihr Partner hat erzählt, wie er Deutsch lernt. Fragen Sie nach, widersprechen Sie höflich an einer Stelle, und nennen Sie Ihre eigene Methode.",
       "criteria": [
-        "Rueckfragen stellen",
-        "Eigene Sicht ergaenzen",
-        "Hoeflich zustimmen oder widersprechen"
+        "Rückfragen stellen",
+        "Eigene Sicht ergänzen",
+        "Höflich zustimmen oder widersprechen"
       ],
       "minSeconds": 50
     },
@@ -208,7 +208,7 @@
     "title": "telc B1, Teil 1 — Kontaktaufnahme: Sich kennenlernen im Kurs",
     "prompt": "Lernen Sie Ihren Partner kennen (Teil 1).",
     "payload": {
-      "stimulus": "Sie treffen Ihren Pruefungspartner zum ersten Mal. Stellen Sie sich vor und fragen Sie nach Herkunft, Wohnort, Arbeit oder Studium und Freizeit.",
+      "stimulus": "Sie treffen Ihren Prüfungspartner zum ersten Mal. Stellen Sie sich vor und fragen Sie nach Herkunft, Wohnort, Arbeit oder Studium und Freizeit.",
       "criteria": [
         "Sich vorstellen",
         "Fragen an den Partner stellen",
@@ -230,7 +230,7 @@
     "title": "telc B1, Teil 1 — Kontaktaufnahme: Neu in der Gemeinde",
     "prompt": "Lernen Sie Ihren Partner kennen (Teil 1).",
     "payload": {
-      "stimulus": "Sie sind beide neu zugezogen. Stellen Sie sich vor und fragen Sie: seit wann hier, warum diese Gemeinde, wie der Alltag laeuft.",
+      "stimulus": "Sie sind beide neu zugezogen. Stellen Sie sich vor und fragen Sie: seit wann hier, warum diese Gemeinde, wie der Alltag läuft.",
       "criteria": [
         "Sich vorstellen",
         "Fragen an den Partner stellen",
@@ -249,12 +249,12 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "TELC",
-    "title": "telc B1, Teil 2 — Gespraech ueber ein Thema: Wohnen zur Miete",
-    "prompt": "Sprechen Sie mit Ihrem Partner ueber das Thema (Teil 2).",
+    "title": "telc B1, Teil 2 — Gespräch über ein Thema: Wohnen zur Miete",
+    "prompt": "Sprechen Sie mit Ihrem Partner über das Thema (Teil 2).",
     "payload": {
-      "stimulus": "Thema: Mieten oder kaufen? Sagen Sie Ihre Meinung, begruenden Sie sie mit einem Beispiel, und gehen Sie auf die Sicht Ihres Partners ein.",
+      "stimulus": "Thema: Mieten oder kaufen? Sagen Sie Ihre Meinung, begründen Sie sie mit einem Beispiel, und gehen Sie auf die Sicht Ihres Partners ein.",
       "criteria": [
-        "Meinung sagen und begruenden",
+        "Meinung sagen und begründen",
         "Auf den Partner eingehen",
         "Beispiel nennen"
       ],
@@ -271,12 +271,12 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
     "variant": "TELC",
-    "title": "telc B1, Teil 2 — Gespraech ueber ein Thema: Arbeiten von zu Hause",
-    "prompt": "Sprechen Sie mit Ihrem Partner ueber das Thema (Teil 2).",
+    "title": "telc B1, Teil 2 — Gespräch über ein Thema: Arbeiten von zu Hause",
+    "prompt": "Sprechen Sie mit Ihrem Partner über das Thema (Teil 2).",
     "payload": {
-      "stimulus": "Thema: Zu Hause arbeiten — Vorteil oder Nachteil? Sagen Sie Ihre Meinung mit Begruendung und reagieren Sie auf einen Einwand.",
+      "stimulus": "Thema: Zu Hause arbeiten — Vorteil oder Nachteil? Sagen Sie Ihre Meinung mit Begründung und reagieren Sie auf einen Einwand.",
       "criteria": [
-        "Meinung sagen und begruenden",
+        "Meinung sagen und begründen",
         "Auf den Partner eingehen",
         "Beispiel nennen"
       ],
@@ -296,10 +296,10 @@
     "title": "telc B1, Teil 3 — Gemeinsam planen: Kursabschluss feiern",
     "prompt": "Planen Sie die Sache gemeinsam (Teil 3).",
     "payload": {
-      "stimulus": "Ihr Kurs endet naechste Woche. Planen Sie zu zweit eine kleine Feier: wo, wann, Essen, Kosten — und was Sie tun, wenn nicht alle koennen.",
+      "stimulus": "Ihr Kurs endet nächste Woche. Planen Sie zu zweit eine kleine Feier: wo, wann, Essen, Kosten — und was Sie tun, wenn nicht alle können.",
       "criteria": [
-        "Vorschlaege machen",
-        "Einwaende beruecksichtigen",
+        "Vorschläge machen",
+        "Einwände berücksichtigen",
         "Gemeinsam entscheiden"
       ],
       "minSeconds": 50
@@ -315,13 +315,13 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
     "variant": "TELC",
-    "title": "telc B1, Teil 3 — Gemeinsam planen: Hilfe fuer eine Nachbarin",
+    "title": "telc B1, Teil 3 — Gemeinsam planen: Hilfe für eine Nachbarin",
     "prompt": "Planen Sie die Sache gemeinsam (Teil 3).",
     "payload": {
-      "stimulus": "Eine aeltere Nachbarin braucht nach einem Spitalaufenthalt Unterstuetzung. Planen Sie zu zweit, wer was uebernimmt und wie Sie sich abwechseln.",
+      "stimulus": "Eine ältere Nachbarin braucht nach einem Spitalaufenthalt Unterstützung. Planen Sie zu zweit, wer was übernimmt und wie Sie sich abwechseln.",
       "criteria": [
-        "Vorschlaege machen",
-        "Einwaende beruecksichtigen",
+        "Vorschläge machen",
+        "Einwände berücksichtigen",
         "Gemeinsam entscheiden"
       ],
       "minSeconds": 50

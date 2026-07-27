@@ -681,7 +681,7 @@
     "prompt": "Hören Sie den Text. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Herr Bytyqi: Du, ich habe die Säcke aus meiner alten Gemeinde noch. Kann ich die hier brauchen?\nFrau Lehmann: Nein, leider nicht. Jede Gemeinde hat ihre eigenen Säcke, und hier nehmen sie nur die von hier mit. Deine bleiben stehen.\nHerr Bytyqi: Und was mache ich mit den alten?\nFrau Lehmann: Frag am Schalter nach. Manche Gemeinden tauschen sie um, andere nicht — das ist überall anders geregelt.",
-      "question": "Aussage: Laut Frau Lehmann tauschen alle Gemeinden alte Säcke um.",
+      "question": "Aussage: Manche Gemeinden tauschen alte Säcke um, andere nicht.",
       "options": [
         "Richtig",
         "Falsch"
@@ -689,7 +689,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -1499,7 +1499,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Guten Tag Herr Demir, hier ist die Quartierbibliothek. Wir erinnern Sie daran, dass Ihr Buch am Freitag zurück muss. Sie können es bei uns abgeben oder in den Rückgabekasten beim Eingang legen, auch ausserhalb der Öffnungszeiten. Wenn Sie es länger brauchen, rufen Sie uns an; oft können wir die Frist verlängern. Danke und einen schönen Tag.",
-      "question": "Aussage: Laut der Nachricht kann Herr Demir das Buch nur während der Öffnungszeiten zurückgeben.",
+      "question": "Aussage: Herr Demir kann das Buch auch ausserhalb der Öffnungszeiten zurückgeben.",
       "options": [
         "Richtig",
         "Falsch"
@@ -1507,7 +1507,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -2267,7 +2267,7 @@
     "prompt": "Hören Sie die Ansage. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Liebe Kundinnen und Kunden, an unserem Stand gibt es heute frische Erdbeeren im Angebot: zwei Schalen zum Preis von einer. Und wer einen Salat kauft, bekommt einen Bund Radieschen dazu. Das Angebot gilt nur heute, solange der Vorrat reicht. Kommen Sie vorbei!",
-      "question": "Aussage: Laut der Ansage gilt das Angebot für die Erdbeeren die ganze Woche.",
+      "question": "Aussage: Das Angebot für die Erdbeeren gilt nur heute.",
       "options": [
         "Richtig",
         "Falsch"
@@ -2275,7 +2275,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -3035,7 +3035,7 @@
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
       "transcript": "Hallo, hier ist Sara von oben. Ich wollte nur kurz Bescheid geben: Am Samstag habe ich Geburtstag und feiere mit ein paar Freunden bei mir. Es kann etwas lauter werden, aber wir hören um elf Uhr auf. Ich hoffe, das ist okay für dich. Wenn es stört, sag mir einfach Bescheid. Danke!",
-      "question": "Aussage: Laut der Nachricht feiert Sara bis spät in die Nacht ohne Ende.",
+      "question": "Aussage: Sara und ihre Freunde hören um elf Uhr auf.",
       "options": [
         "Richtig",
         "Falsch"
@@ -3043,7 +3043,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },

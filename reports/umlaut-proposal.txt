@@ -1,0 +1,255 @@
+TELC/GOETHE GERMAN — UMLAUT RESTORATION, PROPOSED TOKEN BY TOKEN
+
+125 distinct token(s) containing ae / oe / ue across the four bundles.
+
+NOT a find-replace. ae→ä would corrupt dauert, neue, einbauen, Steueramt — genuine
+German where those letters meet. Each token is proposed separately, and the evidence is
+the rest of the bank: 4276 distinct correctly-spelled German words from the
+German bundles that were NOT authored this way.
+
+   89  proposed restoration, attested elsewhere in the bank
+    3  leave as written — real German, the letters just meet
+   33  OPEN — the bank cannot settle it, marked "?" for you
+
+Edit the '→' column in reports/umlaut-decided.json. apply-umlauts.mts reads THAT file,
+never this classifier, so nothing lands in the bank that you have not looked at.
+
+==============================================================================
+
+OPEN — need your call
+
+  aehnlichen             → ? ähnlichen
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Fragen Sie nach Einzelheiten, erzaehlen Sie von einem aehnlichen Fest, und sagen Sie, was Sie ueberrascht hat.",…
+
+  Aenderung              → ? Änderung
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Ihr Anliegen, (2) Ihre heutige Situation, (3) ab wann die Aenderung gelten soll, (4) welche Unterlagen Sie brauchen.",…
+
+  Aeste                  → ? Äste
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …stellen Sie die Behaelter bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.",…
+
+  Bahnhoefen             → ? Bahnhöfen
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …und Olten vom 3. bis 7. Juni kein Zug. Zwischen den beiden Bahnhoefen verkehren Busse. Die Fahrt dauert rund 20 Minuten laenger.…
+
+  Begruendungen          → ? Begründungen
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Meinung klar formuliert", "Mindestens zwei Begruendungen", "Bezug auf den Beitrag im Forum",…
+
+  beruecksichtigen       → ? berücksichtigen
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …[ "Vorschlaege machen", "Einwaende beruecksichtigen", "Gemeinsam entscheiden" ],…
+
+  Betreuerin             → ? Betreuerin
+     UNATTESTED — the bank cannot settle this one; 0 possible restoration(s)
+     …ein dreiwoechiges Praktikum beendet. Schreiben Sie Ihrer Betreuerin: wofuer Sie sich bedanken, was Sie gelernt haben, und wie…
+
+  dreiwoechiges          → ? dreiwöchiges
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …1).", "payload": { "stimulus": "Sie haben ein dreiwoechiges Praktikum beendet. Schreiben Sie Ihrer Betreuerin: wofuer…
+
+  einbauen               → ? einbauen
+     UNATTESTED — the bank cannot settle this one; 0 possible restoration(s)
+     …"Thema klar vorstellen", "Eigene Erfahrung einbauen", "Zusammenhaengend sprechen" ],…
+
+  ergaenzen              → ? ergänzen
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …[ "Rueckfragen stellen", "Eigene Sicht ergaenzen", "Hoeflich zustimmen oder widersprechen"…
+
+  Fruehlingsmarkt        → ? Frühlingsmarkt
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"transcript": "Am Samstag findet auf dem Dorfplatz der Fruehlingsmarkt statt. Der Platz ist ab 6 Uhr fuer den Verkehr gesperrt.…
+
+  Fruehlingssaison       → ? Frühlingssaison
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Antwort.", "payload": { "passage": "Fuer die Fruehlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent, von Maerz bis…
+
+  geloest                → ? gelöst
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …das Billett?", "options": [ "Es muss neu geloest werden", "Es kostet heute weniger", "Es…
+
+  Goethe                 → ? Göthe
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"CORE", "variant": "GOETHE", "title": "Goethe B1, Teil 1 — Gemeinsam planen: Ausflug der Klasse",…
+
+  Gruezi                 → ? Grüzi
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Antwort.", "payload": { "transcript": "Gruezi, hier ist der Hauswart. Am Montag kommt der Sanitaer wegen…
+
+  haeufiger              → ? häufiger
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …7. Juni?", "options": [ "Die Zuege fahren haeufiger", "Busse ersetzen den Zug auf dieser Strecke",…
+
+  Hardbruecke            → ? Hardbrücke
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"payload": { "transcript": "Naechster Halt: Zuerich Hardbruecke. Reisende nach Winterthur steigen bitte hier um. Der…
+
+  hoechstens             → ? höchstens
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …die Behaelter bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.", "question": "Aussage: Die…
+
+  kuerzer                → ? kürzer
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …ist ganz gesperrt", "Die Fahrt ist 20 Minuten kuerzer" ] }, "answer": { "type":…
+
+  Laeden                 → ? Läden
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"GOETHE", "title": "Goethe B1, Teil 2 — Forum: Sollen Laeden am Sonntag oeffnen?", "prompt": "Schreiben Sie einen…
+
+  Maengel                → ? Mängel
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"TELC", "title": "telc B1 — Brief: Wohnung, Maengel melden", "prompt": "Schreiben Sie einen Brief und…
+
+  Mehrjaehrige           → ? Mehrjährige
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Deutschkenntnisse und Freude am Kundenkontakt", "Mehrjaehrige Erfahrung im Gartenbau", "Eine abgeschlossene…
+
+  muehsam                → ? mühsam
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …oder zum Kurs kommen: womit, wie lange, was gut und was muehsam ist — und was Sie aendern wuerden.", "criteria": […
+
+  oeffentlicher          → ? öffentlicher
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"title": "Goethe B1, Teil 2 — Forum: Velo oder oeffentlicher Verkehr?", "prompt": "Schreiben Sie einen…
+
+  persoenliche           → ? persönliche
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Umzug in die Schweiz", "prompt": "Schreiben Sie eine persoenliche E-Mail (Teil 1).", "payload": { "stimulus":…
+
+  Praesentation          → ? Präsentation
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"variant": "GOETHE", "title": "Goethe B1, Teil 2 — Praesentation: Mein Weg zur Arbeit", "prompt": "Stellen Sie das…
+
+  Pruefungspartner       → ? Prüfungspartner
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"payload": { "stimulus": "Sie treffen Ihren Pruefungspartner zum ersten Mal. Stellen Sie sich vor und fragen Sie nach…
+
+  Rueckgaben             → ? Rückgaben
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …Bitte bringen Sie Ihre Buecher zur Ausleihe. Rueckgaben koennen Sie jederzeit in die Box vor dem Eingang legen.",…
+
+  spaeten                → ? späten
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"Am Wochenende", "Einmal pro Woche am spaeten Nachmittag", "Zweimal pro Woche am Morgen"…
+
+  unveraendert           → ? unverändert
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …neue Police gilt ab dem 1. Januar. Die Franchise bleibt unveraendert bei 500 Franken. Die Praemie steigt um 12 Franken pro…
+
+  verspaeteter           → ? verspäteter
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …einmal moeglich, wenn das Buch nicht reserviert ist. Bei verspaeteter Rueckgabe verrechnen wir 50 Rappen pro Tag und Medium.",…
+
+  vollstaendig           → ? vollständig
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"Hoefliche, halbformelle Form", "Kurz und vollstaendig" ], "charBand": { "min": 180,…
+
+  zurueckfahren          → ? zurückfahren
+     UNATTESTED — the bank cannot settle this one; 1 possible restoration(s)
+     …"Im Zug bleiben", "Acht Minuten warten und zurueckfahren", "Auf Gleis 8 gehen" ] },…
+
+
+==============================================================================
+
+PROPOSED RESTORATION
+
+  aeltere                → ältere                 ×1
+  aendern                → ändern                 ×2
+  Anfaenger              → Anfänger               ×1
+  angekuendigt           → angekündigt            ×2
+  ankuendigen            → ankündigen             ×1
+  ausfuellen             → ausfüllen              ×1
+  begruenden             → begründen              ×4
+  Begruendung            → Begründung             ×1
+  Behaelter              → Behälter               ×2
+  Behoerden              → Behörden               ×1
+  Berufstaetige          → Berufstätige           ×1
+  Bestaetigung           → Bestätigung            ×1
+  Buecher                → Bücher                 ×2
+  Buero                  → Büro                   ×2
+  dafuer                 → dafür                  ×2
+  Dafuer                 → Dafür                  ×1
+  duerfen                → dürfen                 ×2
+  Einkaeufe              → Einkäufe               ×1
+  Einwaende              → Einwände               ×2
+  erhoeht                → erhöht                 ×1
+  erzaehlen              → erzählen               ×1
+  erzaehlt               → erzählt                ×1
+  faehrt                 → fährt                  ×3
+  faellt                 → fällt                  ×2
+  frueher                → früher                 ×1
+  fuer                   → für                    ×10
+  Fuer                   → Für                    ×6
+  Gaeste                 → Gäste                  ×1
+  gehoert                → gehört                 ×3
+  geoeffnet              → geöffnet               ×1
+  Gespraech              → Gespräch               ×2
+  Gruenabfuhr            → Grünabfuhr             ×2
+  Gruesse                → Grüsse                 ×2
+  gueltig                → gültig                 ×2
+  hoeflich               → höflich                ×1
+  Hoeflich               → Höflich                ×3
+  Hoefliche              → Höfliche               ×3
+  koennen                → können                 ×4
+  Koennen                → Können                 ×1
+  Koennten               → Könnten                ×1
+  Kueche                 → Küche                  ×1
+  laenger                → länger                 ×1
+  laeuft                 → läuft                  ×1
+  Loesung                → Lösung                 ×3
+  Maerz                  → März                   ×1
+  moechte                → möchte                 ×1
+  moechten               → möchten                ×7
+  moeglich               → möglich                ×1
+  moegliche              → mögliche               ×1
+  muessen                → müssen                 ×2
+  naechste               → nächste                ×1
+  Naechster              → Nächster               ×1
+  oeffnen                → öffnen                 ×2
+  Parkplaetze            → Parkplätze             ×1
+  persoenlichen          → persönlichen           ×1
+  Persoenlicher          → Persönlicher           ×3
+  Praemie                → Prämie                 ×1
+  Rueckfragen            → Rückfragen             ×7
+  Rueckgabe              → Rückgabe               ×2
+  Sanitaer               → Sanitär                ×2
+  schlaegt               → schlägt                ×1
+  Schluessel             → Schlüssel              ×2
+  spaeter                → später                 ×2
+  Stoerung               → Störung                ×2
+  taeglich               → täglich                ×1
+  tatsaechlich           → tatsächlich            ×1
+  ueben                  → üben                   ×1
+  ueber                  → über                   ×9
+  uebergeben             → übergeben              ×1
+  uebernimmt             → übernimmt              ×1
+  ueberrascht            → überrascht             ×1
+  Unterstuetzung         → Unterstützung          ×1
+  Verbindungswoerter     → Verbindungswörter      ×3
+  Verfuegbarkeit         → Verfügbarkeit          ×1
+  verlaengert            → verlängert             ×1
+  Verlaengerung          → Verlängerung           ×1
+  Verspaetung            → Verspätung             ×2
+  Verstaendnis           → Verständnis            ×1
+  Vorschlaege            → Vorschläge             ×5
+  Waehlen                → Wählen                 ×18
+  wofuer                 → wofür                  ×1
+  Wohnungstuer           → Wohnungstür            ×2
+  wuerden                → würden                 ×2
+  Zuege                  → Züge                   ×1
+  Zuerich                → Zürich                 ×1
+  zurueck                → zurück                 ×1
+  zurueckgeben           → zurückgeben            ×1
+  Zusammenhaengend       → Zusammenhängend        ×3
+  Zusammenhaengender     → Zusammenhängender      ×3
+
+
+==============================================================================
+
+LEAVE AS WRITTEN
+
+  dauert                 (real German)   ×3
+  neue                   (real German)   ×1
+  neuen                  (real German)   ×2

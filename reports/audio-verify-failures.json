@@ -1,0 +1,118 @@
+[
+ {
+  "stem": "delf-tcf-french-listening--message-je-viens-te-chercher",
+  "lang": "FR",
+  "title": "Message : je viens te chercher",
+  "recall": 0.786,
+  "missing": [
+   "prends",
+   "quart",
+   "tes"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "audio correct — PROVEN: medium transcribes 'Prends tes chaussures de marche' exactly. 'prends tes' is a near-homophone of 'trente et' for the small model."
+ },
+ {
+  "stem": "delf-tcf-french-listening--meteo-du-week-end",
+  "lang": "FR",
+  "title": "Météo du week-end",
+  "recall": 0.789,
+  "missing": [
+   "degrés",
+   "est",
+   "mais",
+   "nuageux"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "audio correct — PROVEN: the medium model transcribes 'nuageux mais il ne pleut pas avec 15 degrés' exactly. The small confirm model mis-heard it."
+ },
+ {
+  "stem": "fide-french-listening--annonce-dans-le-parking",
+  "lang": "FR",
+  "title": "Annonce dans le parking",
+  "recall": 0.783,
+  "missing": [
+   "cette",
+   "chers",
+   "chères",
+   "clientes",
+   "clients"
+  ],
+  "classification": "SOURCE TEXT",
+  "reason": "audio faithful to the text, but TWO independent models hear 'avant cette heure' as 'avant sept heures'. In an announcement about a closing time that is a real ambiguity a candidate could also mishear. Recommend re-authoring the line, then re-rendering — not an audio fault."
+ },
+ {
+  "stem": "fide-french-listening--message-d-un-collegue-manger-a-midi",
+  "lang": "FR",
+  "title": "Message d'un collègue : manger à midi",
+  "recall": 0.833,
+  "missing": [
+   "pause",
+   "room",
+   "tea"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "'ma pause'->'ma peau' (near-homophone) and 'tea-room'->'tiroum' (an English loanword read with French phonetics, written back phonetically). Swiss French uses tea-room; the word is correct."
+ },
+ {
+  "stem": "fide-german-listening--einladung-zur-gemeindeversammlung",
+  "lang": "DE",
+  "title": "Einladung zur Gemeindeversammlung",
+  "recall": 0.848,
+  "missing": [
+   "apéro",
+   "elften",
+   "gemeindeversammlung",
+   "mehrzweckhalle",
+   "stimmberechtigt",
+   "stimmrecht",
+   "traktandiert"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "Swiss administrative vocabulary and compound splitting: 'Gemeindeversammlung'->'Gemeindever sammlung' (present, spaced), Traktandiert, Mehrzweckhalle, Apero. Nothing missing from the audio."
+ },
+ {
+  "stem": "fide-german-listening--vier-ansagen-im-quartier",
+  "lang": "DE",
+  "title": "Vier Ansagen im Quartier",
+  "recall": 0.84,
+  "missing": [
+   "dem",
+   "dieser",
+   "erdgeschoss",
+   "gemeindehaus",
+   "geputzt",
+   "geteert",
+   "melden",
+   "parkieren"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "Helvetisms and low-frequency verbs: parkieren->partieren, zuegeln, geteert->getaert, Erdgeschoss->Edgeschoss, geputzt->gepotzt. The vocabulary is right for Switzerland and poorly modelled by a German-German ASR."
+ },
+ {
+  "stem": "getting-started-french-listening--annonce-au-magasin",
+  "lang": "FR",
+  "title": "Annonce au magasin",
+  "recall": 0.812,
+  "missing": [
+   "aux",
+   "caisses",
+   "chères"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "ASR morphology only: 'Cheres clientes'->'Chers clientes', 'aux caisses'->'au caisse'. Every word is spoken; gender and number are collapsed in transcription."
+ },
+ {
+  "stem": "getting-started-french-listening--la-meteo-a-la-radio",
+  "lang": "FR",
+  "title": "La météo à la radio",
+  "recall": 0.842,
+  "missing": [
+   "cet",
+   "degrés",
+   "midi"
+  ],
+  "classification": "ACCEPTED",
+  "reason": "'douze degres' transcribed as '12 deg' — the degree sign carries no word token, so the word scores as missing. Pure notation."
+ }
+]

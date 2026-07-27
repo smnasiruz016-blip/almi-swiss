@@ -1,0 +1,297 @@
+[
+ {
+  "stem": "delf-tcf-french-listening--annonce-a-l-aeroport",
+  "lang": "FR",
+  "title": "Annonce à l'aéroport",
+  "recall": 0.833,
+  "missing": [
+   "cent",
+   "heures",
+   "quarante",
+   "seize"
+  ]
+ },
+ {
+  "stem": "delf-tcf-french-listening--message-je-viens-te-chercher",
+  "lang": "FR",
+  "title": "Message : je viens te chercher",
+  "recall": 0.733,
+  "missing": [
+   "heures",
+   "prends",
+   "quart",
+   "tes"
+  ]
+ },
+ {
+  "stem": "delf-tcf-french-listening--meteo-du-week-end",
+  "lang": "FR",
+  "title": "Météo du week-end",
+  "recall": 0.75,
+  "missing": [
+   "degrés",
+   "est",
+   "mais",
+   "nuageux",
+   "quinze"
+  ]
+ },
+ {
+  "stem": "fide-c-permit-french-listening--annonce-a-l-atelier",
+  "lang": "FR",
+  "title": "Annonce à l'atelier",
+  "recall": 0.81,
+  "missing": [
+   "demie",
+   "heures",
+   "onze",
+   "treize"
+  ]
+ },
+ {
+  "stem": "fide-c-permit-french-listening--au-guichet-de-la-poste",
+  "lang": "FR",
+  "title": "Au guichet de la poste",
+  "recall": 0.789,
+  "missing": [
+   "cinquante",
+   "colis",
+   "portugal",
+   "trente"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--annonce-a-la-gare-train-supprime",
+  "lang": "FR",
+  "title": "Annonce à la gare : train supprimé",
+  "recall": 0.762,
+  "missing": [
+   "16h20",
+   "aux",
+   "information",
+   "quai",
+   "voyageurs"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--annonce-dans-le-parking",
+  "lang": "FR",
+  "title": "Annonce dans le parking",
+  "recall": 0.76,
+  "missing": [
+   "cette",
+   "chers",
+   "chères",
+   "clientes",
+   "clients",
+   "heure"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--annonce-dans-le-train-quai",
+  "lang": "FR",
+  "title": "Annonce dans le train : quai",
+  "recall": 0.824,
+  "missing": [
+   "15h10",
+   "part",
+   "quai"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--appel-reporter-un-rendez-vous-chez-le-coiffeur",
+  "lang": "FR",
+  "title": "Appel : reporter un rendez-vous chez le coiffeur",
+  "recall": 0.833,
+  "missing": [
+   "10h",
+   "14h",
+   "déplacer",
+   "irait"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--message-d-un-collegue-manger-a-midi",
+  "lang": "FR",
+  "title": "Message d'un collègue : manger à midi",
+  "recall": 0.842,
+  "missing": [
+   "pause",
+   "room",
+   "tea"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--message-de-l-ecole-sortie-a-la-piscine",
+  "lang": "FR",
+  "title": "Message de l'école : sortie à la piscine",
+  "recall": 0.844,
+  "missing": [
+   "16h",
+   "jeudi",
+   "nique",
+   "pique",
+   "secrétariat"
+  ]
+ },
+ {
+  "stem": "fide-french-listening--message-de-la-voisine-colis",
+  "lang": "FR",
+  "title": "Message de la voisine : colis",
+  "recall": 0.84,
+  "missing": [
+   "dès",
+   "heures",
+   "madame",
+   "perret"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--anruf-einen-handwerker-bestellen",
+  "lang": "DE",
+  "title": "Anruf: einen Handwerker bestellen",
+  "recall": 0.784,
+  "missing": [
+   "bei",
+   "dann",
+   "eimer",
+   "frau",
+   "gut",
+   "hahn",
+   "küchenschrank",
+   "nowak",
+   "passt",
+   "sanitär"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--gesprach-das-wochenende-planen",
+  "lang": "DE",
+  "title": "Gespräch: das Wochenende planen",
+  "recall": 0.844,
+  "missing": [
+   "frau",
+   "herr",
+   "kern",
+   "lang",
+   "schaue",
+   "stimmt",
+   "wandern"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--gesprach-ein-geschenk-aussuchen",
+  "lang": "DE",
+  "title": "Gespräch: ein Geschenk aussuchen",
+  "recall": 0.827,
+  "missing": [
+   "alba",
+   "chefin",
+   "dazugeben",
+   "fotobuch",
+   "frau",
+   "herr",
+   "pension",
+   "reto",
+   "schenken"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--gesprach-eine-fahrgemeinschaft-abmachen",
+  "lang": "DE",
+  "title": "Gespräch: eine Fahrgemeinschaft abmachen",
+  "recall": 0.711,
+  "missing": [
+   "abgemacht",
+   "benzin",
+   "costa",
+   "fahren",
+   "frau",
+   "herr",
+   "meier",
+   "perfekt",
+   "spart",
+   "viertel"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--gesprach-einen-deutschkurs-auswahlen",
+  "lang": "DE",
+  "title": "Gespräch: einen Deutschkurs auswählen",
+  "recall": 0.812,
+  "missing": [
+   "diallo",
+   "frau",
+   "gute",
+   "herr",
+   "idee",
+   "kurt",
+   "melde",
+   "nicht",
+   "weisst"
+  ]
+ },
+ {
+  "stem": "fide-german-listening--vier-personen-uber-ihre-gemeinde",
+  "lang": "DE",
+  "title": "Vier Personen über ihre Gemeinde",
+  "recall": 0.827,
+  "missing": [
+   "ana",
+   "drago",
+   "gemeindehaus",
+   "heisst",
+   "lina",
+   "marco",
+   "müsste",
+   "nützt",
+   "ohne",
+   "turnverein"
+  ]
+ },
+ {
+  "stem": "getting-started-french-listening--annonce-au-magasin",
+  "lang": "FR",
+  "title": "Annonce au magasin",
+  "recall": 0.824,
+  "missing": [
+   "aux",
+   "caisses",
+   "chères"
+  ]
+ },
+ {
+  "stem": "getting-started-french-listening--la-meteo-a-la-radio",
+  "lang": "FR",
+  "title": "La météo à la radio",
+  "recall": 0.8,
+  "missing": [
+   "cet",
+   "degrés",
+   "douze",
+   "midi"
+  ]
+ },
+ {
+  "stem": "telc-goethe-german-listening--ansage-im-bus",
+  "lang": "DE",
+  "title": "Ansage im Bus",
+  "recall": 0.842,
+  "missing": [
+   "achtung",
+   "billett",
+   "gültig"
+  ]
+ },
+ {
+  "stem": "telc-goethe-german-listening--ansage-im-zug",
+  "lang": "DE",
+  "title": "Ansage im Zug",
+  "recall": 0.812,
+  "missing": [
+   "halt",
+   "hardbrücke",
+   "nächster"
+  ]
+ }
+]

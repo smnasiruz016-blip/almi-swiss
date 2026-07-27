@@ -1,0 +1,263 @@
+GETTING-STARTED — PROPOSED CEFR LEVELS (rubric v2: task complexity, not length)
+
+Proposed by rule. NOT written to the bank. A '?' means the signals were mixed.
+
+== french-listening ==
+  A1   MCQ_SINGLE       Annonce au magasin
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Un message de Sara
+         a single short message, 0 data point(s) — one concrete fact
+  A1   TRUE_FALSE       La météo à la radio
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       À la caisse
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       La voisine sonne
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Le cabinet appelle
+         a single short message, 1 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Le prix au marché : nonante
+         a single short message, 0 data point(s) — one concrete fact
+  A1   TRUE_FALSE       Message du concierge
+         a single short message, 1 data point(s) — one concrete fact
+  A2   MATCHING         Quatre messages courts
+         MATCHING — a task about more than one fact
+  A1   MCQ_SINGLE       Le chemin de la poste
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Information au cours
+         a single short message, 2 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Quelque chose contre le rhume
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Le premier jour de travail
+         a single short message, 0 data point(s) — one concrete fact
+  A1   TRUE_FALSE       Septante, nonante — et huitante ?
+         a single short message, 0 data point(s) — one concrete fact
+  A2   MCQ_SINGLE       Deux collègues parlent du trajet
+         6-turn exchange — understanding a short conversation
+
+== french-reading ==
+  A2   MCQ_SINGLE       Les heures d'ouverture de la boulangerie
+         7 competing data points — find specific info among more
+  A1   MCQ_SINGLE       Un SMS d'une amie
+         a single short note or sign, 1 data point(s) — one concrete fact
+  A2   TRUE_FALSE       Le planning de la buanderie
+         9 competing data points — find specific info among more
+  A2   MATCHING         Où est-ce que j'achète ça ?
+         MATCHING — a task about more than one fact
+  A2   MCQ_SINGLE       Un mot dans la cage d'escalier
+         4 competing data points — find specific info among more
+  A2   MCQ_SINGLE       L'horaire du bus
+         4 competing data points — find specific info among more
+  A2   CLOZE            Un mot à la cheffe
+         CLOZE — a task about more than one fact
+  A2   MCQ_SINGLE       Une action au magasin
+         7 competing data points — find specific info among more
+  A1   TRUE_FALSE       Un mot du voisin
+         a single short note or sign, 2 data point(s) — one concrete fact
+  A2   ORDERING         Téléphoner au cabinet médical
+         ORDERING — a task about more than one fact
+  A2   MCQ_SINGLE       Les déchets dans le quartier
+         3 competing data points — find specific info among more
+  A2   MCQ_SINGLE       Une lettre de l'école
+         4 competing data points — find specific info among more
+  A2   CLOZE            L'horaire de travail
+         CLOZE — a task about more than one fact
+  A2   MCQ_SINGLE       Annonce : chambre à louer
+         4 competing data points — find specific info among more
+  A2   MATCHING         Qui peut aider ?
+         MATCHING — a task about more than one fact
+
+== french-speaking ==
+  A1   SPEAKING_PROMPT  Dire bonjour
+         greet, introduce or a basic need (30s)
+  A1   SPEAKING_PROMPT  Acheter quelque chose
+         greet, introduce or a basic need (30s)
+  A1   SPEAKING_PROMPT  Votre famille
+         greet, introduce or a basic need (30s)
+  A2   SPEAKING_PROMPT  Demander son chemin
+         an everyday transaction or description (30s)
+  A2   SPEAKING_PROMPT  Votre matinée
+         RESOLVED A2 — the criteria require sequencing connectors and a structured description
+  A2   SPEAKING_PROMPT  Prendre rendez-vous au téléphone
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Chez le médecin : qu'est-ce que vous avez ?
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Décrire une pièce
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Échanger un article
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Emprunter quelque chose
+         RESOLVED A2 — the criteria require a transaction or request
+  A2   SPEAKING_PROMPT  Plus lentement, s'il vous plaît
+         RESOLVED A2 — the criteria require a transaction or request
+  A2   SPEAKING_PROMPT  Parler de son travail
+         RESOLVED A2 — the criteria require sequencing connectors and a stated reason
+  A2   SPEAKING_PROMPT  Expliquer quelque chose
+         an everyday transaction or description (50s)
+  A1   SPEAKING_PROMPT  Comparer : ville ou campagne
+         greet, introduce or a basic need (50s)
+  A2   SPEAKING_PROMPT  Clarifier un malentendu
+         an everyday transaction or description (50s)
+
+== french-writing ==
+  A1   WRITING_PROMPT   Se présenter en quelques mots
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Une liste de courses en phrases
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   SMS : j'arrive plus tard
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Formulaire : quelques questions
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Un mot pour le voisin
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A2   WRITING_PROMPT   Courriel : prendre rendez-vous
+         RESOLVED A2 — the criteria require a transaction or request
+  A2   WRITING_PROMPT   Écrire une invitation
+         an email, letter or explanation (200-420) — connected text
+  A2   WRITING_PROMPT   Message à l'enseignante du cours
+         the criteria ask for linked sentences (200-420) — connected text
+  A2   WRITING_PROMPT   Raconter son week-end
+         RESOLVED A2 — the criteria require a structured description and a transaction or request
+  A2   WRITING_PROMPT   Vendre quelque chose
+         RESOLVED A2 — the criteria require a structured description
+  A2   WRITING_PROMPT   Remercier pour un coup de main
+         RESOLVED A2 — the criteria require a transaction or request
+  A2   WRITING_PROMPT   Courriel à la régie : une lampe ne marche plus
+         RESOLVED A2 — the criteria require a structured description and a transaction or request
+  A2   WRITING_PROMPT   Répondre à une invitation des voisins
+         an email, letter or explanation (300-560) — connected text
+  A1   WRITING_PROMPT   Petit message pour un extra le week-end
+         RESOLVED A1 — satisfiable with simple isolated personal sentences, no linking required
+  A2   WRITING_PROMPT   Raconter une excursion
+         the criteria ask for linked sentences (300-560) — connected text
+
+== german-listening ==
+  A1   MCQ_SINGLE       Ansage im Laden
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Eine Nachricht von Sara
+         a single short message, 0 data point(s) — one concrete fact
+  A1   TRUE_FALSE       Das Wetter am Radio
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       An der Kasse
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Die Nachbarin klingelt
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Anruf von der Praxis
+         a single short message, 1 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Durchsage im Zug
+         a single short message, 1 data point(s) — one concrete fact
+  A1   TRUE_FALSE       Nachricht vom Hauswart
+         a single short message, 0 data point(s) — one concrete fact
+  A2   MATCHING         Vier kurze Nachrichten
+         MATCHING — a task about more than one fact
+  A1   MCQ_SINGLE       Der Weg zur Post
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Im Kurs: Information
+         a single short message, 2 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Etwas gegen die Erkältung holen
+         a single short message, 0 data point(s) — one concrete fact
+  A1   MCQ_SINGLE       Der erste Arbeitstag
+         a single short message, 0 data point(s) — one concrete fact
+  A1   TRUE_FALSE       Mundart und Hochdeutsch
+         a single short message, 0 data point(s) — one concrete fact
+  A2   MCQ_SINGLE       Zwei Kolleginnen sprechen über den Weg zur Arbeit
+         6-turn exchange — understanding a short conversation
+
+== german-reading ==
+  A2   MCQ_SINGLE       Öffnungszeiten der Bäckerei
+         7 competing data points — find specific info among more
+  A1   MCQ_SINGLE       SMS von einer Freundin
+         a single short note or sign, 1 data point(s) — one concrete fact
+  A2   TRUE_FALSE       Plan in der Waschküche
+         9 competing data points — find specific info among more
+  A2   MATCHING         Wo kaufe ich was?
+         MATCHING — a task about more than one fact
+  A2   MCQ_SINGLE       Ein Zettel im Treppenhaus
+         4 competing data points — find specific info among more
+  A2   MCQ_SINGLE       Der Busfahrplan
+         6 competing data points — find specific info among more
+  A2   CLOZE            Eine kurze Nachricht an die Chefin
+         CLOZE — a task about more than one fact
+  A2   MCQ_SINGLE       Angebot im Laden
+         7 competing data points — find specific info among more
+  A1   TRUE_FALSE       Zettel vom Nachbarn
+         a single short note or sign, 2 data point(s) — one concrete fact
+  A2   ORDERING         Beim Arzt anrufen
+         ORDERING — a task about more than one fact
+  A2   MCQ_SINGLE       Abfall im Quartier
+         3 competing data points — find specific info among more
+  A2   MCQ_SINGLE       Brief von der Schule
+         4 competing data points — find specific info among more
+  A2   CLOZE            Der Arbeitsplan
+         CLOZE — a task about more than one fact
+  A2   MCQ_SINGLE       Anzeige: Zimmer zu vermieten
+         4 competing data points — find specific info among more
+  A2   MATCHING         Wer hilft hier?
+         MATCHING — a task about more than one fact
+
+== german-speaking ==
+  A1   SPEAKING_PROMPT  Guten Tag sagen
+         greet, introduce or a basic need (30s)
+  A1   SPEAKING_PROMPT  Etwas kaufen
+         greet, introduce or a basic need (30s)
+  A1   SPEAKING_PROMPT  Ihre Familie
+         greet, introduce or a basic need (30s)
+  A2   SPEAKING_PROMPT  Nach dem Weg fragen
+         an everyday transaction or description (30s)
+  A2   SPEAKING_PROMPT  Ihr Tag
+         RESOLVED A2 — the criteria require sequencing connectors and a structured description
+  A2   SPEAKING_PROMPT  Einen Termin am Telefon abmachen
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Beim Arzt: Was haben Sie?
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Ein Zimmer beschreiben
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Etwas umtauschen
+         an everyday transaction or description (40s)
+  A2   SPEAKING_PROMPT  Etwas ausleihen
+         RESOLVED A2 — the criteria require a stated reason
+  A2   SPEAKING_PROMPT  Bitte langsamer
+         RESOLVED A2 — the criteria require a transaction or request
+  A2   SPEAKING_PROMPT  Über Ihre Arbeit erzählen
+         RESOLVED A2 — the criteria require sequencing connectors and a structured description
+  A2   SPEAKING_PROMPT  Etwas erklären
+         an everyday transaction or description (50s)
+  A1   SPEAKING_PROMPT  Vergleichen: Stadt oder Dorf
+         greet, introduce or a basic need (50s)
+  A2   SPEAKING_PROMPT  Ein Missverständnis klären
+         an everyday transaction or description (50s)
+
+== german-writing ==
+  A1   WRITING_PROMPT   Sich kurz vorstellen
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Einkaufszettel mit Sätzen
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   SMS: Ich komme später
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Formular: Angaben zur Person
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A1   WRITING_PROMPT   Zettel für den Nachbarn
+         a self-introduction, note, SMS or form (100-250) — simple isolated sentences
+  A2   WRITING_PROMPT   E-Mail: Termin abmachen
+         an email, letter or explanation (200-420) — connected text
+  A2   WRITING_PROMPT   Eine Einladung schreiben
+         an email, letter or explanation (200-420) — connected text
+  A2   WRITING_PROMPT   Nachricht an die Lehrerin
+         the criteria ask for linked sentences (200-420) — connected text
+  A2   WRITING_PROMPT   Über das Wochenende schreiben
+         an email, letter or explanation (200-420) — connected text
+  A1   WRITING_PROMPT   Etwas verkaufen
+         a self-introduction, note, SMS or form (200-420) — simple isolated sentences
+  A2   WRITING_PROMPT   Sich für Hilfe bedanken
+         RESOLVED A2 — the criteria require a stated reason and a transaction or request
+  A2   WRITING_PROMPT   E-Mail an die Verwaltung: eine Lampe ist kaputt
+         an email, letter or explanation (300-560) — connected text
+  A2   WRITING_PROMPT   Auf eine Einladung antworten
+         an email, letter or explanation (300-560) — connected text
+  A1   WRITING_PROMPT   Kurze Bewerbung als Aushilfe
+         a self-introduction, note, SMS or form (300-560) — simple isolated sentences
+  A2   WRITING_PROMPT   Einen Ausflug beschreiben
+         an email, letter or explanation (300-560) — connected text
+
+TALLY
+  A1   51
+  A2   69
