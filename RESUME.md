@@ -110,6 +110,44 @@ wired and playable; only `payload.audioUrl` changed anywhere; no line-ending sty
 CV5: the false positives were a fault in the audit check itself (`almi-audit`), not in this
 bank. No change was required here, and none was made.
 
+## Canton civic — AUDITED & VERIFIED ACCURATE 2026-07-27
+
+The 30 `CANTON_CIVIC::KNOWLEDGE` items (15 DE + 15 FR, item-for-item parallel) were checked
+by beta-g against official Swiss sources — ch.ch, admin.ch, SEM. **Factually correct and
+honestly framed. No content change was required, and none was made.**
+
+Spot-checks that carried the most risk, all confirmed:
+
+- **"There is no single national civics test"** (DE/FR items 5 and 15) — matches the SEM
+  position exactly. This is the claim the module's honesty rests on: it tells the candidate
+  their result is practice, and that the commune decides whether there is a test, an
+  interview, or nothing.
+- **Institution numbers** (the MATCHING item) — National Council **200**, Council of States
+  **46**, Federal Council **7**, Switzerland **26** cantons. `100 Mitglieder`/`100 membres`
+  and `4 Bundesgerichte`/`4 tribunaux fédéraux` are **unmatched distractors, not errors**.
+- **Popular initiative 100,000 / 18 months** and **optional referendum 50,000 / 100 days**.
+
+**Not time-sensitive.** Nothing names a current office-holder or a dated vote — the module
+tests stable structural facts, so it carries no living-content rot risk and needs no
+periodic re-check.
+
+Provenance lives in **`AlmiSwiss_Civic_Reference.md` (beta-g)**. NOTE: that file is not in
+this repo as of 2026-07-27 — do not go looking for it here.
+
+### Two open items on canton civic
+
+1. **The bank carries no per-item `source` field.** Every fact is verified but nothing in
+   the data records where it came from. Provenance is deliberately kept in the reference
+   doc rather than added to the schema, per the `audioUrl` lesson: a payload key that no
+   renderer reads is worse than none — `verify-items` rejects it, and adding the key to
+   `KNOWN_PAYLOAD_KEYS` to get past that turns a real gate into a rubber stamp. Add a
+   `source` field only if the product will actually render citations.
+2. **`cefr = null` on all 30 — a pending decision for Nasir, not a gap.** The 120-item
+   CEFR pass covered `getting-started` only. These are KNOWLEDGE items and already carry a
+   difficulty axis (FOUNDATION / CORE / STRETCH); CEFR describes *language* proficiency,
+   which a civic-knowledge question is not obviously measuring. Leaving them CEFR-null may
+   be correct-by-design. Decide it rather than backfilling it.
+
 ## Audio
 
 340 clips, **330 match their transcript** (hardened sweep, 2026-07-27). Threshold **0.85,
