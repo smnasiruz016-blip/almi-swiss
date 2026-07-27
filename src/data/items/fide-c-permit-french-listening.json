@@ -159,14 +159,14 @@
       "transcript": "Appel 1 : Bonjour, ici le service du personnel. Il nous manque encore votre nouvelle adresse pour la fiche de salaire.\n\nAppel 2 : Salut, c'est moi, Luca. Je suis malade, tu peux dire au chef que je ne viens pas aujourd'hui ?\n\nAppel 3 : Bonjour, ici l'entreprise Keller. La livraison arrive une heure plus tard que prévu.\n\nAppel 4 : Bonjour, ici le centre de cours. Votre cours de français commence une semaine plus tard, il reste encore des places.",
       "left": ["Appel 1", "Appel 2", "Appel 3", "Appel 4"],
       "right": [
-        "Quelqu'un a besoin d'une information de votre part",
         "Quelqu'un s'annonce malade",
+        "Quelqu'un a besoin d'une information de votre part",
         "Une livraison est repoussée",
-        "Un cours commence plus tard",
-        "Quelqu'un démissionne"
+        "Quelqu'un démissionne",
+        "Un cours commence plus tard"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 0], [2, 2], [3, 4]] },
     "maxPoints": 4
   },
   {

@@ -6,6 +6,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Annonce au magasin",
     "prompt": "Écoutez l'annonce et choisissez la bonne réponse.",
     "payload": {
@@ -23,6 +24,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Un message de Sara",
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
@@ -40,6 +42,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "La météo à la radio",
     "prompt": "Écoutez la météo. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
@@ -57,6 +60,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "À la caisse",
     "prompt": "Écoutez la vendeuse et choisissez la bonne réponse.",
     "payload": {
@@ -74,6 +78,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "La voisine sonne",
     "prompt": "Écoutez la voisine et choisissez la bonne réponse.",
     "payload": {
@@ -91,6 +96,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Le cabinet appelle",
     "prompt": "Écoutez le message et choisissez la bonne réponse.",
     "payload": {
@@ -108,6 +114,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Le prix au marché : nonante",
     "prompt": "Écoutez le marchand et choisissez la bonne réponse.",
     "payload": {
@@ -125,6 +132,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Message du concierge",
     "prompt": "Écoutez le message. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
@@ -142,6 +150,7 @@
     "skill": "LISTENING",
     "taskType": "MATCHING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Quatre messages courts",
     "prompt": "Écoutez les quatre messages et associez chacun à son sujet.",
     "payload": {
@@ -149,14 +158,14 @@
       "transcript": "Message 1 : Bonjour, ici le garage Currat. Votre voiture est prête. Vous pouvez venir la chercher dès demain.\n\nMessage 2 : Bonjour, ici la bibliothèque. Votre livre est arrivé. Nous le gardons une semaine pour vous.\n\nMessage 3 : Salut, c'est moi. Tu peux acheter du pain ? Il n'y en a plus. Merci !\n\nMessage 4 : Bonjour, ici l'école. Votre fille a oublié sa veste. Elle est au secrétariat.",
       "left": ["Message 1", "Message 2", "Message 3", "Message 4"],
       "right": [
-        "Quelque chose est réparé et peut être récupéré",
         "Une commande est arrivée",
         "Quelqu'un demande de faire une course",
+        "Un rendez-vous est annulé",
         "Un enfant a oublié quelque chose",
-        "Un rendez-vous est annulé"
+        "Quelque chose est réparé et peut être récupéré"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 0], [2, 1], [3, 3]] },
     "maxPoints": 4
   },
   {
@@ -166,6 +175,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Le chemin de la poste",
     "prompt": "Écoutez la réponse et choisissez la bonne réponse.",
     "payload": {
@@ -188,6 +198,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Information au cours",
     "prompt": "Écoutez l'information et choisissez la bonne réponse.",
     "payload": {
@@ -210,6 +221,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Quelque chose contre le rhume",
     "prompt": "Écoutez la pharmacienne et choisissez la bonne réponse.",
     "payload": {
@@ -232,6 +244,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Le premier jour de travail",
     "prompt": "Écoutez le chef et choisissez la bonne réponse.",
     "payload": {
@@ -254,6 +267,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Septante, nonante — et huitante ?",
     "prompt": "Écoutez la formatrice. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
@@ -271,6 +285,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Deux collègues parlent du trajet",
     "prompt": "Écoutez la conversation et choisissez la bonne réponse.",
     "payload": {

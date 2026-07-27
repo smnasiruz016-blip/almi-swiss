@@ -6,6 +6,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Guten Tag sagen",
     "prompt": "Sprechen Sie mindestens 30 Sekunden.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Etwas kaufen",
     "prompt": "Sprechen Sie mindestens 30 Sekunden.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Ihre Familie",
     "prompt": "Sprechen Sie mindestens 30 Sekunden.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Nach dem Weg fragen",
     "prompt": "Sprechen Sie mindestens 30 Sekunden.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Ihr Tag",
     "prompt": "Sprechen Sie mindestens 30 Sekunden.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Einen Termin am Telefon abmachen",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -138,6 +144,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Beim Arzt: Was haben Sie?",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -160,6 +167,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Ein Zimmer beschreiben",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -182,6 +190,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Etwas umtauschen",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -204,6 +213,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Etwas ausleihen",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -226,6 +236,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Bitte langsamer",
     "prompt": "Sprechen Sie mindestens 40 Sekunden.",
     "payload": {
@@ -248,6 +259,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Über Ihre Arbeit erzählen",
     "prompt": "Sprechen Sie mindestens 50 Sekunden.",
     "payload": {
@@ -271,6 +283,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Etwas erklären",
     "prompt": "Sprechen Sie mindestens 50 Sekunden.",
     "payload": {
@@ -294,6 +307,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Vergleichen: Stadt oder Dorf",
     "prompt": "Sprechen Sie mindestens 50 Sekunden.",
     "payload": {
@@ -317,6 +331,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Ein Missverständnis klären",
     "prompt": "Sprechen Sie mindestens 50 Sekunden.",
     "payload": {

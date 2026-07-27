@@ -6,6 +6,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Les heures d'ouverture de la boulangerie",
     "prompt": "Lisez le panneau et choisissez la bonne réponse.",
     "payload": {
@@ -23,6 +24,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Un SMS d'une amie",
     "prompt": "Lisez le message et choisissez la bonne réponse.",
     "payload": {
@@ -40,6 +42,7 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Le planning de la buanderie",
     "prompt": "Lisez le planning. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
@@ -57,14 +60,15 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Où est-ce que j'achète ça ?",
     "prompt": "Associez chaque chose au bon endroit.",
     "payload": {
       "instructions": "Associez. Tous les endroits ne sont pas utilisés.",
       "left": ["Du pain", "Des médicaments", "Des timbres", "Un billet de train"],
-      "right": ["La boulangerie", "La pharmacie", "La poste", "La gare", "La buanderie"]
+      "right": ["La buanderie", "La gare", "La poste", "La pharmacie", "La boulangerie"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 3], [2, 2], [3, 1]] },
     "maxPoints": 4
   },
   {
@@ -74,6 +78,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Un mot dans la cage d'escalier",
     "prompt": "Lisez le mot et choisissez la bonne réponse.",
     "payload": {
@@ -96,6 +101,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "L'horaire du bus",
     "prompt": "Lisez l'horaire et choisissez la bonne réponse.",
     "payload": {
@@ -113,6 +119,7 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Un mot à la cheffe",
     "prompt": "Lisez le message et choisissez le mot qui convient pour chaque lacune.",
     "payload": {
@@ -133,6 +140,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Une action au magasin",
     "prompt": "Lisez le panneau et choisissez la bonne réponse.",
     "payload": {
@@ -150,6 +158,7 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Un mot du voisin",
     "prompt": "Lisez le mot. L'affirmation est-elle vraie ou fausse ?",
     "payload": {
@@ -167,19 +176,20 @@
     "skill": "READING",
     "taskType": "ORDERING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Téléphoner au cabinet médical",
     "prompt": "Mettez les étapes dans le bon ordre.",
     "payload": {
       "instructions": "Vous prenez rendez-vous chez le médecin. Classez de la première à la dernière étape.",
       "items": [
+        "Aller au cabinet le jour du rendez-vous",
         "Téléphoner au cabinet",
-        "Dire votre nom",
         "Dire ce que vous avez",
-        "Convenir d'un rendez-vous",
-        "Aller au cabinet le jour du rendez-vous"
+        "Dire votre nom",
+        "Convenir d'un rendez-vous"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": { "type": "ORDERING", "order": [1, 3, 2, 4, 0] },
     "maxPoints": 1
   },
   {
@@ -189,6 +199,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Les déchets dans le quartier",
     "prompt": "Lisez l'information et choisissez la bonne réponse.",
     "payload": {
@@ -211,6 +222,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Une lettre de l'école",
     "prompt": "Lisez la lettre et choisissez la bonne réponse.",
     "payload": {
@@ -233,6 +245,7 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "L'horaire de travail",
     "prompt": "Lisez le texte et choisissez le mot qui convient pour chaque lacune.",
     "payload": {
@@ -253,6 +266,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Annonce : chambre à louer",
     "prompt": "Lisez l'annonce et choisissez la bonne réponse.",
     "payload": {
@@ -275,6 +289,7 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Qui peut aider ?",
     "prompt": "Associez chaque situation au bon endroit.",
     "payload": {
@@ -286,15 +301,15 @@
         "Monsieur Tran a perdu son porte-monnaie dans le bus."
       ],
       "right": [
+        "La bibliothèque",
         "Le dentiste",
         "Le concierge ou la régie",
-        "Une école de langue ou l'université populaire",
         "Les objets trouvés",
         "La boulangerie",
-        "La bibliothèque"
+        "Une école de langue ou l'université populaire"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 2], [2, 5], [3, 3]] },
     "maxPoints": 4
   }
 ]

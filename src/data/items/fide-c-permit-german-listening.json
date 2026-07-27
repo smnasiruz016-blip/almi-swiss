@@ -159,14 +159,14 @@
       "transcript": "Anruf 1: Guten Tag, hier ist die Personalabteilung. Wir brauchen noch Ihre neue Adresse für die Lohnabrechnung.\n\nAnruf 2: Hoi, ich bin's, Luca. Ich bin krank, kannst du dem Chef sagen, dass ich heute nicht komme?\n\nAnruf 3: Guten Tag, hier ist die Firma Keller. Die Lieferung kommt eine Stunde später als abgemacht.\n\nAnruf 4: Guten Tag, hier ist das Kurszentrum. Ihr Deutschkurs beginnt eine Woche später, weil noch Plätze frei sind.",
       "left": ["Anruf 1", "Anruf 2", "Anruf 3", "Anruf 4"],
       "right": [
-        "Jemand braucht eine Angabe von Ihnen",
-        "Jemand meldet sich krank",
-        "Eine Lieferung verschiebt sich",
         "Ein Kurs beginnt später",
-        "Jemand kündigt"
+        "Eine Lieferung verschiebt sich",
+        "Jemand meldet sich krank",
+        "Jemand kündigt",
+        "Jemand braucht eine Angabe von Ihnen"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 2], [2, 1], [3, 0]] },
     "maxPoints": 4
   },
   {

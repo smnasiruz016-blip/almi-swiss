@@ -249,11 +249,11 @@
         "Message 4"
       ],
       "right": [
-        "Un rappel de rendez-vous",
-        "Quelque chose à rendre en retard",
         "Un colis gardé par quelqu'un d'autre",
+        "Une facture impayée",
+        "Un rappel de rendez-vous",
         "Un document manquant dans un dossier",
-        "Une facture impayée"
+        "Quelque chose à rendre en retard"
       ]
     },
     "answer": {
@@ -261,15 +261,15 @@
       "pairs": [
         [
           0,
-          0
+          2
         ],
         [
           1,
-          1
+          4
         ],
         [
           2,
-          2
+          0
         ],
         [
           3,

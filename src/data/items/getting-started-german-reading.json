@@ -6,6 +6,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Öffnungszeiten der Bäckerei",
     "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
     "payload": {
@@ -23,6 +24,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "SMS von einer Freundin",
     "prompt": "Lesen Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
@@ -40,6 +42,7 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Plan in der Waschküche",
     "prompt": "Lesen Sie den Plan. Ist die Aussage richtig oder falsch?",
     "payload": {
@@ -57,14 +60,15 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Wo kaufe ich was?",
     "prompt": "Ordnen Sie zu: Wo bekommen Sie das?",
     "payload": {
       "instructions": "Ordnen Sie jede Sache dem richtigen Ort zu. Nicht alle Orte werden gebraucht.",
       "left": ["Brot", "Medikamente", "Briefmarken", "Ein Zugbillett"],
-      "right": ["Bäckerei", "Apotheke", "Post", "Bahnhof", "Waschküche"]
+      "right": ["Bäckerei", "Waschküche", "Apotheke", "Bahnhof", "Post"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 2], [2, 4], [3, 3]] },
     "maxPoints": 4
   },
   {
@@ -74,6 +78,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A2",
     "title": "Ein Zettel im Treppenhaus",
     "prompt": "Lesen Sie den Zettel und wählen Sie die richtige Antwort.",
     "payload": {
@@ -96,6 +101,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Der Busfahrplan",
     "prompt": "Lesen Sie den Fahrplan und wählen Sie die richtige Antwort.",
     "payload": {
@@ -113,6 +119,7 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Eine kurze Nachricht an die Chefin",
     "prompt": "Lesen Sie die Nachricht und wählen Sie für jede Lücke das passende Wort.",
     "payload": {
@@ -133,6 +140,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Angebot im Laden",
     "prompt": "Lesen Sie das Schild und wählen Sie die richtige Antwort.",
     "payload": {
@@ -150,6 +158,7 @@
     "skill": "READING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Zettel vom Nachbarn",
     "prompt": "Lesen Sie den Zettel. Ist die Aussage richtig oder falsch?",
     "payload": {
@@ -167,19 +176,20 @@
     "skill": "READING",
     "taskType": "ORDERING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Beim Arzt anrufen",
     "prompt": "Bringen Sie die Schritte in die richtige Reihenfolge.",
     "payload": {
       "instructions": "Sie machen einen Termin beim Arzt. Ordnen Sie von zuerst bis zuletzt.",
       "items": [
-        "In der Praxis anrufen",
         "Ihren Namen sagen",
-        "Sagen, was Sie haben",
+        "In der Praxis anrufen",
         "Einen Termin abmachen",
-        "Am Termin in die Praxis gehen"
+        "Am Termin in die Praxis gehen",
+        "Sagen, was Sie haben"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": { "type": "ORDERING", "order": [1, 0, 4, 2, 3] },
     "maxPoints": 1
   },
   {
@@ -189,6 +199,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Abfall im Quartier",
     "prompt": "Lesen Sie die Information und wählen Sie die richtige Antwort.",
     "payload": {
@@ -211,6 +222,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Brief von der Schule",
     "prompt": "Lesen Sie den Brief und wählen Sie die richtige Antwort.",
     "payload": {
@@ -233,6 +245,7 @@
     "skill": "READING",
     "taskType": "CLOZE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Der Arbeitsplan",
     "prompt": "Lesen Sie den Text und wählen Sie für jede Lücke das passende Wort.",
     "payload": {
@@ -253,6 +266,7 @@
     "skill": "READING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Anzeige: Zimmer zu vermieten",
     "prompt": "Lesen Sie die Anzeige und wählen Sie die richtige Antwort.",
     "payload": {
@@ -275,6 +289,7 @@
     "skill": "READING",
     "taskType": "MATCHING",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Wer hilft hier?",
     "prompt": "Ordnen Sie jede Situation der richtigen Stelle zu.",
     "payload": {
@@ -286,15 +301,15 @@
         "Herr Tran hat sein Portemonnaie im Bus verloren."
       ],
       "right": [
-        "Zahnarzt",
-        "Hauswart oder Verwaltung",
         "Volkshochschule oder Kursanbieter",
-        "Fundbüro",
         "Bäckerei",
-        "Bibliothek"
+        "Fundbüro",
+        "Bibliothek",
+        "Zahnarzt",
+        "Hauswart oder Verwaltung"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 5], [2, 0], [3, 2]] },
     "maxPoints": 4
   }
 ]

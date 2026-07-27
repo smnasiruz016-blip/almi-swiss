@@ -120,11 +120,11 @@
         "Eine leere Konservendose"
       ],
       "right": [
-        "PET-Sammlung",
-        "Papiersammlung",
         "Glassammlung",
+        "Sonderabfall in der Apotheke",
         "Metall- und Alusammlung",
-        "Sonderabfall in der Apotheke"
+        "Papiersammlung",
+        "PET-Sammlung"
       ]
     },
     "answer": {
@@ -132,19 +132,19 @@
       "pairs": [
         [
           0,
-          0
+          4
         ],
         [
           1,
-          1
+          3
         ],
         [
           2,
-          2
+          0
         ],
         [
           3,
-          3
+          2
         ]
       ]
     },
@@ -300,21 +300,21 @@
     "payload": {
       "instructions": "Familie Nkemelu zieht um. Ordnen Sie die Schritte vom ersten bis zum letzten.",
       "items": [
-        "Die Kündigung schriftlich und fristgerecht an die Verwaltung schicken",
         "Einen Termin für die Wohnungsabgabe vereinbaren",
         "Die Wohnung reinigen und kleine Schäden reparieren",
+        "Die Schlüssel übergeben",
         "Die Wohnung gemeinsam mit der Verwaltung abnehmen und das Protokoll unterschreiben",
-        "Die Schlüssel übergeben"
+        "Die Kündigung schriftlich und fristgerecht an die Verwaltung schicken"
       ]
     },
     "answer": {
       "type": "ORDERING",
       "order": [
+        4,
         0,
         1,
-        2,
         3,
-        4
+        2
       ]
     },
     "maxPoints": 1
@@ -478,11 +478,11 @@
       ],
       "right": [
         "Einwohnerdienste der Gemeinde",
-        "Konsumentenschutz-Beratungsstelle",
-        "Schlichtungsbehörde in Mietsachen",
-        "Sekretariat der Wohngemeinde für Einbürgerungen",
         "Kantonspolizei",
-        "Betreibungsamt"
+        "Konsumentenschutz-Beratungsstelle",
+        "Betreibungsamt",
+        "Schlichtungsbehörde in Mietsachen",
+        "Sekretariat der Wohngemeinde für Einbürgerungen"
       ]
     },
     "answer": {
@@ -494,15 +494,15 @@
         ],
         [
           1,
-          1
-        ],
-        [
-          2,
           2
         ],
         [
+          2,
+          4
+        ],
+        [
           3,
-          3
+          5
         ]
       ]
     },
@@ -787,9 +787,9 @@
       "instructions": "Herr Camara möchte ein Gesuch einreichen. Ordnen Sie die Schritte vom ersten bis zum letzten.",
       "items": [
         "Auf der Website der Gemeinde nachsehen, welche Unterlagen verlangt werden",
-        "Die fehlenden Dokumente bestellen und sammeln",
-        "Das Formular ausfüllen und unterschreiben",
         "Das Gesuch mit den Unterlagen am Schalter abgeben",
+        "Das Formular ausfüllen und unterschreiben",
+        "Die fehlenden Dokumente bestellen und sammeln",
         "Die Empfangsbestätigung aufbewahren"
       ]
     },
@@ -797,9 +797,9 @@
       "type": "ORDERING",
       "order": [
         0,
-        1,
-        2,
         3,
+        2,
+        1,
         4
       ]
     },
@@ -874,11 +874,11 @@
         "Frau Bianchi will für ein Fest die Strasse kurz sperren lassen."
       ],
       "right": [
-        "Abmeldung",
-        "Wohnsitzbestätigung",
-        "Anmeldung Kindergarten",
         "Gesuch für eine Veranstaltung",
-        "Steuererklärung"
+        "Abmeldung",
+        "Anmeldung Kindergarten",
+        "Steuererklärung",
+        "Wohnsitzbestätigung"
       ]
     },
     "answer": {
@@ -886,11 +886,11 @@
       "pairs": [
         [
           0,
-          0
+          1
         ],
         [
           1,
-          1
+          4
         ],
         [
           2,
@@ -898,7 +898,7 @@
         ],
         [
           3,
-          3
+          0
         ]
       ]
     },
@@ -1086,11 +1086,11 @@
         "Ob Ihr Gesuch am Ende angenommen wird"
       ],
       "right": [
-        "Der Bund",
-        "Kanton und Gemeinde",
-        "Die anerkannte Prüfungsstelle",
+        "Der Sprachkurs, den Sie besuchen",
         "Ihre Wohngemeinde und der Kanton",
-        "Der Sprachkurs, den Sie besuchen"
+        "Die anerkannte Prüfungsstelle",
+        "Kanton und Gemeinde",
+        "Der Bund"
       ]
     },
     "answer": {
@@ -1098,11 +1098,11 @@
       "pairs": [
         [
           0,
-          0
+          4
         ],
         [
           1,
-          1
+          3
         ],
         [
           2,
@@ -1110,7 +1110,7 @@
         ],
         [
           3,
-          3
+          1
         ]
       ]
     },

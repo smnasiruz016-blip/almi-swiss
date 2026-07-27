@@ -121,11 +121,11 @@
         "Mitteilung vier"
       ],
       "right": [
-        "Jemand kommt zu spät",
-        "Eine Sendung liegt zur Abholung bereit",
-        "Eine Reparatur ist erledigt",
         "Eine Unterbrechung im Haus",
-        "Eine Einladung zum Essen"
+        "Jemand kommt zu spät",
+        "Eine Einladung zum Essen",
+        "Eine Reparatur ist erledigt",
+        "Eine Sendung liegt zur Abholung bereit"
       ]
     },
     "answer": {
@@ -133,19 +133,19 @@
       "pairs": [
         [
           0,
-          0
-        ],
-        [
-          1,
           1
         ],
         [
+          1,
+          4
+        ],
+        [
           2,
-          2
+          3
         ],
         [
           3,
-          3
+          0
         ]
       ]
     },
@@ -241,20 +241,20 @@
       "transcript": "Also, vom Bahnhof aus ist es ganz einfach. Sie gehen zuerst durch die Unterführung auf die andere Seite. Dann nehmen Sie den Bus Nummer 4 bis zur Haltestelle Dorfplatz. Dort steigen Sie aus und gehen geradeaus weiter bis zur Kirche. Bei der Kirche biegen Sie links ab, und nach etwa hundert Metern sehen Sie das Gemeindehaus auf der rechten Seite. Es ist das gelbe Gebäude.",
       "instructions": "Ordnen Sie die Schritte vom ersten bis zum letzten.",
       "items": [
-        "Durch die Unterführung auf die andere Seite gehen",
+        "Bei der Kirche links abbiegen",
         "Mit dem Bus Nummer 4 bis zum Dorfplatz fahren",
         "Geradeaus bis zur Kirche gehen",
-        "Bei der Kirche links abbiegen",
+        "Durch die Unterführung auf die andere Seite gehen",
         "Nach hundert Metern das gelbe Gebäude rechts finden"
       ]
     },
     "answer": {
       "type": "ORDERING",
       "order": [
-        0,
+        3,
         1,
         2,
-        3,
+        0,
         4
       ]
     },
@@ -408,12 +408,12 @@
         "Pavel"
       ],
       "right": [
-        "Die Planungskultur war die grössere Umstellung als die Sprache",
-        "Ein Verein hat die Kontakte deutlich beschleunigt",
-        "Wichtige Informationen bekam sie nur durch Zufall",
         "Der Dialekt ist die Hürde, nicht das Deutsch an sich",
-        "Die Arbeit zu finden war der schwierigste Teil",
-        "Die Kosten waren höher als erwartet"
+        "Ein Verein hat die Kontakte deutlich beschleunigt",
+        "Die Planungskultur war die grössere Umstellung als die Sprache",
+        "Die Kosten waren höher als erwartet",
+        "Wichtige Informationen bekam sie nur durch Zufall",
+        "Die Arbeit zu finden war der schwierigste Teil"
       ]
     },
     "answer": {
@@ -421,7 +421,7 @@
       "pairs": [
         [
           0,
-          0
+          2
         ],
         [
           1,
@@ -429,11 +429,11 @@
         ],
         [
           2,
-          2
+          4
         ],
         [
           3,
-          3
+          0
         ]
       ]
     },
@@ -791,11 +791,11 @@
         "Ansage vier"
       ],
       "right": [
+        "Eine Strasse wird für immer gesperrt",
         "Man soll das Auto woanders parkieren",
-        "Ein Ort ist wegen eines Umzugs zu",
         "Eine Reinigung, Kinder sollen wegbleiben",
-        "Es werden Helferinnen und Helfer gesucht",
-        "Eine Strasse wird für immer gesperrt"
+        "Ein Ort ist wegen eines Umzugs zu",
+        "Es werden Helferinnen und Helfer gesucht"
       ]
     },
     "answer": {
@@ -803,11 +803,11 @@
       "pairs": [
         [
           0,
-          0
+          1
         ],
         [
           1,
-          1
+          3
         ],
         [
           2,
@@ -815,7 +815,7 @@
         ],
         [
           3,
-          3
+          4
         ]
       ]
     },
@@ -969,11 +969,11 @@
         "Marco"
       ],
       "right": [
-        "Niemand hat ihr gesagt, dass man einfach fragen kann",
         "Informationen nützen nichts, wenn man das Suchwort nicht kennt",
-        "Im Verein kann man fragen, ohne dass es peinlich ist",
+        "Die Gemeinde sollte mehr Briefe verschicken",
         "Auch Einheimische verstehen die Briefe nicht",
-        "Die Gemeinde sollte mehr Briefe verschicken"
+        "Niemand hat ihr gesagt, dass man einfach fragen kann",
+        "Im Verein kann man fragen, ohne dass es peinlich ist"
       ]
     },
     "answer": {
@@ -981,19 +981,19 @@
       "pairs": [
         [
           0,
-          0
+          3
         ],
         [
           1,
-          1
+          0
         ],
         [
           2,
-          2
+          4
         ],
         [
           3,
-          3
+          2
         ]
       ]
     },

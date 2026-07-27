@@ -6,6 +6,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Ansage im Laden",
     "prompt": "Hören Sie die Ansage und wählen Sie die richtige Antwort.",
     "payload": {
@@ -23,6 +24,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Eine Nachricht von Sara",
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
@@ -40,6 +42,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Das Wetter am Radio",
     "prompt": "Hören Sie den Wetterbericht. Ist die Aussage richtig oder falsch?",
     "payload": {
@@ -57,6 +60,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "An der Kasse",
     "prompt": "Hören Sie die Verkäuferin und wählen Sie die richtige Antwort.",
     "payload": {
@@ -74,6 +78,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Die Nachbarin klingelt",
     "prompt": "Hören Sie die Nachbarin und wählen Sie die richtige Antwort.",
     "payload": {
@@ -91,6 +96,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Anruf von der Praxis",
     "prompt": "Hören Sie die Nachricht und wählen Sie die richtige Antwort.",
     "payload": {
@@ -108,6 +114,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Durchsage im Zug",
     "prompt": "Hören Sie die Durchsage und wählen Sie die richtige Antwort.",
     "payload": {
@@ -130,6 +137,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Nachricht vom Hauswart",
     "prompt": "Hören Sie die Nachricht. Ist die Aussage richtig oder falsch?",
     "payload": {
@@ -147,6 +155,7 @@
     "skill": "LISTENING",
     "taskType": "MATCHING",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Vier kurze Nachrichten",
     "prompt": "Hören Sie die vier Nachrichten und ordnen Sie jede dem richtigen Thema zu.",
     "payload": {
@@ -154,14 +163,14 @@
       "transcript": "Nachricht 1: Hallo, hier ist die Garage Studer. Ihr Auto ist fertig. Sie können es ab morgen holen.\n\nNachricht 2: Guten Tag, hier ist die Bibliothek. Ihr Buch ist da. Wir behalten es eine Woche für Sie.\n\nNachricht 3: Hoi, ich bin's. Kannst du Brot kaufen? Wir haben keines mehr. Danke!\n\nNachricht 4: Guten Tag, hier ist die Schule. Ihre Tochter hat ihre Jacke vergessen. Sie ist im Sekretariat.",
       "left": ["Nachricht 1", "Nachricht 2", "Nachricht 3", "Nachricht 4"],
       "right": [
-        "Etwas ist repariert und kann geholt werden",
         "Etwas Bestelltes ist angekommen",
+        "Ein Termin fällt aus",
         "Jemand bittet um einen Einkauf",
         "Ein Kind hat etwas liegen lassen",
-        "Ein Termin fällt aus"
+        "Etwas ist repariert und kann geholt werden"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 0], [2, 2], [3, 3]] },
     "maxPoints": 4
   },
   {
@@ -171,6 +180,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Der Weg zur Post",
     "prompt": "Hören Sie die Antwort und wählen Sie die richtige Antwort.",
     "payload": {
@@ -193,6 +203,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Im Kurs: Information",
     "prompt": "Hören Sie die Information und wählen Sie die richtige Antwort.",
     "payload": {
@@ -215,6 +226,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Etwas gegen die Erkältung holen",
     "prompt": "Hören Sie die Apothekerin und wählen Sie die richtige Antwort.",
     "payload": {
@@ -237,6 +249,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Der erste Arbeitstag",
     "prompt": "Hören Sie den Chef und wählen Sie die richtige Antwort.",
     "payload": {
@@ -259,6 +272,7 @@
     "skill": "LISTENING",
     "taskType": "TRUE_FALSE",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Mundart und Hochdeutsch",
     "prompt": "Hören Sie die Kursleiterin. Ist die Aussage richtig oder falsch?",
     "payload": {
@@ -276,6 +290,7 @@
     "skill": "LISTENING",
     "taskType": "MCQ_SINGLE",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Zwei Kolleginnen sprechen über den Weg zur Arbeit",
     "prompt": "Hören Sie das Gespräch und wählen Sie die richtige Antwort.",
     "payload": {

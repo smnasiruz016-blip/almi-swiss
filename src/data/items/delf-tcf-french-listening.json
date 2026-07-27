@@ -164,15 +164,15 @@
       "transcript": "Personne 1 : J'aime cuisiner, mais seulement le week-end. En semaine, je n'ai tout simplement pas le temps.\n\nPersonne 2 : J'ai commencé la guitare à cinquante ans. Tout le monde disait que j'étais trop vieux pour ça. Moi je trouve qu'il n'est jamais trop tard.\n\nPersonne 3 : Je cours tous les matins, par tous les temps. Pas parce que c'est amusant, mais parce qu'après, je vais mieux toute la journée.\n\nPersonne 4 : Je peins, mais je ne le montre à personne. C'est seulement pour moi. Si je devais le montrer, ça ne me plairait plus.",
       "left": ["Personne 1", "Personne 2", "Personne 3", "Personne 4"],
       "right": [
-        "N'a du temps pour son loisir que le week-end",
+        "A repris le loisir de ses parents",
         "A commencé tard et trouve que ce n'est pas un problème",
+        "N'a du temps pour son loisir que le week-end",
         "Le fait pour l'effet après, pas pour le plaisir",
         "Veut garder son loisir pour elle",
-        "Gagne de l'argent avec son loisir",
-        "A repris le loisir de ses parents"
+        "Gagne de l'argent avec son loisir"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 1], [2, 3], [3, 4]] },
     "maxPoints": 4
   },
   {

@@ -127,9 +127,9 @@
     "payload": {
       "instructions": "Faites correspondre. Tous les chiffres ne sont pas utilisés.",
       "left": ["Le Conseil national compte …", "Le Conseil des États compte …", "Le Conseil fédéral compte …", "La Suisse compte …"],
-      "right": ["200 membres", "46 membres", "7 membres", "26 cantons", "4 tribunaux fédéraux", "100 membres"]
+      "right": ["26 cantons", "7 membres", "100 membres", "4 tribunaux fédéraux", "46 membres", "200 membres"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 5], [1, 4], [2, 1], [3, 0]] },
     "maxPoints": 4
   },
   {
