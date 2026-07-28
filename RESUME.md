@@ -195,6 +195,67 @@ will still meet four 404s.
    the append-only appendix above. Working citations now exist for every fact the EDA/FDFA
    and SEM pages cover; the remaining four name their authority without a URL, on purpose.
 
+## Productive scoring — STAGED, awaiting Nasir's GREEN
+
+The 680 productive items (Writing + Speaking) are **48.9% of the bank**. Grading them needs
+each item's own declared level, because a grader must judge a task at ITS level and an
+exam label is a RANGE ("A1–B1") — a range is not a standard.
+
+**60 items are levelled but NOT written.** `reports/productive-cefr-decided.json` holds the
+verdicts; `scripts/items/apply-productive-cefr.mts` applies them and **defaults to a dry
+run**. Footprint: 4 files, +60 lines, surgical. A1 10 · A2 11 · B1 39.
+
+**Levelled by TASK TYPE, never by length.** `difficulty` is a ladder inside a module and
+crosses levels; charBand/minSeconds corroborate but never decide. That rule changed two
+calls: a 50-second *"Contredire poliment"* is **B1** because sustaining a differing position
+is the B1 interactive act (length is a documented divergence, not a level signal), and the
+three 180–380-character *"Kurze Nachricht"* items are **Goethe B1 Teil 3** — a short PART
+of a B1 exam, not A2 tasks. Both would have been mis-levelled by length.
+
+`TELC_GOETHE::DE` is **not** Goethe-only despite the filename: 18 Goethe + 12 telc, all B1,
+each title self-declaring its cert. Goethe grades Schreiben on 4 criteria, telc on 3, so
+each item must be graded to the cert it was authored for.
+
+### ⚠ Three integrity findings — DECISIONS NEEDED
+
+1. **20 items in `FIDE::CITIZENSHIP::DE` declare B2 — a level fide does not award.** The
+   fide-Test Testhandbuch (Mai 2026) is explicit: the test certifies `für die Niveaus A1,
+   A2 und B1`. These must NOT be graded at B2 under a fide mapper. Re-level to B1, or
+   reclassify them out of the fide track. **Not touched.**
+2. **No A1 productive items in `FIDE::CITIZENSHIP`** — levels present are DE A2 125 / B1 105
+   / B2 20 and FR A2 139 / B1 111. A1 productive exists only in `GETTING_STARTED` (DE 11,
+   FR 10). fide oral can reach A1, so this is a coverage gap, not a blocker.
+3. **DELF length conformance.** The 4 B1 production-écrite items are authored at 80–120
+   words; the real DELF B1 floor is **≥160**. The A1 items sit at 25–40 words against DELF
+   A1's **≥40**. The LEVELS stand — task type sets the level — but the lengths do not match
+   the real exam. Either re-author to real DELF lengths, or accept them as reduced-length
+   B1-task practice with a written rationale. **Do not silently grade sub-length items as
+   full DELF B1.**
+   **Grader rule regardless:** the deterministic length veto keys off each item's authored
+   `charBand`, NOT DELF's 160-word floor — otherwise all four B1 items would sit at the
+   floor permanently.
+
+### Rubric provenance (cite in each per-track constant)
+
+Sourced by beta-g from official material; **CC did not re-verify these** — three verdicts
+apply and this one is "could-not-prove (mine)":
+
+| track | rubric | pass |
+|---|---|---|
+| Goethe B1 | goethe.de B1 Modellsatz — Schreiben 4 criteria (Erfüllung/Kohärenz/Wortschatz/Strukturen) A–E /100; Sprechen /100 | 60% |
+| telc B1 | telc.net Übungstest 1 — Schreiben 3 criteria; Sprechen 4 criteria | ≥60% written AND oral, independently |
+| DELF B1 | france-education-international.fr + delfdalf.fr — PE /25 (5 dimensions), PO /25 | 50/100 overall, **eliminatory 5/25 per skill** |
+| fide | fide-Test Testhandbuch Mai 2026 — **verified by CC** | see below |
+
+**fide, verified verbatim by CC from the Testhandbuch:** oral = `«Sprechen» zu zwei Dritteln
+und «Verstehen» zu einem Drittel`; oral cut-offs A1 **26%** / A2 **65%** (A1–A2) and A2
+**43%** / B1 **79%** (A2–B1); written cut-offs A1 **39%** / A2 **76%** and A2 **39%** / B1
+**73%**. Critically: `Das Resultat schriftlich entspricht dem Resultat, das im Teil «Lesen
+und Schreiben» erzielt wurde` — **fide has no writing-only score**, and reading is
+deliberately the heavier half. So a Writing-only answer NEVER gets a fide written level.
+That suppression is **fide-specific**: Goethe, telc and DELF all grade Writing
+independently and must not inherit it.
+
 ## Audio
 
 340 clips, **330 match their transcript** (hardened sweep, 2026-07-27). Threshold **0.85,
