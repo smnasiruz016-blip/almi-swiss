@@ -93,12 +93,41 @@ FR_SIMPLE = {
     # would otherwise demand a spoken "12" that is not there.
     "midi": 12, "minuit": 0,
 }
+# Italian. Routed through its OWN parser, not the German one — Italian writes 21–99 solid
+# like German but in the opposite order (tens THEN unit: ventidue = 20+2, where German is
+# unit-und-tens: zweiundzwanzig). Sending Italian through parse_de_compound returned None
+# for every spelled-out number, which is how `numerals("alle dieci", "IT")` came back
+# empty and the gate reported "every number spoken" while checking nothing.
+IT_SIMPLE = {
+    "zero": 0, "due": 2, "tre": 3, "tré": 3, "quattro": 4, "cinque": 5, "sei": 6,
+    "sette": 7, "otto": 8, "nove": 9, "dieci": 10, "undici": 11, "dodici": 12,
+    "tredici": 13, "quattordici": 14, "quindici": 15, "sedici": 16, "diciassette": 17,
+    "diciotto": 18, "diciannove": 19, "venti": 20, "trenta": 30, "quaranta": 40,
+    "cinquanta": 50, "sessanta": 60, "settanta": 70, "ottanta": 80, "novanta": 90,
+    "cento": 100, "mille": 1000,
+    # Noon and midnight spoken as words, as for FR midi/minuit.
+    "mezzogiorno": 12, "mezzanotte": 0,
+}
+# Tens as they appear glued to a unit. The elided stems are not optional spelling: Italian
+# DROPS the tens' final vowel before uno and otto — ventuno (21), ventotto (28),
+# quarantotto (48), novantotto (98) — so a parser that only knows "venti" misses every
+# number ending in 1 or 8.
+IT_TENS_FULL = {"venti": 20, "trenta": 30, "quaranta": 40, "cinquanta": 50,
+                "sessanta": 60, "settanta": 70, "ottanta": 80, "novanta": 90}
+IT_TENS_ELIDED = {"vent": 20, "trent": 30, "quarant": 40, "cinquant": 50,
+                  "sessant": 60, "settant": 70, "ottant": 80, "novant": 90}
+IT_UNITS = {"uno": 1, "due": 2, "tre": 3, "tré": 3, "quattro": 4, "cinque": 5,
+            "sei": 6, "sette": 7, "otto": 8, "nove": 9}
 # Spoken time markers. These were mapped to "h" and dropped by the old check, and folding
 # numerals initially lost that — which quietly made `heures`/`uhr` REQUIRED content words
 # in 101 of 340 clips. A correct "six heures et demie" transcribed "6h30" then failed for
 # not containing the literal word "heures". Restored: they end a numeral run and are not
 # themselves content.
-MARKERS = {"heures", "heure", "uhr"}
+MARKERS = {"heures", "heure", "uhr",
+           # Italian: "le nove" — `le` is the feminine-plural article standing in for
+           # "le ore", not a number. Same job as heures/uhr: end the numeral run, carry
+           # no content of its own.
+           "le", "ore", "ora"}
 # "un", "une", "ein", "eine", "einer" are the indefinite article far more often than they
 # are the number one — 464 occurrences across the bank, nearly all of them "une voiture",
 # "ein Zimmer". Counting them as numbers would make "une voiture" heard as "la voiture" a
@@ -106,7 +135,9 @@ MARKERS = {"heures", "heure", "uhr"}
 #
 # So they only count as ONE when they are already inside a number being built:
 # "soixante et un" -> 61, but a bare "une" is an article and is skipped.
-AMBIGUOUS_ONE = {"un", "une", "ein", "eine", "einer", "einen", "einem"}
+AMBIGUOUS_ONE = {"un", "une", "ein", "eine", "einer", "einen", "einem",
+                 # Italian: "un caffè", "una casa" — the article, overwhelmingly.
+                 "uno", "una"}
 # "et"/"und" join a numeral only in one narrow shape each, and letting them join freely
 # is wrong in a way that is easy to miss: the item "Septante, nonante — et huitante ?"
 # teaches the Swiss number words by LISTING them, and a greedy fold read that list as one
@@ -153,9 +184,53 @@ def parse_de_compound(w):
     return None
 
 
+def parse_it_compound(w):
+    """Decompose a written-together Italian numeral: ventidue -> 22, ventotto -> 28.
+
+    Italian glues 21–99 into one word as tens-THEN-unit, the opposite order to German,
+    and elides the tens' final vowel before uno and otto. `tre` takes an accent as a
+    final unit (ventitré). Hundreds and thousands prefix without elision:
+    centoventuno = 121, duecentocinquanta = 250, milleduecento = 1200.
+    """
+    if w in IT_SIMPLE:
+        return IT_SIMPLE[w]
+    # A sub-part of a compound may be a bare unit including `uno` — centouno = 101. `uno`
+    # is deliberately absent from IT_SIMPLE so that a STANDALONE "uno" stays an article
+    # ("uno studente"), which is the whole point of AMBIGUOUS_ONE. Inside a number it
+    # counts; alone it does not.
+    def part(s, default):
+        if not s:
+            return default
+        v = parse_it_compound(s)
+        return IT_UNITS.get(s) if v is None else v
+
+    for scale_word, scale in (("mila", 1000), ("mille", 1000)):
+        i = w.find(scale_word)
+        if i >= 0:
+            lv, rv = part(w[:i], 1), part(w[i + len(scale_word):], 0)
+            if lv is None or rv is None:
+                continue
+            return lv * scale + rv
+    i = w.find("cento")
+    if i >= 0:
+        lv, rv = part(w[:i], 1), part(w[i + len("cento"):], 0)
+        if lv is not None and rv is not None:
+            return lv * 100 + rv
+    # Full tens first (ventidue = venti + due), then the elided stem (ventuno, ventotto).
+    for table in (IT_TENS_FULL, IT_TENS_ELIDED):
+        for stem, val in table.items():
+            if w.startswith(stem) and len(w) > len(stem):
+                unit = IT_UNITS.get(w[len(stem):])
+                if unit is not None:
+                    return val + unit
+    return None
+
+
 def word_value(tok, lang):
     if lang == "FR":
         return FR_SIMPLE.get(tok)
+    if lang == "IT":
+        return parse_it_compound(tok)
     return parse_de_compound(tok)
 
 
@@ -255,6 +330,32 @@ def canon_tokens(text, lang):
             out.append("45")
             i += 3
             continue
+        # Italian fractions of an hour. Same shape and the same guard as the French rules
+        # above: matched as WHOLE tokens and only after "e", so `quartiere` and a bare
+        # `mezzo` (means/middle) can never trigger them.
+        if lang == "IT" and tok == "e" and seen:
+            n1, n2 = nxt(i), (toks[i + 2] if i + 2 < len(toks) else "")
+            if n1 in ("mezzo", "mezza"):
+                flush(); out.append("30"); i += 2; continue
+            if n1 == "quarto":
+                flush(); out.append("15"); i += 2; continue
+            if n1 in ("un", "uno") and n2 == "quarto":
+                flush(); out.append("15"); i += 3; continue
+            if n1 == "tre" and n2 == "quarti":
+                flush(); out.append("45"); i += 3; continue
+        # "le dieci meno un quarto" is 9:45, not 10:45 — the hour decrements, exactly as
+        # French "moins le quart". Emitting the spoken hour unchanged would demand a 10
+        # that an ASR writing "9:45" never produces.
+        if lang == "IT" and tok == "meno":
+            n1, n2 = nxt(i), (toks[i + 2] if i + 2 < len(toks) else "")
+            step = 2 if n1 == "quarto" else (3 if n1 in ("un", "uno") and n2 == "quarto" else 0)
+            if step:
+                flush()
+                if out and out[-1].isdigit():
+                    out[-1] = str((int(out[-1]) - 1) % 24)
+                out.append("45")
+                i += step
+                continue
         if tok in MARKERS:
             flush()
             i += 1
