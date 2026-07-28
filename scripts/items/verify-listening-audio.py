@@ -237,14 +237,18 @@ def word_value(tok, lang):
 def can_add(cur, v, lang):
     """May `v` complete the number already being built, or does it start a new one?
 
+    NOTE: an EMPTY accumulator is not handled here — the caller distinguishes "nothing
+    started yet" and "a scale just consumed the slot" (mille -> cur is 0 again) from
+    "cur genuinely holds the number zero". Treating cur == 0 as always-open swallowed a
+    spoken zero: "zero nove uno" folded to ['9','1'], losing the leading 0 of a phone
+    prefix — found on real Italian content, not in the abstract.
+
     "Smaller than what came before" is NOT the rule — nonante(90) then huitante(80) is
     descending and still two separate numbers, which is how the Swiss-numbers teaching
     item ended up demanding 170. A part only attaches in the shapes a numeral actually
     has: units complete tens, teens complete soixante/quatre-vingt, anything under a
     hundred completes a hundred, and after a scale (mille) the slot is empty again.
     """
-    if cur == 0:
-        return True
     if cur >= 100:
         return v < 100
     if cur in TENS:
@@ -284,13 +288,13 @@ def canon_tokens(text, lang):
     """
     toks = _prep(text).split()
     out, i = [], 0
-    total, cur, seen, bridge = 0, 0, False, False
+    total, cur, seen, bridge, after_scale = 0, 0, False, False, False
 
     def flush():
-        nonlocal total, cur, seen, bridge
+        nonlocal total, cur, seen, bridge, after_scale
         if seen:
             out.append(str(total + cur))
-        total, cur, seen, bridge = 0, 0, False, False
+        total, cur, seen, bridge, after_scale = 0, 0, False, False, False
 
     def nxt(k):
         return toks[k + 1] if k + 1 < len(toks) else ""
@@ -305,7 +309,7 @@ def canon_tokens(text, lang):
         # "quatre-vingt(s)" is 80, not 4 + 20. Swiss French says huitante, but the ASR is
         # French French and will hand back quatre-vingts for a clip that said huitante.
         if lang == "FR" and tok == "quatre" and nxt(i) in ("vingt", "vingts"):
-            if seen and not can_add(cur, 80, lang):
+            if seen and not after_scale and not can_add(cur, 80, lang):
                 flush()
             cur, seen = cur + 80, True
             i += 2
@@ -333,7 +337,7 @@ def canon_tokens(text, lang):
         # Italian fractions of an hour. Same shape and the same guard as the French rules
         # above: matched as WHOLE tokens and only after "e", so `quartiere` and a bare
         # `mezzo` (means/middle) can never trigger them.
-        if lang == "IT" and tok == "e" and seen:
+        if lang == "IT" and tok in ("e", "è") and (seen or (out and out[-1].isdigit())):
             n1, n2 = nxt(i), (toks[i + 2] if i + 2 < len(toks) else "")
             if n1 in ("mezzo", "mezza"):
                 flush(); out.append("30"); i += 2; continue
@@ -380,12 +384,14 @@ def canon_tokens(text, lang):
             if v == 1000:
                 total += (cur or 1) * 1000
                 cur = 0
+                after_scale = True   # the slot is empty again — "quattro mila quattro…"
             else:
                 cur = (cur or 1) * 100
+                after_scale = False
             seen = True
-        elif not seen or bridge or can_add(cur, v, lang):
+        elif not seen or bridge or after_scale or can_add(cur, v, lang):
             cur += v
-            seen, bridge = True, False
+            seen, bridge, after_scale = True, False, False
         else:
             flush()
             cur, seen = v, True
@@ -416,26 +422,60 @@ def numeric_missing(src, asr):
     disagreeing with itself about digit grouping rather than finding a defect.
     """
     pool = list(asr)
-    missing = []
-    for n in src:
+    matched = [False] * len(src)
+
+    # 1. exact, as a multiset
+    for i, n in enumerate(src):
         if n in pool:
             pool.remove(n)
+            matched[i] = True
+
+    # 2. one SOURCE number spelled as several ASR numbers: 4457 heard as "44 57"
+    for i, n in enumerate(src):
+        if matched[i]:
             continue
-        joined = False
-        for i in range(len(asr)):
+        for a in range(len(asr)):
             acc = ""
-            for j in range(i, min(i + 4, len(asr))):
-                acc += asr[j]
+            for b in range(a, min(a + 4, len(asr))):
+                acc += asr[b]
                 if acc == n:
-                    joined = True
+                    matched[i] = True
                     break
                 if len(acc) > len(n):
                     break
-            if joined:
+            if matched[i]:
                 break
-        if not joined:
-            missing.append(n)
-    return missing
+
+    # 3. THE MIRROR: several SOURCE numbers written as one ASR number. A phone prefix
+    #    read out digit by digit — "zero nove uno, due tre quattro" — comes back from
+    #    Whisper as "091 234". The digits are identical and in order; only the grouping
+    #    differs, which is the same thing rule 2 already forgives in the other direction.
+    #    Without this the whole number reds while the audio is perfectly correct.
+    i = 0
+    while i < len(src):
+        if matched[i]:
+            i += 1
+            continue
+        acc = ""
+        for j in range(i, min(i + 6, len(src))):
+            if matched[j]:
+                break
+            acc += src[j]
+            # Compare on VALUE, not on the digit string: a digit token is normalised
+            # through int(), so the ASR's "091" is already stored as "91" while the
+            # spoken-out source concatenates to "091". Same number, different leading
+            # zero. (Consequence worth knowing: when the ASR groups the digits into one
+            # number, the leading zero cannot be separately verified — demanding a
+            # literal "091" would red on audio that is correct.)
+            norm = str(int(acc))
+            if j > i and norm in pool:
+                pool.remove(norm)
+                for k in range(i, j + 1):
+                    matched[k] = True
+                break
+        i += 1
+
+    return [n for i, n in enumerate(src) if not matched[i]]
 
 
 # COMPARE AGAINST WHAT WAS MEANT TO BE SPOKEN, not against the raw transcript.
