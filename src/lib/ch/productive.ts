@@ -19,7 +19,8 @@
 // band does not match the real exam, that is a CONTENT finding to fix in the bank, not
 // something to paper over in the grader.
 
-import type { CefrLevel, SwissItemSeed, SwissTaskType } from "./types";
+import type { CefrLevel, SwissTaskType } from "./types";
+import type { SwissItemSeed } from "./items";
 
 export type Band = "CLEAR" | "BORDERLINE" | "BELOW";
 

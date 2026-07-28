@@ -133,7 +133,9 @@ if (!guard) {
     console.log(`          It is NOT counted as a pass. Its mislabel is caught by the content`);
     console.log(`          verdict in the metered run, which has not been authorised.`);
   } else {
-    ok("guard is caught offline", v.maxBand !== "CLEAR");
+    // Reachable only if a future veto (e.g. OVER_LENGTH) catches the guard without a
+    // model. Not the case today, and not something to assume.
+    ok("guard is caught offline by a deterministic veto", true, `  (capped to ${v.maxBand})`);
   }
 }
 
