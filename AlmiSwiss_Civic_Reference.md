@@ -43,3 +43,58 @@ All 15 topics (30 items) are **factually accurate, honestly framed, and not time
 - [ch.ch — optional referendum (50,000 / 100 days)](https://www.ch.ch/en/votes-and-elections/referendum/)
 - [SEM — ordinary naturalisation (no national test; canton-governed; 10-year/C-permit federal bar)](https://www.sem.admin.ch/sem/en/home/integration-einbuergerung/schweizer-werden/ordentlich.html)
 - *To pin if per-fact citation is wanted:* Federal Constitution Art. 4 (national languages); admin.ch Federal Council/Presidency; BAG/OFSP (3-month insurance deadline); admin.ch (Bern federal city); ch.ch votes (≈4×/year).
+
+---
+
+## Appendix — re-pinned citations (independent re-verification, 2026-07-28)
+
+*Added by Claude Code below beta-g's original audit, which is unchanged above. Beta-g's
+verdict and findings stand exactly as written; this appendix only replaces citations that
+no longer resolve.*
+
+**Why.** Four of the five source URLs in the section above — every `ch.ch` link — return
+**404**. The facts they were cited for are correct and were re-confirmed against live
+official pages, but a citation that does not resolve cannot be used to re-check anything,
+which is the whole purpose of a provenance record.
+
+**Every URL below was fetched and seen to return real content on 2026-07-28**, with the
+quoted sentence read off the page. None is a plausible-looking guess — guessing is how the
+four dead links got there.
+
+| Facts covered | Source (verified live) |
+|---|---|
+| Three political levels; 26 cantons; National Council 200; Council of States 46; Federal Council 7; votes per year | [EDA/FDFA — The political system](https://www.aboutswitzerland.eda.admin.ch/en/political-system) |
+| Federal Assembly composition (200 / 46 / 246) | [EDA/FDFA — The Federal Assembly (Parliament)](https://www.aboutswitzerland.eda.admin.ch/en/the-federal-assembly-parliament) |
+| Popular initiative 100,000 / 18 months; optional referendum 50,000 / 100 days | [EDA/FDFA — Direct democracy](https://www.aboutswitzerland.eda.admin.ch/en/direct-democracy) |
+| No national civics test; naturalisation governed by cantonal law; canton + commune decide | [SEM — Ordinary naturalisation](https://www.sem.admin.ch/sem/en/home/integration-einbuergerung/schweizer-werden/ordentlich.html) (the one original link that is still live) |
+
+Verbatim, as read from those pages:
+
+- *"Three political levels share power in Switzerland: the Confederation, the 26 cantons and 2,110 communes."*
+- *"The Swiss Parliament (Federal Assembly) has a total of 246 members, who are directly elected by the people. Switzerland has a bicameral parliament consisting of the National Council (200 members) and the Council of States (46 members)."*
+- *"The Swiss federal government, (the Federal Council), is made up of seven members, who are elected by Parliament."*
+- *"Every year there are between three and four popular votes in which the electorate can have their say on a particular issue."*
+- *"For such an initiative to come about, the signatures of 100,000 voters who support the proposal must be collected within 18 months."*
+- *"In order to bring about a national referendum, 50,000 valid signatures must be collected within 100 days of publication of the new legislation."*
+- *"The procedure in the canton and in the commune is governed by cantonal law."* — and *"The canton may also stipulate additional integration requirements."*
+
+**Note on item 11 (voting frequency).** The bank's keyed answer is *"about four times a
+year"*; the EDA/FDFA page says *"between three and four popular votes"* per year. These
+agree — "about four" sits inside "three to four" — but the source is the looser statement
+of the two. Not a correction; recorded so nobody re-derives it as a mismatch.
+
+### Facts NOT covered by the pages above — authority named, URL deliberately omitted
+
+No URL is given for these because none was fetched and verified. A plausible-looking
+unverified link is the defect being repaired here, not something to add more of. Cite the
+authority, and pin a URL only after fetching it.
+
+| Fact | Authority to consult |
+|---|---|
+| Four national languages: German, French, Italian, Romansh | **Federal Constitution, Art. 4** (`fedlex.admin.ch`; the site is JavaScript-only and could not be fetched) |
+| Federal Presidency — one year, from among the seven, *primus inter pares* | **admin.ch — Federal Council / Presidency** |
+| Bern is the "federal city", Switzerland has no legal capital | **admin.ch** |
+| Health insurance must be taken out within three months of taking up residence | **KVG/LAMal; BAG/OFSP** |
+
+These four facts were verified by beta-g and are not in doubt — what is missing is a
+fetched URL, not the fact.

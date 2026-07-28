@@ -150,11 +150,30 @@ would do the most damage to the module:
   verbatim: *"In order to bring about a national referendum, 50,000 valid signatures must
   be collected within 100 days of publication of the new legislation."*
 
-⚠ **Four of the six source links in the reference doc are dead.** Every `ch.ch` URL cited
-there now 404s, including the two carrying the initiative and referendum figures. The FACTS
-are confirmed — via `aboutswitzerland.eda.admin.ch/en/direct-democracy`, which is live and
-official — but the doc's citations do not resolve. Re-pin them before anyone relies on the
-doc to re-check a fact. The `sem.admin.ch` link is live.
+**Citations re-pinned 2026-07-28 — the doc now has working sources.** Every `ch.ch` URL in
+beta-g's original section 404s, including the two carrying the initiative and referendum
+figures. Rather than edit a signed audit, an **append-only appendix** was added below it
+with citations that were each **fetched and seen to return real content**, with the quoted
+sentence read off the page:
+
+| Facts | Source |
+|---|---|
+| 3 levels · 26 cantons · NC 200 · CoS 46 · FC 7 · 3–4 votes/yr | `aboutswitzerland.eda.admin.ch/en/political-system` |
+| Federal Assembly composition (200 / 46 / 246) | `aboutswitzerland.eda.admin.ch/en/the-federal-assembly-parliament` |
+| Initiative 100,000 / 18 months · referendum 50,000 / 100 days | `aboutswitzerland.eda.admin.ch/en/direct-democracy` |
+| No national civics test · canton-governed naturalisation | `sem.admin.ch/.../ordentlich.html` (the one original link still live) |
+
+Four facts have **no URL by design** — four national languages (Federal Constitution Art. 4),
+the Federal Presidency, Bern-as-federal-city, and the 3-month insurance deadline. The
+authority is named instead. Adding a plausible-looking unverified link is the defect being
+repaired, not something to add more of; pin a URL only after fetching it. `fedlex.admin.ch`
+is JavaScript-only and cannot be fetched by these tools.
+
+⚠ **The four dead `ch.ch` links still physically appear in beta-g's original section** —
+that section is byte-intact by design (prefix md5 still `bf2af635`). So "every citation in
+the doc resolves" is NOT true of the file as a whole; it is true of the appendix, which
+states plainly that the links above it are dead. A reader who stops before the appendix
+will still meet four 404s.
 
 ### Canton civic — 1 resolved, 1 open
 
@@ -172,8 +191,9 @@ doc to re-check a fact. The `sem.admin.ch` link is live.
    lesson: a payload key that no renderer reads is worse than none — `verify-items` rejects
    it, and adding the key to `KNOWN_PAYLOAD_KEYS` to get past that turns a real gate into a
    rubber stamp. Add a `source` field only if the product will actually render citations.
-   Related and still open: four of that doc's six citations are dead (see above) — the
-   provenance record needs re-pinning whether or not it ever moves into the schema.
+   ~~Related: four of that doc's citations are dead~~ — **CLOSED 2026-07-28**, re-pinned via
+   the append-only appendix above. Working citations now exist for every fact the EDA/FDFA
+   and SEM pages cover; the remaining four name their authority without a URL, on purpose.
 
 ## Audio
 
