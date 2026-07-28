@@ -478,6 +478,31 @@ def numeric_missing(src, asr):
     return [n for i, n in enumerate(src) if not matched[i]]
 
 
+def score_pair(source, heard, lang):
+    """Recall AND the numeric assertion, computed together so they cannot disagree.
+
+    They used to. `numeric_missing` forgives a digit-grouping difference — a phone prefix
+    read out "zero nove uno, due tre quattro" and transcribed "091 234" is the same
+    number, same digits, same order — but the RECALL set never learned that, and scored
+    all six spoken number-words as missing. The clip failed at 40% recall while its
+    numbers passed, and re-rendering could never fix it: every render says the same words
+    and every transcription groups them the same way. Eight retries proved it was not a
+    bad draw; it was the two halves of one instrument disagreeing about one fact.
+
+    A number the numeric check has ACCEPTED is not also a recall miss. Note the
+    denominator does not shrink — the content set is unchanged, only the specific
+    already-verified tokens stop being counted against it.
+    """
+    src_w = {w for w in words(source, lang)}
+    got_w = {w for w in words(heard, lang)}
+    src_n = numerals(source, lang)
+    num_missing = numeric_missing(src_n, numerals(heard, lang))
+    forgiven = set(src_n) - set(num_missing)
+    missing = sorted(w for w in (src_w - got_w) if w not in forgiven)
+    recall = 1 - len(missing) / max(1, len(src_w))
+    return recall, missing, num_missing
+
+
 # COMPARE AGAINST WHAT WAS MEANT TO BE SPOKEN, not against the raw transcript.
 #
 # A transcript line reads "Herr Meier: Guten Tag." The synthesiser deliberately does not
@@ -553,12 +578,8 @@ def transcribe(name, path, lang):
 
 
 def score(source, heard, lang):
-    src = {w for w in words(source, lang)}
-    got = {w for w in words(heard, lang)}
-    missing = sorted(src - got)
-    recall = 1 - len(missing) / max(1, len(src))
-    num_missing = numeric_missing(numerals(source, lang), numerals(heard, lang))
-    return recall, missing, num_missing
+    # One scorer, shared with scripts/items/synth-verify-retry.py — see score_pair.
+    return score_pair(source, heard, lang)
 
 
 bad = 0

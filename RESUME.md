@@ -215,21 +215,31 @@ their reasons intact. Reasons are never regenerated: the sweep writes only
 merging into the human file is a separate step, `scripts/items/reconcile-audio-verify.py`,
 which supersedes rather than overwrites (older text kept in `superseded_reason`).
 
-### GATE-BLIND, HUMAN-VERIFIED — watchlist of 2
+### GATE-BLIND, HUMAN-VERIFIED — watchlist of 1
 
-**No model in either render hears the keyed time in these two clips.** The audio was
-confirmed correct by human ear (Nasir (abba g), 2026-07-27) and both are ACCEPTED, but the numeric
-gate cannot verify them and a future genuine break would look identical to today's
-accepted state.
+**PIPER IS NOT DETERMINISTIC — which is why this list shrank.** Four renders of the same
+sentence produce four different files (4/4 distinct md5), and a word comes back correct in
+some draws and mangled in others. A clip failing the gate therefore often means *this
+render* was a bad draw, not that the text is wrong. `scripts/items/synth-verify-retry.py`
+renders, gates, and re-renders up to 8 times, keeping the first render that clears and
+recording its md5 — "this clip passed" is only ever true of the exact bytes that passed.
 
-| clip | keyed time the gate cannot see | evidence |
+| clip | keyed time | status |
 |---|---|---|
-| `Annonce à la gare : train supprimé` | `16h20` / `16h50` | `medium` and `large-v3` both transcribe "CH20"/"CH50"; re-synthesised once, hour still unheard |
-| `Annonce à l'atelier` | `treize heures` | both models transcribe "3 heures"; re-synthesised once, no change. Same clip's `11h30` and `midi et demi` transcribe perfectly |
+| `Annonce à l'atelier` | `treize heures` | **GATE-BLIND, PROVEN** — 8 independent renders, every one transcribed "3 heures" by `medium` AND `large-v3`. Re-rolling is now demonstrated not to help. Accept-with-evidence stands, and it is now *characterised* rather than assumed. Same clip's `11h30` and `midi et demi` transcribe perfectly. |
 
-**Any future regeneration of these two requires a human ear-check.** A green sweep does not
-cover them. (`Annonce dans le train : quai` is NOT on this list — `large-v3` hears
-`15h10` correctly after re-synthesis, so it is a `medium`-only miss, not a blind spot.)
+**`Annonce à la gare : train supprimé` — GRADUATED 2026-07-28, off the watchlist.** It was
+a BAD DRAW, not a blind spot: the retry loop found a clean render, so the clip is now
+**gate-verified** rather than ear-accepted. The shipped file was replaced —
+md5 `e27b65f568…`, previous render preserved in
+`C:\Projects\_audio-backups\almi-swiss-ch-2026-07-27\`. Note the new render has NOT been
+heard by a human; it passes the automated gate, which is stronger evidence for the keyed
+number and weaker for everything an ear would catch. Revert from the backup if that trade
+is not wanted.
+
+**Any future regeneration of `atelier` still requires a human ear-check** — a green sweep
+does not cover it. (`Annonce dans le train : quai` was never on this list: `large-v3` hears
+`15h10` correctly after re-synthesis, so it is a `medium`-only miss.)
 
 **Numbers are verified as spoken.** `words()` used to rewrite "22h" to "22" and the len>2
 content filter then dropped it, so a keyed time could be garbled and still score 100%.
