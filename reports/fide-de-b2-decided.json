@@ -1,0 +1,208 @@
+[
+  {
+    "id": "1js9tca",
+    "surface": "fide-german-speaking",
+    "index": 14,
+    "title": "Vermitteln: zwischen zwei Positionen",
+    "fromCefr": "B2",
+    "action": "DEACTIVATE",
+    "withheldReason": "genuine CEFR B2 — chairing/moderating a formal multi-party discussion, above fide's B1 ceiling; seed for a future B2/advanced track.",
+    "seedFor": "B2",
+    "why": "Speaks to a Hausversammlung: presents both sides, proposes a compromise and argues it is bearable FOR BOTH, using required concessive markers. Sustained argumentation to a group."
+  },
+  {
+    "id": "12u7kaw",
+    "surface": "fide-german-speaking",
+    "index": 34,
+    "title": "Moderieren: eine Diskussion im Verein",
+    "fromCefr": "B2",
+    "action": "DEACTIVATE",
+    "withheldReason": "genuine CEFR B2 — chairing/moderating a formal multi-party discussion, above fide's B1 ceiling; seed for a future B2/advanced track.",
+    "seedFor": "B2",
+    "why": "Chairs a club discussion: withholds own opinion, allocates the floor, closes by naming what stays unresolved. Institutional low-frequency Redemittel. B2 on function, register and discourse markers at once."
+  },
+  {
+    "id": "1k2teww",
+    "surface": "fide-german-speaking",
+    "index": 39,
+    "title": "Vermitteln: Streit um die Waschküche",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Neighbour dispute over the laundry rota. Concrete, familiar, high-frequency lexis; the only above-B1 demand is the neutral-mediator frame, which fide does not test."
+  },
+  {
+    "id": "c1pux",
+    "surface": "fide-german-speaking",
+    "index": 44,
+    "title": "Vermitteln: Streit um den Veloraum",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Bike-room overcrowding with mutual accusation. Everyday register throughout; mediator role alone does not carry a B2 claim."
+  },
+  {
+    "id": "1sdsdwp",
+    "surface": "fide-german-speaking",
+    "index": 49,
+    "title": "Vermitteln: Streit um die Besucherparkplätze",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Visitor-parking entitlement dispute. Concrete referent, everyday lexis; rule-vs-preference argument sits inside B1."
+  },
+  {
+    "id": "4pv37n",
+    "surface": "fide-german-speaking",
+    "index": 54,
+    "title": "Vermitteln: Streit über Ruhezeiten am Wochenende",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Weekend drilling vs quiet. Canonical B1 topic space with an obvious compromise axis."
+  },
+  {
+    "id": "1bqgqx7",
+    "surface": "fide-german-speaking",
+    "index": 59,
+    "title": "Vermitteln: Streit über den gemeinsamen Garten",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Shared garden, vegetables vs lawn. Two compatible concrete wants with a physical resolution; least demanding of the set."
+  },
+  {
+    "id": "bolg2i",
+    "surface": "fide-german-speaking",
+    "index": 64,
+    "title": "Vermitteln: Streit über die Lautstärke im Treppenhaus",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Children loud in the stairwell. One mild appeal-to-principle against one concrete complaint; everyday lexis."
+  },
+  {
+    "id": "723qq5",
+    "surface": "fide-german-speaking",
+    "index": 69,
+    "title": "Vermitteln: Streit über die Nutzung des Trockenraums",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Drying room monopolised. Concrete resource scheduling; the solution shape is named in the criteria."
+  },
+  {
+    "id": "eff0e0",
+    "surface": "fide-german-speaking",
+    "index": 74,
+    "title": "Vermitteln: Streit über den Lärm auf dem Spielplatz",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Playground noise, families vs teenagers vs residents. Semi-public and multi-party, but concrete and immediate."
+  },
+  {
+    "id": "18ynhkk",
+    "surface": "fide-german-speaking",
+    "index": 79,
+    "title": "Vermitteln: Streit über die Grillnutzung im Hof",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Courtyard grill, smoke and frequency. Sensory, high-frequency lexis, direct compromise axis."
+  },
+  {
+    "id": "11c85b1",
+    "surface": "fide-german-speaking",
+    "index": 84,
+    "title": "Vermitteln: Streit über die Haustierhaltung im Haus",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Barking dog vs quiet. One side argues from a value claim; that is the single above-B1 element."
+  },
+  {
+    "id": "144bzj3",
+    "surface": "fide-german-speaking",
+    "index": 89,
+    "title": "Vermitteln: Streit über die Reinigung des Treppenhauses",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Stairwell cleaning rota fairness. Near-duplicate of the laundry-rota item, same solution shape."
+  },
+  {
+    "id": "m6e78w",
+    "surface": "fide-german-speaking",
+    "index": 94,
+    "title": "Vermitteln: Streit über die Temperatur im Büro",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Office window, too warm vs too cold. Bodily-comfort preference clash with a mechanical compromise."
+  },
+  {
+    "id": "18um3sn",
+    "surface": "fide-german-speaking",
+    "index": 99,
+    "title": "Vermitteln: Streit über Kinderwagen im Hausflur",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Prams in the hallway, storage need vs emergency-access safety. One position is a norm/safety argument, so the two sides carry different weight.",
+    "seedFor": "B2"
+  },
+  {
+    "id": "t7vckw",
+    "surface": "fide-german-speaking",
+    "index": 104,
+    "title": "Vermitteln: Streit über die gemeinsame Küche",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Shared flat kitchen, too-little-time excuse and its rejection. Candidate reformulates a justification AND its rebuttal.",
+    "seedFor": "B2"
+  },
+  {
+    "id": "1h3zy5",
+    "surface": "fide-german-speaking",
+    "index": 109,
+    "title": "Vermitteln: Streit über den Gemeinschaftsraum",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Common room over-booked for birthdays. Allocation fairness with a named procedural fix (booking system)."
+  },
+  {
+    "id": "1fujeft",
+    "surface": "fide-german-speaking",
+    "index": 114,
+    "title": "Vermitteln: Streit über das Rauchen auf dem Balkon",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Balcony smoking vs a small child upstairs. Competing ENTITLEMENTS (property/autonomy vs health), not competing preferences — reformulating that fairly without adjudicating is real upper-B1 work.",
+    "seedFor": "B2"
+  },
+  {
+    "id": "1d0csar",
+    "surface": "fide-german-speaking",
+    "index": 119,
+    "title": "Vermitteln: Streit über die Lautstärke der Musik",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Evening music volume, young resident vs older couple. Preference clash with a token norm-appeal."
+  },
+  {
+    "id": "1lxl8vz",
+    "surface": "fide-german-speaking",
+    "index": 124,
+    "title": "Vermitteln: Streit über die gemeinsame Waschmaschine",
+    "fromCefr": "B2",
+    "action": "RELEVEL",
+    "toCefr": "B1",
+    "why": "Shared washing machine, contested blame for the damage. The parties disagree about a FACT, so a contested accusation must be restated neutrally — harder than restating two wants.",
+    "seedFor": "B2"
+  }
+]

@@ -28,9 +28,73 @@ Save point 2026-07-27. Branch `ch-degame-hardened`. **Nothing deployed, nothing 
 - **Umlaut restoration** — 239 occurrences across the 4 telc/Goethe German bundles, from
   the reviewed list in `reports/umlaut-decided.json`. `Goethe`, `Betreuerin`, `einbauen`
   left as written; `Grüezi` hand-typed.
+- **B2 resolution** — 18 items re-levelled B2 → B1 (4 tagged `seedFor: "B2"`), 2 withheld
+  (`active: false`, reason recorded, `seedFor: "B2"`). `FIDE::CITIZENSHIP::DE` now serves
+  0 items above fide's B1 ceiling. Reviewed list in `reports/fide-de-b2-decided.json`,
+  writer `scripts/items/apply-b2-resolution.mts`. Full detail below.
 - **7 binary re-authorings** — 4 in `FIDE::CITIZENSHIP::DE::LISTENING` (8/17 → 12/13, 68% → 52%),
   1 in `TELC_GOETHE::DE::LISTENING` and 2 in `TELC_GOETHE::DE::READING` (both 67% → 50%).
   In all three pools an absolute word no longer predicts the key.
+
+## B2 resolution — APPLIED 2026-07-28
+
+All 20 B2 items were in ONE place: `fide-german-speaking.json`, every one
+SPEAKING_PROMPT / STRETCH / `minSeconds: 90`. The French bundle was already clean
+(0 B2 in all four skills), so this was DE-speaking only. Duration and difficulty did
+not distinguish them — the same bundle already held 9 items at B1 + STRETCH + 90s, so
+only the `cefr` field was ever wrong.
+
+- **18 → B1.** The `Vermitteln` mediation template set. Their topics and lexis were
+  always B1 or below (a laundry rota, a bike room, a barking dog, an office window);
+  what read as B2 was the neutral-mediator framing, and fide does not test that.
+- **4 of those 18 are tagged `seedFor: "B2"`** — upper-B1, kept findable. They carry
+  more argumentative load than the rest: `1fujeft` competing entitlements (balcony
+  smoking vs a child's health), `1lxl8vz` a contested FACT rather than a preference,
+  `18um3sn` a safety/norm argument against a practical need, `t7vckw` an excuse and
+  its rebuttal. The difficulty axis could not carry this mark — all 18 were already
+  STRETCH, so STRETCH distinguished nothing.
+- **2 WITHHELD, never deleted** — `12u7kaw` *Moderieren: eine Diskussion im Verein*
+  and `1js9tca` *Vermitteln: zwischen zwei Positionen*. Genuinely B2 (chairing a
+  formal multi-party discussion; sustained argumentation to a Hausversammlung with
+  required concessive markers), with no fide home. They keep `cefr: "B2"` — the item
+  IS B2, which is exactly why fide cannot serve it — plus `active: false`,
+  `withheldReason` and `seedFor: "B2"`.
+
+**The 6 seeds (4 upper-B1 + 2 withheld) are the starting set if a B2 mediation track
+is ever built.** `seedFor: "B2"` is the query that finds them.
+
+⚠️ **A new mechanism, not just a data edit.** The bundles had NO deactivation concept:
+`loadBundle` served everything, and Prisma's `SwissItem.active` is dead here because
+nothing writes `SwissItem` — the app reads these JSON files off disk. So `active:false`
+alone would have been a flag nothing reads. `items.ts` now filters in `loadServed()`,
+which `itemsForSurface()` and `allItems()` both go through, so the learner, Rule #7
+counts, every gate and `/api/status` all lose the same two. `assertNoIdCollisions()`
+deliberately still sees withheld items — a withheld title can still collide on the day
+someone brings it back, which is when nobody is looking for a hash clash.
+`getItemById()` no longer finds them, so a submission naming one fails loudly instead
+of being graded against a withdrawn task.
+
+**Measured by state on the WRITTEN bank**, not predicted from the dry run:
+
+| | before | after |
+|---|---|---|
+| served items, fide-german SPEAKING | 125 | **123** |
+| `FIDE::CITIZENSHIP::DE` served, by level | A2 273 · B1 207 · **B2 20** | A2 273 · B1 225 · **B2 0** |
+| raw file (withheld included) | B2 20 | B2 2, both `active:false` |
+| `getItemById('12u7kaw' / '1js9tca')` | returns the item | **undefined** |
+| `seedFor: "B2"` | — | 6 (4 served upper-B1 + 2 withheld) |
+
+Gates after the write: `verify:items` ✓ (1388 items) · `gate:conformance` ✓ 708 ·
+`gate:item-id` ✓ · `gate:answer-distribution` ✓ 36 sections · `proof:reachability` ✓.
+`tsc --noEmit` has **1 pre-existing** error (`export-binary-skew.mts` TS2367), same
+before and after — verified by stashing the change.
+
+**STILL OPEN — nothing prevents a recurrence.** `verify-items.mts` requires a `cefr` on
+any surface that declares a goal, but it never compares that level TO the goal. "Above
+the exam's ceiling" is still unrepresentable, which is how 20 items sat there. A gate
+keying on `compareCefr(it.cefr, goalCefrFor(e, skill)) > 0` would have caught all 20 on
+authoring day. Not built — out of scope for this apply, and it needs a decision about
+STRETCH-above-goal on non-ceilinged tracks first.
 
 ## Staged scripts — ALL 3 APPLIED 2026-07-27
 
@@ -39,6 +103,7 @@ Save point 2026-07-27. Branch `ch-degame-hardened`. **Nothing deployed, nothing 
 | 37 de-gamed structural keys | `scripts/items/degame-structural.mts` | **APPLIED — `76b5081`** |
 | 120 getting-started CEFR levels | `scripts/items/apply-cefr.mts` | **APPLIED — `76b5081`** |
 | 340 listening `audioUrl` wiring | `scripts/items/wire-listening-audio.mts` | **APPLIED — `eeb2bf1`** · pending pre-ship browser + build checks |
+| 20-item B2 resolution | `scripts/items/apply-b2-resolution.mts` | **APPLIED 2026-07-28** — uncommitted on this branch |
 
 **De-game, measured by state on the WRITTEN bank** — not predicted from a dry run:
 
@@ -218,10 +283,8 @@ each item must be graded to the cert it was authored for.
 
 ### ⚠ Three integrity findings — DECISIONS NEEDED
 
-1. **20 items in `FIDE::CITIZENSHIP::DE` declare B2 — a level fide does not award.** The
-   fide-Test Testhandbuch (Mai 2026) is explicit: the test certifies `für die Niveaus A1,
-   A2 und B1`. These must NOT be graded at B2 under a fide mapper. Re-level to B1, or
-   reclassify them out of the fide track. **Not touched.**
+1. ~~**20 items in `FIDE::CITIZENSHIP::DE` declare B2 — a level fide does not award.**~~
+   **RESOLVED 2026-07-28** (beta-g reviewed, Nasir GREEN) — see *B2 resolution* below.
 2. **No A1 productive items in `FIDE::CITIZENSHIP`** — levels present are DE A2 125 / B1 105
    / B2 20 and FR A2 139 / B1 111. A1 productive exists only in `GETTING_STARTED` (DE 11,
    FR 10). fide oral can reach A1, so this is a coverage gap, not a blocker.

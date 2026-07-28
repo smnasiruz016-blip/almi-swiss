@@ -62,6 +62,30 @@ export interface SwissItemSeed {
    *  such split; REQUIRED by the conformance gate on telc-goethe. Scoped enforcement,
    *  not a field everyone must fill in with a guess. */
   variant?: "GOETHE" | "TELC";
+  /** WITHHELD FROM SERVING when false. Absent means served — a bank of 500 items
+   *  should not need 500 `"active": true` lines to say the ordinary thing.
+   *
+   *  Exists because "this task is good, but it is not this exam's task" had no
+   *  expression here. Prisma's SwissItem.active is not it: nothing writes SwissItem,
+   *  the app serves these JSON bundles off disk, so a flag only the database
+   *  understands is a flag nothing reads. Deleting was the only other option, and
+   *  deleting discards authored work whose only fault is being on the wrong shelf.
+   *
+   *  ⚠️ The FILTER, not this field, is what withholds: see loadServed() below. A flag
+   *  no loader consults is decoration. */
+  active?: boolean;
+  /** Why an item is withheld. Only meaningful with `active: false`; the apply script
+   *  refuses to withhold an item without one, so the bank never holds a dark item
+   *  whose reason lives in a commit message nobody will read again. */
+  withheldReason?: string;
+  /** "Kept as raw material for a future track pitched at THIS level."
+   *
+   *  Not a level claim about where the item sits now — `cefr` is that, and it stays
+   *  honest. This is the tag that lets six tasks be found again the day someone asks
+   *  whether a B2 mediation track is worth building. It exists because the difficulty
+   *  axis could not carry the mark: every candidate was already STRETCH, so STRETCH
+   *  distinguished nothing. */
+  seedFor?: CefrLevel;
   title: string;
   prompt: string;
   payload: unknown;
@@ -93,9 +117,13 @@ function bundleFilesFor(e: ExamMeta): string[] {
 
 export const BUNDLE_FILES: string[] = ALL_EXAMS.flatMap(bundleFilesFor);
 
-/** Items for ONE registry entry + skill — the only unambiguous lookup. */
+/** Items for ONE registry entry + skill — the only unambiguous lookup.
+ *
+ *  SERVED items only: a withheld item is not practice, and it must not be counted as
+ *  practice either. Every gate reads the bank through this function, so Rule #7 counts,
+ *  the conformance gate and /api/status all shrink by the same two the learner lost. */
 export function itemsForSurface(e: ExamMeta, skill: SwissSkill): SwissItemSeed[] {
-  return loadBundle(bundleFileFor(e, skill));
+  return loadServed(bundleFileFor(e, skill));
 }
 
 const ITEMS_DIR = path.join(process.cwd(), "src", "data", "items");
@@ -115,12 +143,33 @@ function loadBundle(file: string): SwissItemSeed[] {
   }
 }
 
+/** An item is served unless it says otherwise. Absent `active` = served. */
+function isServed(it: SwissItemSeed): boolean {
+  return it.active !== false;
+}
+
+/** The served view of one bundle — what a learner can actually be given. */
+function loadServed(file: string): SwissItemSeed[] {
+  return loadBundle(file).filter(isServed);
+}
+
 let cache: SwissItemSeed[] | null = null;
+let rawCache: SwissItemSeed[] | null = null;
 
 function allItems(): SwissItemSeed[] {
   if (cache) return cache;
-  cache = BUNDLE_FILES.flatMap(loadBundle);
+  cache = BUNDLE_FILES.flatMap(loadServed);
   return cache;
+}
+
+/** EVERY authored item, withheld ones included. Used only by the id-collision gate:
+ *  a withheld item keeps its title, so it can still collide with a live one — and it
+ *  would collide on the day someone brings it back, which is exactly when nobody is
+ *  looking for a hash clash. */
+function allItemsIncludingWithheld(): SwissItemSeed[] {
+  if (rawCache) return rawCache;
+  rawCache = BUNDLE_FILES.flatMap(loadBundle);
+  return rawCache;
 }
 
 /** Filtered item lookup across surfaces. `language` and `track` are both required:
@@ -157,7 +206,10 @@ export function stableItemId(
   return hashSeed(`${it.language}|${it.track}|${it.exam}|${it.skill}|${it.title}`).toString(36);
 }
 
-/** Re-load the full item (INCLUDING its answer key) by its stable id, server-side. */
+/** Re-load the full item (INCLUDING its answer key) by its stable id, server-side.
+ *  Withheld items are NOT findable here: a task that is no longer served must not be
+ *  gradeable either, so a submission naming one fails loudly instead of quietly
+ *  scoring against a task we have withdrawn. */
 export function getItemById(id: string): SwissItemSeed | undefined {
   return allItems().find((it) => stableItemId(it) === id);
 }
@@ -170,7 +222,7 @@ export function getItemById(id: string): SwissItemSeed | undefined {
  */
 export function assertNoIdCollisions(): void {
   const seen = new Map<string, string>();
-  for (const it of allItems()) {
+  for (const it of allItemsIncludingWithheld()) {
     const id = stableItemId(it);
     const key = `${it.language}|${it.track}|${it.exam}|${it.skill}|${it.title}`;
     const prior = seen.get(id);

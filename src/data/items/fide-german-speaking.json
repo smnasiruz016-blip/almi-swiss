@@ -341,6 +341,9 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
     "cefr": "B2",
+    "active": false,
+    "withheldReason": "genuine CEFR B2 — chairing/moderating a formal multi-party discussion, above fide's B1 ceiling; seed for a future B2/advanced track.",
+    "seedFor": "B2",
     "title": "Vermitteln: zwischen zwei Positionen",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -802,6 +805,9 @@
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
     "cefr": "B2",
+    "active": false,
+    "withheldReason": "genuine CEFR B2 — chairing/moderating a formal multi-party discussion, above fide's B1 ceiling; seed for a future B2/advanced track.",
+    "seedFor": "B2",
     "title": "Moderieren: eine Diskussion im Verein",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -917,7 +923,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit um die Waschküche",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1033,7 +1039,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit um den Veloraum",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1149,7 +1155,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit um die Besucherparkplätze",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1265,7 +1271,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über Ruhezeiten am Wochenende",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1381,7 +1387,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über den gemeinsamen Garten",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1497,7 +1503,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Lautstärke im Treppenhaus",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1613,7 +1619,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Nutzung des Trockenraums",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1729,7 +1735,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über den Lärm auf dem Spielplatz",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1845,7 +1851,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Grillnutzung im Hof",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -1961,7 +1967,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Haustierhaltung im Haus",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2077,7 +2083,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Reinigung des Treppenhauses",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2193,7 +2199,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Temperatur im Büro",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2309,7 +2315,8 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
+    "seedFor": "B2",
     "title": "Vermitteln: Streit über Kinderwagen im Hausflur",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2425,7 +2432,8 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
+    "seedFor": "B2",
     "title": "Vermitteln: Streit über die gemeinsame Küche",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2541,7 +2549,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über den Gemeinschaftsraum",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2657,7 +2665,8 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
+    "seedFor": "B2",
     "title": "Vermitteln: Streit über das Rauchen auf dem Balkon",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2773,7 +2782,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
     "title": "Vermitteln: Streit über die Lautstärke der Musik",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
@@ -2889,7 +2898,8 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
-    "cefr": "B2",
+    "cefr": "B1",
+    "seedFor": "B2",
     "title": "Vermitteln: Streit über die gemeinsame Waschmaschine",
     "prompt": "Sprechen Sie mindestens 90 Sekunden.",
     "payload": {
