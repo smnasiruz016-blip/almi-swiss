@@ -51,6 +51,7 @@ TITLES = set(io.open(_tf, encoding="utf8").read().splitlines()) if _tf else None
 VOICES = {
     "DE": ["de_DE-thorsten-medium", "de_DE-kerstin-low"],
     "FR": ["fr_FR-tom-medium", "fr_FR-siwis-medium"],
+    "IT": ["it_IT-paola-medium", "it_IT-riccardo-x_low"],
 }
 SAMPLE_TITLES = {
     "Le prix au marché : nonante", "Septante, nonante — et huitante ?",
@@ -176,7 +177,29 @@ def resample(pcm, src_rate, dst_rate):
 
 for lang, title, transcript, stem in targets:
     parts = turns(transcript)
-    names = VOICES.get(lang, VOICES["DE"])
+    # FAIL LOUD on a language with no voice. This was `VOICES.get(lang, VOICES["DE"])`
+    # — a silent fallback that would have rendered an Italian clip in a GERMAN voice and
+    # written a perfectly valid WAV. Nothing downstream catches it: the file exists, it
+    # plays, the Whisper check transcribes it with language="it" and reports a low score
+    # that reads like bad audio rather than the wrong language entirely.
+    #
+    # This is the is-IS bug in synthesis form — the sibling product that read every
+    # transcript aloud in the wrong language's voice, where the label said one language
+    # and the code returned another and nothing failed. A missing voice is a fact about
+    # this machine, and the honest response is to stop, not to substitute a language.
+    if lang not in VOICES:
+        raise SystemExit(
+            f"{stem}: no voice configured for language {lang!r}. Known: {sorted(VOICES)}.\n"
+            f"Refusing to synthesise — a substituted voice would render {lang} text in "
+            f"another language and still produce a valid-looking WAV."
+        )
+    names = VOICES[lang]
+    missing = [n for n in names if not os.path.exists(os.path.join(VOICES_DIR, f"{n}.onnx"))]
+    if missing:
+        raise SystemExit(
+            f"{stem}: voice model(s) not on disk for {lang}: {missing}\n"
+            f"Expected under {VOICES_DIR}/. Download them before synthesising."
+        )
     rendered = []
     for v, text in parts:
         buf = io.BytesIO()
