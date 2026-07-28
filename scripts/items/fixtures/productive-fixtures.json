@@ -1,0 +1,474 @@
+{
+ "authored_by": "beta-g",
+ "date": "2026-07-28",
+ "note": "Responses authored by beta-g, NOT by the grader - a grader tested against its own text proves nothing. trips[] bound to the EXACT bank criterion strings.",
+ "fixtures": [
+  {
+   "itemId": "r5whpu",
+   "title": "Formular: Anmeldung bei der Gemeinde",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Ich wohne seit dem 1. März 2026 in dieser Gemeinde. In der Wohnung lebe ich zusammen mit meiner Frau und meinen zwei Kindern. Wir sind vor Kurzem aus Portugal hierher gezogen.",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "r5whpu",
+   "title": "Formular: Anmeldung bei der Gemeinde",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "einzug januar. ich, frau, kind.",
+   "spokenSeconds": null,
+   "trips": [
+    "Schreibt in ganzen Sätzen, nicht in Stichworten",
+    "Nennt ein Einzugsdatum"
+   ]
+  },
+  {
+   "itemId": "r5whpu",
+   "title": "Formular: Anmeldung bei der Gemeinde",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Ich bin sehr glücklich, hier in dieser Gemeinde zu leben. Alles ist gut organisiert und die Menschen sind hilfsbereit. Ich möchte mich engagieren und die Schweizer Kultur besser kennenlernen.",
+   "spokenSeconds": null,
+   "trips": [
+    "Nennt ein Einzugsdatum",
+    "Nennt die Personen im Haushalt"
+   ]
+  },
+  {
+   "itemId": "r5whpu",
+   "title": "Formular: Anmeldung bei der Gemeinde",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Ich wohne seit Januar hier. Meine Familie wohnt mit mir.",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "bheo6x",
+   "title": "Sich vorstellen",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Guten Tag. Ich heisse Ana und ich komme aus Portugal. Ich lebe seit drei Jahren hier in der Schweiz. Von Beruf bin ich Krankenschwester und arbeite in einem Spital in Bern. Zu meiner Familie gehören mein Mann und meine zwei Kinder. Wir wohnen zusammen in einer kleinen Wohnung.",
+   "spokenSeconds": 55,
+   "trips": []
+  },
+  {
+   "itemId": "bheo6x",
+   "title": "Sich vorstellen",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Ähm... ich Ana. Portugal. Arbeit... Spital. Familie ja.",
+   "spokenSeconds": 20,
+   "trips": [
+    "Spricht in ganzen Sätzen, nicht in einzelnen Wörtern",
+    "Beantwortet alle vier Punkte der Aufgabe"
+   ]
+  },
+  {
+   "itemId": "bheo6x",
+   "title": "Sich vorstellen",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Also, die Schweiz ist ein sehr schönes Land. Ich mag die Berge und die Natur sehr. Das Wetter ist manchmal kalt, aber im Sommer ist es wunderbar. Ich reise gern und ich koche gern für meine Freunde am Wochenende.",
+   "spokenSeconds": 50,
+   "trips": [
+    "Beantwortet alle vier Punkte der Aufgabe"
+   ]
+  },
+  {
+   "itemId": "bheo6x",
+   "title": "Sich vorstellen",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Ich heisse Ana, aus Portugal. Ich bin Krankenschwester. Ich habe eine Familie.",
+   "spokenSeconds": 25,
+   "trips": [
+    "Beantwortet alle vier Punkte der Aufgabe"
+   ]
+  },
+  {
+   "itemId": "tyrgug",
+   "title": "Formulaire : annonce d'arrivée",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "J'habite dans cette commune depuis le 1er mars 2026. Je vis dans le logement avec ma femme et mes deux enfants. Nous avons déménagé récemment du Portugal pour nous installer ici.",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "tyrgug",
+   "title": "Formulaire : annonce d'arrivée",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "arrivée mars. moi, femme, enfants.",
+   "spokenSeconds": null,
+   "trips": [
+    "Écrit des phrases entières, pas des mots-clés",
+    "Indique une date d'emménagement"
+   ]
+  },
+  {
+   "itemId": "tyrgug",
+   "title": "Formulaire : annonce d'arrivée",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Je suis très content d'habiter dans cette commune agréable. Le quartier est calme et les voisins sont sympathiques. J'espère bien m'intégrer et rencontrer de nouvelles personnes bientôt.",
+   "spokenSeconds": null,
+   "trips": [
+    "Indique une date d'emménagement",
+    "Nomme les personnes du ménage"
+   ]
+  },
+  {
+   "itemId": "tyrgug",
+   "title": "Formulaire : annonce d'arrivée",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "J'habite ici depuis janvier. Ma famille habite avec moi.",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "g62ed",
+   "title": "Se présenter",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Bonjour. Je m'appelle Ana et je viens du Portugal. Je vis ici en Suisse depuis trois ans. Je travaille comme infirmière dans un hôpital à Genève. Ma famille, c'est mon mari et mes deux enfants. Nous habitons ensemble dans un petit appartement.",
+   "spokenSeconds": 55,
+   "trips": []
+  },
+  {
+   "itemId": "g62ed",
+   "title": "Se présenter",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Euh... moi Ana. Portugal. Travail... hôpital. Famille oui.",
+   "spokenSeconds": 20,
+   "trips": [
+    "Parle en phrases entières, pas en mots isolés",
+    "Répond aux quatre points de la consigne"
+   ]
+  },
+  {
+   "itemId": "g62ed",
+   "title": "Se présenter",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Alors, la Suisse est un très beau pays. J'aime beaucoup les montagnes et la nature. Le climat est parfois froid, mais l'été est magnifique. J'aime voyager et cuisiner pour mes amis le week-end.",
+   "spokenSeconds": 50,
+   "trips": [
+    "Répond aux quatre points de la consigne"
+   ]
+  },
+  {
+   "itemId": "g62ed",
+   "title": "Se présenter",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "A2",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Je m'appelle Ana, du Portugal. Je suis infirmière. J'ai une famille.",
+   "spokenSeconds": 25,
+   "trips": [
+    "Répond aux quatre points de la consigne"
+   ]
+  },
+  {
+   "itemId": "xsvx9s",
+   "title": "Leserbrief: Sprachkurse am Abend",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Sehr geehrte Redaktion, in Ihrer Ausgabe stand, wer sich integrieren wolle, solle einem Verein beitreten. Diese Aussage finde ich zu einfach. Natürlich sind Vereine wertvoll, weil man dort Menschen trifft und die Sprache übt. Trotzdem haben viele Berufstätige am Abend keine Zeit, weil sie lange arbeiten oder Kinder betreuen. Ausserdem fehlen bezahlbare Kurse zu passenden Zeiten. Deshalb sollte die Gemeinde flexiblere Angebote schaffen, zum Beispiel Kurse am Wochenende. Integration gelingt nicht nur im Verein, sondern überall dort, wo Menschen sich begegnen. Mit freundlichen Grüssen, A. Silva",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "xsvx9s",
+   "title": "Leserbrief: Sprachkurse am Abend",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Ich bin nicht einverstanden. Vereine sind nicht gut für alle. Keine Zeit am Abend. Kurse sind teuer. Das ist ein Problem.",
+   "spokenSeconds": null,
+   "trips": [
+    "Begründet die Meinung mit mindestens zwei Argumenten",
+    "Verknüpft die Gedanken mit Konnektoren (weil, deshalb, trotzdem, obwohl)",
+    "Bleibt sachlich und respektiert die Gegenposition"
+   ]
+  },
+  {
+   "itemId": "xsvx9s",
+   "title": "Leserbrief: Sprachkurse am Abend",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Sehr geehrte Redaktion, ich lese Ihre Quartierzeitung sehr gern. Besonders die Artikel über die Geschichte unseres Quartiers finde ich spannend. Letzte Woche war ich am Quartierfest und habe viele nette Leute getroffen. Das Wetter war schön und das Essen war ausgezeichnet. Ich hoffe, dass es nächstes Jahr wieder ein solches Fest gibt. Vielleicht könnten Sie darüber berichten. Mit freundlichen Grüssen, A. Silva",
+   "spokenSeconds": null,
+   "trips": [
+    "Bezieht klar Stellung zur Aussage im Blatt",
+    "Begründet die Meinung mit mindestens zwei Argumenten"
+   ]
+  },
+  {
+   "itemId": "xsvx9s",
+   "title": "Leserbrief: Sprachkurse am Abend",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Sehr geehrte Redaktion, ich finde die Aussage nicht ganz richtig. Viele Berufstätige haben abends keine Zeit für einen Verein. Deshalb wäre es besser, mehr Kurse anzubieten. Mit freundlichen Grüssen, A. Silva",
+   "spokenSeconds": null,
+   "trips": [
+    "Bleibt sachlich und respektiert die Gegenposition"
+   ]
+  },
+  {
+   "itemId": "1oeq1zf",
+   "title": "Am Schalter der Gemeinde",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Guten Tag. Ich möchte mich bitte anmelden, ich bin neu in die Gemeinde gezogen. Ich wohne seit dem 1. März hier an der Bahnhofstrasse 12. Könnten Sie mir bitte sagen, welche Unterlagen ich einreichen muss? Brauche ich den Pass und den Mietvertrag? Und bis wann muss ich das erledigen? — Ja, den Ausländerausweis habe ich dabei, den kann ich Ihnen gleich geben.",
+   "spokenSeconds": 75,
+   "trips": []
+  },
+  {
+   "itemId": "1oeq1zf",
+   "title": "Am Schalter der Gemeinde",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Anmelden. Ich neu hier. Papiere? Wann?",
+   "spokenSeconds": 25,
+   "trips": [
+    "Gibt die nötigen Angaben unaufgefordert"
+   ]
+  },
+  {
+   "itemId": "1oeq1zf",
+   "title": "Am Schalter der Gemeinde",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Guten Tag. Ich finde Ihre Gemeinde wirklich sehr schön. Die Lage am See ist wunderbar und es gibt viele Geschäfte. Ich habe gehört, dass es hier gute Schulen gibt. Können Sie mir etwas über die Freizeitangebote und die Vereine im Dorf erzählen? Ich interessiere mich für Sport.",
+   "spokenSeconds": 65,
+   "trips": [
+    "Bringt das Anliegen ohne Umwege auf den Punkt",
+    "Gibt die nötigen Angaben unaufgefordert",
+    "Stellt konkrete Fragen zu Unterlagen und Fristen"
+   ]
+  },
+  {
+   "itemId": "1oeq1zf",
+   "title": "Am Schalter der Gemeinde",
+   "lang": "DE",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Guten Tag, ich möchte mich anmelden. Ich wohne seit März hier. Welche Papiere brauche ich?",
+   "spokenSeconds": 30,
+   "trips": [
+    "Stellt konkrete Fragen zu Unterlagen und Fristen",
+    "Kann eine Rückfrage aufnehmen und beantworten"
+   ]
+  },
+  {
+   "itemId": "ovqzi",
+   "title": "Contester une facture",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Madame, Monsieur, Je conteste la facture n° 4587 d'un montant de 89 francs que j'ai reçue le 10 juillet. Cette facture concerne un abonnement que j'ai résilié il y a deux mois, le 5 mai. Je dispose de la confirmation écrite de ma résiliation, que je joins à ce courrier. Je vous demande donc d'annuler cette facture. Je vous remercie de me confirmer l'annulation d'ici à deux semaines. Veuillez agréer, Madame, Monsieur, mes salutations distinguées. A. Silva",
+   "spokenSeconds": null,
+   "trips": []
+  },
+  {
+   "itemId": "ovqzi",
+   "title": "Contester une facture",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Bonjour, votre facture n'est pas correcte. J'ai annulé. Annulez la facture. Merci.",
+   "spokenSeconds": null,
+   "trips": [
+    "Nomme la facture (date, montant ou numéro de référence)",
+    "Renvoie à la confirmation de résiliation",
+    "Ferme sur le fond, poli dans le ton"
+   ]
+  },
+  {
+   "itemId": "ovqzi",
+   "title": "Contester une facture",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Madame, Monsieur, Je vous écris car je suis client de votre entreprise depuis plusieurs années. J'apprécie beaucoup vos services et la qualité de votre offre. Je me demandais si vous proposez de nouveaux abonnements avec des tarifs avantageux pour les clients fidèles. Pourriez-vous m'envoyer votre catalogue et vos prix actuels ? Je vous remercie par avance. Veuillez agréer mes salutations distinguées. A. Silva",
+   "spokenSeconds": null,
+   "trips": [
+    "Nomme la facture (date, montant ou numéro de référence)",
+    "Explique pourquoi elle est contestée",
+    "Formule une demande claire (annulation de la facture)"
+   ]
+  },
+  {
+   "itemId": "ovqzi",
+   "title": "Contester une facture",
+   "lang": "FR",
+   "skill": "WRITING",
+   "cefr": "B1",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Madame, Monsieur, Je conteste une facture pour un abonnement que j'ai déjà résilié. J'ai la preuve. Merci d'annuler la facture. Salutations. A. Silva",
+   "spokenSeconds": null,
+   "trips": [
+    "Nomme la facture (date, montant ou numéro de référence)",
+    "Indique un délai ou demande une réponse"
+   ]
+  },
+  {
+   "itemId": "thb15b",
+   "title": "Signaler un défaut à la régie",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "known-good",
+   "expectedBand": "CLEAR",
+   "response": "Bonjour, je vous appelle parce que je n'ai plus d'eau chaude dans ma salle de bain depuis deux jours. J'aimerais qu'un technicien vienne réparer cela rapidement, s'il vous plaît. — Vous me proposez mercredi à quatorze heures ? Malheureusement je travaille à cette heure-là et je ne peux pas être présent. Serait-il possible de venir jeudi en fin de journée, après dix-huit heures, ou samedi matin ? — Très bien, donc nous disons jeudi à dix-huit heures trente. Je vous remercie beaucoup et je vous souhaite une bonne journée.",
+   "spokenSeconds": 80,
+   "trips": []
+  },
+  {
+   "itemId": "thb15b",
+   "title": "Signaler un défaut à la régie",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "known-bad",
+   "expectedBand": "BELOW",
+   "response": "Allô, pas d'eau chaude. Venez réparer. Mercredi non, je travaille. Voilà.",
+   "spokenSeconds": 25,
+   "trips": [
+    "Explique pourquoi l'horaire proposé ne va pas et propose une solution",
+    "Reste poli tout en défendant son intérêt",
+    "Résume ce qui a été convenu à la fin"
+   ]
+  },
+  {
+   "itemId": "thb15b",
+   "title": "Signaler un défaut à la régie",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "fluent-off-task",
+   "expectedBand": "BELOW",
+   "response": "Bonjour, je voulais vous dire que je suis très satisfait de mon appartement. Le quartier est calme et lumineux. J'aime beaucoup la vue depuis le balcon. Je me demandais aussi si je peux repeindre les murs du salon et installer de nouvelles étagères. Est-ce que la régie autorise cela ?",
+   "spokenSeconds": 65,
+   "trips": [
+    "Décrit le problème précisément et depuis quand",
+    "Dit clairement ce qu'il ou elle attend",
+    "Explique pourquoi l'horaire proposé ne va pas et propose une solution"
+   ]
+  },
+  {
+   "itemId": "thb15b",
+   "title": "Signaler un défaut à la régie",
+   "lang": "FR",
+   "skill": "SPEAKING",
+   "cefr": "B1",
+   "kind": "on-task-thin",
+   "expectedBand": "BORDERLINE",
+   "response": "Bonjour, je n'ai plus d'eau chaude depuis deux jours. Il faut réparer. Mercredi je ne peux pas, je travaille. Merci.",
+   "spokenSeconds": 30,
+   "trips": [
+    "Explique pourquoi l'horaire proposé ne va pas et propose une solution",
+    "Résume ce qui a été convenu à la fin"
+   ]
+  },
+  {
+   "itemId": "r5whpu",
+   "title": "Formular: Anmeldung bei der Gemeinde",
+   "lang": "DE",
+   "skill": "WRITING",
+   "cefr": "A2",
+   "kind": "MIS-SCORED-GUARD",
+   "expectedBand": "CLEAR",
+   "response": "Ich bin sehr glücklich, hier in dieser Gemeinde zu leben. Alles ist gut organisiert und die Menschen sind hilfsbereit. Ich möchte mich engagieren und die Schweizer Kultur besser kennenlernen.",
+   "spokenSeconds": null,
+   "trips": [
+    "Nennt ein Einzugsdatum",
+    "Nennt die Personen im Haushalt"
+   ],
+   "guard": true,
+   "note": "Deliberately mislabelled CLEAR. The harness MUST report this as a mismatch; if it passes, the harness is blind."
+  }
+ ]
+}
