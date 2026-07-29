@@ -14,24 +14,28 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
-import { examBySlug } from "@/lib/ch/registry";
+import { ALL_EXAMS } from "@/lib/ch/registry";
+import { getItemById } from "@/lib/ch/items";
 import { LANGUAGE_LABEL, isCefrLevel, levelInstruction } from "@/lib/ch/types";
-import type { SwissSkill, SwissTaskType, CefrLevel } from "@/lib/ch/types";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
+/** EVERYTHING THE CLIENT MAY SAY. Two fields: which task, and what the learner wrote.
+ *
+ *  This interface used to carry exam, skill, taskType, cefr, title, prompt AND criteria,
+ *  and the route graded against all of them. That made the browser the authority on the
+ *  standard it was being judged by: a caller could send a B1 Leserbrief with
+ *  `cefr: "A1"` and a rewritten criteria list, and the model would faithfully return a
+ *  CLEAR band against the easier standard. Nothing in the response would look wrong —
+ *  the feedback would be fluent, specific and confidently addressed to the level it had
+ *  been handed. That is the failure mode that matters here: not a crash, a plausible
+ *  wrong verdict.
+ *
+ *  The task now comes from the server-loaded item, keyed by id. The client cannot state
+ *  the standard, only the answer. */
 interface GradeBody {
   itemId?: string;
-  exam?: string;
-  skill?: SwissSkill;
-  taskType?: SwissTaskType;
-  /** The task's own CEFR level. The exam's `cefr` label is a RANGE and must never
-   *  stand in for it — see the note at the call site below. */
-  cefr?: CefrLevel;
-  title?: string;
-  prompt?: string;
-  criteria?: string[];
   response?: string;
 }
 
@@ -111,7 +115,24 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: true, available: false });
   }
 
-  const exam = body.exam ? examBySlug(body.exam) : undefined;
+  // ── SERVER-AUTHORITATIVE: the task is loaded by id, never taken from the body ──
+  // getItemById reads the same bundles the runner serves and returns SERVED items only,
+  // so a withheld task (active:false) cannot be graded at all — which is correct: a task
+  // we have withdrawn must not produce a readiness estimate.
+  const itemId = (body.itemId ?? "").trim();
+  if (!itemId) {
+    return NextResponse.json({ ok: false, error: "Missing itemId" }, { status: 400 });
+  }
+  const item = getItemById(itemId);
+  if (!item) {
+    return NextResponse.json({ ok: false, error: "Unknown item" }, { status: 404 });
+  }
+
+  // The registry entry for THIS item, found by the item's own identity. Language matters
+  // for the examiner persona: a wrong one produces confident, fluent, wrong feedback.
+  const exam = ALL_EXAMS.find(
+    (e) => e.language === item.language && e.track === item.track && e.exam === item.exam,
+  );
   const examName = exam?.name ?? "the test";
   // The level to judge THIS task at — the task's own, not the exam's.
   //
@@ -122,15 +143,19 @@ export async function POST(req: Request): Promise<NextResponse> {
   // A range cannot be a standard. Judge each task at its declared level, and when a
   // task declares none, say so rather than substituting the exam's range — an
   // unstated level is unknown, and "A1–B1" is not a safe guess for it.
-  const cefr = isCefrLevel(body.cefr) ? body.cefr : null;
+  const cefr = isCefrLevel(item.cefr) ? item.cefr : null;
   const levelPhrase = cefr ?? "the task's own criteria";
   // The examiner's LANGUAGE, from the registry entry. This was hardcoded to the
   // ancestor's language at fork time, which would have told the model it was a
   // Swedish examiner while grading German writing — a wrong persona that produces  hygiene-allow
   // confident, fluent, wrong feedback rather than an error anyone could see.
   const examLanguage = exam ? LANGUAGE_LABEL[exam.language] : "the target";
-  const isSpeaking = body.taskType === "SPEAKING_PROMPT";
-  const criteria = (body.criteria ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);
+  const isSpeaking = item.taskType === "SPEAKING_PROMPT";
+  // Criteria come off the authored payload, not the request. They ARE the standard;
+  // letting the caller supply them is letting the caller mark its own paper.
+  const payload = (item.payload ?? {}) as { criteria?: unknown };
+  const criteria = (Array.isArray(payload.criteria) ? payload.criteria : [])
+    .filter((c): c is string => typeof c === "string" && c.trim().length > 0);
 
   const system = [
     `You are an experienced ${examLanguage}-language examiner for ${examName}.`,
@@ -147,8 +172,8 @@ export async function POST(req: Request): Promise<NextResponse> {
   ].join(" ");
 
   const userMsg = [
-    body.title ? `Task: ${body.title}` : null,
-    body.prompt ? `Instructions: ${body.prompt}` : null,
+    item.title ? `Task: ${item.title}` : null,
+    item.prompt ? `Instructions: ${item.prompt}` : null,
     criteria.length ? `Criteria the answer should meet:\n- ${criteria.join("\n- ")}` : null,
     `\nLearner's answer:\n"""${response.slice(0, 6000)}"""`,
   ]
@@ -198,14 +223,15 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: true, available: false });
   }
 
-  // Best-effort persistence — bundled items have no DB id, so a missing/unknown
-  // itemId simply skips the write (never 500s on an empty database).
-  if (body.itemId) {
+  // Best-effort persistence. Uses the VALIDATED id, not the raw body field: by this
+  // point itemId has resolved to a real served item, so the attempt row cannot record
+  // an id the bank does not have.
+  {
     try {
       await prisma.swissAttempt.create({
         data: {
           userId: user.id,
-          itemId: body.itemId,
+          itemId,
           status: "EVALUATED",
           response: { text: response } as object,
           aiFeedback: feedback as unknown as object,

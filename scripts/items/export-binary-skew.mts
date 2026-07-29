@@ -183,8 +183,15 @@ for (const p of flagged) {
     "─".repeat(78),
     `${p.name}   ${p.file}`,
     `${p.items.length} item(s) · ${p.t} true / ${p.f} false · guessing one value scores ${(p.guess * 100).toFixed(0)}%`,
-    p.verdict === "TOO SMALL"
-      ? `VERDICT: TOO SMALL — cannot be evened by re-authoring. Best possible here is ${(Math.ceil(p.items.length / 2) / p.items.length * 100).toFixed(0)}%.`
+    // "AT FLOOR", not "TOO SMALL" — the verdict vocabulary was renamed at the type
+    // (line ~119) and this comparison was left on the old string, so this branch was
+    // DEAD. Every at-floor pool fell through to the SKEWED message and was told to move
+    // N items "to reach an even split" — advice that cannot be followed, because an
+    // at-floor pool is one where an even split is already unreachable. Remediation
+    // output that asks for the impossible is worse than none: it reads as actionable.
+    // tsc had been flagging it (TS2367, no overlap) and the whole `next build` was red.
+    p.verdict === "AT FLOOR"
+      ? `VERDICT: AT FLOOR — cannot be evened by re-authoring. Best possible here is ${(Math.ceil(p.items.length / 2) / p.items.length * 100).toFixed(0)}%.`
       : `VERDICT: SKEWED — to reach an even split, ${Math.abs(p.t - p.f) >> 1} item(s) need to change side.`,
     "─".repeat(78),
   );
