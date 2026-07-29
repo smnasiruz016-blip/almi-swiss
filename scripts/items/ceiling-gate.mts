@@ -56,27 +56,17 @@ import { compareCefr, isCefrLevel, type CefrLevel } from "../../src/lib/ch/types
  *  (`cefr: "A1–B1"`), and its top is the real ceiling — the fact the 20 B2 items
  *  violated.
  *
- *  ⚠️ This parses a DISPLAY string, which is the weakest part of this gate. `cefr` on
- *  a registry entry exists to be rendered, not to be enforced against, and a label
- *  edit ("A1–B1" → "A1 to B1") would silently exempt a surface. A first-class
- *  `certifiesUpTo` field on ExamMeta would remove the parse entirely; until then the
- *  parse FAILS LOUD rather than skipping quietly — an unparseable range is reported,
- *  not treated as "no ceiling". */
-// Dash characters as explicit \u escapes, never literal glyphs. The first version
-// of this line was written through a shell heredoc and shipped a literal BACKSPACE
-// (U+0008) where \b was intended: the pattern matched nothing, every surface
-// reported "unparseable", and the gate printed a GREEN tick having checked ZERO of
-// 1,388 items. A gate that cannot fail is worse than none, because it answers.
-const RANGE = /([A-C][12])\s*(?:[‐-―−-]|to)\s*([A-C][12])/;
-
-function examCeiling(e: ExamMeta): { ceiling?: CefrLevel; label: string } {
-  const label = String((e as { cefr?: unknown }).cefr ?? "");
-  const m = RANGE.exec(label);
-  if (m && isCefrLevel(m[2])) return { ceiling: m[2] as CefrLevel, label };
-  const single = /^\s*([A-C][12])\s*$/.exec(label);
-  if (single && isCefrLevel(single[1])) return { ceiling: single[1] as CefrLevel, label };
-  return { label };
-}
+ *  SOURCED FROM A STRUCTURED FIELD, NOT A LABEL. The ceiling is ExamMeta.certifiesUpTo
+ *  (CEFR enum or null), declared per surface in the registry. It used to be parsed out
+ *  of the `cefr` DISPLAY string, and that parse failed in both directions: a copy edit
+ *  ("A1-B1" -> "up to B1") would have silently exempted a surface, and a mangled dash
+ *  in the pattern DID make it match nothing -- every surface reported "unparseable" and
+ *  the gate printed a green tick over ZERO of 1,388 items. null now means "this surface
+ *  awards no CEFR level" as a STATEMENT (canton-civic), never as a parse that failed
+ *  and called itself exempt.
+ *
+ *  And the gate now answers for its own coverage: 0 surfaces with a ceiling, or 0 items
+ *  examined, is a FAILURE. Blind-green is no longer reachable. */
 
 type Row = {
   key: string;
@@ -86,9 +76,13 @@ type Row = {
   aboveGoal: number;    // above the naturalisation minimum — informational
   unlevelled: number;
   exempt: number;
-  unparseable: number;
+  noCeiling: number;
   total: number;
 };
+
+// COVERAGE COUNTERS — the gate's answer about itself.
+let surfacesWithCeiling = 0;
+let itemsChecked = 0;
 
 const rows = new Map<string, Row>();
 const violations: string[] = [];
@@ -96,7 +90,7 @@ const violations: string[] = [];
 function row(key: string, goal: CefrLevel | "—", ceiling: string): Row {
   let r = rows.get(key);
   if (!r) {
-    r = { key, goal, ceiling, above: 0, aboveGoal: 0, unlevelled: 0, exempt: 0, unparseable: 0, total: 0 };
+    r = { key, goal, ceiling, above: 0, aboveGoal: 0, unlevelled: 0, exempt: 0, noCeiling: 0, total: 0 };
     rows.set(key, r);
   }
   // A surface declares different goals per skill (spoken B1, written A2). Show the
@@ -108,22 +102,26 @@ function row(key: string, goal: CefrLevel | "—", ceiling: string): Row {
 }
 
 for (const e of ALL_EXAMS) {
-  const { ceiling, label } = examCeiling(e);
+  const ceiling = e.certifiesUpTo; // STRUCTURED — never parsed from a label
   for (const skill of e.skills) {
     const goal = goalCefrFor(e, skill);
     const items = itemsForSurface(e, skill);
     const key = `${e.track}|${e.exam}`;
-    const r = row(key, goal ?? "—", ceiling ?? (label || "—"));
+    const r = row(key, goal ?? "—", ceiling ?? "none (certifies no CEFR level)");
     r.total += items.length;
 
-    // No parseable certified range -> nothing to enforce, but SAY SO. A surface that
-    // silently escapes the check is how a gate becomes decorative.
-    if (!ceiling) {
-      r.unparseable += items.length;
+    // certifiesUpTo === null is an EXPLICIT declaration that this surface awards no
+    // CEFR level (canton-civic: no national civics test exists). Exempt by statement,
+    // not by a parse that failed and called itself exempt.
+    if (ceiling === null) {
+      r.noCeiling += items.length;
       continue;
     }
 
+    surfacesWithCeiling++;
+
     for (const it of items) {
+      itemsChecked++;
       if (!isCefrLevel(it.cefr)) {
         if (goal !== undefined) r.unlevelled++;  // verify-items owns failing on this
         else r.exempt++;
@@ -161,13 +159,13 @@ for (const r of sorted) {
   );
 }
 
-const unparseable = sorted.reduce((t, r) => t + r.unparseable, 0);
-if (unparseable > 0) {
+const noCeiling = sorted.reduce((t, r) => t + r.noCeiling, 0);
+if (noCeiling > 0) {
   console.log(
     `
-  ${unparseable} item(s) sit on a surface whose declared range could not be parsed` +
-      ` - NOT checked. Surfaces: ` +
-      sorted.filter((r) => r.unparseable > 0).map((r) => `${r.key} ("${r.ceiling}")`).join(", "),
+  ${noCeiling} item(s) sit on a surface that declares certifiesUpTo: null` +
+      ` - no CEFR level to exceed. Surfaces: ` +
+      sorted.filter((r) => r.noCeiling > 0).map((r) => r.key).join(", "),
   );
 }
 const totalUnlevelled = sorted.reduce((t, r) => t + r.unlevelled, 0);
@@ -189,6 +187,40 @@ if (totalAboveGoal > 0) {
   );
 }
 
+// ── FAIL ON ZERO COVERAGE ───────────────────────────────────────────────────
+// A gate that checked nothing must be RED, never green. This one has already gone
+// blind-green once: a mangled dash made the old range parse match nothing, every
+// surface fell into the exempt path, and it printed a tick over ZERO of 1,388 items.
+// The tick was worse than silence, because it answered the question.
+//
+// Nothing here can be satisfied by an empty bank: if no surface declares a ceiling, or
+// no item is examined, the gate reports that IT is broken rather than that the bank is
+// clean.
+if (surfacesWithCeiling === 0) {
+  console.error(
+    `
+✗ CEILING GATE FAILED - checked 0 surfaces.
+` +
+      `  No registry entry declared a certifiesUpTo ceiling, so nothing could be
+` +
+      `  enforced. This is a gate fault, not a clean bank.
+`,
+  );
+  process.exit(1);
+}
+if (itemsChecked === 0) {
+  console.error(
+    `
+✗ CEILING GATE FAILED - examined 0 items across ${surfacesWithCeiling} surface(s).
+` +
+      `  A ceiling with nothing under it proves nothing. Either the bundles did not
+` +
+      `  load or the loader returned empty - both are faults, not passes.
+`,
+  );
+  process.exit(1);
+}
+
 if (violations.length) {
   console.error(`
 ✗ CEILING GATE FAILED - ${violations.length} served item(s) above what their exam certifies
@@ -206,5 +238,8 @@ if (violations.length) {
   process.exit(1);
 }
 
-console.log(`
-✓ CEILING GATE: no served item sits above what its exam certifies.`);
+console.log(
+  `
+✓ CEILING GATE: ${itemsChecked} item(s) checked across ${surfacesWithCeiling} ` +
+    `surface(s) with a declared ceiling; none sits above what its exam certifies.`,
+);
