@@ -149,12 +149,19 @@ export const LANGUAGE_TTS: Record<SwissLanguage, string> = {
 export interface McqPayload {
   passage?: string;
   transcript?: string;
+  /** Rendered clip under public/audio/ch. When present the player plays this FILE and
+   *  does not fall back to the device's speech synthesiser — which is the point: a
+   *  machine with no German voice silently showed the transcript instead, turning a
+   *  listening item into a reading item for that candidate and not for the next one. */
+  audioUrl?: string;
   question: string;
   options: string[];
 }
 
 export interface MatchingPayload {
   transcript?: string;
+  /** See McqPayload.audioUrl. */
+  audioUrl?: string;
   passage?: string;
   instructions: string;
   left: string[];

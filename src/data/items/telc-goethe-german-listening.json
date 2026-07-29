@@ -8,14 +8,15 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Ansage im Zug",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Naechster Halt: Zuerich Hardbruecke. Reisende nach Winterthur steigen bitte hier um. Der Anschlusszug faehrt auf Gleis 3 in acht Minuten.",
+      "transcript": "Nächster Halt: Zürich Hardbrücke. Reisende nach Winterthur steigen bitte hier um. Der Anschlusszug fährt auf Gleis 3 in acht Minuten.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--ansage-im-zug.wav",
       "question": "Was sollen Reisende nach Winterthur tun?",
       "options": [
-        "In Hardbruecke umsteigen",
+        "In Hardbrücke umsteigen",
         "Im Zug bleiben",
-        "Acht Minuten warten und zurueckfahren",
+        "Acht Minuten warten und zurückfahren",
         "Auf Gleis 8 gehen"
       ]
     },
@@ -34,9 +35,10 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Nachricht auf dem Telefon: Arzttermin",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Guten Tag, hier ist die Praxis Dr. Ammann. Ihr Termin von Donnerstag muss leider verschoben werden. Wir koennen Ihnen Freitag um 10 Uhr oder Montag um 14 Uhr anbieten. Bitte rufen Sie kurz zurueck.",
+      "transcript": "Guten Tag, hier ist die Praxis Dr. Ammann. Ihr Termin von Donnerstag muss leider verschoben werden. Wir können Ihnen Freitag um 10 Uhr oder Montag um 14 Uhr anbieten. Bitte rufen Sie kurz zurück.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-auf-dem-telefon-arzttermin.wav",
       "question": "Was ist das Problem?",
       "options": [
         "Die Praxis ist geschlossen",
@@ -62,8 +64,9 @@
     "title": "Durchsage im Einkaufszentrum",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "transcript": "Liebe Kundinnen und Kunden, unser Haus schliesst heute bereits um 17 Uhr. Wir bitten Sie, Ihre Einkaeufe rechtzeitig abzuschliessen. Morgen sind wir wieder normal fuer Sie da.",
-      "question": "Aussage: Das Einkaufszentrum schliesst heute frueher als sonst.",
+      "transcript": "Liebe Kundinnen und Kunden, unser Haus schliesst heute bereits um 17 Uhr. Wir bitten Sie, Ihre Einkäufe rechtzeitig abzuschliessen. Morgen sind wir wieder normal für Sie da.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--durchsage-im-einkaufszentrum.wav",
+      "question": "Aussage: Das Einkaufszentrum schliesst heute früher als sonst.",
       "options": [
         "Richtig",
         "Falsch"
@@ -84,15 +87,16 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Nachricht von der Schule",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
       "transcript": "Guten Tag Frau Keller, hier ist die Schulleitung. Ihr Sohn hat sein Sportzeug vergessen. Er kann heute nicht am Sportunterricht teilnehmen. Bitte denken Sie am Donnerstag daran.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-von-der-schule.wav",
       "question": "Warum ruft die Schule an?",
       "options": [
         "Der Sohn ist krank",
-        "Der Sportunterricht faellt aus",
+        "Der Sportunterricht fällt aus",
         "Der Sohn hat sein Sportzeug vergessen",
-        "Der Sohn kommt spaeter nach Hause"
+        "Der Sohn kommt später nach Hause"
       ]
     },
     "answer": {
@@ -113,6 +117,7 @@
     "prompt": "Richtig oder falsch?",
     "payload": {
       "transcript": "Am Samstag bleibt es im Mittelland trocken, im Tessin ziehen am Nachmittag Gewitter auf. Die Temperaturen erreichen 24 Grad.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--wetterbericht.wav",
       "question": "Aussage: Im Tessin soll es am Samstagnachmittag Gewitter geben.",
       "options": [
         "Richtig",
@@ -134,15 +139,16 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Ansage im Bus",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Achtung: Diese Linie faehrt heute nur bis zum Bahnhof. Ab Bahnhof fahren Sie bitte mit der Linie 12 weiter. Ihr Billett bleibt gueltig.",
-      "question": "Was gilt fuer das Billett?",
+      "transcript": "Achtung: Diese Linie fährt heute nur bis zum Bahnhof. Ab Bahnhof fahren Sie bitte mit der Linie 12 weiter. Ihr Billett bleibt gültig.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--ansage-im-bus.wav",
+      "question": "Was gilt für das Billett?",
       "options": [
-        "Es muss neu geloest werden",
+        "Es muss neu gelöst werden",
         "Es kostet heute weniger",
         "Es gilt nur bis zum Bahnhof",
-        "Es bleibt gueltig"
+        "Es bleibt gültig"
       ]
     },
     "answer": {
@@ -160,9 +166,10 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Anruf beim Kundendienst",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Guten Tag, Sie haben eine Waschmaschine bei uns bestellt. Die Lieferung ist fuer Dienstag zwischen 8 und 12 Uhr geplant. Bitte sorgen Sie dafuer, dass jemand zu Hause ist.",
+      "transcript": "Guten Tag, Sie haben eine Waschmaschine bei uns bestellt. Die Lieferung ist für Dienstag zwischen 8 und 12 Uhr geplant. Bitte sorgen Sie dafür, dass jemand zu Hause ist.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--anruf-beim-kundendienst.wav",
       "question": "Was soll die Kundin tun?",
       "options": [
         "Am Dienstagvormittag zu Hause sein",
@@ -189,7 +196,8 @@
     "prompt": "Richtig oder falsch?",
     "payload": {
       "transcript": "Hoi, ich bin heute im Homeoffice. Die Sitzung um zwei mache ich online mit. Wenn du die Unterlagen hast, schick sie mir bitte vorher per Mail.",
-      "question": "Aussage: Die Kollegin kommt heute ins Buero.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-einer-kollegin.wav",
+      "question": "Aussage: Die Kollegin kommt heute ins Büro.",
       "options": [
         "Richtig",
         "Falsch"
@@ -210,9 +218,10 @@
     "difficulty": "FOUNDATION",
     "variant": "TELC",
     "title": "Durchsage im Hallenbad",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Liebe Gaeste, das Sprungbecken wird in zehn Minuten geschlossen. Das grosse Becken bleibt bis 20 Uhr offen. Bitte verlassen Sie das Sprungbecken rechtzeitig.",
+      "transcript": "Liebe Gäste, das Sprungbecken wird in zehn Minuten geschlossen. Das grosse Becken bleibt bis 20 Uhr offen. Bitte verlassen Sie das Sprungbecken rechtzeitig.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--durchsage-im-hallenbad.wav",
       "question": "Was schliesst in zehn Minuten?",
       "options": [
         "Das ganze Bad",
@@ -238,7 +247,8 @@
     "title": "Ansage der Gemeinde",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "transcript": "Am Samstag findet auf dem Dorfplatz der Fruehlingsmarkt statt. Der Platz ist ab 6 Uhr fuer den Verkehr gesperrt. Parkplaetze finden Sie beim Schulhaus.",
+      "transcript": "Am Samstag findet auf dem Dorfplatz der Frühlingsmarkt statt. Der Platz ist ab 6 Uhr für den Verkehr gesperrt. Parkplätze finden Sie beim Schulhaus.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--ansage-der-gemeinde.wav",
       "question": "Aussage: Man kann am Samstag auf dem Dorfplatz parkieren.",
       "options": [
         "Richtig",
@@ -260,15 +270,16 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Nachricht vom Hauswart",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Gruezi, hier ist der Hauswart. Am Montag kommt der Sanitaer wegen des Wasserhahns. Er kommt zwischen 13 und 15 Uhr. Passt Ihnen das, oder soll ich einen anderen Termin abmachen?",
-      "question": "Was moechte der Hauswart wissen?",
+      "transcript": "Grüezi, hier ist der Hauswart. Am Montag kommt der Sanitär wegen des Wasserhahns. Er kommt zwischen 13 und 15 Uhr. Passt Ihnen das, oder soll ich einen anderen Termin abmachen?",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-vom-hauswart.wav",
+      "question": "Was möchte der Hauswart wissen?",
       "options": [
         "Wer bezahlt",
         "Wo der Wasserhahn ist",
         "Ob der Termin passt",
-        "Ob der Sanitaer kommen soll"
+        "Ob der Sanitär kommen soll"
       ]
     },
     "answer": {
@@ -286,10 +297,11 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Ansage in der Bibliothek",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Liebe Besucherinnen und Besucher, wir schliessen in einer Viertelstunde. Bitte bringen Sie Ihre Buecher zur Ausleihe. Rueckgaben koennen Sie jederzeit in die Box vor dem Eingang legen.",
-      "question": "Wohin kann man Buecher jederzeit zurueckgeben?",
+      "transcript": "Liebe Besucherinnen und Besucher, wir schliessen in einer Viertelstunde. Bitte bringen Sie Ihre Bücher zur Ausleihe. Rückgaben können Sie jederzeit in die Box vor dem Eingang legen.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--ansage-in-der-bibliothek.wav",
+      "question": "Wohin kann man Bücher jederzeit zurückgeben?",
       "options": [
         "An die Ausleihe",
         "Zur Information",
@@ -314,8 +326,9 @@
     "title": "Nachricht einer Freundin",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "transcript": "Du, ich schaffe es heute Abend doch nicht ins Kino. Meine Schwester kommt spontan vorbei. Koennen wir auf Sonntag verschieben?",
-      "question": "Aussage: Die Freundin schlaegt einen neuen Termin vor.",
+      "transcript": "Du, ich schaffe es heute Abend doch nicht ins Kino. Meine Schwester kommt spontan vorbei. Können wir auf Sonntag verschieben?",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-einer-freundin.wav",
+      "question": "Aussage: Die Freundin schlägt einen neuen Termin vor.",
       "options": [
         "Richtig",
         "Falsch"
@@ -336,12 +349,13 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Ansage am Bahnhof",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "transcript": "Der Intercity nach Basel hat heute rund zehn Minuten Verspaetung. Grund dafuer ist eine Stoerung im Betriebsablauf. Wir bitten um Entschuldigung.",
-      "question": "Warum hat der Zug Verspaetung?",
+      "transcript": "Der Intercity nach Basel hat heute rund zehn Minuten Verspätung. Grund dafür ist eine Störung im Betriebsablauf. Wir bitten um Entschuldigung.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--ansage-am-bahnhof.wav",
+      "question": "Warum hat der Zug Verspätung?",
       "options": [
-        "Wegen einer Stoerung im Betriebsablauf",
+        "Wegen einer Störung im Betriebsablauf",
         "Wegen des Wetters",
         "Wegen Bauarbeiten",
         "Wegen zu vieler Reisender"
@@ -364,8 +378,9 @@
     "title": "Nachricht der Kita",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "transcript": "Guten Morgen, hier die Kita Sonnenschein. Wir moechten Sie erinnern: Am Freitag machen wir den Ausflug in den Wald. Bitte geben Sie Ihrem Kind wetterfeste Kleidung und gute Schuhe mit.",
-      "question": "Aussage: Die Eltern sollen an passende Kleidung denken.",
+      "transcript": "Guten Morgen, hier die Kita Sonnenschein. Wir möchten Sie erinnern: Am Freitag machen wir den Ausflug in den Wald. Bitte geben Sie Ihrem Kind wetterfeste Kleidung und gute Schuhe mit.",
+      "audioUrl": "/audio/ch/telc-goethe-german-listening--nachricht-der-kita.wav",
+      "question": "Aussage: Der Ausflug findet am Montag statt.",
       "options": [
         "Richtig",
         "Falsch"
@@ -373,7 +388,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 0
+      "correctIndex": 1
     },
     "maxPoints": 1
   }

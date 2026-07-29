@@ -1,0 +1,251 @@
+{
+ "decided": "2026-07-28",
+ "by": "beta-g (levels) + CC (enumeration), confirmed inline",
+ "rule": "TASK TYPE sets the level. charBand/minSeconds corroborate only — never level by length or difficulty (grading.ts level-crossing rule).",
+ "sources": {
+  "DELF_TCF::FR": "DELF level mapping supplied by beta-g from france-education-international.fr + delfdalf.fr. PASS by beta-g; NOT re-verified by CC.",
+  "TELC_GOETHE::DE": "Every item title self-declares its cert and level (Goethe B1 / telc B1). Verified by CC from the bank, 2026-07-28."
+ },
+ "verdicts": {
+  "delf-tcf-french-writing.json|Carte postale de vacances": {
+   "cefr": "A1",
+   "why": "A1 — postcard / SMS / form / short message"
+  },
+  "delf-tcf-french-writing.json|Formulaire : inscription à la bibliothèque": {
+   "cefr": "A1",
+   "why": "A1 — postcard / SMS / form / short message"
+  },
+  "delf-tcf-french-writing.json|SMS : changer le lieu de rendez-vous": {
+   "cefr": "A1",
+   "why": "A1 — postcard / SMS / form / short message"
+  },
+  "delf-tcf-french-writing.json|Écrire sur soi": {
+   "cefr": "A1",
+   "why": "A1 — postcard / SMS / form / short message"
+  },
+  "delf-tcf-french-writing.json|Note : merci pour le livre": {
+   "cefr": "A1",
+   "why": "A1 — postcard / SMS / form / short message"
+  },
+  "delf-tcf-french-writing.json|Courriel : réserver un hôtel": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Courriel : annuler un cours": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Raconter une expérience": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Message sur un forum : un conseil": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Courriel : réclamer": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Décliner une invitation": {
+   "cefr": "A2",
+   "why": "A2 — short letter, describe an experience, invite-thank-apologise"
+  },
+  "delf-tcf-french-writing.json|Prise de position : les portables à l'école": {
+   "cefr": "B1",
+   "why": "B1 — express a point of view (essai / article / forum / lettre argumentée)"
+  },
+  "delf-tcf-french-writing.json|Lettre : exposer un problème et proposer une solution": {
+   "cefr": "B1",
+   "why": "B1 — express a point of view (essai / article / forum / lettre argumentée)"
+  },
+  "delf-tcf-french-writing.json|Texte : comparer": {
+   "cefr": "B1",
+   "why": "B1 — express a point of view (essai / article / forum / lettre argumentée)"
+  },
+  "delf-tcf-french-writing.json|Courriel : réagir à un refus": {
+   "cefr": "B1",
+   "why": "B1 — express a point of view (essai / article / forum / lettre argumentée)"
+  },
+  "delf-tcf-french-speaking.json|Se présenter (cours)": {
+   "cefr": "A1",
+   "why": "A1 — guided interview / info exchange / short role-play"
+  },
+  "delf-tcf-french-speaking.json|Décrire une photo": {
+   "cefr": "A1",
+   "why": "A1 — guided interview / info exchange / short role-play"
+  },
+  "delf-tcf-french-speaking.json|Arriver à l'hôtel": {
+   "cefr": "A1",
+   "why": "A1 — guided interview / info exchange / short role-play"
+  },
+  "delf-tcf-french-speaking.json|Parler de votre semaine": {
+   "cefr": "A1",
+   "why": "A1 — guided interview / info exchange / short role-play"
+  },
+  "delf-tcf-french-speaking.json|Commander au café": {
+   "cefr": "A1",
+   "why": "A1 — guided interview / info exchange / short role-play"
+  },
+  "delf-tcf-french-speaking.json|Organiser quelque chose ensemble": {
+   "cefr": "A2",
+   "why": "A2 — role-play, monologue suivi, transactional interaction"
+  },
+  "delf-tcf-french-speaking.json|Raconter une expérience de voyage": {
+   "cefr": "A2",
+   "why": "A2 — role-play, monologue suivi, transactional interaction"
+  },
+  "delf-tcf-french-speaking.json|Recommander quelque chose": {
+   "cefr": "A2",
+   "why": "A2 — role-play, monologue suivi, transactional interaction"
+  },
+  "delf-tcf-french-speaking.json|Régler quelque chose au téléphone": {
+   "cefr": "A2",
+   "why": "A2 — role-play, monologue suivi, transactional interaction"
+  },
+  "delf-tcf-french-speaking.json|Parler de ses habitudes": {
+   "cefr": "A2",
+   "why": "A2 — role-play, monologue suivi, transactional interaction"
+  },
+  "delf-tcf-french-speaking.json|Contredire poliment": {
+   "cefr": "B1",
+   "why": "B1 — interactive persuasion / point of view (OVERRULED from A2 by beta-g: disagree-and-justify is the B1 act; the 50s length is a documented divergence, not a level signal)"
+  },
+  "delf-tcf-french-speaking.json|Défendre un avis : la semaine de quatre jours": {
+   "cefr": "B1",
+   "why": "B1 — point of view from a short document / extended argument"
+  },
+  "delf-tcf-french-speaking.json|Décrire un graphique": {
+   "cefr": "B1",
+   "why": "B1 — point of view from a short document / extended argument"
+  },
+  "delf-tcf-french-speaking.json|Résoudre un problème : trop peu de temps": {
+   "cefr": "B1",
+   "why": "B1 — point of view from a short document / extended argument"
+  },
+  "delf-tcf-french-speaking.json|Parler d'une évolution": {
+   "cefr": "B1",
+   "why": "B1 — point of view from a short document / extended argument"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 1 — E-Mail an eine Freundin: Umzug in die Schweiz": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 1 — E-Mail: Besuch ankündigen": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 1 — Brief: Dank nach einem Praktikum": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 2 — Forum: Sollen Läden am Sonntag öffnen?": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 2 — Forum: Velo oder öffentlicher Verkehr?": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 2 — Forum: Handy am Familientisch": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 3 — Kurze Nachricht: Kurs verschieben": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 3 — Kurze Nachricht: Termin bei der Gemeinde": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|Goethe B1, Teil 3 — Kurze Nachricht: Bitte an den Hauswart": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Reklamation nach einem Kurs": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Anfrage an die Krankenkasse": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Bewerbung um einen Kursplatz": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Wohnung, Mängel melden": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Nachbarschaftsfest vorschlagen": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-writing.json|telc B1 — Brief: Abmeldung beim Verein": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 1 — Gemeinsam planen: Ausflug der Klasse": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 1 — Gemeinsam planen: Geschenk für die Kursleiterin": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 1 — Gemeinsam planen: Umzug am Wochenende": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 2 — Präsentation: Mein Weg zur Arbeit": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 2 — Präsentation: Ein Fest in meinem Herkunftsland": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 2 — Präsentation: Sprachen lernen im Alltag": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 3 — Rückfragen zur Präsentation: Arbeitsweg": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 3 — Rückfragen zur Präsentation: Fest": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|Goethe B1, Teil 3 — Rückfragen zur Präsentation: Lernen": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares Goethe B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 1 — Kontaktaufnahme: Sich kennenlernen im Kurs": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 1 — Kontaktaufnahme: Neu in der Gemeinde": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 2 — Gespräch über ein Thema: Wohnen zur Miete": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 2 — Gespräch über ein Thema: Arbeiten von zu Hause": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 3 — Gemeinsam planen: Kursabschluss feiern": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  },
+  "telc-goethe-german-speaking.json|telc B1, Teil 3 — Gemeinsam planen: Hilfe für eine Nachbarin": {
+   "cefr": "B1",
+   "why": "B1 — title self-declares telc B1; short Teile are parts of a B1 exam, not A2 items"
+  }
+ }
+}

@@ -8,12 +8,12 @@
     "difficulty": "FOUNDATION",
     "variant": "GOETHE",
     "title": "Aushang: Reinigung des Treppenhauses",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Liebe Mieterinnen und Mieter\n\nam Mittwoch, 14. Mai, wird das Treppenhaus gereinigt. Bitte stellen Sie an diesem Tag keine Schuhe und keine Kinderwagen vor die Wohnungstuer.\n\nDie Reinigung dauert von 8 bis etwa 12 Uhr.\n\nBesten Dank\nDie Hausverwaltung",
+      "passage": "Liebe Mieterinnen und Mieter\n\nam Mittwoch, 14. Mai, wird das Treppenhaus gereinigt. Bitte stellen Sie an diesem Tag keine Schuhe und keine Kinderwagen vor die Wohnungstür.\n\nDie Reinigung dauert von 8 bis etwa 12 Uhr.\n\nBesten Dank\nDie Hausverwaltung",
       "question": "Was sollen die Mieter am 14. Mai tun?",
       "options": [
-        "Nichts vor die Wohnungstuer stellen",
+        "Nichts vor die Wohnungstür stellen",
         "Das Treppenhaus selber putzen",
         "Zwischen 8 und 12 Uhr zu Hause bleiben",
         "Den Kinderwagen in den Keller bringen"
@@ -34,15 +34,15 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Fahrplanhinweis am Bahnhof",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Wegen Bauarbeiten faehrt zwischen Aarau und Olten vom 3. bis 7. Juni kein Zug. Zwischen den beiden Bahnhoefen verkehren Busse. Die Fahrt dauert rund 20 Minuten laenger. Bitte planen Sie mehr Zeit ein.",
+      "passage": "Wegen Bauarbeiten fährt zwischen Aarau und Olten vom 3. bis 7. Juni kein Zug. Zwischen den beiden Bahnhöfen verkehren Busse. Die Fahrt dauert rund 20 Minuten länger. Bitte planen Sie mehr Zeit ein.",
       "question": "Was gilt vom 3. bis 7. Juni?",
       "options": [
-        "Die Zuege fahren haeufiger",
+        "Die Züge fahren häufiger",
         "Busse ersetzen den Zug auf dieser Strecke",
         "Die Strecke ist ganz gesperrt",
-        "Die Fahrt ist 20 Minuten kuerzer"
+        "Die Fahrt ist 20 Minuten kürzer"
       ]
     },
     "answer": {
@@ -62,8 +62,8 @@
     "title": "Brief der Krankenkasse",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Sehr geehrte Frau Baumann\n\nIhre neue Police gilt ab dem 1. Januar. Die Franchise bleibt unveraendert bei 500 Franken. Die Praemie steigt um 12 Franken pro Monat.\n\nBei Fragen rufen Sie uns an.\n\nFreundliche Gruesse",
-      "question": "Aussage: Die Franchise wird erhoeht.",
+      "passage": "Sehr geehrte Frau Baumann\n\nIhre neue Police gilt ab dem 1. Januar. Die Franchise bleibt unverändert bei 500 Franken. Die Prämie steigt um 12 Franken pro Monat.\n\nBei Fragen rufen Sie uns an.\n\nFreundliche Grüsse",
+      "question": "Aussage: Die Franchise wird erhöht.",
       "options": [
         "Richtig",
         "Falsch"
@@ -84,14 +84,14 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Anschlag im Quartierladen",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Suche Nachhilfe in Mathematik fuer meinen Sohn, 8. Klasse. Einmal pro Woche, am liebsten am Dienstag oder Donnerstag nach 17 Uhr. 30 Franken pro Stunde. Bei Interesse melden unter der Nummer im Laden.",
+      "passage": "Suche Nachhilfe in Mathematik für meinen Sohn, 8. Klasse. Einmal pro Woche, am liebsten am Dienstag oder Donnerstag nach 17 Uhr. 30 Franken pro Stunde. Bei Interesse melden unter der Nummer im Laden.",
       "question": "Wann soll der Unterricht stattfinden?",
       "options": [
         "Jeden Tag nach 17 Uhr",
         "Am Wochenende",
-        "Einmal pro Woche am spaeten Nachmittag",
+        "Einmal pro Woche am späten Nachmittag",
         "Zweimal pro Woche am Morgen"
       ]
     },
@@ -112,7 +112,7 @@
     "title": "E-Mail vom Sportverein",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Hallo zusammen\n\ndas Training am Freitag faellt aus, weil die Halle belegt ist. Dafuer trainieren wir am Sonntag um 10 Uhr. Wer nicht kann, meldet sich bitte bis Samstagmittag.\n\nSportliche Gruesse\nMarco",
+      "passage": "Hallo zusammen\n\ndas Training am Freitag fällt aus, weil die Halle belegt ist. Dafür trainieren wir am Sonntag um 10 Uhr. Wer nicht kann, meldet sich bitte bis Samstagmittag.\n\nSportliche Grüsse\nMarco",
       "question": "Aussage: Das Training am Freitag findet statt.",
       "options": [
         "Richtig",
@@ -134,14 +134,14 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Hinweis in der Bibliothek",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Ausleihe: 28 Tage. Verlaengerung einmal moeglich, wenn das Buch nicht reserviert ist. Bei verspaeteter Rueckgabe verrechnen wir 50 Rappen pro Tag und Medium.",
-      "question": "Was passiert bei zu spaeter Rueckgabe?",
+      "passage": "Ausleihe: 28 Tage. Verlängerung einmal möglich, wenn das Buch nicht reserviert ist. Bei verspäteter Rückgabe verrechnen wir 50 Rappen pro Tag und Medium.",
+      "question": "Was passiert bei zu später Rückgabe?",
       "options": [
         "Man darf nichts mehr ausleihen",
         "Man zahlt einmalig 50 Rappen",
-        "Die Ausleihe verlaengert sich automatisch",
+        "Die Ausleihe verlängert sich automatisch",
         "Es kostet 50 Rappen pro Tag und Medium"
       ]
     },
@@ -160,13 +160,13 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Stellenanzeige: Aushilfe im Gartencenter",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Fuer die Fruehlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent, von Maerz bis Juni. Erfahrung ist keine Bedingung, gute Deutschkenntnisse und Freude am Kundenkontakt sind wichtig. Bewerbung bitte per E-Mail.",
+      "passage": "Für die Frühlingssaison suchen wir eine Aushilfe, 60 bis 80 Prozent, von März bis Juni. Erfahrung ist keine Bedingung, gute Deutschkenntnisse und Freude am Kundenkontakt sind wichtig. Bewerbung bitte per E-Mail.",
       "question": "Was wird von der Aushilfe erwartet?",
       "options": [
         "Gute Deutschkenntnisse und Freude am Kundenkontakt",
-        "Mehrjaehrige Erfahrung im Gartenbau",
+        "Mehrjährige Erfahrung im Gartenbau",
         "Eine abgeschlossene Lehre",
         "Arbeit das ganze Jahr"
       ]
@@ -185,11 +185,11 @@
     "taskType": "TRUE_FALSE",
     "difficulty": "CORE",
     "variant": "TELC",
-    "title": "Information der Gemeinde: Gruenabfuhr",
+    "title": "Information der Gemeinde: Grünabfuhr",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Die Gruenabfuhr findet ab April jeden zweiten Dienstag statt. Bitte stellen Sie die Behaelter bis 7 Uhr an den Strassenrand. Aeste duerfen hoechstens einen Meter lang sein.",
-      "question": "Aussage: Die Behaelter muessen bis 7 Uhr bereitstehen.",
+      "passage": "Die Grünabfuhr findet ab April jeden zweiten Dienstag statt. Bitte stellen Sie die Behälter bis 7 Uhr an den Strassenrand. Äste dürfen höchstens einen Meter lang sein.",
+      "question": "Aussage: Die Äste dürfen höchstens einen Meter lang sein.",
       "options": [
         "Richtig",
         "Falsch"
@@ -210,12 +210,12 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Mitteilung der Schule",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
       "passage": "Am Elternabend vom 19. September stellen die Lehrpersonen das Schuljahr vor. Beginn ist um 19.30 Uhr im Singsaal. Eine Kinderbetreuung ist vorhanden. Wir bitten um Anmeldung bis am 12. September.",
       "question": "Was muss man vor dem Elternabend tun?",
       "options": [
-        "Ein Formular ausfuellen",
+        "Ein Formular ausfüllen",
         "Sich bis am 12. September anmelden",
         "Die Kinder zu Hause lassen",
         "Um 19.30 Uhr im Singsaal sein"
@@ -239,7 +239,7 @@
     "prompt": "Richtig oder falsch?",
     "payload": {
       "passage": "Die Waschmaschine Nummer 2 ist defekt. Die Reparatur ist bestellt und erfolgt voraussichtlich am Montag. Bitte benutzen Sie bis dahin die Maschinen 1 und 3.",
-      "question": "Aussage: Alle Maschinen sind defekt.",
+      "question": "Aussage: Die Maschinen 1 und 3 können benutzt werden.",
       "options": [
         "Richtig",
         "Falsch"
@@ -247,7 +247,7 @@
     },
     "answer": {
       "type": "TRUE_FALSE",
-      "correctIndex": 1
+      "correctIndex": 0
     },
     "maxPoints": 1
   },
@@ -260,15 +260,15 @@
     "difficulty": "CORE",
     "variant": "GOETHE",
     "title": "Kursbeschreibung: Deutsch am Abend",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Der Kurs richtet sich an Personen mit Vorkenntnissen auf Niveau A2. Wir ueben vor allem Sprechen und Schreiben fuer den Alltag: Behoerden, Arbeit, Schule. Der Kurs dauert 12 Wochen, jeweils Montag und Mittwoch von 18.30 bis 20 Uhr.",
-      "question": "Fuer wen ist der Kurs gedacht?",
+      "passage": "Der Kurs richtet sich an Personen mit Vorkenntnissen auf Niveau A2. Wir üben vor allem Sprechen und Schreiben für den Alltag: Behörden, Arbeit, Schule. Der Kurs dauert 12 Wochen, jeweils Montag und Mittwoch von 18.30 bis 20 Uhr.",
+      "question": "Für wen ist der Kurs gedacht?",
       "options": [
-        "Fuer Anfaenger ohne Vorkenntnisse",
-        "Nur fuer Berufstaetige",
-        "Fuer Personen mit Niveau A2",
-        "Fuer Kinder und Jugendliche"
+        "Für Anfänger ohne Vorkenntnisse",
+        "Nur für Berufstätige",
+        "Für Personen mit Niveau A2",
+        "Für Kinder und Jugendliche"
       ]
     },
     "answer": {
@@ -286,14 +286,14 @@
     "difficulty": "FOUNDATION",
     "variant": "GOETHE",
     "title": "Notiz an die Nachbarin",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Liebe Frau Meier\n\nich bin bis Freitag nicht zu Hause. Koennten Sie bitte meine Post hereinnehmen? Der Schluessel liegt wie immer bei Ihnen. Ich bringe Ihnen etwas aus den Ferien mit.\n\nHerzlich\nSonja",
+      "passage": "Liebe Frau Meier\n\nich bin bis Freitag nicht zu Hause. Könnten Sie bitte meine Post hereinnehmen? Der Schlüssel liegt wie immer bei Ihnen. Ich bringe Ihnen etwas aus den Ferien mit.\n\nHerzlich\nSonja",
       "question": "Worum bittet Sonja?",
       "options": [
         "Die Blumen zu giessen",
         "Sie am Freitag abzuholen",
-        "Den Schluessel abzugeben",
+        "Den Schlüssel abzugeben",
         "Die Post hereinzunehmen"
       ]
     },
@@ -314,7 +314,7 @@
     "title": "Hinweis im Schwimmbad",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Das Hallenbad bleibt vom 1. bis 15. August wegen Revision geschlossen. Das Freibad ist in dieser Zeit taeglich von 9 bis 20 Uhr geoeffnet.",
+      "passage": "Das Hallenbad bleibt vom 1. bis 15. August wegen Revision geschlossen. Das Freibad ist in dieser Zeit täglich von 9 bis 20 Uhr geöffnet.",
       "question": "Aussage: Im August kann man im Freibad schwimmen.",
       "options": [
         "Richtig",
@@ -336,9 +336,9 @@
     "difficulty": "CORE",
     "variant": "TELC",
     "title": "Rechnung vom Elektriker",
-    "prompt": "Waehlen Sie die richtige Antwort.",
+    "prompt": "Wählen Sie die richtige Antwort.",
     "payload": {
-      "passage": "Fuer die Reparatur der Steckdose in der Kueche verrechnen wir 145 Franken. Der Betrag ist innert 30 Tagen zu bezahlen. Bei Fragen zur Rechnung wenden Sie sich bitte an unser Buero.",
+      "passage": "Für die Reparatur der Steckdose in der Küche verrechnen wir 145 Franken. Der Betrag ist innert 30 Tagen zu bezahlen. Bei Fragen zur Rechnung wenden Sie sich bitte an unser Büro.",
       "question": "Bis wann muss bezahlt werden?",
       "options": [
         "Innert 30 Tagen",
@@ -364,7 +364,7 @@
     "title": "Aushang: Lift ausser Betrieb",
     "prompt": "Richtig oder falsch?",
     "payload": {
-      "passage": "Der Lift ist am Donnerstag von 8 bis 16 Uhr ausser Betrieb. Wir bitten um Verstaendnis. Wer Hilfe beim Tragen braucht, meldet sich beim Hauswart.",
+      "passage": "Der Lift ist am Donnerstag von 8 bis 16 Uhr ausser Betrieb. Wir bitten um Verständnis. Wer Hilfe beim Tragen braucht, meldet sich beim Hauswart.",
       "question": "Aussage: Der Lift funktioniert am Donnerstag den ganzen Tag nicht.",
       "options": [
         "Richtig",

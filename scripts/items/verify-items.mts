@@ -96,9 +96,14 @@ function checkItem(it: SwissItemSeed) {
 // Wörter.") with the scenario missing — a task that cannot be answered, shipped behind
 // a paid gate. verify-items was GREEN throughout, because productive tasks have no key
 // to self-grade. Absence again: it does not fail, it just quietly serves less.
+// This list means "a renderer reads this key", not "this key is allowed". Adding a name
+// here without wiring the renderer would turn the check into a rubber stamp for exactly
+// the silently-not-rendered content it exists to catch. `audioUrl` was added only once
+// TtsAudio actually plays it (src/components/ch/TtsAudio.tsx) and ObjectiveTask threads
+// it through Stimulus — this gate caught the wiring commit for precisely that reason.
 const KNOWN_PAYLOAD_KEYS = new Set([
   "passage", "transcript", "stimulus", "question", "options", "instructions",
-  "left", "right", "items", "gaps", "criteria", "charBand", "minSeconds",
+  "left", "right", "items", "gaps", "criteria", "charBand", "minSeconds", "audioUrl",
 ]);
 
 function checkPayloadKeys(it: SwissItemSeed) {

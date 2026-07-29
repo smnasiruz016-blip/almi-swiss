@@ -73,15 +73,15 @@
         "Mia voudrait faire garder son chien le temps d'un week-end."
       ],
       "right": [
-        "Cours de français, le samedi 9h–12h, débutants bienvenus",
         "Vélo d'occasion, 80 euros, bon état",
+        "Cours de piano pour enfants",
+        "Cours de français, le samedi 9h–12h, débutants bienvenus",
         "Appartement 2 pièces, 55 m², libre dès juillet",
         "Garde d'animaux : nous nous occupons de votre chien",
-        "Cours de piano pour enfants",
         "Cherche covoiturage pour Lyon"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 3], [3, 4]] },
     "maxPoints": 4
   },
   {
@@ -173,13 +173,13 @@
       "instructions": "Classez de la première à la dernière étape.",
       "items": [
         "Choisir une destination",
-        "Comparer les prix du train et de l'hôtel",
+        "Partir",
         "Réserver le train et l'hôtel",
-        "Faire la valise",
-        "Partir"
+        "Comparer les prix du train et de l'hôtel",
+        "Faire la valise"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": { "type": "ORDERING", "order": [0, 3, 2, 4, 1] },
     "maxPoints": 1
   },
   {
@@ -308,15 +308,15 @@
         "Rester éveillé la nuit en s'énervant aggrave les choses. Les spécialistes conseillent : se lever, faire quelque chose de calme dans une autre pièce, et ne revenir que lorsqu'on est fatigué."
       ],
       "right": [
-        "Combien de sommeil est normal ?",
-        "Les écrans et l'horloge interne",
-        "Des horaires réguliers aident",
-        "Que faire quand on ne s'endort pas ?",
         "Les somnifères et leurs effets",
-        "Le sommeil chez les enfants"
+        "Des horaires réguliers aident",
+        "Le sommeil chez les enfants",
+        "Que faire quand on ne s'endort pas ?",
+        "Les écrans et l'horloge interne",
+        "Combien de sommeil est normal ?"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 5], [1, 4], [2, 1], [3, 3]] },
     "maxPoints": 4
   }
 ]

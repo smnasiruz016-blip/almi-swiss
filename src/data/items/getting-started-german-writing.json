@@ -6,6 +6,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Sich kurz vorstellen",
     "prompt": "Schreiben Sie 20–30 Wörter.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Einkaufszettel mit Sätzen",
     "prompt": "Schreiben Sie 20–30 Wörter.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "SMS: Ich komme später",
     "prompt": "Schreiben Sie 20–30 Wörter.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Formular: Angaben zur Person",
     "prompt": "Schreiben Sie die Antworten in ganzen Sätzen. 20–30 Wörter.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Zettel für den Nachbarn",
     "prompt": "Schreiben Sie 20–30 Wörter.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "E-Mail: Termin abmachen",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -139,6 +145,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Eine Einladung schreiben",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -162,6 +169,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Nachricht an die Lehrerin",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -185,6 +193,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Über das Wochenende schreiben",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -208,6 +217,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A1",
     "title": "Etwas verkaufen",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -231,6 +241,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Sich für Hilfe bedanken",
     "prompt": "Schreiben Sie 40–60 Wörter.",
     "payload": {
@@ -254,6 +265,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "E-Mail an die Verwaltung: eine Lampe ist kaputt",
     "prompt": "Schreiben Sie 60–80 Wörter.",
     "payload": {
@@ -278,6 +290,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Auf eine Einladung antworten",
     "prompt": "Schreiben Sie 60–80 Wörter.",
     "payload": {
@@ -302,6 +315,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Kurze Bewerbung als Aushilfe",
     "prompt": "Schreiben Sie 60–80 Wörter.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Einen Ausflug beschreiben",
     "prompt": "Schreiben Sie 60–80 Wörter.",
     "payload": {

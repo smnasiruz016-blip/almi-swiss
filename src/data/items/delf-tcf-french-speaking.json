@@ -6,6 +6,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Se présenter (cours)",
     "prompt": "Parlez pendant au moins 30 secondes.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Décrire une photo",
     "prompt": "Parlez pendant au moins 30 secondes.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Arriver à l'hôtel",
     "prompt": "Parlez pendant au moins 30 secondes.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Parler de votre semaine",
     "prompt": "Parlez pendant au moins 30 secondes.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Commander au café",
     "prompt": "Parlez pendant au moins 30 secondes.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Organiser quelque chose ensemble",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -139,6 +145,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Raconter une expérience de voyage",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -162,6 +169,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Recommander quelque chose",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -185,6 +193,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Régler quelque chose au téléphone",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -208,6 +217,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Parler de ses habitudes",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -231,6 +241,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "title": "Contredire poliment",
     "prompt": "Parlez pendant au moins 50 secondes.",
     "payload": {
@@ -254,6 +265,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Défendre un avis : la semaine de quatre jours",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -278,6 +290,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Décrire un graphique",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -302,6 +315,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Résoudre un problème : trop peu de temps",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "SPEAKING",
     "taskType": "SPEAKING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Parler d'une évolution",
     "prompt": "Parlez pendant au moins 90 secondes.",
     "payload": {

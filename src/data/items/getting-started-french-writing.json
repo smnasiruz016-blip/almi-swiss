@@ -6,6 +6,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Se présenter en quelques mots",
     "prompt": "Écrivez 20 à 30 mots.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Une liste de courses en phrases",
     "prompt": "Écrivez 20 à 30 mots.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "SMS : j'arrive plus tard",
     "prompt": "Écrivez 20 à 30 mots.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Formulaire : quelques questions",
     "prompt": "Répondez en phrases entières. 20 à 30 mots.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Un mot pour le voisin",
     "prompt": "Écrivez 20 à 30 mots.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel : prendre rendez-vous",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -139,6 +145,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Écrire une invitation",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -162,6 +169,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Message à l'enseignante du cours",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -185,6 +193,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Raconter son week-end",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -208,6 +217,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Vendre quelque chose",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -231,6 +241,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Remercier pour un coup de main",
     "prompt": "Écrivez 40 à 60 mots.",
     "payload": {
@@ -254,6 +265,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Courriel à la régie : une lampe ne marche plus",
     "prompt": "Écrivez 60 à 80 mots.",
     "payload": {
@@ -278,6 +290,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Répondre à une invitation des voisins",
     "prompt": "Écrivez 60 à 80 mots.",
     "payload": {
@@ -302,6 +315,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A1",
     "title": "Petit message pour un extra le week-end",
     "prompt": "Écrivez 60 à 80 mots.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "A2",
     "title": "Raconter une excursion",
     "prompt": "Écrivez 60 à 80 mots.",
     "payload": {

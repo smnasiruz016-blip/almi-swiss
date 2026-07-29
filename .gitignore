@@ -10,3 +10,18 @@ dist/
 
 .vercel
 .env*.local
+
+# Piper voice models — 242 MB of third-party ONNX downloaded from the Piper release
+# page. Not repo content; re-download rather than carry them in history.
+.piper-voices/
+
+# Rendered listening audio — 411 MB of WAV, DELIBERATELY not committed.
+#
+# It is fully regenerable and deterministic: the transcripts in src/data/items and
+# scripts/items/synth-listening.py together decide every sample. Putting 411 MB of binary
+# into history would be permanent, unreviewable in a diff, and would make every future
+# clone carry it. Nothing is lost by leaving it out — but the files on disk are the only
+# copy, so DO NOT `git clean -fdx` this working tree without re-rendering afterwards:
+#   python scripts/items/synth-listening.py
+#   python scripts/items/verify-listening-audio.py
+public/audio/ch/

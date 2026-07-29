@@ -1,0 +1,752 @@
+[
+ {
+  "token": "aehnlichen",
+  "to": "ähnlichen",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "aeltere",
+  "to": "ältere",
+  "why": "restore — \"ältere\" is attested elsewhere in the bank, \"aeltere\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "aendern",
+  "to": "ändern",
+  "why": "restore — \"ändern\" is attested elsewhere in the bank, \"aendern\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Aenderung",
+  "to": "Änderung",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Aeste",
+  "to": "Äste",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Anfaenger",
+  "to": "Anfänger",
+  "why": "restore — \"Anfänger\" is attested elsewhere in the bank, \"Anfaenger\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "angekuendigt",
+  "to": "angekündigt",
+  "why": "restore — \"angekündigt\" is attested elsewhere in the bank, \"angekuendigt\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "ankuendigen",
+  "to": "ankündigen",
+  "why": "restore — \"ankündigen\" is attested elsewhere in the bank, \"ankuendigen\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "ausfuellen",
+  "to": "ausfüllen",
+  "why": "restore — \"ausfüllen\" is attested elsewhere in the bank, \"ausfuellen\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Bahnhoefen",
+  "to": "Bahnhöfen",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "begruenden",
+  "to": "begründen",
+  "why": "restore — \"begründen\" is attested elsewhere in the bank, \"begruenden\" is not",
+  "occurrences": 4
+ },
+ {
+  "token": "Begruendung",
+  "to": "Begründung",
+  "why": "restore — \"Begründung\" is attested elsewhere in the bank, \"Begruendung\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Begruendungen",
+  "to": "Begründungen",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 3
+ },
+ {
+  "token": "Behaelter",
+  "to": "Behälter",
+  "why": "restore — \"Behälter\" is attested elsewhere in the bank, \"Behaelter\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Behoerden",
+  "to": "Behörden",
+  "why": "restore — \"Behörden\" is attested elsewhere in the bank, \"Behoerden\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "beruecksichtigen",
+  "to": "berücksichtigen",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 2
+ },
+ {
+  "token": "Berufstaetige",
+  "to": "Berufstätige",
+  "why": "restore — \"Berufstätige\" is attested elsewhere in the bank, \"Berufstaetige\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Bestaetigung",
+  "to": "Bestätigung",
+  "why": "restore — \"Bestätigung\" is attested elsewhere in the bank, \"Bestaetigung\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Betreuerin",
+  "to": "Betreuerin",
+  "why": "beta-g reviewed: LEAVE — real sequence / proper name",
+  "occurrences": 1
+ },
+ {
+  "token": "Buecher",
+  "to": "Bücher",
+  "why": "restore — \"Bücher\" is attested elsewhere in the bank, \"Buecher\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Buero",
+  "to": "Büro",
+  "why": "restore — \"Büro\" is attested elsewhere in the bank, \"Buero\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "dafuer",
+  "to": "dafür",
+  "why": "restore — \"dafür\" is attested elsewhere in the bank, \"dafuer\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Dafuer",
+  "to": "Dafür",
+  "why": "restore — \"Dafür\" is attested elsewhere in the bank, \"Dafuer\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "dauert",
+  "to": "dauert",
+  "why": "LEAVE — the token as written appears in correctly-spelled German elsewhere in the bank",
+  "occurrences": 3
+ },
+ {
+  "token": "dreiwoechiges",
+  "to": "dreiwöchiges",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "duerfen",
+  "to": "dürfen",
+  "why": "restore — \"dürfen\" is attested elsewhere in the bank, \"duerfen\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "einbauen",
+  "to": "einbauen",
+  "why": "beta-g reviewed: LEAVE — real sequence / proper name",
+  "occurrences": 3
+ },
+ {
+  "token": "Einkaeufe",
+  "to": "Einkäufe",
+  "why": "restore — \"Einkäufe\" is attested elsewhere in the bank, \"Einkaeufe\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Einwaende",
+  "to": "Einwände",
+  "why": "restore — \"Einwände\" is attested elsewhere in the bank, \"Einwaende\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "ergaenzen",
+  "to": "ergänzen",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 3
+ },
+ {
+  "token": "erhoeht",
+  "to": "erhöht",
+  "why": "restore — \"erhöht\" is attested elsewhere in the bank, \"erhoeht\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "erzaehlen",
+  "to": "erzählen",
+  "why": "restore — \"erzählen\" is attested elsewhere in the bank, \"erzaehlen\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "erzaehlt",
+  "to": "erzählt",
+  "why": "restore — \"erzählt\" is attested elsewhere in the bank, \"erzaehlt\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "faehrt",
+  "to": "fährt",
+  "why": "restore — \"fährt\" is attested elsewhere in the bank, \"faehrt\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "faellt",
+  "to": "fällt",
+  "why": "restore — \"fällt\" is attested elsewhere in the bank, \"faellt\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "frueher",
+  "to": "früher",
+  "why": "restore — \"früher\" is attested elsewhere in the bank, \"frueher\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Fruehlingsmarkt",
+  "to": "Frühlingsmarkt",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Fruehlingssaison",
+  "to": "Frühlingssaison",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "fuer",
+  "to": "für",
+  "why": "restore — \"für\" is attested elsewhere in the bank, \"fuer\" is not",
+  "occurrences": 10
+ },
+ {
+  "token": "Fuer",
+  "to": "Für",
+  "why": "restore — \"Für\" is attested elsewhere in the bank, \"Fuer\" is not",
+  "occurrences": 6
+ },
+ {
+  "token": "Gaeste",
+  "to": "Gäste",
+  "why": "restore — \"Gäste\" is attested elsewhere in the bank, \"Gaeste\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "gehoert",
+  "to": "gehört",
+  "why": "restore — \"gehört\" is attested elsewhere in the bank, \"gehoert\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "geloest",
+  "to": "gelöst",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "geoeffnet",
+  "to": "geöffnet",
+  "why": "restore — \"geöffnet\" is attested elsewhere in the bank, \"geoeffnet\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Gespraech",
+  "to": "Gespräch",
+  "why": "restore — \"Gespräch\" is attested elsewhere in the bank, \"Gespraech\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Goethe",
+  "to": "Goethe",
+  "why": "beta-g reviewed: LEAVE — real sequence / proper name",
+  "occurrences": 18
+ },
+ {
+  "token": "Gruenabfuhr",
+  "to": "Grünabfuhr",
+  "why": "restore — \"Grünabfuhr\" is attested elsewhere in the bank, \"Gruenabfuhr\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Gruesse",
+  "to": "Grüsse",
+  "why": "restore — \"Grüsse\" is attested elsewhere in the bank, \"Gruesse\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Gruezi",
+  "to": "Grüezi",
+  "why": "beta-g reviewed: hand-typed correction",
+  "occurrences": 1
+ },
+ {
+  "token": "gueltig",
+  "to": "gültig",
+  "why": "restore — \"gültig\" is attested elsewhere in the bank, \"gueltig\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "haeufiger",
+  "to": "häufiger",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Hardbruecke",
+  "to": "Hardbrücke",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 2
+ },
+ {
+  "token": "hoechstens",
+  "to": "höchstens",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "hoeflich",
+  "to": "höflich",
+  "why": "restore — \"höflich\" is attested elsewhere in the bank, \"hoeflich\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Hoeflich",
+  "to": "Höflich",
+  "why": "restore — \"Höflich\" is attested elsewhere in the bank, \"Hoeflich\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "Hoefliche",
+  "to": "Höfliche",
+  "why": "restore — \"Höfliche\" is attested elsewhere in the bank, \"Hoefliche\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "koennen",
+  "to": "können",
+  "why": "restore — \"können\" is attested elsewhere in the bank, \"koennen\" is not",
+  "occurrences": 4
+ },
+ {
+  "token": "Koennen",
+  "to": "Können",
+  "why": "restore — \"Können\" is attested elsewhere in the bank, \"Koennen\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Koennten",
+  "to": "Könnten",
+  "why": "restore — \"Könnten\" is attested elsewhere in the bank, \"Koennten\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Kueche",
+  "to": "Küche",
+  "why": "restore — \"Küche\" is attested elsewhere in the bank, \"Kueche\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "kuerzer",
+  "to": "kürzer",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Laeden",
+  "to": "Läden",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 2
+ },
+ {
+  "token": "laenger",
+  "to": "länger",
+  "why": "restore — \"länger\" is attested elsewhere in the bank, \"laenger\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "laeuft",
+  "to": "läuft",
+  "why": "restore — \"läuft\" is attested elsewhere in the bank, \"laeuft\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Loesung",
+  "to": "Lösung",
+  "why": "restore — \"Lösung\" is attested elsewhere in the bank, \"Loesung\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "Maengel",
+  "to": "Mängel",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Maerz",
+  "to": "März",
+  "why": "restore — \"März\" is attested elsewhere in the bank, \"Maerz\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Mehrjaehrige",
+  "to": "Mehrjährige",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "moechte",
+  "to": "möchte",
+  "why": "restore — \"möchte\" is attested elsewhere in the bank, \"moechte\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "moechten",
+  "to": "möchten",
+  "why": "restore — \"möchten\" is attested elsewhere in the bank, \"moechten\" is not",
+  "occurrences": 7
+ },
+ {
+  "token": "moeglich",
+  "to": "möglich",
+  "why": "restore — \"möglich\" is attested elsewhere in the bank, \"moeglich\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "moegliche",
+  "to": "mögliche",
+  "why": "restore — \"mögliche\" is attested elsewhere in the bank, \"moegliche\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "muehsam",
+  "to": "mühsam",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "muessen",
+  "to": "müssen",
+  "why": "restore — \"müssen\" is attested elsewhere in the bank, \"muessen\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "naechste",
+  "to": "nächste",
+  "why": "restore — \"nächste\" is attested elsewhere in the bank, \"naechste\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Naechster",
+  "to": "Nächster",
+  "why": "restore — \"Nächster\" is attested elsewhere in the bank, \"Naechster\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "neue",
+  "to": "neue",
+  "why": "LEAVE — the token as written appears in correctly-spelled German elsewhere in the bank",
+  "occurrences": 1
+ },
+ {
+  "token": "neuen",
+  "to": "neuen",
+  "why": "LEAVE — the token as written appears in correctly-spelled German elsewhere in the bank",
+  "occurrences": 2
+ },
+ {
+  "token": "oeffentlicher",
+  "to": "öffentlicher",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "oeffnen",
+  "to": "öffnen",
+  "why": "restore — \"öffnen\" is attested elsewhere in the bank, \"oeffnen\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Parkplaetze",
+  "to": "Parkplätze",
+  "why": "restore — \"Parkplätze\" is attested elsewhere in the bank, \"Parkplaetze\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "persoenliche",
+  "to": "persönliche",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 2
+ },
+ {
+  "token": "persoenlichen",
+  "to": "persönlichen",
+  "why": "restore — \"persönlichen\" is attested elsewhere in the bank, \"persoenlichen\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Persoenlicher",
+  "to": "Persönlicher",
+  "why": "restore — \"Persönlicher\" is attested elsewhere in the bank, \"Persoenlicher\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "Praemie",
+  "to": "Prämie",
+  "why": "restore — \"Prämie\" is attested elsewhere in the bank, \"Praemie\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Praesentation",
+  "to": "Präsentation",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 9
+ },
+ {
+  "token": "Pruefungspartner",
+  "to": "Prüfungspartner",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Rueckfragen",
+  "to": "Rückfragen",
+  "why": "restore — \"Rückfragen\" is attested elsewhere in the bank, \"Rueckfragen\" is not",
+  "occurrences": 7
+ },
+ {
+  "token": "Rueckgabe",
+  "to": "Rückgabe",
+  "why": "restore — \"Rückgabe\" is attested elsewhere in the bank, \"Rueckgabe\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Rueckgaben",
+  "to": "Rückgaben",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Sanitaer",
+  "to": "Sanitär",
+  "why": "restore — \"Sanitär\" is attested elsewhere in the bank, \"Sanitaer\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "schlaegt",
+  "to": "schlägt",
+  "why": "restore — \"schlägt\" is attested elsewhere in the bank, \"schlaegt\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Schluessel",
+  "to": "Schlüssel",
+  "why": "restore — \"Schlüssel\" is attested elsewhere in the bank, \"Schluessel\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "spaeten",
+  "to": "späten",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "spaeter",
+  "to": "später",
+  "why": "restore — \"später\" is attested elsewhere in the bank, \"spaeter\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Stoerung",
+  "to": "Störung",
+  "why": "restore — \"Störung\" is attested elsewhere in the bank, \"Stoerung\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "taeglich",
+  "to": "täglich",
+  "why": "restore — \"täglich\" is attested elsewhere in the bank, \"taeglich\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "tatsaechlich",
+  "to": "tatsächlich",
+  "why": "restore — \"tatsächlich\" is attested elsewhere in the bank, \"tatsaechlich\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "ueben",
+  "to": "üben",
+  "why": "restore — \"üben\" is attested elsewhere in the bank, \"ueben\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "ueber",
+  "to": "über",
+  "why": "restore — \"über\" is attested elsewhere in the bank, \"ueber\" is not",
+  "occurrences": 9
+ },
+ {
+  "token": "uebergeben",
+  "to": "übergeben",
+  "why": "restore — \"übergeben\" is attested elsewhere in the bank, \"uebergeben\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "uebernimmt",
+  "to": "übernimmt",
+  "why": "restore — \"übernimmt\" is attested elsewhere in the bank, \"uebernimmt\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "ueberrascht",
+  "to": "überrascht",
+  "why": "restore — \"überrascht\" is attested elsewhere in the bank, \"ueberrascht\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Unterstuetzung",
+  "to": "Unterstützung",
+  "why": "restore — \"Unterstützung\" is attested elsewhere in the bank, \"Unterstuetzung\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "unveraendert",
+  "to": "unverändert",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Verbindungswoerter",
+  "to": "Verbindungswörter",
+  "why": "restore — \"Verbindungswörter\" is attested elsewhere in the bank, \"Verbindungswoerter\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "Verfuegbarkeit",
+  "to": "Verfügbarkeit",
+  "why": "restore — \"Verfügbarkeit\" is attested elsewhere in the bank, \"Verfuegbarkeit\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "verlaengert",
+  "to": "verlängert",
+  "why": "restore — \"verlängert\" is attested elsewhere in the bank, \"verlaengert\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Verlaengerung",
+  "to": "Verlängerung",
+  "why": "restore — \"Verlängerung\" is attested elsewhere in the bank, \"Verlaengerung\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "verspaeteter",
+  "to": "verspäteter",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "Verspaetung",
+  "to": "Verspätung",
+  "why": "restore — \"Verspätung\" is attested elsewhere in the bank, \"Verspaetung\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Verstaendnis",
+  "to": "Verständnis",
+  "why": "restore — \"Verständnis\" is attested elsewhere in the bank, \"Verstaendnis\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "vollstaendig",
+  "to": "vollständig",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 3
+ },
+ {
+  "token": "Vorschlaege",
+  "to": "Vorschläge",
+  "why": "restore — \"Vorschläge\" is attested elsewhere in the bank, \"Vorschlaege\" is not",
+  "occurrences": 5
+ },
+ {
+  "token": "Waehlen",
+  "to": "Wählen",
+  "why": "restore — \"Wählen\" is attested elsewhere in the bank, \"Waehlen\" is not",
+  "occurrences": 18
+ },
+ {
+  "token": "wofuer",
+  "to": "wofür",
+  "why": "restore — \"wofür\" is attested elsewhere in the bank, \"wofuer\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Wohnungstuer",
+  "to": "Wohnungstür",
+  "why": "restore — \"Wohnungstür\" is attested elsewhere in the bank, \"Wohnungstuer\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "wuerden",
+  "to": "würden",
+  "why": "restore — \"würden\" is attested elsewhere in the bank, \"wuerden\" is not",
+  "occurrences": 2
+ },
+ {
+  "token": "Zuege",
+  "to": "Züge",
+  "why": "restore — \"Züge\" is attested elsewhere in the bank, \"Zuege\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Zuerich",
+  "to": "Zürich",
+  "why": "restore — \"Zürich\" is attested elsewhere in the bank, \"Zuerich\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "zurueck",
+  "to": "zurück",
+  "why": "restore — \"zurück\" is attested elsewhere in the bank, \"zurueck\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "zurueckfahren",
+  "to": "zurückfahren",
+  "why": "beta-g reviewed: RESTORE as proposed",
+  "occurrences": 1
+ },
+ {
+  "token": "zurueckgeben",
+  "to": "zurückgeben",
+  "why": "restore — \"zurückgeben\" is attested elsewhere in the bank, \"zurueckgeben\" is not",
+  "occurrences": 1
+ },
+ {
+  "token": "Zusammenhaengend",
+  "to": "Zusammenhängend",
+  "why": "restore — \"Zusammenhängend\" is attested elsewhere in the bank, \"Zusammenhaengend\" is not",
+  "occurrences": 3
+ },
+ {
+  "token": "Zusammenhaengender",
+  "to": "Zusammenhängender",
+  "why": "restore — \"Zusammenhängender\" is attested elsewhere in the bank, \"Zusammenhaengender\" is not",
+  "occurrences": 3
+ }
+]

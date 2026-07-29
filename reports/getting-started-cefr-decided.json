@@ -1,0 +1,722 @@
+[
+ {
+  "surface": "french-listening",
+  "title": "Annonce au magasin",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Un message de Sara",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "La météo à la radio",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "À la caisse",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "La voisine sonne",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Le cabinet appelle",
+  "level": "A1",
+  "why": "a single short message, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Le prix au marché : nonante",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Message du concierge",
+  "level": "A1",
+  "why": "a single short message, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Quatre messages courts",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Le chemin de la poste",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Information au cours",
+  "level": "A1",
+  "why": "a single short message, 2 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Quelque chose contre le rhume",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Le premier jour de travail",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Septante, nonante — et huitante ?",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-listening",
+  "title": "Deux collègues parlent du trajet",
+  "level": "A2",
+  "why": "6-turn exchange — understanding a short conversation"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Les heures d'ouverture de la boulangerie",
+  "level": "A2",
+  "why": "7 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Un SMS d'une amie",
+  "level": "A1",
+  "why": "a single short note or sign, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Le planning de la buanderie",
+  "level": "A2",
+  "why": "9 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Où est-ce que j'achète ça ?",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Un mot dans la cage d'escalier",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "L'horaire du bus",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Un mot à la cheffe",
+  "level": "A2",
+  "why": "CLOZE — a task about more than one fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Une action au magasin",
+  "level": "A2",
+  "why": "7 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Un mot du voisin",
+  "level": "A1",
+  "why": "a single short note or sign, 2 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Téléphoner au cabinet médical",
+  "level": "A2",
+  "why": "ORDERING — a task about more than one fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Les déchets dans le quartier",
+  "level": "A2",
+  "why": "3 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Une lettre de l'école",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "L'horaire de travail",
+  "level": "A2",
+  "why": "CLOZE — a task about more than one fact"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Annonce : chambre à louer",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "french-reading",
+  "title": "Qui peut aider ?",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Dire bonjour",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Acheter quelque chose",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Votre famille",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Demander son chemin",
+  "level": "A2",
+  "why": "an everyday transaction or description (30s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Votre matinée",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require sequencing connectors and a structured description"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Prendre rendez-vous au téléphone",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Chez le médecin : qu'est-ce que vous avez ?",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Décrire une pièce",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Échanger un article",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Emprunter quelque chose",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a transaction or request"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Plus lentement, s'il vous plaît",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a transaction or request"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Parler de son travail",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require sequencing connectors and a stated reason"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Expliquer quelque chose",
+  "level": "A2",
+  "why": "an everyday transaction or description (50s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Comparer : ville ou campagne",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (50s)"
+ },
+ {
+  "surface": "french-speaking",
+  "title": "Clarifier un malentendu",
+  "level": "A2",
+  "why": "an everyday transaction or description (50s)"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Se présenter en quelques mots",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Une liste de courses en phrases",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "french-writing",
+  "title": "SMS : j'arrive plus tard",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Formulaire : quelques questions",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Un mot pour le voisin",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Courriel : prendre rendez-vous",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a transaction or request"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Écrire une invitation",
+  "level": "A2",
+  "why": "an email, letter or explanation (200-420) — connected text"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Message à l'enseignante du cours",
+  "level": "A2",
+  "why": "the criteria ask for linked sentences (200-420) — connected text"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Raconter son week-end",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a structured description and a transaction or request"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Vendre quelque chose",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a structured description"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Remercier pour un coup de main",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a transaction or request"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Courriel à la régie : une lampe ne marche plus",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a structured description and a transaction or request"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Répondre à une invitation des voisins",
+  "level": "A2",
+  "why": "an email, letter or explanation (300-560) — connected text"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Petit message pour un extra le week-end",
+  "level": "A1",
+  "why": "RESOLVED A1 — satisfiable with simple isolated personal sentences, no linking required"
+ },
+ {
+  "surface": "french-writing",
+  "title": "Raconter une excursion",
+  "level": "A2",
+  "why": "the criteria ask for linked sentences (300-560) — connected text"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Ansage im Laden",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Eine Nachricht von Sara",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Das Wetter am Radio",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "An der Kasse",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Die Nachbarin klingelt",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Anruf von der Praxis",
+  "level": "A1",
+  "why": "a single short message, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Durchsage im Zug",
+  "level": "A1",
+  "why": "a single short message, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Nachricht vom Hauswart",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Vier kurze Nachrichten",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Der Weg zur Post",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Im Kurs: Information",
+  "level": "A1",
+  "why": "a single short message, 2 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Etwas gegen die Erkältung holen",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Der erste Arbeitstag",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Mundart und Hochdeutsch",
+  "level": "A1",
+  "why": "a single short message, 0 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-listening",
+  "title": "Zwei Kolleginnen sprechen über den Weg zur Arbeit",
+  "level": "A2",
+  "why": "6-turn exchange — understanding a short conversation"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Öffnungszeiten der Bäckerei",
+  "level": "A2",
+  "why": "7 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "SMS von einer Freundin",
+  "level": "A1",
+  "why": "a single short note or sign, 1 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Plan in der Waschküche",
+  "level": "A2",
+  "why": "9 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Wo kaufe ich was?",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Ein Zettel im Treppenhaus",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Der Busfahrplan",
+  "level": "A2",
+  "why": "6 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Eine kurze Nachricht an die Chefin",
+  "level": "A2",
+  "why": "CLOZE — a task about more than one fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Angebot im Laden",
+  "level": "A2",
+  "why": "7 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Zettel vom Nachbarn",
+  "level": "A1",
+  "why": "a single short note or sign, 2 data point(s) — one concrete fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Beim Arzt anrufen",
+  "level": "A2",
+  "why": "ORDERING — a task about more than one fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Abfall im Quartier",
+  "level": "A2",
+  "why": "3 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Brief von der Schule",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Der Arbeitsplan",
+  "level": "A2",
+  "why": "CLOZE — a task about more than one fact"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Anzeige: Zimmer zu vermieten",
+  "level": "A2",
+  "why": "4 competing data points — find specific info among more"
+ },
+ {
+  "surface": "german-reading",
+  "title": "Wer hilft hier?",
+  "level": "A2",
+  "why": "MATCHING — a task about more than one fact"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Guten Tag sagen",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Etwas kaufen",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Ihre Familie",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (30s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Nach dem Weg fragen",
+  "level": "A2",
+  "why": "an everyday transaction or description (30s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Ihr Tag",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require sequencing connectors and a structured description"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Einen Termin am Telefon abmachen",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Beim Arzt: Was haben Sie?",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Ein Zimmer beschreiben",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Etwas umtauschen",
+  "level": "A2",
+  "why": "an everyday transaction or description (40s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Etwas ausleihen",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a stated reason"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Bitte langsamer",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a transaction or request"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Über Ihre Arbeit erzählen",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require sequencing connectors and a structured description"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Etwas erklären",
+  "level": "A2",
+  "why": "an everyday transaction or description (50s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Vergleichen: Stadt oder Dorf",
+  "level": "A1",
+  "why": "greet, introduce or a basic need (50s)"
+ },
+ {
+  "surface": "german-speaking",
+  "title": "Ein Missverständnis klären",
+  "level": "A2",
+  "why": "an everyday transaction or description (50s)"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Sich kurz vorstellen",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Einkaufszettel mit Sätzen",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "SMS: Ich komme später",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Formular: Angaben zur Person",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Zettel für den Nachbarn",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (100-250) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "E-Mail: Termin abmachen",
+  "level": "A2",
+  "why": "an email, letter or explanation (200-420) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Eine Einladung schreiben",
+  "level": "A2",
+  "why": "an email, letter or explanation (200-420) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Nachricht an die Lehrerin",
+  "level": "A2",
+  "why": "the criteria ask for linked sentences (200-420) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Über das Wochenende schreiben",
+  "level": "A2",
+  "why": "an email, letter or explanation (200-420) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Etwas verkaufen",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (200-420) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Sich für Hilfe bedanken",
+  "level": "A2",
+  "why": "RESOLVED A2 — the criteria require a stated reason and a transaction or request"
+ },
+ {
+  "surface": "german-writing",
+  "title": "E-Mail an die Verwaltung: eine Lampe ist kaputt",
+  "level": "A2",
+  "why": "an email, letter or explanation (300-560) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Auf eine Einladung antworten",
+  "level": "A2",
+  "why": "an email, letter or explanation (300-560) — connected text"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Kurze Bewerbung als Aushilfe",
+  "level": "A1",
+  "why": "a self-introduction, note, SMS or form (300-560) — simple isolated sentences"
+ },
+ {
+  "surface": "german-writing",
+  "title": "Einen Ausflug beschreiben",
+  "level": "A2",
+  "why": "an email, letter or explanation (300-560) — connected text"
+ }
+]

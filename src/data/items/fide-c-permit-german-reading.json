@@ -73,14 +73,14 @@
         "«Bitte senden Sie uns die Steuererklärung bis Ende März.»"
       ],
       "right": [
-        "Die Krankenkasse",
         "Die Post",
-        "Der Arbeitgeber",
         "Das Steueramt",
-        "Die Schule"
+        "Die Schule",
+        "Der Arbeitgeber",
+        "Die Krankenkasse"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 0], [2, 3], [3, 1]] },
     "maxPoints": 4
   },
   {
@@ -188,14 +188,14 @@
     "payload": {
       "instructions": "Sie möchten im Juli zwei Wochen Ferien. Ordnen Sie von zuerst bis zuletzt.",
       "items": [
+        "Auf die Unterschrift warten",
         "Im Team schauen, wer im Juli schon Ferien hat",
         "Das Ferienformular ausfüllen",
-        "Es dem Vorgesetzten geben",
-        "Auf die Unterschrift warten",
-        "Die Reise buchen"
+        "Die Reise buchen",
+        "Es dem Vorgesetzten geben"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": { "type": "ORDERING", "order": [1, 2, 4, 0, 3] },
     "maxPoints": 1
   },
   {
@@ -304,13 +304,13 @@
       "right": [
         "Das RAV (Arbeitsvermittlung)",
         "Die Krankenkasse oder ein Vergleichsdienst",
-        "Die Polizei",
         "Das Strassenverkehrsamt",
         "Die Bäckerei",
+        "Die Polizei",
         "Das Steueramt"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 4], [3, 2]] },
     "maxPoints": 4
   }
 ]

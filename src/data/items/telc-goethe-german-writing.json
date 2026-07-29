@@ -6,16 +6,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 1 — E-Mail an eine Freundin: Umzug in die Schweiz",
-    "prompt": "Schreiben Sie eine persoenliche E-Mail (Teil 1).",
+    "prompt": "Schreiben Sie eine persönliche E-Mail (Teil 1).",
     "payload": {
       "stimulus": "Sie sind vor einem Monat in die Schweiz gezogen. Eine Freundin in Ihrem Heimatland fragt, wie es Ihnen geht. Schreiben Sie: wie Sie wohnen, was anders ist als erwartet, und was Sie am Wochenende machen.",
       "criteria": [
         "Alle drei Punkte behandelt",
         "Anrede und Gruss passend",
-        "Verbindungswoerter (weil, deshalb, aber)",
-        "Persoenlicher, freundlicher Ton"
+        "Verbindungswörter (weil, deshalb, aber)",
+        "Persönlicher, freundlicher Ton"
       ],
       "charBand": {
         "min": 380,
@@ -32,16 +33,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 1 — E-Mail: Besuch ankuendigen",
-    "prompt": "Schreiben Sie eine persoenliche E-Mail (Teil 1).",
+    "title": "Goethe B1, Teil 1 — E-Mail: Besuch ankündigen",
+    "prompt": "Schreiben Sie eine persönliche E-Mail (Teil 1).",
     "payload": {
-      "stimulus": "Ein Freund wohnt in Bern und Sie moechten ihn besuchen. Schreiben Sie: wann Sie kommen moechten, wie Sie anreisen, und was Sie gerne zusammen unternehmen wuerden.",
+      "stimulus": "Ein Freund wohnt in Bern und Sie möchten ihn besuchen. Schreiben Sie: wann Sie kommen möchten, wie Sie anreisen, und was Sie gerne zusammen unternehmen würden.",
       "criteria": [
         "Alle drei Punkte behandelt",
         "Anrede und Gruss passend",
-        "Verbindungswoerter (weil, deshalb, aber)",
-        "Persoenlicher, freundlicher Ton"
+        "Verbindungswörter (weil, deshalb, aber)",
+        "Persönlicher, freundlicher Ton"
       ],
       "charBand": {
         "min": 380,
@@ -58,16 +60,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 1 — Brief: Dank nach einem Praktikum",
-    "prompt": "Schreiben Sie einen persoenlichen Brief (Teil 1).",
+    "prompt": "Schreiben Sie einen persönlichen Brief (Teil 1).",
     "payload": {
-      "stimulus": "Sie haben ein dreiwoechiges Praktikum beendet. Schreiben Sie Ihrer Betreuerin: wofuer Sie sich bedanken, was Sie gelernt haben, und wie es bei Ihnen weitergeht.",
+      "stimulus": "Sie haben ein dreiwöchiges Praktikum beendet. Schreiben Sie Ihrer Betreuerin: wofür Sie sich bedanken, was Sie gelernt haben, und wie es bei Ihnen weitergeht.",
       "criteria": [
         "Alle drei Punkte behandelt",
         "Anrede und Gruss passend",
-        "Verbindungswoerter (weil, deshalb, aber)",
-        "Persoenlicher, freundlicher Ton"
+        "Verbindungswörter (weil, deshalb, aber)",
+        "Persönlicher, freundlicher Ton"
       ],
       "charBand": {
         "min": 380,
@@ -84,16 +87,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 2 — Forum: Sollen Laeden am Sonntag oeffnen?",
+    "title": "Goethe B1, Teil 2 — Forum: Sollen Läden am Sonntag öffnen?",
     "prompt": "Schreiben Sie einen Forumsbeitrag mit Ihrer Meinung (Teil 2).",
     "payload": {
-      "stimulus": "In einem Forum wird diskutiert: «Sollen Laeden am Sonntag oeffnen duerfen?» Ein Nutzer schreibt: «Wer unter der Woche arbeitet, hat sonst keine Zeit zum Einkaufen.» Schreiben Sie Ihre Meinung.",
+      "stimulus": "In einem Forum wird diskutiert: «Sollen Läden am Sonntag öffnen dürfen?» Ein Nutzer schreibt: «Wer unter der Woche arbeitet, hat sonst keine Zeit zum Einkaufen.» Schreiben Sie Ihre Meinung.",
       "criteria": [
         "Eigene Meinung klar formuliert",
-        "Mindestens zwei Begruendungen",
+        "Mindestens zwei Begründungen",
         "Bezug auf den Beitrag im Forum",
-        "Zusammenhaengender Text"
+        "Zusammenhängender Text"
       ],
       "charBand": {
         "min": 380,
@@ -110,16 +114,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
-    "title": "Goethe B1, Teil 2 — Forum: Velo oder oeffentlicher Verkehr?",
+    "title": "Goethe B1, Teil 2 — Forum: Velo oder öffentlicher Verkehr?",
     "prompt": "Schreiben Sie einen Forumsbeitrag mit Ihrer Meinung (Teil 2).",
     "payload": {
-      "stimulus": "Im Forum Ihrer Gemeinde wird gefragt, ob mehr Geld in Velowege oder in den Busbetrieb fliessen soll. Schreiben Sie Ihre Meinung und begruenden Sie sie.",
+      "stimulus": "Im Forum Ihrer Gemeinde wird gefragt, ob mehr Geld in Velowege oder in den Busbetrieb fliessen soll. Schreiben Sie Ihre Meinung und begründen Sie sie.",
       "criteria": [
         "Eigene Meinung klar formuliert",
-        "Mindestens zwei Begruendungen",
+        "Mindestens zwei Begründungen",
         "Bezug auf den Beitrag im Forum",
-        "Zusammenhaengender Text"
+        "Zusammenhängender Text"
       ],
       "charBand": {
         "min": 380,
@@ -136,6 +141,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 2 — Forum: Handy am Familientisch",
     "prompt": "Schreiben Sie einen Forumsbeitrag mit Ihrer Meinung (Teil 2).",
@@ -143,9 +149,9 @@
       "stimulus": "Jemand schreibt im Forum: «Beim Essen sollte das Handy weg sein — auch bei Erwachsenen.» Schreiben Sie, was Sie davon halten.",
       "criteria": [
         "Eigene Meinung klar formuliert",
-        "Mindestens zwei Begruendungen",
+        "Mindestens zwei Begründungen",
         "Bezug auf den Beitrag im Forum",
-        "Zusammenhaengender Text"
+        "Zusammenhängender Text"
       ],
       "charBand": {
         "min": 380,
@@ -162,16 +168,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 3 — Kurze Nachricht: Kurs verschieben",
     "prompt": "Schreiben Sie eine kurze halbformelle Nachricht (Teil 3).",
     "payload": {
-      "stimulus": "Sie koennen am Deutschkurs am Donnerstag nicht teilnehmen. Schreiben Sie der Kursleiterin: Sie sagen ab, nennen den Grund und fragen nach den Unterlagen.",
+      "stimulus": "Sie können am Deutschkurs am Donnerstag nicht teilnehmen. Schreiben Sie der Kursleiterin: Sie sagen ab, nennen den Grund und fragen nach den Unterlagen.",
       "criteria": [
         "Anliegen in einem Satz klar",
         "Grund genannt",
-        "Hoefliche, halbformelle Form",
-        "Kurz und vollstaendig"
+        "Höfliche, halbformelle Form",
+        "Kurz und vollständig"
       ],
       "charBand": {
         "min": 180,
@@ -188,16 +195,17 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 3 — Kurze Nachricht: Termin bei der Gemeinde",
     "prompt": "Schreiben Sie eine kurze halbformelle Nachricht (Teil 3).",
     "payload": {
-      "stimulus": "Sie haben am Dienstag einen Termin auf der Einwohnerkontrolle, muessen aber arbeiten. Schreiben Sie kurz: Sie bitten um einen anderen Termin und nennen zwei moegliche Zeiten.",
+      "stimulus": "Sie haben am Dienstag einen Termin auf der Einwohnerkontrolle, müssen aber arbeiten. Schreiben Sie kurz: Sie bitten um einen anderen Termin und nennen zwei mögliche Zeiten.",
       "criteria": [
         "Anliegen in einem Satz klar",
         "Grund genannt",
-        "Hoefliche, halbformelle Form",
-        "Kurz und vollstaendig"
+        "Höfliche, halbformelle Form",
+        "Kurz und vollständig"
       ],
       "charBand": {
         "min": 180,
@@ -214,6 +222,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "B1",
     "variant": "GOETHE",
     "title": "Goethe B1, Teil 3 — Kurze Nachricht: Bitte an den Hauswart",
     "prompt": "Schreiben Sie eine kurze halbformelle Nachricht (Teil 3).",
@@ -222,8 +231,8 @@
       "criteria": [
         "Anliegen in einem Satz klar",
         "Grund genannt",
-        "Hoefliche, halbformelle Form",
-        "Kurz und vollstaendig"
+        "Höfliche, halbformelle Form",
+        "Kurz und vollständig"
       ],
       "charBand": {
         "min": 180,
@@ -240,11 +249,12 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "TELC",
     "title": "telc B1 — Brief: Reklamation nach einem Kurs",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
-      "stimulus": "Sie haben einen Sprachkurs gebucht, der anders verlief als angekuendigt. Schreiben Sie an die Schule. Leitpunkte: (1) Grund des Schreibens, (2) was angekuendigt war, (3) was tatsaechlich stattfand, (4) was Sie jetzt erwarten.",
+      "stimulus": "Sie haben einen Sprachkurs gebucht, der anders verlief als angekündigt. Schreiben Sie an die Schule. Leitpunkte: (1) Grund des Schreibens, (2) was angekündigt war, (3) was tatsächlich stattfand, (4) was Sie jetzt erwarten.",
       "criteria": [
         "Alle vier Leitpunkte behandelt",
         "Passende Anrede und Schlussformel",
@@ -266,11 +276,12 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "TELC",
     "title": "telc B1 — Brief: Anfrage an die Krankenkasse",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
-      "stimulus": "Sie moechten Ihre Franchise aendern. Schreiben Sie der Krankenkasse. Leitpunkte: (1) Ihr Anliegen, (2) Ihre heutige Situation, (3) ab wann die Aenderung gelten soll, (4) welche Unterlagen Sie brauchen.",
+      "stimulus": "Sie möchten Ihre Franchise ändern. Schreiben Sie der Krankenkasse. Leitpunkte: (1) Ihr Anliegen, (2) Ihre heutige Situation, (3) ab wann die Änderung gelten soll, (4) welche Unterlagen Sie brauchen.",
       "criteria": [
         "Alle vier Leitpunkte behandelt",
         "Passende Anrede und Schlussformel",
@@ -292,11 +303,12 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "TELC",
     "title": "telc B1 — Brief: Bewerbung um einen Kursplatz",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
-      "stimulus": "Sie moechten einen Platz in einem Weiterbildungskurs. Schreiben Sie an die Kursleitung. Leitpunkte: (1) welcher Kurs, (2) Ihre Vorkenntnisse, (3) warum der Kurs fuer Sie wichtig ist, (4) Ihre Verfuegbarkeit.",
+      "stimulus": "Sie möchten einen Platz in einem Weiterbildungskurs. Schreiben Sie an die Kursleitung. Leitpunkte: (1) welcher Kurs, (2) Ihre Vorkenntnisse, (3) warum der Kurs für Sie wichtig ist, (4) Ihre Verfügbarkeit.",
       "criteria": [
         "Alle vier Leitpunkte behandelt",
         "Passende Anrede und Schlussformel",
@@ -318,8 +330,9 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "B1",
     "variant": "TELC",
-    "title": "telc B1 — Brief: Wohnung, Maengel melden",
+    "title": "telc B1 — Brief: Wohnung, Mängel melden",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
       "stimulus": "In Ihrer Wohnung tropft seit zwei Wochen der Wasserhahn. Schreiben Sie der Verwaltung. Leitpunkte: (1) Anlass, (2) seit wann und was genau, (3) was Sie schon versucht haben, (4) Ihre Bitte mit Frist.",
@@ -344,11 +357,12 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "B1",
     "variant": "TELC",
     "title": "telc B1 — Brief: Nachbarschaftsfest vorschlagen",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
-      "stimulus": "Sie moechten im Haus ein Nachbarschaftsfest organisieren. Schreiben Sie an alle Mietparteien. Leitpunkte: (1) Ihre Idee, (2) Termin und Ort, (3) wer was mitbringt, (4) wie man sich anmeldet.",
+      "stimulus": "Sie möchten im Haus ein Nachbarschaftsfest organisieren. Schreiben Sie an alle Mietparteien. Leitpunkte: (1) Ihre Idee, (2) Termin und Ort, (3) wer was mitbringt, (4) wie man sich anmeldet.",
       "criteria": [
         "Alle vier Leitpunkte behandelt",
         "Passende Anrede und Schlussformel",
@@ -370,11 +384,12 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "variant": "TELC",
     "title": "telc B1 — Brief: Abmeldung beim Verein",
     "prompt": "Schreiben Sie einen Brief und behandeln Sie alle vier Leitpunkte.",
     "payload": {
-      "stimulus": "Sie treten aus einem Sportverein aus. Schreiben Sie dem Vorstand. Leitpunkte: (1) Ihre Absicht, (2) der Grund, (3) auf welchen Termin, (4) Bitte um Bestaetigung.",
+      "stimulus": "Sie treten aus einem Sportverein aus. Schreiben Sie dem Vorstand. Leitpunkte: (1) Ihre Absicht, (2) der Grund, (3) auf welchen Termin, (4) Bitte um Bestätigung.",
       "criteria": [
         "Alle vier Leitpunkte behandelt",
         "Passende Anrede und Schlussformel",

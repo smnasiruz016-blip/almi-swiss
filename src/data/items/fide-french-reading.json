@@ -120,11 +120,11 @@
         "Une boîte de conserve vide"
       ],
       "right": [
-        "Collecte PET",
         "Collecte papier",
+        "Déchets spéciaux à la pharmacie",
         "Collecte verre",
-        "Collecte alu et fer-blanc",
-        "Déchets spéciaux à la pharmacie"
+        "Collecte PET",
+        "Collecte alu et fer-blanc"
       ]
     },
     "answer": {
@@ -132,11 +132,11 @@
       "pairs": [
         [
           0,
-          0
+          3
         ],
         [
           1,
-          1
+          0
         ],
         [
           2,
@@ -144,7 +144,7 @@
         ],
         [
           3,
-          3
+          4
         ]
       ]
     },
@@ -301,20 +301,20 @@
       "instructions": "La famille Nkemelu déménage. Classez les étapes de la première à la dernière.",
       "items": [
         "Envoyer la résiliation par écrit à la régie, dans les délais",
-        "Convenir d'une date pour l'état des lieux de sortie",
         "Nettoyer l'appartement et réparer les petits dégâts",
+        "Remettre les clés",
         "Faire l'état des lieux avec la régie et signer le procès-verbal",
-        "Remettre les clés"
+        "Convenir d'une date pour l'état des lieux de sortie"
       ]
     },
     "answer": {
       "type": "ORDERING",
       "order": [
         0,
+        4,
         1,
-        2,
         3,
-        4
+        2
       ]
     },
     "maxPoints": 1
@@ -477,12 +477,12 @@
         "Monsieur Abebe veut savoir quels documents lui sont demandés pour sa demande de naturalisation."
       ],
       "right": [
+        "Le secrétariat communal, service des naturalisations",
+        "L'office des poursuites",
+        "L'autorité de conciliation en matière de baux à loyer",
         "Le contrôle des habitants de la commune",
         "Une permanence de la Fédération romande des consommateurs",
-        "L'autorité de conciliation en matière de baux à loyer",
-        "Le secrétariat communal, service des naturalisations",
-        "La police cantonale",
-        "L'office des poursuites"
+        "La police cantonale"
       ]
     },
     "answer": {
@@ -490,11 +490,11 @@
       "pairs": [
         [
           0,
-          0
+          3
         ],
         [
           1,
-          1
+          4
         ],
         [
           2,
@@ -502,7 +502,7 @@
         ],
         [
           3,
-          3
+          0
         ]
       ]
     },

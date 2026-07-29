@@ -74,13 +74,13 @@
       ],
       "right": [
         "La caisse maladie",
-        "La poste",
         "L'employeur",
+        "L'école",
         "L'administration fiscale",
-        "L'école"
+        "La poste"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 4], [2, 1], [3, 3]] },
     "maxPoints": 4
   },
   {
@@ -188,14 +188,14 @@
     "payload": {
       "instructions": "Vous voulez deux semaines de vacances en juillet. Classez de la première à la dernière étape.",
       "items": [
+        "Le donner à votre supérieur",
         "Regarder dans l'équipe qui a déjà des vacances en juillet",
         "Remplir le formulaire de vacances",
-        "Le donner à votre supérieur",
         "Attendre la signature",
         "Réserver le voyage"
       ]
     },
-    "answer": { "type": "ORDERING", "order": [0, 1, 2, 3, 4] },
+    "answer": { "type": "ORDERING", "order": [1, 2, 0, 3, 4] },
     "maxPoints": 1
   },
   {
@@ -302,15 +302,15 @@
         "Monsieur Silva a un permis de conduire étranger et habite ici depuis onze mois."
       ],
       "right": [
-        "L'office régional de placement (ORP)",
-        "La caisse maladie ou un comparateur",
-        "La police",
         "Le service des automobiles",
+        "L'office régional de placement (ORP)",
+        "La police",
+        "L'administration fiscale",
         "La boulangerie",
-        "L'administration fiscale"
+        "La caisse maladie ou un comparateur"
       ]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 0], [1, 1], [2, 2], [3, 3]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 1], [1, 5], [2, 2], [3, 0]] },
     "maxPoints": 4
   }
 ]

@@ -92,6 +92,28 @@ export interface ExamMeta {
   slug: string; // URL slug — ALWAYS language-suffixed; see slugFor()
   name: string; // display name (the official exam name)
   cefr: string; // CEFR label, or "Local knowledge" for canton civic content
+  /** The HIGHEST CEFR level this surface may pitch a task at, or null when the
+   *  surface certifies no CEFR level at all.
+   *
+   *  STRUCTURED ON PURPOSE. `cefr` above is a DISPLAY label and the ceiling gate used
+   *  to parse it. That parse was the gate's weakest joint in two directions at once: a
+   *  harmless copy edit (a range rewritten as "up to B1") would have silently exempted
+   *  a whole surface from level enforcement, and a mangled dash in the pattern DID make
+   *  it match nothing -- the gate reported every surface "unparseable" and printed a
+   *  green tick having checked ZERO of 1,388 items. A label is written for a human to
+   *  read; a ceiling is enforced against. They must not be the same string.
+   *
+   *  REQUIRED, not optional, and null is a real answer rather than an omission. Every
+   *  surface must say what it certifies -- including "nothing", the honest value for
+   *  canton-civic, where no national civics test exists and no CEFR level is awarded.
+   *  Optional would let a new surface arrive with no ceiling and be exempt by accident,
+   *  which is how the B2 items lived undetected. Required means the type checker asks
+   *  the question at every new entry.
+   *
+   *  Raising it is DELIBERATE: telc and Goethe as exam families certify far above B1,
+   *  but THIS surface ships A1-B1 content, so B1 is its ceiling until someone authors
+   *  higher-level content and raises this field in the same change. */
+  certifiesUpTo: CefrLevel | null;
   blurb: string;
   skills: SwissSkill[];
   civic?: boolean; // true = canton-dependent local knowledge. NOT an exam.
@@ -242,6 +264,8 @@ interface ExamTemplate {
   base: string;
   name: (l: SwissLanguage) => string;
   cefr: string;
+  /** See ExamMeta.certifiesUpTo. Required: every surface states its ceiling. */
+  certifiesUpTo: CefrLevel | null;
   blurb: (l: SwissLanguage) => string;
   /** Optional — see ExamMeta.mockMinutes. Absent = this track has no mock. */
   mockMinutes?: number;
@@ -257,6 +281,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "fide",
     name: (l) => `fide (${LANGUAGE_LABEL[l]})`,
     cefr: "A1–B1",
+    certifiesUpTo: "B1",
     blurb: (l) =>
       `The Swiss test, in ${LANGUAGE_LABEL[l]} — built around everyday situations you actually deal with here rather than classroom exercises. A pass issues the fide language passport, which is what naturalisation and permit procedures ask to see. The federal minimum for naturalisation is B1 spoken and A2 written; your canton decides what applies to you.`,
     mockMinutes: 120,
@@ -270,6 +295,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "fide-c-permit",
     name: (l) => `fide for the C permit (${LANGUAGE_LABEL[l]})`,
     cefr: "A1–B1",
+    certifiesUpTo: "B1",
     blurb: (l) =>
       `The same fide test in ${LANGUAGE_LABEL[l]}, aimed at the settlement permit rather than citizenship. The levels are lower than naturalisation — but they depend on your route: the early route after five years asks B1 spoken, the same speaking level as citizenship, while the ordinary route asks A2 spoken. Both ask A1 written.`,
     mockMinutes: 120,
@@ -282,6 +308,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "telc-goethe",
     name: () => "telc / Goethe (German)",
     cefr: "A1–B1",
+    certifiesUpTo: "B1",
     blurb: () =>
       "SEM-recognised German certificates, accepted as proof of language alongside the fide passport. Set in Standard German, not Swiss-German dialect. Useful if you already hold one, or want a certificate that travels beyond Switzerland — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
     // NO mockMinutes — see the CERTIFICATE note above buildExams(). This bundle is
@@ -295,6 +322,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "delf-tcf",
     name: () => "DELF / TCF (French)",
     cefr: "A1–B1",
+    certifiesUpTo: "B1",
     blurb: () =>
       "SEM-recognised French certificates, accepted as proof of language alongside the fide passport. Useful if you already hold one, or want a certificate that travels beyond Switzerland — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
     // NO mockMinutes — see the CERTIFICATE note above buildExams(). DELF is
@@ -308,6 +336,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "celi",
     name: () => "CELI (Italian)",
     cefr: "A1–B1",
+    certifiesUpTo: "B1",
     blurb: () =>
       "SEM-recognised Italian certificates, accepted as proof of language alongside the fide passport. Relevant in Ticino and the Italian-speaking valleys of Graubünden — check with your canton that the certificate and level you plan to take are accepted for your procedure.",
     // NO mockMinutes — see the CERTIFICATE note above buildExams(). Fixed here too
@@ -322,6 +351,7 @@ const TEMPLATES: ExamTemplate[] = [
     base: "getting-started",
     name: (l) => `Getting started in ${LANGUAGE_LABEL[l]}`,
     cefr: "A1–A2",
+    certifiesUpTo: "A2",
     blurb: (l) =>
       `First steps in ${LANGUAGE_LABEL[l]} — the everyday language of appointments, housing, work and neighbours. Not an exam: the groundwork that makes fide at A2 and B1 reachable.`,
     mockMinutes: 90,
@@ -338,6 +368,10 @@ function civicEntry(language: SwissLanguage): ExamMeta {
     slug: slugFor("canton-civic", language),
     name: `Living in Switzerland — local knowledge (${LANGUAGE_LABEL[language]})`,
     cefr: "Local knowledge",
+    // NULL, and that is a FACT not a gap: no national civics test exists, so this
+    // surface certifies no CEFR level. Exempt from the ceiling gate by explicit
+    // declaration, never by a failed parse.
+    certifiesUpTo: null,
     blurb:
       "Practice for the kinds of local knowledge naturalisation procedures tend to cover — how the political system works, rights and obligations, geography and everyday rules. There is no national civics test: your canton and commune decide whether you face a test, an interview, or neither, and set their own content. This is preparation, not a mock.",
     skills: ["KNOWLEDGE"],
@@ -383,6 +417,7 @@ function buildExams(): ExamMeta[] {
         slug: slugFor(t.base, language),
         name: t.name(language),
         cefr: t.cefr,
+        certifiesUpTo: t.certifiesUpTo,
         blurb: t.blurb(language),
         skills: ["READING", "LISTENING", "WRITING", "SPEAKING"],
         mockMinutes: t.mockMinutes,
