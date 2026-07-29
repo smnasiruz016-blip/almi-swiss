@@ -6,6 +6,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Carte postale de vacances",
     "prompt": "Écrivez 25 à 40 mots.",
     "payload": {
@@ -28,6 +29,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Formulaire : inscription à la bibliothèque",
     "prompt": "Écrivez 25 à 40 mots.",
     "payload": {
@@ -50,6 +52,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "SMS : changer le lieu de rendez-vous",
     "prompt": "Écrivez 25 à 40 mots.",
     "payload": {
@@ -72,6 +75,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Écrire sur soi",
     "prompt": "Écrivez 25 à 40 mots.",
     "payload": {
@@ -94,6 +98,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "FOUNDATION",
+    "cefr": "A1",
     "title": "Note : merci pour le livre",
     "prompt": "Écrivez 25 à 40 mots.",
     "payload": {
@@ -116,6 +121,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel : réserver un hôtel",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -139,6 +145,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel : annuler un cours",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -162,6 +169,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Raconter une expérience",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -185,6 +193,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Message sur un forum : un conseil",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -208,6 +217,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Courriel : réclamer",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -231,6 +241,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "CORE",
+    "cefr": "A2",
     "title": "Décliner une invitation",
     "prompt": "Écrivez 50 à 70 mots.",
     "payload": {
@@ -254,6 +265,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Prise de position : les portables à l'école",
     "prompt": "Écrivez 80 à 120 mots.",
     "payload": {
@@ -278,6 +290,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Lettre : exposer un problème et proposer une solution",
     "prompt": "Écrivez 80 à 120 mots.",
     "payload": {
@@ -302,6 +315,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Texte : comparer",
     "prompt": "Écrivez 80 à 120 mots.",
     "payload": {
@@ -326,6 +340,7 @@
     "skill": "WRITING",
     "taskType": "WRITING_PROMPT",
     "difficulty": "STRETCH",
+    "cefr": "B1",
     "title": "Courriel : réagir à un refus",
     "prompt": "Écrivez 80 à 120 mots.",
     "payload": {
