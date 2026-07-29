@@ -14,9 +14,11 @@ import { hasPaidAccess } from "@/lib/billing/plans";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
-import { ALL_EXAMS } from "@/lib/ch/registry";
 import { getItemById } from "@/lib/ch/items";
-import { LANGUAGE_LABEL, isCefrLevel, levelInstruction } from "@/lib/ch/types";
+// ONE prompt assembly, shared with scripts/items/productive-metered.mts. A harness
+// that rebuilt this would be proving a grader that does not ship.
+import { buildGradePrompt, parseFeedback } from "@/lib/ch/productive-prompt";
+import type { AiFeedback } from "@/lib/ch/productive-prompt";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -39,15 +41,7 @@ interface GradeBody {
   response?: string;
 }
 
-type Band = "CLEAR" | "BORDERLINE" | "BELOW";
-const BANDS: Band[] = ["CLEAR", "BORDERLINE", "BELOW"];
 
-interface AiFeedback {
-  band: Band;
-  summary: string;
-  strengths: string[];
-  improvements: string[];
-}
 
 function keyAvailable(): boolean {
   const k = process.env.ANTHROPIC_API_KEY;
@@ -55,31 +49,6 @@ function keyAvailable(): boolean {
 }
 
 // Defensive JSON extraction — models occasionally wrap JSON in prose or fences.
-function parseFeedback(raw: string): AiFeedback | null {
-  const start = raw.indexOf("{");
-  const end = raw.lastIndexOf("}");
-  if (start === -1 || end === -1 || end <= start) return null;
-  let obj: unknown;
-  try {
-    obj = JSON.parse(raw.slice(start, end + 1));
-  } catch {
-    return null;
-  }
-  if (!obj || typeof obj !== "object") return null;
-  const o = obj as Record<string, unknown>;
-  const band = typeof o.band === "string" ? o.band.toUpperCase() : "";
-  if (!BANDS.includes(band as Band)) return null;
-  const summary = typeof o.summary === "string" ? o.summary.trim() : "";
-  if (!summary) return null;
-  const toList = (v: unknown): string[] =>
-    Array.isArray(v) ? v.filter((x): x is string => typeof x === "string" && x.trim().length > 0).slice(0, 5) : [];
-  return {
-    band: band as Band,
-    summary,
-    strengths: toList(o.strengths),
-    improvements: toList(o.improvements),
-  };
-}
 
 export async function POST(req: Request): Promise<NextResponse> {
   const user = await getCurrentUser();
@@ -128,57 +97,13 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: false, error: "Unknown item" }, { status: 404 });
   }
 
-  // The registry entry for THIS item, found by the item's own identity. Language matters
-  // for the examiner persona: a wrong one produces confident, fluent, wrong feedback.
-  const exam = ALL_EXAMS.find(
-    (e) => e.language === item.language && e.track === item.track && e.exam === item.exam,
-  );
-  const examName = exam?.name ?? "the test";
-  // The level to judge THIS task at — the task's own, not the exam's.
-  //
-  // This read `exam?.cefr`, which is the entry's display label and for fide is the
-  // RANGE "A1–B1". No task sits at "A1–B1": the model was asked to judge a 40-word
-  // A2 note and a 120-word B1 Leserbrief against the same three-level span, so the
-  // same answer could pass as A1 and fail as B1 depending on where the model aimed.
-  // A range cannot be a standard. Judge each task at its declared level, and when a
-  // task declares none, say so rather than substituting the exam's range — an
-  // unstated level is unknown, and "A1–B1" is not a safe guess for it.
-  const cefr = isCefrLevel(item.cefr) ? item.cefr : null;
-  const levelPhrase = cefr ?? "the task's own criteria";
-  // The examiner's LANGUAGE, from the registry entry. This was hardcoded to the
-  // ancestor's language at fork time, which would have told the model it was a
-  // Swedish examiner while grading German writing — a wrong persona that produces  hygiene-allow
-  // confident, fluent, wrong feedback rather than an error anyone could see.
-  const examLanguage = exam ? LANGUAGE_LABEL[exam.language] : "the target";
-  const isSpeaking = item.taskType === "SPEAKING_PROMPT";
-  // Criteria come off the authored payload, not the request. They ARE the standard;
-  // letting the caller supply them is letting the caller mark its own paper.
-  const payload = (item.payload ?? {}) as { criteria?: unknown };
-  const criteria = (Array.isArray(payload.criteria) ? payload.criteria : [])
-    .filter((c): c is string => typeof c === "string" && c.trim().length > 0);
-
-  const system = [
-    `You are an experienced ${examLanguage}-language examiner for ${examName}.`,
-    // Shared, so no fork can drift back to handing the model an exam LABEL. The
-    // labels are ranges ("A1–B1") and a range is not a standard.
-    levelInstruction(cefr ?? undefined),
-    `You give an HONEST practice readiness estimate against the task's own criteria — this is a study aid, never an official result, and you never claim otherwise.`,
-    isSpeaking
-      ? `This is a SPEAKING task; the learner has typed the answer they would say aloud, so judge content, structure, range and appropriacy, not pronunciation.`
-      : `This is a WRITING task; judge task fulfilment, coherence, range and accuracy at ${levelPhrase}.`,
-    `Be constructive, specific and level-aware. Do not inflate. Reply with STRICT JSON only, no prose, no code fences, in this exact shape:`,
-    `{"band":"CLEAR|BORDERLINE|BELOW","summary":"1-2 sentence honest estimate","strengths":["..."],"improvements":["..."]}`,
-    `Bands: CLEAR = comfortably meets the criteria at ${levelPhrase}; BORDERLINE = partially meets them, could go either way; BELOW = does not yet meet them.`,
-  ].join(" ");
-
-  const userMsg = [
-    item.title ? `Task: ${item.title}` : null,
-    item.prompt ? `Instructions: ${item.prompt}` : null,
-    criteria.length ? `Criteria the answer should meet:\n- ${criteria.join("\n- ")}` : null,
-    `\nLearner's answer:\n"""${response.slice(0, 6000)}"""`,
-  ]
-    .filter(Boolean)
-    .join("\n");
+  // ONE assembly, in src/lib/ch/productive-prompt.ts, imported by BOTH this route and
+  // the metered harness. It used to be inline here; a harness that rebuilt it would be
+  // proving a grader that does not ship — the two copies would agree on the day they
+  // were written and drift silently afterwards, and the harness would keep reporting
+  // green about a prompt nobody serves. Level, criteria, task text and examiner
+  // language all derive from the SERVER-LOADED item inside that builder.
+  const { system, user: userMsg } = buildGradePrompt(item, response);
 
   let feedback: AiFeedback | null = null;
   try {

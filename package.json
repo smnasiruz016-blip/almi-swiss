@@ -17,7 +17,10 @@
     "gate:real-entity:test": "node scripts/seo/real-entity-gate.test.mjs",
     "proof:reachability": "tsx scripts/items/reachability-proof.mts",
     "gate:conformance": "tsx scripts/items/conformance-gate.mts",
-    "gate:ceiling": "tsx scripts/items/ceiling-gate.mts"
+    "gate:ceiling": "tsx scripts/items/ceiling-gate.mts",
+    "proof:productive": "tsx scripts/items/productive-harness.mts",
+    "proof:productive:selftest": "tsx scripts/items/productive-metered.mts --selftest",
+    "proof:productive:metered": "tsx scripts/items/productive-metered.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
