@@ -44,6 +44,11 @@
 // there before, and every touched key must pass the predicate. If one differs the run
 // writes nothing.
 //
+// The "is this still the same set of texts" checks join on U+0000 rather than a space,
+// because option texts CONTAIN spaces: ["a b", "c"] and ["a", "b c"] both join to
+// "a b c" and would compare equal, so a space separator can pass a set that actually
+// changed. U+0000 cannot occur in the authored text, so the comparison is sound.
+//
 // Deterministic, seeded per item, so re-running reproduces the same bank exactly.
 //
 // Run: npx tsx scripts/items/rekey-structural.mts [--dry]
@@ -296,7 +301,7 @@ for (const file of files) {
       const nowPairs = a.pairs.map(([l, r]: number[]) => `${it.payload.left[l]} => ${it.payload.right[r]}`).sort().join(" | ");
       const wasPairs = ba.pairs.map(([l, r]: number[]) => `${b.payload.left[l]} => ${b.payload.right[r]}`).sort().join(" | ");
       if (nowPairs !== wasPairs) breaks.push(`${file}[${i}] "${it.title}": MATCHING pairing changed\n      was: ${wasPairs}\n      now: ${nowPairs}`);
-      if ([...it.payload.right].sort().join(" ") !== [...b.payload.right].sort().join(" ")) {
+      if ([...it.payload.right].sort().join("\u0000") !== [...b.payload.right].sort().join("\u0000")) {
         breaks.push(`${file}[${i}] "${it.title}": the right column is not a reordering of the original — text changed`);
       }
       const share = matchingWorstShare(a.pairs, it.payload.right.length);
@@ -306,7 +311,7 @@ for (const file of files) {
       const nowSeq = a.order.map((k: number) => it.payload.items[k]).join(" | ");
       const wasSeq = ba.order.map((k: number) => b.payload.items[k]).join(" | ");
       if (nowSeq !== wasSeq) breaks.push(`${file}[${i}] "${it.title}": ORDERING sequence changed\n      was: ${wasSeq}\n      now: ${nowSeq}`);
-      if ([...it.payload.items].sort().join(" ") !== [...b.payload.items].sort().join(" ")) {
+      if ([...it.payload.items].sort().join("\u0000") !== [...b.payload.items].sort().join("\u0000")) {
         breaks.push(`${file}[${i}] "${it.title}": the step list is not a reordering of the original — text changed`);
       }
       const share = orderingWorstShare(a.order);
