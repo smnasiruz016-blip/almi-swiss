@@ -66,9 +66,9 @@
     "payload": {
       "instructions": "Associez. Tous les endroits ne sont pas utilisés.",
       "left": ["Du pain", "Des médicaments", "Des timbres", "Un billet de train"],
-      "right": ["La buanderie", "La gare", "La poste", "La pharmacie", "La boulangerie"]
+      "right": ["La pharmacie", "La buanderie", "La boulangerie", "La poste", "La gare"]
     },
-    "answer": { "type": "MATCHING", "pairs": [[0, 4], [1, 3], [2, 2], [3, 1]] },
+    "answer": { "type": "MATCHING", "pairs": [[0, 2], [1, 0], [2, 3], [3, 4]] },
     "maxPoints": 4
   },
   {
