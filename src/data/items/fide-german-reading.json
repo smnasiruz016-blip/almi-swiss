@@ -1086,32 +1086,20 @@
         "Ob Ihr Gesuch am Ende angenommen wird"
       ],
       "right": [
-        "Der Sprachkurs, den Sie besuchen",
-        "Ihre Wohngemeinde und der Kanton",
-        "Die anerkannte Prüfungsstelle",
         "Kanton und Gemeinde",
-        "Der Bund"
+        "Der Bund",
+        "Der Sprachkurs, den Sie besuchen",
+        "Die anerkannte Prüfungsstelle",
+        "Ihre Wohngemeinde und der Kanton"
       ]
     },
     "answer": {
       "type": "MATCHING",
       "pairs": [
-        [
-          0,
-          4
-        ],
-        [
-          1,
-          3
-        ],
-        [
-          2,
-          2
-        ],
-        [
-          3,
-          1
-        ]
+        [0, 1],
+        [1, 0],
+        [2, 3],
+        [3, 4]
       ]
     },
     "maxPoints": 4
