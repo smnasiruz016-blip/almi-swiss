@@ -50,12 +50,13 @@
 
 import fs from "node:fs";
 import path from "node:path";
+// The predicate is SHARED with answer-distribution-gate.mts. Redrawing until a key
+// satisfies a rule the build gate does not enforce — or vice versa — is how the two
+// drift apart, so neither owns the definition.
+import { NEAR_DEGENERATE, matchingReadings, orderingReadings, worstReading } from "./structural-degeneracy.mjs";
 
 const DRY = process.argv.includes("--dry");
 const ITEMS_DIR = path.join(process.cwd(), "src", "data", "items");
-
-/** The audit's NEAR_DEGENERATE. A 75% diagonal is as gameable as a 100% one. */
-const NEAR_DEGENERATE = 0.7;
 
 function hashSeed(s: string): number {
   let h = 2166136261;
@@ -80,30 +81,13 @@ function shuffle(n: number, rng: () => number): number[] {
   return p;
 }
 
-// ── THE PREDICATE ───────────────────────────────────────────────────────────
-// Returns the worst share across every no-language reading of the key. Under
-// NEAR_DEGENERATE the item requires reading; at or above it, it does not.
-
-/** MATCHING: straight down, bottom-to-top over the rows, bottom-to-top over the column. */
-function matchingWorstShare(pairs: number[][], nRight: number): number {
-  const n = pairs.length;
-  if (n < 3) return 0;                                   // too short to have a shape
-  const share = (f: (l: number) => number) => pairs.filter(([l, r]) => r === f(l)).length / n;
-  return Math.max(
-    share((l) => l),               // straight down
-    share((l) => n - 1 - l),       // bottom-to-top over the paired rows (audit's axis)
-    share((l) => nRight - 1 - l),  // bottom-to-top over the printed column
-  );
-}
-/** ORDERING: leave it as printed, or read it bottom to top. */
-function orderingWorstShare(order: number[]): number {
-  const n = order.length;
-  if (n < 3) return 0;
-  return Math.max(
-    order.filter((v, i) => v === i).length / n,
-    order.filter((v, i) => v === n - 1 - i).length / n,
-  );
-}
+// ── THE PREDICATE, thin wrappers over the shared module ─────────────────────
+// The worst share across every no-language reading of the key. Under NEAR_DEGENERATE
+// the item requires reading; at or above it, it does not.
+const matchingWorstShare = (pairs: number[][], nRight: number) =>
+  worstReading(matchingReadings(pairs, nRight), pairs.length)?.share ?? 0;
+const orderingWorstShare = (order: number[]) =>
+  worstReading(orderingReadings(order), order.length)?.share ?? 0;
 
 // ── RAW-TEXT SURGERY ────────────────────────────────────────────────────────
 
