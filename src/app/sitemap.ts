@@ -16,7 +16,11 @@ const LASTMOD = "2026-07-15";
 const STUDY_SHARDS = Math.ceil(TAUGHT_STUDY_TOTAL / PER); // ~56
 const JOBS_SHARDS = Math.ceil(JOBS_TOTAL / PER); //   ~7
 // Shard 0 = core + level pages; 1..STUDY_SHARDS = study; then jobs.
-const TOTAL_SHARDS = 1 + STUDY_SHARDS + JOBS_SHARDS;
+// HOLDING 2026-08-09 — one keep-set shard only. Was `1 + STUDY_SHARDS + JOBS_SHARDS` (~63 shards over
+// ~3.3M leaf URLs). Those routes no longer render, so advertising them would only burn crawl
+// budget and point Google at 404s. Restore the sum to reverse — keep this file and
+// sitemap-index.xml in step or the tail becomes phantom 404s in GSC.
+const TOTAL_SHARDS = 1;
 
 // One entry per shard → Next emits /sitemap/[id].xml + an index at /sitemap.xml.
 export async function generateSitemaps(): Promise<{ id: number }[]> {

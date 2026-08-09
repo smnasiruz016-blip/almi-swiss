@@ -9,7 +9,10 @@ import { FunnelPage } from "@/components/seo/FunnelPage";
 // first request. Cache indefinitely (Localization Standard rule #5) — the axis
 // data only changes on redeploy, which cold-starts the cache. No periodic
 // re-writes (the ISR-Writes cost driver).
-export const dynamicParams = true;
+// HOLDING 2026-08-09 — ISR page-generation frozen across the taught-study leaf space. Nothing is prerendered and
+// nothing renders on demand, so every URL under this route 404s and no ISR write can occur.
+// Axis data and templates are untouched. Reverse by restoring `dynamicParams = true`.
+export const dynamicParams = false;
 export const revalidate = false;
 export function generateStaticParams() { return []; }
 

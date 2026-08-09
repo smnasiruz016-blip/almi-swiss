@@ -4,7 +4,9 @@ import { TRACKS, examsByTrack } from "@/lib/ch/registry";
 import { TestimonialsSection } from "@/components/reviews/TestimonialsSection";
 
 // Re-render hourly so newly approved testimonials appear without a redeploy.
-export const revalidate = 3600;
+// HOLDING 2026-08-09 — was `3600`. Recurring regeneration is off under holding; content that used to
+// appear within the hour now appears on the next deploy. Restore `3600` to reverse.
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: {
