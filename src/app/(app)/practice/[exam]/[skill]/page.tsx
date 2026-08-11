@@ -7,7 +7,7 @@ import { notFound, redirect } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug, SKILL_LABELS, goalCefrFor } from "@/lib/ch/registry";
-import { isFreeSkill } from "@/lib/ch/types";
+import { isObjectiveSkill } from "@/lib/ch/types";
 import type { SwissSkill } from "@/lib/ch/types";
 import { pickPractice, runSeed, stableItemId } from "@/lib/ch/items";
 import { PracticeRunner } from "@/components/ch/PracticeRunner";
@@ -31,12 +31,12 @@ export default async function SkillRunnerPage({
 
   // SKILL-SPLIT GUARD: objective skills (Reading/Listening) are free to taste;
   // productive skills (Writing/Speaking) require paid access.
-  if (!isFreeSkill(skill) && !hasPaidAccess(user)) {
+  if (!hasPaidAccess(user)) {
     redirect("/account");
   }
 
   const label = SKILL_LABELS[skill];
-  const objective = isFreeSkill(skill);
+  const objective = isObjectiveSkill(skill);
   // Seeded per run: without a seed this returns the same first N items forever.
   const items = pickPractice(exam, skill, objective ? 8 : 4, runSeed(user.id));
 

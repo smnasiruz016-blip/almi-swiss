@@ -113,12 +113,12 @@ const CITIZENSHIP_HEDGE = `${CH_CITIZENSHIP_HEDGE} We help you prepare fairly; w
 const MISSION_LINE =
   "25% of AlmiSwiss proceeds fund the Shamool Foundation's social mission.";
 const CTA_LINE =
-  "Reading and Listening practice is free; AI feedback on Writing and Speaking and the full timed mock become available with a 7-day free trial ($12/month after, cancel anytime).";
+  "Reading and Listening practice, AI feedback on Writing and Speaking and the full timed mock become available with a 7-day free trial ($12/month after, cancel anytime).";
 // Canton civic content has no Writing/Speaking — it is a single KNOWLEDGE module.
 // Offering "AI feedback on Writing and Speaking" there would be selling something the
 // module does not contain.
 const CTA_LINE_KNOWLEDGE =
-  "The local-knowledge practice questions are free and unlimited — no card needed. A subscription ($12/month after a 7-day free trial) covers the language tracks: AI feedback on Writing and Speaking, and the full timed mock.";
+  "The local-knowledge practice questions are unlimited on the subscription. A subscription ($12/month after a 7-day free trial) covers the language tracks: AI feedback on Writing and Speaking, and the full timed mock.";
 
 // DELIBERATELY NOT A FUNCTION THAT RETURNS ONE OF OUR EXAMS.
 //

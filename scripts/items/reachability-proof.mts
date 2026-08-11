@@ -17,7 +17,7 @@
 
 import { ALL_EXAMS } from "../../src/lib/ch/registry";
 import { itemsForSurface, pickPractice } from "../../src/lib/ch/items";
-import { isFreeSkill } from "../../src/lib/ch/types";
+import { isObjectiveSkill } from "../../src/lib/ch/types";
 
 /** Enough runs that the coupon-collector tail is covered for a 125-item pool served
  *  4 at a time. Deterministic seeds so the proof is reproducible. */
@@ -36,7 +36,7 @@ for (const e of ALL_EXAMS) {
     if (pool.length === 0) continue;
     built += pool.length;
 
-    const objective = isFreeSkill(skill);
+    const objective = isObjectiveSkill(skill);
     const n = objective ? 8 : 4;
 
     // BEFORE: no seed → pool.slice(0, n), identical every time.
