@@ -7,7 +7,7 @@ import { notFound, redirect } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { hasPaidAccess } from "@/lib/billing/plans";
 import { examBySlug } from "@/lib/ch/registry";
-import { isFreeSkill } from "@/lib/ch/types";
+import { isObjectiveSkill } from "@/lib/ch/types";
 import { pickPractice, runSeed, stableItemId } from "@/lib/ch/items";
 import { MockRunner, type MockSection } from "@/components/ch/MockRunner";
 
@@ -44,7 +44,7 @@ export default async function MockPage({
   const seed = runSeed(user.id);
 
   const sections: MockSection[] = exam.skills.map((skill) => {
-    const objective = isFreeSkill(skill);
+    const objective = isObjectiveSkill(skill);
     const items = pickPractice(exam, skill, objective ? 6 : 2, seed);
     return {
       skill,
