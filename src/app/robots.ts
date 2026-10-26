@@ -1,30 +1,30 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, IS_LIVE } from "@/lib/site";
 
-const DEEP_LEAVES = ["/study-in-switzerland/*/from/", "/work-in-switzerland/*/from/"];
+// Private app surfaces: never useful in a search index.
+const PRIVATE = ["/practice/", "/account", "/admin", "/api/"];
 
-const HEAVY_BOTS = [
-  "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai",
-  "CCBot", "Bytespider", "Amazonbot", "PerplexityBot", "Google-Extended",
+// AI VISIBILITY IS THE PRODUCT GOAL (owner ruling 27 Oct 2026). No AI crawler — GPTBot, OAI-SearchBot,
+// ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, anthropic-ai, PerplexityBot, Perplexity-User,
+// Google-Extended, CCBot, Amazonbot, Applebot-Extended, Bytespider, Meta-ExternalAgent or similar —
+// may ever be listed here. Only pure SEO-tool scrapers, which bring no visibility, stay blocked.
+//
+// The old programmatic study/jobs leaves are no longer disallowed: they answer 410 Gone (src/proxy.ts)
+// and crawlers must be able to SEE the 410 to drop those URLs.
+const SEO_TOOL_SCRAPERS = [
   "AhrefsBot", "SemrushBot", "MJ12bot", "DotBot", "DataForSeoBot", "PetalBot",
 ];
 
 export default function robots(): MetadataRoute.Robots {
-  // Pre-launch: whole site closed to crawlers (must agree with the noindex in the
-  // root layout). No sitemap advertised while closed. UNCHANGED.
   if (!IS_LIVE) {
     return { rules: [{ userAgent: "*", disallow: "/" }] };
   }
 
   return {
     rules: [
-      // HOLDING 2026-08-09 — DEEP_LEAVES now applies to Googlebot and Bingbot too. Those routes no
-      // longer render (dynamicParams = false), so there is nothing there to crawl. Note robots.txt
-      // is advisory and is NOT what stops the ISR writes — almi-danish kept writing after the same
-      // block went live; the route config is the control. Remove DEEP_LEAVES here to reverse.
-      { userAgent: ["Googlebot", "Bingbot"], allow: "/", disallow: ["/practice/", "/account", "/admin", "/api/", ...DEEP_LEAVES] },
-      { userAgent: "*", allow: "/", disallow: ["/practice/", "/account", "/admin", "/api/", ...DEEP_LEAVES], crawlDelay: 10 },
-      { userAgent: HEAVY_BOTS, disallow: "/" },
+      { userAgent: ["Googlebot", "Bingbot"], allow: "/", disallow: PRIVATE },
+      { userAgent: "*", allow: "/", disallow: PRIVATE, crawlDelay: 10 },
+      { userAgent: SEO_TOOL_SCRAPERS, disallow: "/" },
     ],
     sitemap: `${SITE_URL}/sitemap-index.xml`,
   };
