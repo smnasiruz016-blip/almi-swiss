@@ -1,25 +1,12 @@
 import type { MetadataRoute } from "next";
-import {
-  JOBS_TOTAL,
-  jobsComboAtIndex, studyPath, jobsPath,
-} from "@/lib/seo/axes";
-import { TAUGHT_STUDY_TOTAL, taughtStudyComboAtIndex } from "@/lib/seo/taught-index";
 import { ALL_EXAMS } from "@/lib/ch/registry";
 import { SITE_URL as SITE } from "@/lib/site";
 
-
-const PER = 50_000; // Google's max URLs per sitemap
 const LASTMOD = "2026-07-15";
 
-// Only the TAUGHT study leaves are indexable, so only those go in the sitemap —
-// the untaught majority render noindex and must not burn crawl budget / ISR writes.
-const STUDY_SHARDS = Math.ceil(TAUGHT_STUDY_TOTAL / PER); // ~56
-const JOBS_SHARDS = Math.ceil(JOBS_TOTAL / PER); //   ~7
-// Shard 0 = core + level pages; 1..STUDY_SHARDS = study; then jobs.
-// HOLDING 2026-08-09 — one keep-set shard only. Was `1 + STUDY_SHARDS + JOBS_SHARDS` (~63 shards over
-// ~3.3M leaf URLs). Those routes no longer render, so advertising them would only burn crawl
-// budget and point Google at 404s. Restore the sum to reverse — keep this file and
-// sitemap-index.xml in step or the tail becomes phantom 404s in GSC.
+// COST FIX 2026-10-26 — the programmatic study/jobs combination pages are DELETED (owner ruling
+// 17 Oct: deleted, no redirects) and answer 410 Gone from src/proxy.ts. The sitemap lists only the
+// keep-set: one shard. Keep sitemap-index.xml at the same single shard.
 const TOTAL_SHARDS = 1;
 
 // One entry per shard → Next emits /sitemap/[id].xml + an index at /sitemap.xml.
@@ -32,42 +19,13 @@ function entry(path: string, priority = 0.5): MetadataRoute.Sitemap[number] {
 }
 
 // CRITICAL (Next 16): `id` arrives as a Promise<string> from the metadata-route
-// loader. Must be `async` and `Number(await id)` — a synchronous `{id:number}`
-// makes every comparison fail and each shard emits an empty <urlset> (110 bytes).
+// loader. Must be `async` and awaited — a synchronous `{id:number}` breaks the shard.
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
-  const shard = Number(await id);
-  // Shard 0 — core marketing + auth + Swiss language-test hub/levels.
-  if (shard === 0) {
-    const core = ["", "/pricing", "/signup", "/login", "/exams", "/study-in-switzerland", "/work-in-switzerland", "/swiss-naturalisation-language"]
-      .map((p) => entry(p, p === "" ? 1 : 0.7));
-    const levels = ALL_EXAMS.map((e) => entry(`/exams/${e.slug}`, 0.8));
-    return [...core, ...levels];
-  }
+  void (await id); // Only shard 0 exists, but `id` must still be awaited (see above).
 
-  // Study shards: 1 .. STUDY_SHARDS
-  if (shard >= 1 && shard <= STUDY_SHARDS) {
-    const start = (shard - 1) * PER;
-    const end = Math.min(start + PER, TAUGHT_STUDY_TOTAL);
-    const out: MetadataRoute.Sitemap = [];
-    for (let i = start; i < end; i++) {
-      const c = taughtStudyComboAtIndex(i);
-      if (c) out.push(entry(studyPath(c.subject.slug, c.country.slug, c.university.slug)));
-    }
-    return out;
-  }
-
-  // Jobs shards: STUDY_SHARDS+1 .. STUDY_SHARDS+JOBS_SHARDS
-  const jobShard = shard - (STUDY_SHARDS + 1);
-  if (jobShard >= 0 && jobShard < JOBS_SHARDS) {
-    const start = jobShard * PER;
-    const end = Math.min(start + PER, JOBS_TOTAL);
-    const out: MetadataRoute.Sitemap = [];
-    for (let i = start; i < end; i++) {
-      const c = jobsComboAtIndex(i);
-      if (c) out.push(entry(jobsPath(c.role.slug, c.country.slug, c.hub.slug)));
-    }
-    return out;
-  }
-
-  return [];
+  // Shard 0 — core marketing + auth + exam hub/levels: the keep-set, all prerendered static pages.
+  const core = ["", "/pricing", "/signup", "/login", "/exams", "/study-in-switzerland", "/work-in-switzerland", "/swiss-naturalisation-language"]
+    .map((p) => entry(p, p === "" ? 1 : 0.7));
+  const levels = ALL_EXAMS.map((e) => entry(`/exams/${e.slug}`, 0.8));
+  return [...core, ...levels];
 }
