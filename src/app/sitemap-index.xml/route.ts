@@ -1,5 +1,3 @@
-import { JOBS_TOTAL } from "@/lib/seo/axes";
-import { TAUGHT_STUDY_TOTAL } from "@/lib/seo/taught-index";
 import { SITE_URL as SITE } from "@/lib/site";
 
 // Next 16's generateSitemaps does NOT emit a sitemap index — it only serves the
@@ -13,10 +11,9 @@ import { SITE_URL as SITE } from "@/lib/site";
 export const dynamic = "force-static";
 
 
-const PER = 50_000;
 const LASTMOD = "2026-07-10";
 // HOLDING 2026-08-09 — mirrors sitemap.ts, which is down to one keep-set shard.
-const TOTAL_SHARDS = 1;
+const TOTAL_SHARDS = 1; // COST FIX 2026-10-26: keep-set only — the study/jobs leaves answer 410 Gone.
 
 export function GET(): Response {
   const items = Array.from({ length: TOTAL_SHARDS }, (_, i) =>
