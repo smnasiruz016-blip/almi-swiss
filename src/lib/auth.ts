@@ -20,13 +20,11 @@ const SESSION_COOKIE_NAME = "almi_swiss_session";
  *  After that date this is dead code holding an ancestor noun in the repo, which is
  *  exactly what the fork-hygiene gate exists to stop. Delete it then; do not let it
  *  become permanent furniture. */
-const LEGACY_SESSION_COOKIE_NAMES = [
-  // The expiry is ENFORCED, not promised: the fork-hygiene gate's EXPIRING_ESCAPES
-  // registry carries this id and fails the build once 2026-08-16 passes. A plain
-  // `hygiene-allow` here would be honoured forever, which is why the registry
-  // outranks it.
-  "almi_norwegian_session", // hygiene-allow: legacy-cookie-almi_norwegian
-];
+//  REMOVED 2026-10-26: the one legacy name (inherited from the fork ancestor) expired
+//  on 2026-08-16 and the fork-hygiene gate's EXPIRING_ESCAPES entry failed every build
+//  after that date. The list is now empty; the loops below stay so a future rename can
+//  reuse the same read-both-write-one pattern.
+const LEGACY_SESSION_COOKIE_NAMES: string[] = [];
 
 const SESSION_DURATION_MS = 30 * 24 * 60 * 60 * 1000;
 

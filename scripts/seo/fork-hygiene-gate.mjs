@@ -99,8 +99,11 @@ const LINE_ESCAPE = "hygiene-allow";
 // occurrence and nothing else in the same file. Once the date passes, the gate FAILS.
 // Escapes are printed on every green run: a hole nobody is reminded of is a hole
 // nobody closes.
+// The legacy-cookie entry below expired on 2026-08-16. Its shim was removed from
+// src/lib/auth.ts on 2026-10-26, so the registry is empty again. The entry is kept
+// here as a commented record only.
 const EXPIRING_ESCAPES = [
-  {
+  /* {
     id: "legacy-cookie-almi_norwegian",
     file: "src/lib/auth.ts",
     term: "almi_norwegian_session",
@@ -114,7 +117,7 @@ const EXPIRING_ESCAPES = [
     // the 🔴 REMOVAL note in src/lib/auth.ts — deliberately identical so the two
     // cannot drift apart.
     expires: "2026-08-16",
-  },
+  }, */
 ];
 
 const escapeMarker = (id) => `hygiene-allow: ${id}`;
