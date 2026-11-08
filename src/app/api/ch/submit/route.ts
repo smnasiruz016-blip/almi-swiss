@@ -24,7 +24,8 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: false, error: "Invalid body" }, { status: 400 });
   }
 
-  const r = await gradeAttempt(body, user);
+  // RR-397: practice (not the mock) is open inside the free 48 hours, no card; productive answers here are self-rated, no AI.
+  const r = await gradeAttempt(body, user, { freeTime: true });
   if (!r.ok) {
     return NextResponse.json({ ok: false, error: r.error }, { status: r.status });
   }

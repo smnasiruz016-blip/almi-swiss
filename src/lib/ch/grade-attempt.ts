@@ -8,13 +8,15 @@
 // decided by WHICH ROUTE runs, not by any client flag.
 
 import { hasPaidAccess } from "@/lib/billing/plans";
+import { hasPracticeAccess } from "@/lib/billing/free-access";
+import type { TasteUser } from "@/lib/billing/taste";
 import { prisma } from "@/lib/prisma";
 import { gradeObjective } from "@/lib/ch/grading";
 import { getItemById } from "@/lib/ch/items";
 import { isObjectiveTask, isFreeSkill } from "@/lib/ch/types";
 import type { ObjectiveAnswer } from "@/lib/ch/types";
 
-type PaidUser = Parameters<typeof hasPaidAccess>[0] & { id: string };
+type PaidUser = Parameters<typeof hasPaidAccess>[0] & TasteUser & { id: string };
 
 export interface AttemptBody {
   itemId?: string;
@@ -34,7 +36,13 @@ export type GradeOutcome =
       correctAnswer: ObjectiveAnswer | null;
     };
 
-export async function gradeAttempt(body: AttemptBody, user: PaidUser): Promise<GradeOutcome> {
+/** RR-397: `opts.freeTime` lets a free account inside its 48 hours (no card) submit a productive answer for SELF-rating (no AI).
+ *  Only the practice route passes it; the full mock route does not, so the mock stays paid only. */
+export async function gradeAttempt(
+  body: AttemptBody,
+  user: PaidUser,
+  opts: { freeTime?: boolean } = {},
+): Promise<GradeOutcome> {
   const itemId = typeof body.itemId === "string" ? body.itemId : "";
   if (!itemId) return { ok: false, status: 400, error: "Missing itemId" };
 
@@ -45,7 +53,7 @@ export async function gradeAttempt(body: AttemptBody, user: PaidUser): Promise<G
   const productive = !objective || !isFreeSkill(item.skill);
 
   // Gate: productive / AI tasks require paid access (owner + comp bypass inside).
-  if (productive && !hasPaidAccess(user)) {
+  if (productive && !(opts.freeTime ? hasPracticeAccess(user) : hasPaidAccess(user))) {
     return { ok: false, status: 402, error: "Productive feedback is a Pro feature" };
   }
 
