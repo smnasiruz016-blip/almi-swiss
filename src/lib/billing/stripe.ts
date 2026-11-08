@@ -13,8 +13,8 @@ import { SITE_URL } from "@/lib/site";
 // It must equal the tag registered for THIS product via scripts/register-swiss.ps1.
 const ROUTER_PRODUCT_TAG = "almi-swiss";
 
-// RR-394: the trial length lives in ./offer (48 hours for NEW checkouts; running trials keep Stripe's own end date)
-import { TRIAL_PERIOD_DAYS } from "./offer";
+// RR-397: new checkouts get NO card trial (the free 48 hours start at sign-up, with no card: ./taste.ts); running trials keep Stripe's own end date
+import { trialForNewCheckout } from "./offer";
 
 let cachedClient: Stripe | null = null;
 
@@ -92,7 +92,7 @@ export async function createCheckoutSession(input: {
     customer: customerId,
     line_items: [{ price: input.priceId, quantity: 1 }],
     subscription_data: {
-      trial_period_days: TRIAL_PERIOD_DAYS,
+      ...trialForNewCheckout(), // RR-397: Stripe is told nothing about a trial; $12 is charged at checkout, then monthly
       metadata: { userId: input.userId, plan: planLabel, product: ROUTER_PRODUCT_TAG },
     },
     metadata: { userId: input.userId, plan: planLabel, product: ROUTER_PRODUCT_TAG },

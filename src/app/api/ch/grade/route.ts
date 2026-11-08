@@ -10,7 +10,7 @@
 
 import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
-import { hasPaidAccess } from "@/lib/billing/plans";
+import { aiGate } from "@/lib/billing/free-access";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
@@ -56,14 +56,6 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: false, error: "Not authenticated" }, { status: 401 });
   }
 
-  // Productive AI feedback is the paid value (owner + comp bypass live inside).
-  if (!hasPaidAccess(user)) {
-    return NextResponse.json(
-      { ok: false, error: "AI feedback is a Pro feature" },
-      { status: 402 },
-    );
-  }
-
   let body: GradeBody;
   try {
     body = (await req.json()) as GradeBody;
@@ -97,6 +89,19 @@ export async function POST(req: Request): Promise<NextResponse> {
     return NextResponse.json({ ok: false, error: "Unknown item" }, { status: 404 });
   }
 
+  // RR-397: paid users as before (owner + comp bypass live inside hasPaidAccess); a free account (48 hours, no card) gets ONE
+  // AI-scored Writing and ONE AI-scored Speaking, within today's free-AI budget. The kind comes from the SERVER-loaded item.
+  // "Used" = the AI scorings this account already RECEIVED, read from the cost ledger (a success row is written only after the
+  // model answered). SwissAttempt is not counted: its write fails by design (items are served from bundles, its item FK never resolves).
+  const kind = item.skill === "SPEAKING" ? "SPEAKING" : "WRITING";
+  const feature = kind === "SPEAKING" ? "ch.grade.productive.speaking" : "ch.grade.productive.writing";
+  const gate = await aiGate(user, kind, () =>
+    prisma.aICostLedger.count({
+      where: { userId: user.id, success: true, feature: { in: [feature, "ch.grade.productive"] } },
+    }),
+  );
+  if (!gate.ok) return NextResponse.json(gate.body, { status: gate.status });
+
   // ONE assembly, in src/lib/ch/productive-prompt.ts, imported by BOTH this route and
   // the metered harness. It used to be inline here; a harness that rebuilt it would be
   // proving a grader that does not ship — the two copies would agree on the day they
@@ -118,7 +123,7 @@ export async function POST(req: Request): Promise<NextResponse> {
 
     await recordCost({
       userId: user.id,
-      feature: "ch.grade.productive",
+      feature, // RR-397: per kind (writing / speaking), so the free 1-of-each rule can count it
       model: MODELS.SONNET,
       usage: {
         inputTokens: msg.usage.input_tokens,
@@ -134,7 +139,7 @@ export async function POST(req: Request): Promise<NextResponse> {
   } catch (e) {
     await recordCost({
       userId: user.id,
-      feature: "ch.grade.productive",
+      feature, // RR-397: per kind (writing / speaking), so the free 1-of-each rule can count it
       model: MODELS.SONNET,
       usage: { inputTokens: 0, outputTokens: 0 },
       success: false,
