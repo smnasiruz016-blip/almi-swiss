@@ -282,9 +282,9 @@ function stableShuffle<T>(arr: T[], seed: number): T[] {
  *
  * ── WHY A TIMESTAMP, AND NOT AN ID ──
  * There is no per-run identifier to key on. SwissSession exists in the schema but no
- * code reads or writes it, and SwissAttempt.itemId is a required FK to SwissItem — a
- * table nothing populates, because items are served from JSON bundles and have no DB
- * id at all. The AUTH session id would be stable for its full 30-day life, which
+ * code reads or writes it, and items are served from JSON bundles and have no DB id at
+ * all (SwissItem is never filled; since RR-399 SwissAttempt.itemId is a plain string, not
+ * a key to it, so attempts save, but nothing reads them to plan a run). The AUTH session id would be stable for its full 30-day life, which
  * would freeze one learner's eight items for a month: variety between users, none for
  * the user. So the seed is per-request, mixed with the user id so two learners
  * starting in the same millisecond still diverge.

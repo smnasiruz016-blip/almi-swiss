@@ -11,6 +11,7 @@
 import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
 import { aiGate } from "@/lib/billing/free-access";
+import { aiFeatureFor, countAiScored } from "@/lib/ch/free-ai-used";
 import { prisma } from "@/lib/prisma";
 import { getAnthropicClient, recordCost } from "@/lib/ai/anthropic-client";
 import { MODELS } from "@/lib/ai/models";
@@ -92,14 +93,11 @@ export async function POST(req: Request): Promise<NextResponse> {
   // RR-397: paid users as before (owner + comp bypass live inside hasPaidAccess); a free account (48 hours, no card) gets ONE
   // AI-scored Writing and ONE AI-scored Speaking, within today's free-AI budget. The kind comes from the SERVER-loaded item.
   // "Used" = the AI scorings this account already RECEIVED, read from the cost ledger (a success row is written only after the
-  // model answered). SwissAttempt is not counted: its write fails by design (items are served from bundles, its item FK never resolves).
+  // model answered). RR-399: the ledger count stays (it is correct and simple); the real guard against two requests at once is the
+  // atomic FreeAiUse claim inside aiGate().
   const kind = item.skill === "SPEAKING" ? "SPEAKING" : "WRITING";
-  const feature = kind === "SPEAKING" ? "ch.grade.productive.speaking" : "ch.grade.productive.writing";
-  const gate = await aiGate(user, kind, () =>
-    prisma.aICostLedger.count({
-      where: { userId: user.id, success: true, feature: { in: [feature, "ch.grade.productive"] } },
-    }),
-  );
+  const feature = aiFeatureFor(kind);
+  const gate = await aiGate(user, kind, () => countAiScored(user.id, kind));
   if (!gate.ok) return NextResponse.json(gate.body, { status: gate.status });
 
   // ONE assembly, in src/lib/ch/productive-prompt.ts, imported by BOTH this route and
@@ -145,15 +143,18 @@ export async function POST(req: Request): Promise<NextResponse> {
       success: false,
       errorMessage: e instanceof Error ? e.message : String(e),
     });
+    // RR-399 A3: the learner received nothing, so the free use is given back.
+    await gate.release();
     // Fall back to self-rating rather than 500 on a transient model error.
     return NextResponse.json({ ok: true, available: false });
   }
 
   if (!feedback) {
+    await gate.release(); // RR-399 A3: no usable feedback, so the free use is given back
     return NextResponse.json({ ok: true, available: false });
   }
 
-  // Best-effort persistence. Uses the VALIDATED id, not the raw body field: by this
+  // Persistence (RR-399 A1: SwissAttempt.itemId is a plain string now, so this write saves). Uses the VALIDATED id, not the raw body field: by this
   // point itemId has resolved to a real served item, so the attempt row cannot record
   // an id the bank does not have.
   {
@@ -169,8 +170,9 @@ export async function POST(req: Request): Promise<NextResponse> {
           submittedAt: new Date(),
         },
       });
-    } catch {
-      // ignore — attempts are optional this pass
+    } catch (e) {
+      // RR-399 A1: the learner still gets the feedback if the database fails, but the failure is logged loudly, never swallowed.
+      console.error("[ch/grade] SwissAttempt insert FAILED: the learner's history did not save", e);
     }
   }
 
