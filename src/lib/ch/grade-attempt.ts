@@ -88,8 +88,10 @@ export async function gradeAttempt(
         submittedAt: new Date(),
       },
     });
-  } catch {
-    // attempts are optional this pass
+  } catch (e) {
+    // RR-399 A1: the attempt now saves (no foreign key to the empty item table). The learner keeps the result if the database
+    // fails, but the failure is logged loudly, never swallowed.
+    console.error("[ch/attempt] SwissAttempt insert FAILED: the learner's history did not save", e);
   }
 
   return {
