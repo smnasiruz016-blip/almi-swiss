@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s · AlmiSwiss",
   },
   description:
-    "Switzerland asks B1 spoken and A2 written for naturalisation — a federal minimum, not the answer, because your canton and commune decide. Practise fide in German or French with honest per-skill readiness bands. $12/month with a 7-day free trial. Original material, never copied. Not affiliated with SEM — confirm your requirement with your cantonal migration authority. Part of the AlmiWorld family.",
+    "Switzerland asks B1 spoken and A2 written for naturalisation — a federal minimum, not the answer, because your canton and commune decide. Practise fide in German or French with honest per-skill readiness bands. Try free for 48 hours, then $12/month. Original material, never copied. Not affiliated with SEM — confirm your requirement with your cantonal migration authority. Part of the AlmiWorld family.",
   applicationName: "AlmiSwiss",
   authors: [{ name: "AlmiWorld" }],
   // Keywords reflect what people actually search when they are trying to work this
